@@ -8,6 +8,7 @@ A curated list of resources for security and privacy issues in deep learning sys
 - [Poisoning Attack](#poisoning-attack)
 - [Extraction Attack](#extraction-attack)
 - [Inversion Attack](#inversion-attack)
+- [Common Robustness](#common-robustness)
 
 ## Evasion Attack
 
@@ -283,3 +284,5 @@ A curated list of resources for security and privacy issues in deep learning sys
 ## Extraction Attack
 
 ## Inversion Attack
+
+## Common Robustness
