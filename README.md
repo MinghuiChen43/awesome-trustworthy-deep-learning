@@ -339,7 +339,19 @@ A curated list of resources for security and privacy issues in deep learning sys
   - Yunfei Liu, Xingjun Ma, James Bailey, Feng Lu. *ECCV 2020*
   - Digest: In this paper, we present a new type of backdoor attack inspired by an important natural phenomenon: reflection. Using mathematical modeling of physical reflection models, we propose reflection backdoor (Refool) to plant reflections as backdoor into a victim model.  
 
+### 2017
+
+- BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. [[paper]](https://arxiv.org/abs/1708.06733)
+  - Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg.
+  - Digest:  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.  
+
 ## Extraction Attack
+
+### 2017
+
+- Towards Reverse-Engineering Black-Box Neural Networks. [[paper]](https://arxiv.org/abs/1711.01768) [[code]](https://github.com/coallaoh/WhitenBlackBox)
+  - Seong Joon Oh, Max Augustin, Bernt Schiele, Mario Fritz. *ICLR 2018*
+  - Digest: This work shows that such attributes of neural networks can be exposed from a sequence of queries. This has multiple implications. On the one hand, our work exposes the vulnerability of black-box neural networks to different types of attacks -- we show that the revealed internal information helps generate more effective adversarial examples against the black box model.  
 
 ## Inversion Attack
 
@@ -362,3 +374,11 @@ A curated list of resources for security and privacy issues in deep learning sys
 - Deep Leakage from Gradients. [[paper]](https://arxiv.org/abs/1906.08935) [[code]](https://github.com/mit-han-lab/dlg)
   - Ligeng Zhu, Zhijian Liu, Song Han. *NeurIPS 2019*
   - Digest: We show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks.  
+
+## Others
+
+### 2019
+
+- Rethinking Deep Neural Network Ownership Verification: Embedding Passports to Defeat Ambiguity Attacks. [[paper]](https://arxiv.org/abs/1909.07830) [[code]](https://github.com/kamwoh/DeepIPR)
+  - Lixin Fan, Kam Woh Ng, Chee Seng Chan. *NeurIPS 2019*
+  - Digest: This work proposes novel passport-based DNN ownership verification schemes which are both robust to network modifications and resilient to ambiguity attacks. The gist of embedding digital passports is to design and train DNN models in a way such that, the DNN model performance of an original task will be significantly deteriorated due to forged passports.  
