@@ -1,6 +1,6 @@
 # Awesome Trustworthy Deep Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy. The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization. adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
+The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy. The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
 
 ## Table of Contents
 
