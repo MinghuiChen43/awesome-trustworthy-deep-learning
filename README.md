@@ -1,13 +1,14 @@
-# Awesome security and privacy issues in deep learning system. [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Trustworthy Deep Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources for security and privacy issues in deep learning system.
+A curated list of trustworthy deep learning papers.
 
 ## Table of Contents
 
 - [Common Robustness](#common-robustness)
-- [Evasion Attack](#evasion-attack)
-- [Poisoning Attack](#poisoning-attack)
-- [Inversion Attack](#inversion-attack)
+- [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
+- [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
+- [Privacy](#privacy)
+- [Fairness](#fairness)
 - [Others](#others)
 
 ## Common Robustness
@@ -90,7 +91,7 @@ A curated list of resources for security and privacy issues in deep learning sys
   - Aharon Azulay, Yair Weiss. *JMLR 2019*
   - Digest: In this paper, we quantify this phenomena and ask why neither the convolutional architecture nor data augmentation are sufficient to achieve the desired invariance. Specifically, we show that the convolutional architecture does not give invariance since architectures ignore the classical sampling theorem, and data augmentation does not give invariance because the CNNs learn to be invariant to transformations only for images that are very similar to typical images from the training set.  
 
-## Evasion Attack
+## Evasion Attacks and Defenses
 
 ### 2020
 
@@ -335,7 +336,7 @@ A curated list of resources for security and privacy issues in deep learning sys
   - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, Ananthram Swami. *AsiaCCS 2017*
   - Digest: We introduce the first practical demonstration of an attacker controlling a remotely hosted DNN with no such knowledge. Our attack evades a category of defenses, which we call gradient masking, previously proposed to increase resilience to adversarial examples.  
 
-## Poisoning Attack
+## Poisoning Attacks and Defenses
 
 ### 2020
 
@@ -349,9 +350,13 @@ A curated list of resources for security and privacy issues in deep learning sys
   - Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg.
   - Digest:  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.  
 
-## Inversion Attack
+## Privacy
 
 ### 2020
+
+- Descent-to-Delete: Gradient-Based Methods for Machine Unlearning. [[paper]](https://arxiv.org/abs/2007.02923)
+  - Seth Neel, Aaron Roth, Saeed Sharifi-Malvajerdi.
+  - Digest: We study the data deletion problem for convex models. By leveraging techniques from convex optimization and reservoir sampling, we give the first data deletion algorithms that are able to handle an arbitrarily long sequence of adversarial updates while promising both per-deletion run-time and steady-state error that do not grow with the length of the update sequence.  
 
 - When Machine Unlearning Jeopardizes Privacy. [[paper]](https://arxiv.org/abs/2005.02205)
   - Min Chen, Zhikun Zhang, Tianhao Wang, Michael Backes, Mathias Humbert, Yang Zhang.
@@ -371,20 +376,6 @@ A curated list of resources for security and privacy issues in deep learning sys
 
 ### 2019
 
-- Deep Leakage from Gradients. [[paper]](https://arxiv.org/abs/1906.08935) [[code]](https://github.com/mit-han-lab/dlg)
-  - Ligeng Zhu, Zhijian Liu, Song Han. *NeurIPS 2019*
-  - Digest: We show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks.  
-
-## Others
-
-### 2020
-
-- Descent-to-Delete: Gradient-Based Methods for Machine Unlearning. [[paper]](https://arxiv.org/abs/2007.02923)
-  - Seth Neel, Aaron Roth, Saeed Sharifi-Malvajerdi.
-  - Digest: We study the data deletion problem for convex models. By leveraging techniques from convex optimization and reservoir sampling, we give the first data deletion algorithms that are able to handle an arbitrarily long sequence of adversarial updates while promising both per-deletion run-time and steady-state error that do not grow with the length of the update sequence.  
-
-### 2019
-
 - Machine Unlearning. [[paper]](https://arxiv.org/abs/1912.03817) [[code]](https://github.com/cleverhans-lab/machine-unlearning)
   - Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia, Adelin Travers, Baiwu Zhang, David Lie, Nicolas Papernot.
   - Digest:  We introduce SISA training, a framework that expedites the unlearning process by strategically limiting the influence of a data point in the training procedure. While our framework is applicable to any learning algorithm, it is designed to achieve the largest improvements for stateful algorithms like stochastic gradient descent for deep neural networks.  
@@ -392,6 +383,16 @@ A curated list of resources for security and privacy issues in deep learning sys
 - Eternal Sunshine of the Spotless Net: Selective Forgetting in Deep Networks. [[paper]](https://arxiv.org/abs/1911.04933)
   - Aditya Golatkar, Alessandro Achille, Stefano Soatto. *CVPR 2020*
   - Digest: We propose a method for "scrubbing'" the weights clean of information about a particular set of training data. The method does not require retraining from scratch, nor access to the data originally used for training. Instead, the weights are modified so that any probing function of the weights is indistinguishable from the same function applied to the weights of a network trained without the data to be forgotten.  
+
+- Deep Leakage from Gradients. [[paper]](https://arxiv.org/abs/1906.08935) [[code]](https://github.com/mit-han-lab/dlg)
+  - Ligeng Zhu, Zhijian Liu, Song Han. *NeurIPS 2019*
+  - Digest: We show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks.  
+
+## Fairness
+
+## Others
+
+### 2019
 
 - Rethinking Deep Neural Network Ownership Verification: Embedding Passports to Defeat Ambiguity Attacks. [[paper]](https://arxiv.org/abs/1909.07830) [[code]](https://github.com/kamwoh/DeepIPR)
   - Lixin Fan, Kam Woh Ng, Chee Seng Chan. *NeurIPS 2019*
