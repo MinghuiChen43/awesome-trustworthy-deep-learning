@@ -95,6 +95,10 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### 2020
 
+- Adversarial Training Reduces Information and Improves Transferability. [[paper]](https://arxiv.org/abs/2007.11259)
+  - Matteo Terzi, Alessandro Achille, Marco Maggipinto, Gian Antonio Susto.
+  - Digest: We investigate the dual relationship between Adversarial Training and Information Theory. We show that the Adversarial Training can improve linear transferability to new tasks, from which arises a new trade-off between transferability of representations and accuracy on the source task.  
+
 - Understanding and Diagnosing Vulnerability under Adversarial Attacks. [[paper]](https://arxiv.org/abs/2007.08716)
   - Haizhong Zheng, Ziqi Zhang, Honglak Lee, Atul Prakash.
   - Digest: In this work, we propose a novel interpretability method, InterpretGAN, to generate explanations for features used for classification in latent variables. Interpreting the classification process of adversarial examples exposes how adversarial perturbations influence features layer by layer as well as which features are modified by perturbations.  
