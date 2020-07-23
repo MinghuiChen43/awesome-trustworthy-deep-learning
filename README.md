@@ -398,6 +398,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Fairness
 
+### 2019
+
+- Training individually fair ML models with Sensitive Subspace Robustness. [[paper]](https://arxiv.org/abs/1907.00020) [[code]](https://github.com/IBM/sensitive-subspace-robustness)
+  - Mikhail Yurochkin, Amanda Bower, Yuekai Sun. *ICLR 2020*
+  - Digest: We consider training machine learning models that are fair in the sense that their performance is invariant under certain sensitive perturbations to the inputs. For example, the performance of a resume screening system should be invariant under changes to the gender and/or ethnicity of the applicant. We formalize this notion of algorithmic fairness as a variant of individual fairness and develop a distributionally robust optimization approach to enforce it during training.  
+
 ## Others
 
 ### 2019
