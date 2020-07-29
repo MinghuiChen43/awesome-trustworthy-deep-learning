@@ -4,14 +4,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Table of Contents
 
-- [Common Robustness](#common-robustness)
+- [Domain Generalization](#domain-generalization)
 - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
 - [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
 - [Privacy](#privacy)
 - [Fairness](#fairness)
+- [Uncertainty](#uncertainty)
 - [Others](#others)
 
-## Common Robustness
+## Domain Generalization
 
 ### 2020
 
@@ -403,6 +404,8 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Training individually fair ML models with Sensitive Subspace Robustness. [[paper]](https://arxiv.org/abs/1907.00020) [[code]](https://github.com/IBM/sensitive-subspace-robustness)
   - Mikhail Yurochkin, Amanda Bower, Yuekai Sun. *ICLR 2020*
   - Digest: We consider training machine learning models that are fair in the sense that their performance is invariant under certain sensitive perturbations to the inputs. For example, the performance of a resume screening system should be invariant under changes to the gender and/or ethnicity of the applicant. We formalize this notion of algorithmic fairness as a variant of individual fairness and develop a distributionally robust optimization approach to enforce it during training.  
+
+## Uncertainty
 
 ## Others
 
