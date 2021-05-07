@@ -7,6 +7,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Domain Generalization](#domain-generalization)
 - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
 - [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
+- [Attributional Robustness](#attributional-robustness)
 - [Privacy](#privacy)
 - [Fairness](#fairness)
 - [Uncertainty](#uncertainty)
@@ -362,6 +363,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. [[paper]](https://arxiv.org/abs/1708.06733)
   - Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg.
   - Digest:  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.  
+
+
+## Attributional Robustness
+
+### 2019
+
+- Attributional Robustness Training using Input-Gradient Spatial Alignment. [[paper]](https://arxiv.org/abs/1911.13073) [[code]](https://github.com/nupurkmr9/Attributional-Robustness)
+  - Mayank Singh, Nupur Kumari, Puneet Mangla, Abhishek Sinha, Vineeth N Balasubramanian, Balaji Krishnamurthy. *ECCV 2020*
+  - Digest: In this work, we study the problem of attributional robustness (i.e. models having robust explanations) by showing an upper bound for attributional vulnerability in terms of spatial correlation between the input image and its explanation map. We propose a training methodology that learns robust features by minimizing this upper bound using soft-margin triplet loss.  
+
 
 ## Privacy
 
