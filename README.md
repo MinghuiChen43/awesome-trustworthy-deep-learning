@@ -7,7 +7,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Domain Generalization](#domain-generalization)
 - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
 - [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
-- [Attributional Robustness](#attributional-robustness)
+- [Interpretability](#interpretability)
 - [Privacy](#privacy)
 - [Fairness](#fairness)
 - [Uncertainty](#uncertainty)
