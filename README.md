@@ -365,7 +365,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Digest:  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.  
 
 
-## Attributional Robustness
+## Interpretability
 
 ### 2019
 
