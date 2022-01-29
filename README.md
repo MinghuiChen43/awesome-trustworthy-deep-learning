@@ -4,7 +4,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Table of Contents
 
-- [Domain Generalization](#domain-generalization)
+- [Out-of-Distribution Generalization](#out-of-distribution-generalization)
 - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
 - [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
 - [Interpretability](#interpretability)
@@ -13,7 +13,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Uncertainty](#uncertainty)
 - [Others](#others)
 
-## Domain Generalization
+## Out-of-Distribution Generalization
 
 ### 2020
 
