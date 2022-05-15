@@ -397,18 +397,212 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Interpretability
 
+<<<<<<< HEAD
+
 ### Interpretability: 2020
 
 - Understanding and Diagnosing Vulnerability under Adversarial Attacks. [[paper]](https://arxiv.org/abs/2007.08716)
   - Haizhong Zheng, Ziqi Zhang, Honglak Lee, Atul Prakash.
   - Key Word: Generative Adversarial Nets; Adversarial Attacks.
   - Digest: In this work, we propose a novel interpretability method, InterpretGAN, to generate explanations for features used for classification in latent variables. Interpreting the classification process of adversarial examples exposes how adversarial perturbations influence features layer by layer as well as which features are modified by perturbations.  
+=======
+
+## Interpretability
+
+### 2020
+
+- Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs. [[paper]](https://arxiv.org/abs/2008.02312) [[code]](https://github.com/Fu0511/XGrad-CAM)
+  - Ruigang Fu, Qingyong Hu, Xiaohu Dong, Yulan Guo, Yinghui Gao, Biao Li. *BMVC 2020*
+  - Digest:  In this paper, we introduce two axioms -- Conservation and Sensitivity -- to the visualization paradigm of the CAM methods. Meanwhile, a dedicated Axiom-based Grad-CAM (XGrad-CAM) is proposed to satisfy these axioms as much as possible.  
+
+- Neural Additive Models: Interpretable Machine Learning with Neural Nets. [[paper]](https://arxiv.org/abs/2004.13912) [[code]](https://github.com/propublica/compas-analysis)
+  - Rishabh Agarwal, Nicholas Frosst, Xuezhou Zhang, Rich Caruana, Geoffrey E. Hinton.
+  - Digest: We propose Neural Additive Models (NAMs) which combine some of the expressivity of DNNs with the inherent intelligibility of generalized additive models. NAMs learn a linear combination of neural networks that each attend to a single input feature.  
+
+- Restricting the Flow: Information Bottlenecks for Attribution. [[paper]](https://arxiv.org/abs/2001.00396) [[code]](https://github.com/BioroboticsLab/IBA)
+  - Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf. *ICLR 2020*
+  - Digest: By adding noise to intermediate feature maps we restrict the flow of information and can quantify (in bits) how much information image regions provide. We compare our method against ten baselines using three different metrics on VGG-16 and ResNet-50, and find that our methods outperform all baselines in five out of six settings.  
+
+>>>>>>> 3066f6aa514f4aaf62be1d28b224f3d680bc665d
 
 ### Interpretability: 2019
 
 - Attributional Robustness Training using Input-Gradient Spatial Alignment. [[paper]](https://arxiv.org/abs/1911.13073) [[code]](https://github.com/nupurkmr9/Attributional-Robustness)
   - Mayank Singh, Nupur Kumari, Puneet Mangla, Abhishek Sinha, Vineeth N Balasubramanian, Balaji Krishnamurthy. *ECCV 2020*
   - Digest: In this work, we study the problem of attributional robustness (i.e. models having robust explanations) by showing an upper bound for attributional vulnerability in terms of spatial correlation between the input image and its explanation map. We propose a training methodology that learns robust features by minimizing this upper bound using soft-margin triplet loss.  
+
+<<<<<<< HEAD
+=======
+
+- Explaining Classifiers with Causal Concept Effect (CaCE). [[paper]](https://arxiv.org/abs/1907.07165)
+  - Yash Goyal, Amir Feder, Uri Shalit, Been Kim.
+  - Digest: We define the Causal Concept Effect (CaCE) as the causal effect of (the presence or absence of) a human-interpretable concept on a deep neural net's predictions. We show that the CaCE measure can avoid errors stemming from confounding.
+
+- ML-LOO: Detecting Adversarial Examples with Feature Attribution. [[paper]](https://arxiv.org/abs/1906.03499)
+  - Puyudi Yang, Jianbo Chen, Cho-Jui Hsieh, Jane-Ling Wang, Michael I. Jordan.
+  - Digest: We observe a significant difference in feature attributions of adversarially crafted examples from those of original ones. Based on this observation, we introduce a new framework to detect adversarial examples through thresholding a scale estimate of feature attribution scores. Furthermore, we extend our method to include multi-layer feature attributions in order to tackle the attacks with mixed confidence levels.  
+
+- Counterfactual Visual Explanations. [[paper]](https://arxiv.org/abs/1904.07451)
+  - Yash Goyal, Ziyan Wu, Jan Ernst, Dhruv Batra, Devi Parikh, Stefan Lee. *ICML 2019*
+  - Digest: To explore the effectiveness of our explanations in teaching humans, we present machine teaching experiments for the task of fine-grained bird classification. We find that users trained to distinguish bird species fare better when given access to counterfactual explanations in addition to training examples.  
+
+- Interpreting Black Box Models via Hypothesis Testing. [[paper]](https://arxiv.org/abs/1904.00045) [[code]](https://github.com/collin-burns/interpretability-hypothesis-testing)
+  - Collin Burns, Jesse Thomason, Wesley Tansey.
+  - Digest: We propose two testing methods: one that provably controls the false discovery rate but which is not yet feasible for large-scale applications, and an approximate testing method which can be applied to real-world data sets. In simulation, both tests have high power relative to existing interpretability methods.  
+
+- Explaining Deep Neural Networks with a Polynomial Time Algorithm for Shapley Values Approximation. [[paper]](https://arxiv.org/abs/1903.10992)
+  - Marco Ancona, Cengiz Öztireli, Markus Gross. *ICML 2019*
+  - Digest: In this work, by leveraging recent results on uncertainty propagation, we propose a novel, polynomial-time approximation of Shapley values in deep neural networks. We show that our method produces significantly better approximations of Shapley values than existing state-of-the-art attribution methods.  
+
+- Unmasking Clever Hans Predictors and Assessing What Machines Really Learn. [[paper]](https://arxiv.org/abs/1902.10178)
+  - Sebastian Lapuschkin, Stephan Wäldchen, Alexander Binder, Grégoire Montavon, Wojciech Samek, Klaus-Robert Müller. *Nature Communications*
+  - Digest: Here we apply recent techniques for explaining decisions of state-of-the-art learning machines and analyze various tasks from computer vision and arcade games. This showcases a spectrum of problem-solving behaviors ranging from naive and short-sighted, to well-informed and strategic.  
+
+- Towards Automatic Concept-based Explanations. [[paper]](https://arxiv.org/abs/1902.03129) [[code]](https://github.com/amiratag/ACE)
+  - Amirata Ghorbani, James Wexler, James Zou, Been Kim. *NeurIPS 2019*
+  - Digest: In this work, we propose principles and desiderata for concept based explanation, which goes beyond per-sample features to identify higher-level human-understandable concepts that apply across the entire dataset.
+
+- Global Explanations of Neural Networks: Mapping the Landscape of Predictions. [[paper]](https://arxiv.org/abs/1902.02384) [[code]](https://github.com/capitalone/global-attribution-mapping)
+  - Mark Ibrahim, Melissa Louie, Ceena Modarres, John Paisley. *ACM/AAAI AIES 2019*
+  - Digest: In response, we present an approach for generating global attributions called GAM, which explains the landscape of neural network predictions across subpopulations. GAM augments global explanations with the proportion of samples that each attribution best explains and specifies which samples are described by each attribution.  
+
+### 2018
+
+- Fooling Network Interpretation in Image Classification. [[paper]](https://arxiv.org/abs/1812.02843)
+  - Akshayvarun Subramanya, Vipin Pillai, Hamed Pirsiavash. *ICCV 2019*
+  - Digest: We show that it is possible to create adversarial patches which not only fool the prediction, but also change what we interpret regarding the cause of the prediction.  
+
+- Explaining Deep Learning Models - A Bayesian Non-parametric Approach. [[paper]](https://arxiv.org/abs/1811.03422) [[cdoe]](https://github.com/Henrygwb/Explaining-DL)
+  - Wenbo Guo, Sui Huang, Yunzhe Tao, Xinyu Xing, Lin Lin. *NeurIPS 2018*
+  - Digest: In this work, we propose a novel technical approach that augments a Bayesian non-parametric regression mixture model with multiple elastic nets. Using the enhanced mixture model, we can extract generalizable insights for a target model through a global approximation.  
+
+- This Looks Like That: Deep Learning for Interpretable Image Recognition. [[paper]](https://arxiv.org/abs/1806.10574) [[code]](https://github.com/cfchen-duke/ProtoPNet)
+  - Chaofan Chen, Oscar Li, Chaofan Tao, Alina Jade Barnett, Jonathan Su, Cynthia Rudin. *NeurIPS 2019*
+  - Digest: In this work, we introduce a deep network architecture -- prototypical part network (ProtoPNet), that reasons in a similar way: the network dissects the image by finding prototypical parts, and combines evidence from the prototypes to make a final classification.  
+
+- RISE: Randomized Input Sampling for Explanation of Black-box Models. [[paper]](https://arxiv.org/abs/1806.07421) [[code]](http://cs-people.bu.edu/vpetsiuk/rise/)
+  - Vitali Petsiuk, Abir Das, Kate Saenko. *BMVC 2018*
+  - Digest: In this paper, we address the problem of Explainable AI for deep neural networks that take images as input and output a class probability. We propose an approach called RISE that generates an importance map indicating how salient each pixel is for the model's prediction.  
+
+- LEMNA: Explaining Deep Learning based Security Applications. [[paper]](http://xinyuxing.org/pub/ccs18.pdf)
+  - Wenbo Guo, Dongliang Mu, Jun Xu, Purui Su, Gang Wang, Xinyu Xing. *CCS 2018*
+  - Digest: In this paper, we propose LEMNA, a high-fidelity explanation method dedicated for security applications. Given an input data sample, LEMNA generates a small set of interpretable features to explain how the input sample is classified. The core idea is to approximate a local area of the complex deep learning decision boundary using a simple interpretable model.  
+
+### 2017
+
+- Beyond saliency: understanding convolutional neural networks from saliency prediction on layer-wise relevance propagation. [[paper]](https://arxiv.org/abs/1712.08268) [[code]](https://github.com/Hey1Li/Salient-Relevance-Propagation)
+  - Heyi Li, Yunke Tian, Klaus Mueller, Xin Chen. *IVC 2019*
+  - Digest: Our proposed method starts out with a layer-wise relevance propagation (LRP) step which estimates a pixel-wise relevance map over the input image. Following, we construct a context-aware saliency map, SR map, from the LRP-generated map which predicts areas close to the foci of attention instead of isolated pixels that LRP reveals.  
+
+- Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV). [[paper]](https://arxiv.org/abs/1711.11279)
+  - Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres. *ICML 2018*
+  - Digest: We introduce Concept Activation Vectors (CAVs), which provide an interpretation of a neural net's internal state in terms of human-friendly concepts. The key idea is to view the high-dimensional internal state of a neural net as an aid, not an obstacle.  
+
+- Towards better understanding of gradient-based attribution methods for Deep Neural Networks. [[paper]](https://arxiv.org/abs/1711.06104)
+  - Marco Ancona, Enea Ceolini, Cengiz Öztireli, Markus Gross. *ICLR 2018*
+  - Digest: In this work, we analyze four gradient-based attribution methods and formally prove conditions of equivalence and approximation between them. By reformulating two of these methods, we construct a unified framework which enables a direct comparison, as well as an easier implementation.  
+
+- Grad-CAM++: Improved Visual Explanations for Deep Convolutional Networks. [[paper]](https://arxiv.org/abs/1710.11063) [[code]](https://github.com/adityac94/Grad_CAM_plus_plus)
+  - Aditya Chattopadhyay, Anirban Sarkar, Prantik Howlader, Vineeth N Balasubramanian. *WACV 2018*
+  - Digest: Building on a recently proposed method called Grad-CAM, we propose a generalized method called Grad-CAM++ that can provide better visual explanations of CNN model predictions, in terms of better object localization as well as explaining occurrences of multiple object instances in a single image, when compared to state-of-the-art.  
+
+- Interpretation of Neural Networks is Fragile. [[paper]](https://arxiv.org/abs/1710.10547)
+  - Amirata Ghorbani, Abubakar Abid, James Zou. *AAAI 2019*
+  - Digest: In this paper, we show that interpretation of deep learning predictions is extremely fragile in the following sense: two perceptively indistinguishable inputs with the same predicted label can be assigned very different interpretations.  
+
+- SmoothGrad: removing noise by adding noise. [[paper]](https://arxiv.org/abs/1706.03825) [[code]](https://github.com/hs2k/pytorch-smoothgrad)
+  - Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Viégas, Martin Wattenberg.
+  - Digest:  This paper makes two contributions: it introduces SmoothGrad, a simple method that can help visually sharpen gradient-based sensitivity maps, and it discusses lessons in the visualization of these maps.  
+
+- A Unified Approach to Interpreting Model Predictions. [[paper]](https://arxiv.org/abs/1705.07874) [[code]](https://github.com/slundberg/shap)
+  - Scott Lundberg, Su-In Lee. *NeurIPS 2017*
+  - Digest: To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction.  
+
+- Real Time Image Saliency for Black Box Classifiers. [[paper]](https://arxiv.org/abs/1705.07857)
+  - Piotr Dabkowski, Yarin Gal. *NeurIPS 2017*
+  - Digest: In this work we develop a fast saliency detection method that can be applied to any differentiable image classifier. We train a masking model to manipulate the scores of the classifier by masking salient parts of the input image.  
+
+- Network Dissection: Quantifying Interpretability of Deep Visual Representations. [[paper]](https://arxiv.org/abs/1704.05796) [[code]](http://netdissect.csail.mit.edu/)
+  - David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, Antonio Torralba. *CVPR 2017*
+  - Digest: We propose a general framework called Network Dissection for quantifying the interpretability of latent representations of CNNs by evaluating the alignment between individual hidden units and a set of semantic concepts. Given any CNN model, the proposed method draws on a broad data set of visual concepts to score the semantics of hidden units at each intermediate convolutional layer.  
+
+- Learning how to explain neural networks: PatternNet and PatternAttribution. [[paper]](https://arxiv.org/abs/1705.05598)
+  - Pieter-Jan Kindermans, Kristof T. Schütt, Maximilian Alber, Klaus-Robert Müller, Dumitru Erhan, Been Kim, Sven Dähne. *ICLR 2018*
+  - Digest: DeConvNet, Guided BackProp, LRP, were invented to better understand deep neural networks. Based on our analysis of linear models we propose a generalization that yields two explanation techniques (PatternNet and PatternAttribution) that are theoretically sound for linear models and produce improved explanations for deep networks.  
+
+- Interpretable Explanations of Black Boxes by Meaningful Perturbation. [[paper]](https://arxiv.org/abs/1704.03296)
+  - Ruth Fong, Andrea Vedaldi. *ICCV 2017*
+  - Digest: In this paper, we make two main contributions: First, we propose a general framework for learning different kinds of explanations for any black box algorithm. Second, we specialise the framework to find the part of an image most responsible for a classifier decision.  
+
+- Learning Important Features Through Propagating Activation Differences. [[paper]](https://arxiv.org/abs/1704.02685) [[code]](https://github.com/kundajelab/deeplift)
+  - Avanti Shrikumar, Peyton Greenside, Anshul Kundaje. *ICML 2017*
+  - Digest: Here we present DeepLIFT (Deep Learning Important FeaTures), a method for decomposing the output prediction of a neural network on a specific input by backpropagating the contributions of all neurons in the network to every feature of the input. DeepLIFT compares the activation of each neuron to its 'reference activation' and assigns contribution scores according to the difference.  
+
+- Visualizing Deep Neural Network Decisions: Prediction Difference Analysis. [[paper]](https://arxiv.org/abs/1702.04595) [[code]](https://github.com/lmzintgraf/DeepVis-PredDiff)
+  - Luisa M Zintgraf, Taco S Cohen, Tameem Adel, Max Welling. *ICLR 2017*
+  - Digest: This article presents the prediction difference analysis method for visualizing the response of a deep neural network to a specific input. When classifying images, the method highlights areas in a given input image that provide evidence for or against a certain class. It overcomes several shortcoming of previous methods and provides great additional insight into the decision making process of classifiers.  
+
+- Axiomatic Attribution for Deep Networks. [[paper]](https://arxiv.org/abs/1703.01365) [[code]](https://github.com/ankurtaly/Integrated-Gradients)
+  - Mukund Sundararajan, Ankur Taly, Qiqi Yan. *ICML 2017*
+  - Digest: We identify two fundamental axioms---Sensitivity and Implementation Invariance that attribution methods ought to satisfy. We show that they are not satisfied by most known attribution methods, which we consider to be a fundamental weakness of those methods.  
+
+### 2016
+
+- Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space. [[paper]](https://arxiv.org/abs/1612.00005)
+  - Anh Nguyen, Jeff Clune, Yoshua Bengio, Alexey Dosovitskiy, Jason Yosinski. *CVPR 2017*
+  - Digest: Recently, [Nguyen et al. (2016)](https://arxiv.org/abs/1605.09304) showed one interesting way to synthesize novel images by performing gradient ascent in the latent space of a generator network to maximize the activations of one or multiple neurons in a separate classifier network. In this paper we extend this method by introducing an additional prior on the latent code, improving both sample quality and sample diversity, leading to a state-of-the-art generative model that produces high quality images at higher resolutions (227x227) than previous generative models, and does so for all 1000 ImageNet categories.  
+
+- Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization. [[paper]](https://arxiv.org/abs/1610.02391) [[code]](https://github.com/ramprs/grad-cam/)
+  - Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra. *ICCV 2017*
+  - Digest: Our approach - Gradient-weighted Class Activation Mapping (Grad-CAM), uses the gradients of any target concept, flowing into the final convolutional layer to produce a coarse localization map highlighting important regions in the image for predicting the concept.  
+
+- Understanding intermediate layers using linear classifier probes. [[paper]](https://arxiv.org/abs/1610.01644)
+  - Guillaume Alain, Yoshua Bengio. *ICLR 2017 Workshop*
+  - Digest: Neural network models have a reputation for being black boxes. We propose to monitor the features at every layer of a model and measure how suitable they are for classification. We use linear classifiers, which we refer to as "probes", trained entirely independently of the model itself.  
+
+- Synthesizing the preferred inputs for neurons in neural networks via deep generator networks. [[paper]](https://arxiv.org/abs/1605.09304)
+  - Anh Nguyen, Alexey Dosovitskiy, Jason Yosinski, Thomas Brox, Jeff Clune. *NeurIPS 2016*
+  - Digest:  Here we dramatically improve the qualitative state of the art of activation maximization by harnessing a powerful, learned prior: a deep generator network (DGN).  
+
+- "Why Should I Trust You?": Explaining the Predictions of Any Classifier. [[paper]](https://arxiv.org/abs/1602.04938) [[code]](https://github.com/marcotcr/lime-experiments)
+  - Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin. *KDD 2016*
+  - Digest: In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction.  
+
+### 2015
+
+- Learning Deep Features for Discriminative Localization. [[paper]](https://arxiv.org/abs/1512.04150)
+  - Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba. *CVOR 2016*
+  - Digest: In this work, we revisit the global average pooling layer proposed in [13], and shed light on how it explicitly enables the convolutional neural network to have remarkable localization ability despite being trained on image-level labels.  
+
+- Explaining NonLinear Classification Decisions with Deep Taylor Decomposition. [[paper]](https://arxiv.org/abs/1512.02479)
+  - Grégoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, Klaus-Robert Müller. *PR 2017*
+  - Digest: In this paper we introduce a novel methodology for interpreting generic multilayer neural networks by decomposing the network classification decision into contributions of its input elements.  
+
+- Understanding Neural Networks Through Deep Visualization. [[paper]](https://arxiv.org/abs/1506.06579)  
+  - Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, Hod Lipson. *ICML 2015 Workshop*
+  - Digest:  We introduce two such tools here. The first is a tool that visualizes the activations produced on each layer of a trained convnet as it processes an image or video (e.g. a live webcam stream). The second tool enables visualizing features at each layer of a DNN via regularized optimization in image space.  
+
+### 2014
+
+- Striving for Simplicity: The All Convolutional Net. [[paper]](https://arxiv.org/abs/1412.6806)
+  - Jost Tobias Springenberg, Alexey Dosovitskiy, Thomas Brox, Martin Riedmiller. *ICLR 2015*
+  - Digest: We find that max-pooling can simply be replaced by a convolutional layer with increased stride without loss in accuracy on several image recognition benchmarks.  
+
+- Understanding Deep Image Representations by Inverting Them. [[paper]](https://arxiv.org/abs/1412.0035)
+  - Aravindh Mahendran, Andrea Vedaldi. *CVPR 2015*
+  - Digest: In this paper we conduct a direct analysis of the visual information contained in representations by asking the following question: given an encoding of an image, to which extent is it possible to reconstruct the image itself? To answer this question we contribute a general framework to invert representations.  
+
+- How transferable are features in deep neural networks? [[paper]](https://arxiv.org/abs/1411.1792) [[code]](http://yosinski.com/transfer)
+  - Jason Yosinski, Jeff Clune, Yoshua Bengio, Hod Lipson. *NeurIPS 2014*
+  - Digest: Features must eventually transition from general to specific by the last layer of the network, but this transition has not been studied extensively. In this paper we experimentally quantify the generality versus specificity of neurons in each layer of a deep convolutional neural network and report a few surprising results.  
+
+### 2013
+
+- Visualizing and Understanding Convolutional Networks. [[paper]](https://arxiv.org/abs/1311.2901)
+  - Matthew D Zeiler, Rob Fergus. *ECCV 2014*
+  - Digest: We introduce a novel visualization technique that gives insight into the function of intermediate feature layers and the operation of the classifier. We also perform an ablation study to discover the performance contribution from different model layers.  
+
+>>>>>>> 3066f6aa514f4aaf62be1d28b224f3d680bc665d
 
 ## Privacy
 
