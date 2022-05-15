@@ -21,6 +21,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Survey: 2021
 
+- Trustworthy AI: A Computational Perspective. [[paper]](https://arxiv.org/abs/2107.06641)
+  - Haochen Liu, Yiqi Wang, Wenqi Fan, Xiaorui Liu, Yaxin Li, Shaili Jain, Yunhao Liu, Anil K. Jain, Jiliang Tang.
+  - Key Word: Survey.
+  - Digest: We present a comprehensive survey of trustworthy AI from a computational perspective, to help readers understand the latest technologies for achieving trustworthy AI. Trustworthy AI is a large and complex area, involving various dimensions. In this work, we focus on six of the most crucial dimensions in achieving trustworthy AI: (i) Safety & Robustness, (ii) Non-discrimination & Fairness, (iii) Explainability, (iv) Privacy, (v) Accountability & Auditability, and (vi) Environmental Well-Being.
+
 ## Out-of-Distribution Generalization
 
 ### Out-of-Distribution Generalization: 2020
