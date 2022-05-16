@@ -580,8 +580,6 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Work: Neural Network Watermarking.
   - Digest: This work proposes novel passport-based DNN ownership verification schemes which are both robust to network modifications and resilient to ambiguity attacks. The gist of embedding digital passports is to design and train DNN models in a way such that, the DNN model performance of an original task will be significantly deteriorated due to forged passports.  
 
-### Others: 2017
-
 ## Environmental Well-being
 
 ### Environmental Well-being: 2019
