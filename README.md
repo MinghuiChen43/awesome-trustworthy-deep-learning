@@ -9,6 +9,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
 - [Poisoning Attacks and Defenses](#poisoning-attacks-and-defenses)
 - [Interpretability](#interpretability)
+- [Causality](#causality)
 - [Privacy](#privacy)
 - [Fairness](#fairness)
 - [Uncertainty](#uncertainty)
@@ -18,6 +19,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Others](#others)
 
 ## Survey
+
+## Survey: 2022
+
+- Trustworthy Graph Neural Networks: Aspects, Methods and Trends. [[paper]](https://arxiv.org/abs/2205.07424)
+  - He Zhang, Bang Wu, Xingliang Yuan, Shirui Pan, Hanghang Tong, Jian Pei.
+  - Key Word: Survey; Graph Neural Networks.
+  - Digest: We propose a comprehensive roadmap to build trustworthy GNNs from the view of the various computing technologies involved. In this survey, we introduce basic concepts and comprehensively summarise existing efforts for trustworthy GNNs from six aspects, including robustness, explainability, privacy, fairness, accountability, and environmental well-being. Additionally, we highlight the intricate cross-aspect relations between the above six aspects of trustworthy GNNs. Finally, we present a thorough overview of trending directions for facilitating the research and industrialisation of trustworthy GNNs.
 
 ### Survey: 2021
 
@@ -156,6 +164,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Digest: In this paper, we quantify this phenomena and ask why neither the convolutional architecture nor data augmentation are sufficient to achieve the desired invariance. Specifically, we show that the convolutional architecture does not give invariance since architectures ignore the classical sampling theorem, and data augmentation does not give invariance because the CNNs learn to be invariant to transformations only for images that are very similar to typical images from the training set.  
 
 ## Evasion Attacks and Defenses
+
+### Evasion Attacks and Defenses: 2022
+
+- Diffusion Models for Adversarial Purification. [[paper]](https://arxiv.org/abs/2205.07460) [[code]](https://diffpure.github.io/)
+  - Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar. *ICML 2022*
+  - Key Word: Adversarial Purification; Diffusion Models.
+  - Digest: We propose DiffPure that uses diffusion models for adversarial purification: Given an adversarial example, we first diffuse it with a small amount of noise following a forward diffusion process, and then recover the clean image through a reverse generative process. To evaluate our method against strong adaptive attacks in an efficient and scalable way, we propose to use the adjoint method to compute full gradients of the reverse generative process.
 
 ### Evasion Attacks and Defenses: 2020
 
@@ -485,6 +500,10 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Attributional Robustness.
   - Digest: In this work, we study the problem of attributional robustness (i.e. models having robust explanations) by showing an upper bound for attributional vulnerability in terms of spatial correlation between the input image and its explanation map. We propose a training methodology that learns robust features by minimizing this upper bound using soft-margin triplet loss.  
 
+## Causality
+
+### Causality: 2020
+
 ## Privacy
 
 ### Privacy: 2021
@@ -544,6 +563,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Digest: We show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks.  
 
 ## Fairness
+
+### Fairness: 2022
+
+- Fairness via Explanation Quality: Evaluating Disparities in the Quality of Post hoc Explanations. [[paper]](https://arxiv.org/abs/2205.07277)
+  - Jessica Dai, Sohini Upadhyay, Ulrich Aivodji, Stephen H. Bach, Himabindu Lakkaraju. *AIES 2022*
+  - Key Word: Fairness; Interpretability.
+  - Digest: We first outline the key properties which constitute explanation quality and where disparities can be particularly problematic. We then leverage these properties to propose a novel evaluation framework which can quantitatively measure disparities in the quality of explanations output by state-of-the-art methods. Using this framework, we carry out a rigorous empirical analysis to understand if and when group-based disparities in explanation quality arise. Our results indicate that such disparities are more likely to occur when the models being explained are complex and highly non-linear. In addition, we also observe that certain post hoc explanation methods (e.g., Integrated Gradients, SHAP) are more likely to exhibit the aforementioned disparities.
 
 ### Fairness: 2020
 
