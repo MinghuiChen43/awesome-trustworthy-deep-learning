@@ -1320,7 +1320,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Interpretability: 2018
 
-- This Looks Like That: Deep Learning for Interpretable Image Recognition. [[paper]]<https://arxiv.org/abs/1806.10574>) [[code]](https://github.com/cfchen-duke/ProtoPNet)
+- This Looks Like That: Deep Learning for Interpretable Image Recognition. [[paper]](https://arxiv.org/abs/1806.10574) [[code]](https://github.com/cfchen-duke/ProtoPNet)
   - Chaofan Chen, Oscar Li, Chaofan Tao, Alina Jade Barnett, Jonathan Su, Cynthia Rudin. *NeurIPS 2019*
   - Key Word: Prototypes.
   - Digest: We introduce a deep network architecture -- prototypical part network (ProtoPNet), that reasons in a similar way: the network dissects the image by finding prototypical parts, and combines evidence from the prototypes to make a final classification. The model thus reasons in a way that is qualitatively similar to the way ornithologists, physicians, and others would explain to people on how to solve challenging image classification tasks.
