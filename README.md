@@ -1222,6 +1222,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - Digest: Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- B-cos Networks: Alignment is All We Need for Interpretability. [[paper]](https://arxiv.org/abs/2205.10268) [[code]](https://github.com/moboehle/b-cos)
+  - Moritz Böhle, Mario Fritz, Bernt Schiele.
+  - Key Word: Weight-Input Alignment.
+  - Digest: We present a new direction for increasing the interpretability of deep neural networks (DNNs) by promoting weight-input alignment during training. For this, we propose to replace the linear transforms in DNNs by our B-cos transform. As we show, a sequence (network) of such transforms induces a single linear transform that faithfully summarises the full model computations.
+
 - Discovering Latent Concepts Learned in BERT. [[paper]](https://arxiv.org/abs/2205.07237)
   - Fahim Dalvi, Abdul Rafae Khan, Firoj Alam, Nadir Durrani, Jia Xu, Hassan Sajjad. *ICLR 2022*
   - Key Word: Interpretability; Natural Language Processing.
@@ -1238,6 +1243,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Digest: In Multiple Instance Learning (MIL), models are trained using bags of instances, where only a single label is provided for each bag. A bag label is often only determined by a handful of key instances within a bag, making it difficult to interpret what information a classifier is using to make decisions. In this work, we establish the key requirements for interpreting MIL models. We then go on to develop several model-agnostic approaches that meet these requirements.
 
 ### Interpretability: 2021
+
+- Salient ImageNet: How to discover spurious features in Deep Learning? [[paper]](https://arxiv.org/abs/2110.04301) [[code]](https://github.com/singlasahil14/salient_imagenet)
+  - Sahil Singla, Soheil Feizi. *ICLR 2022*
+  - Key Word: Interpretability; Robustness; Failure Explanations.
+  - Digest: Our methodology is based on this key idea: to identify spurious or core visual features used in model predictions, we identify spurious or core neural features (penultimate layer neurons of a robust model) via limited human supervision (e.g., using top 5 activating images per feature). We then show that these neural feature annotations generalize extremely well to many more images without any human supervision.
 
 - Consistent Counterfactuals for Deep Models. [[paper]](https://arxiv.org/abs/2110.03109)
   - Emily Black, Zifan Wang, Matt Fredrikson, Anupam Datta. *ICLR 2022*
@@ -1408,6 +1418,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Causality
 
+### Causality: 2022
+
+- Optimal transport for causal discovery. [[paper]](https://arxiv.org/abs/2201.09366)
+  - Ruibo Tu, Kun Zhang, Hedvig Kjellström, Cheng Zhang. *ICLR 2022*
+  - Key Word: Causal Discovery; Optimal Transport.
+  - Digest: To determine causal relationships between two variables, approaches based on Functional Causal Models (FCMs) have been proposed by properly restricting model classes; however, the performance is sensitive to the model assumptions, which makes it difficult to use. In this paper, we provide a novel dynamical-system view of FCMs and propose a new framework for identifying causal direction in the bivariate case. We first show the connection between FCMs and optimal transport, and then study optimal transport under the constraints of FCMs.
+  
 ### Causality: 2021
 
 - Towards Causal Representation Learning. [[paper]](https://arxiv.org/abs/2102.11107)
@@ -1522,6 +1539,18 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Jessica Dai, Sohini Upadhyay, Ulrich Aivodji, Stephen H. Bach, Himabindu Lakkaraju. *AIES 2022*
   - Key Word: Fairness; Interpretability.
   - Digest: We first outline the key properties which constitute explanation quality and where disparities can be particularly problematic. We then leverage these properties to propose a novel evaluation framework which can quantitatively measure disparities in the quality of explanations output by state-of-the-art methods. Using this framework, we carry out a rigorous empirical analysis to understand if and when group-based disparities in explanation quality arise. Our results indicate that such disparities are more likely to occur when the models being explained are complex and highly non-linear. In addition, we also observe that certain post hoc explanation methods (e.g., Integrated Gradients, SHAP) are more likely to exhibit the aforementioned disparities.
+
+- Is Fairness Only Metric Deep? Evaluating and Addressing Subgroup Gaps in Deep Metric Learning. [[paper]](https://arxiv.org/abs/2203.12748) [[code]](https://github.com/ndullerud/dml-fairness)
+  - Natalie Dullerud, Karsten Roth, Kimia Hamidieh, Nicolas Papernot, Marzyeh Ghassemi. *ICLR 2022*
+  - Key Word: Metric Learning; Fairness.
+  - Digest: We are the first to evaluate state-of-the-art DML methods trained on imbalanced data, and to show the negative impact these representations have on minority subgroup performance when used for downstream tasks. In this work, we first define fairness in DML through an analysis of three properties of the representation space -- inter-class alignment, intra-class alignment, and uniformity -- and propose finDML, the fairness in non-balanced DML benchmark to characterize representation fairness.
+
+### Fairness: 2021
+
+- Fair Normalizing Flows. [[paper]](https://arxiv.org/abs/2106.05937) [[code]](https://github.com/eth-sri/fnf)
+  - Mislav Balunović, Anian Ruoss, Martin Vechev. *ICLR 2022*
+  - Key Word: Fairness; Normalizing Flows.
+  - Digest: We present Fair Normalizing Flows (FNF), a new approach offering more rigorous fairness guarantees for learned representations. Specifically, we consider a practical setting where we can estimate the probability density for sensitive groups. The key idea is to model the encoder as a normalizing flow trained to minimize the statistical distance between the latent representations of different groups.
 
 ### Fairness: 2020
 
