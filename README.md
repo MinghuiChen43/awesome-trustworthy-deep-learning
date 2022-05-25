@@ -533,8 +533,8 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Common Robustness; Adversarial Robustness.
   - Digest: We demonstrate that although adversarial training improves the performance of the networks against adversarial perturbations, it leads to drop in the performance for naturally perturbed samples besides clean samples. In contrast, natural perturbations like elastic deformations, occlusions and wave does not only improve the performance against natural perturbations, but also lead to improvement in the performance for the adversarial perturbations.
 
-- Prepare for the Worst: Generalizing across Domain Shifts with Adversarial Batch Normalization. [[paper]](https://arxiv.org/abs/2009.08965v2)
-  - Manli Shu, Zuxuan Wu, Micah Goldblum, Tom Goldstein.
+- Encoding Robustness to Image Style via Adversarial Feature Perturbations. [[paper]](https://arxiv.org/abs/2009.08965v2) [[code]](https://github.com/azshue/AdvBN)
+  - Manli Shu, Zuxuan Wu, Micah Goldblum, Tom Goldstein. *NeurIPS 2021*
   - Key Word: Corruption Robustness; Normalization.
   - Digest: Our method, Adversarial Batch Normalization (AdvBN, adversarially perturbing these feature statistics), significantly improves robustness.
 
