@@ -1372,6 +1372,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
   </details>
 
+- Reconstructing Training Data from Trained Neural Networks. [[paper]](https://arxiv.org/abs/2206.07758) [[code]](https://giladude1.github.io/reconstruction/)
+  - Niv Haim, Gal Vardi, Gilad Yehudai, Ohad Shamir, Michal Irani.
+  - Key Word: Reconstruction Attacks.
+  - <details><summary>Digest</summary> We propose a novel reconstruction scheme that stems from recent theoretical results about the implicit bias in training neural networks with gradient-based methods. To the best of our knowledge, our results are the first to show that reconstructing a large portion of the actual training samples from a trained neural network classifier is generally possible. This has negative implications on privacy, as it can be used as an attack for revealing sensitive training data. We demonstrate our method for binary MLP classifiers on a few standard computer vision datasets.
+
 - A Survey on Gradient Inversion: Attacks, Defenses and Future Directions. [[paper]](https://arxiv.org/abs/2206.07284)
   - Rui Zhang, Song Guo, Junxiao Wang, Xin Xie, Dacheng Tao. *IJCAI 2022*
   - Key Word: Gradient Inversion Attacks and Defenses; Survey.
