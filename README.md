@@ -168,6 +168,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Mitigating Data Heterogeneity in Federated Learning with Data Augmentation. [[paper]](https://arxiv.org/abs/2206.09979)
+  - Artur Back de Luca, Guojun Zhang, Xi Chen, Yaoliang Yu.
+  - Key Word: Federated Learning; Domain Generalization; Data Augmentation.
+  - <details><summary>Digest</summary> While many approaches in DG tackle data heterogeneity from the algorithmic perspective, recent evidence suggests that data augmentation can induce equal or greater performance. Motivated by this connection, we present federated versions of popular DG algorithms, and show that by applying appropriate data augmentation, we can mitigate data heterogeneity in the federated setting, and obtain higher accuracy on unseen clients. Equipped with data augmentation, we can achieve state-of-the-art performance using even the most basic Federated Averaging algorithm, with much sparser communication.
+
 - How robust are pre-trained models to distribution shift? [[paper]](https://arxiv.org/abs/2206.08871)
   - Yuge Shi, Imant Daunhawer, Julia E. Vogt, Philip H.S. Torr, Amartya Sanyal.
   - Key Word: Distribution Shifts; Self-Supervised Pre-Trainig.
@@ -950,6 +955,26 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- (Certified!!) Adversarial Robustness for Free! [[paper]](https://arxiv.org/abs/2206.10550)
+  - Nicholas Carlini, Florian Tramer, Krishnamurthy (Dj)Dvijotham, J. Zico Kolter.
+  - Key Word: Certified Adversarial Robustness; Randomized Smoothing; Diffusion Models.
+  - <details><summary>Digest</summary> In this paper we show how to achieve state-of-the-art certified adversarial robustness to 2-norm bounded perturbations by relying exclusively on off-the-shelf pretrained models. To do so, we instantiate the denoised smoothing approach of Salman et al. by combining a pretrained denoising diffusion probabilistic model and a standard high-accuracy classifier. This allows us to certify 71% accuracy on ImageNet under adversarial perturbations constrained to be within a 2-norm of 0.5, an improvement of 14 percentage points over the prior certified SoTA using any approach, or an improvement of 30 percentage points over denoised smoothing. We obtain these results using only pretrained diffusion models and image classifiers, without requiring any fine tuning or retraining of model parameters.
+
+- Understanding Robust Learning through the Lens of Representation Similarities. [[paper]](https://arxiv.org/abs/2206.09868) [[code]](https://github.com/inspire-group/robust_representation_similarity)
+  - Christian Cianfarani, Arjun Nitin Bhagoji, Vikash Sehwag, Ben Zhao, Prateek Mittal.
+  - Key Word: Adversarial Robustness; Representation Similarity.
+  - <details><summary>Digest</summary> We aim to understand how the properties of representations learned by robust training differ from those obtained from standard, non-robust training. This is critical to diagnosing numerous salient pitfalls in robust networks, such as, degradation of performance on benign inputs, poor generalization of robustness, and increase in over-fitting. We utilize a powerful set of tools known as representation similarity metrics, across three vision datasets, to obtain layer-wise comparisons between robust and non-robust DNNs with different architectures, training procedures and adversarial constraints.
+
+- Diversified Adversarial Attacks based on Conjugate Gradient Method. [[paper]](https://arxiv.org/abs/2206.09628) [[code]](https://github.com/yamamura-k/ACG)
+  - Keiichiro Yamamura, Haruki Sato, Nariaki Tateiwa, Nozomi Hata, Toru Mitsutake, Issa Oe, Hiroki Ishikura, Katsuki Fujisawa. *ICML 2022*
+  - Key Word: Adversarial Attacks.
+  - <details><summary>Digest</summary> Although existing methods based on the steepest descent have achieved high attack success rates, ill-conditioned problems occasionally reduce their performance. To address this limitation, we utilize the conjugate gradient (CG) method, which is effective for this type of problem, and propose a novel attack algorithm inspired by the CG method, named the Auto Conjugate Gradient (ACG) attack. The results of large-scale evaluation experiments conducted on the latest robust models show that, for most models, ACG was able to find more adversarial examples with fewer iterations than the existing SOTA algorithm Auto-PGD (APGD).
+
+- On the Role of Generalization in Transferability of Adversarial Examples. [[paper]](https://arxiv.org/abs/2206.09238)
+  - Yilin Wang, Farzan Farnia.
+  - Key Word: Transferable Adversarial Example.
+  - <details><summary>Digest</summary> We aim to demonstrate the role of the generalization properties of the substitute classifier used for generating adversarial examples in the transferability of the attack scheme to unobserved NN classifiers. To do this, we apply the max-min adversarial example game framework and show the importance of the generalization properties of the substitute NN in the success of the black-box attack scheme in application to different NN classifiers. We prove theoretical generalization bounds on the difference between the attack transferability rates on training and test samples.
+
 - Understanding Robust Overfitting of Adversarial Training and Beyond. [[paper]](https://arxiv.org/abs/2206.08675) [[code]](https://github.com/chaojianyu/understanding-robust-overfitting)
   - Chaojian Yu, Bo Han, Li Shen, Jun Yu, Chen Gong, Mingming Gong, Tongliang Liu. *ICML 2022*
   - Key Word: Adversarial Training; Robust Overfitting.
@@ -1337,6 +1362,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Poisoning Attacks and Defenses: 2022
 
+- Neurotoxin: Durable Backdoors in Federated Learning. [[paper]](https://arxiv.org/abs/2206.10341)
+  - Zhengming Zhang, Ashwinee Panda, Linyue Song, Yaoqing Yang, Michael W. Mahoney, Joseph E. Gonzalez, Kannan Ramchandran, Prateek Mittal. *ICML 2022*
+  - Key Word: Backdoor Attacks; Federated Learning.
+  - <details><summary>Digest</summary> Prior work has shown that backdoors can be inserted into FL models, but these backdoors are often not durable, i.e., they do not remain in the model after the attacker stops uploading poisoned updates. Thus, since training typically continues progressively in production FL systems, an inserted backdoor may not survive until deployment. Here, we propose Neurotoxin, a simple one-line modification to existing backdoor attacks that acts by attacking parameters that are changed less in magnitude during training.
+
 - Backdoor Attacks on Vision Transformers. [[paper]](https://arxiv.org/abs/2206.08477)  [[code]](https://github.com/ucdvision/backdoor_transformer)
   - Akshayvarun Subramanya, Aniruddha Saha, Soroush Abbasi Koohpayegani, Ajinkya Tejankar, Hamed Pirsiavash.
   - Key Word: Backdoor Attacks; Vision Transformers.
@@ -1408,9 +1438,24 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - RelaxLoss: Defending Membership Inference Attacks without Losing Utility. [[paper]](https://openreview.net/forum?id=FEDfGWVZYIn) [[code]](https://github.com/DingfanChen/RelaxLoss)
   - Dingfan Chen, Ning Yu, Mario Fritz. *ICLR 2022*
-  - Key Word: Membership Inference Attack and Defense.
+  - Key Word: Membership Inference Attacks and Defenses.
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
   </details>
+
+- The Privacy Onion Effect: Memorization is Relative. [[paper]](https://arxiv.org/abs/2206.10469)
+  - Nicholas Carlini, Matthew Jagielski, Nicolas Papernot, Andreas Terzis, Florian Tramer, Chiyuan Zhang.
+  - Key Word: Memorization; Differential Privacy; Membership Inference Attacks and Defenses; Machine Unlearning.
+  - <details><summary>Digest</summary> Machine learning models trained on private datasets have been shown to leak their private data. While recent work has found that the average data point is rarely leaked, the outlier samples are frequently subject to memorization and, consequently, privacy leakage. We demonstrate and analyse an Onion Effect of memorization: removing the "layer" of outlier points that are most vulnerable to a privacy attack exposes a new layer of previously-safe points to the same attack. We perform several experiments to study this effect, and understand why it occurs. The existence of this effect has various consequences. For example, it suggests that proposals to defend against memorization without training with rigorous privacy guarantees are unlikely to be effective. Further, it suggests that privacy-enhancing technologies such as machine unlearning could actually harm the privacy of other users.
+
+- Certified Graph Unlearning. [[paper]](https://arxiv.org/abs/2206.09140)
+  - Eli Chien, Chao Pan, Olgica Milenkovic.
+  - Key Word: Machine Unlearning; Certified Data Removal; Graph Neural Networks.
+  - <details><summary>Digest</summary> Graph-structured data is ubiquitous in practice and often processed using graph neural networks (GNNs). With the adoption of recent laws ensuring the ``right to be forgotten'', the problem of graph data removal has become of significant importance. To address the problem, we introduce the first known framework for \emph{certified graph unlearning} of GNNs. In contrast to standard machine unlearning, new analytical and heuristic unlearning challenges arise when dealing with complex graph data. First, three different types of unlearning requests need to be considered, including node feature, edge and node unlearning. Second, to establish provable performance guarantees, one needs to address challenges associated with feature mixing during propagation. The underlying analysis is illustrated on the example of simple graph convolutions (SGC) and their generalized PageRank (GPR) extensions, thereby laying the theoretical foundation for certified unlearning of GNNs.
+
+- Fully Privacy-Preserving Federated Representation Learning via Secure Embedding Aggregation. [[paper]](https://arxiv.org/abs/2206.09097)
+  - Jiaxiang Tang, Jinbao Zhu, Songze Li, Kai Zhang, Lichao Sun.
+  - Key Word: Federated Learning; Privacy.
+  - <details><summary>Digest</summary> We consider a federated representation learning framework, where with the assistance of a central server, a group of N distributed clients train collaboratively over their private data, for the representations (or embeddings) of a set of entities (e.g., users in a social network). Under this framework, for the key step of aggregating local embeddings trained at the clients in a private manner, we develop a secure embedding aggregation protocol named SecEA, which provides information-theoretical privacy guarantees for the set of entities and the corresponding embeddings at each client simultaneously, against a curious server and up to T < N/2 colluding clients.
 
 - I Know What You Trained Last Summer: A Survey on Stealing Machine Learning Models and Defences. [[paper]](https://arxiv.org/abs/2206.08451)
   - Daryna Oliynyk, Rudolf Mayer, Andreas Rauber.
