@@ -19,7 +19,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Survey
 
-## Survey: 2022
+### Survey: 2022
 
 - Trustworthy Graph Neural Networks: Aspects, Methods and Trends. [[paper]](https://arxiv.org/abs/2205.07424)
   - He Zhang, Bang Wu, Xingliang Yuan, Shirui Pan, Hanghang Tong, Jian Pei.
@@ -994,6 +994,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Guillermo Ortiz-Jiménez, Pau de Jorge, Amartya Sanyal, Adel Bibi, Puneet K. Dokania, Pascal Frossard, Gregory Rogéz, Philip H.S. Torr.
   - Key Word: Adversarial Robustness; Robust Overfitting.
   - <details><summary>Digest</summary> We find that the interplay between the structure of the data and the dynamics of AT plays a fundamental role in CO. Specifically, through active interventions on typical datasets of natural images, we establish a causal link between the structure of the data and the onset of CO in single-step AT methods. This new perspective provides important insights into the mechanisms that lead to CO and paves the way towards a better understanding of the general dynamics of robust model construction.
+
+- Linearity Grafting: Relaxed Neuron Pruning Helps Certifiable Robustness. [[paper]](https://arxiv.org/abs/2206.07839) [[code]](https://github.com/VITA-Group/Linearity-Grafting)
+  - Tianlong Chen, Huan Zhang, Zhenyu Zhang, Shiyu Chang, Sijia Liu, Pin-Yu Chen, Zhangyang Wang. *ICML 2022*
+  - Key Word: Certified Adversarial Robustness; Pruning.
+  - <details><summary>Digest</summary> Certifiable robustness is a highly desirable property for adopting deep neural networks (DNNs) in safety-critical scenarios, but often demands tedious computations to establish. The main hurdle lies in the massive amount of non-linearity in large DNNs. To trade off the DNN expressiveness (which calls for more non-linearity) and robustness certification scalability (which prefers more linearity), we propose a novel solution to strategically manipulate neurons, by "grafting" appropriate levels of linearity. The core of our proposal is to first linearize insignificant ReLU neurons, to eliminate the non-linear components that are both redundant for DNN performance and harmful to its certification. We then optimize the associated slopes and intercepts of the replaced linear activations for restoring model performance while maintaining certifiability. Hence, typical neuron pruning could be viewed as a special case of grafting a linear function of the fixed zero slopes and intercept, that might overly restrict the network flexibility and sacrifice its performance.
 
 - Adversarial Vulnerability of Randomized Ensembles. [[paper]](https://arxiv.org/abs/2206.06737) [[code]](https://github.com/hsndbk4/arc)
   - Hassan Dbouk, Naresh R. Shanbhag. *ICML 2022*
