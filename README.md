@@ -168,6 +168,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Invariant Causal Mechanisms through Distribution Matching. [[paper]](https://arxiv.org/abs/2206.11646)
+  - Mathieu Chevalley, Charlotte Bunne, Andreas Krause, Stefan Bauer.
+  - Key Word: Domain Generalization; Causal Inference.
+  - <details><summary>Digest</summary> Learning representations that capture the underlying data generating process is a key problem for data efficient and robust use of neural networks. One key property for robustness which the learned representation should capture and which recently received a lot of attention is described by the notion of invariance. In this work we provide a causal perspective and new algorithm for learning invariant representations. Empirically we show that this algorithm works well on a diverse set of tasks and in particular we observe state-of-the-art performance on domain generalization, where we are able to significantly boost the score of existing models.
+
+- On Pre-Training for Federated Learning. [[paper]](https://arxiv.org/abs/2206.11488)
+  - Hong-You Chen, Cheng-Hao Tu, Ziwei Li, Han-Wei Shen, Wei-Lun Chao.
+  - Key Word: Pre-training; Federated Learning; Training with Sythetic Data.
+  - <details><summary>Digest</summary> In most of the literature on federated learning (FL), neural networks are initialized with random weights. In this paper, we present an empirical study on the effect of pre-training on FL. Specifically, we aim to investigate if pre-training can alleviate the drastic accuracy drop when clients' decentralized data are non-IID. We focus on FedAvg, the fundamental and most widely used FL algorithm. We found that pre-training does largely close the gap between FedAvg and centralized learning under non-IID data, but this does not come from alleviating the well-known model drifting problem in FedAvg's local training. Instead, how pre-training helps FedAvg is by making FedAvg's global aggregation more stable. When pre-training using real data is not feasible for FL, we propose a novel approach to pre-train with synthetic data.
+
 - Mitigating Data Heterogeneity in Federated Learning with Data Augmentation. [[paper]](https://arxiv.org/abs/2206.09979)
   - Artur Back de Luca, Guojun Zhang, Xi Chen, Yaoliang Yu.
   - Key Word: Federated Learning; Domain Generalization; Data Augmentation.
@@ -955,6 +965,21 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Adversarially trained neural representations may already be as robust as corresponding biological neural representations. [[paper]](https://arxiv.org/abs/2206.11228)
+  - Chong Guo, Michael J. Lee, Guillaume Leclerc, Joel Dapello, Yug Rao, Aleksander Madry, James J. DiCarlo.
+  - Key Word: Adversarial Robustness; Biological Neural Representation.
+  - <details><summary>Digest</summary> We develop a method for performing adversarial visual attacks directly on primate brain activity. We then leverage this method to demonstrate that the above-mentioned belief might not be well founded. Specifically, we report that the biological neurons that make up visual systems of primates exhibit susceptibility to adversarial perturbations that is comparable in magnitude to existing (robustly trained) artificial neural networks.
+
+- Guided Diffusion Model for Adversarial Purification from Random Noise. [[paper]](https://arxiv.org/abs/2206.10875)
+  - Quanlin Wu, Hang Ye, Yuntian Gu.
+  - Key Word: Adversarial Purification; Diffusion Model.
+  - <details><summary>Digest</summary> In this paper, we propose a novel guided diffusion purification approach to provide a strong defense against adversarial attacks. Our model achieves 89.62% robust accuracy under PGD-L_inf attack (eps = 8/255) on the CIFAR-10 dataset. We first explore the essential correlations between unguided diffusion models and randomized smoothing, enabling us to apply the models to certified robustness. The empirical results show that our models outperform randomized smoothing by 5% when the certified L2 radius r is larger than 0.5.
+
+- Robust Universal Adversarial Perturbations. [[paper]](https://arxiv.org/abs/2206.10858)
+  - Changming Xu, Gagandeep Singh.
+  - Key Word: Transferable Adversarial Example; Universal Adversarial Perturbations.
+  - <details><summary>Digest</summary> We introduce a new concept and formulation of robust universal adversarial perturbations. Based on our formulation, we build a novel, iterative algorithm that leverages probabilistic robustness bounds for generating UAPs robust against transformations generated by composing arbitrary sub-differentiable transformation functions.
+
 - (Certified!!) Adversarial Robustness for Free! [[paper]](https://arxiv.org/abs/2206.10550)
   - Nicholas Carlini, Florian Tramer, Krishnamurthy (Dj)Dvijotham, J. Zico Kolter.
   - Key Word: Certified Adversarial Robustness; Randomized Smoothing; Diffusion Models.
@@ -1367,6 +1392,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Poisoning Attacks and Defenses: 2022
 
+- Natural Backdoor Datasets. [[paper]](https://arxiv.org/abs/2206.10673) [[code]](https://github.com/uchicago-sandlab/naturalbackdoors)
+  - Emily Wenger, Roma Bhattacharjee, Arjun Nitin Bhagoji, Josephine Passananti, Emilio Andere, Haitao Zheng, Ben Y. Zhao.
+  - Key Word: Natural Backdoor Attacks.
+  - <details><summary>Digest</summary> Extensive literature on backdoor poison attacks has studied attacks and defenses for backdoors using "digital trigger patterns." In contrast, "physical backdoors" use physical objects as triggers, have only recently been identified, and are qualitatively different enough to resist all defenses targeting digital trigger backdoors. Research on physical backdoors is limited by access to large datasets containing real images of physical objects co-located with targets of classification. Building these datasets is time- and labor-intensive. This works seeks to address the challenge of accessibility for research on physical backdoor attacks. We hypothesize that there may be naturally occurring physically co-located objects already present in popular datasets such as ImageNet. Once identified, a careful relabeling of these data can transform them into training samples for physical backdoor attacks. We propose a method to scalably identify these subsets of potential triggers in existing datasets, along with the specific classes they can poison.
+
 - Neurotoxin: Durable Backdoors in Federated Learning. [[paper]](https://arxiv.org/abs/2206.10341)
   - Zhengming Zhang, Ashwinee Panda, Linyue Song, Yaoqing Yang, Michael W. Mahoney, Joseph E. Gonzalez, Kannan Ramchandran, Prateek Mittal. *ICML 2022*
   - Key Word: Backdoor Attacks; Federated Learning.
@@ -1446,6 +1476,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Membership Inference Attacks and Defenses.
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
   </details>
+
+- A Framework for Understanding Model Extraction Attack and Defense. [[paper]](https://arxiv.org/abs/2206.11480)
+  - Xun Xian, Mingyi Hong, Jie Ding.
+  - Key Word: Model Extraction Attack and Defense.
+  - <details><summary>Digest</summary> To study the fundamental tradeoffs between model utility from a benign user's view and privacy from an adversary's view, we develop new metrics to quantify such tradeoffs, analyze their theoretical properties, and develop an optimization problem to understand the optimal adversarial attack and defense strategies. The developed concepts and theory match the empirical findings on the `equilibrium' between privacy and utility. In terms of optimization, the key ingredient that enables our results is a unified representation of the attack-defense problem as a min-max bi-level problem.
 
 - The Privacy Onion Effect: Memorization is Relative. [[paper]](https://arxiv.org/abs/2206.10469)
   - Nicholas Carlini, Matthew Jagielski, Nicolas Papernot, Andreas Terzis, Florian Tramer, Chiyuan Zhang.
@@ -1701,6 +1736,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Fairness
 
 ### Fairness: 2022
+
+- Input-agnostic Certified Group Fairness via Gaussian Parameter Smoothing. [[paper]](https://arxiv.org/abs/2206.11423)
+  - Jiayin Jin, Zeru Zhang, Yang Zhou, Lingfei Wu.
+  - Key Word: Fair Classification; Group Fairness.
+  - <details><summary>Digest</summary> Only recently, researchers attempt to provide classification algorithms with provable group fairness guarantees. Most of these algorithms suffer from harassment caused by the requirement that the training and deployment data follow the same distribution. This paper proposes an input-agnostic certified group fairness algorithm, FairSmooth, for improving the fairness of classification models while maintaining the remarkable prediction accuracy. A Gaussian parameter smoothing method is developed to transform base classifiers into their smooth versions. An optimal individual smooth classifier is learnt for each group with only the data regarding the group and an overall smooth classifier for all groups is generated by averaging the parameters of all the individual smooth ones.
+
+- FairGrad: Fairness Aware Gradient Descent. [[paper]](https://arxiv.org/abs/2206.10923)
+  - Gaurav Maheshwari, Michaël Perrot.
+  - Key Word: Group Fairness.
+  - <details><summary>Digest</summary> We propose FairGrad, a method to enforce fairness based on a reweighting scheme that iteratively learns group specific weights based on whether they are advantaged or not. FairGrad is easy to implement and can accommodate various standard fairness definitions. Furthermore, we show that it is comparable to standard baselines over various datasets including ones used in natural language processing and computer vision.
 
 - Active Fairness Auditing. [[paper]](https://arxiv.org/abs/2206.08450)
   - Tom Yan, Chicheng Zhang. *ICML 2022*
@@ -2020,6 +2065,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Causality: 2022
 
+- Can Foundation Models Talk Causality? [[paper]](https://arxiv.org/abs/2206.10591)
+  - Moritz Willig, Matej Zečević, Devendra Singh Dhami, Kristian Kersting.
+  - Key Word: Foundation Models; Causality.
+  - <details><summary>Digest</summary> Foundation models are subject to an ongoing heated debate, leaving open the question of progress towards AGI and dividing the community into two camps: the ones who see the arguably impressive results as evidence to the scaling hypothesis, and the others who are worried about the lack of interpretability and reasoning capabilities. By investigating to which extent causal representations might be captured by these large scale language models, we make a humble efforts towards resolving the ongoing philosophical conflicts.
+
 - BaCaDI: Bayesian Causal Discovery with Unknown Interventions. [[paper]](https://arxiv.org/abs/2206.01665)
   - Alexander Hägele, Jonas Rothfuss, Lars Lorch, Vignesh Ram Somnath, Bernhard Schölkopf, Andreas Krause.
   - Key Word: Causal Discovery.
@@ -2177,6 +2227,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> This work investigates a blockchain assisted decentralized FL (BLADE-FL) framework, which can well prevent the malicious clients from poisoning the learning process, and further provides a self-motivated and reliable learning environment for clients. In detail, the model aggregation process is fully decentralized and the tasks of training for FL and mining for blockchain are integrated into each participant.
 
 ## Others
+
+### Others: 2022
+
+- X-Risk Analysis for AI Research. [[paper]](https://arxiv.org/abs/2206.05862)
+  - Dan Hendrycks, Mantas Mazeika.
+  - Key Word: AI Risk.
+  - <details><summary>Digest</summary> Artificial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a systematic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential benefits of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us; some say this is like playing with fire and speculate that this could create existential risks (x-risks). To add precision and ground these discussions, we provide a guide for how to analyze AI x-risk.
 
 ### Others: 2018
 
