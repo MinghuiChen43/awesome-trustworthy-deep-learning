@@ -308,6 +308,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Domain Generalization; Causality.
   - <details><summary>Digest</summary> We introduce a general structural causal model to formalize the DG problem. Specifically, we assume that each input is constructed from a mix of causal factors (whose relationship with the label is invariant across domains) and non-causal factors (category-independent), and only the former cause the classification judgments. Our goal is to extract the causal factors from inputs and then reconstruct the invariant causal mechanisms.
 
+- Closing the Generalization Gap of Cross-silo Federated Medical Image Segmentation. [[paper]](https://arxiv.org/abs/2203.10144)
+  - An Xu, Wenqi Li, Pengfei Guo, Dong Yang, Holger Roth, Ali Hatamizadeh, Can Zhao, Daguang Xu, Heng Huang, Ziyue Xu.
+  - Key Word: Personalized Federated Learning; Medical Image Segmentation.
+  - <details><summary>Digest</summary> We propose a novel training framework FedSM to avoid the client drift issue and successfully close the generalization gap compared with the centralized training for medical image segmentation tasks for the first time. We also propose a novel personalized FL objective formulation and a new method SoftPull to solve it in our proposed framework FedSM.
+
 - Uncertainty Modeling for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2202.03958) [[code]](https://github.com/lixiaotong97/dsu)
   - Xiaotong Li, Yongxing Dai, Yixiao Ge, Jun Liu, Ying Shan, Ling-Yu Duan. *ICLR 2022*
   - Key Word: Out-of-Distribution Generalization; Uncertainty.
@@ -574,6 +579,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Xiaoxiao Li, Meirui Jiang, Xiaofei Zhang, Michael Kamp, Qi Dou. *ICLR 2021*
   - Key Word: Federated Learning; Normalization.
   - <details><summary>Digest</summary> We propose an effective method that uses local batch normalization to alleviate the feature shift before averaging models. The resulting scheme, called FedBN, outperforms both classical FedAvg, as well as the state-of-the-art for non-iid data (FedProx) on our extensive experiments. These empirical results are supported by a convergence analysis that shows in a simplified setting that FedBN has a faster convergence rate than FedAvg.
+
+- FLOP: Federated Learning on Medical Datasets using Partial Networks. [[paper]](https://arxiv.org/abs/2102.05218)
+  - Qian Yang, Jianyi Zhang, Weituo Hao, Gregory Spell, Lawrence Carin. *KDD 2021*
+  - Key Word: Federated Learning; Disease Diagnosis.
+  - <details><summary>Digest</summary> We investigate this challenging problem by proposing a simple yet effective algorithm, named Federated Learning on Medical Datasets using Partial Networks (FLOP), that shares only a partial model between the server and clients.
 
 - SelfNorm and CrossNorm for Out-of-Distribution Robustness. [[paper]](https://arxiv.org/abs/2102.02811) [[code]](https://github.com/amazon-research/crossnorm-selfnorm)
   - Zhiqiang Tang, Yunhe Gao, Yi Zhu, Zhi Zhang, Mu Li, Dimitris Metaxas. *ICCV 2021*
@@ -1072,6 +1082,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Evasion Attacks and Defenses: 2021
 
+- MedRDF: A Robust and Retrain-Less Diagnostic Framework for Medical Pretrained Models Against Adversarial Attack. [[paper]](https://arxiv.org/abs/2111.14564)
+  - Mengting Xu, Tao Zhang, Daoqiang Zhang. *TMI*
+  - Key Word: Adversarial Robustness; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We propose a Robust and Retrain-Less Diagnostic Framework for Medical pretrained models against adversarial attack (i.e., MedRDF). It acts on the inference time of the pertained medical model. Specifically, for each test image, MedRDF firstly creates a large number of noisy copies of it, and obtains the output labels of these copies from the pretrained medical diagnostic model. Then, based on the labels of these copies, MedRDF outputs the final robust diagnostic result by majority voting.
+
+- Towards Robust General Medical Image Segmentation. [[paper]](https://arxiv.org/abs/2107.04263) [[code]](https://github.com/BCV-Uniandes/ROG)
+  - Laura Daza, Juan C. Pérez, Pablo Arbeláez. *MICCAI 2021*
+  - Key Word: Adversarial Attack; Medical Image Segmentation; Healthcare.
+  - <details><summary>Digest</summary> We propose a new framework to assess the robustness of general medical image segmentation systems. Our contributions are two-fold: (i) we propose a new benchmark to evaluate robustness in the context of the Medical Segmentation Decathlon (MSD) by extending the recent AutoAttack natural image classification framework to the domain of volumetric data segmentation, and (ii) we present a novel lattice architecture for RObust Generic medical image segmentation (ROG).
+
 - The Dimpled Manifold Model of Adversarial Examples in Machine Learning. [[paper]](https://arxiv.org/abs/2106.10151)
   - Adi Shamir, Odelia Melamed, Oriel BenShmuel.
   - Key Word: Adversarial Robustness.
@@ -1087,12 +1107,37 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training; Memorization.
   - <details><summary>Digest</summary> We explore the memorization effect in adversarial training (AT) for promoting a deeper understanding of model capacity, convergence, generalization, and especially robust overfitting of the adversarially trained models. We first demonstrate that deep networks have sufficient capacity to memorize adversarial examples of training data with completely random labels, but not all AT algorithms can converge under the extreme circumstance. Our study of AT with random labels motivates further analyses on the convergence and generalization of AT. We find that some AT approaches suffer from a gradient instability issue and most recently suggested complexity measures cannot explain robust generalization by considering models trained on random labels.
 
+- BBAEG: Towards BERT-based Biomedical Adversarial Example Generation for Text Classification. [[paper]](https://arxiv.org/abs/2104.01782) [[code]](https://github.com/Ishani-Mondal/BBAEG)
+  - Ishani Mondal. *NAACL 2021*
+  - Key Word: Adversarial Attack; Biomedical Text Classification; Healthcare.
+  - <details><summary>Digest</summary> Recent efforts of generating adversaries using rule-based synonyms and BERT-MLMs have been witnessed in general domain, but the ever increasing biomedical literature poses unique challenges. We propose BBAEG (Biomedical BERT-based Adversarial Example Generation), a black-box attack algorithm for biomedical text classification, leveraging the strengths of both domain-specific synonym replacement for biomedical named entities and BERTMLM predictions, spelling variation and number replacement.
+
 - Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness? [[paper]](https://arxiv.org/abs/2104.09425) [[code]](https://github.com/inspire-group/proxy-distributions)
   - Vikash Sehwag, Saeed Mahloujifar, Tinashe Handina, Sihui Dai, Chong Xiang, Mung Chiang, Prateek Mittal. *ICLR 2022*
   - Key Word: Adversarial Robustness; Proxy Distribution.
   - <details><summary>Digest</summary> We first seek to formally understand the transfer of robustness from classifiers trained on proxy distributions to the real data distribution. We prove that the difference between the robustness of a classifier on the two distributions is upper bounded by the conditional Wasserstein distance between them. Next we use proxy distributions to significantly improve the performance of adversarial training on five different datasets.
 
+- Stabilized Medical Image Attacks. [[paper]](https://arxiv.org/abs/2103.05232) [[code]](https://github.com/imogenqi/SMA)
+  - Gege Qi, Lijun Gong, Yibing Song, Kai Ma, Yefeng Zheng. *ICLR 2021*
+  - Key Word: Adversarial Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We propose an image-based medical adversarial attack method to consistently produce adversarial perturbations on medical images. The objective function of our method consists of a loss deviation term and a loss stabilization term. The loss deviation term increases the divergence between the CNN prediction of an adversarial example and its ground truth label. Meanwhile, the loss stabilization term ensures similar CNN predictions of this example and its smoothed input.
+
+- Towards Evaluating the Robustness of Deep Diagnostic Models by Adversarial Attack. [[paper]](https://arxiv.org/abs/2103.03438) [[code]](https://github.com/MengtingXu1203/EvaluatingRobustness)
+  - Mengting Xu, Tao Zhang, Zhongnian Li, Mingxia Liu, Daoqiang Zhang. *MedIA*
+  - Key Word: Adversarial Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We evaluate the robustness of deep diagnostic models by adversarial attack. Specifically, we have performed two types of adversarial attacks to three deep diagnostic models in both single-label and multi-label classification tasks, and found that these models are not reliable when attacked by adversarial example.
+
 ### Evasion Attacks and Defenses: 2020
+
+- A Hierarchical Feature Constraint to Camouflage Medical Adversarial Attacks. [[paper]](https://arxiv.org/abs/2012.09501) [[code]](https://github.com/ICT-MIRACLE-lab/Hierarchical_Feature_Constraint)
+  - Qingsong Yao, Zecheng He, Yi Lin, Kai Ma, Yefeng Zheng, S. Kevin Zhou. *MICCAI 2021*
+  - Key Word: Adversarial Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> To better understand this phenomenon, we thoroughly investigate the intrinsic characteristic of medical AEs in feature space, providing both empirical evidence and theoretical explanations for the question: why are medical adversarial attacks easy to detect? We first perform a stress test to reveal the vulnerability of deep representations of medical images, in contrast to natural images. We then theoretically prove that typical adversarial attacks to binary disease diagnosis network manipulate the prediction by continuously optimizing the vulnerable representations in a fixed direction, resulting in outlier features that make medical AEs easy to detect.
+
+- Advancing diagnostic performance and clinical usability of neural networks via adversarial training and dual batch normalization. [[paper]](https://arxiv.org/abs/2011.13011) [[code]](https://github.com/peterhan91/Medical-Robust-Training)
+  - Tianyu Han, Sven Nebelung, Federico Pedersoli, Markus Zimmermann, Maximilian Schulze-Hagen, Michael Ho, Christoph Haarburger, Fabian Kiessling, Christiane Kuhl, Volkmar Schulz, Daniel Truhn. *Nature Communications*
+  - Key Word: Adversarail Training; Batch Normalization; Healtcare.
+  - <details><summary>Digest</summary> Unmasking the decision-making process of machine learning models is essential for implementing diagnostic support systems in clinical practice. Here, we demonstrate that adversarially trained models can significantly enhance the usability of pathology detection as compared to their standard counterparts. We let six experienced radiologists rate the interpretability of saliency maps in datasets of X-rays, computed tomography, and magnetic resonance imaging scans. Significant improvements were found for our adversarial models, which could be further improved by the application of dual batch normalization.
 
 - Adversarial Training Reduces Information and Improves Transferability. [[paper]](https://arxiv.org/abs/2007.11259)
   - Matteo Terzi, Alessandro Achille, Marco Maggipinto, Gian Antonio Susto.
@@ -1113,6 +1158,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Chaoning Zhang, Philipp Benz, Tooba Imtiaz, In-So Kweon. *CVPR 2020*
   - Key Word: Universal Adversarial Perturbations.
   - <details><summary>Digest</summary> Our results suggest a new perspective towards the relationship between images and universal perturbations: Universal perturbations contain dominant features, and images behave like noise to them. We are the first to achieve the challenging task of a targeted universal attack without utilizing original training data. Our approach using a proxy dataset achieves comparable performance to the state-of-the-art baselines which utilize the original training dataset.  
+
+- Miss the Point: Targeted Adversarial Attack on Multiple Landmark Detection. [[paper]](https://arxiv.org/abs/2007.05225) [[code]](https://github.com/qsyao/attack_landmark_detection)
+  - Qingsong Yao, Zecheng He, Hu Han, S. Kevin Zhou. *MICCAI 2020*
+  - Key Word: Adversarial Attack; Medical Image; Landmark Detection; Healthcare.
+  - <details><summary>Digest</summary> This paper is the first to study how fragile a CNN-based model on multiple landmark detection to adversarial perturbations. Specifically, we propose a novel Adaptive Targeted Iterative FGSM (ATI-FGSM) attack against the state-of-the-art models in multiple landmark detection. The attacker can use ATI-FGSM to precisely control the model predictions of arbitrarily selected landmarks, while keeping other stationary landmarks still, by adding imperceptible perturbations to the original image.
 
 - Understanding and Improving Fast Adversarial Training. [[paper]](https://arxiv.org/abs/2007.02617) [[code]](https://github.com/tml-epfl/understanding-fast-adv-training)
   - Maksym Andriushchenko, Nicolas Flammarion.
@@ -1139,10 +1189,20 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: ReLU; Adversarial Training.
   - <details><summary>Digest</summary> Hence we propose smooth adversarial training (SAT), in which we replace ReLU with its smooth approximations to strengthen adversarial training. The purpose of smooth activation functions in SAT is to allow it to find harder adversarial examples and compute better gradient updates during adversarial training. Compared to standard adversarial training, SAT improves adversarial robustness for "free", i.e., no drop in accuracy and no increase in computational cost.  
 
+- Adversarial Attack Vulnerability of Medical Image Analysis Systems: Unexplored Factors. [[paper]](https://arxiv.org/abs/2006.06356) [[code]](https://github.com/Gerda92/adversarial_transfer_factors)
+  - Gerda Bortsova, Cristina González-Gonzalo, Suzanne C. Wetstein, Florian Dubost, Ioannis Katramados, Laurens Hogeweg, Bart Liefers, Bram van Ginneken, Josien P.W. Pluim, Mitko Veta, Clara I. Sánchez, Marleen de Bruijne. *MedIA*
+  - Key Word: Adversarial Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We study previously unexplored factors affecting adversarial attack vulnerability of deep learning MedIA systems in three medical domains: ophthalmology, radiology, and pathology. We focus on adversarial black-box settings, in which the attacker does not have full access to the target model and usually uses another model, commonly referred to as surrogate model, to craft adversarial examples. We consider this to be the most realistic scenario for MedIA systems.
+
 - A Causal View on Robustness of Neural Networks. [[paper]](https://arxiv.org/abs/2005.01095)
   - Cheng Zhang, Kun Zhang, Yingzhen Li. *NeurIPS 2020*
   - Key Word: Adversarial Robustness; Causal Learning; Disentangled Representations.
   - <details><summary>Digest</summary> We present a causal view on the robustness of neural networks against input manipulations, which applies not only to traditional classification tasks but also to general measurement data. Based on this view, we design a deep causal manipulation augmented model (deep CAMA) which explicitly models possible manipulations on certain causes leading to changes in the observed effect.  
+
+- No Surprises: Training Robust Lung Nodule Detection for Low-Dose CT Scans by Augmenting with Adversarial Attacks. [[paper]](https://arxiv.org/abs/2003.03824)
+  - Siqi Liu, Arnaud Arindra Adiyoso Setio, Florin C. Ghesu, Eli Gibson, Sasa Grbic, Bogdan Georgescu, Dorin Comaniciu. *TMI*
+  - Key Word: Adversarial Defense; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We propose to add adversarial synthetic nodules and adversarial attack samples to the training data to improve the generalization and the robustness of the lung nodule detection systems. To generate hard examples of nodules from a differentiable nodule synthesizer, we use projected gradient descent (PGD) to search the latent code within a bounded neighbourhood that would generate nodules to decrease the detector response. To make the network more robust to unanticipated noise perturbations, we use PGD to search for noise patterns that can trigger the network to give over-confident mistakes.
 
 - Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks. [[paper]](https://arxiv.org/abs/2003.01690) [[code]](https://github.com/fra31/auto-attack)
   - Francesco Croce, Matthias Hein. *ICML 2020*
@@ -1217,6 +1277,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Biologically Inspired Sleep Algorithm.
   - <details><summary>Digest</summary> We provide a theoretical basis for the beneficial role of the brain-inspired sleep-like phase for the ANNs and present an algorithmic way for future implementations of the various features of sleep in deep learning ANNs.  
 
+- Impact of Adversarial Examples on Deep Learning Models for Biomedical Image Segmentation. [[paper]](https://arxiv.org/abs/1907.13124) [[code]](https://github.com/utkuozbulak/adaptive-segmentation-mask-attack)
+  - Utku Ozbulak, Arnout Van Messem, Wesley De Neve. *MICCAI 2019*
+  - Key Word: Adversarial Attack; Biomedical Image Segmentation; Healthcare.
+  - <details><summary>Digest</summary> Given that a large portion of medical imaging problems are effectively segmentation problems, we analyze the impact of adversarial examples on deep learning-based image segmentation models. Specifically, we expose the vulnerability of these models to adversarial examples by proposing the Adaptive Segmentation Mask Attack (ASMA). This novel algorithm makes it possible to craft targeted adversarial examples that come with (1) high intersection-over-union rates between the target adversarial mask and the prediction and (2) with perturbation that is, for the most part, invisible to the bare eye.
+
 - Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial Training. [[paper]](https://arxiv.org/abs/1907.10764) [[code]](https://github.com/Haichao-Zhang/FeatureScatter)
   - Haichao Zhang, Jianyu Wang. *NeurIPS 2019*
   - Key Word: Feature Scattering.
@@ -1276,6 +1341,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Yandong Li, Lijun Li, Liqiang Wang, Tong Zhang, Boqing Gong. *ICML 2019*
   - Key Word: Adversarial Attacks.
   - <details><summary>Digest</summary> Instead of searching for an "optimal" adversarial example for a benign input to a targeted DNN, our algorithm finds a probability density distribution over a small region centered around the input, such that a sample drawn from this distribution is likely an adversarial example, without the need of accessing the DNN's internal layers or weights.  
+
+- Non-Local Context Encoder: Robust Biomedical Image Segmentation against Adversarial Attacks. [[paper]](https://arxiv.org/abs/1904.12181)
+  - Xiang He, Sibei Yang, Guanbin Li?, Haofeng Li, Huiyou Chang, Yizhou Yu. *AAAI 2019*
+  - Key Word: Adversarial Attack; Biomedical Image Segmentation; Healthcare.
+  - <details><summary>Digest</summary> We discover that global spatial dependencies and global contextual information in a biomedical image can be exploited to defend against adversarial attacks. To this end, non-local context encoder (NLCE) is proposed to model short- and long range spatial dependencies and encode global contexts for strengthening feature activations by channel-wise attention. The NLCE modules enhance the robustness and accuracy of the non-local context encoding network (NLCEN), which learns robust enhanced pyramid feature representations with NLCE modules, and then integrates the information across different levels.
 
 - Unrestricted Adversarial Examples via Semantic Manipulation. [[paper]](https://arxiv.org/abs/1904.06347) [[code]](https://github.com/AI-secure/Big-but-Invisible-Adversarial-Attack)
   - Anand Bhattad, Min Jin Chong, Kaizhao Liang, Bo Li, D. A. Forsyth. *ICLR 2020*
@@ -1354,6 +1424,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Robustness.
   - <details><summary>Digest</summary> We show that already in a simple natural data model, the sample complexity of robust learning can be significantly larger than that of "standard" learning. This gap is information theoretic and holds irrespective of the training algorithm or the model family.  
 
+- Generalizability vs. Robustness: Adversarial Examples for Medical Imaging. [[paper]](https://arxiv.org/abs/1804.00504)
+  - Magdalini Paschali, Sailesh Conjeti, Fernando Navarro, Nassir Navab. *MICCAI 2018*
+  - Key Word: Adversarial Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> In this paper, for the first time, we propose an evaluation method for deep learning models that assesses the performance of a model not only in an unseen test scenario, but also in extreme cases of noise, outliers and ambiguous input data. To this end, we utilize adversarial examples, images that fool machine learning models, while looking imperceptibly different from original data, as a measure to evaluate the robustness of a variety of medical imaging models.
+
 - Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples. [[paper]](https://arxiv.org/abs/1802.00420) [[code]](https://github.com/anishathalye/obfuscated-gradients)
   - Anish Athalye, Nicholas Carlini, David Wagner. *ICML 2018*
   - Key Word: Adversarial Robustness.
@@ -1368,6 +1443,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Alhussein Fawzi, Hamza Fawzi, Omar Fawzi. *NeurIPS 2018*
   - Key Word: Adversarial Examples.
   - <details><summary>Digest</summary> In this paper, we study the phenomenon of adversarial perturbations under the assumption that the data is generated with a smooth generative model. We derive fundamental upper bounds on the robustness to perturbations of any classification function, and prove the existence of adversarial perturbations that transfer well across different classifiers with small risk.  
+
+- Identify Susceptible Locations in Medical Records via Adversarial Attacks on Deep Predictive Models. [[paper]](https://arxiv.org/abs/1802.04822)
+  - Mengying Sun, Fengyi Tang, Jinfeng Yi, Fei Wang, Jiayu Zhou. *KDD 2018*
+  - Key Word: Adversarial Attack; Medical Record; Healthcare.
+  - <details><summary>Digest</summary> We propose an efficient and effective framework that learns a time-preferential minimum attack targeting the LSTM model with EHR inputs, and we leverage this attack strategy to screen medical records of patients and identify susceptible events and measurements.
 
 ### Evasion Attacks and Defenses: 2017
 
@@ -1423,6 +1503,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ### Poisoning Attacks and Defenses: 2021
+
+- FIBA: Frequency-Injection based Backdoor Attack in Medical Image Analysis. [[paper]](https://arxiv.org/abs/2112.01148) [[code]](https://github.com/hazardfy/fiba)
+  - Yu Feng, Benteng Ma, Jing Zhang, Shanshan Zhao, Yong Xia, Dacheng Tao. *CVPR 2022*
+  - Key Word: Backdoor Attack; Medical Image; Healthcare.
+  - <details><summary>Digest</summary>
 
 - AEVA: Black-box Backdoor Detection Using Adversarial Extreme Value Analysis. [[paper]](https://arxiv.org/abs/2110.14880) [[code]](https://github.com/junfenggo/aeva-blackbox-backdoor-detection-main)
   - Junfeng Guo, Ang Li, Cong Liu. *ICLR 2022*
@@ -1561,6 +1646,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Kai Wang, Bo Zhao, Xiangyu Peng, Zheng Zhu, Jiankang Deng, Xinchao Wang, Hakan Bilen, Yang You.
   - Key Word: Privacy; Face Recognition.
   - <details><summary>Digest</summary> We propose a novel framework FaceMAE, where the face privacy and recognition performance are considered simultaneously. Firstly, randomly masked face images are used to train the reconstruction module in FaceMAE. We tailor the instance relation matching (IRM) module to minimize the distribution gap between real faces and FaceMAE reconstructed ones. During the deployment phase, we use trained FaceMAE to reconstruct images from masked faces of unseen identities without extra training.
+
+- SPAct: Self-supervised Privacy Preservation for Action Recognition. [[paper]](https://arxiv.org/abs/2203.15205) [[code]](https://github.com/DAVEISHAN/SPAct)
+  - Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah. *CVPR 2022*
+  - Key Word: Self-Supervion; Privacy; Action Recognition.
+  - <details><summary>Digest</summary> Recent developments of self-supervised learning (SSL) have unleashed the untapped potential of the unlabeled data. For the first time, we present a novel training framework which removes privacy information from input video in a self-supervised manner without requiring privacy labels. Our training framework consists of three main components: anonymization function, self-supervised privacy removal branch, and action recognition branch. We train our framework using a minimax optimization strategy to minimize the action recognition cost function and maximize the privacy cost function through a contrastive self-supervised loss.
 
 - Robust Unlearnable Examples: Protecting Data Against Adversarial Learning. [[paper]](https://arxiv.org/abs/2203.14533) [[code]](https://github.com/fshp971/robust-unlearnable-examples)
   - Shaopeng Fu, Fengxiang He, Yang Liu, Li Shen, Dacheng Tao. *ICLR 2022*
@@ -1732,6 +1822,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Ligeng Zhu, Zhijian Liu, Song Han. *NeurIPS 2019*
   - Key Word: Gradient Inversion Attacks.
   - <details><summary>Digest</summary> We show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks.  
+
+- P3SGD: Patient Privacy Preserving SGD for Regularizing Deep CNNs in Pathological Image Classification. [[paper]](https://arxiv.org/abs/1905.12883)  
+  - Bingzhe Wu, Shiwan Zhao, Guangyu Sun, Xiaolu Zhang, Zhong Su, Caihong Zeng, Zhihong Liu. *CVPR 2019*
+  - Key Word: Privacy; Pathological Image Classification; Healthcare.
+  - <details><summary>Digest</summary> We introduce a novel stochastic gradient descent (SGD) scheme, named patient privacy preserving SGD (P3SGD), which performs the model update of the SGD in the patient level via a large-step update built upon each patient's data. Specifically, to protect privacy and regularize the CNN model, we propose to inject the well-designed noise into the updates.
 
 ## Fairness
 
@@ -2283,6 +2378,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Dan Hendrycks, Mantas Mazeika.
   - Key Word: AI Risk.
   - <details><summary>Digest</summary> Artificial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a systematic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential benefits of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us; some say this is like playing with fire and speculate that this could create existential risks (x-risks). To add precision and ground these discussions, we provide a guide for how to analyze AI x-risk.
+
+### Others: 2021
+
+- Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection. [[paper]](https://arxiv.org/abs/2110.14019)
+  - Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel. *NeurIPS 2021*
+  - Key Word: Healthcare; Health Screening and Diagnosis; Dataset Shift Detection.
+  - <details><summary>Digest</summary> Unpredictable ML model behavior on unseen data, especially in the health domain, raises serious concerns about its safety as repercussions for mistakes can be fatal. In this paper, we explore the feasibility of using state-of-the-art out-of-distribution detectors for reliable and trustworthy diagnostic predictions. We select publicly available deep learning models relating to various health conditions (e.g., skin cancer, lung sound, and Parkinson's disease) using various input data types (e.g., image, audio, and motion data). We demonstrate that these models show unreasonable predictions on out-of-distribution datasets.
 
 ### Others: 2018
 
