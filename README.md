@@ -1095,6 +1095,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Robustness; Distribution Shift.
   - <details><summary>Digest</summary> This paper presents a unified framework that connects Wasserstein distributional robustness with current state-of-the-art AT methods. We introduce a new Wasserstein cost function and a new series of risk functions, with which we show that standard AT methods are special cases of their counterparts in our framework.
 
+- Make Some Noise: Reliable and Efficient Single-Step Adversarial Training. [[paper]](https://arxiv.org/abs/2202.01181) [[code]](https://github.com/pdejorge/n-fgsm)
+  - Pau de Jorge, Adel Bibi, Riccardo Volpi, Amartya Sanyal, Philip H. S. Torr, Grégory Rogez, Puneet K. Dokania.
+  - Key Word: Adversarial Training; Robust Overfitting.
+  - <details><summary>Digest</summary> We methodically revisit the role of noise and clipping in single-step adversarial training. Contrary to previous intuitions, we find that using a stronger noise around the clean sample combined with not clipping is highly effective in avoiding CO for large perturbation radii. Based on these observations, we then propose Noise-FGSM (N-FGSM) that, while providing the benefits of single-step adversarial training, does not suffer from CO. Empirical analyses on a large suite of experiments show that N-FGSM is able to match or surpass the performance of previous single-step methods while achieving a 3× speed-up.
+
 ### Evasion Attacks and Defenses: 2021
 
 - MedRDF: A Robust and Retrain-Less Diagnostic Framework for Medical Pretrained Models Against Adversarial Attack. [[paper]](https://arxiv.org/abs/2111.14564)
