@@ -348,6 +348,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Distribution Shifts; Graph Neural Networks.
   - <details><summary>Digest</summary> We formulate the OOD problem on graphs and develop a new invariant learning approach, Explore-to-Extrapolate Risk Minimization (EERM), that facilitates graph neural networks to leverage invariance principles for prediction. EERM resorts to multiple context explorers (specified as graph structure editers in our case) that are adversarially trained to maximize the variance of risks from multiple virtual environments.
 
+- Certifying Out-of-Domain Generalization for Blackbox Functions. [[paper]](https://arxiv.org/abs/2202.01679)
+  - Maurice Weber, Linyi Li, Boxin Wang, Zhikuan Zhao, Bo Li, Ce Zhang.
+  - Key Word: Certified Distributional Robustness; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We focus on the problem of certifying distributional robustness for black box models and bounded losses, without other assumptions. We propose a novel certification framework given bounded distance of mean and variance of two distributions. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse range of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC.
+
+- Certifying Model Accuracy under Distribution Shifts. [[paper]](https://arxiv.org/abs/2201.12440)
+  - Aounon Kumar, Alexander Levine, Tom Goldstein, Soheil Feizi.
+  - Key Word: Certified Distributional Robustness; Corruption Robustness.
+  - <details><summary>Digest</summary> Certified robustness in machine learning has primarily focused on adversarial perturbations of the input with a fixed attack budget for each point in the data distribution. In this work, we present provable robustness guarantees on the accuracy of a model under bounded Wasserstein shifts of the data distribution. We show that a simple procedure that randomizes the input of the model within a transformation space is provably robust to distributional shifts under the transformation. Our framework allows the datum-specific perturbation size to vary across different points in the input distribution and is general enough to include fixed-sized perturbations as well.
+
 ### Out-of-Distribution Generalization: 2021
 
 - Failure Modes of Domain Generalization Algorithms. [[paper]](https://arxiv.org/abs/2111.13733) [[code]](https://github.com/YerevaNN/dom-gen-failure-modes)  
