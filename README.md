@@ -168,6 +168,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Guillotine Regularization: Improving Deep Networks Generalization by Removing their Head. [[paper]](https://arxiv.org/abs/2206.13378)
+  - Florian Bordes, Randall Balestriero, Quentin Garrido, Adrien Bardes, Pascal Vincent.
+  - Key Word: Pre-training; Self-Supervion; Fine-tuning; Regularization; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> One unexpected technique that emerged in recent years consists in training a Deep Network (DN) with a Self-Supervised Learning (SSL) method, and using this network on downstream tasks but with its last few layers entirely removed. This usually skimmed-over trick is actually critical for SSL methods to display competitive performances. For example, on ImageNet classification, more than 30 points of percentage can be gained that way. This is a little vexing, as one would hope that the network layer at which invariance is explicitly enforced by the SSL criterion during training (the last layer) should be the one to use for best generalization performance downstream. But it seems not to be, and this study sheds some light on why. This trick, which we name Guillotine Regularization (GR), is in fact a generically applicable form of regularization that has also been used to improve generalization performance in transfer learning scenarios. In this work, through theory and experiments, we formalize GR and identify the underlying reasons behind its success in SSL methods.
+
+- Gated Domain Units for Multi-source Domain Generalization. [[paper]](https://arxiv.org/abs/2206.12444)
+  - Simon Föll, Alina Dubatovka, Eugen Ernst, Martin Maritsch, Patrik Okanovic, Gudrun Thäter, Joachim M. Buhmann, Felix Wortmann, Krikamol Muandet.
+  - Key Word: Multi-Source Domain Generalization; Invariant Elementary Distributions.
+  - <details><summary>Digest</summary> Distribution shift (DS) is a common problem that deteriorates the performance of learning machines. To overcome this problem, we postulate that real-world distributions are composed of elementary distributions that remain invariant across different domains. We call this an invariant elementary distribution (I.E.D.) assumption. This invariance thus enables knowledge transfer to unseen domains. To exploit this assumption in domain generalization (DG), we developed a modular neural network layer that consists of Gated Domain Units (GDUs). Each GDU learns an embedding of an individual elementary domain that allows us to encode the domain similarities during the training. During inference, the GDUs compute similarities between an observation and each of the corresponding elementary distributions which are then used to form a weighted ensemble of learning machines.
+
 - On Certifying and Improving Generalization to Unseen Domains. [[paper]](https://arxiv.org/abs/2206.12364) [[code]](https://github.com/akshaymehra24/CertifiableDG)
   - Akshay Mehra, Bhavya Kailkhura, Pin-Yu Chen, Jihun Hamm.
   - Key Word: Certified Domain Generalization; Distributionally Robust Optimization.
@@ -1020,6 +1030,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Defending Multimodal Fusion Models against Single-Source Adversaries. [[paper]](https://arxiv.org/abs/2206.12714)
+  - Karren Yang, Wan-Yi Lin, Manash Barman, Filipe Condessa, Zico Kolter. *CVPR 2021*
+  - Key Word: Adversarial Robustness; Multimodal Fusion Models.
+  - <details><summary>Digest</summary> We investigate the robustness of multimodal neural networks against worst-case (i.e., adversarial) perturbations on a single modality. We first show that standard multimodal fusion models are vulnerable to single-source adversaries: an attack on any single modality can overcome the correct information from multiple unperturbed modalities and cause the model to fail. This surprising vulnerability holds across diverse multimodal tasks and necessitates a solution. Motivated by this finding, we propose an adversarially robust fusion strategy that trains the model to compare information coming from all the input sources, detect inconsistencies in the perturbed modality compared to the other modalities, and only allow information from the unperturbed modalities to pass through.
+
 - Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective. [[paper]](https://arxiv.org/abs/2206.12227)
   - Mark Huasong Meng, Guangdong Bai, Sin Gee Teo, Zhe Hou, Yan Xiao, Yun Lin, Jin Song Dong.
   - Key Word: Adversarial Robustness; Survey.
@@ -1532,6 +1547,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Poisoning Attacks and Defenses: 2022
 
+- BackdoorBench: A Comprehensive Benchmark of Backdoor Learning. [[paper]](https://arxiv.org/abs/2206.12654) [[code]](https://github.com/sclbd/backdoorbench)
+  - Baoyuan Wu, Hongrui Chen, Mingda Zhang, Zihao Zhu, Shaokui Wei, Danni Yuan, Chao Shen, Hongyuan Zha.
+  - Key Word: Backdoor Learning; Benchmark.
+  - <details><summary>Digest</summary> We find that the evaluations of new methods are often unthorough to verify their claims and real performance, mainly due to the rapid development, diverse settings, as well as the difficulties of implementation and reproducibility. Without thorough evaluations and comparisons, it is difficult to track the current progress and design the future development roadmap of the literature. To alleviate this dilemma, we build a comprehensive benchmark of backdoor learning, called BackdoorBench. It consists of an extensible modular based codebase (currently including implementations of 8 state-of-the-art (SOTA) attack and 9 SOTA defense algorithms), as well as a standardized protocol of a complete backdoor learning. We also provide comprehensive evaluations of every pair of 8 attacks against 9 defenses, with 5 poisoning ratios, based on 5 models and 4 datasets, thus 8,000 pairs of evaluations in total.
+
 - Natural Backdoor Datasets. [[paper]](https://arxiv.org/abs/2206.10673) [[code]](https://github.com/uchicago-sandlab/naturalbackdoors)
   - Emily Wenger, Roma Bhattacharjee, Arjun Nitin Bhagoji, Josephine Passananti, Emilio Andere, Haitao Zheng, Ben Y. Zhao.
   - Key Word: Natural Backdoor Attacks.
@@ -1897,6 +1917,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Fairness: 2022
 
+- Transferring Fairness under Distribution Shifts via Fair Consistency Regularization. [[paper]](https://arxiv.org/abs/2206.12796)
+  - Bang An, Zora Che, Mucong Ding, Furong Huang.
+  - Key Word: Fairness; Distribution Shifts; Regularization.
+  - <details><summary>Digest</summary> We study how to transfer model fairness under distribution shifts, a widespread issue in practice. We conduct a fine-grained analysis of how the fair model is affected under different types of distribution shifts and find that domain shifts are more challenging than subpopulation shifts. Inspired by the success of self-training in transferring accuracy under domain shifts, we derive a sufficient condition for transferring group fairness. Guided by it, we propose a practical algorithm with a fair consistency regularization as the key component.
+
 - Input-agnostic Certified Group Fairness via Gaussian Parameter Smoothing. [[paper]](https://arxiv.org/abs/2206.11423)
   - Jiayin Jin, Zeru Zhang, Yang Zhou, Lingfei Wu.
   - Key Word: Fair Classification; Group Fairness.
@@ -2007,6 +2032,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Auditing Visualizations: Transparency Methods Struggle to Detect Anomalous Behavior. [[paper]](https://arxiv.org/abs/2206.13498)
+  - Jean-Stanislas Denain, Jacob Steinhardt.
+  - Key Word: Anomalous Models; Feature Attributions;
+  - <details><summary>Digest</summary> Transparency methods such as model visualizations provide information that outputs alone might miss, since they describe the internals of neural networks. But can we trust that model explanations reflect model behavior? For instance, can they diagnose abnormal behavior such as backdoors or shape bias? To evaluate model explanations, we define a model as anomalous if it differs from a reference set of normal models, and we test whether transparency methods assign different explanations to anomalous and normal models. We find that while existing methods can detect stark anomalies such as shape bias or adversarial training, they struggle to identify more subtle anomalies such as models trained on incomplete data.
+
 - When adversarial attacks become interpretable counterfactual explanations. [[paper]](https://arxiv.org/abs/2206.06854)
   - Mathieu Serrurier, Franck Mamalet, Thomas Fel, Louis Béthune, Thibaut Boissin.
   - Key Word: Explainability; Interpretability; Saliency Maps.
@@ -2063,6 +2093,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Neil Jethani, Mukund Sudarshan, Ian Covert, Su-In Lee, Rajesh Ranganath. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Game Theory.
   - <details><summary>Digest</summary> Although Shapley values are theoretically appealing for explaining black-box models, they are costly to calculate and thus impractical in settings that involve large, high-dimensional models. To remedy this issue, we introduce FastSHAP, a new method for estimating Shapley values in a single forward pass using a learned explainer model. To enable efficient training without requiring ground truth Shapley values, we develop an approach to train FastSHAP via stochastic gradient descent using a weighted least-squares objective function.
+
+- Meaningfully Debugging Model Mistakes using Conceptual Counterfactual Explanations. [[paper]](https://arxiv.org/abs/2106.12723) [[code]](https://github.com/mertyg/debug-mistakes-cce)  
+  - Abubakar Abid, Mert Yuksekgonul, James Zou. *ICML 2022*
+  - Key Word: Concept Activation Vectors; Counterfactual Explanations.
+  - <details><summary>Digest</summary> We propose a systematic approach, conceptual counterfactual explanations (CCE), that explains why a classifier makes a mistake on a particular test sample(s) in terms of human-understandable concepts (e.g. this zebra is misclassified as a dog because of faint stripes). We base CCE on two prior ideas: counterfactual explanations and concept activation vectors, and validate our approach on well-known pretrained models, showing that it explains the models' mistakes meaningfully.
 
 - DISSECT: Disentangled Simultaneous Explanations via Concept Traversals. [[paper]](https://arxiv.org/abs/2105.15164) [[code]](https://github.com/asmadotgh/dissect)
   - Asma Ghandeharioun, Been Kim, Chun-Liang Li, Brendan Jou, Brian Eoff, Rosalind W. Picard. *ICLR 2022*
@@ -2450,6 +2485,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel. *NeurIPS 2021*
   - Key Word: Healthcare; Health Screening and Diagnosis; Dataset Shift Detection.
   - <details><summary>Digest</summary> Unpredictable ML model behavior on unseen data, especially in the health domain, raises serious concerns about its safety as repercussions for mistakes can be fatal. In this paper, we explore the feasibility of using state-of-the-art out-of-distribution detectors for reliable and trustworthy diagnostic predictions. We select publicly available deep learning models relating to various health conditions (e.g., skin cancer, lung sound, and Parkinson's disease) using various input data types (e.g., image, audio, and motion data). We demonstrate that these models show unreasonable predictions on out-of-distribution datasets.
+
+- Do Humans Trust Advice More if it Comes from AI? An Analysis of Human-AI Interactions. [[paper]](https://arxiv.org/abs/2107.07015)
+  - Kailas Vodrahalli, Roxana Daneshjou, Tobias Gerstenberg, James Zou. *AIES 2022*
+  - Key Word: Human–Computer Interaction; Human-Centered Computing; AI Advice.
+  - <details><summary>Digest</summary> We recruited over 1100 crowdworkers to characterize how humans use AI suggestions relative to equivalent suggestions from a group of peer humans across several experimental settings. We find that participants' beliefs about how human versus AI performance on a given task affects whether they heed the advice. When participants do heed the advice, they use it similarly for human and AI suggestions. Based on these results, we propose a two-stage, "activation-integration" model for human behavior and use it to characterize the factors that affect human-AI interactions.
 
 ### Others: 2018
 
