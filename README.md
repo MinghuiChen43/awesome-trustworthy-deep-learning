@@ -1652,6 +1652,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
   </details>
 
+- Why patient data cannot be easily forgotten? [[paper]](https://arxiv.org/abs/2206.14541)
+  - Ruolin Su, Xiao Liu, Sotirios A. Tsaftaris. *MICCAI 2022*
+  - Key Word: Privacy; Patient-wise Forgetting; Scrubbing.
+  - <details><summary>Digest</summary> We study the influence of patient data on model performance and formulate two hypotheses for a patient's data: either they are common and similar to other patients or form edge cases, i.e. unique and rare cases. We show that it is not possible to easily forget patient data. We propose a targeted forgetting approach to perform patient-wise forgetting. Extensive experiments on the benchmark Automated Cardiac Diagnosis Challenge dataset showcase the improved performance of the proposed targeted forgetting approach as opposed to a state-of-the-art method.
+
 - Data Leakage in Federated Averaging. [[paper]](https://arxiv.org/abs/2206.12395)
   - Dimitar I. Dimitrov, Mislav Balunović, Nikola Konstantinov, Martin Vechev.
   - Key Word: Federated Learning; Gradient Inversion Attacks and Defenses.
@@ -1926,6 +1931,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Fairness
 
 ### Fairness: 2022
+
+- Fair Machine Learning in Healthcare: A Review. [[paper]](https://arxiv.org/abs/2206.14397)
+  - Qizhang Feng, Mengnan Du, Na Zou, Xia Hu.
+  - Key Word: Fairness; Healthcare; Survey.
+  - <details><summary>Digest</summary> Benefiting from the digitization of healthcare data and the development of computing power, machine learning methods are increasingly used in the healthcare domain. Fairness problems have been identified in machine learning for healthcare, resulting in an unfair allocation of limited healthcare resources or excessive health risks for certain groups. Therefore, addressing the fairness problems has recently attracted increasing attention from the healthcare community. However, the intersection of machine learning for healthcare and fairness in machine learning remains understudied. In this review, we build the bridge by exposing fairness problems, summarizing possible biases, sorting out mitigation methods and pointing out challenges along with opportunities for the future.
 
 - Transferring Fairness under Distribution Shifts via Fair Consistency Regularization. [[paper]](https://arxiv.org/abs/2206.12796)
   - Bang An, Zora Che, Mucong Ding, Furong Huang.
