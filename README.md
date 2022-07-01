@@ -2017,6 +2017,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Metric Learning; Fairness.
   - <details><summary>Digest</summary> We are the first to evaluate state-of-the-art DML methods trained on imbalanced data, and to show the negative impact these representations have on minority subgroup performance when used for downstream tasks. In this work, we first define fairness in DML through an analysis of three properties of the representation space -- inter-class alignment, intra-class alignment, and uniformity -- and propose finDML, the fairness in non-balanced DML benchmark to characterize representation fairness.
 
+- Linear Adversarial Concept Erasure. [[paper]](https://arxiv.org/abs/2201.12091) [[code]](https://github.com/shauli-ravfogel/rlace-icml)
+  - Shauli Ravfogel, Michael Twiton, Yoav Goldberg, Ryan Cotterell. *ICML 2022*
+  - Key Word: Fairness; Concept Removal; Bias Mitigation; Interpretability.
+  - <details><summary>Digest</summary> We formulate the problem of identifying and erasing a linear subspace that corresponds to a given concept, in order to prevent linear predictors from recovering the concept. We model this problem as a constrained, linear minimax game, and show that existing solutions are generally not optimal for this task. We derive a closed-form solution for certain objectives, and propose a convex relaxation, R-LACE, that works well for others. When evaluated in the context of binary gender removal, the method recovers a low-dimensional subspace whose removal mitigates bias by intrinsic and extrinsic evaluation. We show that the method -- despite being linear -- is highly expressive, effectively mitigating bias in deep nonlinear classifiers while maintaining tractability and interpretability.
+
 ### Fairness: 2021
 
 - Fair Normalizing Flows. [[paper]](https://arxiv.org/abs/2106.05937) [[code]](https://github.com/eth-sri/fnf)
