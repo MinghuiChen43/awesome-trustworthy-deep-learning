@@ -1207,6 +1207,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Robustness; Proxy Distribution.
   - <details><summary>Digest</summary> We first seek to formally understand the transfer of robustness from classifiers trained on proxy distributions to the real data distribution. We prove that the difference between the robustness of a classifier on the two distributions is upper bounded by the conditional Wasserstein distance between them. Next we use proxy distributions to significantly improve the performance of adversarial training on five different datasets.
 
+- Rethinking Image-Scaling Attacks: The Interplay Between Vulnerabilities in Machine Learning Systems. [[paper]](https://arxiv.org/abs/2104.08690) [[code]](https://github.com/wi-pi/rethinking-image-scaling-attacks)  
+  - Yue Gao, Ilia Shumailov, Kassem Fawaz. *ICML 2022*
+  - Key Word: Adversarial Attacks.
+  - <details><summary>Digest</summary> As real-world images come in varying sizes, the machine learning model is part of a larger system that includes an upstream image scaling algorithm. In this paper, we investigate the interplay between vulnerabilities of the image scaling procedure and machine learning models in the decision-based black-box setting. We propose a novel sampling strategy to make a black-box attack exploit vulnerabilities in scaling algorithms, scaling defenses, and the final machine learning model in an end-to-end manner.
+
 - Stabilized Medical Image Attacks. [[paper]](https://arxiv.org/abs/2103.05232) [[code]](https://github.com/imogenqi/SMA)
   - Gege Qi, Lijun Gong, Yibing Song, Kai Ma, Yefeng Zheng. *ICLR 2021*
   - Key Word: Adversarial Attack; Medical Image; Healthcare.
@@ -1771,6 +1776,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Kuan-Chieh Wang, Yan Fu, Ke Li, Ashish Khisti, Richard Zemel, Alireza Makhzani. *NeurIPS 2021*
   - Key Word: Model Inversion Attacks.
   - <details><summary>Digest</summary> We provide a probabilistic interpretation of model inversion attacks, and formulate a variational objective that accounts for both diversity and accuracy. In order to optimize this variational objective, we choose a variational family defined in the code space of a deep generative model, trained on a public auxiliary dataset that shares some structural similarity with the target dataset.  
+
+- Plug & Play Attacks: Towards Robust and Flexible Model Inversion Attacks. [[paper]](https://arxiv.org/abs/2201.12179) [[code]](https://github.com/LukasStruppek/Plug-and-Play-Attacks)
+  - Lukas Struppek, Dominik Hintersdorf, Antonio De Almeida Correia, Antonia Adler, Kristian Kersting. *ICML 2022*
+  - Key Word: Model Inversion Attacks.
+  - <details><summary>Digest</summary> Previous research has developed generative MIAs that use generative adversarial networks (GANs) as image priors tailored to a specific target model. This makes the attacks time- and resource-consuming, inflexible, and susceptible to distributional shifts between datasets. To overcome these drawbacks, we present Plug & Play Attacks, which relax the dependency between the target model and image prior, and enable the use of a single GAN to attack a wide range of targets, requiring only minor adjustments to the attack.
 
 ### Privacy: 2021
 
