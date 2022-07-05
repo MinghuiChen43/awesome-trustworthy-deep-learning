@@ -183,6 +183,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Pre-training; Self-Supervion; Fine-tuning; Regularization; Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> One unexpected technique that emerged in recent years consists in training a Deep Network (DN) with a Self-Supervised Learning (SSL) method, and using this network on downstream tasks but with its last few layers entirely removed. This usually skimmed-over trick is actually critical for SSL methods to display competitive performances. For example, on ImageNet classification, more than 30 points of percentage can be gained that way. This is a little vexing, as one would hope that the network layer at which invariance is explicitly enforced by the SSL criterion during training (the last layer) should be the one to use for best generalization performance downstream. But it seems not to be, and this study sheds some light on why. This trick, which we name Guillotine Regularization (GR), is in fact a generically applicable form of regularization that has also been used to improve generalization performance in transfer learning scenarios. In this work, through theory and experiments, we formalize GR and identify the underlying reasons behind its success in SSL methods.
 
+- Agreement-on-the-Line: Predicting the Performance of Neural Networks under Distribution Shift. [[paper]](https://arxiv.org/abs/2206.13089)
+  - Christina Baek, Yiding Jiang, Aditi Raghunathan, Zico Kolter.
+  - Key Word: estimating Generalization Error; Distribution Shift.
+  - <details><summary>Digest</summary> Recently, Miller et al. showed that a model's in-distribution (ID) accuracy has a strong linear correlation with its out-of-distribution (OOD) accuracy on several OOD benchmarks -- a phenomenon they dubbed ''accuracy-on-the-line''. While a useful tool for model selection (i.e., the model most likely to perform the best OOD is the one with highest ID accuracy), this fact does not help estimate the actual OOD performance of models without access to a labeled OOD validation set. In this paper, we show a similar but surprising phenomenon also holds for the agreement between pairs of neural network classifiers: whenever accuracy-on-the-line holds, we observe that the OOD agreement between the predictions of any two pairs of neural networks (with potentially different architectures) also observes a strong linear correlation with their ID agreement.
+
 - Gated Domain Units for Multi-source Domain Generalization. [[paper]](https://arxiv.org/abs/2206.12444)
   - Simon Föll, Alina Dubatovka, Eugen Ernst, Martin Maritsch, Patrik Okanovic, Gudrun Thäter, Joachim M. Buhmann, Felix Wortmann, Krikamol Muandet.
   - Key Word: Multi-Source Domain Generalization; Invariant Elementary Distributions.
@@ -1040,6 +1045,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Removing Batch Normalization Boosts Adversarial Training. [[paper]](https://arxiv.org/abs/2207.01156) [[code]](https://github.com/amazon-research/normalizer-free-robust-training)
+  - Key Word: Batch Normalization; Adversarial Training.
+  - <details><summary>Digest</summary> Our normalizer-free robust training (NoFrost) method extends recent advances in normalizer-free networks to AT for its unexplored advantage on handling the mixture distribution challenge. We show that NoFrost achieves adversarial robustness with only a minor sacrifice on clean sample accuracy. On ImageNet with ResNet50, NoFrost achieves 74.06% clean accuracy, which drops merely 2.00% from standard training. In contrast, BN-based AT obtains 59.28% clean accuracy, suffering a significant 16.78% drop from standard training.
+
+- Efficient Adversarial Training With Data Pruning. [[paper]](https://arxiv.org/abs/2207.00694)
+  - Maximilian Kaufmann, Yiren Zhao, Ilia Shumailov, Robert Mullins, Nicolas Papernot.
+  - Key Word: Adversarial Training; Data Pruning.
+  - <details><summary>Digest</summary> We demonstrate data pruning-a method for increasing adversarial training efficiency through data sub-sampling.We empirically show that data pruning leads to improvements in convergence and reliability of adversarial training, albeit with different levels of utility degradation. For example, we observe that using random sub-sampling of CIFAR10 to drop 40% of data, we lose 8% adversarial accuracy against the strongest attackers, while by using only 20% of data we lose 14% adversarial accuracy and reduce runtime by a factor of 3. Interestingly, we discover that in some settings data pruning brings benefits from both worlds-it both improves adversarial accuracy and training time.
+
 - Adversarial Robustness is at Odds with Lazy Training. [[paper]](https://arxiv.org/abs/2207.00411)
   - Yunjuan Wang, Enayat Ullah, Poorya Mianjy, Raman Arora.
   - Key Word: Adversarial Robustness; Lazy Training.
@@ -1572,6 +1586,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Poisoning Attacks and Defenses: 2022
 
+- Backdoor Attack is A Devil in Federated GAN-based Medical Image Synthesis. [[paper]](https://arxiv.org/abs/2207.00762)
+  - Ruinan Jin, Xiaoxiao Li.
+  - Key Word: Backdoor Attacks; Federated Learning; Generative Adversarial Nets; Medical Image; Healthcare.
+  - <details><summary>Digest</summary> We propose a way of attacking federated GAN (FedGAN) by treating the discriminator with a commonly used data poisoning strategy in backdoor attack classification models. We demonstrate that adding a small trigger with size less than 0.5 percent of the original image size can corrupt the FL-GAN model. Based on the proposed attack, we provide two effective defense strategies: global malicious detection and local training regularization.
+
 - BackdoorBench: A Comprehensive Benchmark of Backdoor Learning. [[paper]](https://arxiv.org/abs/2206.12654) [[code]](https://github.com/sclbd/backdoorbench)
   - Baoyuan Wu, Hongrui Chen, Mingda Zhang, Zihao Zhu, Shaokui Wei, Danni Yuan, Chao Shen, Hongyuan Zha.
   - Key Word: Backdoor Learning; Benchmark.
@@ -1672,6 +1691,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
   </details>
 
+- High-Dimensional Private Empirical Risk Minimization by Greedy Coordinate Descent. [[paper]](https://arxiv.org/abs/2207.01560)  
+  - Paul Mangold, Aurélien Bellet, Joseph Salmon, Marc Tommasi.
+  - Key Word: Differentially Private Empirical Risk Minimization.
+  - <details><summary>Digest</summary> In this paper, we study differentially private empirical risk minimization (DP-ERM). It has been shown that the (worst-case) utility of DP-ERM reduces as the dimension increases. This is a major obstacle to privately learning large machine learning models. In high dimension, it is common for some model's parameters to carry more information than others. To exploit this, we propose a differentially private greedy coordinate descent (DP-GCD) algorithm. At each iteration, DP-GCD privately performs a coordinate-wise gradient step along the gradients' (approximately) greatest entry.
+
 - When Does Differentially Private Learning Not Suffer in High Dimensions? [[paper]](https://arxiv.org/abs/2207.00160)
   - Xuechen Li, Daogao Liu, Tatsunori Hashimoto, Huseyin A. Inan, Janardhan Kulkarni, Yin Tat Lee, Abhradeep Guha Thakurta.
   - Key Word: Differentially Private Learning; Large Language Models.
@@ -1771,6 +1795,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Kai Wang, Bo Zhao, Xiangyu Peng, Zheng Zhu, Jiankang Deng, Xinchao Wang, Hakan Bilen, Yang You.
   - Key Word: Privacy; Face Recognition.
   - <details><summary>Digest</summary> We propose a novel framework FaceMAE, where the face privacy and recognition performance are considered simultaneously. Firstly, randomly masked face images are used to train the reconstruction module in FaceMAE. We tailor the instance relation matching (IRM) module to minimize the distribution gap between real faces and FaceMAE reconstructed ones. During the deployment phase, we use trained FaceMAE to reconstruct images from masked faces of unseen identities without extra training.
+
+- Unlocking High-Accuracy Differentially Private Image Classification through Scale. [[paper]](https://arxiv.org/abs/2204.13650) [[code]](https://github.com/deepmind/jax_privacy)
+  - Soham De, Leonard Berrada, Jamie Hayes, Samuel L. Smith, Borja Balle.
+  - Key Word: Differential Privacy; Image Classication.
+  - <details><summary>Digest</summary> Differential Privacy (DP) provides a formal privacy guarantee preventing adversaries with access to a machine learning model from extracting information about individual training points. Differentially Private Stochastic Gradient Descent (DP-SGD), the most popular DP training method for deep learning, realizes this protection by injecting noise during training. However previous works have found that DP-SGD often leads to a significant degradation in performance on standard image classification benchmarks. Furthermore, some authors have postulated that DP-SGD inherently performs poorly on large models, since the norm of the noise required to preserve privacy is proportional to the model dimension. In contrast, we demonstrate that DP-SGD on over-parameterized models can perform significantly better than previously thought. Combining careful hyper-parameter tuning with simple techniques to ensure signal propagation and improve the convergence rate, we obtain a new SOTA without extra data on CIFAR-10 of 81.4% under (8, 10^{-5})-DP using a 40-layer Wide-ResNet, improving over the previous SOTA of 71.7%.
 
 - SPAct: Self-supervised Privacy Preservation for Action Recognition. [[paper]](https://arxiv.org/abs/2203.15205) [[code]](https://github.com/DAVEISHAN/SPAct)
   - Ishan Rajendrakumar Dave, Chen Chen, Mubarak Shah. *CVPR 2022*
