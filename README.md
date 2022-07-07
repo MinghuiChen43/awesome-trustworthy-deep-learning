@@ -168,6 +168,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Multi-modal Robustness Analysis Against Language and Visual Perturbations. [[paper]](https://arxiv.org/abs/2207.02159) [[code]](https://github.com/Maddy12/MultiModalVideoRobustness/tree/master/code)  
+  - Madeline C. Schiappa, Yogesh S. Rawat, Shruti Vyas, Vibhav Vineet, Hamid Palangi.
+  - Key Word: Corruption Robustness; Multi-modal Robustness; Text-to-Video Retrieval.
+  - <details><summary>Digest</summary> Joint visual and language modeling on large-scale datasets has recently shown a good progress in multi-modal tasks when compared to single modal learning. However, robustness of these approaches against real-world perturbations has not been studied. In this work, we perform the first extensive robustness study of such models against various real-world perturbations focusing on video and language. We focus on text-to-video retrieval and propose two large-scale benchmark datasets, MSRVTT-P and YouCook2-P, which utilize 90 different visual and 35 different textual perturbations.
+
+- Predicting Out-of-Domain Generalization with Local Manifold Smoothness. [[paper]](https://arxiv.org/abs/2207.02093)
+  - Nathan Ng, Kyunghyun Cho, Neha Hulkund, Marzyeh Ghassemi.
+  - Key Word: Measures of Complexity; Predicting Out-of-Distribution Generalization; Measuring Function Smoothness.
+  - <details><summary>Digest</summary> Recent work has proposed a variety of complexity measures that directly predict or theoretically bound the generalization capacity of a model. However, these methods rely on a strong set of assumptions that in practice are not always satisfied. Motivated by the limited settings in which existing measures can be applied, we propose a novel complexity measure based on the local manifold smoothness of a classifier. We define local manifold smoothness as a classifier's output sensitivity to perturbations in the manifold neighborhood around a given test point. Intuitively, a classifier that is less sensitive to these perturbations should generalize better.
+
 - Benchmarking the Robustness of Deep Neural Networks to Common Corruptions in Digital Pathology. [[paper]](https://arxiv.org/abs/2206.14973) [[code]](https://github.com/superjamessyx/robustness_benchmark)
   - Yunlong Zhang, Yuxuan Sun, Honglin Li, Sunyi Zheng, Chenglu Zhu, Lin Yang. *MICCAI 2022*
   - Key Word: Corruption Robustness; Digital Pathology.
@@ -1585,6 +1595,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Poisoning Attacks and Defenses
 
 ### Poisoning Attacks and Defenses: 2022
+
+- When does Bias Transfer in Transfer Learning? [[paper]](https://arxiv.org/abs/2207.02842) [[code]](https://github.com/MadryLab/bias-transfer)
+  - Hadi Salman, Saachi Jain, Andrew Ilyas, Logan Engstrom, Eric Wong, Aleksander Madry.
+  - Key Word: Backdoor Attacks; Bias Transfer.
+  - <details><summary>Digest</summary> Using transfer learning to adapt a pre-trained "source model" to a downstream "target task" can dramatically increase performance with seemingly no downside. In this work, we demonstrate that there can exist a downside after all: bias transfer, or the tendency for biases of the source model to persist even after adapting the model to the target class. Through a combination of synthetic and natural experiments, we show that bias transfer both (a) arises in realistic settings (such as when pre-training on ImageNet or other standard datasets) and (b) can occur even when the target dataset is explicitly de-biased.
 
 - Backdoor Attack is A Devil in Federated GAN-based Medical Image Synthesis. [[paper]](https://arxiv.org/abs/2207.00762)
   - Ruinan Jin, Xiaoxiao Li.
