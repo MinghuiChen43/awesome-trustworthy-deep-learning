@@ -1,6 +1,6 @@
 # Awesome Trustworthy Deep Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy. The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
+The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy [[ref]](https://www.papernot.fr/teaching/f19-trustworthy-ml). The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
 
 ## Table of Contents
 
@@ -167,6 +167,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf. *ICLR 2022*
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
+
+- Models Out of Line: A Fourier Lens on Distribution Shift Robustness. [[paper]](https://arxiv.org/abs/2207.04075)
+  - Sara Fridovich-Keil, Brian R. Bartoldson, James Diffenderfer, Bhavya Kailkhura, Peer-Timo Bremer.
+  - Key Word: Predicting Out-of-Distribution Generalization; Frequency Analysis.
+  - <details><summary>Digest</summary> There still is no clear understanding of the conditions on OOD data and model properties that are required to observe effective robustness. We approach this issue by conducting a comprehensive empirical study of diverse approaches that are known to impact OOD robustness on a broad range of natural and synthetic distribution shifts of CIFAR-10 and ImageNet. In particular, we view the "effective robustness puzzle" through a Fourier lens and ask how spectral properties of both models and OOD data influence the corresponding effective robustness.
 
 - Neural Networks and the Chomsky Hierarchy. [[paper]](https://arxiv.org/abs/2207.02098) [[code]](https://github.com/deepmind/neural_networks_chomsky_hierarchy)
   - Grégoire Delétang, Anian Ruoss, Jordi Grau-Moya, Tim Genewein, Li Kevin Wenliang, Elliot Catt, Marcus Hutter, Shane Legg, Pedro A. Ortega.
@@ -1059,6 +1064,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- Not all broken defenses are equal: The dead angles of adversarial accuracy. [[paper]](https://arxiv.org/abs/2207.04129)
+  - Raphael Olivier, Bhiksha Raj.
+  - Key Word: Adversarial Defenses.
+  - <details><summary>Digest</summary> Many defenses, when evaluated against a strong attack, do not provide accuracy improvements while still contributing partially to adversarial robustness. Popular certification methods suffer from the same issue, as they provide a lower bound to accuracy. To capture finer robustness properties we propose a new metric for L2 robustness, adversarial angular sparsity, which partially answers the question "how many adversarial examples are there around an input". We demonstrate its usefulness by evaluating both "strong" and "weak" defenses. We show that some state-of-the-art defenses, delivering very similar accuracy, can have very different sparsity on the inputs that they are not robust on. We also show that some weak defenses actually decrease robustness, while others strengthen it in a measure that accuracy cannot capture.
 
 - Demystifying the Adversarial Robustness of Random Transformation Defenses. [[paper]](https://arxiv.org/abs/2207.03574) [[code]](https://github.com/wagner-group/demystify-random-transform)
   - Chawin Sitawarin, Zachary Golan-Strieb, David Wagner. *ICML 2022*
@@ -2369,6 +2379,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Causality: 2022
 
+- On the Need and Applicability of Causality for Fair Machine Learning. [[paper]](https://arxiv.org/abs/2207.04053)
+  - Rūta Binkytė, Sami Zhioua.
+  - Key Word: Causality; Fairness.
+  - <details><summary>Digest</summary> Causal reasoning has an indispensable role in how humans make sense of the world and come to decisions in everyday life. While 20th century science was reserved from making causal claims as too strong and not achievable, the 21st century is marked by the return of causality encouraged by the mathematization of causal notions and the introduction of the non-deterministic concept of cause. Besides its common use cases in epidemiology, political, and social sciences, causality turns out to be crucial in evaluating the fairness of automated decisions, both in a legal and everyday sense. We provide arguments and examples of why causality is particularly important for fairness evaluation.
+
 - Causal Machine Learning: A Survey and Open Problems. [[paper]](https://arxiv.org/abs/2206.15475)
   - Jean Kaddour, Aengus Lynch, Qi Liu, Matt J. Kusner, Ricardo Silva.
   - Key Word: Causality; Survey.
@@ -2594,6 +2609,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Others
 
 ### Others: 2022
+
+- Repairing Neural Networks by Leaving the Right Past Behind. [[paper]](https://arxiv.org/abs/2207.04806)
+  - Ryutaro Tanno, Melanie F. Pradier, Aditya Nori, Yingzhen Li.
+  - Key Word: Bayesian Continual Unlearning; Model Repairment.
+  - <details><summary>Digest</summary> This work draws on the Bayesian view of continual learning, and develops a generic framework for both, identifying training examples that have given rise to the target failure, and fixing the model through erasing information about them. This framework naturally allows leveraging recent advances in continual learning to this new problem of model repairment, while subsuming the existing works on influence functions and data deletion as specific instances. Experimentally, the proposed approach outperforms the baselines for both identification of detrimental training data and fixing model failures in a generalisable manner.
+
+- Mechanisms that Incentivize Data Sharing in Federated Learning. [[paper]](https://arxiv.org/abs/2207.04557)
+  - Sai Praneeth Karimireddy, Wenshuo Guo, Michael I. Jordan.
+  - Key Word: Data Maximization Incentivization; Federated Learning; Contract Theory.
+  - <details><summary>Digest</summary> Federated learning is typically considered a beneficial technology which allows multiple agents to collaborate with each other, improve the accuracy of their models, and solve problems which are otherwise too data-intensive / expensive to be solved individually. However, under the expectation that other agents will share their data, rational agents may be tempted to engage in detrimental behavior such as free-riding where they contribute no data but still enjoy an improved model. In this work, we propose a framework to analyze the behavior of such rational data generators.
 
 - X-Risk Analysis for AI Research. [[paper]](https://arxiv.org/abs/2206.05862)
   - Dan Hendrycks, Mantas Mazeika.
