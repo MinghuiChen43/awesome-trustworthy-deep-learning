@@ -1075,6 +1075,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Adversarially-Aware Robust Object Detector. [[paper]](https://arxiv.org/abs/2207.06202) [[code]](https://github.com/7eu7d7/RobustDet)
+  - Ziyi Dong, Pengxu Wei, Liang Lin. *ECCV 2022*
+  - Key Word: Adversarial Robustness; Object Detection.
+  - <details><summary>Digest</summary> We empirically explore the model training for adversarial robustness in object detection, which greatly attributes to the conflict between learning clean images and adversarial images. To mitigate this issue, we propose a Robust Detector (RobustDet) based on adversarially-aware convolution to disentangle gradients for model learning on clean and adversarial images. RobustDet also employs the Adversarial Image Discriminator (AID) and Consistent Features with Reconstruction (CFR) to ensure a reliable robustness.
+
 - Frequency Domain Model Augmentation for Adversarial Attack. [[paper]](https://arxiv.org/abs/2207.05382) [[code]](https://github.com/yuyang-long/ssa)
   - Yuyang Long, Qilong Zhang, Boheng Zeng, Lianli Gao, Xianglong Liu, Jian Zhang, Jingkuan Song. *ECCV 2022*
   - Key Word: Frequency; Adversarial Attacks.
@@ -1735,7 +1740,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Privacy: 2022
 
-- RelaxLoss: Defending Membership Inference Attacks without Losing Utility. [[paper]](https://openreview.net/forum?id=FEDfGWVZYIn) [[code]](https://github.com/DingfanChen/RelaxLoss)
+- RelaxLoss: Defending Membership Inference Attacks without Losing Utility. [[paper]](https://arxiv.org/abs/2207.05801) [[code]](https://github.com/DingfanChen/RelaxLoss)
   - Dingfan Chen, Ning Yu, Mario Fritz. *ICLR 2022*
   - Key Word: Membership Inference Attacks and Defenses.
   - <details><summary>Digest</summary> We propose a novel training framework based on a relaxed loss with a more achievable learning target, which leads to narrowed generalization gap and reduced privacy leakage. RelaxLoss is applicable to any classification model with added benefits of easy implementation and negligible overhead.
@@ -2624,6 +2629,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Others
 
 ### Others: 2022
+
+- Language Models (Mostly) Know What They Know. [[paper]](https://arxiv.org/abs/2207.05221)
+  - Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan Perez, Nicholas Schiefer, Zac Hatfield Dodds, Nova DasSarma, Eli Tran-Johnson, Scott Johnston, Sheer El-Showk, Andy Jones, Nelson Elhage, Tristan Hume, Anna Chen, Yuntao Bai, Sam Bowman, Stanislav Fort, Deep Ganguli, Danny Hernandez, Josh Jacobson, Jackson Kernion, Shauna Kravec, Liane Lovitt, Kamal Ndousse, Catherine Olsson, Sam Ringer, Dario Amodei, Tom Brown, Jack Clark, Nicholas Joseph, Ben Mann, Sam McCandlish, Chris Olah, Jared Kaplan.
+  - Key Word: Language Models; Calibration.
+  - <details><summary>Digest</summary> We study whether language models can evaluate the validity of their own claims and predict which questions they will be able to answer correctly. We first show that larger models are well-calibrated on diverse multiple choice and true/false questions when they are provided in the right format. Thus we can approach self-evaluation on open-ended sampling tasks by asking models to first propose answers, and then to evaluate the probability "P(True)" that their answers are correct. We find encouraging performance, calibration, and scaling for P(True) on a diverse array of tasks.
 
 - Repairing Neural Networks by Leaving the Right Past Behind. [[paper]](https://arxiv.org/abs/2207.04806)
   - Ryutaro Tanno, Melanie F. Pradier, Aditya Nori, Yingzhen Li.
