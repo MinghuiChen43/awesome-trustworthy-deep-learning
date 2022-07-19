@@ -413,6 +413,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Certified Distributional Robustness; Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> We focus on the problem of certifying distributional robustness for black box models and bounded losses, without other assumptions. We propose a novel certification framework given bounded distance of mean and variance of two distributions. Our certification technique scales to ImageNet-scale datasets, complex models, and a diverse range of loss functions. We then focus on one specific application enabled by such scalability and flexibility, i.e., certifying out-of-domain generalization for large neural networks and loss functions such as accuracy and AUC.
 
+- Provable Domain Generalization via Invariant-Feature Subspace Recovery. [[paper]](https://arxiv.org/abs/2201.12919) [[code]](https://github.com/haoxiang-wang/isr)  
+  - Haoxiang Wang, Haozhe Si, Bo Li, Han Zhao. *ICML 2022*
+  - Key Word: Domain Generalization; Invariant Learning.
+  - <details><summary>Digest</summary> we propose to achieve domain generalization with Invariant-feature Subspace Recovery (ISR). Our first algorithm, ISR-Mean, can identify the subspace spanned by invariant features from the first-order moments of the class-conditional distributions, and achieve provable domain generalization with ds+1 training environments under the data model of Rosenfeld et al. (2021). Our second algorithm, ISR-Cov, further reduces the required number of training environments to O(1) using the information of second-order moments.
+
 - Certifying Model Accuracy under Distribution Shifts. [[paper]](https://arxiv.org/abs/2201.12440)
   - Aounon Kumar, Alexander Levine, Tom Goldstein, Soheil Feizi.
   - Key Word: Certified Distributional Robustness; Corruption Robustness.
@@ -1095,6 +1100,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Watermark Vaccine: Adversarial Attacks to Prevent Watermark Removal. [[paper]](https://arxiv.org/abs/2207.08178) [[code]](https://github.com/thinwayliu/Watermark-Vaccine)
+  - Xinwei Liu, Jian Liu, Yang Bai, Jindong Gu, Tao Chen, Xiaojun Jia, Xiaochun Cao. *ECCV 2022*
+  - Key Word: Adversarial Attacks; Visible Watermark Removal; Watermark Protection.
+  - <details><summary>Digest</summary> As a common security tool, visible watermarking has been widely applied to protect copyrights of digital images. However, recent works have shown that visible watermarks can be removed by DNNs without damaging their host images. Such watermark-removal techniques pose a great threat to the ownership of images. Inspired by the vulnerability of DNNs on adversarial perturbations, we propose a novel defence mechanism by adversarial machine learning for good. From the perspective of the adversary, blind watermark-removal networks can be posed as our target models; then we actually optimize an imperceptible adversarial perturbation on the host images to proactively attack against watermark-removal networks, dubbed Watermark Vaccine.
+
 - Adversarially-Aware Robust Object Detector. [[paper]](https://arxiv.org/abs/2207.06202) [[code]](https://github.com/7eu7d7/RobustDet)
   - Ziyi Dong, Pengxu Wei, Liang Lin. *ECCV 2022*
   - Key Word: Adversarial Robustness; Object Detection.
@@ -1764,6 +1774,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Privacy
 
 ### Privacy: 2022
+
+- Certified Neural Network Watermarks with Randomized Smoothing. [[paper]](https://arxiv.org/abs/2207.07972) [[code]](https://github.com/arpitbansal297/Certified_Watermarks)
+  - Arpit Bansal, Ping-yeh Chiang, Michael Curry, Rajiv Jain, Curtis Wigington, Varun Manjunatha, John P Dickerson, Tom Goldstein. *ICML 2022*
+  - Key Word: Watermarking Neural Networks; Certified Defenses; Randomized Smoothing.
+  - <details><summary>Digest</summary> Watermarking is a commonly used strategy to protect creators' rights to digital images, videos and audio. Recently, watermarking methods have been extended to deep learning models -- in principle, the watermark should be preserved when an adversary tries to copy the model. However, in practice, watermarks can often be removed by an intelligent adversary. Several papers have proposed watermarking methods that claim to be empirically resistant to different types of removal attacks, but these new techniques often fail in the face of new or better-tuned adversaries. In this paper, we propose a certifiable watermarking method. Using the randomized smoothing technique proposed in Chiang et al., we show that our watermark is guaranteed to be unremovable unless the model parameters are changed by more than a certain l2 threshold.
 
 - RelaxLoss: Defending Membership Inference Attacks without Losing Utility. [[paper]](https://arxiv.org/abs/2207.05801) [[code]](https://github.com/DingfanChen/RelaxLoss)
   - Dingfan Chen, Ning Yu, Mario Fritz. *ICLR 2022*
