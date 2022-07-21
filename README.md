@@ -1722,6 +1722,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Attacks; Natural Reflection.
   - <details><summary>Digest</summary> In this paper, we present a new type of backdoor attack inspired by an important natural phenomenon: reflection. Using mathematical modeling of physical reflection models, we propose reflection backdoor (Refool) to plant reflections as backdoor into a victim model.  
 
+- BackdoorBench: A Comprehensive Benchmark of Backdoor Learning. [[paper]](https://arxiv.org/abs/2206.12654) [[code]](https://github.com/THUYimingLi/backdoor-learning-resources)
+  - Yiming Li, Yong Jiang, Zhifeng Li, Shu-Tao Xia.
+  - Key Word: Backdoor Learning; Survey.
+  - <details><summary>Digest</summary> We present the first comprehensive survey of this realm. We summarize and categorize existing backdoor attacks and defenses based on their characteristics, and provide a unified framework for analyzing poisoning-based backdoor attacks. Besides, we also analyze the relation between backdoor attacks and relevant fields (i.e., adversarial attacks and data poisoning), and summarize widely adopted benchmark datasets. Finally, we briefly outline certain future research directions relying upon reviewed works.
+
 ### Poisoning Attacks and Defenses: 2017
 
 - BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. [[paper]](https://arxiv.org/abs/1708.06733)
