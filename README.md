@@ -102,6 +102,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Discrete Key-Value Bottleneck. [[paper]](https://arxiv.org/abs/2207.11240)
+  - Frederik Träuble, Anirudh Goyal, Nasim Rahaman, Michael Mozer, Kenji Kawaguchi, Yoshua Bengio, Bernhard Schölkopf.
+  - Key Word: Distribution Shifts; Catastrophic Forgetting; Memory Augmented Models.
+  - <details><summary>Digest</summary> In the present work, we propose a model architecture to address this issue, building upon a discrete bottleneck containing pairs of separate and learnable (key, value) codes. In this setup, we follow the encode; process the representation via a discrete bottleneck; and decode paradigm, where the input is fed to the pretrained encoder, the output of the encoder is used to select the nearest keys, and the corresponding values are fed to the decoder to solve the current task. The model can only fetch and re-use a limited number of these (key, value) pairs during inference, enabling localized and context-dependent model updates.
+
 - UniFed: A Benchmark for Federated Learning Frameworks. [[paper]](https://arxiv.org/abs/2207.10308) [[code]](https://github.com/ai-secure/flbenchmark-toolkit)
   - Xiaoyuan Liu, Tianneng Shi, Chulin Xie, Qinbin Li, Kangping Hu, Haoyu Kim, Xiaojun Xu, Bo Li, Dawn Song.
   - Key Word: Federated Learning; Benchmark; Privacy.
@@ -1639,6 +1644,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Poisoning Attacks and Defenses
 
 ### Poisoning Attacks and Defenses: 2022
+
+- Just Rotate it: Deploying Backdoor Attacks via Rotation Transformation. [[paper]](https://arxiv.org/abs/2207.10825)
+  - Tong Wu, Tianhao Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal.
+  - Key Word: Backdoor Attacks; Object Detection.
+  - <details><summary>Digest</summary> Our method constructs the poisoned dataset by rotating a limited amount of objects and labeling them incorrectly; once trained with it, the victim's model will make undesirable predictions during run-time inference. It exhibits a significantly high attack success rate while maintaining clean performance through comprehensive empirical studies on image classification and object detection tasks.
+
+- Suppressing Poisoning Attacks on Federated Learning for Medical Imaging. [[paper]](https://arxiv.org/abs/2207.10804) [[code]](https://github.com/Naiftt/SPAFD)
+  - Naif Alkhunaizi, Dmitry Kamzolov, Martin Takáč, Karthik Nandakumar.
+  - Key Word: Poisoning Attacks; Federated Learning; Medical Imaging; Healthcare.
+  - <details><summary>Digest</summary> We propose a robust aggregation rule called Distance-based Outlier Suppression (DOS) that is resilient to byzantine failures. The proposed method computes the distance between local parameter updates of different clients and obtains an outlier score for each client using Copula-based Outlier Detection (COPOD). The resulting outlier scores are converted into normalized weights using a softmax function, and a weighted average of the local parameters is used for updating the global model.
 
 - When does Bias Transfer in Transfer Learning? [[paper]](https://arxiv.org/abs/2207.02842) [[code]](https://github.com/MadryLab/bias-transfer)
   - Hadi Salman, Saachi Jain, Andrew Ilyas, Logan Engstrom, Eric Wong, Aleksander Madry.
