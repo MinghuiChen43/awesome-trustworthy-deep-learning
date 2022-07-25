@@ -2799,9 +2799,9 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Model Extraction Attacks; Membership inference Attacks.
   - <details><summary>Digest</summary> This work shows that such attributes of neural networks can be exposed from a sequence of queries. This has multiple implications. On the one hand, our work exposes the vulnerability of black-box neural networks to different types of attacks -- we show that the revealed internal information helps generate more effective adversarial examples against the black box model.  
 
-## Related Awesome List
+## Related Awesome Lists
 
-### Robustness List
+### Robustness Lists
 
 - [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
@@ -2811,7 +2811,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [The Papers of Adversarial Examples](https://github.com/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/stars/xiaosen-wang/Adversarial-Examples-Paper)
 
-### Privacy List
+### Privacy Lists
 
 - [Awesome Attacks on Machine Learning Privacy](https://github.com/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/stars/stratosphereips/awesome-ml-privacy-attacks)
 
@@ -2819,13 +2819,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Awesome Privacy Papers for Visual Data](https://github.com/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/stars/brighter-ai/awesome-privacy-papers)
 
-### Fairness List
+### Fairness Lists
 
 - [Awesome Fairness Papers](https://github.com/uclanlp/awesome-fairness-papers) ![ ](https://img.shields.io/github/stars/uclanlp/awesome-fairness-papers)
 
 - [Awesome Fairness in AI](https://github.com/datamllab/awesome-fairness-in-ai) ![ ](https://img.shields.io/github/stars/datamllab/awesome-fairness-in-ai)
 
-### Interpretability List
+### Interpretability Lists
 
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) ![ ](https://img.shields.io/github/stars/jphall663/awesome-machine-learning-interpretability)
 
@@ -2835,19 +2835,19 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Awesome Deep Learning Interpretability](https://github.com/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/stars/oneTaken/awesome_deep_learning_interpretability)
 
-### Open-World List
+### Open-World Lists
 
 - [Awesome Open Set Recognition list](https://github.com/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list)
 
 - [Awesome Novel Class Discovery](https://github.com/JosephKJ/Awesome-Novel-Class-Discovery) ![ ](https://img.shields.io/github/stars/JosephKJ/Awesome-Novel-Class-Discovery)
 
-### Blockchain List
+### Blockchain Lists
 
 - [Blockchain Papers](https://github.com/decrypto-org/blockchain-papers) ![ ](https://img.shields.io/github/stars/decrypto-org/blockchain-papers)
 
 - [Awesome Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai) ![ ](https://img.shields.io/github/stars/steven2358/awesome-blockchain-ai)
 
-### Other List
+### Other Lists
 
 - [Awesome Causality Algorithms](https://github.com/rguo12/awesome-causality-algorithms) ![ ](https://img.shields.io/github/stars/rguo12/awesome-causality-algorithms)
 
@@ -2864,6 +2864,10 @@ TBD
 TBD
 
 ### Tutorials
+
+TBD
+
+### Talks
 
 TBD
 
