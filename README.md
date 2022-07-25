@@ -16,14 +16,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - [Environmental Well-being](#environmental-well-being)
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
-- [Related Awesome Paper List](#related-awesome-paper-list)
-  - [Robustness Paper List](#robustness-paper-list)
-  - [Privacy Paper List](#privacy-paper-list)
-  - [Fairness Paper List](#fairness-paper-list)
-  - [Interpretability Paper List](#interpretability-paper-list)
-  - [Open-World Paper List](#open-world-paper-list)
-  - [Blockchain Paper List](#blockchain-paper-list)
-  - [Other Paper List](#other-paper-list)
+- [Related Awesome List](#related-awesome-list)
+  - [Robustness List](#robustness-list)
+  - [Privacy List](#privacy-list)
+  - [Fairness List](#fairness-list)
+  - [Interpretability List](#interpretability-list)
+  - [Open-World List](#open-world-list)
+  - [Blockchain List](#blockchain-list)
+  - [Other List](#other-list)
 - [Related Resources](#related-resources)
   - [Workshops](#workshops)
   - [Tutorials](#tutorials)
@@ -2799,33 +2799,67 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Model Extraction Attacks; Membership inference Attacks.
   - <details><summary>Digest</summary> This work shows that such attributes of neural networks can be exposed from a sequence of queries. This has multiple implications. On the one hand, our work exposes the vulnerability of black-box neural networks to different types of attacks -- we show that the revealed internal information helps generate more effective adversarial examples against the black box model.  
 
-## Related Awesome Paper List
+## Related Awesome List
 
-### Robustness Paper List
-
-- [Paper of Robust ML](https://github.com/P2333/Papers-of-Robust-ML) ![ ](https://img.shields.io/github/stars/P2333/Papers-of-Robust-ML)
+### Robustness List
 
 - [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
-### Privacy Paper List
+- [Paper of Robust ML](https://github.com/P2333/Papers-of-Robust-ML) ![ ](https://img.shields.io/github/stars/P2333/Papers-of-Robust-ML)
+
+- [Backdoor Learning Resources](https://github.com/THUYimingLi/backdoor-learning-resources) ![ ](https://img.shields.io/github/stars/THUYimingLi/backdoor-learning-resources)
+
+- [The Papers of Adversarial Examples](https://github.com/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/stars/xiaosen-wang/Adversarial-Examples-Paper)
+
+### Privacy List
 
 - [Aweosme Privacy](https://github.com/Guyanqi/Awesome-Privacy) ![ ](https://img.shields.io/github/stars/Guyanqi/Awesome-Privacy)
 
 - [Awesome Privacy Papers for Visual Data](https://github.com/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/stars/brighter-ai/awesome-privacy-papers)
 
-### Fairness Paper List
+- [Awesome Attacks on Machine Learning Privacy](https://github.com/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/stars/stratosphereips/awesome-ml-privacy-attacks)
 
-### Interpretability Paper List
+### Fairness List
 
-### Open-World Paper List
+- [Awesome Fairness Papers](https://github.com/uclanlp/awesome-fairness-papers) ![ ](https://img.shields.io/github/stars/uclanlp/awesome-fairness-papers)
 
-### Blockchain Paper List
+- [Awesome Fairness in AI](https://github.com/datamllab/awesome-fairness-in-ai) ![ ](https://img.shields.io/github/stars/datamllab/awesome-fairness-in-ai)
 
-### Other Paper List
+### Interpretability List
+
+- [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) ![ ](https://img.shields.io/github/stars/jphall663/awesome-machine-learning-interpretability)
+
+- [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning) ![ ](https://img.shields.io/github/stars/lopusz/awesome-interpretable-machine-learning)
+
+- [Awesome Explainable AI](https://github.com/wangyongjie-ntu/Awesome-explainable-AI) ![ ](https://img.shields.io/github/stars/wangyongjie-ntu/Awesome-explainable-AI)
+
+- [Awesome Deep Learning Interpretability](https://github.com/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/stars/oneTaken/awesome_deep_learning_interpretability)
+
+### Open-World List
+
+- [Awesome Open Set Recognition list](https://github.com/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list)
+
+- [Awesome Novel Class Discovery](https://github.com/JosephKJ/Awesome-Novel-Class-Discovery) ![ ](https://img.shields.io/github/stars/JosephKJ/Awesome-Novel-Class-Discovery)
+
+### Blockchain List
+
+- [Blockchain Papers](https://github.com/decrypto-org/blockchain-papers) ![ ](https://img.shields.io/github/stars/decrypto-org/blockchain-papers)
+
+- [Awesome Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai) ![ ](https://img.shields.io/github/stars/steven2358/awesome-blockchain-ai)
+
+### Other List
+
+- [Awesome Causality Algorithms](https://github.com/rguo12/awesome-causality-algorithms) ![ ](https://img.shields.io/github/stars/rguo12/awesome-causality-algorithms)
+
+- [Awesome AI Security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) ![ ](https://img.shields.io/github/stars/DeepSpaceHarbor/Awesome-AI-Security)
 
 ## Related Resources
 
 ### Workshops
+
+TBD
+
+### Books
 
 TBD
 
