@@ -27,6 +27,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Related Resources](#related-resources)
   - [Workshops](#workshops)
   - [Tutorials](#tutorials)
+  - [Talks](#talks)
   - [Blogs](#blogs)
   - [Other Resources](#other-resources)
 
