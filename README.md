@@ -2803,9 +2803,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Robustness Paper List
 
-- [Paper of Robust ML](https://github.com/P2333/Papers-of-Robust-ML) ![](https://img.shields.io/github/stars/P2333/Papers-of-Robust-ML)
+- [Paper of Robust ML](https://github.com/P2333/Papers-of-Robust-ML) ![ ](https://img.shields.io/github/stars/P2333/Papers-of-Robust-ML)
+
+- [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
 ### Privacy Paper List
+
+- [Aweosme Privacy](https://github.com/Guyanqi/Awesome-Privacy) ![ ](https://img.shields.io/github/stars/Guyanqi/Awesome-Privacy)
+
+- [Awesome Privacy Papers for Visual Data](https://github.com/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/stars/brighter-ai/awesome-privacy-papers)
 
 ### Fairness Paper List
 
@@ -2821,8 +2827,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Workshops
 
+TBD
+
 ### Tutorials
+
+TBD
 
 ### Blogs
 
+TBD
+
 ### Other Resources
+
+TBD
