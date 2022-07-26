@@ -117,6 +117,21 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Self-Distilled Vision Transformer for Domain Generalization. [[paper]](https://arxiv.org/abs/2207.12392) [[code]](https://github.com/maryam089/SDViT)
+  - Maryam Sultana, Muzammal Naseer, Muhammad Haris Khan, Salman Khan, Fahad Shahbaz Khan. *ECCV 2022*
+  - Key Word: Domain Generalization; Vision Transformers; Self Distillation.
+  - <details><summary>Digest</summary> We attempt to explore ViTs towards addressing the DG problem. Similar to CNNs, ViTs also struggle in out-of-distribution scenarios and the main culprit is overfitting to source domains. Inspired by the modular architecture of ViTs, we propose a simple DG approach for ViTs, coined as self-distillation for ViTs. It reduces the overfitting to source domains by easing the learning of input-output mapping problem through curating non-zero entropy supervisory signals for intermediate transformer blocks.
+
+- Equivariance and Invariance Inductive Bias for Learning from Insufficient Data. [[paper]](https://arxiv.org/abs/2207.12258) [[code]](https://github.com/Wangt-CN/EqInv)
+  - Tan Wang, Qianru Sun, Sugiri Pranata, Karlekar Jayashree, Hanwang Zhang. *ECCV 2022*
+  - Key Word: Visual Inductive Bias; Data-Efficient Learning; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> First, compared to sufficient data, we show why insufficient data renders the model more easily biased to the limited training environments that are usually different from testing. For example, if all the training swan samples are "white", the model may wrongly use the "white" environment to represent the intrinsic class swan. Then, we justify that equivariance inductive bias can retain the class feature while invariance inductive bias can remove the environmental feature, leaving the class feature that generalizes to any environmental changes in testing. To impose them on learning, for equivariance, we demonstrate that any off-the-shelf contrastive-based self-supervised feature learning method can be deployed; for invariance, we propose a class-wise invariant risk minimization (IRM) that efficiently tackles the challenge of missing environmental annotation in conventional IRM.
+
+- Domain-invariant Feature Exploration for Domain Generalization. [[paper]](https://arxiv.org/abs/2207.12020) [[code]](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+  - Wang Lu, Jindong Wang, Haoliang Li, Yiqiang Chen, Xing Xie.
+  - Key Word: Domain Generalization; Fourier Features.
+  - <details><summary>Digest</summary> We argue that domain-invariant features should be originating from both internal and mutual sides. Internal invariance means that the features can be learned with a single domain and the features capture intrinsic semantics of data, i.e., the property within a domain, which is agnostic to other domains. Mutual invariance means that the features can be learned with multiple domains (cross-domain) and the features contain common information, i.e., the transferable features w.r.t. other domains.
+
 - Discrete Key-Value Bottleneck. [[paper]](https://arxiv.org/abs/2207.11240)
   - Frederik Träuble, Anirudh Goyal, Nasim Rahaman, Michael Mozer, Kenji Kawaguchi, Yoshua Bengio, Bernhard Schölkopf.
   - Key Word: Distribution Shifts; Catastrophic Forgetting; Memory Augmented Models.
@@ -1084,6 +1099,21 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Improving Adversarial Robustness via Mutual Information Estimation. [[paper]](https://arxiv.org/abs/2207.12203) [[code]](https://github.com/dwDavidxd/MIAT)
+  - Dawei Zhou, Nannan Wang, Xinbo Gao, Bo Han, Xiaoyu Wang, Yibing Zhan, Tongliang Liu. *ICML 2022*
+  - Key Word: Mutual information; Adversarial Robustness.
+  - <details><summary>Digest</summary> We investigate the dependence between outputs of the target model and input adversarial samples from the perspective of information theory, and propose an adversarial defense method. Specifically, we first measure the dependence by estimating the mutual information (MI) between outputs and the natural patterns of inputs (called natural MI) and MI between outputs and the adversarial patterns of inputs (called adversarial MI), respectively.
+
+- Can we achieve robustness from data alone? [[paper]](https://arxiv.org/abs/2207.11727)
+  - Nikolaos Tsilivis, Jingtong Su, Julia Kempe.
+  - Key Word: Dataset Distillation; Distributionally Robust Optimization; Adversarial Augmentation; Adversarial Robustness.
+  - <details><summary>Digest</summary> We devise a meta-learning method for robust classification, that optimizes the dataset prior to its deployment in a principled way, and aims to effectively remove the non-robust parts of the data. We cast our optimization method as a multi-step PGD procedure on kernel regression, with a class of kernels that describe infinitely wide neural nets (Neural Tangent Kernels - NTKs).
+
+- Proving Common Mechanisms Shared by Twelve Methods of Boosting Adversarial Transferability. [[paper]](https://arxiv.org/abs/2207.11694)
+  - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu.
+  - Key Word: Adversarial Transferability; Interaction.
+  - <details><summary>Digest</summary> This paper summarizes the common mechanism shared by twelve previous transferability-boosting methods in a unified view, i.e., these methods all reduce game-theoretic interactions between regional adversarial perturbations. To this end, we focus on the attacking utility of all interactions between regional adversarial perturbations, and we first discover and prove the negative correlation between the adversarial transferability and the attacking utility of interactions.
+
 - Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift. [[paper]](https://arxiv.org/abs/2207.08977)
   - Ananya Kumar, Tengyu Ma, Percy Liang, Aditi Raghunathan. *UAI 2022*
   - Key Word: Calibration; Distribution Shift.
@@ -1784,6 +1814,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Privacy: 2022
 
+- Learnable Privacy-Preserving Anonymization for Pedestrian Images. [[paper]](https://arxiv.org/abs/2207.11677) [[code]](https://github.com/whuzjw/privacy-reid)
+  - Junwu Zhang, Mang Ye, Yao Yang. *MM 2022*
+  - Key Word: Privacy Protection; Person Re-Identification.
+  - <details><summary>Digest</summary> This paper studies a novel privacy-preserving anonymization problem for pedestrian images, which preserves personal identity information (PII) for authorized models and prevents PII from being recognized by third parties. Conventional anonymization methods unavoidably cause semantic information loss, leading to limited data utility. Besides, existing learned anonymization techniques, while retaining various identity-irrelevant utilities, will change the pedestrian identity, and thus are unsuitable for training robust re-identification models. To explore the privacy-utility trade-off for pedestrian images, we propose a joint learning reversible anonymization framework, which can reversibly generate full-body anonymous images with little performance drop on person re-identification tasks.
+
 - Certified Neural Network Watermarks with Randomized Smoothing. [[paper]](https://arxiv.org/abs/2207.07972) [[code]](https://github.com/arpitbansal297/Certified_Watermarks)
   - Arpit Bansal, Ping-yeh Chiang, Michael Curry, Rajiv Jain, Curtis Wigington, Varun Manjunatha, John P Dickerson, Tom Goldstein. *ICML 2022*
   - Key Word: Watermarking Neural Networks; Certified Defenses; Randomized Smoothing.
@@ -2461,6 +2496,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Open-World Learning
 
+### Open-World Learning 2022
+
+- UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
+  - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
+  - Key Word: Open World Object Detection.
+  - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
+
 ### Open-World Learning 2021
 
 - Open-world Machine Learning: Applications, Challenges, and Opportunities. [[paper]](https://arxiv.org/abs/2105.13448)
@@ -2541,6 +2583,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Interactions with Blockchain
 
 ### Interactions with Blockchain: 2022
+
+- BPFISH: Blockchain and Privacy-preserving FL Inspired Smart Healthcare. [[paper]](https://arxiv.org/abs/2207.11654)
+  - Moirangthem Biken Singh, Ajay Pratap.
+  - Key Word: Blockchain; Federated Learning; Stable Matching; Differential Privacy; Smart Healthcare.
+  - <details><summary>Digest</summary> This paper proposes Federated Learning (FL) based smar t healthcare system where Medical Centers (MCs) train the local model using the data collected from patients and send the model weights to the miners in a blockchain-based robust framework without sharing raw data, keeping privacy preservation into deliberation. We formulate an optimization problem by maximizing the utility and minimizing the loss function considering energy consumption and FL process delay of MCs for learning effective models on distributed healthcare data underlying a blockchain-based framework.
 
 - BEAS: Blockchain Enabled Asynchronous & Secure Federated Machine Learning. [[paper]](https://arxiv.org/abs/2202.02817) [[code]](https://github.com/harpreetvirkk/BEAS)
   - Arup Mondal, Harpreet Virk, Debayan Gupta.
