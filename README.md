@@ -25,6 +25,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - [Blockchain Lists](#blockchain-lists)
   - [Other Lists](#other-lists)
 - [Related Resources](#related-resources)
+  - [Toolboxes](#toolboxes)
   - [Workshops](#workshops)
   - [Tutorials](#tutorials)
   - [Talks](#talks)
@@ -2508,11 +2509,10 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open World Object Detection.
   - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
 
-
 - FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
   - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen.
   - Key Word: Open-World Learning; Open-Set; Few-shot learning; 6D Pose Estimation.
-  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. To tackle the problem, we point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability under the problem setting and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost. 
+  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. To tackle the problem, we point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability under the problem setting and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost.
   
 ### Open-World Learning 2021
 
@@ -2914,25 +2914,47 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Related Resources
 
-### Workshops
+[//]: <> (This is a comment: extract sub-class and beautify after collecting more resources)
 
-TBD
+### Toolboxes
 
-### Books
+- [Adversarial Robustness Toolbox (ART)](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)
+  - Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. ART provides tools that enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against the adversarial threats of Evasion, Poisoning, Extraction, and Inference.
 
-TBD
+- [RobustBench](https://robustbench.github.io/)
+  - A standardized benchmark for adversarial robustness.
+
+- [Advtorch](https://github.com/BorealisAI/advertorch)
+  - Advtorch is a Python toolbox for adversarial robustness research. The primary functionalities are implemented in PyTorch. Specifically, AdverTorch contains modules for generating adversarial perturbations and defending against adversarial examples, also scripts for adversarial training.
+
+- [Cleverhans](https://github.com/cleverhans-lab/cleverhans)
+  - This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to adversarial examples.
 
 ### Tutorials
 
-TBD
+- [Practical Adversarial Robustness in Deep Learning: Problems and Solutions (CVPR 2021 Tutorial)](https://sites.google.com/view/par-2021)
+
+- [A Tutorial about Adversarial Attacks & Defenses in KDD 2021](https://sites.google.com/view/kdd21-tutorial-adv-robust/)
+
+- [Adversarial Robustness of Deep Learning Models (ECCV 2020 Tutorial)](https://sites.google.com/umich.edu/eccv-2020-adv-robustness)
+
+- [Adversarial Robustness: Theory and Practice (NeurIPS 2018 Tutorial)](https://nips.cc/Conferences/2018/ScheduleMultitrack?event=10978) [[Note]](https://adversarial-ml-tutorial.org/)
+
+- [Adversarial Machine Learning Tutorial in AAAI 2018](https://aaai18adversarial.github.io/index.html#)
 
 ### Talks
 
-TBD
+- [Ian Goodfellow: Adversarial Machine Learning (ICLR 2019 invited talk)](https://www.youtube.com/watch?v=sucqskXRkss)
 
 ### Blogs
 
-TBD
+- [Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations](https://stanislavfort.github.io/blog/OpenAI_CLIP_stickers_and_adversarial_examples/)
+
+- [Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization](https://stanislavfort.github.io/blog/OpenAI_CLIP_adversarial_examples/)
+
+- [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
+
+- [A Discussion of Adversarial Examples Are Not Bugs, They Are Features](https://distill.pub/2019/advex-bugs-discussion/)
 
 ### Other Resources
 
