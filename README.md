@@ -2508,19 +2508,38 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open World Object Detection.
   - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
 
+- Open-world Semantic Segmentation for LIDAR Point Clouds. [[paper]](https://arxiv.org/abs/2207.01452) [[code]](https://github.com/jun-cen/open_world_3d_semantic_segmentation)
+  - Jun Cen, Peng Yun, Shiwei Zhang, Junhao Cai, Di Luan, Michael Yu Wang, Ming Liu, Mingqian Tang. *ECCV 2022*
+  - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
+  - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems. 
 
 - FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
-  - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen.
-  - Key Word: Open-World Learning; Open-Set; Few-shot learning; 6D Pose Estimation.
-  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. To tackle the problem, we point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability under the problem setting and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost. 
-  
+  - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen. *CVPR 2022*
+  - Key Word: Open-World 6D Pose Estimation; Few-shot learning. 
+  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost. 
+
+- OpenTAL: Towards Open Set Temporal Action Localization. [[paper]](https://arxiv.org/abs/2203.05114) [[code]](https://github.com/Cogito2012/OpenTAL)
+  - Wentao Bao, Qi Yu, Yu Kong. *CVPR 2022*
+  - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning. 
+  - <details><summary>Digest</summary> In this paper, we, for the first time, step toward the Open Set TAL (OSTAL) problem and propose a general framework OpenTAL based on Evidential Deep Learning (EDL). Specifically, the OpenTAL consists of uncertainty-aware action classification, actionness prediction, and temporal location regression. With the proposed importance-balanced EDL method, classification uncertainty is learned by collecting categorical evidence majorly from important samples. To distinguish the unknown actions from background video frames, the actionness is learned by the positive-unlabeled learning. The classification uncertainty is further calibrated by leveraging the guidance from the temporal localization quality. The OpenTAL is general to enable existing TAL models for open set scenarios.
+
+
 ### Open-World Learning 2021
+
+- UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2111.08644) [[code]](https://github.com/lilygeorgescu/ubnormal)
+  - Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah. *CVPR 2022*
+  - Key Word: Open-set Anomaly Detection; Video Anomaly Detection; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> We propose UBnormal, a new supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. Unlike existing data sets, we introduce abnormal events annotated at the pixel level at training time, for the first time enabling the use of fully-supervised learning methods for abnormal event detection. To preserve the typical open-set formulation, we make sure to include disjoint sets of anomaly types in our training and test collections of videos. To our knowledge, UBnormal is the first video anomaly detection benchmark to allow a fair head-to-head comparison between one-class open-set models and supervised closed-set models, as shown in our experiments.
 
 - Open-world Machine Learning: Applications, Challenges, and Opportunities. [[paper]](https://arxiv.org/abs/2105.13448)
   - Jitendra Parmar, Satyendra Singh Chouhan, Vaskar Raychoudhury, Santosh Singh Rathore.
   - Key Word: Open-World Learning; Open-Set Recognition; Discovery of Unseen Instances; Incremental Learning.
   - <details><summary>Digest</summary> Traditional machine learning mainly supervised learning, follows the assumptions of closed-world learning, i.e., for each testing class, a training class is available. However, such machine learning models fail to identify the classes which were not available during training time. These classes can be referred to as unseen classes. Whereas open-world machine learning (OWML) deals with unseen classes. In this paper, first, we present an overview of OWML with importance to the real-world context. Next, different dimensions of open-world machine learning are explored and discussed. The area of OWML gained the attention of the research community in the last decade only. We have searched through different online digital libraries and scrutinized the work done in the last decade. This paper presents a systematic review of various techniques for OWML.  
 
+- Opening up Open-World Tracking. [[paper]](https://arxiv.org/abs/2104.11221) [[code]](https://openworldtracking.github.io/)
+  - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
+  - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
 ## Environmental Well-being
 
 ### Environmental Well-being: 2022
