@@ -1814,6 +1814,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Privacy: 2022
 
+- Semi-Leak: Membership Inference Attacks Against Semi-supervised Learning. [[paper]](https://arxiv.org/abs/2207.12535) [[code]](https://github.com/xinleihe/Semi-Leak)
+  - Xinlei He, Hongbin Liu, Neil Zhenqiang Gong, Yang Zhang. *ECCV 2022*
+  - Key Word: Membership Inference Attacks; Semi-Supervised Learning.
+  - <details><summary>Digest</summary> We take a different angle by studying the training data privacy of SSL. Specifically, we propose the first data augmentation-based membership inference attacks against ML models trained by SSL. Given a data sample and the black-box access to a model, the goal of membership inference attack is to determine whether the data sample belongs to the training dataset of the model. Our evaluation shows that the proposed attack can consistently outperform existing membership inference attacks and achieves the best performance against the model trained by SSL.
+
 - Learnable Privacy-Preserving Anonymization for Pedestrian Images. [[paper]](https://arxiv.org/abs/2207.11677) [[code]](https://github.com/whuzjw/privacy-reid)
   - Junwu Zhang, Mang Ye, Yao Yang. *MM 2022*
   - Key Word: Privacy Protection; Person Re-Identification.
