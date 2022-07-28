@@ -12,7 +12,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Table of Contents
 
-- [Awesome Trustworthy Deep Learning Paper List](#awesome-trustworthy--deep-learning)
+- [Awesome Trustworthy Deep Learning Paper List:page_with_curl:](#awesome-trustworthy--deep-learning)
   - [Survey](#survey)
   - [Out-of-Distribution Generalization](#out-of-distribution-generalization)
   - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
@@ -24,14 +24,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - [Environmental Well-being](#environmental-well-being)
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
-- [Related Awesome Lists](#related-awesome-lists)
-- [:toolbox:Toolboxes](#toolboxes)
-- [Workshops](#workshops)
-- [Tutorials](#tutorials)
-- [Talks](#talks)
-- [Blogs](#blogs)
-- [Other Resources](#other-resources)
-- [Contributing](#contributing)
+- [Related Awesome Lists:astonished:](#related-awesome-lists)
+- [Toolboxes:toolbox:](#toolboxes)
+- [Workshops:fire:](#workshops)
+- [Tutorials:woman_teacher:](#tutorials)
+- [Talks:microphone:](#talks)
+- [Blogs:writing_hand:](#blogs)
+- [Other Resources:sparkles:](#other-resources)
+- [Contributing:wink:](#contributing)
 
 ## Survey
 
