@@ -17,20 +17,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
 - [Related Awesome Lists](#related-awesome-lists)
-  - [Robustness Lists](#robustness-lists)
-  - [Privacy Lists](#privacy-lists)
-  - [Fairness Lists](#fairness-lists)
-  - [Interpretability Lists](#interpretability-lists)
-  - [Open-World Lists](#open-world-lists)
-  - [Blockchain Lists](#blockchain-lists)
-  - [Other Lists](#other-lists)
-- [Related Resources](#related-resources)
-  - [Toolboxes](#toolboxes)
-  - [Workshops](#workshops)
-  - [Tutorials](#tutorials)
-  - [Talks](#talks)
-  - [Blogs](#blogs)
-  - [Other Resources](#other-resources)
+- [Toolboxes](#toolboxes)
+- [Workshops](#workshops)
+- [Tutorials](#tutorials)
+- [Talks](#talks)
+- [Blogs](#blogs)
+- [Other Resources](#other-resources)
 
 ## Survey
 
@@ -1099,6 +1091,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- LGV: Boosting Adversarial Example Transferability from Large Geometric Vicinity. [[paper]](https://arxiv.org/abs/2207.13129) [[code]](https://github.com/framartin/lgv-geometric-transferability)
+  - Martin Gubri, Maxime Cordy, Mike Papadakis, Yves Le Traon, Koushik Sen. *ECCV 2022*
+  - Key Word: Adversarial Transferability.
+  - <details><summary>Digest</summary> We propose transferability from Large Geometric Vicinity (LGV), a new technique to increase the transferability of black-box adversarial attacks. LGV starts from a pretrained surrogate model and collects multiple weight sets from a few additional training epochs with a constant and high learning rate. LGV exploits two geometric properties that we relate to transferability.
 
 - Improving Adversarial Robustness via Mutual Information Estimation. [[paper]](https://arxiv.org/abs/2207.12203) [[code]](https://github.com/dwDavidxd/MIAT)
   - Dawei Zhou, Nannan Wang, Xinbo Gao, Bo Han, Xiaoyu Wang, Yibing Zhan, Tongliang Liu. *ICML 2022*
@@ -2512,18 +2509,17 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Open-world Semantic Segmentation for LIDAR Point Clouds. [[paper]](https://arxiv.org/abs/2207.01452) [[code]](https://github.com/jun-cen/open_world_3d_semantic_segmentation)
   - Jun Cen, Peng Yun, Shiwei Zhang, Junhao Cai, Di Luan, Michael Yu Wang, Ming Liu, Mingqian Tang. *ECCV 2022*
   - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
-  - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems. 
+  - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems.
 
 - FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
   - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen. *CVPR 2022*
-  - Key Word: Open-World 6D Pose Estimation; Few-shot learning. 
-  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost. 
+  - Key Word: Open-World 6D Pose Estimation; Few-shot learning.
+  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost.
 
 - OpenTAL: Towards Open Set Temporal Action Localization. [[paper]](https://arxiv.org/abs/2203.05114) [[code]](https://github.com/Cogito2012/OpenTAL)
   - Wentao Bao, Qi Yu, Yu Kong. *CVPR 2022*
-  - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning. 
+  - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning.
   - <details><summary>Digest</summary> In this paper, we, for the first time, step toward the Open Set TAL (OSTAL) problem and propose a general framework OpenTAL based on Evidential Deep Learning (EDL). Specifically, the OpenTAL consists of uncertainty-aware action classification, actionness prediction, and temporal location regression. With the proposed importance-balanced EDL method, classification uncertainty is learned by collecting categorical evidence majorly from important samples. To distinguish the unknown actions from background video frames, the actionness is learned by the positive-unlabeled learning. The classification uncertainty is further calibrated by leveraging the guidance from the temporal localization quality. The OpenTAL is general to enable existing TAL models for open set scenarios.
-
 
 ### Open-World Learning 2021
 
@@ -2541,6 +2537,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
   - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
   - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
+
 ## Environmental Well-being
 
 ### Environmental Well-being: 2022
@@ -2932,11 +2929,9 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Awesome AI Security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) ![ ](https://img.shields.io/github/stars/DeepSpaceHarbor/Awesome-AI-Security)
 
-## Related Resources
+## Toolboxes
 
-[//]: <> (This is a comment: extract sub-class and beautify after collecting more resources)
-
-### Toolboxes
+### Robustness Toolboxes
 
 - [Adversarial Robustness Toolbox (ART)](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)
   - Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. ART provides tools that enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against the adversarial threats of Evasion, Poisoning, Extraction, and Inference.
@@ -2950,7 +2945,9 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - [Cleverhans](https://github.com/cleverhans-lab/cleverhans)
   - This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to adversarial examples.
 
-### Tutorials
+## Tutorials
+
+### Robustness Tutorials
 
 - [Practical Adversarial Robustness in Deep Learning: Problems and Solutions (CVPR 2021 Tutorial)](https://sites.google.com/view/par-2021)
 
@@ -2962,20 +2959,26 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Adversarial Machine Learning Tutorial in AAAI 2018](https://aaai18adversarial.github.io/index.html#)
 
-### Talks
+## Talks
+
+### Robustness Talks
 
 - [Ian Goodfellow: Adversarial Machine Learning (ICLR 2019 invited talk)](https://www.youtube.com/watch?v=sucqskXRkss)
 
-### Blogs
+## Blogs
+
+### Robustness Blogs
 
 - [Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations](https://stanislavfort.github.io/blog/OpenAI_CLIP_stickers_and_adversarial_examples/)
 
 - [Adversarial examples for the OpenAI CLIP in its zero-shot classification regime and their semantic generalization](https://stanislavfort.github.io/blog/OpenAI_CLIP_adversarial_examples/)
 
-- [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
-
 - [A Discussion of Adversarial Examples Are Not Bugs, They Are Features](https://distill.pub/2019/advex-bugs-discussion/)
 
-### Other Resources
+### Interpretability Blogs
+
+- [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
+
+## Other Resources
 
 TBD
