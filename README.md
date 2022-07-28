@@ -2528,6 +2528,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-set Anomaly Detection; Video Anomaly Detection; Discovery of Unseen Instances.
   - <details><summary>Digest</summary> We propose UBnormal, a new supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. Unlike existing data sets, we introduce abnormal events annotated at the pixel level at training time, for the first time enabling the use of fully-supervised learning methods for abnormal event detection. To preserve the typical open-set formulation, we make sure to include disjoint sets of anomaly types in our training and test collections of videos. To our knowledge, UBnormal is the first video anomaly detection benchmark to allow a fair head-to-head comparison between one-class open-set models and supervised closed-set models, as shown in our experiments.
 
+- Evidential Deep Learning for Open Set Action Recognition. [[paper]](https://arxiv.org/abs/2107.10161) [[code]](https://github.com/Cogito2012/DEAR)
+  - Wentao Bao, Qi Yu, Yu Kong. *ICCV 2021 oral*
+  - Key Word: Open-World Learning; Open-Set Action Recognition; Discovery of Unseen Instances; Evidential Deep Learning.
+  - <details><summary>Digest</summary> In a real-world scenario, human actions are typically out of the distribution from training data, which requires a model to both recognize the known actions and reject the unknown. Different from image data, video actions are more challenging to be recognized in an open-set setting due to the uncertain temporal dynamics and static bias of human actions. In this paper, we propose a Deep Evidential Action Recognition (DEAR) method to recognize actions in an open testing set. Specifically, we formulate the action recognition problem from the evidential deep learning (EDL) perspective and propose a novel model calibration method to regularize the EDL training. Besides, to mitigate the static bias of video representation, we propose a plug-and-play module to debias the learned representation through contrastive learning. 
+
 - Open-world Machine Learning: Applications, Challenges, and Opportunities. [[paper]](https://arxiv.org/abs/2105.13448)
   - Jitendra Parmar, Satyendra Singh Chouhan, Vaskar Raychoudhury, Santosh Singh Rathore.
   - Key Word: Open-World Learning; Open-Set Recognition; Discovery of Unseen Instances; Incremental Learning.
@@ -2538,6 +2543,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
   - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
 
+<<<<<<< HEAD
+=======
+- OpenGAN: Open-Set Recognition via Open Data Generation. [[paper]](https://arxiv.org/abs/2104.02939) [[code]](https://github.com/aimerykong/OpenGAN)
+  - Shu Kong, Deva Ramanan.  *ICCV 2021 Best Paper Honorable Mention*
+  - Key Word: Open-set recognition; Data augmentation.
+  - <details><summary>Digest</summary> Two conceptually elegant ideas for open-set discrimination are: 1) discriminatively learning an open-vs-closed binary discriminator by exploiting some outlier data as the open-set, and 2) unsupervised learning the closed-set data distribution with a GAN, using its discriminator as the open-set likelihood function. However, the former generalizes poorly to diverse open test data due to overfitting to the training outliers, which are unlikely to exhaustively span the open-world. The latter does not work well, presumably due to the instable training of GANs. Motivated by the above, we propose OpenGAN, which addresses the limitation of each approach by combining them with several technical insights. First, we show that a carefully selected GAN-discriminator on some real outlier data already achieves the state-of-the-art. Second, we augment the available set of real open training examples with adversarially synthesized "fake" data. Third and most importantly, we build the discriminator over the features computed by the closed-world K-way networks. This allows OpenGAN to be implemented via a lightweight discriminator head built on top of an existing K-way network.
+
+>>>>>>> 4bb476d0eaea6283486f7a1f68bd858b002e6a76
 ## Environmental Well-being
 
 ### Environmental Well-being: 2022
