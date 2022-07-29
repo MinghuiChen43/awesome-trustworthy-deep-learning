@@ -1795,9 +1795,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We demonstrate that this strategy provides a false sense of security, as it ignores an inherent asymmetry between the parties: users' pictures are perturbed once and for all before being published (at which point they are scraped) and must thereafter fool all future models---including models trained adaptively against the users' past attacks, or models that use new technologies discovered after the attack.
 
 - Poisoning and Backdooring Contrastive Learning. [[paper]](https://arxiv.org/abs/2106.09667)
+  - Nicholas Carlini, Andreas Terzis
   - Key Word: Contrastive Learning; Poisoning Attacks; Backdoor Attacks. *ICLR 2022*
   - <details><summary>Digest</summary> Multimodal contrastive learning methods like CLIP train on noisy and uncurated training datasets. This is cheaper than labeling datasets manually, and even improves out-of-distribution robustness. We show that this practice makes backdoor and poisoning attacks a significant threat. By poisoning just 0.01% of a dataset (e.g., just 300 images of the 3 million-example Conceptual Captions dataset), we can cause the model to misclassify test images by overlaying a small patch.
 
+- Backdoor Attacks on Self-Supervised Learning. [[paper]](https://arxiv.org/abs/2105.10123) [[code]](https://github.com/UMBCvision/SSL-Backdoor)
+  - Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash
+  - Key Word: Self-Supervised Learning; Backdoor Attacks. *CVPR 2022*
+  - <details><summary>Digest</summary> State-of-the-art self-supervised methods for learning representations from images (e.g., MoCo, BYOL, MSF) use an inductive bias that random augmentations (e.g., random crops) of an image should produce similar embeddings. We show that such methods are vulnerable to backdoor attacks - where an attacker poisons a small part of the unlabeled data by adding a trigger (image patch chosen by the attacker) to the images. The model performance is good on clean test images, but the attacker can manipulate the decision of the model by showing the trigger at test time
+  
 ### Poisoning Attacks and Defenses: 2020
 
 - Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review. [[paper]](https://arxiv.org/abs/2007.10760)
