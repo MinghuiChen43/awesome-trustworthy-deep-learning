@@ -1,10 +1,18 @@
-# Awesome Trustworthy Deep Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/graphs/commit-activity)
+![ ](https://img.shields.io/github/license/MinghuiChen43/awesome-trustworthy-deep-learning)
+[![GitHub stars](https://img.shields.io/github/stars/MinghuiChen43/awesome-trustworthy-deep-learning?color=blue&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/MinghuiChen43/awesome-trustworthy-deep-learning?color=yellow&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning)
+[![GitHub forks](https://img.shields.io/github/forks/MinghuiChen43/awesome-trustworthy-deep-learning?color=red&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/watchers)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MinghuiChen43/awesome-trustworthy-deep-learning?color=green&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/network/members)
+[![GitHub Contributors](https://img.shields.io/github/contributors/MinghuiChen43/awesome-trustworthy-deep-learning?color=green&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/network/members)
+
+# Awesome Trustworthy Deep Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning) ![if Useful](https://camo.githubusercontent.com/1ef04f27611ff643eb57eb87cc0f1204d7a6a14d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d254630253946253843253946266d6573736167653d496625323055736566756c267374796c653d7374796c653d666c617426636f6c6f723d424334453939)
 
 The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy [(Nicolas Papernot)](https://www.papernot.fr/teaching/f19-trustworthy-ml). The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
 
 ## Table of Contents
 
-- [Awesome Trustworthy Deep Learning Paper List](#awesome-trustworthy--deep-learning)
+- [Awesome Trustworthy Deep Learning Paper List:page_with_curl:](#awesome-trustworthy--deep-learning)
   - [Survey](#survey)
   - [Out-of-Distribution Generalization](#out-of-distribution-generalization)
   - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
@@ -16,13 +24,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - [Environmental Well-being](#environmental-well-being)
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
-- [Related Awesome Lists](#related-awesome-lists)
-- [Toolboxes](#toolboxes)
-- [Workshops](#workshops)
-- [Tutorials](#tutorials)
-- [Talks](#talks)
-- [Blogs](#blogs)
-- [Other Resources](#other-resources)
+- [Related Awesome Lists:astonished:](#related-awesome-lists)
+- [Toolboxes:toolbox:](#toolboxes)
+- [Workshops:fire:](#workshops)
+- [Tutorials:woman_teacher:](#tutorials)
+- [Talks:microphone:](#talks)
+- [Blogs:writing_hand:](#blogs)
+- [Other Resources:sparkles:](#other-resources)
+- [Contributing:wink:](#contributing)
 
 ## Survey
 
@@ -2563,11 +2572,10 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-set recognition; Data augmentation.
   - <details><summary>Digest</summary> Two conceptually elegant ideas for open-set discrimination are: 1) discriminatively learning an open-vs-closed binary discriminator by exploiting some outlier data as the open-set, and 2) unsupervised learning the closed-set data distribution with a GAN, using its discriminator as the open-set likelihood function. However, the former generalizes poorly to diverse open test data due to overfitting to the training outliers, which are unlikely to exhaustively span the open-world. The latter does not work well, presumably due to the instable training of GANs. Motivated by the above, we propose OpenGAN, which addresses the limitation of each approach by combining them with several technical insights. First, we show that a carefully selected GAN-discriminator on some real outlier data already achieves the state-of-the-art. Second, we augment the available set of real open training examples with adversarially synthesized "fake" data. Third and most importantly, we build the discriminator over the features computed by the closed-world K-way networks. This allows OpenGAN to be implemented via a lightweight discriminator head built on top of an existing K-way network.
 
-
 - Towards Open World Object Detection. [[paper]](https://arxiv.org/abs/2103.02603) [[code]](https://github.com/JosephKJ/OWOD)
   - K J Joseph, Salman Khan, Fahad Shahbaz Khan, Vineeth N Balasubramanian.  *CVPR 2021 oral*
   - Key Word: Open-world learning; Incremental learning; Discovery of Unseen Instances; Object detection.
-  - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort. 
+  - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort.
 
 ## Environmental Well-being
 
@@ -2924,6 +2932,8 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Aweosme Privacy](https://github.com/Guyanqi/Awesome-Privacy) ![ ](https://img.shields.io/github/stars/Guyanqi/Awesome-Privacy)
 
+- [Privacy-Preserving-Machine-Learning-Resources](https://github.com/Ye-D/PPML-Resource) ![ ](https://img.shields.io/github/stars/Ye-D/PPML-Resource)
+
 - [Awesome Privacy Papers for Visual Data](https://github.com/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/stars/brighter-ai/awesome-privacy-papers)
 
 ### Fairness Lists
@@ -2960,21 +2970,74 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Awesome AI Security](https://github.com/DeepSpaceHarbor/Awesome-AI-Security) ![ ](https://img.shields.io/github/stars/DeepSpaceHarbor/Awesome-AI-Security)
 
+- [A curated list of AI Security & Privacy events](https://github.com/ZhengyuZhao/AI-Security-and-Privacy-Events) ![ ](https://img.shields.io/github/stars/ZhengyuZhao/AI-Security-and-Privacy-Events)
+
 ## Toolboxes
 
 ### Robustness Toolboxes
 
-- [Adversarial Robustness Toolbox (ART)](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)
+- [Cleverhans](https://github.com/cleverhans-lab/cleverhans) ![ ](https://img.shields.io/github/stars/cleverhans-lab/cleverhans)
+  - This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to adversarial examples.
+
+- [Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox) ![ ](https://img.shields.io/github/stars/Trusted-AI/adversarial-robustness-toolbox)
   - Adversarial Robustness Toolbox (ART) is a Python library for Machine Learning Security. ART provides tools that enable developers and researchers to evaluate, defend, certify and verify Machine Learning models and applications against the adversarial threats of Evasion, Poisoning, Extraction, and Inference.
 
-- [RobustBench](https://robustbench.github.io/)
+- [Advtorch](https://github.com/BorealisAI/advertorch) ![ ](https://img.shields.io/github/stars/BorealisAI/advertorch)
+  - Advtorch is a Python toolbox for adversarial robustness research. The primary functionalities are implemented in PyTorch. Specifically, AdverTorch contains modules for generating adversarial perturbations and defending against adversarial examples, also scripts for adversarial training.
+  
+- [RobustBench](https://github.com/RobustBench/robustbench) ![ ](https://img.shields.io/github/stars/RobustBench/robustbench)
   - A standardized benchmark for adversarial robustness.
 
-- [Advtorch](https://github.com/BorealisAI/advertorch)
-  - Advtorch is a Python toolbox for adversarial robustness research. The primary functionalities are implemented in PyTorch. Specifically, AdverTorch contains modules for generating adversarial perturbations and defending against adversarial examples, also scripts for adversarial training.
+### Privacy Toolboxes
 
-- [Cleverhans](https://github.com/cleverhans-lab/cleverhans)
-  - This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to adversarial examples.
+- [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
+  - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
+
+- [Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) ![ ](https://img.shields.io/github/stars/privacytrustlab/ml_privacy_meter)
+  - Privacy Meter is an open-source library to audit data privacy in statistical and machine learning algorithms.
+
+- [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven) ![ ](https://img.shields.io/github/stars/trailofbits/PrivacyRaven)
+  - PrivacyRaven is a privacy testing library for deep learning systems.
+
+### Fairness Toolboxes
+
+- [AI Fairness 360](https://github.com/Trusted-AI/AIF360) ![ ](https://img.shields.io/github/stars/Trusted-AI/AIF360)
+  - The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle.
+
+- [Fairlearn](https://github.com/fairlearn/fairlearn) ![ ](https://img.shields.io/github/stars/fairlearn/fairlearn)
+  - Fairlearn is a Python package that empowers developers of artificial intelligence (AI) systems to assess their system's fairness and mitigate any observed unfairness issues.
+
+- [Aequitas](https://github.com/dssg/aequitas) ![ ](https://img.shields.io/github/stars/dssg/aequitas)
+  - Aequitas is an open-source bias audit toolkit for data scientists, machine learning researchers, and policymakers to audit machine learning models for discrimination and bias, and to make informed and equitable decisions around developing and deploying predictive tools.
+
+### Interpretability Toolboxes
+
+- [Lime](https://github.com/marcotcr/lime) ![ ](https://img.shields.io/github/stars/marcotcr/lime)
+  - This project is about explaining what machine learning classifiers (or models) are doing.
+  
+- [InterpretML](https://github.com/interpretml/interpret/) ![ ](https://img.shields.io/github/stars/interpretml/interpret)
+  - InterpretML is an open-source package that incorporates state-of-the-art machine learning interpretability techniques under one roof.
+
+- [Deep Visualization Toolbox](https://github.com/yosinski/deep-visualization-toolbox) ![ ](https://img.shields.io/github/stars/yosinski/deep-visualization-toolbox)
+  - This is the code required to run the Deep Visualization Toolbox, as well as to generate the neuron-by-neuron visualizations using regularized optimization.
+  
+- [Captum](https://github.com/pytorch/captum) ![ ](https://img.shields.io/github/stars/pytorch/captum)
+  - Captum is a model interpretability and understanding library for PyTorch.
+  
+- [Alibi](https://github.com/SeldonIO/alibi) ![ ](https://img.shields.io/github/stars/SeldonIO/alibi)
+  - Alibi is an open source Python library aimed at machine learning model inspection and interpretation.
+  
+- [AI Explainability 360](https://github.com/Trusted-AI/AIX360) ![ ](https://img.shields.io/github/stars/Trusted-AI/AIX360)
+  - The AI Explainability 360 toolkit is an open-source library that supports interpretability and explainability of datasets and machine learning models.
+
+### Other Toolboxes
+
+- [Causal Inference 360](https://github.com/IBM/causallib) ![ ](https://img.shields.io/github/stars/IBM/causallib)
+  - A Python package for inferring causal effects from observational data.
+
+## Workshops
+
+TBD
 
 ## Tutorials
 
@@ -3010,6 +3073,32 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
 
+- [Curve Detectors](https://distill.pub/2020/circuits/curve-detectors/)
+
+- [Visualizing the Impact of Feature Attribution Baselines](https://distill.pub/2020/attribution-baselines/)
+
+- [Visualizing Neural Networks with the Grand Tour](https://distill.pub/2020/grand-tour/)
+
+### Other Blogs
+
+- [Cleverhans Blog - Ian Goodfellow, Nicolas Papernot](http://www.cleverhans.io/)
+
 ## Other Resources
+
+- [AI Security and Privacy (AISP) Seminar Series](http://scl.sribd.cn/seminar/index.html)
+
+- [ML Safety Newsletter](https://newsletter.mlsafety.org/)
+
+- [Trustworthy ML Initiative](https://www.trustworthyml.org/home)
+
+- [Trustworthy AI Project](https://www.trustworthyaiproject.eu/)
+
+- [ECE1784H: Trustworthy Machine Learning (Course, Fall 2019) - Nicolas Papernot](https://www.papernot.fr/teaching/f19-trustworthy-ml)
+
+- [A School for all Seasons on Trustworthy Machine Learning (Course) - Reza Shokri, Nicolas Papernot](https://trustworthy-machine-learning.github.io/)
+
+- [Trustworthy Machine Learning (Book)](http://www.trustworthymachinelearning.com/)
+
+## Contributing
 
 TBD
