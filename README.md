@@ -1307,6 +1307,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Robustness; Medical Image; Healthcare.
   - <details><summary>Digest</summary> We propose a Robust and Retrain-Less Diagnostic Framework for Medical pretrained models against adversarial attack (i.e., MedRDF). It acts on the inference time of the pertained medical model. Specifically, for each test image, MedRDF firstly creates a large number of noisy copies of it, and obtains the output labels of these copies from the pretrained medical diagnostic model. Then, based on the labels of these copies, MedRDF outputs the final robust diagnostic result by majority voting.
 
+- Moiré Attack (MA): A New Potential Risk of Screen Photos. [[paper]](https://arxiv.org/abs/2110.10444) [[code]](https://github.com/Dantong88/Moire_Attack)
+  - Dantong Niu, Ruohao Guo, Yisen Wang. *NeurIPS 2021*
+  - Key Word: Adversarial Attacks; Digital Attacks; Physical Attacks; Moiré Effect.
+  - <details><summary>Digest</summary> We find a special phenomenon in digital image processing, the moiré effect, that could cause unnoticed security threats to DNNs. Based on it, we propose a Moiré Attack (MA) that generates the physical-world moiré pattern adding to the images by mimicking the shooting process of digital devices.
+
 - Towards Robust General Medical Image Segmentation. [[paper]](https://arxiv.org/abs/2107.04263) [[code]](https://github.com/BCV-Uniandes/ROG)
   - Laura Daza, Juan C. Pérez, Pablo Arbeláez. *MICCAI 2021*
   - Key Word: Adversarial Attack; Medical Image Segmentation; Healthcare.
