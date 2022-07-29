@@ -2506,6 +2506,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open World Object Detection.
   - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
 
+- DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition. [[paper]](https://arxiv.org/abs/2207.02606) [[code]](https://github.com/matejgrcic/DenseHybrid)
+  - Matej Grcić, Petra Bevandić, Siniša Šegvić. *ECCV 2022*
+  - Key Word: Anomaly detection; Dense anomaly detection; Open-set Recognition.
+  - <details><summary>Digest</summary> We design a novel hybrid algorithm based on reinterpreting discriminative logits as a logarithm of the unnormalized joint distribution p̂ (x,y). Our model builds on a shared convolutional representation from which we recover three dense predictions: i) the closed-set class posterior P(y|x), ii) the dataset posterior P(din|x), iii) unnormalized data likelihood p̂ (x). The latter two predictions are trained both on the standard training data and on a generic negative dataset. We blend these two predictions into a hybrid anomaly score which allows dense open-set recognition on large natural images. We carefully design a custom loss for the data likelihood in order to avoid backpropagation through the untractable normalizing constant Z(θ). Experiments evaluate our contributions on standard dense anomaly detection benchmarks as well as in terms of open-mIoU - a novel metric for dense open-set performance.
+
 - Open-world Semantic Segmentation for LIDAR Point Clouds. [[paper]](https://arxiv.org/abs/2207.01452) [[code]](https://github.com/jun-cen/open_world_3d_semantic_segmentation)
   - Jun Cen, Peng Yun, Shiwei Zhang, Junhao Cai, Di Luan, Michael Yu Wang, Ming Liu, Mingqian Tang. *ECCV 2022*
   - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
@@ -2522,6 +2527,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> In this paper, we, for the first time, step toward the Open Set TAL (OSTAL) problem and propose a general framework OpenTAL based on Evidential Deep Learning (EDL). Specifically, the OpenTAL consists of uncertainty-aware action classification, actionness prediction, and temporal location regression. With the proposed importance-balanced EDL method, classification uncertainty is learned by collecting categorical evidence majorly from important samples. To distinguish the unknown actions from background video frames, the actionness is learned by the positive-unlabeled learning. The classification uncertainty is further calibrated by leveraging the guidance from the temporal localization quality. The OpenTAL is general to enable existing TAL models for open set scenarios.
 
 ### Open-World Learning 2021
+
+- Open-set 3D Object Detection. [[paper]](https://arxiv.org/abs/2111.08644)
+  - Jun Cen, Peng Yun, Junhao Cai, Michael Yu Wang, Ming Liu. *3DV 2021*
+  - Key Word: 3D Object Detection; Video Anomaly Detection; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> In this paper, we propose an open-set 3D object detector, which aims to (1) identify known objects, like the closed-set detection, and (2) identify unknown objects and give their accurate bounding boxes. Specifically, we divide the open-set 3D object detection problem into two steps: (1) finding out the regions containing the unknown objects with high probability and (2) enclosing the points of these regions with proper bounding boxes. The first step is solved by the finding that unknown objects are often classified as known objects with low confidence, and we show that the Euclidean distance sum based on metric learning is a better confidence score than the naive softmax probability to differentiate unknown objects from known objects. On this basis, unsupervised clustering is used to refine the bounding boxes of unknown objects. The proposed method combining metric learning and unsupervised clustering is called the MLUC network.
 
 - UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2111.08644) [[code]](https://github.com/lilygeorgescu/ubnormal)
   - Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah. *CVPR 2022*
@@ -2542,6 +2552,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
   - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
   - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
+
+  - Unidentified Video Objects: A Benchmark for Dense, Open-World Segmentation. [[paper]](https://arxiv.org/abs/2104.04691) [[code]](https://sites.google.com/view/unidentified-video-object/home?authuser=0)
+  - Weiyao Wang, Matt Feiszli, Heng Wang, Du Tran.
+  - Key Word: Open-World Segmentation; Class-agnostic segmentation.
+  - <details><summary>Digest</summary> In this paper, we present, UVO (Unidentified Video Objects), a new benchmark for open-world class-agnostic object segmentation in videos. Besides shifting the problem focus to the open-world setup, UVO is significantly larger, providing approximately 8 times more videos compared with DAVIS, and 7 times more mask (instance) annotations per video compared with YouTube-VOS and YouTube-VIS. UVO is also more challenging as it includes many videos with crowded scenes and complex background motions. We demonstrated that UVO can be used for other applications, such as object tracking and super-voxel segmentation, besides open-world object segmentation. We believe that UVo is a versatile testbed for researchers to develop novel approaches for open-world class-agnostic object segmentation, and inspires new research directions towards a more comprehensive video understanding beyond classification and detection.
 
 - OpenGAN: Open-Set Recognition via Open Data Generation. [[paper]](https://arxiv.org/abs/2104.02939) [[code]](https://github.com/aimerykong/OpenGAN)
   - Shu Kong, Deva Ramanan.  *ICCV 2021 Best Paper Honorable Mention*
