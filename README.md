@@ -2510,6 +2510,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Open-World Learning 2022
 
+- Visual Recognition by Request. [[paper]](https://arxiv.org/abs/2207.14227) [[code]](https://github.com/chufengt/Visual-Recognition-by-Request)
+  - Chufeng Tang, Lingxi Xie, Xiaopeng Zhang, Xiaolin Hu, Qi Tian.
+  - Key Word: Open World Object Detection.
+  - <details><summary>Digest</summary> In this paper, we present a novel protocol of annotation and evaluation for visual recognition. Different from traditional settings, the protocol does not require the labeler/algorithm to annotate/recognize all targets (objects, parts, etc.) at once, but instead raises a number of recognition instructions and the algorithm recognizes targets by request. This mechanism brings two beneficial properties to reduce the burden of annotation, namely, (i) variable granularity: different scenarios can have different levels of annotation, in particular, object parts can be labeled only in large and clear instances, (ii) being open-domain: new concepts can be added to the database in minimal costs. To deal with the proposed setting, we maintain a knowledge base and design a query-based visual recognition framework that constructs queries on-the-fly based on the requests. We evaluate the recognition system on two mixed-annotated datasets, CPP and ADE20K, and demonstrate its promising ability of learning from partially labeled data as well as adapting to new concepts with only text labels.
+
 - UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
   - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
   - Key Word: Open World Object Detection.
