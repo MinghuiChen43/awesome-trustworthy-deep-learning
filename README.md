@@ -3058,6 +3058,8 @@ TBD
 
 ### Robustness Tutorials
 
+- [IJCAI-ECAI'22 Tutorial on Domain Generalization](https://dgresearch.github.io/)
+
 - [Practical Adversarial Robustness in Deep Learning: Problems and Solutions (CVPR 2021 Tutorial)](https://sites.google.com/view/par-2021)
 
 - [A Tutorial about Adversarial Attacks & Defenses in KDD 2021](https://sites.google.com/view/kdd21-tutorial-adv-robust/)
