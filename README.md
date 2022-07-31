@@ -2540,6 +2540,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
   - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems.
 
+- Full-Spectrum Out-of-Distribution Detection. [[paper]](https://arxiv.org/abs/2204.05306) [[code]](https://github.com/jingkang50/openood)
+  - Jingkang Yang, Kaiyang Zhou, Ziwei Liu.
+  - Key Word: Benchmark; Anomaly Detection; Open-set Recognition; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We take into account both shift types and introduce full-spectrum OOD (FS-OOD) detection, a more realistic problem setting that considers both detecting semantic shift and being tolerant to covariate shift; and designs three benchmarks. These new benchmarks have a more fine-grained categorization of distributions (i.e., training ID, covariate-shifted ID, near-OOD, and far-OOD) for the purpose of more comprehensively evaluating the pros and cons of algorithms.
+
 - FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
   - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen. *CVPR 2022*
   - Key Word: Open-World 6D Pose Estimation; Few-shot learning.
@@ -2561,6 +2566,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah. *CVPR 2022*
   - Key Word: Open-set Anomaly Detection; Video Anomaly Detection; Discovery of Unseen Instances.
   - <details><summary>Digest</summary> We propose UBnormal, a new supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. Unlike existing data sets, we introduce abnormal events annotated at the pixel level at training time, for the first time enabling the use of fully-supervised learning methods for abnormal event detection. To preserve the typical open-set formulation, we make sure to include disjoint sets of anomaly types in our training and test collections of videos. To our knowledge, UBnormal is the first video anomaly detection benchmark to allow a fair head-to-head comparison between one-class open-set models and supervised closed-set models, as shown in our experiments.
+
+- Generalized Out-of-Distribution Detection: A Survey. [[paper]](https://arxiv.org/abs/2110.11334) [[code]](https://github.com/Jingkang50/OODSurvey)
+  - Jingkang Yang, Kaiyang Zhou, Yixuan Li, Ziwei Liu.
+  - Key Word: Anomaly Detection; Novelty Detection; Open Set Recognition; Out-of-Distribution Detection; Outlier Detection.
+  - <details><summary>Digest</summary> Several other problems are closely related to OOD detection in terms of motivation and methodology. These include anomaly detection (AD), novelty detection (ND), open set recognition (OSR), and outlier detection (OD). Despite having different definitions and problem settings, these problems often confuse readers and practitioners, and as a result, some existing studies misuse terms. In this survey, we first present a generic framework called generalized OOD detection, which encompasses the five aforementioned problems, i.e., AD, ND, OSR, OOD detection, and OD.
 
 - Evidential Deep Learning for Open Set Action Recognition. [[paper]](https://arxiv.org/abs/2107.10161) [[code]](https://github.com/Cogito2012/DEAR)
   - Wentao Bao, Qi Yu, Yu Kong. *ICCV 2021 oral*
