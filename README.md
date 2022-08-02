@@ -1100,6 +1100,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Understanding Adversarial Robustness of Vision Transformers via Cauchy Problem. [[paper]](https://arxiv.org/abs/2208.00906) [[code]](https://github.com/trustai/ode4robustvit)
+  - Zheng Wang, Wenjie Ruan. *ECML-PKDD 2022*
+  - Key Word: Vision Transformers; Cauchy Problem; Adversarial Robustness.
+  - <details><summary>Digest</summary> We aim to introduce a principled and unified theoretical framework to investigate such an argument on ViT's robustness. We first theoretically prove that, unlike Transformers in Natural Language Processing, ViTs are Lipschitz continuous. Then we theoretically analyze the adversarial robustness of ViTs from the perspective of the Cauchy Problem, via which we can quantify how the robustness propagates through layers. 
+
+- Is current research on adversarial robustness addressing the right problem? [[paper]](https://arxiv.org/abs/2208.00539)
+  - Ali Borji.
+  - Key Word: Adversarial Robustness; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> Short answer: Yes, Long answer: No! Indeed, research on adversarial robustness has led to invaluable insights helping us understand and explore different aspects of the problem. Many attacks and defenses have been proposed over the last couple of years. The problem, however, remains largely unsolved and poorly understood. Here, I argue that the current formulation of the problem serves short term goals, and needs to be revised for us to achieve bigger gains. Specifically, the bound on perturbation has created a somewhat contrived setting and needs to be relaxed. This has misled us to focus on model classes that are not expressive enough to begin with. Instead, inspired by human vision and the fact that we rely more on robust features such as shape, vertices, and foreground objects than non-robust features such as texture, efforts should be steered towards looking for significantly different classes of models.
+
 - LGV: Boosting Adversarial Example Transferability from Large Geometric Vicinity. [[paper]](https://arxiv.org/abs/2207.13129) [[code]](https://github.com/framartin/lgv-geometric-transferability)
   - Martin Gubri, Maxime Cordy, Mike Papadakis, Yves Le Traon, Koushik Sen. *ECCV 2022*
   - Key Word: Adversarial Transferability.
