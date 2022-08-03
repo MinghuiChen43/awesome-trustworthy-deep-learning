@@ -2537,7 +2537,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - Few-Shot Class-Incremental Learning from an Open-Set Perspective. [[paper]](https://arxiv.org/abs/2208.00147) [[code]](https://github.com/canpeng123/fscil_alice)
   - Can Peng, Kun Zhao, Tianren Wang, Meng Li, Brian C. Lovell. *ECCV 2022*
-  - Key Word: Few-shot Class-Incremental Learning; Open-set; One-shot.
+  - Key Word: Few-shot Class-Incremental Learning; Open-set; One-shot; Classification.
   - <details><summary>Digest</summary> Here we explore the important task of Few-Shot Class-Incremental Learning (FSCIL) and its extreme data scarcity condition of one-shot. An ideal FSCIL model needs to perform well on all classes, regardless of their presentation order or paucity of data. It also needs to be robust to open-set real-world conditions and be easily adapted to the new tasks that always arise in the field. In this paper, we first reevaluate the current task setting and propose a more comprehensive and practical setting for the FSCIL task. Then, inspired by the similarity of the goals for FSCIL and modern face recognition systems, we propose our method -- Augmented Angular Loss Incremental Classification or ALICE. In ALICE, instead of the commonly used cross-entropy loss, we propose to use the angular penalty loss to obtain well-clustered features. As the obtained features not only need to be compactly clustered but also diverse enough to maintain generalization for future incremental classes, we further discuss how class augmentation, data augmentation, and data balancing affect classification performance.
 
 - Visual Recognition by Request. [[paper]](https://arxiv.org/abs/2207.14227) [[code]](https://github.com/chufengt/Visual-Recognition-by-Request)
