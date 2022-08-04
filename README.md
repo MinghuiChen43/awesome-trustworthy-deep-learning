@@ -1815,6 +1815,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
   
 ### Poisoning Attacks and Defenses: 2020
 
+- Invisible Backdoor Attack with Sample-Specific Triggers. [[paper]](https://arxiv.org/abs/2012.03816) [[code]](https://github.com/yuezunli/issba)
+  - Yuezun Li, Yiming Li, Baoyuan Wu, Longkang Li, Ran He, Siwei Lyu. *ICCV 2021*
+  - Key Word: Backdoor Attacks; Invisible Triggers; Sample-Specific Triggers.
+  - <details><summary>Digest</summary>  We explore a novel attack paradigm, where backdoor triggers are sample-specific. In our attack, we only need to modify certain training samples with invisible perturbation, while not need to manipulate other training components (e.g., training loss, and model structure) as required in many existing attacks.
+
+- Backdoor Learning: A Survey. [[paper]](https://arxiv.org/abs/2007.08745) [[code]](https://github.com/THUYimingLi/backdoor-learning-resources)
+  - Yiming Li, Yong Jiang, Zhifeng Li, Shu-Tao Xia.
+  - Key Word: Backdoor Learning; Survey.
+  - <details><summary>Digest</summary> We present the first comprehensive survey of this realm. We summarize and categorize existing backdoor attacks and defenses based on their characteristics, and provide a unified framework for analyzing poisoning-based backdoor attacks. Besides, we also analyze the relation between backdoor attacks and relevant fields (i.e., adversarial attacks and data poisoning), and summarize widely adopted benchmark datasets. Finally, we briefly outline certain future research directions relying upon reviewed works.
+
 - Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review. [[paper]](https://arxiv.org/abs/2007.10760)
   - Yansong Gao, Bao Gia Doan, Zhi Zhang, Siqi Ma, Jiliang Zhang, Anmin Fu, Surya Nepal, Hyoungshick Kim.
   - Key Word: Backdoor Attacks and Defenses; Survey.
@@ -1825,10 +1835,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Attacks; Natural Reflection.
   - <details><summary>Digest</summary> In this paper, we present a new type of backdoor attack inspired by an important natural phenomenon: reflection. Using mathematical modeling of physical reflection models, we propose reflection backdoor (Refool) to plant reflections as backdoor into a victim model.  
 
-- BackdoorBench: A Comprehensive Benchmark of Backdoor Learning. [[paper]](https://arxiv.org/abs/2206.12654) [[code]](https://github.com/THUYimingLi/backdoor-learning-resources)
-  - Yiming Li, Yong Jiang, Zhifeng Li, Shu-Tao Xia.
-  - Key Word: Backdoor Learning; Survey.
-  - <details><summary>Digest</summary> We present the first comprehensive survey of this realm. We summarize and categorize existing backdoor attacks and defenses based on their characteristics, and provide a unified framework for analyzing poisoning-based backdoor attacks. Besides, we also analyze the relation between backdoor attacks and relevant fields (i.e., adversarial attacks and data poisoning), and summarize widely adopted benchmark datasets. Finally, we briefly outline certain future research directions relying upon reviewed works.
+- Backdoor Attacks Against Deep Learning Systems in the Physical World. [[paper]](https://arxiv.org/abs/2006.14580)
+  - Emily Wenger, Josephine Passananti, Arjun Bhagoji, Yuanshun Yao, Haitao Zheng, Ben Y. Zhao. *CVPR 2021*
+  - Key Word: Backdoor Attacks; Physical Attacks; Facial Recognition.
+  - <details><summary>Digest</summary> Can backdoor attacks succeed using physical objects as triggers, thus making them a credible threat against deep learning systems in the real world? We conduct a detailed empirical study to explore this question for facial recognition, a critical deep learning task. Using seven physical objects as triggers, we collect a custom dataset of 3205 images of ten volunteers and use it to study the feasibility of physical backdoor attacks under a variety of real-world conditions.
+
+- Blind Backdoors in Deep Learning Models. [[paper]](https://arxiv.org/abs/2005.03823) [[code]](https://github.com/ebagdasa/backdoors101)
+  - Eugene Bagdasaryan, Vitaly Shmatikov. *USENIX 2021*
+  - Key Word: Backdoor Attacks; Blind Backdoors.
+  - <details><summary>Digest</summary> Our attack is blind: the attacker cannot modify the training data, nor observe the execution of his code, nor access the resulting model. The attack code creates poisoned training inputs "on the fly," as the model is training, and uses multi-objective optimization to achieve high accuracy on both the main and backdoor tasks. We show how a blind attack can evade any known defense and propose new ones. 
 
 ### Poisoning Attacks and Defenses: 2017
 
@@ -2544,11 +2559,6 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Chufeng Tang, Lingxi Xie, Xiaopeng Zhang, Xiaolin Hu, Qi Tian.
   - Key Word: Visual Recognition by Request; Open-domain; Knowledge Base.
   - <details><summary>Digest</summary> In this paper, we present a novel protocol of annotation and evaluation for visual recognition. Different from traditional settings, the protocol does not require the labeler/algorithm to annotate/recognize all targets (objects, parts, etc.) at once, but instead raises a number of recognition instructions and the algorithm recognizes targets by request. This mechanism brings two beneficial properties to reduce the burden of annotation, namely, (i) variable granularity: different scenarios can have different levels of annotation, in particular, object parts can be labeled only in large and clear instances, (ii) being open-domain: new concepts can be added to the database in minimal costs. To deal with the proposed setting, we maintain a knowledge base and design a query-based visual recognition framework that constructs queries on-the-fly based on the requests. We evaluate the recognition system on two mixed-annotated datasets, CPP and ADE20K, and demonstrate its promising ability of learning from partially labeled data as well as adapting to new concepts with only text labels.
-
-- Towards Open Set 3D Learning: A Benchmark on Object Point Clouds. [[paper]](https://arxiv.org/abs/2207.11554) [[code]](https://github.com/antoalli/3d_os)
-  - Antonio Alliegro, Francesco Cappio Borlino, Tatiana Tommasi.
-  - Key Word: Open-set; Point Clouds; Classification.
-  - <details><summary>Digest</summary> The vast majority of the existing studies focus on canonical closed-set conditions, neglecting the intrinsic open nature of the real-world. This limits the abilities of autonomous systems involved in safety-critical applications that require managing novel and unknown signals. This paper provides the first broad study on Open Set 3D learning. We introduce a novel testbed with settings of increasing difficulty in terms of category semantic shift and cover both in-domain (synthetic-to-synthetic) and cross-domain (synthetic-to-real) scenarios. Moreover, we investigate the related out-of-distribution and Open Set 2D literature to understand if and how their most recent approaches are effective on 3D data. Our extensive benchmark positions several algorithms in the same coherent picture, revealing their strengths and limitations. The results of our analysis may serve as a reliable foothold for future tailored Open Set 3D models.
 
 - UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
   - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
