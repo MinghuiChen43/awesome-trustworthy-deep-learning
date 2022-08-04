@@ -1103,7 +1103,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Understanding Adversarial Robustness of Vision Transformers via Cauchy Problem. [[paper]](https://arxiv.org/abs/2208.00906) [[code]](https://github.com/trustai/ode4robustvit)
   - Zheng Wang, Wenjie Ruan. *ECML-PKDD 2022*
   - Key Word: Vision Transformers; Cauchy Problem; Adversarial Robustness.
-  - <details><summary>Digest</summary> We aim to introduce a principled and unified theoretical framework to investigate such an argument on ViT's robustness. We first theoretically prove that, unlike Transformers in Natural Language Processing, ViTs are Lipschitz continuous. Then we theoretically analyze the adversarial robustness of ViTs from the perspective of the Cauchy Problem, via which we can quantify how the robustness propagates through layers. 
+  - <details><summary>Digest</summary> We aim to introduce a principled and unified theoretical framework to investigate such an argument on ViT's robustness. We first theoretically prove that, unlike Transformers in Natural Language Processing, ViTs are Lipschitz continuous. Then we theoretically analyze the adversarial robustness of ViTs from the perspective of the Cauchy Problem, via which we can quantify how the robustness propagates through layers.
 
 - Is current research on adversarial robustness addressing the right problem? [[paper]](https://arxiv.org/abs/2208.00539)
   - Ali Borji.
@@ -1843,7 +1843,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Blind Backdoors in Deep Learning Models. [[paper]](https://arxiv.org/abs/2005.03823) [[code]](https://github.com/ebagdasa/backdoors101)
   - Eugene Bagdasaryan, Vitaly Shmatikov. *USENIX 2021*
   - Key Word: Backdoor Attacks; Blind Backdoors.
-  - <details><summary>Digest</summary> Our attack is blind: the attacker cannot modify the training data, nor observe the execution of his code, nor access the resulting model. The attack code creates poisoned training inputs "on the fly," as the model is training, and uses multi-objective optimization to achieve high accuracy on both the main and backdoor tasks. We show how a blind attack can evade any known defense and propose new ones. 
+  - <details><summary>Digest</summary> Our attack is blind: the attacker cannot modify the training data, nor observe the execution of his code, nor access the resulting model. The attack code creates poisoned training inputs "on the fly," as the model is training, and uses multi-objective optimization to achieve high accuracy on both the main and backdoor tasks. We show how a blind attack can evade any known defense and propose new ones.
 
 ### Poisoning Attacks and Defenses: 2017
 
@@ -3137,6 +3137,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Shift Happens Workshop (ICML 2022)](https://shift-happens-benchmark.github.io/)
 
+- [Principles of Distribution Shift (ICML 2022)](https://sites.google.com/view/icml-2022-pods)
+
+- [New Frontiers in Adversarial Machine Learning (ICML 2022)](https://advml-frontier.github.io/)
+
+- [Workshop on Spurious Correlations, Invariance, and Stability (ICML 2022)](https://sites.google.com/view/scis-workshop/home)
+
 - [Robust and reliable machine learning in the real world (ICLR 2021)](https://sites.google.com/connect.hku.hk/robustml-2021/home)
 
 - [Distribution Shifts Connecting Methods and Applications (NeurIPS 2021)](https://sites.google.com/view/distshift2021)
@@ -3147,7 +3153,19 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2020)](https://sites.google.com/view/udlworkshop2020/home)
 
+### Privacy Workshops
+
+- [Theory and Practice of Differential Privacy (ICML 2022)](https://tpdp.journalprivacyconfidentiality.org/2022/)
+
+### Interpretability Workshops
+
+- [Interpretable Machine Learning in Healthcare (ICML 2022)](https://sites.google.com/view/imlh2022)
+
 ### Other Workshops
+
+- [International Workshop on Trustworthy Federated Learning (IJCAI 2022)](https://federated-learning.org/fl-ijcai-2022/)
+
+- [Workshop on Distribution-Free Uncertainty Quantification (ICML 2022)](https://sites.google.com/berkeley.edu/dfuq-22/home)
 
 - [First Workshop on Causal Representation Learning (UAI 2022)](https://crl-uai-2022.github.io/)
 
