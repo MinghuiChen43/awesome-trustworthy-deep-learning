@@ -2550,6 +2550,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Open-World Learning 2022
 
+- Open-world Contrastive Learning. [[paper]](https://arxiv.org/abs/2208.02764)
+  - Yiyou Sun, Yixuan Li.
+  - Key Word: Contrastive learning; Open-world; One-shot; Classification.
+  - <details><summary>Digest</summary> In this paper, we enrich the landscape of representation learning by tapping into an open-world setting, where unlabeled samples from novel classes can naturally emerge in the wild. To bridge the gap, we introduce a new learning framework, open-world contrastive learning (OpenCon). OpenCon tackles the challenges of learning compact representations for both known and novel classes, and facilitates novelty discovery along the way. We demonstrate the effectiveness of OpenCon on challenging benchmark datasets and establish competitive performance.
+
 - Few-Shot Class-Incremental Learning from an Open-Set Perspective. [[paper]](https://arxiv.org/abs/2208.00147) [[code]](https://github.com/canpeng123/fscil_alice)
   - Can Peng, Kun Zhao, Tianren Wang, Meng Li, Brian C. Lovell. *ECCV 2022*
   - Key Word: Few-shot Class-Incremental Learning; Open-set; One-shot; Classification.
