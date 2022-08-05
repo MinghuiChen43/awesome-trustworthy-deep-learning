@@ -3170,6 +3170,8 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [International Workshop on Trustworthy Federated Learning (IJCAI 2022)](https://federated-learning.org/fl-ijcai-2022/)
 
+- [Workshop on AI Safety (IJCAI 2022)](https://www.aisafetyw.org/)
+
 - [Workshop on Distribution-Free Uncertainty Quantification (ICML 2022)](https://sites.google.com/berkeley.edu/dfuq-22/home)
 
 - [First Workshop on Causal Representation Learning (UAI 2022)](https://crl-uai-2022.github.io/)
