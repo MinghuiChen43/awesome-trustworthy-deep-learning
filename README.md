@@ -1820,6 +1820,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Attacks; Invisible Triggers; Sample-Specific Triggers.
   - <details><summary>Digest</summary>  We explore a novel attack paradigm, where backdoor triggers are sample-specific. In our attack, we only need to modify certain training samples with invisible perturbation, while not need to manipulate other training components (e.g., training loss, and model structure) as required in many existing attacks.
 
+- One-pixel Signature: Characterizing CNN Models for Backdoor Detection. [[paper]](https://arxiv.org/abs/2008.07711)
+  - Shanjiaoyang Huang, Weiqi Peng, Zhiwei Jia, Zhuowen Tu. *ECCV 2020*
+  - Key Word: Backdoor Detection.
+  - <details><summary>Digest</summary> We tackle the convolution neural networks (CNNs) backdoor detection problem by proposing a new representation called one-pixel signature. Our task is to detect/classify if a CNN model has been maliciously inserted with an unknown Trojan trigger or not. Here, each CNN model is associated with a signature that is created by generating, pixel-by-pixel, an adversarial value that is the result of the largest change to the class prediction. The one-pixel signature is agnostic to the design choice of CNN architectures, and how they were trained. It can be computed efficiently for a black-box CNN model without accessing the network parameters.
+
 - Backdoor Learning: A Survey. [[paper]](https://arxiv.org/abs/2007.08745) [[code]](https://github.com/THUYimingLi/backdoor-learning-resources)
   - Yiming Li, Yong Jiang, Zhifeng Li, Shu-Tao Xia.
   - Key Word: Backdoor Learning; Survey.
@@ -1844,6 +1849,18 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Eugene Bagdasaryan, Vitaly Shmatikov. *USENIX 2021*
   - Key Word: Backdoor Attacks; Blind Backdoors.
   - <details><summary>Digest</summary> Our attack is blind: the attacker cannot modify the training data, nor observe the execution of his code, nor access the resulting model. The attack code creates poisoned training inputs "on the fly," as the model is training, and uses multi-objective optimization to achieve high accuracy on both the main and backdoor tasks. We show how a blind attack can evade any known defense and propose new ones.
+
+- Clean-Label Backdoor Attacks on Video Recognition Models. [[paper]](https://arxiv.org/abs/2003.03030) [[code](https://github.com/ShihaoZhaoZSH/Video-Backdoor-Attack)]
+  - Shihao Zhao, Xingjun Ma, Xiang Zheng, James Bailey, Jingjing Chen, Yu-Gang Jiang. *CVPR 2020*
+  - Key Word: Backdoor Attacks; Video Recognition.
+  - <details><summary>Digest</summary> We show that existing image backdoor attacks are far less effective on videos, and outline 4 strict conditions where existing attacks are likely to fail: 1) scenarios with more input dimensions (eg. videos), 2) scenarios with high resolution, 3) scenarios with a large number of classes and few examples per class (a "sparse dataset"), and 4) attacks with access to correct labels (eg. clean-label attacks). We propose the use of a universal adversarial trigger as the backdoor trigger to attack video recognition models, a situation where backdoor attacks are likely to be challenged by the above 4 strict conditions. 
+
+### Poisoning Attacks and Defenses: 2019
+
+- Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs. [[paper]](https://arxiv.org/abs/1906.10842) [[code]](https://github.com/UMBCvision/Universal-Litmus-Patterns)
+  - Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann. *CVPR 2020*
+  - Key Word: Backdoor Detection.
+  - <details><summary>Digest</summary> We introduce a benchmark technique for detecting backdoor attacks (aka Trojan attacks) on deep convolutional neural networks (CNNs). We introduce the concept of Universal Litmus Patterns (ULPs), which enable one to reveal backdoor attacks by feeding these universal patterns to the network and analyzing the output (i.e., classifying the network as `clean' or `corrupted'). This detection is fast because it requires only a few forward passes through a CNN. 
 
 ### Poisoning Attacks and Defenses: 2017
 
