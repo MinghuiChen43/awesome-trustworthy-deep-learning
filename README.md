@@ -2647,6 +2647,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-World 6D Pose Estimation; Few-shot learning.
   - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost.
 
+- PMAL: Open Set Recognition via Robust Prototype Mining. [[paper]](https://arxiv.org/abs/2203.08569) [[code]](https://github.com/Cogito2012/OpenTAL)
+  - Jing Lu, Yunxu Xu, Hao Li, Zhanzhan Cheng, Yi Niu. *AAAI 2022*
+  - Key Word: Open-set Recognition; Prototype Learning.
+  - <details><summary>Digest</summary> In this work, we propose a novel Prototype Mining And Learning (PMAL) framework. It has a prototype mining mechanism before the phase of optimizing embedding space, explicitly considering two crucial properties, namely high-quality and diversity of the prototype set. Concretely, a set of high-quality candidates are firstly extracted from training samples based on data uncertainty learning, avoiding the interference from unexpected noise. Considering the multifarious appearance of objects even in a single category, a diversity-based strategy for prototype set filtering is proposed. Accordingly, the embedding space can be better optimized to discriminate therein the predefined classes and between known and unknowns. 
+
 - OpenTAL: Towards Open Set Temporal Action Localization. [[paper]](https://arxiv.org/abs/2203.05114) [[code]](https://github.com/Cogito2012/OpenTAL)
   - Wentao Bao, Qi Yu, Yu Kong. *CVPR 2022*
   - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning.
