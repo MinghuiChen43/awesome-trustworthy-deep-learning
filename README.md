@@ -1711,6 +1711,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Poisoning Attacks and Defenses: 2022
 
+- Lethal Dose Conjecture on Data Poisoning. [[paper]](https://arxiv.org/abs/2208.03309)
+  - Wenxiao Wang, Alexander Levine, Soheil Feizi.
+  - Key Word: Data poisoning; Deep Partition Aggregation; Finite Aggregation.
+  - <details><summary>Digest</summary> Deep Partition Aggregation (DPA) and its extension, Finite Aggregation (FA) are recent approaches for provable defenses against data poisoning, where they predict through the majority vote of many base models trained from different subsets of training set using a given learner. The conjecture implies that both DPA and FA are (asymptotically) optimal -- if we have the most data-efficient learner, they can turn it into one of the most robust defenses against data poisoning. This outlines a practical approach to developing stronger defenses against poisoning via finding data-efficient learners. 
+
+- Data-free Backdoor Removal based on Channel Lipschitzness. [[paper]](https://arxiv.org/abs/2208.03111) [[code]](https://github.com/rkteddy/channel-Lipschitzness-based-pruning)
+  - Runkai Zheng, Rongjun Tang, Jianze Li, Li Liu. *ECCV 2022*
+  - Key Word: Backdoor Defense; Lipschitz Constant; Model pruning.
+  - <details><summary>Digest</summary> We introduce a novel concept called Channel Lipschitz Constant (CLC), which is defined as the Lipschitz constant of the mapping from the input images to the output of each channel. Then we provide empirical evidences to show the strong correlation between an Upper bound of the CLC (UCLC) and the trigger-activated change on the channel activation. Since UCLC can be directly calculated from the weight matrices, we can detect the potential backdoor channels in a data-free manner, and do simple pruning on the infected DNN to repair the model.
+
 - Just Rotate it: Deploying Backdoor Attacks via Rotation Transformation. [[paper]](https://arxiv.org/abs/2207.10825)
   - Tong Wu, Tianhao Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal.
   - Key Word: Backdoor Attacks; Object Detection.
