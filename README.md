@@ -1829,15 +1829,25 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We demonstrate that this strategy provides a false sense of security, as it ignores an inherent asymmetry between the parties: users' pictures are perturbed once and for all before being published (at which point they are scraped) and must thereafter fool all future models---including models trained adaptively against the users' past attacks, or models that use new technologies discovered after the attack.
 
 - Poisoning and Backdooring Contrastive Learning. [[paper]](https://arxiv.org/abs/2106.09667)
-  - Nicholas Carlini, Andreas Terzis
-  - Key Word: Contrastive Learning; Poisoning Attacks; Backdoor Attacks. *ICLR 2022*
+  - Nicholas Carlini, Andreas Terzis. *ICLR 2022*
+  - Key Word: Contrastive Learning; Poisoning Attacks; Backdoor Attacks.
   - <details><summary>Digest</summary> Multimodal contrastive learning methods like CLIP train on noisy and uncurated training datasets. This is cheaper than labeling datasets manually, and even improves out-of-distribution robustness. We show that this practice makes backdoor and poisoning attacks a significant threat. By poisoning just 0.01% of a dataset (e.g., just 300 images of the 3 million-example Conceptual Captions dataset), we can cause the model to misclassify test images by overlaying a small patch.
 
 - Backdoor Attacks on Self-Supervised Learning. [[paper]](https://arxiv.org/abs/2105.10123) [[code]](https://github.com/UMBCvision/SSL-Backdoor)
-  - Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash
-  - Key Word: Self-Supervised Learning; Backdoor Attacks. *CVPR 2022*
+  - Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash.  *CVPR 2022*
+  - Key Word: Self-Supervised Learning; Backdoor Attacks.
   - <details><summary>Digest</summary> State-of-the-art self-supervised methods for learning representations from images (e.g., MoCo, BYOL, MSF) use an inductive bias that random augmentations (e.g., random crops) of an image should produce similar embeddings. We show that such methods are vulnerable to backdoor attacks - where an attacker poisons a small part of the unlabeled data by adding a trigger (image patch chosen by the attacker) to the images. The model performance is good on clean test images, but the attacker can manipulate the decision of the model by showing the trigger at test time
-  
+
+- LIRA: Learnable, Imperceptible and Robust Backdoor Attacks. [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.pdf) [[code]](https://github.com/khoadoan106/backdoor_attacks)
+  - Khoa Doan, Yingjie Lao, Weijie Zhao, Ping Li. *ICCV 2021*
+  - Key Word: Backdoor Attack.
+  - <details><summary>Digest</summary> The trigger injection function is manually defined in most existing backdoor attack methods, e.g., placing a small patch of pixels on an image or slightly deforming the image before poisoning the model. This results in a two-stage approach with a sub-optimal attack success rate and a lack of complete stealthiness under human inspection. In this paper, we propose a novel and stealthy backdoor attack framework, LIRA, which jointly learns the optimal, stealthy trigger injection function and poisons the model. We formulate such an objective as a non-convex, constrained optimization problem. Under this optimization framework, the trigger generator function will learn to manipulate the input with imperceptible noise to preserve the model performance on the clean data and maximize the attack success rate on the poisoned data.
+
+- CLEAR: Clean-Up Sample-Targeted Backdoor in Neural Networks. [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhu_CLEAR_Clean-Up_Sample-Targeted_Backdoor_in_Neural_Networks_ICCV_2021_paper.pdf)
+  - Liuwan Zhu, Rui Ning, Chunsheng Xin, Chonggang Wang, Hongyi Wu. *ICCV 2021*
+  - Key Word: Backdoor Defense; Backdoor Detection.
+  - <details><summary>Digest</summary> We propose a novel scheme to detect and mitigate sample-targeted backdoor attacks. We discover and demonstrate a unique property of the sample-targeted backdoor, which forces a boundary change such that small "pockets" are formed around the target sample. Based on this observation, we propose a novel defense mechanism to pinpoint a malicious pocket by "wrapping" them into a tight convex hull in the feature space. We design an effective algorithm to search for such a convex hull and remove the backdoor by fine-tuning the model using the identified malicious samples with the corrected label according to the convex hull.
+
 ### Poisoning Attacks and Defenses: 2020
 
 - Invisible Backdoor Attack with Sample-Specific Triggers. [[paper]](https://arxiv.org/abs/2012.03816) [[code]](https://github.com/yuezunli/issba)
@@ -1897,11 +1907,6 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Privacy
 
 ### Privacy: 2022
-
-- Stronger Privacy Amplification by Shuffling for Rényi and Approximate Differential Privacy. [[paper]](https://arxiv.org/abs/2208.04591)
-  - Vitaly Feldman, Audra McMillan, Kunal Talwar.
-  - Key Word: Differential Privacy.
-  - <details><summary>Digest</summary> In this work, we improve the state of the art privacy amplification by shuffling results both theoretically and numerically. Our first contribution is the first asymptotically optimal analysis of the Rényi differential privacy parameters for the shuffled outputs of LDP randomizers. Our second contribution is a new analysis of privacy amplification by shuffling. This analysis improves on the techniques of [FMT20] and leads to tighter numerical bounds in all parameter settings.
 
 - On the Fundamental Limits of Formally (Dis)Proving Robustness in Proof-of-Learning. [[paper]](https://arxiv.org/abs/2208.03567)
   - Congyu Fang, Hengrui Jia, Anvith Thudi, Mohammad Yaghini, Christopher A. Choquette-Choo, Natalie Dullerud, Varun Chandrasekaran, Nicolas Papernot. 
