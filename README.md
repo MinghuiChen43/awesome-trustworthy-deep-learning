@@ -1898,6 +1898,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Privacy: 2022
 
+- Stronger Privacy Amplification by Shuffling for Rényi and Approximate Differential Privacy. [[paper]](https://arxiv.org/abs/2208.04591)
+  - Vitaly Feldman, Audra McMillan, Kunal Talwar.
+  - Key Word: Differential Privacy.
+  - <details><summary>Digest</summary> In this work, we improve the state of the art privacy amplification by shuffling results both theoretically and numerically. Our first contribution is the first asymptotically optimal analysis of the Rényi differential privacy parameters for the shuffled outputs of LDP randomizers. Our second contribution is a new analysis of privacy amplification by shuffling. This analysis improves on the techniques of [FMT20] and leads to tighter numerical bounds in all parameter settings.
+
 - On the Fundamental Limits of Formally (Dis)Proving Robustness in Proof-of-Learning. [[paper]](https://arxiv.org/abs/2208.03567)
   - Congyu Fang, Hengrui Jia, Anvith Thudi, Mohammad Yaghini, Christopher A. Choquette-Choo, Natalie Dullerud, Varun Chandrasekaran, Nicolas Papernot. 
   - Key Word: Proof-of-Learning; Adversarial Examples.
