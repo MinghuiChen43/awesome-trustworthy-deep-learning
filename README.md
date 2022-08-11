@@ -2632,6 +2632,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-set 3D Learning; In-domain and Cross-domain; Out-of-distribution.
   - <details><summary>Digest</summary> In this context exploiting 3D data can be a valuable asset since it conveys rich information about the geometry of sensed objects and scenes. This paper provides the first broad study on Open Set 3D learning. We introduce a novel testbed with settings of increasing difficulty in terms of category semantic shift and cover both in-domain (synthetic-to-synthetic) and cross-domain (synthetic-to-real) scenarios. Moreover, we investigate the related out-of-distribution and Open Set 2D literature to understand if and how their most recent approaches are effective on 3D data. Our extensive benchmark positions several algorithms in the same coherent picture, revealing their strengths and limitations.
 
+- Semantic Abstraction: Open-World 3D Scene Understanding from 2D Vision-Language Models. [[paper]](https://arxiv.org/abs/2207.11514) [[code]](https://semantic-abstraction.cs.columbia.edu/)
+  - Huy Ha, Shuran Song.
+  - Key Word: Open-set Vocabulary; 3D scene understanding; Zero-shot.
+  - <details><summary>Digest</summary> We study open-world 3D scene understanding, a family of tasks that require agents to reason about their 3D environment with an open-set vocabulary and out-of-domain visual inputs - a critical skill for robots to operate in the unstructured 3D world. Towards this end, we propose Semantic Abstraction (SemAbs), a framework that equips 2D Vision-Language Models (VLMs) with new 3D spatial capabilities, while maintaining their zero-shot robustness. We achieve this abstraction using relevancy maps extracted from CLIP, and learn 3D spatial and geometric reasoning skills on top of those abstractions in a semantic-agnostic manner. We demonstrate the usefulness of SemAbs on two open-world 3D scene understanding tasks: 1) completing partially observed objects and 2) localizing hidden objects from language descriptions.
+
 - UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
   - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
   - Key Word: Open World Object Detection.
