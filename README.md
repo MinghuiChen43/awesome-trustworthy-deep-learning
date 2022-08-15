@@ -36,6 +36,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Survey: 2022
 
+- Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2208.06265)
+  - Shoujin Wang, Xiuzhen Zhang, Yan Wang, Huan Liu, Francesco Ricci.
+  - Key Word: Survey; Recommender Systems; Trustworthy Recommendation.
+  - <details><summary>Digest</summary> Recent years have witnessed an increasing number of threats to RSs, coming from attacks, system and user generated noise, system bias. As a result, it has become clear that a strict focus on RS accuracy is limited and the research must consider other important factors, e.g., trustworthiness. For end users, a trustworthy RS (TRS) should not only be accurate, but also transparent, unbiased and fair as well as robust to noise or attacks. These observations actually led to a paradigm shift of the research on RSs: from accuracy-oriented RSs to TRSs. However, researchers lack a systematic overview and discussion of the literature in this novel and fast developing field of TRSs. To this end, in this paper, we provide an overview of TRSs, including a discussion of the motivation and basic concepts of TRSs, a presentation of the challenges in building TRSs, and a perspective on the future directions in this area. 
+
 - Trustworthy Graph Neural Networks: Aspects, Methods and Trends. [[paper]](https://arxiv.org/abs/2205.07424)
   - He Zhang, Bang Wu, Xingliang Yuan, Shirui Pan, Hanghang Tong, Jian Pei.
   - Key Word: Survey; Graph Neural Networks.
@@ -1908,6 +1913,16 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Privacy: 2022
 
+- Private Domain Adaptation from a Public Source. [[paper]](https://arxiv.org/abs/2208.06135)
+  - Raef Bassily, Mehryar Mohri, Ananda Theertha Suresh.
+  - Key Word: Domain Adaptation; Differential Privacy; Frank-Wolfe Algorithm; Mirror Descent Algorithm.
+  - <details><summary>Digest</summary> In regression problems with no privacy constraints on the source or target data, a discrepancy minimization algorithm based on several theoretical guarantees was shown to outperform a number of other adaptation algorithm baselines. Building on that approach, we design differentially private discrepancy-based algorithms for adaptation from a source domain with public labeled data to a target domain with unlabeled private data. The design and analysis of our private algorithms critically hinge upon several key properties we prove for a smooth approximation of the weighted discrepancy, such as its smoothness with respect to the ℓ1-norm and the sensitivity of its gradient. 
+
+- Dropout is NOT All You Need to Prevent Gradient Leakage. [[paper]](https://arxiv.org/abs/2208.06163)
+  - Daniel Scheliga, Patrick Mäder, Marco Seeland.
+  - Key Word: Dropout; Gradient Inversion Attacks.
+  - <details><summary>Digest</summary> Recent observations suggest that dropout could mitigate gradient leakage and improve model utility if added to neural networks. Unfortunately, this phenomenon has not been systematically researched yet. In this work, we thoroughly analyze the effect of dropout on iterative gradient inversion attacks. We find that state of the art attacks are not able to reconstruct the client data due to the stochasticity induced by dropout during model training. Nonetheless, we argue that dropout does not offer reliable protection if the dropout induced stochasticity is adequately modeled during attack optimization. Consequently, we propose a novel Dropout Inversion Attack (DIA) that jointly optimizes for client data and dropout masks to approximate the stochastic client model. 
+
 - On the Fundamental Limits of Formally (Dis)Proving Robustness in Proof-of-Learning. [[paper]](https://arxiv.org/abs/2208.03567)
   - Congyu Fang, Hengrui Jia, Anvith Thudi, Mohammad Yaghini, Christopher A. Choquette-Choo, Natalie Dullerud, Varun Chandrasekaran, Nicolas Papernot. 
   - Key Word: Proof-of-Learning; Adversarial Examples.
@@ -2827,6 +2842,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 ## Interactions with Blockchain
 
 ### Interactions with Blockchain: 2022
+
+- A Fast Blockchain-based Federated Learning Framework with Compressed Communications. [[paper]](https://arxiv.org/abs/2208.06095)
+  - Laizhong Cui, Xiaoxin Su, Yipeng Zhou. *JSAC*
+  - Key Word: Blockchain-based Federated Learning.
+  - <details><summary>Digest</summary> To improve the practicality of BFL, we are among the first to propose a fast blockchain-based communication-efficient federated learning framework by compressing communications in BFL, called BCFL. Meanwhile, we derive the convergence rate of BCFL with non-convex loss. To maximize the final model accuracy, we further formulate the problem to minimize the training loss of the convergence rate subject to a limited training time with respect to the compression rate and the block generation rate, which is a bi-convex optimization problem and can be efficiently solved. 
 
 - BPFISH: Blockchain and Privacy-preserving FL Inspired Smart Healthcare. [[paper]](https://arxiv.org/abs/2207.11654)
   - Moirangthem Biken Singh, Ajay Pratap.
