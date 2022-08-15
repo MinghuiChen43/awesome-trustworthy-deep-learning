@@ -2667,6 +2667,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-set Recognition; Generative Adversarial Network.
   - <details><summary>Digest</summary> We present a novel framework, DIfficulty-Aware Simulator (DIAS), that generates fakes with diverse difficulty levels to simulate the real world. We first investigate fakes from generative adversarial network (GAN) in the classifier's viewpoint and observe that these are not severely challenging. This leads us to define the criteria for difficulty by regarding samples generated with GANs having moderate-difficulty. To produce hard-difficulty examples, we introduce Copycat, imitating the behavior of the classifier. Furthermore, moderate- and easy-difficulty samples are also yielded by our modified GAN and Copycat, respectively.
 
+- More Practical Scenario of Open-set Object Detection: Open at Category Level and Closed at Super-category Level. [[paper]](https://arxiv.org/abs/2207.09775)
+  - Yusuke Hosoya, Masanori Suganuma, Takayuki Okatani.
+  - Key Word: Open-set Object Detection; Super-category.
+  - <details><summary>Digest</summary> We first point out that the scenario of OSOD considered in recent studies, which considers an unlimited variety of unknown objects similar to open-set recognition (OSR), has a fundamental issue. That is, we cannot determine what to detect and what not for such unlimited unknown objects, which is necessary for detection tasks. This issue leads to difficulty with the evaluation of methods' performance on unknown object detection. We then introduce a novel scenario of OSOD, which deals with only unknown objects that share the super-category with known objects. It has many real-world applications, e.g., detecting an increasing number of fine-grained objects. This new setting is free from the above issue and evaluation difficulty. Moreover, it makes detecting unknown objects more realistic owing to the visual similarity between known and unknown objects.
+
 - DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition. [[paper]](https://arxiv.org/abs/2207.02606) [[code]](https://github.com/matejgrcic/DenseHybrid)
   - Matej Grcić, Petra Bevandić, Siniša Šegvić. *ECCV 2022*
   - Key Word: Anomaly detection; Dense anomaly detection; Open-set Recognition.
