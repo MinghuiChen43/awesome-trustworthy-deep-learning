@@ -2662,6 +2662,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open World Object Detection.
   - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
 
+- Difficulty-Aware Simulator for Open Set Recognition. [[paper]](https://arxiv.org/abs/2207.10024) [[code]](https://github.com/wjun0830/difficulty-aware-simulator)
+  - WonJun Moon, Junho Park, Hyun Seok Seong, Cheol-Ho Cho, Jae-Pil Heo. *ECCV 2022*
+  - Key Word: Open-set Recognition; Generative Adversarial Network.
+  - <details><summary>Digest</summary> We present a novel framework, DIfficulty-Aware Simulator (DIAS), that generates fakes with diverse difficulty levels to simulate the real world. We first investigate fakes from generative adversarial network (GAN) in the classifier's viewpoint and observe that these are not severely challenging. This leads us to define the criteria for difficulty by regarding samples generated with GANs having moderate-difficulty. To produce hard-difficulty examples, we introduce Copycat, imitating the behavior of the classifier. Furthermore, moderate- and easy-difficulty samples are also yielded by our modified GAN and Copycat, respectively.
+
 - DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition. [[paper]](https://arxiv.org/abs/2207.02606) [[code]](https://github.com/matejgrcic/DenseHybrid)
   - Matej Grcić, Petra Bevandić, Siniša Šegvić. *ECCV 2022*
   - Key Word: Anomaly detection; Dense anomaly detection; Open-set Recognition.
