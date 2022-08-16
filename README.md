@@ -3296,7 +3296,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 - [Workshop on Adversarial Robustness In the Real World (ICCV 2021)](https://iccv21-adv-workshop.github.io/)
 
-- [Uncertainty & Robustness in Deep Learning (ICML 2021)](https://sites.google.com/view/udlworkshop2021/home)
+- [Uncertainty and Robustness in Deep Learning Workshop (ICML 2021)](https://sites.google.com/view/udlworkshop2021/home)
 
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2020)](https://sites.google.com/view/udlworkshop2020/home)
 
