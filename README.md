@@ -2627,6 +2627,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Open-World Learning 2022
 
+- From Known to Unknown: Quality-aware Self-improving Graph Neural Network for Open Set Social Event Detection. [[paper]](https://arxiv.org/abs/2208.06973) [[code]](https://github.com/RingBDStack/open-set-social-event-detection)
+  - Jiaqian Ren, Lei Jiang, Hao Peng, Yuwei Cao, Jia Wu, Philip S. Yu, Lifang He.
+  - Key Word: Open-set Social Event Detection; Graph Neural Network; Classification.
+  - <details><summary>Digest</summary> To address this problem, we design a Quality-aware Self-improving Graph Neural Network (QSGNN) which extends the knowledge from known to unknown by leveraging the best of known samples and reliable knowledge transfer. Specifically, to fully exploit the labeled data, we propose a novel supervised pairwise loss with an additional orthogonal inter-class relation constraint to train the backbone GNN encoder. The learnt, already-known events further serve as strong reference bases for the unknown ones, which greatly prompts knowledge acquisition and transfer. When the model is generalized to unknown data, to ensure the effectiveness and reliability, we further leverage the reference similarity distribution vectors for pseudo pairwise label generation, selection and quality assessment. Besides, we propose a novel quality-guided optimization in which the contributions of pseudo labels are weighted based on consistency.
+
 - Open-world Contrastive Learning. [[paper]](https://arxiv.org/abs/2208.02764)
   - Yiyou Sun, Yixuan Li.
   - Key Word: Contrastive learning; Open-world; Classification.
