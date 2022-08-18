@@ -11,7 +11,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 Daily updating from ArXiv. The preview README only includes papers submitted to ArXiv within the **last one year**.  More paper can be found here <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/tree/master/FULL_LIST.md">:open_file_folder: [<b><i>Full List</i></b>]</a>.
 
-## Table of Contents
+# Table of Contents
 
 - [Awesome Trustworthy Deep Learning Paper List:page_with_curl:](#awesome-trustworthy--deep-learning)
   - [Survey](#survey)
@@ -33,6 +33,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [Blogs:writing_hand:](#blogs)
 - [Other Resources:sparkles:](#other-resources)
 - [Contributing:wink:](#contributing)
+
+# Paper List
 
 ## Survey
 
@@ -1256,9 +1258,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Causal Discovery; Optimal Transport.
   - <details><summary>Digest</summary> To determine causal relationships between two variables, approaches based on Functional Causal Models (FCMs) have been proposed by properly restricting model classes; however, the performance is sensitive to the model assumptions, which makes it difficult to use. In this paper, we provide a novel dynamical-system view of FCMs and propose a new framework for identifying causal direction in the bivariate case. We first show the connection between FCMs and optimal transport, and then study optimal transport under the constraints of FCMs.
 
-## Related Awesome Lists
+# Related Awesome Lists
 
-### Robustness Lists
+## Robustness Lists
 
 - [A Complete List of All (arXiv) Adversarial Example Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
@@ -1268,7 +1270,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [The Papers of Adversarial Examples](https://github.com/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/stars/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/last-commit/xiaosen-wang/Adversarial-Examples-Paper)
 
-### Privacy Lists
+## Privacy Lists
 
 - [Awesome Attacks on Machine Learning Privacy](https://github.com/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/stars/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/last-commit/stratosphereips/awesome-ml-privacy-attacks)
 
@@ -1278,13 +1280,13 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Awesome Privacy Papers for Visual Data](https://github.com/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/stars/brighter-ai/awesome-privacy-papers) ![ ](https://img.shields.io/github/last-commit/brighter-ai/awesome-privacy-papers)
 
-### Fairness Lists
+## Fairness Lists
 
 - [Awesome Fairness Papers](https://github.com/uclanlp/awesome-fairness-papers) ![ ](https://img.shields.io/github/stars/uclanlp/awesome-fairness-papers) ![ ](https://img.shields.io/github/last-commit/uclanlp/awesome-fairness-papers)
 
 - [Awesome Fairness in AI](https://github.com/datamllab/awesome-fairness-in-ai) ![ ](https://img.shields.io/github/stars/datamllab/awesome-fairness-in-ai) ![ ](https://img.shields.io/github/last-commit/datamllab/awesome-fairness-in-ai)
 
-### Interpretability Lists
+## Interpretability Lists
 
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) ![ ](https://img.shields.io/github/stars/jphall663/awesome-machine-learning-interpretability) ![ ](https://img.shields.io/github/last-commit/jphall663/awesome-machine-learning-interpretability)
 
@@ -1294,7 +1296,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Awesome Deep Learning Interpretability](https://github.com/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/stars/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/last-commit/oneTaken/awesome_deep_learning_interpretability)
 
-### Open-World Lists
+## Open-World Lists
 
 - [Awesome Open Set Recognition list](https://github.com/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/last-commit/iCGY96/awesome_OpenSetRecognition_list)
 
@@ -1302,13 +1304,13 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Awesome Open-World-Learning](https://github.com/zhoudw-zdw/Awesome-open-world-learning) ![ ](https://img.shields.io/github/stars/zhoudw-zdw/Awesome-open-world-learning) ![ ](https://img.shields.io/github/last-commit/zhoudw-zdw/Awesome-open-world-learning)
 
-### Blockchain Lists
+## Blockchain Lists
 
 - [Blockchain Papers](https://github.com/decrypto-org/blockchain-papers) ![ ](https://img.shields.io/github/stars/decrypto-org/blockchain-papers) ![ ](https://img.shields.io/github/last-commit/decrypto-org/blockchain-papers)
 
 - [Awesome Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai) ![ ](https://img.shields.io/github/stars/steven2358/awesome-blockchain-ai) ![ ](https://img.shields.io/github/last-commit/steven2358/awesome-blockchain-ai)
 
-### Other Lists
+## Other Lists
 
 - [Awesome Causality Algorithms](https://github.com/rguo12/awesome-causality-algorithms) ![ ](https://img.shields.io/github/stars/rguo12/awesome-causality-algorithms) ![ ](https://img.shields.io/github/last-commit/rguo12/awesome-causality-algorithms)
 
@@ -1318,9 +1320,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Awesome Deep Phenomena](https://github.com/MinghuiChen43/awesome-deep-phenomena) ![ ](https://img.shields.io/github/stars/MinghuiChen43/awesome-deep-phenomena) ![ ](https://img.shields.io/github/last-commit/MinghuiChen43/awesome-deep-phenomena)
 
-## Toolboxes
+# Toolboxes
 
-### Robustness Toolboxes
+## Robustness Toolboxes
 
 - [Cleverhans](https://github.com/cleverhans-lab/cleverhans) ![ ](https://img.shields.io/github/stars/cleverhans-lab/cleverhans)
   - This repository contains the source code for CleverHans, a Python library to benchmark machine learning systems' vulnerability to adversarial examples.
@@ -1334,7 +1336,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [RobustBench](https://github.com/RobustBench/robustbench) ![ ](https://img.shields.io/github/stars/RobustBench/robustbench)
   - A standardized benchmark for adversarial robustness.
 
-### Privacy Toolboxes
+## Privacy Toolboxes
 
 - [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
   - Diffprivlib is a general-purpose library for experimenting with, investigating and developing applications in, differential privacy.
@@ -1345,7 +1347,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven) ![ ](https://img.shields.io/github/stars/trailofbits/PrivacyRaven)
   - PrivacyRaven is a privacy testing library for deep learning systems.
 
-### Fairness Toolboxes
+## Fairness Toolboxes
 
 - [AI Fairness 360](https://github.com/Trusted-AI/AIF360) ![ ](https://img.shields.io/github/stars/Trusted-AI/AIF360)
   - The AI Fairness 360 toolkit is an extensible open-source library containing techniques developed by the research community to help detect and mitigate bias in machine learning models throughout the AI application lifecycle.
@@ -1356,7 +1358,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [Aequitas](https://github.com/dssg/aequitas) ![ ](https://img.shields.io/github/stars/dssg/aequitas)
   - Aequitas is an open-source bias audit toolkit for data scientists, machine learning researchers, and policymakers to audit machine learning models for discrimination and bias, and to make informed and equitable decisions around developing and deploying predictive tools.
 
-### Interpretability Toolboxes
+## Interpretability Toolboxes
 
 - [Lime](https://github.com/marcotcr/lime) ![ ](https://img.shields.io/github/stars/marcotcr/lime)
   - This project is about explaining what machine learning classifiers (or models) are doing.
@@ -1376,14 +1378,14 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [AI Explainability 360](https://github.com/Trusted-AI/AIX360) ![ ](https://img.shields.io/github/stars/Trusted-AI/AIX360)
   - The AI Explainability 360 toolkit is an open-source library that supports interpretability and explainability of datasets and machine learning models.
 
-### Other Toolboxes
+## Other Toolboxes
 
 - [Causal Inference 360](https://github.com/IBM/causallib) ![ ](https://img.shields.io/github/stars/IBM/causallib)
   - A Python package for inferring causal effects from observational data.
 
-## Workshops
+# Workshops
 
-### Robustness Workshops
+## Robustness Workshops
 
 - [Workshop on Adversarial Robustness In the Real World (ECCV 2022)](https://eccv22-arow.github.io/)
 
@@ -1405,15 +1407,15 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2020)](https://sites.google.com/view/udlworkshop2020/home)
 
-### Privacy Workshops
+## Privacy Workshops
 
 - [Theory and Practice of Differential Privacy (ICML 2022)](https://tpdp.journalprivacyconfidentiality.org/2022/)
 
-### Interpretability Workshops
+## Interpretability Workshops
 
 - [Interpretable Machine Learning in Healthcare (ICML 2022)](https://sites.google.com/view/imlh2022)
 
-### Other Workshops
+## Other Workshops
 
 - [International Workshop on Trustworthy Federated Learning (IJCAI 2022)](https://federated-learning.org/fl-ijcai-2022/)
 
@@ -1425,9 +1427,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [First Workshop on Causal Representation Learning (UAI 2022)](https://crl-uai-2022.github.io/)
 
-## Tutorials
+# Tutorials
 
-### Robustness Tutorials
+## Robustness Tutorials
 
 - [Tutorial on Domain Generalization (IJCAI-ECAI 2022)](https://dgresearch.github.io/)
 
@@ -1441,15 +1443,15 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Adversarial Machine Learning Tutorial (AAAI 2018)](https://aaai18adversarial.github.io/index.html#)
 
-## Talks
+# Talks
 
-### Robustness Talks
+## Robustness Talks
 
 - [Ian Goodfellow: Adversarial Machine Learning (ICLR 2019)](https://www.youtube.com/watch?v=sucqskXRkss)
 
-## Blogs
+# Blogs
 
-### Robustness Blogs
+## Robustness Blogs
 
 - [Pixels still beat text: Attacking the OpenAI CLIP model with text patches and adversarial pixel perturbations](https://stanislavfort.github.io/blog/OpenAI_CLIP_stickers_and_adversarial_examples/)
 
@@ -1457,7 +1459,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [A Discussion of Adversarial Examples Are Not Bugs, They Are Features](https://distill.pub/2019/advex-bugs-discussion/)
 
-### Interpretability Blogs
+## Interpretability Blogs
 
 - [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
 
@@ -1467,11 +1469,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Visualizing Neural Networks with the Grand Tour](https://distill.pub/2020/grand-tour/)
 
-### Other Blogs
+## Other Blogs
 
 - [Cleverhans Blog - Ian Goodfellow, Nicolas Papernot](http://www.cleverhans.io/)
 
-## Other Resources
+# Other Resources
 
 - [AI Security and Privacy (AISP) Seminar Series](http://scl.sribd.cn/seminar/index.html)
 
@@ -1487,6 +1489,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Trustworthy Machine Learning (Book)](http://www.trustworthymachinelearning.com/)
 
-## Contributing
+# Contributing
 
 TBD
