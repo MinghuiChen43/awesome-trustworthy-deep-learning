@@ -1489,6 +1489,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ### Interpretability: 2021
 
+- Understanding the Dynamics of DNNs Using Graph Modularity. [[paper]](https://arxiv.org/abs/2111.12485) [[code]](https://github.com/yaolu-zjut/dynamic-graphs-construction)
+  - Yao Lu, Wen Yang, Yunzhe Zhang, Zuohui Chen, Jinyin Chen, Qi Xuan, Zhen Wang, Xiaoniu Yang. *ECCV 2022*
+  - Key Word: Interpretability; Modularity; Layer Pruning.
+  - <details><summary>Digest</summary> There are good arguments to support the claim that deep neural networks (DNNs) capture better feature representations than the previous hand-crafted feature engineering, which leads to a significant performance improvement. In this paper, we move a tiny step towards understanding the dynamics of feature representations over layers. Specifically, we model the process of class separation of intermediate representations in pre-trained DNNs as the evolution of communities in dynamic graphs. Then, we introduce modularity, a generic metric in graph theory, to quantify the evolution of communities. In the preliminary experiment, we find that modularity roughly tends to increase as the layer goes deeper and the degradation and plateau arise when the model complexity is great relative to the dataset.
+
 - Salient ImageNet: How to discover spurious features in Deep Learning? [[paper]](https://arxiv.org/abs/2110.04301) [[code]](https://github.com/singlasahil14/salient_imagenet)
   - Sahil Singla, Soheil Feizi. *ICLR 2022*
   - Key Word: Interpretability; Robustness; Failure Explanations.
