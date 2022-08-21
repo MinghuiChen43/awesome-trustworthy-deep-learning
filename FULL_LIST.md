@@ -1161,7 +1161,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - FIBA: Frequency-Injection based Backdoor Attack in Medical Image Analysis. [[paper]](https://arxiv.org/abs/2112.01148) [[code]](https://github.com/hazardfy/fiba)
   - Yu Feng, Benteng Ma, Jing Zhang, Shanshan Zhao, Yong Xia, Dacheng Tao. *CVPR 2022*
   - Key Word: Backdoor Attack; Medical Image; Healthcare.
-  - <details><summary>Digest</summary>
+  - <details><summary>Digest</summary> Most existing BA methods are designed to attack natural image classification models, which apply spatial triggers to training images and inevitably corrupt the semantics of poisoned pixels, leading to the failures of attacking dense prediction models. To address this issue, we propose a novel Frequency-Injection based Backdoor Attack method (FIBA) that is capable of delivering attacks in various MIA tasks.
 
 - AEVA: Black-box Backdoor Detection Using Adversarial Extreme Value Analysis. [[paper]](https://arxiv.org/abs/2110.14880) [[code]](https://github.com/junfenggo/aeva-blackbox-backdoor-detection-main)
   - Junfeng Guo, Ang Li, Cong Liu. *ICLR 2022*
@@ -1197,6 +1197,26 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Aniruddha Saha, Ajinkya Tejankar, Soroush Abbasi Koohpayegani, Hamed Pirsiavash.  *CVPR 2022*
   - Key Word: Self-Supervised Learning; Backdoor Attacks.
   - <details><summary>Digest</summary> State-of-the-art self-supervised methods for learning representations from images (e.g., MoCo, BYOL, MSF) use an inductive bias that random augmentations (e.g., random crops) of an image should produce similar embeddings. We show that such methods are vulnerable to backdoor attacks - where an attacker poisons a small part of the unlabeled data by adding a trigger (image patch chosen by the attacker) to the images. The model performance is good on clean test images, but the attacker can manipulate the decision of the model by showing the trigger at test time
+
+- A Backdoor Attack against 3D Point Cloud Classifiers. [[paper]](https://arxiv.org/abs/2104.05808)
+  - Zhen Xiang, David J. Miller, Siheng Chen, Xi Li, George Kesidis. *ICCV 2021*
+  - Key Word:Backdoor Attack; 3D Point Cloud.
+  - <details><summary>Digest</summary> We propose the first backdoor attack (BA) against PC classifiers.  Different from image BAs, we propose to insert a cluster of points into a PC as a robust backdoor pattern customized for 3D PCs. Such clusters are also consistent with a physical attack (i.e., with a captured object in a scene).
+
+- Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective. [[paper]](https://arxiv.org/abs/2104.03413) [[code]](https://github.com/YiZeng623/frequency-backdoor)
+  - Yi Zeng, Won Park, Z. Morley Mao, Ruoxi Jia. *ICCV 2021*
+  - Key Word: Backdoor; Explanation.
+  - <details><summary>Digest</summary> This paper first revisits existing backdoor triggers from a frequency perspective and performs a comprehensive analysis. Our results show that many current backdoor attacks exhibit severe high-frequency artifacts, which persist across different datasets and resolutions. In short, our work emphasizes the importance of considering frequency analysis when designing both backdoor attacks and defenses in deep learning. 
+
+- Black-Box Detection of Backdoor Attacks With Limited Information and Data. [[paper]](https://arxiv.org/abs/2103.13127)
+  - Yinpeng Dong, Xiao Yang, Zhijie Deng, Tianyu Pang, Zihao Xiao, Hang Su, Jun Zhu. *ICCV 2021*
+  - Key Word: Black-Box Backdoor Detection; Backdoor Defense.
+  - <details><summary>Digest</summary>  In this paper, we propose a black-box backdoor detection (B3D) method to identify backdoor attacks with only query access to the model. We introduce a gradient-free optimization algorithm to reverse-engineer the potential trigger for each class, which helps to reveal the existence of backdoor attacks. In addition to backdoor detection, we also propose a simple strategy for reliable predictions using the identified backdoored models.
+
+- PointBA: Towards Backdoor Attacks in 3D Point Cloud. [[paper]](https://arxiv.org/abs/2103.16074)
+  - Xinke Li, Zhirui Chen, Yue Zhao, Zekun Tong, Yabang Zhao, Andrew Lim, Joey Tianyi Zhou. *ICCV 2021*
+  - Key Word: Backdorr Attack; 3D Point Cloud.
+  - <details><summary>Digest</summary> We present the backdoor attacks in 3D point cloud with a unified framework that exploits the unique properties of 3D data and networks.
 
 - LIRA: Learnable, Imperceptible and Robust Backdoor Attacks. [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Doan_LIRA_Learnable_Imperceptible_and_Robust_Backdoor_Attacks_ICCV_2021_paper.pdf) [[code]](https://github.com/khoadoan106/backdoor_attacks)
   - Khoa Doan, Yingjie Lao, Weijie Zhao, Ping Li. *ICCV 2021*
