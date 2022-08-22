@@ -1049,6 +1049,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Open-World Learning
 
+- Single-Stage Open-world Instance Segmentation with Cross-task Consistency Regularization. [[paper]](https://arxiv.org/abs/2208.09023)
+  - Xizhe Xue, Dongdong Yu, Lingqiao Liu, Yu Liu, Ying Li, Zehuan Yuan, Ping Song, Mike Zheng Shou.
+  - Key Word: Class-agnostic; Open-world Instance Segmentation; Cross-task Consistency Loss.
+  - <details><summary>Digest</summary> Open-world instance segmentation (OWIS) aims to segment class-agnostic instances from images, which has a wide range of real-world applications such as autonomous driving. Most existing approaches follow a two-stage pipeline: performing class-agnostic detection first and then class-specific mask segmentation. In contrast, this paper proposes a single-stage framework to produce a mask for each instance directly. Also, instance mask annotations could be noisy in the existing datasets; to overcome this issue, we introduce a new regularization loss. Specifically, we first train an extra branch to perform an auxiliary task of predicting foreground regions, and then encourage the prediction from the auxiliary branch to be consistent with the predictions of the instance masks. The key insight is that such a cross-task consistency loss could act as an error-correcting mechanism to combat the errors in annotations.
+
 - Open Long-Tailed Recognition in a Dynamic World. [[paper]](https://arxiv.org/abs/2208.08349)
   - Ziwei Liu, Zhongqi Miao, Xiaohang Zhan, Jiayun Wang, Boqing Gong, Stella X. Yu. *TPAMI*
   - Key Word: Long-Tailed Recognition; Few-shot Learning; Open-Set Recognition; Active Learning.
