@@ -399,6 +399,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- A Novel Plug-and-Play Approach for Adversarially Robust Generalization. [[paper]](https://arxiv.org/abs/2208.09449)
+  - Deepak Maurya, Adarsh Barik, Jean Honorio.
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> Our main focus is to provide a plug-and-play solution that can be incorporated in the existing machine learning algorithms with minimal changes. To that end, we derive the closed-form ready-to-use solution for several widely used loss functions with a variety of norm constraints on adversarial perturbation. Finally, we validate our approach by showing significant performance improvement on real-world datasets for supervised problems such as regression and classification, as well as for unsupervised problems such as matrix completion and learning graphical models, with very little computational overhead.
+
 - Adversarial Attacks on Image Generation With Made-Up Words. [[paper]](https://arxiv.org/abs/2208.04135)
   - Raphaël Millière.
   - Key Word: Adversarial Attacks; Text-Guided Image Generation; Prompting.
