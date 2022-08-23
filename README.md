@@ -697,6 +697,20 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Membership-Doctor: Comprehensive Assessment of Membership Inference Against Machine Learning Models. [[paper]](https://arxiv.org/abs/2208.10445)
+  - Xinlei He, Zheng Li, Weilin Xu, Cory Cornelius, Yang Zhang.
+  - Key Word: Membership Inference Attacks and Defenses; Benchmark.
+  - <details><summary>Digest</summary> We fill this gap by presenting a large-scale measurement of different membership inference attacks and defenses. We systematize membership inference through the study of nine attacks and six defenses and measure the performance of different attacks and defenses in the holistic evaluation. We then quantify the impact of the threat model on the results of these attacks. We find that some assumptions of the threat model, such as same-architecture and same-distribution between shadow and target models, are unnecessary. We are also the first to execute attacks on the real-world data collected from the Internet, instead of laboratory datasets. 
+
+- SoK: Machine Learning with Confidential Computing. [[paper]](https://arxiv.org/abs/2208.10134)
+  - Fan Mo, Zahra Tarkhani, Hamed Haddadi.
+  - Key Word: Survey; Confidential Computing; Trusted Execution Environment; Intergrity.
+  - <details><summary>Digest</summary> We systematize the findings on confidential computing-assisted ML security and privacy techniques for providing i) confidentiality guarantees and ii) integrity assurances. We further identify key challenges and provide dedicated analyses of the limitations in existing Trusted Execution Environment (TEE) systems for ML use cases. We discuss prospective works, including grounded privacy definitions, partitioned ML executions, dedicated TEE designs for ML, TEE-aware ML, and ML full pipeline guarantee. These potential solutions can help achieve a much strong TEE-enabled ML for privacy guarantees without introducing computation and system costs.
+
+- Inferring Sensitive Attributes from Model Explanations. [[paper]](https://arxiv.org/abs/2208.09967) [[code]](https://github.com/vasishtduddu/attinfexplanations)
+  - Vasisht Duddu, Antoine Boutet. *CIKM 2022*
+  - Key Word: We focus on the specific privacy risk of attribute inference attack wherein an adversary infers sensitive attributes of an input (e.g., race and sex) given its model explanations. We design the first attribute inference attack against model explanations in two threat models where model builder either (a) includes the sensitive attributes in training data and input or (b) censors the sensitive attributes by not including them in the training data and input.
+
 - On the Privacy Effect of Data Enhancement via the Lens of Memorization. [[paper]](https://arxiv.org/abs/2208.08270)
   - Xiao Li, Qiongxiu Li, Zhanhao Hu, Xiaolin Hu.
   - Key Word: Membership Inference Attacks; Data Augmentation; Adversarial Training.
