@@ -9,8 +9,6 @@
 
 The deployment of deep learning in real-world systems calls for a set of complementary technologies that will ensure that deep learning is trustworthy [(Nicolas Papernot)](https://www.papernot.fr/teaching/f19-trustworthy-ml). The list covers different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, etc.
 
-
-
 ## Table of Contents
 
 - [Awesome Trustworthy Deep Learning Paper List:page_with_curl:](#awesome-trustworthy--deep-learning)
@@ -880,6 +878,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Attack; Medical Image; Healthcare.
   - <details><summary>Digest</summary> We study previously unexplored factors affecting adversarial attack vulnerability of deep learning MedIA systems in three medical domains: ophthalmology, radiology, and pathology. We focus on adversarial black-box settings, in which the attacker does not have full access to the target model and usually uses another model, commonly referred to as surrogate model, to craft adversarial examples. We consider this to be the most realistic scenario for MedIA systems.
 
+- Feature Purification: How Adversarial Training Performs Robust Deep Learning. [[paper]](https://arxiv.org/abs/2005.10190)
+  - Zeyuan Allen-Zhu, Yuanzhi Li. *FOCS 2021*
+  - Key Word: Adversarial Training; Sparse Coding; Feature Purification.
+  - <details><summary>Digest</summary> In this paper, we present a principle that we call Feature Purification, where we show one of the causes of the existence of adversarial examples is the accumulation of certain small dense mixtures in the hidden weights during the training process of a neural network; and more importantly, one of the goals of adversarial training is to remove such mixtures to purify hidden weights. We present both experiments on the CIFAR-10 dataset to illustrate this principle, and a theoretical result proving that for certain natural classification tasks, training a two-layer neural network with ReLU activation using randomly initialized gradient descent indeed satisfies this principle.
+
 - A Causal View on Robustness of Neural Networks. [[paper]](https://arxiv.org/abs/2005.01095)
   - Cheng Zhang, Kun Zhang, Yingzhen Li. *NeurIPS 2020*
   - Key Word: Adversarial Robustness; Causal Learning; Disentangled Representations.
@@ -1206,7 +1209,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective. [[paper]](https://arxiv.org/abs/2104.03413) [[code]](https://github.com/YiZeng623/frequency-backdoor)
   - Yi Zeng, Won Park, Z. Morley Mao, Ruoxi Jia. *ICCV 2021*
   - Key Word: Backdoor; Explanation.
-  - <details><summary>Digest</summary> This paper first revisits existing backdoor triggers from a frequency perspective and performs a comprehensive analysis. Our results show that many current backdoor attacks exhibit severe high-frequency artifacts, which persist across different datasets and resolutions. In short, our work emphasizes the importance of considering frequency analysis when designing both backdoor attacks and defenses in deep learning. 
+  - <details><summary>Digest</summary> This paper first revisits existing backdoor triggers from a frequency perspective and performs a comprehensive analysis. Our results show that many current backdoor attacks exhibit severe high-frequency artifacts, which persist across different datasets and resolutions. In short, our work emphasizes the importance of considering frequency analysis when designing both backdoor attacks and defenses in deep learning.
 
 - Black-Box Detection of Backdoor Attacks With Limited Information and Data. [[paper]](https://arxiv.org/abs/2103.13127)
   - Yinpeng Dong, Xiao Yang, Zhijie Deng, Tianyu Pang, Zihao Xiao, Hang Su, Jun Zhu. *ICCV 2021*
@@ -1268,14 +1271,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Clean-Label Backdoor Attacks on Video Recognition Models. [[paper]](https://arxiv.org/abs/2003.03030) [[code](https://github.com/ShihaoZhaoZSH/Video-Backdoor-Attack)]
   - Shihao Zhao, Xingjun Ma, Xiang Zheng, James Bailey, Jingjing Chen, Yu-Gang Jiang. *CVPR 2020*
   - Key Word: Backdoor Attacks; Video Recognition.
-  - <details><summary>Digest</summary> We show that existing image backdoor attacks are far less effective on videos, and outline 4 strict conditions where existing attacks are likely to fail: 1) scenarios with more input dimensions (eg. videos), 2) scenarios with high resolution, 3) scenarios with a large number of classes and few examples per class (a "sparse dataset"), and 4) attacks with access to correct labels (eg. clean-label attacks). We propose the use of a universal adversarial trigger as the backdoor trigger to attack video recognition models, a situation where backdoor attacks are likely to be challenged by the above 4 strict conditions. 
+  - <details><summary>Digest</summary> We show that existing image backdoor attacks are far less effective on videos, and outline 4 strict conditions where existing attacks are likely to fail: 1) scenarios with more input dimensions (eg. videos), 2) scenarios with high resolution, 3) scenarios with a large number of classes and few examples per class (a "sparse dataset"), and 4) attacks with access to correct labels (eg. clean-label attacks). We propose the use of a universal adversarial trigger as the backdoor trigger to attack video recognition models, a situation where backdoor attacks are likely to be challenged by the above 4 strict conditions.
 
 ### Poisoning Attacks and Defenses: 2019
 
 - Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs. [[paper]](https://arxiv.org/abs/1906.10842) [[code]](https://github.com/UMBCvision/Universal-Litmus-Patterns)
   - Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann. *CVPR 2020*
   - Key Word: Backdoor Detection.
-  - <details><summary>Digest</summary> We introduce a benchmark technique for detecting backdoor attacks (aka Trojan attacks) on deep convolutional neural networks (CNNs). We introduce the concept of Universal Litmus Patterns (ULPs), which enable one to reveal backdoor attacks by feeding these universal patterns to the network and analyzing the output (i.e., classifying the network as `clean' or `corrupted'). This detection is fast because it requires only a few forward passes through a CNN. 
+  - <details><summary>Digest</summary> We introduce a benchmark technique for detecting backdoor attacks (aka Trojan attacks) on deep convolutional neural networks (CNNs). We introduce the concept of Universal Litmus Patterns (ULPs), which enable one to reveal backdoor attacks by feeding these universal patterns to the network and analyzing the output (i.e., classifying the network as `clean' or `corrupted'). This detection is fast because it requires only a few forward passes through a CNN.
 
 ### Poisoning Attacks and Defenses: 2017
 
@@ -1299,7 +1302,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> While many mechanisms exist, their effectiveness against MIAs and privacy properties have not been studied systematically. Employing two recent MIAs, we explore the lower bound on the risk in the absence of formal upper bounds. First, we evaluate 7 mechanisms and differential privacy, on three image classification tasks. We find that applying augmentation to increase the model’s utility does not mitigate the risk and protection comes with a utility penalty.
 
 - Counterfactual Memorization in Neural Language Models. [[paper]](https://arxiv.org/abs/2112.12938)
-  - Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini. 
+  - Chiyuan Zhang, Daphne Ippolito, Katherine Lee, Matthew Jagielski, Florian Tramèr, Nicholas Carlini.
   - Key Word: Counterfactual Memorization; Label Memorization; Influence Function.
   - <details><summary>Digest</summary> An open question in previous studies of memorization in language models is how to filter out "common" memorization. In fact, most memorization criteria strongly correlate with the number of occurrences in the training set, capturing "common" memorization such as familiar phrases, public knowledge or templated texts. In this paper, we provide a principled perspective inspired by a taxonomy of human memory in Psychology. From this perspective, we formulate a notion of counterfactual memorization, which characterizes how a model's predictions change if a particular document is omitted during training. We identify and study counterfactually-memorized training examples in standard text datasets. We further estimate the influence of each training example on the validation set and on generated texts, and show that this can provide direct evidence of the source of memorization at test time.
 
@@ -1383,7 +1386,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
 - Extracting Training Data from Large Language Models. [[paper]](https://arxiv.org/abs/2012.07805) [[code]](https://github.com/ftramer/LM_Memorization)
   - Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, Colin Raffel. *USENIX Security 2021*
   - Key Word: Reconstruction Attacks; Large Language Models.
-  - <details><summary>Digest</summary> We demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data. 
+  - <details><summary>Digest</summary> We demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data.
 
 - Label-Only Membership Inference Attacks. [[paper]](https://arxiv.org/abs/2007.14321) [[code]](https://github.com/cchoquette/membership-inference)
   - Christopher A. Choquette-Choo, Florian Tramer, Nicholas Carlini, Nicolas Papernot. *ICML 2021*
@@ -1672,7 +1675,6 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary> We revisit the global average pooling layer proposed, and shed light on how it explicitly enables the convolutional neural network to have remarkable localization ability despite being trained on image-level labels. While this technique was previously proposed as a means for regularizing training, we find that it actually builds a generic localizable deep representation that can be applied to a variety of tasks.
 
 ## Open-World Learning
-
 
 ### Open-World Learning: 2021
 
