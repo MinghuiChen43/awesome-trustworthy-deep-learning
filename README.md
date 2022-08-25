@@ -701,6 +701,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Auditing Membership Leakages of Multi-Exit Networks. [[paper]](https://arxiv.org/abs/2208.11180)
+  - Zheng Li, Yiyong Liu, Xinlei He, Ning Yu, Michael Backes, Yang Zhang. *CCS 2022*
+  - Key Word: Membership Inference Attacks; Multi-Existing.
+  - <details><summary>Digest</summary> In this paper, we perform the first privacy analysis of multi-exit networks through the lens of membership leakages. In particular, we first leverage the existing attack methodologies to quantify the multi-exit networks' vulnerability to membership leakages. Our experimental results show that multi-exit networks are less vulnerable to membership leakages and the exit (number and depth) attached to the backbone model is highly correlated with the attack performance.
+
+- On the Design of Privacy-Aware Cameras: a Study on Deep Neural Networks. [[paper]](https://arxiv.org/abs/2208.11372) [[code]](https://github.com/upciti/privacy-by-design-semseg)
+  - Marcela Carvalho, Oussama Ennaffi, Sylvain Chateau, Samy Ait Bachir.
+  - Key Word:  Smart City; Privacy-Aware Camera.
+  - <details><summary>Digest</summary> In this paper, the effect of camera distortions is studied using Deep Learning techniques commonly used to extract sensitive data. To do so, we simulate out-of-focus images corresponding to a realistic conventional camera with fixed focal length, aperture, and focus, as well as grayscale images coming from a monochrome camera. We then prove, through an experimental study, that we can build a privacy-aware camera that cannot extract personal information such as license plate numbers.  
+
 - Joint Privacy Enhancement and Quantization in Federated Learning. [[paper]](https://arxiv.org/abs/2208.10888) [[code]](https://github.com/langnatalie/jopeq)
   - Natalie Lang, Elad Sofer, Tomer Shaked, Nir Shlezinger.
   - Key Word: Federated Learning; Quantization; Privacy.
@@ -917,6 +927,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> Previous research has developed generative MIAs that use generative adversarial networks (GANs) as image priors tailored to a specific target model. This makes the attacks time- and resource-consuming, inflexible, and susceptible to distributional shifts between datasets. To overcome these drawbacks, we present Plug & Play Attacks, which relax the dependency between the target model and image prior, and enable the use of a single GAN to attack a wide range of targets, requiring only minor adjustments to the attack.
 
 ## Fairness
+
+- Bugs in the Data: How ImageNet Misrepresents Biodiversity. [[paper]](https://arxiv.org/abs/2208.11695) [[code]](https://github.com/rolnicklab/imagenetbiodiversity)
+  - Alexandra Sasha Luccioni, David Rolnick.
+  - Key Word: ImageNet Bias.
+  - <details><summary>Digest</summary> We analyze the 13,450 images from 269 classes that represent wild animals in the ImageNet-1k validation set, with the participation of expert ecologists. We find that many of the classes are ill-defined or overlapping, and that 12% of the images are incorrectly labeled, with some classes having >90% of images incorrect. We also find that both the wildlife-related labels and images included in ImageNet-1k present significant geographical and cultural biases, as well as ambiguities such as artificial animals, multiple species in the same image, or the presence of humans.
 
 - Discover and Mitigate Unknown Biases with Debiasing Alternate Networks. [[paper]](https://arxiv.org/abs/2207.10077) [[code]](https://github.com/zhihengli-UR/DebiAN)
   - Zhiheng Li, Anthony Hoogs, Chenliang Xu. *ECCV 2022*
