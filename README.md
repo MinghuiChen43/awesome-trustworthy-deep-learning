@@ -71,6 +71,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Shortcut Learning of Large Language Models in Natural Language Understanding: A Survey. [[paper]](https://arxiv.org/abs/2208.11857)
+  - Mengnan Du, Fengxiang He, Na Zou, Dacheng Tao, Xia Hu.
+  - Key Word: Survey; Shortcut Learning; Out-of-Distribution Generalization; Large Language Models.
+  - <details><summary>Digest</summary> Large language models (LLMs) have achieved state-of-the-art performance on a series of natural language understanding tasks. However, these LLMs might rely on dataset bias and artifacts as shortcuts for prediction. This has significantly hurt their Out-of-Distribution (OOD) generalization and adversarial robustness. In this paper, we provide a review of recent developments that address the robustness challenge of LLMs. We first introduce the concepts and robustness challenge of LLMs. We then introduce methods to identify shortcut learning behavior in LLMs, characterize the reasons for shortcut learning, as well as introduce mitigation solutions. Finally, we identify key challenges and introduce the connections of this line of research to other directions.
+
 - A Unified Causal View of Domain Invariant Representation Learning. [[paper]](https://arxiv.org/abs/2208.06987) [[code]](https://github.com/zihao12/causal_da_code)
   - Zihao Wang, Victor Veitch.
   - Key Word: Causality; Data Augmentation; Invariant Learning.
@@ -927,6 +932,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> Previous research has developed generative MIAs that use generative adversarial networks (GANs) as image priors tailored to a specific target model. This makes the attacks time- and resource-consuming, inflexible, and susceptible to distributional shifts between datasets. To overcome these drawbacks, we present Plug & Play Attacks, which relax the dependency between the target model and image prior, and enable the use of a single GAN to attack a wide range of targets, requiring only minor adjustments to the attack.
 
 ## Fairness
+
+- Sustaining Fairness via Incremental Learning. [[paper]](https://arxiv.org/abs/2208.12212)
+  - Somnath Basu Roy Chowdhury, Snigdha Chaturvedi.
+  - Key Word: Fairness; Incremental Learning.
+  - <details><summary>Digest</summary> We propose to address this issue by introducing the problem of learning fair representations in an incremental learning setting. To this end, we present Fairness-aware Incremental Representation Learning (FaIRL), a representation learning system that can sustain fairness while incrementally learning new tasks. FaIRL is able to achieve fairness and learn new tasks by controlling the rate-distortion function of the learned representations.
 
 - Bugs in the Data: How ImageNet Misrepresents Biodiversity. [[paper]](https://arxiv.org/abs/2208.11695) [[code]](https://github.com/rolnicklab/imagenetbiodiversity)
   - Alexandra Sasha Luccioni, David Rolnick.
