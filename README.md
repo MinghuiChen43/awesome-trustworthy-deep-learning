@@ -1070,6 +1070,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Interpreting Black-box Machine Learning Models for High Dimensional Datasets. [[paper]](https://arxiv.org/abs/2208.13405)
+  - Md. Rezaul Karim, Md. Shajalal, Alex Graß, Till Döhmen, Sisay Adugna Chala, Christian Beecks, Stefan Decker.
+  - Key Word: Curse of Dimensionality; Interpretability; Attention mechanism; Model Surrogation.
+  - <details><summary>Digest</summary> We first train a black-box model on a high-dimensional dataset to learn the embeddings on which the classification is performed. To decompose the inner working principles of the black-box model and to identify top-k important features, we employ different probing and perturbing techniques. We then approximate the behavior of the black-box model by means of an interpretable surrogate model on the top-k feature space. Finally, we derive decision rules and local explanations from the surrogate model to explain individual decisions. 
+
 - SoK: Explainable Machine Learning for Computer Security Applications. [[paper]](https://arxiv.org/abs/2208.10605)
   - Azqa Nadeem, Daniël Vos, Clinton Cao, Luca Pajola, Simon Dieck, Robert Baumgartner, Sicco Verwer.
   - Key Word: Explainable Machine Learning; Cybersecurity; Survey.
@@ -1121,6 +1126,12 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> In Multiple Instance Learning (MIL), models are trained using bags of instances, where only a single label is provided for each bag. A bag label is often only determined by a handful of key instances within a bag, making it difficult to interpret what information a classifier is using to make decisions. In this work, we establish the key requirements for interpreting MIL models. We then go on to develop several model-agnostic approaches that meet these requirements.
 
 ## Open-World Learning
+
+- Open-Set Semi-Supervised Object Detection. [[paper]](https://arxiv.org/abs/2208.13722) [[code]](https://ycliu93.github.io/projects/ossod.html)
+  - Yen-Cheng Liu, Chih-Yao Ma, Xiaoliang Dai, Junjiao Tian, Peter Vajda, Zijian He, Zsolt Kira.
+  - Key Word: Open-Set Semi-Supervised Learning; Object Detection.
+  - <details><summary>Digest</summary> We first find the existing SSOD method obtains a lower performance gain in open-set conditions, and this is caused by the semantic expansion, where the distracting OOD objects are mispredicted as in-distribution pseudo-labels for the semi-supervised training. To address this problem, we consider online and offline OOD detection modules, which are integrated with SSOD methods. 
+
 - Detecting the unknown in Object Detection. [[paper]](https://arxiv.org/abs/2208.11641)
   - Dario Fontanel, Matteo Tarantino, Fabio Cermelli, Barbara Caputo.
   - Key Word: Open-Set Detection; Discovery of Unknown Class.
