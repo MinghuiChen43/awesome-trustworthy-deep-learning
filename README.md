@@ -1121,6 +1121,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> In Multiple Instance Learning (MIL), models are trained using bags of instances, where only a single label is provided for each bag. A bag label is often only determined by a handful of key instances within a bag, making it difficult to interpret what information a classifier is using to make decisions. In this work, we establish the key requirements for interpreting MIL models. We then go on to develop several model-agnostic approaches that meet these requirements.
 
 ## Open-World Learning
+- Detecting the unknown in Object Detection. [[paper]](https://arxiv.org/abs/2208.11641)
+  - Dario Fontanel, Matteo Tarantino, Fabio Cermelli, Barbara Caputo.
+  - Key Word: Open-Set Detection; Discovery of Unknown Class.
+  - <details><summary>Digest</summary> In this work, we address the problem of detecting unknown objects, known as open-set object detection. We propose a novel training strategy, called UNKAD, able to predict unknown objects without requiring any annotation of them, exploiting non annotated objects that are already present in the background of training images. In particular, exploiting the four-steps training strategy of Faster R-CNN, UNKAD first identifies and pseudo-labels unknown objects and then uses the pseudo-annotations to train an additional unknown class. While UNKAD can directly detect unknown objects, we further combine it with previous unknown detection techniques, showing that it improves their performance at no costs.
 
 - Towards Open Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2208.11113)
   - Yuansheng Zhu, Wentao Bao, Qi Yu. *ECCV 2022*
