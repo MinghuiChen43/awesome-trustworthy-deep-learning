@@ -711,6 +711,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Membership Inference Attacks by Exploiting Loss Trajectory. [[paper]](https://arxiv.org/abs/2208.14933)
+  - Yiyong Liu, Zhengyu Zhao, Michael Backes, Yang Zhang. *CCS 2022*
+  - Key Word: Membership Inference Attacks.
+  - <details><summary>Digest</summary> Existing attack methods have commonly exploited the output information (mostly, losses) solely from the given target model. As a result, in practical scenarios where both the member and non-member samples yield similarly small losses, these methods are naturally unable to differentiate between them. To address this limitation, in this paper, we propose a new attack method, called \system, which can exploit the membership information from the whole training process of the target model for improving the attack performance. 
+
 - SNAP: Efficient Extraction of Private Properties with Poisoning. [[paper]](https://arxiv.org/abs/2208.12348)
   - Harsh Chaudhari, John Abascal, Alina Oprea, Matthew Jagielski, Florian Tramèr, Jonathan Ullman.
   - Key Word: Property Inference Attacks; Poisoning Attacks.
