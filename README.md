@@ -816,6 +816,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Privacy; Patient-wise Forgetting; Scrubbing.
   - <details><summary>Digest</summary> We study the influence of patient data on model performance and formulate two hypotheses for a patient's data: either they are common and similar to other patients or form edge cases, i.e. unique and rare cases. We show that it is not possible to easily forget patient data. We propose a targeted forgetting approach to perform patient-wise forgetting. Extensive experiments on the benchmark Automated Cardiac Diagnosis Challenge dataset showcase the improved performance of the proposed targeted forgetting approach as opposed to a state-of-the-art method.
 
+- Approximate Data Deletion in Generative Models. [[paper]](https://arxiv.org/abs/2206.14439)
+  - Zhifeng Kong, Scott Alfeld.
+  - Key Word: Density Ratio Based Framework; Machine Unlearning; Generative Model.
+  - <details><summary>Digest</summary> Many approximate data deletion methods have been developed for supervised learning. Unsupervised learning, in contrast, remains largely an open problem when it comes to (approximate or exact) efficient data deletion. In this paper, we propose a density-ratio-based framework for generative models. Using this framework, we introduce a fast method for approximate data deletion and a statistical test for estimating whether or not training points have been deleted. 
+
 - Data Leakage in Federated Averaging. [[paper]](https://arxiv.org/abs/2206.12395)
   - Dimitar I. Dimitrov, Mislav Balunović, Nikola Konstantinov, Martin Vechev.
   - Key Word: Federated Learning; Gradient Inversion Attacks and Defenses.
@@ -936,6 +941,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Natural Language Processing; Differential Privacy; Data Sanitization.
   - <details><summary>Digest</summary> We discuss the mismatch between the narrow assumptions made by popular data protection techniques (data sanitization and differential privacy), and the broadness of natural language and of privacy as a social norm. We argue that existing protection methods cannot guarantee a generic and meaningful notion of privacy for language models. We conclude that language models should be trained on text data which was explicitly produced for public use.
 
+- Bounding Training Data Reconstruction in Private (Deep) Learning. [[paper]](https://arxiv.org/abs/2201.12383) [[code]](https://github.com/facebookresearch/bounding_data_reconstruction)
+  - Chuan Guo, Brian Karrer, Kamalika Chaudhuri, Laurens van der Maaten. *ICML 2022*
+  - Key Word: Reconstruction Attacks; Differential Privacy.
+  - <details><summary>Digest</summary> Existing semantic guarantees for DP focus on membership inference, which may overestimate the adversary's capabilities and is not applicable when membership status itself is non-sensitive. In this paper, we derive the first semantic guarantees for DP mechanisms against training data reconstruction attacks under a formal threat model. We show that two distinct privacy accounting methods -- Renyi differential privacy and Fisher information leakage -- both offer strong semantic protection against data reconstruction attacks.
+
 - Variational Model Inversion Attacks. [[paper]](https://arxiv.org/abs/2201.10787) [[code]](https://github.com/wangkua1/vmi)
   - Kuan-Chieh Wang, Yan Fu, Ke Li, Ashish Khisti, Richard Zemel, Alireza Makhzani. *NeurIPS 2021*
   - Key Word: Model Inversion Attacks.
@@ -945,6 +955,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Lukas Struppek, Dominik Hintersdorf, Antonio De Almeida Correia, Antonia Adler, Kristian Kersting. *ICML 2022*
   - Key Word: Model Inversion Attacks.
   - <details><summary>Digest</summary> Previous research has developed generative MIAs that use generative adversarial networks (GANs) as image priors tailored to a specific target model. This makes the attacks time- and resource-consuming, inflexible, and susceptible to distributional shifts between datasets. To overcome these drawbacks, we present Plug & Play Attacks, which relax the dependency between the target model and image prior, and enable the use of a single GAN to attack a wide range of targets, requiring only minor adjustments to the attack.
+
+- Reconstructing Training Data with Informed Adversaries. [[paper]](https://arxiv.org/abs/2201.04845) [[code]](https://github.com/deepmind/informed_adversary_mnist_reconstruction)
+  - Borja Balle, Giovanni Cherubin, Jamie Hayes. *S&P 2022*
+  - Key Word: Reconstruction Attacks; Differential Privacy.
+  - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
 

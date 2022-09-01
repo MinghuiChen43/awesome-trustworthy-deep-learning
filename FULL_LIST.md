@@ -1366,10 +1366,20 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Survey; Membership Inference Attacks.
   - <details><summary>Digest</summary> We conduct the first comprehensive survey on membership inference attacks and defenses. We provide the taxonomies for both attacks and defenses, based on their characterizations, and discuss their pros and cons. Based on the limitations and gaps identified in this survey, we point out several promising future research directions to inspire the researchers who wish to follow this area.
 
+- Measuring Data Leakage in Machine-Learning Models with Fisher Information. [[paper]](https://arxiv.org/abs/2102.11673) [[code]](https://github.com/facebookresearch/fisher_information_loss)
+  - Awni Hannun, Chuan Guo, Laurens van der Maaten. *UAI 2021*
+  - Key Word: Attribute Inference Attacks; Fisher Information.
+  - <details><summary>Digest</summary> We propose a method to quantify this leakage using the Fisher information of the model about the data. Unlike the worst-case a priori guarantees of differential privacy, Fisher information loss measures leakage with respect to specific examples, attributes, or sub-populations within the dataset. We motivate Fisher information loss through the Cramér-Rao bound and delineate the implied threat model. We provide efficient methods to compute Fisher information loss for output-perturbed generalized linear models. 
+
 - Membership Inference Attacks are Easier on Difficult Problems. [[paper]](https://arxiv.org/abs/2102.07762) [[code]](https://github.com/avitalsh/reconst_based_MIA)
   - Avital Shafran, Shmuel Peleg, Yedid Hoshen. *ICCV 2021*
   - Key Word: Membership Inference Attacks; Semantic Segmentation; Medical Imaging; Heathcare.
   - <details><summary>Digest</summary> Membership inference attacks (MIA) try to detect if data samples were used to train a neural network model, e.g. to detect copyright abuses. We show that models with higher dimensional input and output are more vulnerable to MIA, and address in more detail models for image translation and semantic segmentation, including medical image segmentation. We show that reconstruction-errors can lead to very effective MIA attacks as they are indicative of memorization. Unfortunately, reconstruction error alone is less effective at discriminating between non-predictable images used in training and easy to predict images that were never seen before. To overcome this, we propose using a novel predictability error that can be computed for each sample, and its computation does not require a training set.
+
+- CaPC Learning: Confidential and Private Collaborative Learning. [[paper]](https://arxiv.org/abs/2102.05188) [[code]](https://github.com/cleverhans-lab/capc-iclr)
+  - Christopher A. Choquette-Choo, Natalie Dullerud, Adam Dziedzic, Yunxiang Zhang, Somesh Jha, Nicolas Papernot, Xiao Wang. *ICLR 2021*
+  - Key Word: Differential Privacy; Secure Multi-Party Computation.
+  - <details><summary>Digest</summary> We introduce Confidential and Private Collaborative (CaPC) learning, the first method provably achieving both confidentiality and privacy in a collaborative setting. We leverage secure multi-party computation (MPC), homomorphic encryption (HE), and other techniques in combination with privately aggregated teacher models. We demonstrate how CaPC allows participants to collaborate without having to explicitly join their training sets or train a central model. 
 
 ### Privacy: 2020
 
