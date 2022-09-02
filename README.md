@@ -71,6 +71,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- ID and OOD Performance Are Sometimes Inversely Correlated on Real-world Datasets. [[paper]](https://arxiv.org/abs/2209.00613)
+  - Damien Teney, Seong Joon Oh, Ehsan Abbasnejad.
+  - Key Word: Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> This short paper shows that inverse correlations between ID and OOD performance do happen in real-world benchmarks. They may have been missed in past studies because of a biased selection of models. We show an example of the pattern on the WILDS-Camelyon17 dataset, using models from multiple training epochs and random seeds. Our observations are particularly striking on models trained with a regularizer that diversifies the solutions to the ERM objective.
+
 - DR-DSGD: A Distributionally Robust Decentralized Learning Algorithm over Graphs. [[paper]](https://arxiv.org/abs/2208.13810)
   - Chaouki Ben Issaid, Anis Elgabli, Mehdi Bennis. *TMLR*
   - Key Word: Robust Federated Learning; Fairness in Federated Learning; Decentralized Learning.
@@ -710,6 +715,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Trading Off Privacy, Utility and Efficiency in Federated Learning. [[paper]](https://arxiv.org/abs/2209.00230)
+  - Xiaojin Zhang, Yan Kang, Kai Chen, Lixin Fan, Qiang Yang. 
+  - Key Word: Federated Learning; Privacy.
+  - <details><summary>Digest</summary> We propose a unified federated learning framework that reconciles horizontal and vertical federated learning. Based on this framework, we formulate and quantify the trade-offs between privacy leakage, utility loss, and efficiency reduction, which leads us to the No-Free-Lunch (NFL) theorem for the federated learning system. 
 
 - Membership Inference Attacks by Exploiting Loss Trajectory. [[paper]](https://arxiv.org/abs/2208.14933)
   - Yiyong Liu, Zhengyu Zhao, Michael Backes, Yang Zhang. *CCS 2022*
