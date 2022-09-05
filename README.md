@@ -711,10 +711,20 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - Post-Training Detection of Backdoor Attacks for Two-Class and Multi-Attack Scenarios. [[paper]](https://arxiv.org/abs/2201.08474) [[code]](https://github.com/zhenxianglance/2classbadetection)
   - Zhen Xiang, David J. Miller, George Kesidis. *ICLR 2022*
-  - Keyword: Backdoor Detection; Adversarial Training.
+  - Key Word: Backdoor Detection; Adversarial Training.
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Group Property Inference Attacks Against Graph Neural Networks. [[paper]](https://arxiv.org/abs/2209.01100)
+  - Xiuling Wang, Wendy Hui Wang. *CCS 2022*
+  - Key Word: Property inference attack; Graph neural networks.
+  - <details><summary>Digest</summary> We perform the first systematic study of group property inference attacks (GPIA) against GNNs. First, we consider a taxonomy of threat models under both black-box and white-box settings with various types of adversary knowledge, and design six different attacks for these settings. We evaluate the effectiveness of these attacks through extensive experiments on three representative GNN models and three real-world graphs. Our results demonstrate the effectiveness of these attacks whose accuracy outperforms the baseline approaches. 
+
+- An Introduction to Machine Unlearning. [[paper]](https://arxiv.org/abs/2209.00939)
+  - Salvatore Mercuri, Raad Khraishi, Ramin Okhrati, Devesh Batra, Conor Hamill, Taha Ghasempour, Andrew Nowlan.
+  - Key Word: Machine Unlearning; Exact Unlearning; Approximate Unlearning; Data Removal; Data Privacy.
+  - <details><summary>Digest</summary> Removing the influence of a specified subset of training data from a machine learning model may be required to address issues such as privacy, fairness, and data quality. Retraining the model from scratch on the remaining data after removal of the subset is an effective but often infeasible option, due to its computational expense. The past few years have therefore seen several novel approaches towards efficient removal, forming the field of "machine unlearning", however, many aspects of the literature published thus far are disparate and lack consensus. In this paper, we summarise and compare seven state-of-the-art machine unlearning algorithms, consolidate definitions of core concepts used in the field, reconcile different approaches for evaluating algorithms, and discuss issues related to applying machine unlearning in practice.
 
 - Trading Off Privacy, Utility and Efficiency in Federated Learning. [[paper]](https://arxiv.org/abs/2209.00230)
   - Xiaojin Zhang, Yan Kang, Kai Chen, Lixin Fan, Qiang Yang. 
@@ -1337,6 +1347,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Making Intelligence: Ethics, IQ, and ML Benchmarks. [[paper]](https://arxiv.org/abs/2209.00692)
+  - Borhane Blili-Hamelin, Leif Hancox-Li.
+  - Key Word: Ethics.
+  - <details><summary>Digest</summary> The ML community recognizes the importance of anticipating and mitigating the potential negative impacts of benchmark research. In this position paper, we argue that more attention needs to be paid to areas of ethical risk that lie at the technical and scientific core of ML benchmarks. We identify overlooked structural similarities between human IQ and ML benchmarks. Human intelligence and ML benchmarks share similarities in setting standards for describing, evaluating and comparing performance on tasks relevant to intelligence. This enables us to unlock lessons from feminist philosophy of science scholarship that need to be considered by the ML benchmark community. Finally, we outline practical recommendations for benchmark research ethics and ethics review.
 
 - Fundamentals of Task-Agnostic Data Valuation. [[paper]](https://arxiv.org/abs/2208.12354)
   - Mohammad Mohammadi Amiri, Frederic Berdoz, Ramesh Raskar.
