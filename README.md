@@ -351,6 +351,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Federated Learning; Model Aggregation.
   - <details><summary>Digest</summary> We carry out a complete general mathematical convergence analysis to evaluate aggregation strategies in a federated learning framework. From this, we derive novel aggregation algorithms which are able to modify their model architecture by differentiating client contributions according to the value of their losses.
 
+- Interpolating Compressed Parameter Subspaces. [[paper]](https://arxiv.org/abs/2205.09891)
+  - Siddhartha Datta, Nigel Shadbolt.
+  - Key Word: Distribution Shifts; Weight Averaging; Test-time distributions; Task interpolation.
+  - <details><summary>Digest</summary> Inspired by recent work on neural subspaces and mode connectivity, we revisit parameter subspace sampling for shifted and/or interpolatable input distributions (instead of a single, unshifted distribution). We enforce a compressed geometric structure upon a set of trained parameters mapped to a set of train-time distributions, denoting the resulting subspaces as Compressed Parameter Subspaces (CPS). We show the success and failure modes of the types of shifted distributions whose optimal parameters reside in the CPS. We find that ensembling point-estimates within a CPS can yield a high average accuracy across a range of test-time distributions, including backdoor, adversarial, permutation, stylization and rotation perturbations. 
+
 - Improving Robustness against Real-World and Worst-Case Distribution Shifts through Decision Region Quantification. [[paper]](https://arxiv.org/abs/2205.09619)
   - Leo Schwinn, Leon Bungert, An Nguyen, René Raab, Falk Pulsmeyer, Doina Precup, Björn Eskofier, Dario Zanca. *ICML 2022*
   - Key Word: Decision Region Quantification; Corruption Robustness; Distribution Shift.
@@ -370,6 +375,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - An Xu, Wenqi Li, Pengfei Guo, Dong Yang, Holger Roth, Ali Hatamizadeh, Can Zhao, Daguang Xu, Heng Huang, Ziyue Xu.
   - Key Word: Personalized Federated Learning; Medical Image Segmentation.
   - <details><summary>Digest</summary> We propose a novel training framework FedSM to avoid the client drift issue and successfully close the generalization gap compared with the centralized training for medical image segmentation tasks for the first time. We also propose a novel personalized FL objective formulation and a new method SoftPull to solve it in our proposed framework FedSM.
+
+- Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. [[paper]](https://arxiv.org/abs/2203.05482) [[code]](https://github.com/mlfoundations/model-soups)
+  - Mitchell Wortsman, Gabriel Ilharco, Samir Yitzhak Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S. Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, Ludwig Schmidt. *ICML 2022*
+  - Key Word: Wegiht Averaging; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We show that averaging the weights of multiple models fine-tuned with different hyperparameter configurations often improves accuracy and robustness. Unlike a conventional ensemble, we may average many models without incurring any additional inference or memory costs -- we call the results "model soups." When fine-tuning large pre-trained models such as CLIP, ALIGN, and a ViT-G pre-trained on JFT, our soup recipe provides significant improvements over the best model in a hyperparameter sweep on ImageNet.
 
 - Uncertainty Modeling for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2202.03958) [[code]](https://github.com/lixiaotong97/dsu)
   - Xiaotong Li, Yongxing Dai, Yixiao Ge, Jun Liu, Ying Shan, Ling-Yu Duan. *ICLR 2022*
