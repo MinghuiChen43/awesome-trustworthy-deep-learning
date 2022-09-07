@@ -423,6 +423,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Bag of Tricks for FGSM Adversarial Training. [[paper]](https://arxiv.org/abs/2209.02684) [[code]](https://github.com/UCSC-VLAA/Bag-of-Tricks-for-FGSM-AT)
+  - Zichao Li, Li Liu, Zeyu Wang, Yuyin Zhou, Cihang Xie.
+  - Key Word: Fast Adversarial Training.
+  - <details><summary>Digest</summary> Existing methods use gradient regularizers or random initialization tricks to attenuate this issue, whereas they either take high computational cost or lead to lower robust accuracy. In this work, we provide the first study, which thoroughly examines a collection of tricks from three perspectives: Data Initialization, Network Structure, and Optimization, to overcome the catastrophic overfitting in FGSM-AT. Surprisingly, we find that simple tricks, i.e., a) masking partial pixels (even without randomness), b) setting a large convolution stride and smooth activation functions, or c) regularizing the weights of the first convolutional layer, can effectively tackle the overfitting issue.
+
 - A Novel Plug-and-Play Approach for Adversarially Robust Generalization. [[paper]](https://arxiv.org/abs/2208.09449)
   - Deepak Maurya, Adarsh Barik, Jean Honorio.
   - Key Word: Adversarial Robustness.
@@ -725,6 +730,21 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- A Survey of Machine Unlearning. [[paper]](https://arxiv.org/abs/2209.02299) [[code]](https://github.com/tamlhp/awesome-machine-unlearning)
+  - Thanh Tam Nguyen, Thanh Trung Huynh, Phi Le Nguyen, Alan Wee-Chung Liew, Hongzhi Yin, Quoc Viet Hung Nguyen.
+  - Key Word: Machine Unlearning; Survey.
+  - <details><summary>Digest</summary> In this survey paper, we seek to provide a thorough investigation of machine unlearning in its definitions, scenarios, mechanisms, and applications. Specifically, as a categorical collection of state-of-the-art research, we hope to provide a broad reference for those seeking a primer on machine unlearning and its various formulations, design requirements, removal requests, algorithms, and uses in a variety of ML applications. Furthermore, we hope to outline key findings and trends in the paradigm as well as highlight new areas of research that have yet to see the application of machine unlearning, but could nonetheless benefit immensely. 
+
+- Are Attribute Inference Attacks Just Imputation? [[paper]](https://arxiv.org/abs/2209.01292) [[code]](https://github.com/bargavj/EvaluatingDPML)
+  - Bargav Jayaraman, David Evans. *CCS 2022*
+  - Kew Word: Attribute Inference Attacks; Data Imputation.
+  - <details><summary>Digest</summary> Our main conclusions are: (1) previous attribute inference methods do not reveal more about the training data from the model than can be inferred by an adversary without access to the trained model, but with the same knowledge of the underlying distribution as needed to train the attribute inference attack; (2) black-box attribute inference attacks rarely learn anything that cannot be learned without the model; but (3) white-box attacks, which we introduce and evaluate in the paper, can reliably identify some records with the sensitive value attribute that would not be predicted without having access to the model. 
+
+- On the Privacy Risks of Cell-Based NAS Architectures. [[paper]](https://arxiv.org/abs/2209.01688) [[code]](https://github.com/miraclehh/nas_privacy)
+  - Hai Huang, Zhikun Zhang, Yun Shen, Michael Backes, Qi Li, Yang Zhang. *CCS 2022*
+  - Key Word: Cell-based Neural Architecture Search; Membership Inference Attack.
+  - <details><summary>Digest</summary> We fill this gap and systematically measure the privacy risks of NAS architectures. Leveraging the insights from our measurement study, we further explore the cell patterns of cell-based NAS architectures and evaluate how the cell patterns affect the privacy risks of NAS-searched architectures. Through extensive experiments, we shed light on how to design robust NAS architectures against privacy attacks, and also offer a general methodology to understand the hidden correlation between the NAS-searched architectures and other privacy risks.
 
 - Group Property Inference Attacks Against Graph Neural Networks. [[paper]](https://arxiv.org/abs/2209.01100)
   - Xiuling Wang, Wendy Hui Wang. *CCS 2022*
@@ -1124,6 +1144,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- "Is your explanation stable?": A Robustness Evaluation Framework for Feature Attribution. [[paper]](https://arxiv.org/abs/2209.01782)
+  - Yuyou Gan, Yuhao Mao, Xuhong Zhang, Shouling Ji, Yuwen Pu, Meng Han, Jianwei Yin, Ting Wang. *CCS 2022*
+  - Key Word: Attributional Robustness.
+  - <details><summary>Digest</summary> We propose a model-agnostic method \emph{Median Test for Feature Attribution} (MeTFA) to quantify the uncertainty and increase the stability of explanation algorithms with theoretical guarantees. MeTFA has the following two functions: (1) examine whether one feature is significantly important or unimportant and generate a MeTFA-significant map to visualize the results; (2) compute the confidence interval of a feature attribution score and generate a MeTFA-smoothed map to increase the stability of the explanation.
 
 - Interpreting Black-box Machine Learning Models for High Dimensional Datasets. [[paper]](https://arxiv.org/abs/2208.13405)
   - Md. Rezaul Karim, Md. Shajalal, Alex Graß, Till Döhmen, Sisay Adugna Chala, Christian Beecks, Stefan Decker.
