@@ -271,6 +271,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Invariant Learning; Causal Semantic Generative Model.
   - <details><summary>Digest</summary> While current domain generalization methods usually focus on enforcing certain invariance properties across different domains by new loss function designs, we propose a balanced mini-batch sampling strategy to reduce the domain-specific spurious correlations in the observed training distributions. More specifically, we propose a two-phased method that 1) identifies the source of spurious correlations, and 2) builds balanced mini-batches free from spurious correlations by matching on the identified source.
 
+- GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing. 
+  - Zhongkai Hao, Chengyang Ying, Yinpeng Dong, Hang Su, Jun Zhu, Jian Song. *ICML 2022*
+  - Key Word: Certified Semantic Robustness.
+  - <details><summary>Digest</summary> Existing methods are insufficient or unable to provably defend against semantic transformations, especially those without closed-form expressions (such as defocus blur and pixelate), which are more common in practice and often unrestricted. To fill up this gap, we propose generalized randomized smoothing (GSmooth), a unified theoretical framework for certifying robustness against general semantic transformations via a novel dimension augmentation strategy. Under the GSmooth framework, we present a scalable algorithm that uses a surrogate image-to-image network to approximate the complex transformation.
+
 - Sparse Fusion Mixture-of-Experts are Domain Generalizable Learners. [[paper]](https://arxiv.org/abs/2206.04046) [[code]](https://github.com/Luodian/SF-MoE-DG)
   - Bo Li, Jingkang Yang, Jiawei Ren, Yezhen Wang, Ziwei Liu.
   - Key Word: Domain Generalization; Vision Transformer; Sparse Mixture-of-Experts.
@@ -1593,6 +1598,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Robustness Workshops
 
 - [Workshop on Adversarial Robustness In the Real World (ECCV 2022)](https://eccv22-arow.github.io/)
+
+- [Formal Verification of Machine Learning (ICML 2022)](https://www.ml-verification.com/)
 
 - [Shift Happens Workshop (ICML 2022)](https://shift-happens-benchmark.github.io/)
 
