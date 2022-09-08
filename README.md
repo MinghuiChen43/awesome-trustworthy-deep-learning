@@ -1145,6 +1145,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Measuring the Interpretability of Unsupervised Representations via Quantized Reverse Probing. [[paper]](https://arxiv.org/abs/2209.03268)
+  - Iro Laina, Yuki M. Asano, Andrea Vedaldi. *ICLR 2022*
+  - Key Word: Interpretability; Self-Supervised Learning.
+  - <details><summary>Digest</summary> While a common way to evaluate self-supervised representations is through transfer to various downstream tasks, we instead investigate the problem of measuring their interpretability, i.e. understanding the semantics encoded in raw representations. We formulate the latter as estimating the mutual information between the representation and a space of manually labelled concepts. To quantify this we introduce a decoding bottleneck: information must be captured by simple predictors, mapping concepts to clusters in representation space. This approach, which we call reverse linear probing, provides a single number sensitive to the semanticity of the representation. 
+
 - "Is your explanation stable?": A Robustness Evaluation Framework for Feature Attribution. [[paper]](https://arxiv.org/abs/2209.01782)
   - Yuyou Gan, Yuhao Mao, Xuhong Zhang, Shouling Ji, Yuwen Pu, Meng Han, Jianwei Yin, Ting Wang. *CCS 2022*
   - Key Word: Attributional Robustness.
