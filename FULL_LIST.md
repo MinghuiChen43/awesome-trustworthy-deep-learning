@@ -1703,6 +1703,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Anomaly Detection; Novelty Detection; Open Set Recognition; Out-of-Distribution Detection; Outlier Detection.
   - <details><summary>Digest</summary> Several other problems are closely related to OOD detection in terms of motivation and methodology. These include anomaly detection (AD), novelty detection (ND), open set recognition (OSR), and outlier detection (OD). Despite having different definitions and problem settings, these problems often confuse readers and practitioners, and as a result, some existing studies misuse terms. In this survey, we first present a generic framework called generalized OOD detection, which encompasses the five aforementioned problems, i.e., AD, ND, OSR, OOD detection, and OD.
 
+- Open-Set Recognition: a Good Closed-Set Classifier is All You Need? [[paper]](https://arxiv.org/abs/2110.06207) [[code]](https://github.com/sgvaze/osr_closed_set_all_you_need)
+  - Sagar Vaze, Kai Han, Andrea Vedaldi, Andrew Zisserman. *ICLR 2022*
+  - Key Word: Open-Set Recognition.
+  - <details><summary>Digest</summary> We first demonstrate that the ability of a classifier to make the 'none-of-above' decision is highly correlated with its accuracy on the closed-set classes. We find that this relationship holds across loss objectives and architectures, and further demonstrate the trend both on the standard OSR benchmarks as well as on a large-scale ImageNet evaluation. Second, we use this correlation to boost the performance of a maximum logit score OSR 'baseline' by improving its closed-set accuracy, and with this strong baseline achieve state-of-the-art on a number of OSR benchmarks. 
+
 - Evidential Deep Learning for Open Set Action Recognition. [[paper]](https://arxiv.org/abs/2107.10161) [[code]](https://github.com/Cogito2012/DEAR)
   - Wentao Bao, Qi Yu, Yu Kong. *ICCV 2021 oral*
   - Key Word: Open-World Learning; Open-Set Action Recognition; Discovery of Unseen Instances; Evidential Deep Learning.
