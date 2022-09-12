@@ -1159,6 +1159,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- From Shapley Values to Generalized Additive Models and back. [[paper]](https://arxiv.org/abs/2209.04012) [[code]](https://github.com/tml-tuebingen/nshap)
+  - Sebastian Bordt, Ulrike von Luxburg.
+  - Key Word: Shapley Values; Generalized Additive Models.
+  - <details><summary>Digest</summary> We introduce n-Shapley Values, a natural extension of Shapley Values that explain individual predictions with interaction terms up to order n. As n increases, the n-Shapley Values converge towards the Shapley-GAM, a uniquely determined decomposition of the original function. From the Shapley-GAM, we can compute Shapley Values of arbitrary order, which gives precise insights into the limitations of these explanations. We then show that Shapley Values recover generalized additive models of order n, assuming that we allow for interaction terms up to order n in the explanations. 
+
 - The Utility of Explainable AI in Ad Hoc Human-Machine Teaming. [[paper]](https://arxiv.org/abs/2209.03943)
   - Rohan Paleja, Muyleng Ghuy, Nadun Ranawaka Arachchige, Reed Jensen, Matthew Gombolay. *NeurIPS 2021*
   - Key Word: Human-Machine Teaming; Explainable AI.
@@ -1394,6 +1399,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We recommend that ML papers include emissions explicitly to foster competition on more than just model quality. Estimates of emissions in papers that omitted them have been off 100x-100,000x, so publishing emissions has the added benefit of ensuring accurate accounting. Given the importance of climate change, we must get the numbers right to make certain that we work on its biggest challenges.
 
 ## Interactions with Blockchain
+
+- Trustworthy Federated Learning via Blockchain. [[paper]](https://arxiv.org/abs/2209.04418)
+  - Zhanpeng Yang, Yuanming Shi, Yong Zhou, Zixin Wang, Kai Yang.
+  - Key Word: Federated Learning; Blockchain.
+  - <details><summary>Digest</summary> We shall propose a decentralized blockchain based FL (B-FL) architecture by using a secure global aggregation algorithm to resist malicious devices, and deploying practical Byzantine fault tolerance consensus protocol with high effectiveness and low energy consumption among multiple edge servers to prevent model tampering from the malicious server. However, to implement B-FL system at the network edge, multiple rounds of cross-validation in blockchain consensus protocol will induce long training latency. We thus formulate a network optimization problem that jointly considers bandwidth and power allocation for the minimization of long-term average training latency consisting of progressive learning rounds.
 
 - A Fast Blockchain-based Federated Learning Framework with Compressed Communications. [[paper]](https://arxiv.org/abs/2208.06095)
   - Laizhong Cui, Xiaoxin Su, Yipeng Zhou. *JSAC*
