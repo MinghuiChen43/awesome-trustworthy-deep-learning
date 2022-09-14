@@ -428,6 +428,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation. [[paper]](https://arxiv.org/abs/2209.05980)
+  - Maksym Yatsura, Kaspar Sakmann, N. Grace Hua, Matthias Hein, Jan Hendrik Metze.
+  - Key Word: Certified Recovery; Certified Detection; Image Reconstruction.
+  - <details><summary>Digest</summary> Adversarial patch attacks are an emerging security threat for real world deep learning applications. We present Demasked Smoothing, the first approach (up to our knowledge) to certify the robustness of semantic segmentation models against this threat model. Previous work on certifiably defending against patch attacks has mostly focused on image classification task and often required changes in the model architecture and additional training which is undesirable and computationally expensive. In Demasked Smoothing, any segmentation model can be applied without particular training, fine-tuning, or restriction of the architecture. 
+
+- Adversarial Coreset Selection for Efficient Robust Training. [[paper]](https://arxiv.org/abs/2209.05785)
+  - Hadi M. Dolatabadi, Sarah Erfani, Christopher Leckie. *ECCV 2022*
+  - Key Word: Adversarial Training; Coreset Selection.
+  - <details><summary>Digest</summary> By leveraging the theory of coreset selection, we show how selecting a small subset of training data provides a principled approach to reducing the time complexity of robust training. To this end, we first provide convergence guarantees for adversarial coreset selection. In particular, we show that the convergence bound is directly related to how well our coresets can approximate the gradient computed over the entire training data. Motivated by our theoretical analysis, we propose using this gradient approximation error as our adversarial coreset selection objective to reduce the training set size effectively.
+
 - The Space of Adversarial Strategies. [[paper]](https://arxiv.org/abs/2209.04521)
   - Ryan Sheatsley, Blaine Hoak, Eric Pauley, Patrick McDaniel. *USENIX Security 2022*
   - Key Word: Adversarial Attacks; Benchmark.
@@ -745,6 +755,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Black-box Ownership Verification for Dataset Protection via Backdoor Watermarking. [[paper]](https://arxiv.org/abs/2209.06015) [[code]](https://github.com/THUYimingLi/DVBW)
+  - Yiming Li, Mingyan Zhu, Xue Yang, Yong Jiang, Shu-Tao Xia.
+  - Key Word: Black-box Ownership Verification; Backdoor Watermarking.
+  - <details><summary>Digest</summary> We propose to embed external patterns via backdoor watermarking for the ownership verification to protect them. Our method contains two main parts, including dataset watermarking and dataset verification. Specifically, we exploit poison-only backdoor attacks (e.g., BadNets) for dataset watermarking and design a hypothesis-test-guided method for dataset verification.  
+
 - A Framework for Evaluating Privacy-Utility Trade-off in Vertical Federated Learning. [[paper]](https://arxiv.org/abs/2209.03885)
   - Yan Kang, Jiahuan Luo, Yuanqin He, Xiaojin Zhang, Lixin Fan, Qiang Yang.
   - Key Word: Vertical Federated Learning; Privacy Attacks.
@@ -1032,6 +1047,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Fairness
 
+- It's Not Fairness, and It's Not Fair: The Failure of Distributional Equality and the Promise of Relational Equality in Complete-Information Hiring Games. [[paper]](https://arxiv.org/abs/2209.05602)
+  - Benjamin Fish, Luke Stark.
+  - Key Word: Group Fairness; Individual Fairness; Causal Fairness.
+  - <details><summary>Digest</summary> Existing efforts to formulate computational definitions of fairness have largely focused on distributional notions of equality, where equality is defined by the resources or decisions given to individuals in the system. Yet existing discrimination and injustice is often the result of unequal social relations, rather than an unequal distribution of resources. Here, we show how optimizing for existing computational and economic definitions of fairness and equality fail to prevent unequal social relations. To do this, we provide an example of a self-confirming equilibrium in a simple hiring market that is relationally unequal but satisfies existing distributional notions of fairness.
+
 - Sustaining Fairness via Incremental Learning. [[paper]](https://arxiv.org/abs/2208.12212)
   - Somnath Basu Roy Chowdhury, Snigdha Chaturvedi.
   - Key Word: Fairness; Incremental Learning.
@@ -1163,6 +1183,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Concept-Based Explanations for Tabular Data. [[paper]](https://arxiv.org/abs/2209.05690)
+  - Varsha Pendyala, Jihye Choi.
+  - Key Word: Concept Activation Vector; Conceptual Sensitivity.
+  - <details><summary>Digest</summary> We extend TCAV, the concept attribution approach, to tabular learning, by providing an idea on how to define concepts over tabular data. On a synthetic dataset with ground-truth concept explanations and a real-world dataset, we show the validity of our method in generating interpretability results that match the human-level intuitions. 
 
 - From Shapley Values to Generalized Additive Models and back. [[paper]](https://arxiv.org/abs/2209.04012) [[code]](https://github.com/tml-tuebingen/nshap)
   - Sebastian Bordt, Ulrike von Luxburg.
