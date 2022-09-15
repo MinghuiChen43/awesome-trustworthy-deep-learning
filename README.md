@@ -1184,6 +1184,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Explainable AI for clinical and remote health applications: a survey on tabular and time series data. [[paper]](https://arxiv.org/abs/2209.06528)
+  - Flavio Di Martino, Franca Delmastro.
+  - Key Word: Explainable AI; Tabular Data; Time-series Data; Healthcare.
+  - <details><summary>Digest</summary> To provide an overview of XAI methods that are most suitable for tabular and time series data in the healthcare domain, this paper provides a review of the literature in the last 5 years, illustrating the type of generated explanations and the efforts provided to evaluate their relevance and quality. Specifically, we identify clinical validation, consistency assessment, objective and standardised quality evaluation, and human-centered quality assessment as key features to ensure effective explanations for the end users. 
+
 - Concept-Based Explanations for Tabular Data. [[paper]](https://arxiv.org/abs/2209.05690)
   - Varsha Pendyala, Jihye Choi.
   - Key Word: Concept Activation Vector; Conceptual Sensitivity.
