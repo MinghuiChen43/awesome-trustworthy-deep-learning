@@ -71,6 +71,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- On-Device Domain Generalization. [[paper]](https://arxiv.org/abs/2209.07521) [[code]](https://github.com/KaiyangZhou/on-device-dg)
+  - Kaiyang Zhou, Yuanhan Zhang, Yuhang Zang, Jingkang Yang, Chen Change Loy, Ziwei Liu.
+  - Key Word: Domain Generalization; Knowledge Distillation.
+  - <details><summary>Digest</summary> We find that knowledge distillation is a strong candidate for solving the problem: it outperforms state-of-the-art DG methods that were developed using large models with a large margin. Moreover, we observe that the teacher-student performance gap on test data with domain shift is bigger than that on in-distribution data. To improve DG for tiny neural networks without increasing the deployment cost, we propose a simple idea called out-of-distribution knowledge distillation (OKD), which aims to teach the student how the teacher handles (synthetic) out-of-distribution data and is proved to be a promising framework for solving the problem. 
+
 - ID and OOD Performance Are Sometimes Inversely Correlated on Real-world Datasets. [[paper]](https://arxiv.org/abs/2209.00613)
   - Damien Teney, Seong Joon Oh, Ehsan Abbasnejad.
   - Key Word: Out-of-Distribution Generalization.
@@ -428,6 +433,21 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- A Light Recipe to Train Robust Vision Transformers. [[paper]](https://arxiv.org/abs/2209.07399) [[code]](https://github.com/dedeswim/vits-robustness-torch)
+  - Edoardo Debenedetti, Vikash Sehwag, Prateek Mittal. 
+  - Key Word: Adversarially Robust Vision Transformers.
+  - <details><summary>Digest</summary> We ask whether Vision Transformers (ViTs) can serve as an underlying architecture for improving the adversarial robustness of machine learning models against evasion attacks. While earlier works have focused on improving Convolutional Neural Networks, we show that also ViTs are highly suitable for adversarial training to achieve competitive performance. We achieve this objective using a custom adversarial training recipe, discovered using rigorous ablation studies on a subset of the ImageNet dataset. The canonical training recipe for ViTs recommends strong data augmentation, in part to compensate for the lack of vision inductive bias of attention modules, when compared to convolutions. 
+
+- Adversarially Robust Learning: A Generic Minimax Optimal Learner and Characterization. [[paper]](https://arxiv.org/abs/2209.07369)
+  - Omar Montasser, Steve Hanneke, Nathan Srebro. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> We present a minimax optimal learner for the problem of learning predictors robust to adversarial examples at test-time. Interestingly, we find that this requires new algorithmic ideas and approaches to adversarially robust learning. In particular, we show, in a strong negative sense, the suboptimality of the robust learner proposed by Montasser, Hanneke, and Srebro (2019) and a broader family of learners we identify as local learners. Our results are enabled by adopting a global perspective, specifically, through a key technical contribution: the global one-inclusion graph, which may be of independent interest, that generalizes the classical one-inclusion graph due to Haussler, Littlestone, and Warmuth (1994). 
+
+- On the interplay of adversarial robustness and architecture components: patches, convolution and attention. [[paper]](https://arxiv.org/abs/2209.06953)
+  - Francesco Croce, Matthias Hein.
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> In recent years novel architecture components for image classification have been developed, starting with attention and patches used in transformers. While prior works have analyzed the influence of some aspects of architecture components on the robustness to adversarial attacks, in particular for vision transformers, the understanding of the main factors is still limited. We compare several (non)-robust classifiers with different architectures and study their properties, including the effect of adversarial training on the interpretability of the learnt features and robustness to unseen threat models. 
+
 - Certified Defences Against Adversarial Patch Attacks on Semantic Segmentation. [[paper]](https://arxiv.org/abs/2209.05980)
   - Maksym Yatsura, Kaspar Sakmann, N. Grace Hua, Matthias Hein, Jan Hendrik Metze.
   - Key Word: Certified Recovery; Certified Detection; Image Reconstruction.
@@ -754,6 +774,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- CLIPping Privacy: Identity Inference Attacks on Multi-Modal Machine Learning Models. [[paper]](https://arxiv.org/abs/2209.07341)
+  - Dominik Hintersdorf, Lukas Struppek, Kristian Kersting.
+  - Key Word: Multi-Modal Machine Learning; Identity Inference Attacks.
+  - <details><summary>Digest</summary> Image-text models like CLIP have not yet been looked at in the context of privacy attacks. While membership inference attacks aim to tell whether a specific data point was used for training, we introduce a new type of privacy attack, named identity inference attack (IDIA), designed for multi-modal image-text models like CLIP. Using IDIAs, an attacker can reveal whether a particular person, was part of the training data by querying the model in a black-box fashion with different images of the same person. 
+
+- M^4I: Multi-modal Models Membership Inference. [[paper]](https://arxiv.org/abs/2209.06997) [[code]](https://github.com/MultimodalMI/Multimodal-membership-inference)
+  - Pingyi Hu, Zihan Wang, Ruoxi Sun, Hu Wang, Minhui Xue. *NeurIPS 2022*
+  - Key Word: Multi-modal Machine Learning; Membership inference.
+  - <details><summary>Digest</summary> we propose Multi-modal Models Membership Inference (M^4I) with two attack methods to infer the membership status, named metric-based (MB) M^4I and feature-based (FB) M^4I, respectively. More specifically, MB M^4I adopts similarity metrics while attacking to infer target data membership. FB M^4I uses a pre-trained shadow multi-modal feature extractor to achieve the purpose of data inference attack by comparing the similarities from extracted input and output features. 
 
 - Black-box Ownership Verification for Dataset Protection via Backdoor Watermarking. [[paper]](https://arxiv.org/abs/2209.06015) [[code]](https://github.com/THUYimingLi/DVBW)
   - Yiming Li, Mingyan Zhu, Xue Yang, Yong Jiang, Shu-Tao Xia.
