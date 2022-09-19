@@ -1269,6 +1269,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Interpretability; Saliency Maps.
   - <details><summary>Digest</summary> We argue that, when learning a 1-Lipschitz neural network with the dual loss of an optimal transportation problem, the gradient of the model is both the direction of the transportation plan and the direction to the closest adversarial attack. Traveling along the gradient to the decision boundary is no more an adversarial attack but becomes a counterfactual explanation, explicitly transporting from one class to the other. Through extensive experiments on XAI metrics, we find that the simple saliency map method, applied on such networks, becomes a reliable explanation, and outperforms the state-of-the-art explanation approaches on unconstrained models. The proposed networks were already known to be certifiably robust, and we prove that they are also explainable with a fast and simple method.
 
+- Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations. [[paper]](https://arxiv.org/abs/2206.01254)
+  - Tessa Han, Suraj Srinivas, Himabindu Lakkaraju. *NeurIPS 2022*
+  - Key Word: Analyzing Post-hoc Explanations.
+  - <details><summary>Digest</summary> We adopt a function approximation perspective and formalize the local function approximation (LFA) framework. We show that popular explanation methods are instances of this framework, performing function approximations of the underlying model in different neighborhoods using different loss functions. We introduce a no free lunch theorem for explanation methods which demonstrates that no single method can perform optimally across all neighbourhoods and calls for choosing among methods.
+
 - Concept-level Debugging of Part-Prototype Networks. [[paper]](https://arxiv.org/abs/2205.15769) [[code]](https://github.com/abonte/protopdebug)
   - Andrea Bontempelli, Stefano Teso, Fausto Giunchiglia, Andrea Passerini.
   - Key Word: Part-Prototype Networks; Concept-level Debugging.
