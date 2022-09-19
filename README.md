@@ -433,6 +433,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Enhance the Visual Representation via Discrete Adversarial Training. [[paper]](https://arxiv.org/abs/2209.07735) [[code]](https://github.com/alibaba/easyrobust)
+  - Xiaofeng Mao, Yuefeng Chen, Ranjie Duan, Yao Zhu, Gege Qi, Shaokai Ye, Xiaodan Li, Rong Zhang, Hui Xue. *NeurIPS 2022*
+  - Key Word: Adversarial Training; Discrete Visual Representation Learning.
+  - <details><summary>Digest</summary> We propose Discrete Adversarial Training (DAT). DAT leverages VQGAN to reform the image data to discrete text-like inputs, i.e. visual words. Then it minimizes the maximal risk on such discrete images with symbolic adversarial perturbations. We further give an explanation from the perspective of distribution to demonstrate the effectiveness of DAT.
+
+- Explicit Tradeoffs between Adversarial and Natural Distributional Robustness. [[paper]](https://arxiv.org/abs/2209.07592)
+  - Mazda Moayeri, Kiarash Banihashem, Soheil Feizi. *NeurIPS 2022*
+  - Key Word: Natural Distributional Robustness; Adversarial Robustness; Spurious Correlations.
+  - <details><summary>Digest</summary> We bridge this gap and show that in fact, explicit tradeoffs exist between adversarial and natural distributional robustness. We first consider a simple linear regression setting on Gaussian data with disjoint sets of core and spurious features. In this setting, through theoretical and empirical analysis, we show that (i) adversarial training with ℓ1 and ℓ2 norms increases the model reliance on spurious features; (ii) For ℓ∞ adversarial training, spurious reliance only occurs when the scale of the spurious features is larger than that of the core features; (iii) adversarial training can have an unintended consequence in reducing distributional robustness, specifically when spurious correlations are changed in the new test domain. 
+
 - A Light Recipe to Train Robust Vision Transformers. [[paper]](https://arxiv.org/abs/2209.07399) [[code]](https://github.com/dedeswim/vits-robustness-torch)
   - Edoardo Debenedetti, Vikash Sehwag, Prateek Mittal. 
   - Key Word: Adversarially Robust Vision Transformers.
@@ -774,6 +784,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Renyi Differential Privacy of Propose-Test-Release and Applications to Private and Robust Machine Learning. [[paper]](https://arxiv.org/abs/2209.07716)
+  - Jiachen T. Wang, Saeed Mahloujifar, Shouda Wang, Ruoxi Jia, Prateek Mittal. *NeurIPS 2022*
+  - Key Word: Renyi Differential Privacy; Propose-Test-Release.
+  - <details><summary>Digest</summary> Propose-Test-Release (PTR) is a differential privacy framework that works with local sensitivity of functions, instead of their global sensitivity. This framework is typically used for releasing robust statistics such as median or trimmed mean in a differentially private manner. While PTR is a common framework introduced over a decade ago, using it in applications such as robust SGD where we need many adaptive robust queries is challenging. This is mainly due to the lack of Renyi Differential Privacy (RDP) analysis, an essential ingredient underlying the moments accountant approach for differentially private deep learning. In this work, we generalize the standard PTR and derive the first RDP bound for it when the target function has bounded global sensitivity.
 
 - CLIPping Privacy: Identity Inference Attacks on Multi-Modal Machine Learning Models. [[paper]](https://arxiv.org/abs/2209.07341)
   - Dominik Hintersdorf, Lukas Struppek, Kristian Kersting.
