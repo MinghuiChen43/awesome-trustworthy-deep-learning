@@ -71,6 +71,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- UMIX: Improving Importance Weighting for Subpopulation Shift via Uncertainty-Aware Mixup. [[paper]](https://arxiv.org/abs/2209.08928)
+  - Zongbo Han, Zhipeng Liang, Fan Yang, Liu Liu, Lanqing Li, Yatao Bian, Peilin Zhao, Bingzhe Wu, Changqing Zhang, Jianhua Yao. *NeurIPS 2022*
+  - Key Word: Importance Weighting; Subpopulation Shift; Mixup.
+  - <details><summary>Digest</summary> We propose a simple yet practical framework, called uncertainty-aware mixup (Umix), to mitigate the overfitting issue in over-parameterized models by reweighting the "mixed" samples according to the sample uncertainty. The training-trajectories-based uncertainty estimation is equipped in the proposed Umix for each sample to flexibly characterize the subpopulation distribution. We also provide insightful theoretical analysis to verify that Umix achieves better generalization bounds over prior works.
+
+- Importance Tempering: Group Robustness for Overparameterized Models. [[paper]](https://arxiv.org/abs/2209.08745)
+  - Yiping Lu, Wenlong Ji, Zachary Izzo, Lexing Ying.
+  - Ke Word: Importance Tempering; Label Shift; Neural Collapse; Spurious Correlations.
+  - <details><summary>Digest</summary> We propose importance tempering to improve the decision boundary and achieve consistently better results for overparameterized models. Theoretically, we justify that the selection of group temperature can be different under label shift and spurious correlation setting. At the same time, we also prove that properly selected temperatures can extricate the minority collapse for imbalanced classification. 
+
 - On-Device Domain Generalization. [[paper]](https://arxiv.org/abs/2209.07521) [[code]](https://github.com/KaiyangZhou/on-device-dg)
   - Kaiyang Zhou, Yuanhan Zhang, Yuhang Zang, Jingkang Yang, Chen Change Loy, Ziwei Liu.
   - Key Word: Domain Generalization; Knowledge Distillation.
@@ -433,6 +443,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Part-Based Models Improve Adversarial Robustness. [[paper]](https://arxiv.org/abs/2209.09117) [[code]](https://github.com/chawins/adv-part-model)
+  - Chawin Sitawarin, Kornrapat Pongmala, Yizheng Chen, Nicholas Carlini, David Wagner.
+  - Key Word: Adversarial Robustness; Part-Based Models.
+  - <details><summary>Digest</summary> We believe that the richer form of annotation helps guide neural networks to learn more robust features without requiring more samples or larger models. Our model combines a part segmentation model with a tiny classifier and is trained end-to-end to simultaneously segment objects into parts and then classify the segmented object.
+
+- AdvDO: Realistic Adversarial Attacks for Trajectory Prediction. [[paper]](https://arxiv.org/abs/2209.08744)
+  - Yulong Cao, Chaowei Xiao, Anima Anandkumar, Danfei Xu, Marco Pavone.
+  - Key Word: Adversarial Attacks; Trajectory Prediciton.
+  - <details><summary>Digest</summary> Trajectory prediction is essential for autonomous vehicles (AVs) to plan correct and safe driving behaviors. While many prior works aim to achieve higher prediction accuracy, few study the adversarial robustness of their methods. To bridge this gap, we propose to study the adversarial robustness of data-driven trajectory prediction systems. We devise an optimization-based adversarial attack framework that leverages a carefully-designed differentiable dynamic model to generate realistic adversarial trajectories. 
+
 - Enhance the Visual Representation via Discrete Adversarial Training. [[paper]](https://arxiv.org/abs/2209.07735) [[code]](https://github.com/alibaba/easyrobust)
   - Xiaofeng Mao, Yuefeng Chen, Ranjie Duan, Yao Zhu, Gege Qi, Shaokai Ye, Xiaodan Li, Rong Zhang, Hui Xue. *NeurIPS 2022*
   - Key Word: Adversarial Training; Discrete Visual Representation Learning.
@@ -784,6 +804,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Dataset Inference for Self-Supervised Models. [[paper]](https://arxiv.org/abs/2209.09024)
+  - Adam Dziedzic, Haonan Duan, Muhammad Ahmad Kaleem, Nikita Dhawan, Jonas Guan, Yannis Cattan, Franziska Boenisch, Nicolas Papernot. *NeurIPS 2022*
+  - Key Word: Dataset Inferece; Model Stealing Attacks.
+  - <details><summary>Digest</summary> We introduce a new dataset inference defense, which uses the private training set of the victim encoder model to attribute its ownership in the event of stealing. The intuition is that the log-likelihood of an encoder's output representations is higher on the victim's training data than on test data if it is stolen from the victim, but not if it is independently trained. We compute this log-likelihood using density estimation models. As part of our evaluation, we also propose measuring the fidelity of stolen encoders and quantifying the effectiveness of the theft detection without involving downstream tasks; instead, we leverage mutual information and distance measurements. 
+
+- Membership Inference Attacks and Generalization: A Causal Perspective. [[paper]](https://arxiv.org/abs/2209.08615)
+  - Teodora Baluta, Shiqi Shen, S. Hitarth, Shruti Tople, Prateek Saxena.
+  - Key Word: Membership Inference Attacks; Causal Reasoning.
+  - <details><summary>Digest</summary> We propose the first approach to explain MI attacks and their connection to generalization based on principled causal reasoning. We offer causal graphs that quantitatively explain the observed MI attack performance achieved for 6 attack variants. We refute several prior non-quantitative hypotheses that over-simplify or over-estimate the influence of underlying causes, thereby failing to capture the complex interplay between several factors. 
 
 - Renyi Differential Privacy of Propose-Test-Release and Applications to Private and Robust Machine Learning. [[paper]](https://arxiv.org/abs/2209.07716)
   - Jiachen T. Wang, Saeed Mahloujifar, Shouda Wang, Ruoxi Jia, Prateek Mittal. *NeurIPS 2022*
@@ -1229,6 +1259,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- EMaP: Explainable AI with Manifold-based Perturbations. [[paper]](https://arxiv.org/abs/2209.08453)
+  - Minh N. Vu, Huy Q. Mai, My T. Thai.
+  - Key Word: Black-box Explanations; Topological Data Analysis; Robust Machine Learning.
+  - <details><summary>Digest</summary>  The goal of this work is to introduce a novel perturbation scheme so that more faithful and robust explanations can be obtained. Our study focuses on the impact of perturbing directions on the data topology. We show that perturbing along the orthogonal directions of the input manifold better preserves the data topology, both in the worst-case analysis of the discrete Gromov-Hausdorff distance and in the average-case analysis via persistent homology. 
+
 - Explainable AI for clinical and remote health applications: a survey on tabular and time series data. [[paper]](https://arxiv.org/abs/2209.06528)
   - Flavio Di Martino, Franca Delmastro.
   - Key Word: Explainable AI; Tabular Data; Time-series Data; Healthcare.
@@ -1521,6 +1556,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- A Survey of Deep Causal Model. [[paper]](https://arxiv.org/abs/2209.08860)
+  - Zongyu Li, Zhenfeng Zhu. 
+  - Key Word: Causality; Survey.
+  - <details><summary>Digest</summary> This paper focuses on the survey of the deep causal models, and its core contributions are as follows: 1) we provide relevant metrics under multiple treatments and continuous-dose treatment; 2) we incorporate a comprehensive overview of deep causal models from both temporal development and method classification perspectives; 3) we assist a detailed and comprehensive classification and analysis of relevant datasets and source code.
+
+- Introspective Learning : A Two-Stage Approach for Inference in Neural Networks. [[paper]](https://arxiv.org/abs/2209.08425) [[code]](https://github.com/olivesgatech/introspective-learning)
+  - Mohit Prabhushankar, Ghassan AlRegib. *NeurIPS 2022*
+  - Key Word: Active Learning; Out-of-Distribution Detection; Uncertainty Estimation; Image Quality Assessment.
+  - <details><summary>Digest</summary> We advocate for two stages in a neural network's decision making process. The first is the existing feed-forward inference framework where patterns in given data are sensed and associated with previously learned patterns. The second stage is a slower reflection stage where we ask the network to reflect on its feed-forward decision by considering and evaluating all available choices. Together, we term the two stages as introspective learning. We use gradients of trained neural networks as a measurement of this reflection. A simple three-layered Multi Layer Perceptron is used as the second stage that predicts based on all extracted gradient features.
 
 - Making Intelligence: Ethics, IQ, and ML Benchmarks. [[paper]](https://arxiv.org/abs/2209.00692)
   - Borhane Blili-Hamelin, Leif Hancox-Li.
