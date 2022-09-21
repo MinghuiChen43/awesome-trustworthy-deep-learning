@@ -39,6 +39,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Survey
 
+- Non-Imaging Medical Data Synthesis for Trustworthy AI: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2209.09239)
+  - Xiaodan Xing, Huanjun Wu, Lichao Wang, Iain Stenson, May Yong, Javier Del Ser, Simon Walsh, Guang Yang.
+  - Key Word: Non-Imaging Medical Data Generation; Healthcare; Survey.
+  - <details><summary>Digest</summary> State-of-the-art data synthesis algorithms, especially deep learning algorithms, focus more on imaging data while neglecting the synthesis of non-imaging healthcare data, including clinical measurements, medical signals and waveforms, and electronic healthcare records (EHRs). Thus, in this paper, we will review the synthesis algorithms, particularly for non-imaging medical data, with the aim of providing trustworthy AI in this domain. This tutorial-styled review paper will provide comprehensive descriptions of non-imaging medical data synthesis on aspects including algorithms, evaluations, limitations and future research directions.
+
 - Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2208.06265)
   - Shoujin Wang, Xiuzhen Zhang, Yan Wang, Huan Liu, Francesco Ricci.
   - Key Word: Survey; Recommender Systems; Trustworthy Recommendation.
@@ -442,6 +447,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- GAMA: Generative Adversarial Multi-Object Scene Attacks. [[paper]](https://arxiv.org/abs/2209.09502)
+  - Abhishek Aich, Calvin Khang-Ta, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury.
+  - Key Word: Multi-object Scene based Generative Adversarial Attack; Multi-Modal Machine Learning.
+  - <details><summary>Digest</summary> This paper presents the first approach of using generative models for adversarial attacks on multi-object scenes. In order to represent the relationships between different objects in the input scene, we leverage upon the open-sourced pre-trained vision-language model CLIP (Contrastive Language-Image Pre-training), with the motivation to exploit the encoded semantics in the language space along with the visual space. We call this attack approach Generative Adversarial Multi-object scene Attacks (GAMA). GAMA demonstrates the utility of the CLIP model as an attacker's tool to train formidable perturbation generators for multi-object scenes. 
 
 - Part-Based Models Improve Adversarial Robustness. [[paper]](https://arxiv.org/abs/2209.09117) [[code]](https://github.com/chawins/adv-part-model)
   - Chawin Sitawarin, Kornrapat Pongmala, Yizheng Chen, Nicholas Carlini, David Wagner.
@@ -1121,6 +1131,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- Fairness and robustness in anti-causal prediction. [[paper]](https://arxiv.org/abs/2209.09423)
+  - Maggie Makar, Alexander D'Amour.
+  - Key Word: Distribution Shifts; Causal Structure.
+  - <details><summary>Digest</summary> Robustness to distribution shift and fairness have independently emerged as two important desiderata required of modern machine learning models. While these two desiderata seem related, the connection between them is often unclear in practice. Here, we discuss these connections through a causal lens, focusing on anti-causal prediction tasks, where the input to a classifier (e.g., an image) is assumed to be generated as a function of the target label and the protected attribute. By taking this perspective, we draw explicit connections between a common fairness criterion - separation - and a common notion of robustness - risk invariance. 
 
 - It's Not Fairness, and It's Not Fair: The Failure of Distributional Equality and the Promise of Relational Equality in Complete-Information Hiring Games. [[paper]](https://arxiv.org/abs/2209.05602)
   - Benjamin Fish, Luke Stark.
