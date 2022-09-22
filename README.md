@@ -39,6 +39,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Survey
 
+- A Comprehensive Survey on Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2209.10117)
+  - Wenqi Fan, Xiangyu Zhao, Xiao Chen, Jingran Su, Jingtong Gao, Lin Wang, Qidong Liu, Yiqi Wang, Han Xu, Lei Chen, Qing Li.
+  - Key Word: Recommender Systems; Survey.
+  - <details><summary>Digest</summary> We provide a comprehensive overview of Trustworthy Recommender systems (TRec) with a specific focus on six of the most important aspects; namely, Safety & Robustness, Nondiscrimination & Fairness, Explainability, Privacy, Environmental Well-being, and Accountability & Auditability. For each aspect, we summarize the recent related technologies and discuss potential research directions to help achieve trustworthy recommender systems in the future.
+
 - Non-Imaging Medical Data Synthesis for Trustworthy AI: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2209.09239)
   - Xiaodan Xing, Huanjun Wu, Lichao Wang, Iain Stenson, May Yong, Javier Del Ser, Simon Walsh, Guang Yang.
   - Key Word: Non-Imaging Medical Data Generation; Healthcare; Survey.
@@ -1131,6 +1136,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- Fairness Reprogramming. [[paper]](https://arxiv.org/abs/2209.10222)
+  - Guanhua Zhang, Yihua Zhang, Yang Zhang, Wenqi Fan, Qing Li, Sijia Liu, Shiyu Chang.
+  - Key Word: Model reprogramming; Fairness.
+  - <details><summary>Digest</summary> We propose a new generic fairness learning paradigm, called FairReprogram, which incorporates the model reprogramming technique. Specifically, FairReprogram considers the neural model fixed, and instead appends to the input a set of perturbations, called the fairness trigger, which is tuned towards the fairness criteria under a min-max formulation. 
 
 - Fairness and robustness in anti-causal prediction. [[paper]](https://arxiv.org/abs/2209.09423)
   - Maggie Makar, Alexander D'Amour.
