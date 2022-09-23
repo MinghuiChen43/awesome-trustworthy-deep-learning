@@ -81,6 +81,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- A Closer Look at Learned Optimization: Stability, Robustness, and Inductive Biases. [[paper]](https://arxiv.org/abs/2209.11208)
+  - James Harrison, Luke Metz, Jascha Sohl-Dickstein. *NeurIPS 2022*
+  - Key Word: Optimizer; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We use tools from dynamical systems to investigate the inductive biases and stability properties of optimization algorithms, and apply the resulting insights to designing inductive biases for blackbox optimizers. Our investigation begins with a noisy quadratic model, where we characterize conditions in which optimization is stable, in terms of eigenvalues of the training dynamics. We then introduce simple modifications to a learned optimizer's architecture and meta-training procedure which lead to improved stability, and improve the optimizer's inductive bias.
+
 - UMIX: Improving Importance Weighting for Subpopulation Shift via Uncertainty-Aware Mixup. [[paper]](https://arxiv.org/abs/2209.08928)
   - Zongbo Han, Zhipeng Liang, Fan Yang, Liu Liu, Lanqing Li, Yatao Bian, Peilin Zhao, Bingzhe Wu, Changqing Zhang, Jianhua Yao. *NeurIPS 2022*
   - Key Word: Importance Weighting; Subpopulation Shift; Mixup.
@@ -820,6 +825,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- In Differential Privacy, There is Truth: On Vote Leakage in Ensemble Private Learning. [[paper]](https://arxiv.org/abs/2209.10732)
+  - Jiaqi Wang, Roei Schuster, Ilia Shumailov, David Lie, Nicolas Papernot. *NeurIPS 2022*
+  - Key Word: Differential Privacy.
+  - <details><summary>Digest</summary> We observe that this use of noise, which makes PATE predictions stochastic, enables new forms of leakage of sensitive information. For a given input, our adversary exploits this stochasticity to extract high-fidelity histograms of the votes submitted by the underlying teachers. From these histograms, the adversary can learn sensitive attributes of the input such as race, gender, or age. 
+
 - Dataset Inference for Self-Supervised Models. [[paper]](https://arxiv.org/abs/2209.09024)
   - Adam Dziedzic, Haonan Duan, Muhammad Ahmad Kaleem, Nikita Dhawan, Jonas Guan, Yannis Cattan, Franziska Boenisch, Nicolas Papernot. *NeurIPS 2022*
   - Key Word: Dataset Inferece; Model Stealing Attacks.
@@ -1284,6 +1294,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Concept Activation Regions: A Generalized Framework For Concept-Based Explanations. [[paper]](https://arxiv.org/abs/2209.11222) [[code]](https://github.com/jonathancrabbe/cars)
+  - Jonathan Crabbé, Mihaela van der Schaar. *NeurIPS 2022*
+  - Key Word: Concept Activation Vector.
+  - <details><summary>Digest</summary> We propose to relax this assumption by allowing concept examples to be scattered across different clusters in the DNN's latent space. Each concept is then represented by a region of the DNN's latent space that includes these clusters and that we call concept activation region (CAR). To formalize this idea, we introduce an extension of the CAV formalism that is based on the kernel trick and support vector classifiers. This CAR formalism yields global concept-based explanations and local concept-based feature importance.
+
 - EMaP: Explainable AI with Manifold-based Perturbations. [[paper]](https://arxiv.org/abs/2209.08453)
   - Minh N. Vu, Huy Q. Mai, My T. Thai.
   - Key Word: Black-box Explanations; Topological Data Analysis; Robust Machine Learning.
@@ -1581,6 +1596,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- NashAE: Disentangling Representations through Adversarial Covariance Minimization. [[paper]](https://arxiv.org/abs/2209.10677) [[code]](https://github.com/ericyeats/nashae-beamsynthesis)
+  - Eric Yeats, Frank Liu, David Womble, Hai Li. *ECCV 2022*
+  - Key Word: Disentangled Representation.
+  - <details><summary>Digest</summary> We present a self-supervised method to disentangle factors of variation in high-dimensional data that does not rely on prior knowledge of the underlying variation profile (e.g., no assumptions on the number or distribution of the individual latent variables to be extracted). In this method which we call NashAE, high-dimensional feature disentanglement is accomplished in the low-dimensional latent space of a standard autoencoder (AE) by promoting the discrepancy between each encoding element and information of the element recovered from all other encoding elements.
 
 - A Survey of Deep Causal Model. [[paper]](https://arxiv.org/abs/2209.08860)
   - Zongyu Li, Zhenfeng Zhu. 
