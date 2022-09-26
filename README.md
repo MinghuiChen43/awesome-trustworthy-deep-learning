@@ -825,6 +825,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Deep Learning-based Anonymization of Chest Radiographs: A Utility-preserving Measure for Patient Privacy. [[paper]](https://arxiv.org/abs/2209.11531)
+  - Kai Packhäuser, Sebastian Gündel, Florian Thamm, Felix Denzinger, Andreas Maier.
+  - Key Word: Image Anonymization; Patient Privacy; Data Utility; Chest Radiographs.
+  - <details><summary>Digest</summary> We propose the first deep learning-based approach to targetedly anonymize chest radiographs while maintaining data utility for diagnostic and machine learning purposes. Our model architecture is a composition of three independent neural networks that, when collectively used, allow for learning a deformation field that is able to impede patient re-identification. The individual influence of each component is investigated with an ablation study. Quantitative results on the ChestX-ray14 dataset show a reduction of patient re-identification from 81.8% to 58.6% in the area under the receiver operating characteristic curve (AUC) with little impact on the abnormality classification performance. 
+
 - In Differential Privacy, There is Truth: On Vote Leakage in Ensemble Private Learning. [[paper]](https://arxiv.org/abs/2209.10732)
   - Jiaqi Wang, Roei Schuster, Ilia Shumailov, David Lie, Nicolas Papernot. *NeurIPS 2022*
   - Key Word: Differential Privacy.
@@ -1400,6 +1405,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> In Multiple Instance Learning (MIL), models are trained using bags of instances, where only a single label is provided for each bag. A bag label is often only determined by a handful of key instances within a bag, making it difficult to interpret what information a classifier is using to make decisions. In this work, we establish the key requirements for interpreting MIL models. We then go on to develop several model-agnostic approaches that meet these requirements.
 
 ## Open-World Learning
+
+- Understanding Open-Set Recognition by Jacobian Norm of Representation. [[paper]](https://arxiv.org/abs/2209.11436)
+  - Jaewoo Park, Hojin Park, Eunju Jeong, Andrew Beng Jin Teoh.
+  - Key Word: Open-Set Recognition; Out-of-Distribution Detection.
+  - <details><summary>Digest</summary> This paper analyzes this emergent phenomenon by observing the Jacobian norm of representation. We theoretically show that minimizing the intra-class distances within the known set reduces the Jacobian norm of known class representations while maximizing the inter-class distances within the known set increases the Jacobian norm of the unknown class. The closed-set metric learning thus separates the unknown from the known by forcing their Jacobian norm values to differ. We empirically validate our theoretical framework with ample pieces of evidence using standard OSR datasets. 
 
 - Holistic Segmentation. [[paper]](https://arxiv.org/abs/2209.05407)
   - Stefano Gasperini, Frithjof Winkelmann, Alvaro Marcos-Ramiro, Micheal Schmidt, Nassir Navab, Benjamin Busam, Federico Tombari.
