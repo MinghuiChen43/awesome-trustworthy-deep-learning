@@ -825,6 +825,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Algorithms that Approximate Data Removal: New Results and Limitations. [[paper]](https://arxiv.org/abs/2209.12269)
+  - Vinith M. Suriyakumar, Ashia C. Wilson. *NeurIPS 2022*
+  - Key Word: Data Removal; Machine Unlearning.
+  - <details><summary>Digest</summary> We study the problem of deleting user data from machine learning models trained using empirical risk minimization. Our focus is on learning algorithms which return the empirical risk minimizer and approximate unlearning algorithms that comply with deletion requests that come streaming minibatches. Leveraging the infintesimal jacknife, we develop an online unlearning algorithm that is both computationally and memory efficient. Unlike prior memory efficient unlearning algorithms, we target models that minimize objectives with non-smooth regularizers, such as the commonly used ℓ1, elastic net, or nuclear norm penalties.
+
 - Deep Learning-based Anonymization of Chest Radiographs: A Utility-preserving Measure for Patient Privacy. [[paper]](https://arxiv.org/abs/2209.11531)
   - Kai Packhäuser, Sebastian Gündel, Florian Thamm, Felix Denzinger, Andreas Maier.
   - Key Word: Image Anonymization; Patient Privacy; Data Utility; Chest Radiographs.
@@ -1606,6 +1611,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Interventional Causal Representation Learning. [[paper]](https://arxiv.org/abs/2209.11924)
+  - Kartik Ahuja, Yixin Wang, Divyat Mahajan, Yoshua Bengio.
+  - Key Word: Interventional Data; Causal Representation Learning.
+  - <details><summary>Digest</summary> We explore the role of interventional data for identifiable representation learning in this work. We study the identifiability of latent causal factors with and without interventional data, under minimal distributional assumptions on the latents. We prove that, if the true latent variables map to the observed high-dimensional data via a polynomial function, then representation learning via minimizing the standard reconstruction loss of autoencoders identifies the true latents up to affine transformation. 
 
 - NashAE: Disentangling Representations through Adversarial Covariance Minimization. [[paper]](https://arxiv.org/abs/2209.10677) [[code]](https://github.com/ericyeats/nashae-beamsynthesis)
   - Eric Yeats, Frank Liu, David Womble, Hai Li. *ECCV 2022*
