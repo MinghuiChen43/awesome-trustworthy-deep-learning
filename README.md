@@ -1157,6 +1157,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Fairness
 
+- A Survey of Fairness in Medical Image Analysis: Concepts, Algorithms, Evaluations, and Challenges. [[paper]](https://arxiv.org/abs/2209.13177)
+  - Zikang Xu, Jun Li, Qingsong Yao, Han Li, Xin Shi, S. Kevin Zhou.
+  - Key Word: Survey; Fairness; Medical Image Analysis; Healthcare.
+  - <details><summary>Digest</summary> We first give a comprehensive and precise definition of fairness, following by introducing currently used techniques in fairness issues in MedIA. After that, we list public medical image datasets that contain demographic attributes for facilitating the fairness research and summarize current algorithms concerning fairness in MedIA. 
+
 - Fairness Reprogramming. [[paper]](https://arxiv.org/abs/2209.10222)
   - Guanhua Zhang, Yihua Zhang, Yang Zhang, Wenqi Fan, Qing Li, Sijia Liu, Shiyu Chang.
   - Key Word: Model reprogramming; Fairness.
@@ -1303,6 +1308,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- WeightedSHAP: analyzing and improving Shapley based feature attributions. [[paper]](https://arxiv.org/abs/2209.13429)
+  - Yongchan Kwon, James Zou.
+  - Key Word: Model Interpretation; Shapley Value.
+  - <details><summary>Digest</summary> Our work performs a rigorous analysis of the potential limitations of Shapley feature attribution. We identify simple settings where the Shapley value is mathematically suboptimal by assigning larger attributions for less influential features. Motivated by this observation, we propose WeightedSHAP, which generalizes the Shapley value and learns which marginal contributions to focus directly from data. 
 
 - Concept Activation Regions: A Generalized Framework For Concept-Based Explanations. [[paper]](https://arxiv.org/abs/2209.11222) [[code]](https://github.com/jonathancrabbe/cars)
   - Jonathan Crabbé, Mihaela van der Schaar. *NeurIPS 2022*
@@ -1611,6 +1621,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Totems: Physical Objects for Verifying Visual Integrity. [[paper]](https://arxiv.org/abs/2209.13032)
+  - Jingwei Ma, Lucy Chai, Minyoung Huh, Tongzhou Wang, Ser-Nam Lim, Phillip Isola, Antonio Torralba. *ECCV 2022*
+  - Key Word: Digitial Signatures; Detecting Image Manipulations.
+  - <details><summary>Digest</summary> We introduce a new approach to image forensics: placing physical refractive objects, which we call totems, into a scene so as to protect any photograph taken of that scene. Totems bend and redirect light rays, thus providing multiple, albeit distorted, views of the scene within a single image. A defender can use these distorted totem pixels to detect if an image has been manipulated. Our approach unscrambles the light rays passing through the totems by estimating their positions in the scene and using their known geometric and material properties.
 
 - Interventional Causal Representation Learning. [[paper]](https://arxiv.org/abs/2209.11924)
   - Kartik Ahuja, Yixin Wang, Divyat Mahajan, Yoshua Bengio.
