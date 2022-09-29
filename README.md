@@ -458,6 +458,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- A Survey on Physical Adversarial Attack in Computer Vision. [[paper]](https://arxiv.org/abs/2209.14262)
+  - Donghua Wang, Wen Yao, Tingsong Jiang, Guijiang Tang, Xiaoqian Chen.
+  - Key Word: Physical Adversarial Attacks; Survey.
+  - <details><summary>Digest</summary> We review the development of physical adversarial attacks in DNN-based computer vision tasks, including image recognition tasks, object detection tasks, and semantic segmentation. For the sake of completeness of the algorithm evolution, we will briefly introduce the works that do not involve the physical adversarial attack. 
+
 - GAMA: Generative Adversarial Multi-Object Scene Attacks. [[paper]](https://arxiv.org/abs/2209.09502)
   - Abhishek Aich, Calvin Khang-Ta, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury.
   - Key Word: Multi-object Scene based Generative Adversarial Attack; Multi-Modal Machine Learning.
