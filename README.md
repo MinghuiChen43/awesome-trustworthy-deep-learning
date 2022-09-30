@@ -830,6 +830,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- No Free Lunch in "Privacy for Free: How does Dataset Condensation Help Privacy". [[paper]](https://arxiv.org/abs/2209.14987)
+  - Nicholas Carlini, Vitaly Feldman, Milad Nasr.
+  - Key Word: Differential Privacy; Dataset Condensation.
+  - <details><summary>Digest</summary> New methods designed to preserve data privacy require careful scrutiny. Failure to preserve privacy is hard to detect, and yet can lead to catastrophic results when a system implementing a ``privacy-preserving'' method is attacked. A recent work selected for an Outstanding Paper Award at ICML 2022 (Dong et al., 2022) claims that dataset condensation (DC) significantly improves data privacy when training machine learning models. This claim is supported by theoretical analysis of a specific dataset condensation technique and an empirical evaluation of resistance to some existing membership inference attacks.
+
 - Algorithms that Approximate Data Removal: New Results and Limitations. [[paper]](https://arxiv.org/abs/2209.12269)
   - Vinith M. Suriyakumar, Ashia C. Wilson. *NeurIPS 2022*
   - Key Word: Data Removal; Machine Unlearning.
