@@ -81,10 +81,20 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Federated Representation Learning via Maximal Coding Rate Reduction. [[paper]](https://arxiv.org/abs/2210.00299)
+  - Juan Cervino, Navid NaderiAlizadeh, Alejandro Ribeiro.
+  - Key Word: Personalized Federated Learning; Maximal Coding Rate Reduction.
+  - <details><summary>Digest</summary> We propose a federated methodology to learn low-dimensional representations from a dataset that is distributed among several clients. In particular, we move away from the commonly-used cross-entropy loss in federated learning, and seek to learn shared low-dimensional representations of the data in a decentralized manner via the principle of maximal coding rate reduction (MCR2). Our proposed method, which we refer to as FLOW, utilizes MCR2 as the objective of choice, hence resulting in representations that are both between-class discriminative and within-class compressible. 
+
 - MaskTune: Mitigating Spurious Correlations by Forcing to Explore. [[paper]](https://arxiv.org/abs/2210.00055) [[code]](https://github.com/aliasgharkhani/masktune)
   - Saeid Asgari Taghanaki, Aliasghar Khani, Fereshte Khani, Ali Gholami, Linh Tran, Ali Mahdavi-Amiri, Ghassan Hamarneh. *NeurIPS 2022*
   - Key Word: Input Masking; Robustness to Spurious Correlations.
   - <details><summary>Digest</summary> A fundamental challenge of over-parameterized deep learning models is learning meaningful data representations that yield good performance on a downstream task without over-fitting spurious input features. This work proposes MaskTune, a masking strategy that prevents over-reliance on spurious (or a limited number of) features. MaskTune forces the trained model to explore new features during a single epoch finetuning by masking previously discovered features. MaskTune, unlike earlier approaches for mitigating shortcut learning, does not require any supervision, such as annotating spurious features or labels for subgroup samples in a dataset. 
+
+- Domain Generalization -- A Causal Perspective. [[paper]](https://arxiv.org/abs/2209.15177)
+  - Paras Sheth, Raha Moraffah, K. Selçuk Candan, Adrienne Raglin, Huan Liu.
+  - Key Word: Domain Generalization; Causality; Survey.
+  - <details><summary>Digest</summary> We present a comprehensive survey on causal domain generalization models from the aspects of the problem and causal theories. Furthermore, this survey includes in-depth insights into publicly accessible datasets and benchmarks for domain generalization in various domains. Finally, we conclude the survey with insights and discussions on future research directions. Finally, we conclude the survey with insights and discussions on future research directions.
 
 - A Closer Look at Learned Optimization: Stability, Robustness, and Inductive Biases. [[paper]](https://arxiv.org/abs/2209.11208)
   - James Harrison, Luke Metz, Jascha Sohl-Dickstein. *NeurIPS 2022*
@@ -468,6 +478,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Robustness; No-reference Image Quality Assessment.
   - <details><summary>Digest</summary> No-reference image quality assessment (NR-IQA) aims to quantify how humans perceive visual distortions of digital images without access to their undistorted references. NR-IQA models are extensively studied in computational vision, and are widely used for performance evaluation and perceptual optimization of man-made vision systems. Here we make one of the first attempts to examine the perceptual robustness of NR-IQA models. Under a Lagrangian formulation, we identify insightful connections of the proposed perceptual attack to previous beautiful ideas in computer vision and machine learning. 
 
+- Understanding Adversarial Robustness Against On-manifold Adversarial Examples. [[paper]](https://arxiv.org/abs/2210.00430)
+  - Jiancong Xiao, Liusha Yang, Yanbo Fan, Jue Wang, Zhi-Quan Luo.
+  - Key Word: Adversarial Robustness; On-Manifold Adversarial Examples.
+  - <details><summary>Digest</summary> We revisit the off-manifold assumption and want to study a question: at what level is the poor performance of neural networks against adversarial attacks due to on-manifold adversarial examples? Since the true data manifold is unknown in practice, we consider two approximated on-manifold adversarial examples on both real and synthesis datasets. On real datasets, we show that on-manifold adversarial examples have greater attack rates than off-manifold adversarial examples on both standard-trained and adversarially-trained models. On synthetic datasets, theoretically, We prove that on-manifold adversarial examples are powerful, yet adversarial training focuses on off-manifold directions and ignores the on-manifold adversarial examples. 
+
+- Adaptive Weight Decay: On The Fly Weight Decay Tuning for Improving Robustness. [[paper]](https://arxiv.org/abs/2210.00094)
+  - Amin Ghiasi, Ali Shafahi, Reza Ardekani.
+  - Key Word: Weight Decay; Adversarial Robustness; Learning with Label Noise.
+  - <details><summary>Digest</summary> We introduce adaptive weight decay, which automatically tunes the hyper-parameter for weight decay during each training iteration. For classification problems, we propose changing the value of the weight decay hyper-parameter on the fly based on the strength of updates from the classification loss (i.e., gradient of cross-entropy), and the regularization loss (i.e., ℓ2-norm of the weights). We show that this simple modification can result in large improvements in adversarial robustness -- an area which suffers from robust overfitting -- without requiring extra data. 
+
 - Your Out-of-Distribution Detection Method is Not Robust! [[paper]](https://arxiv.org/abs/2209.15246) [[code]](https://github.com/rohban-lab/atd)
   - Mohammad Azizmalayeri, Arshia Soltani Moakhar, Arman Zarei, Reihaneh Zohrabi, Mohammad Taghi Manzuri, Mohammad Hossein Rohban. *NeurIPS 2022*
   - Key Word: Out-of-Distribution Detection; Adversarial Robustness.
@@ -768,6 +788,21 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Poisoning Attacks and Defenses
 
+- FLCert: Provably Secure Federated Learning against Poisoning Attacks. [[paper]](https://arxiv.org/abs/2210.00584)
+  - Xiaoyu Cao, Zaixi Zhang, Jinyuan Jia, Neil Zhenqiang Gong. *TIFS*
+  - Key Word: Poisoning Defenses; Federated Learning.
+  - <details><summary>Digest</summary> We aim to bridge the gap by proposing FLCert, an ensemble federated learning framework, that is provably secure against poisoning attacks with a bounded number of malicious clients. Our key idea is to divide the clients into groups, learn a global model for each group of clients using any existing federated learning method, and take a majority vote among the global models to classify a test input. 
+
+- Data Poisoning Attacks Against Multimodal Encoders. [[paper]](https://arxiv.org/abs/2209.15266)
+  - Ziqing Yang, Xinlei He, Zheng Li, Michael Backes, Mathias Humbert, Pascal Berrang, Yang Zhang.
+  - Key Word: Data Poisoning; Multimodal Learning.
+  - <details><summary>Digest</summary> We instead focus on answering two questions: (1) Is the linguistic modality also vulnerable to poisoning attacks? and (2) Which modality is most vulnerable? To answer the two questions, we conduct three types of poisoning attacks against CLIP, the most representative multimodal contrastive learning framework.
+
+- Augmentation Backdoors. [[paper]](https://arxiv.org/abs/2209.15139) [[code]](https://github.com/slkdfjslkjfd/augmentation_backdoors)
+  - Joseph Rance, Yiren Zhao, Ilia Shumailov, Robert Mullins.
+  - Key Word: Data Augmentation; Backdoor Attacks.
+  - <details><summary>Digest</summary> We present three backdoor attacks that can be covertly inserted into data augmentation. Our attacks each insert a backdoor using a different type of computer vision augmentation transform, covering simple image transforms, GAN-based augmentation, and composition-based augmentation. By inserting the backdoor using these augmentation transforms, we make our backdoors difficult to detect, while still supporting arbitrary backdoor functionality. 
+
 - RIBAC: Towards Robust and Imperceptible Backdoor Attack against Compact DNN. [[paper]](https://arxiv.org/abs/2208.10608) [[code]](https://github.com/huyvnphan/eccv2022-ribac)
   - Huy Phan, Cong Shi, Yi Xie, Tianfang Zhang, Zhuohang Li, Tianming Zhao, Jian Liu, Yan Wang, Yingying Chen, Bo Yuan. *ECCV 2022*
   - Key Word: Backdoor Attack; Model Compression.
@@ -845,10 +880,20 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Membership Inference Attacks Against Text-to-image Generation Models. [[paper]](https://arxiv.org/abs/2210.00968)
+  - Yixin Wu, Ning Yu, Zheng Li, Michael Backes, Yang Zhang.
+  - Key Word: Membership Inference Attacks; Text-to-Image Generation.
+  - <details><summary>Digest</summary> We perform the first privacy analysis of text-to-image generation models through the lens of membership inference. Specifically, we propose three key intuitions about membership information and design four attack methodologies accordingly. We conduct comprehensive evaluations on two mainstream text-to-image generation models including sequence-to-sequence modeling and diffusion-based modeling. 
+
 - UnGANable: Defending Against GAN-based Face Manipulation. [[paper]](https://arxiv.org/abs/2210.00957)
   - Zheng Li, Ning Yu, Ahmed Salem, Michael Backes, Mario Fritz, Yang Zhang. *USENIX Security 2023*
   - Key Word: GAN Inversion Attacks; Latent Code Manipulation.
   - <details><summary>Digest</summary> We propose the first defense system, namely UnGANable, against GAN-inversion-based face manipulation. In specific, UnGANable focuses on defending GAN inversion, an essential step for face manipulation. Its core technique is to search for alternative images (called cloaked images) around the original images (called target images) in image space. 
+
+- Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection. [[paper]](https://arxiv.org/abs/2210.00875) [[code]](https://github.com/thuyimingli/untargeted_backdoor_watermark)
+  - Yiming Li, Yang Bai, Yong Jiang, Yong Yang, Shu-Tao Xia, Bo Li. *NeurIPS 2022*
+  - Key Word: Data Watermarking; Defenses against Data Leakage.
+  - <details><summary>Digest</summary> We explore the untargeted backdoor watermarking scheme, where the abnormal model behaviors are not deterministic. Specifically, we introduce two dispersibilities and prove their correlation, based on which we design the untargeted backdoor watermark under both poisoned-label and clean-label settings. We also discuss how to use the proposed untargeted backdoor watermark for dataset ownership verification. 
 
 - No Free Lunch in "Privacy for Free: How does Dataset Condensation Help Privacy". [[paper]](https://arxiv.org/abs/2209.14987)
   - Nicholas Carlini, Vitaly Feldman, Milad Nasr.
@@ -1613,6 +1658,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Environmental Well-being
 
+- Green Learning: Introduction, Examples and Outlook. [[paper]](https://arxiv.org/abs/2210.00965)
+  - C.-C. Jay Kuo, Azad M. Madni.
+  - Key Word: Green Learning, Trust Learning.
+  - <details><summary>Digest</summary> Rapid advances in artificial intelligence (AI) in the last decade have largely been built upon the wide applications of deep learning (DL). However, the high carbon footprint yielded by larger and larger DL networks becomes a concern for sustainability. Furthermore, DL decision mechanism is somewhat obsecure and can only be verified by test data. Green learning (GL) has been proposed as an alternative paradigm to address these concerns. GL is characterized by low carbon footprints, small model sizes, low computational complexity, and logical transparency. It offers energy-effective solutions in cloud centers as well as mobile/edge devices. GL also provides a clear and logical decision-making process to gain people's trust. 
+
 - Measuring the Carbon Intensity of AI in Cloud Instances. [[paper]](https://arxiv.org/abs/2206.05229)
   - Jesse Dodge, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Emma Strubell, Alexandra Sasha Luccioni, Noah A. Smith, Nicole DeCario, Will Buchanan. *FAccT 2022*
   - Key Word: Carbon Emissions; Cloud.
@@ -1651,6 +1701,26 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Data Budgeting for Machine Learning. [[paper]](https://arxiv.org/abs/2210.00987)
+  - Xinyi Zhao, Weixin Liang, James Zou.
+  - Key Word: Benchmark; Data Budgeting.
+  - <details><summary>Digest</summary> We study the data budgeting problem and formulate it as two sub-problems: predicting (1) what is the saturating performance if given enough data, and (2) how many data points are needed to reach near the saturating performance. Different from traditional dataset-independent methods like PowerLaw, we proposed a learning method to solve data budgeting problems. 
+
+- I Speak, You Verify: Toward Trustworthy Neural Program Synthesis. [[paper]](https://arxiv.org/abs/2210.00848)
+  - Darren Key, Wen-Ding Li, Kevin Ellis.
+  - Key Word: Program Synthesis; Natural Language to Code; Large Language Models.
+  - <details><summary>Digest</summary> We develop an approach for improving the trustworthiness and overall accuracy of program synthesizers based on large language models for source code. Given a natural language description of a programming problem, our method samples both candidate programs as well as candidate predicates specifying how the program should behave. 
+
+- Causal Knowledge Transfer from Task Affinity. [[paper]](https://arxiv.org/abs/2210.00380)
+  - Ahmed Aloui, Juncheng Dong, Cat P. Le, Vahid Tarokh.
+  - Key Word: Causal Inference; Transfer Learning; Task Similarity.
+  - <details><summary>Digest</summary> We focus on transferring the causal knowledge acquired in prior experiments to new scenarios for which only limited data is available. To this end, we first observe that the absolute values of ITEs are invariant under the action of the symmetric group on the labels of treatments. Given this invariance, we propose a symmetrized task distance for calculating the similarity of a target scenario with those encountered before. The aforementioned task distance is then used to transfer causal knowledge from the closest of all the available previously learned tasks to the target scenario. 
+
+- SoK: On the Impossible Security of Very Large Foundation Models. [[paper]](https://arxiv.org/abs/2209.15259)
+  - El-Mahdi El-Mhamdi, Sadegh Farhadkhani, Rachid Guerraoui, Nirupam Gupta, Lê-Nguyên Hoang, Rafael Pinot, John Stephan.
+  - Key Word: Foundation Models; Security; Privacy.
+  - <details><summary>Digest</summary> We identify several key features of today's foundation model learning problem which, given the current understanding in adversarial machine learning, suggest incompatibility of high accuracy with both security and privacy. We begin by observing that high accuracy seems to require (1) very high-dimensional models and (2) huge amounts of data that can only be procured through user-generated datasets. Moreover, such data is fundamentally heterogeneous, as users generally have very specific (easily identifiable) data-generating habits. 
 
 - Totems: Physical Objects for Verifying Visual Integrity. [[paper]](https://arxiv.org/abs/2209.13032)
   - Jingwei Ma, Lucy Chai, Minyoung Huh, Tongzhou Wang, Ser-Nam Lim, Phillip Isola, Antonio Torralba. *ECCV 2022*
