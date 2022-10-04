@@ -81,6 +81,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- MaskTune: Mitigating Spurious Correlations by Forcing to Explore. [[paper]](https://arxiv.org/abs/2210.00055) [[code]](https://github.com/aliasgharkhani/masktune)
+  - Saeid Asgari Taghanaki, Aliasghar Khani, Fereshte Khani, Ali Gholami, Linh Tran, Ali Mahdavi-Amiri, Ghassan Hamarneh. *NeurIPS 2022*
+  - Key Word: Input Masking; Robustness to Spurious Correlations.
+  - <details><summary>Digest</summary> A fundamental challenge of over-parameterized deep learning models is learning meaningful data representations that yield good performance on a downstream task without over-fitting spurious input features. This work proposes MaskTune, a masking strategy that prevents over-reliance on spurious (or a limited number of) features. MaskTune forces the trained model to explore new features during a single epoch finetuning by masking previously discovered features. MaskTune, unlike earlier approaches for mitigating shortcut learning, does not require any supervision, such as annotating spurious features or labels for subgroup samples in a dataset. 
+
 - A Closer Look at Learned Optimization: Stability, Robustness, and Inductive Biases. [[paper]](https://arxiv.org/abs/2209.11208)
   - James Harrison, Luke Metz, Jascha Sohl-Dickstein. *NeurIPS 2022*
   - Key Word: Optimizer; Out-of-Distribution Generalization.
@@ -458,6 +463,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop. [[paper]](https://arxiv.org/abs/2210.00933)
+  - Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; No-reference Image Quality Assessment.
+  - <details><summary>Digest</summary> No-reference image quality assessment (NR-IQA) aims to quantify how humans perceive visual distortions of digital images without access to their undistorted references. NR-IQA models are extensively studied in computational vision, and are widely used for performance evaluation and perceptual optimization of man-made vision systems. Here we make one of the first attempts to examine the perceptual robustness of NR-IQA models. Under a Lagrangian formulation, we identify insightful connections of the proposed perceptual attack to previous beautiful ideas in computer vision and machine learning. 
+
+- Your Out-of-Distribution Detection Method is Not Robust! [[paper]](https://arxiv.org/abs/2209.15246) [[code]](https://github.com/rohban-lab/atd)
+  - Mohammad Azizmalayeri, Arshia Soltani Moakhar, Arman Zarei, Reihaneh Zohrabi, Mohammad Taghi Manzuri, Mohammad Hossein Rohban. *NeurIPS 2022*
+  - Key Word: Out-of-Distribution Detection; Adversarial Robustness.
+  - <details><summary>Digest</summary> We re-examine these defenses against an end-to-end PGD attack on in/out data with larger perturbation sizes, e.g. up to commonly used ϵ=8/255 for the CIFAR-10 dataset. Surprisingly, almost all of these defenses perform worse than a random detection under the adversarial setting.
+
 - A Survey on Physical Adversarial Attack in Computer Vision. [[paper]](https://arxiv.org/abs/2209.14262)
   - Donghua Wang, Wen Yao, Tingsong Jiang, Guijiang Tang, Xiaoqian Chen.
   - Key Word: Physical Adversarial Attacks; Survey.
@@ -829,6 +844,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- UnGANable: Defending Against GAN-based Face Manipulation. [[paper]](https://arxiv.org/abs/2210.00957)
+  - Zheng Li, Ning Yu, Ahmed Salem, Michael Backes, Mario Fritz, Yang Zhang. *USENIX Security 2023*
+  - Key Word: GAN Inversion Attacks; Latent Code Manipulation.
+  - <details><summary>Digest</summary> We propose the first defense system, namely UnGANable, against GAN-inversion-based face manipulation. In specific, UnGANable focuses on defending GAN inversion, an essential step for face manipulation. Its core technique is to search for alternative images (called cloaked images) around the original images (called target images) in image space. 
 
 - No Free Lunch in "Privacy for Free: How does Dataset Condensation Help Privacy". [[paper]](https://arxiv.org/abs/2209.14987)
   - Nicholas Carlini, Vitaly Feldman, Milad Nasr.
