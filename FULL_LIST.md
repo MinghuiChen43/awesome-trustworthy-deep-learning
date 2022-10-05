@@ -171,6 +171,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Corruption Robustness; Frequency.
   - <details><summary>Digest</summary> We present the Global Filter Network (GFNet), a conceptually simple yet computationally efficient architecture, that learns long-term spatial dependencies in the frequency domain with log-linear complexity.
 
+- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning. [[paper]](https://arxiv.org/abs/2106.15831)
+  - Anders Andreassen, Yasaman Bahri, Behnam Neyshabur, Rebecca Roelofs.
+  - Key Word: Out-of-Distribution Generalization; Fine-Tuning.
+  - <details><summary>Digest</summary> Although machine learning models typically experience a drop in performance on out-of-distribution data, accuracies on in- versus out-of-distribution data are widely observed to follow a single linear trend when evaluated across a testbed of models. Models that are more accurate on the out-of-distribution data relative to this baseline exhibit "effective robustness" and are exceedingly rare. Identifying such models, and understanding their properties, is key to improving out-of-distribution performance. We conduct a thorough empirical investigation of effective robustness during fine-tuning and surprisingly find that models pre-trained on larger datasets exhibit effective robustness during training that vanishes at convergence. We study how properties of the data influence effective robustness, and we show that it increases with the larger size, more diversity, and higher example difficulty of the dataset. 
+
 - Test-Time Adaptation to Distribution Shift by Confidence Maximization and Input Transformation. [[paper]](https://arxiv.org/abs/2106.14999)
   - Chaithanya Kumar Mummadi, Robin Hutmacher, Kilian Rambach, Evgeny Levinkov, Thomas Brox, Jan Hendrik Metzen.
   - Key Word: Corruption Robustness; Test-Time Adaptation.
