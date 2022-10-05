@@ -81,6 +81,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Tikhonov Regularization is Optimal Transport Robust under Martingale Constraints. [[paper]](https://arxiv.org/abs/2210.01413)
+  - Jiajin Li, Sirui Lin, Jose Blanchet, Viet Anh Nguyen. *NeurIPS 2022*
+  - Key Word: Optimal Transport; Distributionally Robust Optimization; Tikhonov Regularization.
+  - <details><summary>Digest</summary> Distributionally robust optimization has been shown to offer a principled way to regularize learning models. In this paper, we find that Tikhonov regularization is distributionally robust in an optimal transport sense (i.e., if an adversary chooses distributions in a suitable optimal transport neighborhood of the empirical measure), provided that suitable martingale constraints are also imposed. Further, we introduce a relaxation of the martingale constraints which not only provides a unified viewpoint to a class of existing robust methods but also leads to new regularization tools. 
+
+- Nuisances via Negativa: Adjusting for Spurious Correlations via Data Augmentation. [[paper]](https://arxiv.org/abs/2210.01302)
+  - Aahlad Puli, Nitish Joshi, He He, Rajesh Ranganath. 
+  - Key Word: Data Augmentation; Robustness to Spurious Correlations.
+  - <details><summary>Digest</summary> We develop an alternative way to produce robust models by data augmentation. These data augmentations corrupt semantic information to produce models that identify and adjust for where nuisances drive predictions. We study semantic corruptions in powering different robust-modeling methods for multiple out-of distribution (OOD) tasks like classifying waterbirds, natural language inference, and detecting Cardiomegaly in chest X-rays.
+
 - Federated Representation Learning via Maximal Coding Rate Reduction. [[paper]](https://arxiv.org/abs/2210.00299)
   - Juan Cervino, Navid NaderiAlizadeh, Alejandro Ribeiro.
   - Key Word: Personalized Federated Learning; Maximal Coding Rate Reduction.
@@ -473,6 +483,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Rethinking Lipschitz Neural Networks for Certified L-infinity Robustness. [[paper]](https://arxiv.org/abs/2210.01787)
+  - Bohang Zhang, Du Jiang, Di He, Liwei Wang. *NeurIPS 2022*
+  - Key Word: Certified L-infinity Robustness; Randomized Smoothing.
+  - <details><summary>Digest</summary> We derive two fundamental impossibility results that hold for any standard Lipschitz network: one for robust classification on finite datasets, and the other for Lipschitz function approximation. These results identify that networks built upon norm-bounded affine layers and Lipschitz activations intrinsically lose expressive power even in the two-dimensional case, and shed light on how recently proposed Lipschitz networks (e.g., GroupSort and ℓ∞-distance nets) bypass these impossibilities by leveraging order statistic functions.
+
 - Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop. [[paper]](https://arxiv.org/abs/2210.00933)
   - Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma. *NeurIPS 2022*
   - Key Word: Adversarial Robustness; No-reference Image Quality Assessment.
@@ -788,6 +803,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Poisoning Attacks and Defenses
 
+- Backdoor Attacks in the Supply Chain of Masked Image Modeling. [[paper]](https://arxiv.org/abs/2210.01632)
+  - Xinyue Shen, Xinlei He, Zheng Li, Yun Shen, Michael Backes, Yang Zhang.
+  - Key Word: Backdoor Attacks; Masked Image Modeling.
+  - <details><summary>Digest</summary> We are the first to systematically threat modeling on SSL in every phase of the model supply chain, i.e., pre-training, release, and downstream phases. Our evaluation shows that models built with MIM are vulnerable to existing backdoor attacks in release and downstream phases and are compromised by our proposed method in pre-training phase. For instance, on CIFAR10, the attack success rate can reach 99.62%, 96.48%, and 98.89% in the downstream phase, release phase, and pre-training phase, respectively. 
+
 - FLCert: Provably Secure Federated Learning against Poisoning Attacks. [[paper]](https://arxiv.org/abs/2210.00584)
   - Xiaoyu Cao, Zaixi Zhang, Jinyuan Jia, Neil Zhenqiang Gong. *TIFS*
   - Key Word: Poisoning Defenses; Federated Learning.
@@ -879,6 +899,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Data Leakage in Tabular Federated Learning. [[paper]](https://arxiv.org/abs/2210.01785)
+  - Mark Vero, Mislav Balunović, Dimitar I. Dimitrov, Martin Vechev.
+  - Key Word: Federated Learning; Data Leakage Attacks.
+  - <details><summary>Digest</summary> Compared to the NLP and image domains, reconstruction of tabular data poses several unique challenges: (i) categorical features introduce a significantly more difficult mixed discrete-continuous optimization problem, (ii) the mix of categorical and continuous features causes high variance in the final reconstructions, and (iii) structured data makes it difficult for the adversary to judge reconstruction quality. In this work, we tackle these challenges and propose the first comprehensive reconstruction attack on tabular data, called TabLeak. TabLeak is based on three key ingredients: (i) a softmax structural prior, implicitly converting the mixed discrete-continuous optimization problem into an easier fully continuous one, (ii) a way to reduce the variance of our reconstructions through a pooled ensembling scheme exploiting the structure of tabular data, and (iii) an entropy measure which can successfully assess reconstruction quality. 
+
+- Certified Data Removal in Sum-Product Networks. [[paper]](https://arxiv.org/abs/2210.01451)
+  - Alexander Becker, Thomas Liebig. *ICKG 2022*
+  - Key Word: Machine Unlearning; Sum-Product Networks.
+  - <details><summary>Digest</summary> Data protection regulations like the GDPR or the California Consumer Privacy Act give users more control over the data that is collected about them. Deleting the collected data is often insufficient to guarantee data privacy since it is often used to train machine learning models, which can expose information about the training data. Thus, a guarantee that a trained model does not expose information about its training data is additionally needed. In this paper, we present UnlearnSPN -- an algorithm that removes the influence of single data points from a trained sum-product network and thereby allows fulfilling data privacy requirements on demand.
 
 - Membership Inference Attacks Against Text-to-image Generation Models. [[paper]](https://arxiv.org/abs/2210.00968)
   - Yixin Wu, Ning Yu, Zheng Li, Michael Backes, Yang Zhang.
@@ -1231,6 +1261,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- MEDFAIR: Benchmarking Fairness for Medical Imaging. [[paper]](https://arxiv.org/abs/2210.01725) [[code]](https://github.com/ys-zong/medfair)
+  - Yongshuo Zong, Yongxin Yang, Timothy Hospedales.
+  - Key Word: Fairness; Medical Imaging.
+  - <details><summary>Digest</summary> We introduce MEDFAIR, a framework to benchmark the fairness of machine learning models for medical imaging. MEDFAIR covers eleven algorithms from various categories, nine datasets from different imaging modalities, and three model selection criteria. Through extensive experiments, we find that the under-studied issue of model selection criterion can have a significant impact on fairness outcomes; while in contrast, state-of-the-art bias mitigation algorithms do not significantly improve fairness outcomes over empirical risk minimization (ERM) in both in-distribution and out-of-distribution settings. 
 
 - A Survey of Fairness in Medical Image Analysis: Concepts, Algorithms, Evaluations, and Challenges. [[paper]](https://arxiv.org/abs/2209.13177)
   - Zikang Xu, Jun Li, Qingsong Yao, Han Li, Xin Shi, S. Kevin Zhou.
