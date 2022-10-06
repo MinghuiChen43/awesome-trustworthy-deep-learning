@@ -483,6 +483,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- On the Robustness of Deep Clustering Models: Adversarial Attacks and Defenses. [[paper]](https://arxiv.org/abs/2210.01940)
+  - Anshuman Chhabra, Ashwin Sekhari, Prasant Mohapatra. *NeurIPS 2022*
+  - Key Word: Deep Clustering; Adversarial Robustness.
+  - <details><summary>Digest</summary> While traditional clustering approaches have been analyzed from a robustness perspective, no prior work has investigated adversarial attacks and robustness for deep clustering models in a principled manner. To bridge this gap, we propose a blackbox attack using Generative Adversarial Networks (GANs) where the adversary does not know which deep clustering model is being used, but can query it for outputs. We analyze our attack against multiple state-of-the-art deep clustering models and real-world datasets, and find that it is highly successful. We then employ some natural unsupervised defense approaches, but find that these are unable to mitigate our attack.
+
+- Natural Color Fool: Towards Boosting Black-box Unrestricted Attacks. [[paper]](https://arxiv.org/abs/2210.02041) [[code]](https://github.com/ylhz/Natural-Color-Fool)
+  - Shengming Yuan, Qilong Zhang, Lianli Gao, Yaya Cheng, Jingkuan Song. *NeurIPS 2022*
+  - Key Word: Unrestricted Color Attacks.
+  - <details><summary>Digest</summary> Unrestricted color attacks, which manipulate semantically meaningful color of an image, have shown their stealthiness and success in fooling both human eyes and deep neural networks. However, current works usually sacrifice the flexibility of the uncontrolled setting to ensure the naturalness of adversarial examples. As a result, the black-box attack performance of these methods is limited. To boost transferability of adversarial examples without damaging image quality, we propose a novel Natural Color Fool (NCF) which is guided by realistic color distributions sampled from a publicly available dataset and optimized by our neighborhood search and initialization reset.
+
 - Rethinking Lipschitz Neural Networks for Certified L-infinity Robustness. [[paper]](https://arxiv.org/abs/2210.01787)
   - Bohang Zhang, Du Jiang, Di He, Liwei Wang. *NeurIPS 2022*
   - Key Word: Certified L-infinity Robustness; Randomized Smoothing.
@@ -1736,6 +1746,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- FedMT: Federated Learning with Mixed-type Labels. [[paper]](https://arxiv.org/abs/2210.02042)
+  - Qiong Zhang, Aline Talhouk, Gang Niu, Xiaoxiao Li.
+  - Key Word: Federated Learning; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We consider an important yet under-explored setting of FL, namely FL with mixed-type labels where different labeling criteria can be employed by various centers, leading to inter-center label space differences and challenging existing FL methods designed for the classical setting. To effectively and efficiently train models with mixed-type labels, we propose a theory-guided and model-agnostic approach that can make use of the underlying correspondence between those label spaces and can be easily combined with various FL methods such as FedAvg. 
 
 - Data Budgeting for Machine Learning. [[paper]](https://arxiv.org/abs/2210.00987)
   - Xinyi Zhao, Weixin Liang, James Zou.
