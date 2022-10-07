@@ -915,6 +915,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Fine-Tuning with Differential Privacy Necessitates an Additional Hyperparameter Search. [[paper]](https://arxiv.org/abs/2210.02156)
+  - Yannis Cattan, Christopher A. Choquette-Choo, Nicolas Papernot, Abhradeep Thakurta.
+  - Key Word: Fine-Tuning; Differential Privacy.
+  - <details><summary>Digest</summary> In this work, we identify an oversight of existing approaches for differentially private fine tuning. They do not tailor the fine-tuning approach to the specifics of learning with privacy. Our main result is to show how carefully selecting the layers being fine-tuned in the pretrained neural network allows us to establish new state-of-the-art tradeoffs between privacy and accuracy. 
+
 - Data Leakage in Tabular Federated Learning. [[paper]](https://arxiv.org/abs/2210.01785)
   - Mark Vero, Mislav Balunović, Dimitar I. Dimitrov, Martin Vechev.
   - Key Word: Federated Learning; Data Leakage Attacks.
