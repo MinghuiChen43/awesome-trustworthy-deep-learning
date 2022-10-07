@@ -483,6 +483,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models. [[paper]](https://arxiv.org/abs/2210.02447) [[code]](https://github.com/kdd-hkust/Adv-ST)
+  - Fan Liu, Hao Liu, Wenzhao Jiang. *NeurIPS 2022*
+  - Key Word: Spatiotemporal Traffic Forecasting; Adversarial Attack.
+  - <details><summary>Digest</summary> We investigate the vulnerability of spatiotemporal traffic forecasting models and propose a practical adversarial spatiotemporal attack framework. Specifically, instead of simultaneously attacking all geo-distributed data sources, an iterative gradient-guided node saliency method is proposed to identify the time-dependent set of victim nodes. Furthermore, we devise a spatiotemporal gradient descent based scheme to generate real-valued adversarial traffic states under a perturbation constraint. Meanwhile, we theoretically demonstrate the worst performance bound of adversarial traffic forecasting attacks.
+
 - On the Robustness of Deep Clustering Models: Adversarial Attacks and Defenses. [[paper]](https://arxiv.org/abs/2210.01940)
   - Anshuman Chhabra, Ashwin Sekhari, Prasant Mohapatra. *NeurIPS 2022*
   - Key Word: Deep Clustering; Adversarial Robustness.
