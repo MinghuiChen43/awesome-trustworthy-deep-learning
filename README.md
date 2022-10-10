@@ -483,6 +483,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Towards Out-of-Distribution Adversarial Robustness. [[paper]](https://arxiv.org/abs/2210.03150)
+  - Adam Ibrahim, Charles Guille-Escuret, Ioannis Mitliagkas, Irina Rish, David Krueger, Pouya Bashivan.
+  - Key Word: Adversarial Robustness; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> Adversarial robustness continues to be a major challenge for deep learning. A core issue is that robustness to one type of attack often fails to transfer to other attacks. While prior work establishes a theoretical trade-off in robustness against different Lp norms, we show that there is potential for improvement against many commonly used attacks by adopting a domain generalisation approach. Concretely, we treat each type of attack as a domain, and apply the Risk Extrapolation method (REx), which promotes similar levels of robustness against all training attacks. 
+
+- Pre-trained Adversarial Perturbations. [[paper]](https://arxiv.org/abs/2210.03372)
+  - Yuanhao Ban, Yinpeng Dong. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; Self-Supervision.
+  - <details><summary>Digest</summary> We delve into the robustness of pre-trained models by introducing Pre-trained Adversarial Perturbations (PAPs), which are universal perturbations crafted for the pre-trained models to maintain the effectiveness when attacking fine-tuned ones without any knowledge of the downstream tasks. To this end, we propose a Low-Level Layer Lifting Attack (L4A) method to generate effective PAPs by lifting the neuron activations of low-level layers of the pre-trained models. 
+
 - Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models. [[paper]](https://arxiv.org/abs/2210.02447) [[code]](https://github.com/kdd-hkust/Adv-ST)
   - Fan Liu, Hao Liu, Wenzhao Jiang. *NeurIPS 2022*
   - Key Word: Spatiotemporal Traffic Forecasting; Adversarial Attack.
@@ -795,6 +805,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Amrith Setlur, Benjamin Eysenbach, Virginia Smith, Sergey Levine. **
   - Key Word: Adversarial Training; Entropy Maximization.
   - <details><summary>Digest</summary> We propose a complementary regularization strategy that reduces confidence on self-generated examples. The method, which we call RCAD (Reducing Confidence along Adversarial Directions), aims to reduce confidence on out-of-distribution examples lying along directions adversarially chosen to increase training loss. In contrast to adversarial training, RCAD does not try to robustify the model to output the original label, but rather regularizes it to have reduced confidence on points generated using much larger perturbations than in conventional adversarial training.
+
+- An Analytic Framework for Robust Training of Artificial Neural Networks. [[paper]](https://arxiv.org/abs/2205.13502)
+  - Ramin Barati, Reza Safabakhsh, Mohammad Rahmati.
+  - Key Word: Adversarial Robustness; Geometric and Analytic Modeling.
+  - <details><summary>Digest</summary> Many studies investigate the phenomenon by proposing a simplified model of how adversarial examples occur and validate it by predicting some aspect of the phenomenon. While these studies cover many different characteristics of the adversarial examples, they have not reached a holistic approach to the geometric and analytic modeling of the phenomenon. This paper propose a formal framework to study the phenomenon in learning theory and make use of complex analysis and holomorphicity to offer a robust learning rule for artificial neural networks. 
 
 - Diffusion Models for Adversarial Purification. [[paper]](https://arxiv.org/abs/2205.07460) [[code]](https://diffpure.github.io/)
   - Weili Nie, Brandon Guo, Yujia Huang, Chaowei Xiao, Arash Vahdat, Anima Anandkumar. *ICML 2022*

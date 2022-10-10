@@ -956,6 +956,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Neural Achitecture Search; Adversarial Robustness.
   - <details><summary>Digest</summary> In this work, we take an architectural perspective and investigate the patterns of network architectures that are resilient to adversarial attacks. We discover a family of robust architectures (RobNets).  
 
+- Adversarial Machine Learning Phases of Matter. [[paper]](https://arxiv.org/abs/1910.13453)
+  - Si Jiang, Sirui Lu, Dong-Ling Deng.
+  - Key Word: Adversarial Robustness; Condensed Matter Physics.
+  - <details><summary>Digest</summary> We find that some important underlying physical principles and symmetries remain to be adequately captured for classifiers with even near-perfect performance. This explains why adversarial perturbations exist for fooling these classifiers. In addition, we find that, after adversarial training, the classifiers will become more consistent with physical laws and consequently more robust to certain kinds of adversarial perturbations. Our results provide valuable guidance for both theoretical and experimental future studies on applying machine learning techniques to condensed matter physics.
+
 - Confidence-Calibrated Adversarial Training: Generalizing to Unseen Attacks. [[paper]](https://arxiv.org/abs/1910.06259)
   - David Stutz, Matthias Hein, Bernt Schiele. *ICML 2020*
   - Key Word: Adversarial Training; Out-of-Distribution Detection.
