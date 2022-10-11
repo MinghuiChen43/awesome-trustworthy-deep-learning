@@ -81,6 +81,26 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Revisiting adapters with adversarial training. [[paper]](https://arxiv.org/abs/2210.04886)
+  - Sylvestre-Alvise Rebuffi, Francesco Croce, Sven Gowal. 
+  - Key Word: Adversarial Training; Adapters.
+  - <details><summary>Digest</summary> We improve upon the top-1 accuracy of a non-adversarially trained ViT-B16 model by +1.12% on ImageNet (reaching 83.76% top-1 accuracy). Second, and more importantly, we show that training with adapters enables model soups through linear combinations of the clean and adversarial tokens. These model soups, which we call adversarial model soups, allow us to trade-off between clean and robust accuracy without sacrificing efficiency. Finally, we show that we can easily adapt the resulting models in the face of distribution shifts. 
+
+- FLamby: Datasets and Benchmarks for Cross-Silo Federated Learning in Realistic Healthcare Settings. [[paper]](https://arxiv.org/abs/2210.04620)
+  - Jean Ogier du Terrail, Samy-Safwan Ayed, Edwige Cyffers, Felix Grimberg, Chaoyang He, Regis Loeb, Paul Mangold, Tanguy Marchand, Othmane Marfoq, Erum Mushtaq, Boris Muzellec, Constantin Philippenko, Santiago Silva, Maria Teleńczuk, Shadi Albarqouni, Salman Avestimehr, Aurélien Bellet, Aymeric Dieuleveut, Martin Jaggi, Sai Praneeth Karimireddy, Marco Lorenzi, Giovanni Neglia, Marc Tommasi, Mathieu Andreux. *NeurIPS 2022*
+  - Key Word: Federated Learning; Healthcare; Benchmarks.
+  - <details><summary>Digest</summary> We propose a novel cross-silo dataset suite focused on healthcare, FLamby (Federated Learning AMple Benchmark of Your cross-silo strategies), to bridge the gap between theory and practice of cross-silo FL. FLamby encompasses 7 healthcare datasets with natural splits, covering multiple tasks, modalities, and data volumes, each accompanied with baseline training code. 
+
+- Coresets for Wasserstein Distributionally Robust Optimization Problems. [[paper]](https://arxiv.org/abs/2210.04260)
+  - Ruomin Huang, Jiawei Huang, Wenjie Liu, Hu Ding. *NeurIPS 2022*
+  - Key Word: Coresets; Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> We introduce a unified framework to construct the ϵ-coreset for the general WDRO problems. Though it is challenging to obtain a conventional coreset for WDRO due to the uncertainty issue of ambiguous data, we show that we can compute a ''dual coreset'' by using the strong duality property of WDRO.
+
+- Attention Diversification for Domain Generalization. [[paper]](https://arxiv.org/abs/2210.04206) [[code]](https://github.com/hikvision-research/DomainGeneralization)
+  - Rang Meng, Xianfeng Li, Weijie Chen, Shicai Yang, Jie Song, Xinchao Wang, Lei Zhang, Mingli Song, Di Xie, Shiliang Pu. *ECCV 2022*
+  - Key Word: Domain Generalization; Attention Diversification.
+  - <details><summary>Digest</summary> We find the devils lie in the fact that models trained on different domains merely bias to different domain-specific features yet overlook diverse task-related features. Under this guidance, a novel Attention Diversification framework is proposed, in which Intra-Model and Inter-Model Attention Diversification Regularization are collaborated to reassign appropriate attention to diverse task-related features. 
+
 - Tikhonov Regularization is Optimal Transport Robust under Martingale Constraints. [[paper]](https://arxiv.org/abs/2210.01413)
   - Jiajin Li, Sirui Lin, Jose Blanchet, Viet Anh Nguyen. *NeurIPS 2022*
   - Key Word: Optimal Transport; Distributionally Robust Optimization; Tikhonov Regularization.
@@ -482,6 +502,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints. [[paper]](https://arxiv.org/abs/2210.03895)
+  - Yinpeng Dong, Shouwei Ruan, Hang Su, Caixin Kang, Xingxing Wei, Jun Zhu. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; Robustness to 3D Variations; Novel View Synthesis; Neural Rendering.
+  - <details><summary>Digest</summary> We propose a novel method called ViewFool to find adversarial viewpoints that mislead visual recognition models. By encoding real-world objects as neural radiance fields (NeRF), ViewFool characterizes a distribution of diverse adversarial viewpoints under an entropic regularizer, which helps to handle the fluctuations of the real camera pose and mitigate the reality gap between the real objects and their neural representations. 
 
 - Towards Out-of-Distribution Adversarial Robustness. [[paper]](https://arxiv.org/abs/2210.03150)
   - Adam Ibrahim, Charles Guille-Escuret, Ioannis Mitliagkas, Irina Rish, David Krueger, Pouya Bashivan.
@@ -929,6 +954,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Differentially Private Deep Learning with ModelMix. [[paper]](https://arxiv.org/abs/2210.03843)
+  - Hanshen Xiao, Jun Wan, Srinivas Devadas. 
+  - Key Word: Differential Privacy; Clipped Stochastic Gradient Descent.
+  - <details><summary>Digest</summary> We provide rigorous analyses for both the utility guarantees and privacy amplification of ModelMix. In particular, we present a formal study on the effect of gradient clipping in DP-SGD, which provides theoretical instruction on how hyper-parameters should be selected. We also introduce a refined gradient clipping method, which can further sharpen the privacy loss in private learning when combined with ModelMix.
 
 - Fine-Tuning with Differential Privacy Necessitates an Additional Hyperparameter Search. [[paper]](https://arxiv.org/abs/2210.02156)
   - Yannis Cattan, Christopher A. Choquette-Choo, Nicolas Papernot, Abhradeep Thakurta.
@@ -1454,6 +1484,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- "Help Me Help the AI": Understanding How Explainability Can Support Human-AI Interaction. [[paper]](https://arxiv.org/abs/2210.03735)
+  - Sunnie S. Y. Kim, Elizabeth Anne Watkins, Olga Russakovsky, Ruth Fong, Andrés Monroy-Hernández.
+  - Key Word: Explainable AI; Human-AI Interaction.
+  - <details><summary>Digest</summary> Despite the proliferation of explainable AI (XAI) methods, little is understood about end-users' explainability needs. This gap is critical, because end-users may have needs that XAI methods should but don't yet support. To address this gap and contribute to understanding how explainability can support human-AI interaction, we conducted a study of a real-world AI application via interviews with 20 end-users of Merlin, a bird-identification app.
+
 - WeightedSHAP: analyzing and improving Shapley based feature attributions. [[paper]](https://arxiv.org/abs/2209.13429)
   - Yongchan Kwon, James Zou.
   - Key Word: Model Interpretation; Shapley Value.
@@ -1771,6 +1806,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- DeepMed: Semiparametric Causal Mediation Analysis with Debiased Deep Learning. [[paper]](https://arxiv.org/abs/2210.04389)
+  - Siqi Xu, Lin Liu, Zhonghua Liu. *NeurIPS 2022*
+  - Key Word: Causal Mediation Analysis; Fairness.
+  - <details><summary>Digest</summary> Causal mediation analysis can unpack the black box of causality and is therefore a powerful tool for disentangling causal pathways in biomedical and social sciences, and also for evaluating machine learning fairness. To reduce bias for estimating Natural Direct and Indirect Effects in mediation analysis, we propose a new method called DeepMed that uses deep neural networks (DNNs) to cross-fit the infinite-dimensional nuisance functions in the efficient influence functions. 
 
 - FedMT: Federated Learning with Mixed-type Labels. [[paper]](https://arxiv.org/abs/2210.02042)
   - Qiong Zhang, Aline Talhouk, Gang Niu, Xiaoxiao Li.
