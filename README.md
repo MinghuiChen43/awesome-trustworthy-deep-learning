@@ -503,6 +503,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- What Can the Neural Tangent Kernel Tell Us About Adversarial Robustness? [[paper]](https://arxiv.org/abs/2210.05577)
+  - Nikolaos Tsilivis, Julia Kempe. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We show how NTKs allow to generate adversarial examples in a ``training-free'' fashion, and demonstrate that they transfer to fool their finite-width neural net counterparts in the ''lazy'' regime. We leverage this connection to provide an alternative view on robust and non-robust features, which have been suggested to underlie the adversarial brittleness of neural nets. Specifically, we define and study features induced by the eigendecomposition of the kernel to better understand the role of robust and non-robust features, the reliance on both for standard classification and the robustness-accuracy trade-off. 
+
 - ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints. [[paper]](https://arxiv.org/abs/2210.03895)
   - Yinpeng Dong, Shouwei Ruan, Hang Su, Caixin Kang, Xingxing Wei, Jun Zhu. *NeurIPS 2022*
   - Key Word: Adversarial Robustness; Robustness to 3D Variations; Novel View Synthesis; Neural Rendering.
