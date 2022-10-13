@@ -503,6 +503,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity. [[paper]](https://arxiv.org/abs/2210.06077) [[code]](https://github.com/andrew-cullen/doublebubble)
+  - Andrew C. Cullen, Paul Montague, Shijie Liu, Sarah M. Erfani, Benjamin I.P. Rubinstein. *NeurIPS 2022*
+  - Key Word: Certified Adversarial Robustness; Randomised Smoothing.
+  - <details><summary>Digest</summary> We demonstrate how today's "optimal" certificates can be improved by exploiting both the transitivity of certifications, and the geometry of the input space, giving rise to what we term Geometrically-Informed Certified Robustness. By considering the smallest distance to points on the boundary of a set of certifications this approach improves certifications for more than 80% of Tiny-Imagenet instances, yielding an on average 5% increase in the associated certification. 
+
+- Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation. [[paper]](https://arxiv.org/abs/2210.05968) [[code]](https://github.com/SCLBD/Transfer_attack_RAP)
+  - Zeyu Qin, Yanbo Fan, Yi Liu, Li Shen, Yong Zhang, Jue Wang, Baoyuan Wu. *NeurIPS 2022*
+  - Key Word: Adversarial Transferability.
+  - <details><summary>Digest</summary> We propose a novel attack method, dubbed reverse adversarial perturbation (RAP). Specifically, instead of minimizing the loss of a single adversarial point, we advocate seeking adversarial example located at a region with unified low loss value, by injecting the worst-case perturbation (the reverse adversarial perturbation) for each step of the optimization procedure. The adversarial attack with RAP is formulated as a min-max bi-level optimization problem. 
+
 - What Can the Neural Tangent Kernel Tell Us About Adversarial Robustness? [[paper]](https://arxiv.org/abs/2210.05577)
   - Nikolaos Tsilivis, Julia Kempe. *NeurIPS 2022*
   - Key Word: Adversarial Robustness; Neural Tangent Kernel.
@@ -862,6 +872,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We methodically revisit the role of noise and clipping in single-step adversarial training. Contrary to previous intuitions, we find that using a stronger noise around the clean sample combined with not clipping is highly effective in avoiding CO for large perturbation radii. Based on these observations, we then propose Noise-FGSM (N-FGSM) that, while providing the benefits of single-step adversarial training, does not suffer from CO. Empirical analyses on a large suite of experiments show that N-FGSM is able to match or surpass the performance of previous single-step methods while achieving a 3× speed-up.
 
 ## Poisoning Attacks and Defenses
+
+- Trap and Replace: Defending Backdoor Attacks by Trapping Them into an Easy-to-Replace Subnetwork. [[paper]](https://arxiv.org/abs/2210.06428)
+  - Haotao Wang, Junyuan Hong, Aston Zhang, Jiayu Zhou, Zhangyang Wang. *NeurIPS 2022*
+  - Key Word: Backdoor Defenses.
+  - <details><summary>Digest</summary> We propose a brand-new backdoor defense strategy, which makes it much easier to remove the harmful influence of backdoor samples from the model. Our defense strategy, Trap and Replace, consists of two stages. In the first stage, we bait and trap the backdoors in a small and easy-to-replace subnetwork.  In the second stage, we replace the poisoned light-weighted classification head with an untainted one, by re-training it from scratch only on a small holdout dataset with clean samples, while fixing the stem network. 
+
+- Few-shot Backdoor Attacks via Neural Tangent Kernels. [[paper]](https://arxiv.org/abs/2210.05929)
+  - Jonathan Hayase, Sewoong Oh.
+  - Key Word: Backdoor Attacks; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> In a backdoor attack, an attacker injects corrupted examples into the training set. The goal of the attacker is to cause the final trained model to predict the attacker's desired target label when a predefined trigger is added to test inputs. Central to these attacks is the trade-off between the success rate of the attack and the number of corrupted training examples injected. We pose this attack as a novel bilevel optimization problem: construct strong poison examples that maximize the attack success rate of the trained model. We use neural tangent kernels to approximate the training dynamics of the model being attacked and automatically learn strong poison examples. 
 
 - Backdoor Attacks in the Supply Chain of Masked Image Modeling. [[paper]](https://arxiv.org/abs/2210.01632)
   - Xinyue Shen, Xinlei He, Zheng Li, Yun Shen, Michael Backes, Yang Zhang.
