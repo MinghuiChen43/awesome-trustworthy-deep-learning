@@ -81,6 +81,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Improving Out-of-Distribution Generalization by Adversarial Training with Structured Priors. [[paper]](https://arxiv.org/abs/2210.06807) [[code]](https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD)
+  - Qixun Wang, Yifei Wang, Hong Zhu, Yisen Wang. *NeurIPS 2022*
+  - Key Word: Out-of-Distribution Generalization; Adversarial Training.
+  - <details><summary>Digest</summary> We empirically show that sample-wise AT has limited improvement on OOD performance. Specifically, we find that AT can only maintain performance at smaller scales of perturbation while Universal AT (UAT) is more robust to larger-scale perturbations. This provides us with clues that adversarial perturbations with universal (low dimensional) structures can enhance the robustness against large data distribution shifts that are common in OOD scenarios. Inspired by this, we propose two AT variants with low-rank structures to train OOD-robust models.
+
 - Revisiting adapters with adversarial training. [[paper]](https://arxiv.org/abs/2210.04886)
   - Sylvestre-Alvise Rebuffi, Francesco Croce, Sven Gowal. 
   - Key Word: Adversarial Training; Adapters.
@@ -502,6 +507,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- Adv-Attribute: Inconspicuous and Transferable Adversarial Attack on Face Recognition. [[paper]](https://arxiv.org/abs/2210.06871)
+  - Shuai Jia, Bangjie Yin, Taiping Yao, Shouhong Ding, Chunhua Shen, Xiaokang Yang, Chao Ma. *NeurIPS 2022*
+  - Key Word: Adversarial Transferability; Face Recognition.
+  - <details><summary>Digest</summary> In this work, instead of performing perturbations on the low-level pixels, we propose to generate attacks through perturbing on the high-level semantics to improve attack transferability. Specifically, a unified flexible framework, Adversarial Attributes (Adv-Attribute), is designed to generate inconspicuous and transferable attacks on face recognition, which crafts the adversarial noise and adds it into different attributes based on the guidance of the difference in face recognition features from the target. 
 
 - Double Bubble, Toil and Trouble: Enhancing Certified Robustness through Transitivity. [[paper]](https://arxiv.org/abs/2210.06077) [[code]](https://github.com/andrew-cullen/doublebubble)
   - Andrew C. Cullen, Paul Montague, Shijie Liu, Sarah M. Erfani, Benjamin I.P. Rubinstein. *NeurIPS 2022*
@@ -1351,6 +1361,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- FARE: Provably Fair Representation Learning. [[paper]](https://arxiv.org/abs/2210.07213)
+  - Nikola Jovanović, Mislav Balunović, Dimitar I. Dimitrov, Martin Vechev.
+  - Key Word: Provable Fairness; Group Fairness.
+  - <details><summary>Digest</summary> Recent work has shown that prior methods achieve worse accuracy-fairness tradeoffs than originally suggested by their results. This dictates the need for FRL methods that provide provable upper bounds on unfairness of any downstream classifier, a challenge yet unsolved. In this work we address this challenge and propose Fairness with Restricted Encoders (FARE), the first FRL method with provable fairness guarantees. Our key insight is that restricting the representation space of the encoder enables us to derive suitable fairness guarantees, while allowing empirical accuracy-fairness tradeoffs comparable to prior work.
+
+- Fairness via Adversarial Attribute Neighbourhood Robust Learning. [[paper]](https://arxiv.org/abs/2210.06630)
+  - Qi Qi, Shervin Ardeshir, Yi Xu, Tianbao Yang.
+  - Key Word: Fairness; Robust Loss; Invariant Learning.
+  - <details><summary>Digest</summary> To enhance the model performs uniformly well in different sensitive attributes, we propose a principled Robust Adversarial Attribute Neighbourhood (RAAN) loss to debias the classification head and promote a fairer representation distribution across different sensitive attribute groups. The key idea of RAAN is to mitigate the differences of biased representations between different sensitive attribute groups by assigning each sample an adversarial robust weight, which is defined on the representations of adversarial attribute neighbors, i.e, the samples from different protected groups. 
 
 - MEDFAIR: Benchmarking Fairness for Medical Imaging. [[paper]](https://arxiv.org/abs/2210.01725) [[code]](https://github.com/ys-zong/medfair)
   - Yongshuo Zong, Yongxin Yang, Timothy Hospedales.
