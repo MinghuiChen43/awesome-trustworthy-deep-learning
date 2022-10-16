@@ -1443,6 +1443,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Gradient Inversion Attacks.
   - <details><summary>Digest</summary> In this paper we show that sharing parameter gradients is by no means secure: By exploiting a cosine similarity loss along with optimization methods from adversarial attacks, we are able to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks.  
 
+- Forgetting Outside the Box: Scrubbing Deep Networks of Information Accessible from Input-Output Observations. [[paper]](https://arxiv.org/abs/2003.02960) [[code]](https://github.com/AdityaGolatkar/SelectiveForgetting)
+  - Aditya Golatkar, Alessandro Achille, Stefano Soatto. *ECCV 2020*
+  - Key Word: Machine Unlearning; Neural Tangent Kernel; Information Theory.
+  - <details><summary>Digest</summary> We introduce a new bound on how much information can be extracted per query about the forgotten cohort from a black-box network for which only the input-output behavior is observed. The proposed forgetting procedure has a deterministic part derived from the differential equations of a linearized version of the model, and a stochastic part that ensures information destruction by adding noise tailored to the geometry of the loss landscape. We exploit the connections between the activation and weight dynamics of a DNN inspired by Neural Tangent Kernels to compute the information in the activations.
+
 - Anonymizing Data for Privacy-Preserving Federated Learning. [[paper]](https://arxiv.org/abs/2002.09096)
   - Olivia Choudhury, Aris Gkoulalas-Divanis, Theodoros Salonidis, Issa Sylla, Yoonyoung Park, Grace Hsu, Amar Das. *ECAI 2020*
   - Key Word: Data Anonymization; Federated Learning.
