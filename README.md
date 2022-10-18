@@ -81,6 +81,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- ZooD: Exploiting Model Zoo for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2210.09236)
+  - Qishi Dong, Awais Muhammad, Fengwei Zhou, Chuanlong Xie, Tianyang Hu, Yongxin Yang, Sung-Ho Bae, Zhenguo Li. *NeurIPS 2022*
+  - Key Word: Out-of-Distribution Generalization; Pre-Training.
+  - <details><summary>Digest</summary> We propose ZooD, a paradigm for PTMs ranking and ensemble with feature selection. Our proposed metric ranks PTMs by quantifying inter-class discriminability and inter-domain stability of the features extracted by the PTMs in a leave-one-domain-out cross-validation manner. The top-K ranked models are then aggregated for the target OoD task. To avoid accumulating noise induced by model ensemble, we propose an efficient variational EM algorithm to select informative features. We evaluate our paradigm on a diverse model zoo consisting of 35 models for various OoD tasks.
+
 - Improving Out-of-Distribution Generalization by Adversarial Training with Structured Priors. [[paper]](https://arxiv.org/abs/2210.06807) [[code]](https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD)
   - Qixun Wang, Yifei Wang, Hong Zhu, Yisen Wang. *NeurIPS 2022*
   - Key Word: Out-of-Distribution Generalization; Adversarial Training.
@@ -351,7 +356,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Invariant Learning; Causal Semantic Generative Model.
   - <details><summary>Digest</summary> While current domain generalization methods usually focus on enforcing certain invariance properties across different domains by new loss function designs, we propose a balanced mini-batch sampling strategy to reduce the domain-specific spurious correlations in the observed training distributions. More specifically, we propose a two-phased method that 1) identifies the source of spurious correlations, and 2) builds balanced mini-batches free from spurious correlations by matching on the identified source.
 
-- GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing. 
+- GSmooth: Certified Robustness against Semantic Transformations via Generalized Randomized Smoothing. [[paper]](https://arxiv.org/abs/2206.04310)
   - Zhongkai Hao, Chengyang Ying, Yinpeng Dong, Hang Su, Jun Zhu, Jian Song. *ICML 2022*
   - Key Word: Certified Semantic Robustness.
   - <details><summary>Digest</summary> Existing methods are insufficient or unable to provably defend against semantic transformations, especially those without closed-form expressions (such as defocus blur and pixelate), which are more common in practice and often unrestricted. To fill up this gap, we propose generalized randomized smoothing (GSmooth), a unified theoretical framework for certifying robustness against general semantic transformations via a novel dimension augmentation strategy. Under the GSmooth framework, we present a scalable algorithm that uses a surrogate image-to-image network to approximate the complex transformation.
@@ -465,6 +470,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Mitchell Wortsman, Gabriel Ilharco, Samir Yitzhak Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S. Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, Ludwig Schmidt. *ICML 2022*
   - Key Word: Wegiht Averaging; Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> We show that averaging the weights of multiple models fine-tuned with different hyperparameter configurations often improves accuracy and robustness. Unlike a conventional ensemble, we may average many models without incurring any additional inference or memory costs -- we call the results "model soups." When fine-tuning large pre-trained models such as CLIP, ALIGN, and a ViT-G pre-trained on JFT, our soup recipe provides significant improvements over the best model in a hyperparameter sweep on ImageNet.
+
+- Continual Feature Selection: Spurious Features in Continual Learning. [[paper]](https://arxiv.org/abs/2203.01012)
+  - Timothée Lesort.
+  - Key Word: Spurious Correlations; Continual Learning.
+  - <details><summary>Digest</summary> This paper studies spurious features' influence on continual learning algorithms. We show that continual learning algorithms solve tasks by selecting features that are not generalizable. Our experiments highlight that continual learning algorithms face two related problems: (1) spurious features and (2) local spurious features. The first one is due to a covariate shift between training and testing data, while the second is due to the limited access to data at each training step. We study (1) through a consistent set of continual learning experiments varying spurious correlation amount and data distribution support. We show that (2) is a major cause of performance decrease in continual learning along with catastrophic forgetting. 
 
 - Uncertainty Modeling for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2202.03958) [[code]](https://github.com/lixiaotong97/dsu)
   - Xiaotong Li, Yongxing Dai, Yixiao Ge, Jun Liu, Ying Shan, Ling-Yu Duan. *ICLR 2022*
@@ -883,6 +893,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Poisoning Attacks and Defenses
 
+- Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning. [[paper]](https://arxiv.org/abs/2210.09305) [[code]](https://github.com/YuxinWenRick/thinking-two-moves-ahead)
+  - Yuxin Wen, Jonas Geiping, Liam Fowl, Hossein Souri, Rama Chellappa, Micah Goldblum, Tom Goldstein.
+  - Key Word: Backdoor Attacks; Federated Learning.
+  - <details><summary>Digest</summary> Existing attacks do not account for future behaviors of other users, and thus require many sequential updates and their effects are quickly erased. We propose an attack that anticipates and accounts for the entire federated learning pipeline, including behaviors of other clients, and ensures that backdoors are effective quickly and persist even after multiple rounds of community updates. 
+
+- Marksman Backdoor: Backdoor Attacks with Arbitrary Target Class. [[paper]](https://arxiv.org/abs/2210.09194)
+  - Khoa D. Doan, Yingjie Lao, Ping Li. *NeurIPS 2022*
+  - Key Word: Backdoor Attacks.
+  - <details><summary>Digest</summary> This paper exploits a novel backdoor attack with a much more powerful payload, denoted as Marksman, where the adversary can arbitrarily choose which target class the model will misclassify given any input during inference. To achieve this goal, we propose to represent the trigger function as a class-conditional generative model and to inject the backdoor in a constrained optimization framework, where the trigger function learns to generate an optimal trigger pattern to attack any target class at will while simultaneously embedding this generative backdoor into the trained model. 
+
 - Trap and Replace: Defending Backdoor Attacks by Trapping Them into an Easy-to-Replace Subnetwork. [[paper]](https://arxiv.org/abs/2210.06428)
   - Haotao Wang, Junyuan Hong, Aston Zhang, Jiayu Zhou, Zhangyang Wang. *NeurIPS 2022*
   - Key Word: Backdoor Defenses.
@@ -989,6 +1009,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- A General Framework for Auditing Differentially Private Machine Learning. [[paper]](https://arxiv.org/abs/2210.08643)
+  - Fred Lu, Joseph Munoz, Maya Fuchs, Tyler LeBlond, Elliott Zaresky-Williams, Edward Raff, Francis Ferraro, Brian Testa. *NeurIPS 2022*
+  - Key Word: Auditing Differential Privacy.
+  - <details><summary>Digest</summary> We present a framework to statistically audit the privacy guarantee conferred by a differentially private machine learner in practice. While previous works have taken steps toward evaluating privacy loss through poisoning attacks or membership inference, they have been tailored to specific models or have demonstrated low statistical power. Our work develops a general methodology to empirically evaluate the privacy of differentially private machine learning implementations, combining improved privacy search and verification methods with a toolkit of influence-based poisoning attacks. 
 
 - Differentially Private Deep Learning with ModelMix. [[paper]](https://arxiv.org/abs/2210.03843)
   - Hanshen Xiao, Jun Wan, Srinivas Devadas. 
