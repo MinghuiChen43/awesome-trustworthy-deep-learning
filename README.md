@@ -518,6 +518,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Scaling Adversarial Training to Large Perturbation Bounds. [[paper]](https://arxiv.org/abs/2210.09852) [[code]](https://github.com/val-iisc/OAAT)
+  - Sravanti Addepalli, Samyak Jain, Gaurang Sriramanan, R.Venkatesh Babu. *ECCV 2022*
+  - Key Word: Adversarial Training.
+  - <details><summary>Digest</summary> We aim to achieve adversarial robustness within larger bounds, against perturbations that may be perceptible, but do not change human (or Oracle) prediction. The presence of images that flip Oracle predictions and those that do not makes this a challenging setting for adversarial robustness. We discuss the ideal goals of an adversarial defense algorithm beyond perceptual limits, and further highlight the shortcomings of naively extending existing training algorithms to higher perturbation bounds. In order to overcome these shortcomings, we propose a novel defense, Oracle-Aligned Adversarial Training (OA-AT), to align the predictions of the network with that of an Oracle during adversarial training. 
+
 - Adv-Attribute: Inconspicuous and Transferable Adversarial Attack on Face Recognition. [[paper]](https://arxiv.org/abs/2210.06871)
   - Shuai Jia, Bangjie Yin, Taiping Yao, Shouhong Ding, Chunhua Shen, Xiaokang Yang, Chao Ma. *NeurIPS 2022*
   - Key Word: Adversarial Transferability; Face Recognition.
@@ -892,6 +897,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We methodically revisit the role of noise and clipping in single-step adversarial training. Contrary to previous intuitions, we find that using a stronger noise around the clean sample combined with not clipping is highly effective in avoiding CO for large perturbation radii. Based on these observations, we then propose Noise-FGSM (N-FGSM) that, while providing the benefits of single-step adversarial training, does not suffer from CO. Empirical analyses on a large suite of experiments show that N-FGSM is able to match or surpass the performance of previous single-step methods while achieving a 3× speed-up.
 
 ## Poisoning Attacks and Defenses
+
+- Not All Poisons are Created Equal: Robust Training against Data Poisoning. [[paper]](https://arxiv.org/abs/2210.09671) [[code]](https://github.com/YuYang0901/EPIC)
+  - Yu Yang, Tian Yu Liu, Baharan Mirzasoleiman. *ICML 2022*
+  - Key Word: Poisoning Defenses.
+  - <details><summary>Digest</summary> We propose an efficient defense mechanism that significantly reduces the success rate of various data poisoning attacks, and provides theoretical guarantees for the performance of the model. Targeted attacks work by adding bounded perturbations to a randomly selected subset of training data to match the targets' gradient or representation. We show that: (i) under bounded perturbations, only a number of poisons can be optimized to have a gradient that is close enough to that of the target and make the attack successful; (ii) such effective poisons move away from their original class and get isolated in the gradient space; (iii) dropping examples in low-density gradient regions during training can successfully eliminate the effective poisons, and guarantees similar training dynamics to that of training on full data. 
+
+- Towards Fair Classification against Poisoning Attacks. [[paper]](https://arxiv.org/abs/2210.09503)
+  - Han Xu, Xiaorui Liu, Yuxuan Wan, Jiliang Tang. 
+  - Key Word: Poisoning Attacks; Fairness.
+  - <details><summary>Digest</summary> We study the poisoning scenario where the attacker can insert a small fraction of samples into training data, with arbitrary sensitive attributes as well as other predictive features. We demonstrate that the fairly trained classifiers can be greatly vulnerable to such poisoning attacks, with much worse accuracy & fairness trade-off, even when we apply some of the most effective defenses (originally proposed to defend traditional classification tasks).
 
 - Thinking Two Moves Ahead: Anticipating Other Users Improves Backdoor Attacks in Federated Learning. [[paper]](https://arxiv.org/abs/2210.09305) [[code]](https://github.com/YuxinWenRick/thinking-two-moves-ahead)
   - Yuxin Wen, Jonas Geiping, Liam Fowl, Hossein Souri, Rama Chellappa, Micah Goldblum, Tom Goldstein.
