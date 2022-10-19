@@ -1877,6 +1877,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
 
+- Scaling up Trustless DNN Inference with Zero-Knowledge Proofs. [[paper]](https://arxiv.org/abs/2210.08674)
+  - Daniel Kang, Tatsunori Hashimoto, Ion Stoica, Yi Sun.
+  - Key Word: Zero-Knowledge Proof; Inference Validation.
+  - <details><summary>Digest</summary> We present the first practical ImageNet-scale method to verify ML model inference non-interactively, i.e., after the inference has been done. To do so, we leverage recent developments in ZK-SNARKs (zero-knowledge succinct non-interactive argument of knowledge), a form of zero-knowledge proofs. ZK-SNARKs allows us to verify ML model execution non-interactively and with only standard cryptographic hardness assumptions. 
+
 - DeepMed: Semiparametric Causal Mediation Analysis with Debiased Deep Learning. [[paper]](https://arxiv.org/abs/2210.04389)
   - Siqi Xu, Lin Liu, Zhonghua Liu. *NeurIPS 2022*
   - Key Word: Causal Mediation Analysis; Fairness.
