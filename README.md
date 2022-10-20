@@ -518,6 +518,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- On the Adversarial Robustness of Mixture of Experts. [[paper]](https://arxiv.org/abs/2210.10253)
+  - Joan Puigcerver, Rodolphe Jenatton, Carlos Riquelme, Pranjal Awasthi, Srinadh Bhojanapalli.
+  - Key Word: Adversarial Robustness; Mixture of Experts.
+  - <details><summary>Digest</summary> Recently, Bubeck and Sellke proved a lower bound on the Lipschitz constant of functions that fit the training data in terms of their number of parameters. This raises an interesting open question, do -- and can -- functions with more parameters, but not necessarily more computational cost, have better robustness? We study this question for sparse Mixture of Expert models (MoEs), that make it possible to scale up the model size for a roughly constant computational cost. We theoretically show that under certain conditions on the routing and the structure of the data, MoEs can have significantly smaller Lipschitz constants than their dense counterparts. 
+
 - Scaling Adversarial Training to Large Perturbation Bounds. [[paper]](https://arxiv.org/abs/2210.09852) [[code]](https://github.com/val-iisc/OAAT)
   - Sravanti Addepalli, Samyak Jain, Gaurang Sriramanan, R.Venkatesh Babu. *ECCV 2022*
   - Key Word: Adversarial Training.
