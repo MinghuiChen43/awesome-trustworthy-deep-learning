@@ -81,6 +81,21 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Surgical Fine-Tuning Improves Adaptation to Distribution Shifts. [[paper]](https://arxiv.org/abs/2210.11466)
+  - Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, Chelsea Finn.
+  - Key Word: Fine-Tuning; Distribution Shift.
+  - <details><summary>Digest</summary> A common approach to transfer learning under distribution shift is to fine-tune the last few layers of a pre-trained model, preserving learned features while also adapting to the new task. This paper shows that in such settings, selectively fine-tuning a subset of layers (which we term surgical fine-tuning) matches or outperforms commonly used fine-tuning approaches. Moreover, the type of distribution shift influences which subset is more effective to tune: for example, for image corruptions, fine-tuning only the first few layers works best. 
+
+- On Feature Learning in the Presence of Spurious Correlations. [[paper]](https://arxiv.org/abs/2210.11369) [[code]](https://github.com/izmailovpavel/spurious_feature_learning)
+  - Pavel Izmailov, Polina Kirichenko, Nate Gruver, Andrew Gordon Wilson. *NeurIPS 2022*
+  - Key Word: Spurious Correlations; Feature Learning.
+  - <details><summary>Digest</summary> We evaluate the amount of information about the core (non-spurious) features that can be decoded from the representations learned by standard empirical risk minimization (ERM) and specialized group robustness training. Following recent work on Deep Feature Reweighting (DFR), we evaluate the feature representations by re-training the last layer of the model on a held-out set where the spurious correlation is broken. 
+
+- Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise. [[paper]](https://arxiv.org/abs/2210.11075)
+  - Haotian Ye, James Zou, Linjun Zhang.
+  - Key Word: Feature Learning; Spurious Correlations.
+  - <details><summary>Digest</summary> We find that core features are only learned well when they are less noisy than spurious features, which is not necessarily true in practice. We provide both theories and experiments to support this finding and to illustrate the importance of feature noise. Moreover, we propose an algorithm called Freeze then Train (FTT), that first freezes certain salient features and then trains the rest of the features using ERM.
+
 - ZooD: Exploiting Model Zoo for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2210.09236)
   - Qishi Dong, Awais Muhammad, Fengwei Zhou, Chuanlong Xie, Tianyang Hu, Yongxin Yang, Sung-Ho Bae, Zhenguo Li. *NeurIPS 2022*
   - Key Word: Out-of-Distribution Generalization; Pre-Training.
@@ -902,6 +917,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We methodically revisit the role of noise and clipping in single-step adversarial training. Contrary to previous intuitions, we find that using a stronger noise around the clean sample combined with not clipping is highly effective in avoiding CO for large perturbation radii. Based on these observations, we then propose Noise-FGSM (N-FGSM) that, while providing the benefits of single-step adversarial training, does not suffer from CO. Empirical analyses on a large suite of experiments show that N-FGSM is able to match or surpass the performance of previous single-step methods while achieving a 3× speed-up.
 
 ## Poisoning Attacks and Defenses
+
+- FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information. [[paper]](https://arxiv.org/abs/2210.10936)
+  - Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong. *S&P 2023*
+  - Key Word: Federated Learning; Poisoning Defenses.
+  - <details><summary>Digest</summary> We propose FedRecover, which can recover an accurate global model from poisoning attacks with small cost for the clients. Our key idea is that the server estimates the clients' model updates instead of asking the clients to compute and communicate them during the recovery process. In particular, the server stores the global models and clients' model updates in each round, when training the poisoned global model. During the recovery process, the server estimates a client's model update in each round using its stored historical information. 
 
 - Not All Poisons are Created Equal: Robust Training against Data Poisoning. [[paper]](https://arxiv.org/abs/2210.09671) [[code]](https://github.com/YuYang0901/EPIC)
   - Yu Yang, Tian Yu Liu, Baharan Mirzasoleiman. *ICML 2022*
