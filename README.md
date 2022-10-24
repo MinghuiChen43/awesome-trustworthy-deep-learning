@@ -533,6 +533,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Evolution of Neural Tangent Kernels under Benign and Adversarial Training. [[paper]](https://arxiv.org/abs/2210.12030) [[code]](https://github.com/yolky/adversarial_ntk_evolution)
+  - Noel Loo, Ramin Hasani, Alexander Amini, Daniela Rus. *NeurIPS 2022*
+  - Key Word: Adversarial Training; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We perform an empirical study of the evolution of the empirical NTK under standard and adversarial training, aiming to disambiguate the effect of adversarial training on kernel learning and lazy training. We find under adversarial training, the empirical NTK rapidly converges to a different kernel (and feature map) than standard training. 
+
+- LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness. [[paper]](https://arxiv.org/abs/2210.11620) [[code]](https://github.com/AI-secure/Layerwise-Orthogonal-Training)
+  - Xiaojun Xu, Linyi Li, Bo Li. *NeurIPS 2022*
+  - Key Word: Certified Adversarial Robustness.
+  - <details><summary>Digest</summary> We propose a layer-wise orthogonal training method (LOT) to effectively train 1-Lipschitz convolution layers via parametrizing an orthogonal matrix with an unconstrained matrix. We then efficiently compute the inverse square root of a convolution kernel by transforming the input domain to the Fourier frequency domain. On the other hand, as existing works show that semi-supervised training helps improve empirical robustness, we aim to bridge the gap and prove that semi-supervised learning also improves the certified robustness of Lipschitz-bounded models. 
+
 - On the Adversarial Robustness of Mixture of Experts. [[paper]](https://arxiv.org/abs/2210.10253)
   - Joan Puigcerver, Rodolphe Jenatton, Carlos Riquelme, Pranjal Awasthi, Srinadh Bhojanapalli.
   - Key Word: Adversarial Robustness; Mixture of Experts.
@@ -1593,6 +1603,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Diffusion Visual Counterfactual Explanations. [[paper]](https://arxiv.org/abs/2210.11841) [[code]](https://github.com/valentyn1boreiko/DVCEs)
+  - Maximilian Augustin, Valentyn Boreiko, Francesco Croce, Matthias Hein. *NeurIPS 2022*
+  - Key Word: Counterfactual Explainability; Diffusion Models.
+  - <details><summary>Digest</summary> Current approaches for the generation of VCEs are restricted to adversarially robust models and often contain non-realistic artefacts, or are limited to image classification problems with few classes. In this paper, we overcome this by generating Diffusion Visual Counterfactual Explanations (DVCEs) for arbitrary ImageNet classifiers via a diffusion process.
 
 - "Help Me Help the AI": Understanding How Explainability Can Support Human-AI Interaction. [[paper]](https://arxiv.org/abs/2210.03735)
   - Sunnie S. Y. Kim, Elizabeth Anne Watkins, Olga Russakovsky, Ruth Fong, Andrés Monroy-Hernández.
