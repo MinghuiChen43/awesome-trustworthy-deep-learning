@@ -81,6 +81,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Functional Indirection Neural Estimator for Better Out-of-distribution Generalization. [[paper]](https://arxiv.org/abs/2210.12739)
+  - Kha Pham, Hung Le, Man Ngo, Truyen Tran. *NeurIPS 2022*
+  - Key Word: Out-of-Distribution Generalization; Functional Indirection Neural Estimator.
+  - <details><summary>Digest</summary> We hypothesize that OOD generalization may be achieved by performing analogy-making and indirection in the functional space instead of the data space as in current methods. To realize this, we design FINE (Functional Indirection Neural Estimator), a neural framework that learns to compose functions that map data input to output on-the-fly. FINE consists of a backbone network and a trainable semantic memory of basis weight matrices. 
+
+- Just Mix Once: Worst-group Generalization by Group Interpolation. [[paper]](https://arxiv.org/abs/2210.12195)
+  - Giorgio Giannone, Serhii Havrylov, Jordan Massiah, Emine Yilmaz, Yunlong Jiao. 
+  - Key Word: Out-of-Distribution Generalization; Data Augmentation; Mixup; Group Robustness.
+  - <details><summary>Digest</summary> A recent line of work leverages self-supervision and oversampling to improve generalization on minority groups without group annotation. We propose to unify and generalize these approaches using a class-conditional variant of mixup tailored for worst-group generalization. Our approach, Just Mix Once (JM1), interpolates samples during learning, augmenting the training distribution with a continuous mixture of groups. JM1 is domain agnostic and computationally efficient, can be used with any level of group annotation, and performs on par or better than the state-of-the-art on worst-group generalization. 
+
 - Surgical Fine-Tuning Improves Adaptation to Distribution Shifts. [[paper]](https://arxiv.org/abs/2210.11466)
   - Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, Chelsea Finn.
   - Key Word: Fine-Tuning; Distribution Shift.
@@ -533,6 +543,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Chaos Theory and Adversarial Robustness. [[paper]](https://arxiv.org/abs/2210.13235)
+  - Jonathan S. Kent. 
+  - Key Word: Adversarial Robustness; Chaos Theory.
+  - <details><summary>Digest</summary> Neural Networks, being susceptible to adversarial attacks, should face a strict level of scrutiny before being deployed in critical or adversarial applications. This paper uses ideas from Chaos Theory to explain, analyze, and quantify the degree to which Neural Networks are susceptible to or robust against adversarial attacks. Our results show that susceptibility to attack grows significantly with the depth of the model, which has significant safety implications for the design of Neural Networks for production environments. We also demonstrate how to quickly and easily approximate the certified robustness radii for extremely large models, which until now has been computationally infeasible to calculate directly, as well as show a clear relationship between our new susceptibility metric and post-attack accuracy.
+
+- Nash Equilibria and Pitfalls of Adversarial Training in Adversarial Robustness Games. [[paper]](https://arxiv.org/abs/2210.12606)
+  - Maria-Florina Balcan, Rattana Pukdee, Pradeep Ravikumar, Hongyang Zhang. 
+  - Key Word: Adversarial Training; Game Theory.
+  - <details><summary>Digest</summary> Adversarial training is a standard technique for training adversarially robust models. In this paper, we study adversarial training as an alternating best-response strategy in a 2-player zero-sum game. We prove that even in a simple scenario of a linear classifier and a statistical model that abstracts robust vs. non-robust features, the alternating best response strategy of such game may not converge. On the other hand, a unique pure Nash equilibrium of the game exists and is provably robust. We support our theoretical results with experiments, showing the non-convergence of adversarial training and the robustness of Nash equilibrium.
+
 - Evolution of Neural Tangent Kernels under Benign and Adversarial Training. [[paper]](https://arxiv.org/abs/2210.12030) [[code]](https://github.com/yolky/adversarial_ntk_evolution)
   - Noel Loo, Ramin Hasani, Alexander Amini, Daniela Rus. *NeurIPS 2022*
   - Key Word: Adversarial Training; Neural Tangent Kernel.
@@ -927,6 +947,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We methodically revisit the role of noise and clipping in single-step adversarial training. Contrary to previous intuitions, we find that using a stronger noise around the clean sample combined with not clipping is highly effective in avoiding CO for large perturbation radii. Based on these observations, we then propose Noise-FGSM (N-FGSM) that, while providing the benefits of single-step adversarial training, does not suffer from CO. Empirical analyses on a large suite of experiments show that N-FGSM is able to match or surpass the performance of previous single-step methods while achieving a 3× speed-up.
 
 ## Poisoning Attacks and Defenses
+
+- FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated Learning. [[paper]](https://arxiv.org/abs/2210.12873)
+  - Kaiyuan Zhang, Guanhong Tao, Qiuling Xu, Siyuan Cheng, Shengwei An, Yingqi Liu, Shiwei Feng, Guangyu Shen, Pin-Yu Chen, Shiqing Ma, Xiangyu Zhang.
+  - Key Word: Backdoor Defenses; Federated Learning.
+  - <details><summary>Digest</summary> We theoretically analyze the connection among cross-entropy loss, attack success rate, and clean accuracy in this setting. Moreover, we propose a trigger reverse engineering based defense and show that our method can achieve robustness improvement with guarantee (i.e., reducing the attack success rate) without affecting benign accuracy. 
 
 - FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information. [[paper]](https://arxiv.org/abs/2210.10936)
   - Xiaoyu Cao, Jinyuan Jia, Zaixi Zhang, Neil Zhenqiang Gong. *S&P 2023*
@@ -1603,6 +1628,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Efficient Dataset Distillation Using Random Feature Approximation. [[paper]](https://arxiv.org/abs/2210.12067) [[code]](https://github.com/yolky/RFAD)
+  - Noel Loo, Ramin Hasani, Alexander Amini, Daniela Rus. *NeurIPS 2022*
+  - Key Word: Dataset Distillation; Interpretability; Privacy; Neural Network Gaussian Process; Neural Tangent Kernel; Random Feature.
+  - <details><summary>Digest</summary> We propose a novel algorithm that uses a random feature approximation (RFA) of the Neural Network Gaussian Process (NNGP) kernel, which reduces the kernel matrix computation to O(|S|). Our algorithm provides at least a 100-fold speedup over KIP and can run on a single GPU. Our new method, termed an RFA Distillation (RFAD), performs competitively with KIP and other dataset condensation algorithms in accuracy over a range of large-scale datasets, both in kernel regression and finite-width network training. We demonstrate the effectiveness of our approach on tasks involving model interpretability and privacy preservation.
 
 - Diffusion Visual Counterfactual Explanations. [[paper]](https://arxiv.org/abs/2210.11841) [[code]](https://github.com/valentyn1boreiko/DVCEs)
   - Maximilian Augustin, Valentyn Boreiko, Francesco Croce, Matthias Hein. *NeurIPS 2022*
