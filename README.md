@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Hindering Adversarial Attacks with Implicit Neural Representations. [[paper]](https://arxiv.org/abs/2210.13982)
+  - Andrei A. Rusu, Dan A. Calian, Sven Gowal, Raia Hadsell.
+  - Key Word: Adversarial Attacks; Implicit Neural Representations.
+  - <details><summary>Digest</summary> We introduce the Lossy Implicit Network Activation Coding (LINAC) defence, an input transformation which successfully hinders several common adversarial attacks on CIFAR-10 classifiers for perturbations up to ϵ=8/255 in L∞ norm and ϵ=0.5 in L2 norm. Implicit neural representations are used to approximately encode pixel colour intensities in 2D images such that classifiers trained on transformed data appear to have robustness to small perturbations without adversarial training or large drops in performance.
+
 - Chaos Theory and Adversarial Robustness. [[paper]](https://arxiv.org/abs/2210.13235)
   - Jonathan S. Kent. 
   - Key Word: Adversarial Robustness; Chaos Theory.
@@ -1084,6 +1089,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Analyzing Privacy Leakage in Machine Learning via Multiple Hypothesis Testing: A Lesson From Fano. [[paper]](https://arxiv.org/abs/2210.13662)
+  - Chuan Guo, Alexandre Sablayrolles, Maziar Sanjabi.
+  - Key Word: Differential Privacy; Reconstruction Attacks; Fano’s Inequality.
+  - <details><summary>Digest</summary> We study data reconstruction attacks for discrete data and analyze it under the framework of multiple hypothesis testing. We utilize different variants of the celebrated Fano's inequality to derive upper bounds on the inferential power of a data reconstruction adversary when the model is trained differentially privately. Importantly, we show that if the underlying private data takes values from a set of size M, then the target privacy parameter ϵ can be O(logM) before the adversary gains significant inferential power.
+
+- On the Robustness of Dataset Inference. [[paper]](https://arxiv.org/abs/2210.13631)
+  - Sebastian Szyller, Rui Zhang, Jian Liu, N. Asokan.
+  - Key Word: Dataset Inference; Data Ownership Verification.
+  - <details><summary>Digest</summary> A fingerprinting technique introduced at ICLR '21, Dataset Inference (DI), has been shown to offer better robustness and efficiency than prior methods. The authors of DI provided a correctness proof for linear (suspect) models. However, in the same setting, we prove that DI suffers from high false positives (FPs) -- it can incorrectly identify an independent model trained with non-overlapping data from the same distribution as stolen. We further prove that DI also triggers FPs in realistic, non-linear suspect models. 
 
 - A General Framework for Auditing Differentially Private Machine Learning. [[paper]](https://arxiv.org/abs/2210.08643)
   - Fred Lu, Joseph Munoz, Maya Fuchs, Tyler LeBlond, Elliott Zaresky-Williams, Edward Raff, Francis Ferraro, Brian Testa. *NeurIPS 2022*
