@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Accelerating Certified Robustness Training via Knowledge Transfer. [[paper]](https://arxiv.org/abs/2210.14283)
+  - Pratik Vaishnavi, Kevin Eykholt, Amir Rahmati. *NeurIPS 2022*
+  - Key Word: Certified Adversarial Robustness; Transfer Learning.
+  - <details><summary>Digest</summary> We propose Certified Robustness Transfer (CRT), a general-purpose framework for reducing the computational overhead of any certifiably robust training method through knowledge transfer. Given a robust teacher, our framework uses a novel training loss to transfer the teacher's robustness to the student. We provide theoretical and empirical validation of CRT. 
+
 - Hindering Adversarial Attacks with Implicit Neural Representations. [[paper]](https://arxiv.org/abs/2210.13982)
   - Andrei A. Rusu, Dan A. Calian, Sven Gowal, Raia Hadsell.
   - Key Word: Adversarial Attacks; Implicit Neural Representations.
