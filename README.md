@@ -91,11 +91,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Data Augmentation; Mixup; Group Robustness.
   - <details><summary>Digest</summary> A recent line of work leverages self-supervision and oversampling to improve generalization on minority groups without group annotation. We propose to unify and generalize these approaches using a class-conditional variant of mixup tailored for worst-group generalization. Our approach, Just Mix Once (JM1), interpolates samples during learning, augmenting the training distribution with a continuous mixture of groups. JM1 is domain agnostic and computationally efficient, can be used with any level of group annotation, and performs on par or better than the state-of-the-art on worst-group generalization. 
 
-- Surgical Fine-Tuning Improves Adaptation to Distribution Shifts. [[paper]](https://arxiv.org/abs/2210.11466)
-  - Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, Chelsea Finn.
-  - Key Word: Fine-Tuning; Distribution Shift.
-  - <details><summary>Digest</summary> A common approach to transfer learning under distribution shift is to fine-tune the last few layers of a pre-trained model, preserving learned features while also adapting to the new task. This paper shows that in such settings, selectively fine-tuning a subset of layers (which we term surgical fine-tuning) matches or outperforms commonly used fine-tuning approaches. Moreover, the type of distribution shift influences which subset is more effective to tune: for example, for image corruptions, fine-tuning only the first few layers works best. 
-
 - On Feature Learning in the Presence of Spurious Correlations. [[paper]](https://arxiv.org/abs/2210.11369) [[code]](https://github.com/izmailovpavel/spurious_feature_learning)
   - Pavel Izmailov, Polina Kirichenko, Nate Gruver, Andrew Gordon Wilson. *NeurIPS 2022*
   - Key Word: Spurious Correlations; Feature Learning.
@@ -1991,6 +1986,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Surgical Fine-Tuning Improves Adaptation to Distribution Shifts. [[paper]](https://arxiv.org/abs/2210.11466)
+  - Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, Chelsea Finn.
+  - Key Word: Fine-Tuning; Distribution Shift.
+  - <details><summary>Digest</summary> A common approach to transfer learning under distribution shift is to fine-tune the last few layers of a pre-trained model, preserving learned features while also adapting to the new task. This paper shows that in such settings, selectively fine-tuning a subset of layers (which we term surgical fine-tuning) matches or outperforms commonly used fine-tuning approaches. Moreover, the type of distribution shift influences which subset is more effective to tune: for example, for image corruptions, fine-tuning only the first few layers works best. 
 
 - Scaling up Trustless DNN Inference with Zero-Knowledge Proofs. [[paper]](https://arxiv.org/abs/2210.08674)
   - Daniel Kang, Tatsunori Hashimoto, Ion Stoica, Yi Sun.
