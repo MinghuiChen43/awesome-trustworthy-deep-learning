@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Efficient and Effective Augmentation Strategy for Adversarial Training. [[paper]](https://arxiv.org/abs/2210.15318) [[code]](https://github.com/val-iisc/DAJAT)
+  - Sravanti Addepalli, Samyak Jain, R.Venkatesh Babu. *NeurIPS 2022*
+  - Key Word: Adversarial Training; Data Augmentation.
+  - <details><summary>Digest</summary> We first explain this contrasting behavior by viewing augmentation during training as a problem of domain generalization, and further propose Diverse Augmentation-based Joint Adversarial Training (DAJAT) to use data augmentations effectively in adversarial training. We aim to handle the conflicting goals of enhancing the diversity of the training dataset and training with data that is close to the test distribution by using a combination of simple and complex augmentations with separate batch normalization layers during training. 
+
 - Accelerating Certified Robustness Training via Knowledge Transfer. [[paper]](https://arxiv.org/abs/2210.14283)
   - Pratik Vaishnavi, Kevin Eykholt, Amir Rahmati. *NeurIPS 2022*
   - Key Word: Certified Adversarial Robustness; Transfer Learning.
