@@ -271,6 +271,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Predicting Out-of-Distribution Generalization; Frequency Analysis.
   - <details><summary>Digest</summary> There still is no clear understanding of the conditions on OOD data and model properties that are required to observe effective robustness. We approach this issue by conducting a comprehensive empirical study of diverse approaches that are known to impact OOD robustness on a broad range of natural and synthetic distribution shifts of CIFAR-10 and ImageNet. In particular, we view the "effective robustness puzzle" through a Fourier lens and ask how spectral properties of both models and OOD data influence the corresponding effective robustness.
 
+- Predicting is not Understanding: Recognizing and Addressing Underspecification in Machine Learning. [[paper]](https://arxiv.org/abs/2207.02598)
+  - Damien Teney, Maxime Peyrard, Ehsan Abbasnejad. *ECCV 2022*
+  - Key Word: Out-of-Distribution Generalization; Underspecification; Ensembles; Feature Diversity.
+  - <details><summary>Digest</summary> We formalize the concept of underspecification and propose a method to identify and partially address it. We train multiple models with an independence constraint that forces them to implement different functions. They discover predictive features that are otherwise ignored by standard empirical risk minimization (ERM), which we then distill into a global model with superior OOD performance. Importantly, we constrain the models to align with the data manifold to ensure that they discover meaningful features. We demonstrate the method on multiple datasets in computer vision (collages, WILDS-Camelyon17, GQA) and discuss general implications of underspecification. Most notably, in-domain performance cannot serve for OOD model selection without additional assumptions.
+
 - Neural Networks and the Chomsky Hierarchy. [[paper]](https://arxiv.org/abs/2207.02098) [[code]](https://github.com/deepmind/neural_networks_chomsky_hierarchy)
   - Grégoire Delétang, Anian Ruoss, Jordi Grau-Moya, Tim Genewein, Li Kevin Wenliang, Elliot Catt, Marcus Hutter, Shane Legg, Pedro A. Ortega.
   - Key Word: Chomsky Hierarchy; Out-of-Distribution Generalization;
