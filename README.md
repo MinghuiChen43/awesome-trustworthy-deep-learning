@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Universal Adversarial Directions. [[paper]](https://arxiv.org/abs/2210.15997)
+  - Ching Lam Choi, Farzan Farnia.
+  - Key Word: Universal Adversarial Perturbations.
+  - <details><summary>Digest</summary> We study the transferability of UAPs by analyzing equilibrium in the universal adversarial example game between the classifier and UAP adversary players. We show that under mild assumptions the universal adversarial example game lacks a pure Nash equilibrium, indicating UAPs' suboptimal transferability across DNN classifiers. To address this issue, we propose Universal Adversarial Directions (UADs) which only fix a universal direction for adversarial perturbations and allow the perturbations' magnitude to be chosen freely across samples. 
+
 - Efficient and Effective Augmentation Strategy for Adversarial Training. [[paper]](https://arxiv.org/abs/2210.15318) [[code]](https://github.com/val-iisc/DAJAT)
   - Sravanti Addepalli, Samyak Jain, R.Venkatesh Babu. *NeurIPS 2022*
   - Key Word: Adversarial Training; Data Augmentation.
