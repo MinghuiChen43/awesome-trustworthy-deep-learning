@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- FI-ODE: Certified and Robust Forward Invariance in Neural ODEs. [[paper]](https://arxiv.org/abs/2210.16940) [[code]](https://github.com/yjhuangcd/FI-ODE)
+  - Yujia Huang, Ivan Dario Jimenez Rodriguez, Huan Zhang, Yuanyuan Shi, Yisong Yue.
+  - Key Word: Certified Adversarial Robustness; Neural Ordinary Differential Equations.
+  - <details><summary>Digest</summary> We study how to certifiably enforce forward invariance properties in neural ODEs. Forward invariance implies that the hidden states of the ODE will stay in a ``good'' region, and a robust version would hold even under adversarial perturbations to the input. Such properties can be used to certify desirable behaviors such as adversarial robustness (the hidden states stay in the region that generates accurate classification even under input perturbations) and safety in continuous control (the system never leaves some safe set). 
+
 - Universal Adversarial Directions. [[paper]](https://arxiv.org/abs/2210.15997)
   - Ching Lam Choi, Farzan Farnia.
   - Key Word: Universal Adversarial Perturbations.
@@ -1104,6 +1109,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Machine Unlearning of Federated Clusters. [[paper]](https://arxiv.org/abs/2210.16424)
+  - Chao Pan, Jin Sima, Saurav Prakash, Vishal Rana, Olgica Milenkovic.
+  - Key Word: Machine Unlearning; Federated Learning.
+  - <details><summary>Digest</summary> This work proposes the first known unlearning mechanism for federated clustering with privacy criteria that support simple, provable, and efficient data removal at the client and server level. The gist of our approach is to combine special initialization procedures with quantization methods that allow for secure aggregation of estimated local cluster counts at the server unit. As part of our platform, we introduce secure compressed multiset aggregation (SCMA), which is of independent interest for secure sparse model aggregation. 
 
 - Analyzing Privacy Leakage in Machine Learning via Multiple Hypothesis Testing: A Lesson From Fano. [[paper]](https://arxiv.org/abs/2210.13662)
   - Chuan Guo, Alexandre Sablayrolles, Maziar Sanjabi.
