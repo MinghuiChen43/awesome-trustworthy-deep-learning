@@ -543,6 +543,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- DensePure: Understanding Diffusion Models towards Adversarial Robustness. [[paper]](https://arxiv.org/abs/2211.00322)
+  - Chaowei Xiao, Zhongzhu Chen, Kun Jin, Jiongxiao Wang, Weili Nie, Mingyan Liu, Anima Anandkumar, Bo Li, Dawn Song.
+  - Key Word: Diffusion Models; Adversarial Robustness.
+  - <details><summary>Digest</summary> Diffusion models have been recently employed to improve certified robustness through the process of denoising. However, the theoretical understanding of why diffusion models are able to improve the certified robustness is still lacking, preventing from further improvement. In this study, we close this gap by analyzing the fundamental properties of diffusion models and establishing the conditions under which they can enhance certified robustness. This deeper understanding allows us to propose a new method DensePure, designed to improve the certified robustness of a pretrained model (i.e. classifier).
+
+- Adversarial Training with Complementary Labels: On the Benefit of Gradually Informative Attacks. [[paper]](https://arxiv.org/abs/2211.00269)
+  - Jianan Zhou, Jianing Zhu, Jingfeng Zhang, Tongliang Liu, Gang Niu, Bo Han, Masashi Sugiyama. *NeurIPS 2022*
+  - Key Word: Complementary Learning; Adversarial Training.
+  - <details><summary>Digest</summary> To push AT towards more practical scenarios, we explore a brand new yet challenging setting, i.e., AT with complementary labels (CLs), which specify a class that a data sample does not belong to. However, the direct combination of AT with existing methods for CLs results in consistent failure, but not on a simple baseline of two-stage training. In this paper, we further explore the phenomenon and identify the underlying challenges of AT with CLs as intractable adversarial optimization and low-quality adversarial examples.
+
 - FI-ODE: Certified and Robust Forward Invariance in Neural ODEs. [[paper]](https://arxiv.org/abs/2210.16940) [[code]](https://github.com/yjhuangcd/FI-ODE)
   - Yujia Huang, Ivan Dario Jimenez Rodriguez, Huan Zhang, Yuanyuan Shi, Yisong Yue.
   - Key Word: Certified Adversarial Robustness; Neural Ordinary Differential Equations.
