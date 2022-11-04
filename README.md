@@ -14,7 +14,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 # Table of Contents
 
-- [Awesome Trustworthy Deep Learning Paper List:page_with_curl:](#awesome-trustworthy--deep-learning)
+- [Awesome Trustworthy Deep Learning ![Awesome](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning) ![if Useful](https://camo.githubusercontent.com/1ef04f27611ff643eb57eb87cc0f1204d7a6a14d/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d254630253946253843253946266d6573736167653d496625323055736566756c267374796c653d7374796c653d666c617426636f6c6f723d424334453939)](#awesome-trustworthy-deep-learning--)
+- [Table of Contents](#table-of-contents)
+- [Paper List](#paper-list)
   - [Survey](#survey)
   - [Out-of-Distribution Generalization](#out-of-distribution-generalization)
   - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
@@ -26,14 +28,35 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Environmental Well-being](#environmental-well-being)
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
-- [Related Awesome Lists:astonished:](#related-awesome-lists)
-- [Toolboxes:toolbox:](#toolboxes)
-- [Workshops:fire:](#workshops)
-- [Tutorials:woman_teacher:](#tutorials)
-- [Talks:microphone:](#talks)
-- [Blogs:writing_hand:](#blogs)
-- [Other Resources:sparkles:](#other-resources)
-- [Contributing:wink:](#contributing)
+- [Related Awesome Lists](#related-awesome-lists)
+  - [Robustness Lists](#robustness-lists)
+  - [Privacy Lists](#privacy-lists)
+  - [Fairness Lists](#fairness-lists)
+  - [Interpretability Lists](#interpretability-lists)
+  - [Open-World Lists](#open-world-lists)
+  - [Blockchain Lists](#blockchain-lists)
+  - [Other Lists](#other-lists)
+- [Toolboxes](#toolboxes)
+  - [Robustness Toolboxes](#robustness-toolboxes)
+  - [Privacy Toolboxes](#privacy-toolboxes)
+  - [Fairness Toolboxes](#fairness-toolboxes)
+  - [Interpretability Toolboxes](#interpretability-toolboxes)
+  - [Other Toolboxes](#other-toolboxes)
+- [Workshops](#workshops)
+  - [Robustness Workshops](#robustness-workshops)
+  - [Privacy Workshops](#privacy-workshops)
+  - [Interpretability Workshops](#interpretability-workshops)
+  - [Other Workshops](#other-workshops)
+- [Tutorials](#tutorials)
+  - [Robustness Tutorials](#robustness-tutorials)
+- [Talks](#talks)
+  - [Robustness Talks](#robustness-talks)
+- [Blogs](#blogs)
+  - [Robustness Blogs](#robustness-blogs)
+  - [Interpretability Blogs](#interpretability-blogs)
+  - [Other Blogs](#other-blogs)
+- [Other Resources](#other-resources)
+- [Contributing](#contributing)
 
 # Paper List
 
@@ -65,6 +88,51 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> The technical trend in realizing the successes has been towards increasing complex and large size AI models so as to solve more complex problems at superior performance and robustness. This rapid progress, however, has taken place at the expense of substantial environmental costs and resources. Besides, debates on the societal impacts of AI, such as fairness, safety and privacy, have continued to grow in intensity. These issues have presented major concerns pertaining to the sustainable development of AI. In this work, we review major trends in machine learning approaches that can address the sustainability problem of AI.
 
 ## Out-of-Distribution Generalization
+
+- Generalizing to unseen domains: a survey on domain generalization. [[paper]](https://jd92.wang/assets/files/DG_survey_TKDE22.pdf)
+  - Jindong Wang , Cuiling Lan, Chang Liu, Yidong Ouyang, Tao Qin, Wang Lu, Yiqiang Chen, Wenjun Zeng, and Philip S. Yu. *IEEE TKDE 2022*
+  - Key Word: Out-of-distribution generalization; Domain generalization
+  - <details><summary>Digest</summary> This paper presents the first review of recent advances in this area. First, we provide a formal definition of domain generalization and discuss several related fields. We then thoroughly review the theories related to domain generalization and carefully analyze the theory behind generalization.
+
+- Margin Calibration for Long-Tailed Visual Recognition. [[paper]](https://arxiv.org/abs/2112.07225)
+  - Yidong Wang, Bowen Zhang, Wenxin Hou, Zhen Wu, Jindong Wang, and Takahiro Shinozaki. *ACML 2022*
+  - Key Word: long-tailed recognition; imbalance learning
+  - <details><summary>Digest</summary> We study the relationship between the margins and logits (classification scores) and empirically observe the biased margins and the biased logits are positively correlated. We propose MARC, a simple yet effective MARgin Calibration function to dynamically calibrate the biased margins for unbiased logits. MARC is extremely easy: just three lines of code.
+
+- Domain generalization for activity recognition via adaptive feature fusion. [[paper]](https://arxiv.org/abs/2207.11221)
+  - Xin Qin, Jindong Wang, Yiqiang Chen, Wang Lu, and Xinlong Jiang. *ACM TIST 2022*
+  - Key Word: Domain generalization; Activity recognition.
+  - <details><summary>Digest</summary> We propose Adaptive Feature Fusion for Activity Recognition (AFFAR), a domain generalization approach that learns to fuse the domain-invariant and domain-specific representations to improve the model’s generalization performance. AFFAR takes the best of both worlds where domain-invariant representations enhance the transferability across domains and domain-specific representations leverage the model discrimination power from each domain. 
+
+- Memory-Guided Multi-View Multi-Domain Fake News Detection. [[paper]](https://arxiv.org/abs/2206.12808)
+  - Yongchun Zhu, Qiang Sheng, Juan Cao, Qiong Nan, Kai Shu, Minghui Wu, Jindong Wang, and Fuzhen Zhuang. *IEEE TKDE 2022*
+  - Key Word: Multi-domain learning; out-of-distribution generalization.
+  - <details><summary>Digest</summary> We propose a Memory-guided Multi-view Multi-domain Fake News Detection Framework (M3FEND) to address these two challenges. We model news pieces from a multi-view perspective, including semantics, emotion, and style. Specifically, we propose a Domain Memory Bank to enrich domain information which could discover potential domain labels based on seen news pieces and model domain characteristics. Then, with enriched domain information as input, a Domain Adapter could adaptively aggregate discriminative information from multiple views for news in various domains.
+
+- Decoupled Federated Learning for ASR with Non-IID Data. [[paper]](https://arxiv.org/abs/2206.09102)
+  - Han Zhu, Jindong Wang , Gaofeng Cheng, Pengyuan Zhang, and Yonghong Yan. *Interspeech 2022*
+  - Key Word: Non-IID; Federated learning; Speech recognition.
+  - <details><summary>Digest</summary> We tackle the non-IID issue in FL-based ASR with personalized FL, which learns personalized models for each client. Concretely, we propose two types of personalized FL approaches for ASR. Firstly, we adapt the personalization layer based FL for ASR, which keeps some layers locally to learn personalization models. Secondly, to reduce the communication and computation costs, we propose decoupled federated learning (DecoupleFL).
+
+- Semantic-Discriminative Mixup for Generalizable Sensor-based Cross-domain Activity Recognition. [[paper]](http://arxiv.org/abs/2206.06629)
+  - Wang Lu, Jindong Wang, Yiqiang Chen, Sinno Pan, Chunyu Hu, and Xin Qin. *ACM UbiComp 2022*
+  - Key Word: Domain generalization; Activity recognition.
+  - <details><summary>Digest</summary> We propose a novel method called Semantic-Discriminative Mixup (SDMix) for generalizable cross-domain HAR. Firstly, we introduce semantic-aware Mixup that considers the activity semantic ranges to overcome the semantic inconsistency brought by domain differences. Secondly, we introduce the large margin loss to enhance the discrimination of Mixup to prevent misclassification brought by noisy virtual labels.
+
+- Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. [[paper]](https://arxiv.org/abs/2105.11905)
+  - Wenxin Hou, Han Zhu, Yidong Wang, Jindong Wang, Tao Qin, Renjun Xu, and Takahiro Shinozaki. *TASLP 2022*
+  - Key Word: Cross-domain learning; Speech recognition.
+  - <details><summary>Digest</summary> We propose a novel algorithms called SimAdapter for explicitly learning knowledge from adapters. Our algorithm leverages adapters which can be easily integrated into the Transformer structure.MetaAdapter leverages meta-learning to transfer the general knowledge from training data to the test language. SimAdapter aims to learn the similarities between the source and target languages during fine-tuning using the adapters.
+
+- Learning causal semantic representation for out-of-distribution prediction. [[paper]](https://arxiv.org/abs/2011.01681)
+  - Chang Liu, Xinwei Sun, Jindong Wang , Haoyue Tang, Tao Li, Tao Qin, Wei Chen, and Tie-Yan Liu. *NeurIPS 2021*
+  - Key Word: Out-of-distribution generalization; Causality
+  - <details><summary>Digest</summary> We propose a Causal Semantic Generative model (CSG) based on a causal reasoning so that the two factors are modeled separately, and develop methods for OOD prediction from a single training domain, which is common and challenging. The methods are based on the causal invariance principle, with a novel design in variational Bayes for both efficient learning and easy prediction.
+  
+- Adarnn: Adaptive learning and forecasting of time series. [[paper]](https://arxiv.org/abs/2108.04443)
+  - Yuntao Du, Jindong Wang, Wenjie Feng, Sinno Pan, Tao Qin, Renjun Xu, and Chongjun Wang. *CIKM 2021*
+  - Key Word: Out-of-distribution prediction; Time series analysis
+  - <details><summary>Digest</summary> This paper proposes Adaptive RNNs (AdaRNN) to tackle the TCS problem by building an adaptive model that generalizes well on the unseen test data. AdaRNN is sequentially composed of two novel algorithms. First, we propose Temporal Distribution Characterization to better characterize the distribution information in the TS. Second, we propose Temporal Distribution Matching to reduce the distribution mismatch in TS to learn the adaptive TS model. AdaRNN is a general framework with flexible distribution distances integrated.
 
 - Stable learning establishes some common ground between causal inference and machine learning. [[paper]](https://www.nature.com/articles/s42256-022-00445-z)
   - Peng Cui, Susan Athey. *Nature Machine Intelligence*
@@ -537,6 +605,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> Certified robustness in machine learning has primarily focused on adversarial perturbations of the input with a fixed attack budget for each point in the data distribution. In this work, we present provable robustness guarantees on the accuracy of a model under bounded Wasserstein shifts of the data distribution. We show that a simple procedure that randomizes the input of the model within a transformation space is provably robust to distributional shifts under the transformation. Our framework allows the datum-specific perturbation size to vary across different points in the input distribution and is general enough to include fixed-sized perturbations as well.
 
 ## Evasion Attacks and Defenses
+
+- ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing. [[paper]](https://jd92.wang/assets/files/icse22-remos.pdf)
+  - Ziqi Zhang, Yuanchun Li, Jindong Wang , Bingyan Liu, Ding Li, Xiangqun Chen, Yao Guo, and Yunxin Liu. *ICSE 2022*
+  - Key Word: Attack defect inheritance; Transfer learning
+  - <details><summary>Digest</summary> We propose ReMoS, a relevant model slicing technique to reduce defect inheritance during transfer learning while retaining useful knowledge from the teacher model. Specifically, ReMoS computes a model slice (a subset of model weights) that is relevant to the student task based on the neuron coverage information obtained by profiling the teacher neurons.
 
 - Implicit Bias of Adversarial Training for Deep Neural Networks. [[paper]](https://openreview.net/forum?id=l8It-0lE5e7)
   - Bochen Lv, Zhanxing Zhu. *ICLR 2022*
@@ -1134,6 +1207,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Personalized Federated Learning with Adaptive Batchnorm for Healthcare. [[paper]](https://arxiv.org/abs/2112.00734)
+  - Wang Lu, Jindong Wang, Yiqiang Chen, Xin Qin, Renjun Xu, Dimitrios Dimitriadis, and Tao Qin. *IEEE TBD 2022*
+  - Key Word: Federated learning; Batch normalization; Personalized FL
+  - <details><summary>Digest</summary> We propose FedAP to tackle domain shifts and then obtain personalized models for local clients. FedAP learns the similarity between clients based on the statistics of the batch normalization layers while preserving the specificity of each client with different local batch normalization.
+
+- MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare. [[paper]](https://arxiv.org/pdf/2206.08516.pdf)
+  - Yiqiang Chen, Wang Lu, Xin Qin, Jindong Wang, and Xing Xie. *IJCAI'FL 2022*
+  - Key Word: Federated learning; Personalized FL
+  - <details><summary>Digest</summary> MetaFed is to facilitate trustworthy FL between different federations. MetaFed obtains a personalized model for each federation without a central server via the proposed Cyclic Knowledge Distillation. Specifically, MetaFed treats each federation as a meta distribution and aggregates knowledge of each federation in a cyclic manner. 
 
 - Privacy Induces Robustness: Information-Computation Gaps and Sparse Mean Estimation. [[paper]](https://arxiv.org/abs/2211.00724)
   - Kristian Georgiev, Samuel B. Hopkins.
@@ -2194,6 +2277,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [The Papers of Adversarial Examples](https://github.com/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/stars/xiaosen-wang/Adversarial-Examples-Paper) ![ ](https://img.shields.io/github/last-commit/xiaosen-wang/Adversarial-Examples-Paper)
 
+- [OOD robustness and transfer learning](https://github.com/jindongwang/transferlearning) ![ ](https://img.shields.io/github/stars/jindongwang/transferlearning) ![ ](https://img.shields.io/github/last-commit/jindongwang/transferlearning)
+
 ## Privacy Lists
 
 - [Awesome Attacks on Machine Learning Privacy](https://github.com/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/stars/stratosphereips/awesome-ml-privacy-attacks) ![ ](https://img.shields.io/github/last-commit/stratosphereips/awesome-ml-privacy-attacks)
@@ -2262,6 +2347,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [RobustBench](https://github.com/RobustBench/robustbench) ![ ](https://img.shields.io/github/stars/RobustBench/robustbench)
   - A standardized benchmark for adversarial robustness.
 
+- [DeepDG: OOD generalization toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+  - A domain generalization toolbox for research purpose.
+
 ## Privacy Toolboxes
 
 - [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
@@ -2272,6 +2360,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven) ![ ](https://img.shields.io/github/stars/trailofbits/PrivacyRaven)
   - PrivacyRaven is a privacy testing library for deep learning systems.
+
+- [PersonalizedFL](https://github.com/microsoft/PersonalizedFL) ![ ](https://img.shields.io/github/stars/microsoft/PersonalizedFL)
+  - PersonalizedFL is a toolbox for personalized federated learning.
 
 ## Fairness Toolboxes
 
@@ -2381,6 +2472,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Robustness Talks
 
 - [Ian Goodfellow: Adversarial Machine Learning (ICLR 2019)](https://www.youtube.com/watch?v=sucqskXRkss)
+
+- [Jindong Wang: Building more robust machine learning models (MLNLP)](https://www.bilibili.com/video/BV1hP411V7SP/)
 
 # Blogs
 
