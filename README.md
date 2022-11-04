@@ -81,6 +81,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- - ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations. [[paper]](https://arxiv.org/abs/2211.01866)
+  - Badr Youbi Idrissi, Diane Bouchacourt, Randall Balestriero, Ivan Evtimov, Caner Hazirbas, Nicolas Ballas, Pascal Vincent, Michal Drozdzal, David Lopez-Paz, Mark Ibrahim.
+  - Key Word: Out-of-Distribution Generalization; Dataset.
+  - <details><summary>Digest</summary> Deep learning vision systems are widely deployed across applications where reliability is critical. However, even today's best models can fail to recognize an object when its pose, lighting, or background varies. While existing benchmarks surface examples challenging for models, they do not explain why such mistakes arise. To address this need, we introduce ImageNet-X, a set of sixteen human annotations of factors such as pose, background, or lighting the entire ImageNet-1k validation set as well as a random subset of 12k training images. 
+
 - Functional Indirection Neural Estimator for Better Out-of-distribution Generalization. [[paper]](https://arxiv.org/abs/2210.12739)
   - Kha Pham, Hung Le, Man Ngo, Truyen Tran. *NeurIPS 2022*
   - Key Word: Out-of-Distribution Generalization; Functional Indirection Neural Estimator.
