@@ -543,6 +543,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Physically Adversarial Attacks and Defenses in Computer Vision: A Survey. [[paper]](https://arxiv.org/abs/2211.01671)
+  - Xingxing Wei, Bangzheng Pu, Jiefan Lu, Baoyuan Wu.
+  - Key Word: Physical Adversarial Attacks; Survey.
+  - <details><summary>Digest</summary> We summarize a survey versus the current physically adversarial attacks and physically adversarial defenses in computer vision. To establish a taxonomy, we organize the current physical attacks from attack tasks, attack forms, and attack methods, respectively. Thus, readers can have a systematic knowledge about this topic from different aspects. For the physical defenses, we establish the taxonomy from pre-processing, in-processing, and post-processing for the DNN models to achieve a full coverage of the adversarial defenses. 
+
 - DensePure: Understanding Diffusion Models towards Adversarial Robustness. [[paper]](https://arxiv.org/abs/2211.00322)
   - Chaowei Xiao, Zhongzhu Chen, Kun Jin, Jiongxiao Wang, Weili Nie, Mingyan Liu, Anima Anandkumar, Bo Li, Dawn Song.
   - Key Word: Diffusion Models; Adversarial Robustness.
@@ -622,6 +627,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Zeyu Qin, Yanbo Fan, Yi Liu, Li Shen, Yong Zhang, Jue Wang, Baoyuan Wu. *NeurIPS 2022*
   - Key Word: Adversarial Transferability.
   - <details><summary>Digest</summary> We propose a novel attack method, dubbed reverse adversarial perturbation (RAP). Specifically, instead of minimizing the loss of a single adversarial point, we advocate seeking adversarial example located at a region with unified low loss value, by injecting the worst-case perturbation (the reverse adversarial perturbation) for each step of the optimization procedure. The adversarial attack with RAP is formulated as a min-max bi-level optimization problem. 
+
+- Robust Models are less Over-Confident. [[paper]](https://arxiv.org/abs/2210.05938) [[code]](https://github.com/GeJulia/robustness_confidences_evaluation)
+  - Julia Grabinski, Paul Gavrikov, Janis Keuper, Margret Keuper. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; Confidence Calibration.
+  - <details><summary>Digest</summary> We empirically analyze a variety of adversarially trained models that achieve high robust accuracies when facing state-of-the-art attacks and we show that AT has an interesting side-effect: it leads to models that are significantly less overconfident with their decisions, even on clean data than non-robust models. Further, our analysis of robust models shows that not only AT but also the model's building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences.
 
 - What Can the Neural Tangent Kernel Tell Us About Adversarial Robustness? [[paper]](https://arxiv.org/abs/2210.05577)
   - Nikolaos Tsilivis, Julia Kempe. *NeurIPS 2022*
@@ -1119,6 +1129,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- Privacy Induces Robustness: Information-Computation Gaps and Sparse Mean Estimation. [[paper]](https://arxiv.org/abs/2211.00724)
+  - Kristian Georgiev, Samuel B. Hopkins.
+  - Key Word: Differential Privacy; Automatic Robustness.
+  - <details><summary>Digest</summary> We establish a simple connection between robust and differentially-private algorithms: private mechanisms which perform well with very high probability are automatically robust in the sense that they retain accuracy even if a constant fraction of the samples they receive are adversarially corrupted. Since optimal mechanisms typically achieve these high success probabilities, our results imply that optimal private mechanisms for many basic statistics problems are robust.
 
 - Machine Unlearning of Federated Clusters. [[paper]](https://arxiv.org/abs/2210.16424)
   - Chao Pan, Jin Sima, Saurav Prakash, Vishal Rana, Olgica Milenkovic.
@@ -1678,6 +1693,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Verifying And Interpreting Neural Networks using Finite Automata. [[paper]](https://arxiv.org/abs/2211.01022) [[code]](https://github.com/marcosaelzer/nn2nfa)
+  - Marco Sälzer, Eric Alsmann, Florian Bruse, Martin Lange.
+  - Key Word: Finite State Automata; Verification; Interpretation.
+  - <details><summary>Digest</summary> Verifying properties and interpreting the behaviour of deep neural networks (DNN) is an important task given their ubiquitous use in applications, including safety-critical ones, and their blackbox nature. We propose an automata-theoric approach to tackling problems arising in DNN analysis. We show that the input-output behaviour of a DNN can be captured precisely by a (special) weak Büchi automaton of exponential size. We show how these can be used to address common verification and interpretation tasks like adversarial robustness, minimum sufficient reasons etc. We report on a proof-of-concept implementation translating DNN to automata on finite words for better efficiency at the cost of losing precision in analysis.
 
 - Efficient Dataset Distillation Using Random Feature Approximation. [[paper]](https://arxiv.org/abs/2210.12067) [[code]](https://github.com/yolky/RFAD)
   - Noel Loo, Ramin Hasani, Alexander Amini, Daniela Rus. *NeurIPS 2022*
