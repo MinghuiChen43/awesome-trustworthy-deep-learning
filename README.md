@@ -71,35 +71,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-distribution generalization; Domain generalization
   - <details><summary>Digest</summary> This paper presents the first review of recent advances in this area. First, we provide a formal definition of domain generalization and discuss several related fields. We then thoroughly review the theories related to domain generalization and carefully analyze the theory behind generalization.
 
-- Margin Calibration for Long-Tailed Visual Recognition. [[paper]](https://arxiv.org/abs/2112.07225)
-  - Yidong Wang, Bowen Zhang, Wenxin Hou, Zhen Wu, Jindong Wang, and Takahiro Shinozaki. *ACML 2022*
-  - Key Word: long-tailed recognition; imbalance learning
-  - <details><summary>Digest</summary> We study the relationship between the margins and logits (classification scores) and empirically observe the biased margins and the biased logits are positively correlated. We propose MARC, a simple yet effective MARgin Calibration function to dynamically calibrate the biased margins for unbiased logits. MARC is extremely easy: just three lines of code.
-
-- Domain generalization for activity recognition via adaptive feature fusion. [[paper]](https://arxiv.org/abs/2207.11221)
-  - Xin Qin, Jindong Wang, Yiqiang Chen, Wang Lu, and Xinlong Jiang. *ACM TIST 2022*
-  - Key Word: Domain generalization; Activity recognition.
-  - <details><summary>Digest</summary> We propose Adaptive Feature Fusion for Activity Recognition (AFFAR), a domain generalization approach that learns to fuse the domain-invariant and domain-specific representations to improve the model’s generalization performance. AFFAR takes the best of both worlds where domain-invariant representations enhance the transferability across domains and domain-specific representations leverage the model discrimination power from each domain. 
-
-- Memory-Guided Multi-View Multi-Domain Fake News Detection. [[paper]](https://arxiv.org/abs/2206.12808)
-  - Yongchun Zhu, Qiang Sheng, Juan Cao, Qiong Nan, Kai Shu, Minghui Wu, Jindong Wang, and Fuzhen Zhuang. *IEEE TKDE 2022*
-  - Key Word: Multi-domain learning; out-of-distribution generalization.
-  - <details><summary>Digest</summary> We propose a Memory-guided Multi-view Multi-domain Fake News Detection Framework (M3FEND) to address these two challenges. We model news pieces from a multi-view perspective, including semantics, emotion, and style. Specifically, we propose a Domain Memory Bank to enrich domain information which could discover potential domain labels based on seen news pieces and model domain characteristics. Then, with enriched domain information as input, a Domain Adapter could adaptively aggregate discriminative information from multiple views for news in various domains.
-
-- Decoupled Federated Learning for ASR with Non-IID Data. [[paper]](https://arxiv.org/abs/2206.09102)
-  - Han Zhu, Jindong Wang , Gaofeng Cheng, Pengyuan Zhang, and Yonghong Yan. *Interspeech 2022*
-  - Key Word: Non-IID; Federated learning; Speech recognition.
-  - <details><summary>Digest</summary> We tackle the non-IID issue in FL-based ASR with personalized FL, which learns personalized models for each client. Concretely, we propose two types of personalized FL approaches for ASR. Firstly, we adapt the personalization layer based FL for ASR, which keeps some layers locally to learn personalization models. Secondly, to reduce the communication and computation costs, we propose decoupled federated learning (DecoupleFL).
-
-- Semantic-Discriminative Mixup for Generalizable Sensor-based Cross-domain Activity Recognition. [[paper]](http://arxiv.org/abs/2206.06629)
-  - Wang Lu, Jindong Wang, Yiqiang Chen, Sinno Pan, Chunyu Hu, and Xin Qin. *ACM UbiComp 2022*
-  - Key Word: Domain generalization; Activity recognition.
-  - <details><summary>Digest</summary> We propose a novel method called Semantic-Discriminative Mixup (SDMix) for generalizable cross-domain HAR. Firstly, we introduce semantic-aware Mixup that considers the activity semantic ranges to overcome the semantic inconsistency brought by domain differences. Secondly, we introduce the large margin loss to enhance the discrimination of Mixup to prevent misclassification brought by noisy virtual labels.
-
-- Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. [[paper]](https://arxiv.org/abs/2105.11905)
-  - Wenxin Hou, Han Zhu, Yidong Wang, Jindong Wang, Tao Qin, Renjun Xu, and Takahiro Shinozaki. *TASLP 2022*
-  - Key Word: Cross-domain learning; Speech recognition.
-  - <details><summary>Digest</summary> We propose a novel algorithms called SimAdapter for explicitly learning knowledge from adapters. Our algorithm leverages adapters which can be easily integrated into the Transformer structure.MetaAdapter leverages meta-learning to transfer the general knowledge from training data to the test language. SimAdapter aims to learn the similarities between the source and target languages during fine-tuning using the adapters.
 
 - Learning causal semantic representation for out-of-distribution prediction. [[paper]](https://arxiv.org/abs/2011.01681)
   - Chang Liu, Xinwei Sun, Jindong Wang , Haoyue Tang, Tao Li, Tao Qin, Wei Chen, and Tie-Yan Liu. *NeurIPS 2021*
@@ -271,6 +242,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Distribution Shifts; Catastrophic Forgetting; Memory Augmented Models.
   - <details><summary>Digest</summary> In the present work, we propose a model architecture to address this issue, building upon a discrete bottleneck containing pairs of separate and learnable (key, value) codes. In this setup, we follow the encode; process the representation via a discrete bottleneck; and decode paradigm, where the input is fed to the pretrained encoder, the output of the encoder is used to select the nearest keys, and the corresponding values are fed to the decoder to solve the current task. The model can only fetch and re-use a limited number of these (key, value) pairs during inference, enabling localized and context-dependent model updates.
 
+- Domain generalization for activity recognition via adaptive feature fusion. [[paper]](https://arxiv.org/abs/2207.11221)
+  - Xin Qin, Jindong Wang, Yiqiang Chen, Wang Lu, and Xinlong Jiang. *ACM TIST 2022*
+  - Key Word: Domain generalization; Activity recognition.
+  - <details><summary>Digest</summary> We propose Adaptive Feature Fusion for Activity Recognition (AFFAR), a domain generalization approach that learns to fuse the domain-invariant and domain-specific representations to improve the model’s generalization performance. AFFAR takes the best of both worlds where domain-invariant representations enhance the transferability across domains and domain-specific representations leverage the model discrimination power from each domain. 
+
 - UniFed: A Benchmark for Federated Learning Frameworks. [[paper]](https://arxiv.org/abs/2207.10308) [[code]](https://github.com/ai-secure/flbenchmark-toolkit)
   - Xiaoyuan Liu, Tianneng Shi, Chulin Xie, Qinbin Li, Kangping Hu, Haoyu Kim, Xiaojun Xu, Bo Li, Dawn Song.
   - Key Word: Federated Learning; Benchmark; Privacy.
@@ -356,6 +332,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: estimating Generalization Error; Distribution Shift.
   - <details><summary>Digest</summary> Recently, Miller et al. showed that a model's in-distribution (ID) accuracy has a strong linear correlation with its out-of-distribution (OOD) accuracy on several OOD benchmarks -- a phenomenon they dubbed ''accuracy-on-the-line''. While a useful tool for model selection (i.e., the model most likely to perform the best OOD is the one with highest ID accuracy), this fact does not help estimate the actual OOD performance of models without access to a labeled OOD validation set. In this paper, we show a similar but surprising phenomenon also holds for the agreement between pairs of neural network classifiers: whenever accuracy-on-the-line holds, we observe that the OOD agreement between the predictions of any two pairs of neural networks (with potentially different architectures) also observes a strong linear correlation with their ID agreement.
 
+- Memory-Guided Multi-View Multi-Domain Fake News Detection. [[paper]](https://arxiv.org/abs/2206.12808)
+  - Yongchun Zhu, Qiang Sheng, Juan Cao, Qiong Nan, Kai Shu, Minghui Wu, Jindong Wang, and Fuzhen Zhuang. *IEEE TKDE 2022*
+  - Key Word: Multi-domain learning; out-of-distribution generalization.
+  - <details><summary>Digest</summary> We propose a Memory-guided Multi-view Multi-domain Fake News Detection Framework (M3FEND) to address these two challenges. We model news pieces from a multi-view perspective, including semantics, emotion, and style. Specifically, we propose a Domain Memory Bank to enrich domain information which could discover potential domain labels based on seen news pieces and model domain characteristics. Then, with enriched domain information as input, a Domain Adapter could adaptively aggregate discriminative information from multiple views for news in various domains.
+
 - Gated Domain Units for Multi-source Domain Generalization. [[paper]](https://arxiv.org/abs/2206.12444)
   - Simon Föll, Alina Dubatovka, Eugen Ernst, Martin Maritsch, Patrik Okanovic, Gudrun Thäter, Joachim M. Buhmann, Felix Wortmann, Krikamol Muandet.
   - Key Word: Multi-Source Domain Generalization; Invariant Elementary Distributions.
@@ -391,6 +372,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Federated Learning; Domain Generalization; Data Augmentation.
   - <details><summary>Digest</summary> While many approaches in DG tackle data heterogeneity from the algorithmic perspective, recent evidence suggests that data augmentation can induce equal or greater performance. Motivated by this connection, we present federated versions of popular DG algorithms, and show that by applying appropriate data augmentation, we can mitigate data heterogeneity in the federated setting, and obtain higher accuracy on unseen clients. Equipped with data augmentation, we can achieve state-of-the-art performance using even the most basic Federated Averaging algorithm, with much sparser communication.
 
+- Decoupled Federated Learning for ASR with Non-IID Data. [[paper]](https://arxiv.org/abs/2206.09102)
+  - Han Zhu, Jindong Wang , Gaofeng Cheng, Pengyuan Zhang, and Yonghong Yan. *Interspeech 2022*
+  - Key Word: Non-IID; Federated learning; Speech recognition.
+  - <details><summary>Digest</summary> We tackle the non-IID issue in FL-based ASR with personalized FL, which learns personalized models for each client. Concretely, we propose two types of personalized FL approaches for ASR. Firstly, we adapt the personalization layer based FL for ASR, which keeps some layers locally to learn personalization models. Secondly, to reduce the communication and computation costs, we propose decoupled federated learning (DecoupleFL).
+
 - How robust are pre-trained models to distribution shift? [[paper]](https://arxiv.org/abs/2206.08871)
   - Yuge Shi, Imant Daunhawer, Julia E. Vogt, Philip H.S. Torr, Amartya Sanyal.
   - Key Word: Distribution Shifts; Self-Supervised Pre-Trainig.
@@ -420,6 +406,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Yongqiang Chen, Kaiwen Zhou, Yatao Bian, Binghui Xie, Kaili Ma, Yonggang Zhang, Han Yang, Bo Han, James Cheng.
   - Key Word: Invariant Learning; Multi-Task Learning.
   - <details><summary>Digest</summary> Despite the success of invariant risk minimization (IRM) in tackling the Out-of-Distribution generalization problem, IRM can compromise the optimality when applied in practice. The practical variants of IRM, e.g., IRMv1, have been shown to have significant gaps with IRM and thus could fail to capture the invariance even in simple problems. Moreover, the optimization procedure in IRMv1 involves two intrinsically conflicting objectives, and often requires careful tuning for the objective weights. To remedy the above issues, we reformulate IRM as a multi-objective optimization problem, and propose a new optimization scheme for IRM, called PAreto Invariant Risk Minimization (PAIR).
+
+- Semantic-Discriminative Mixup for Generalizable Sensor-based Cross-domain Activity Recognition. [[paper]](http://arxiv.org/abs/2206.06629)
+  - Wang Lu, Jindong Wang, Yiqiang Chen, Sinno Pan, Chunyu Hu, and Xin Qin. *ACM UbiComp 2022*
+  - Key Word: Domain generalization; Activity recognition.
+  - <details><summary>Digest</summary> We propose a novel method called Semantic-Discriminative Mixup (SDMix) for generalizable cross-domain HAR. Firstly, we introduce semantic-aware Mixup that considers the activity semantic ranges to overcome the semantic inconsistency brought by domain differences. Secondly, we introduce the large margin loss to enhance the discrimination of Mixup to prevent misclassification brought by noisy virtual labels.
 
 - Invariant Structure Learning for Better Generalization and Causal Explainability. [[paper]](https://arxiv.org/abs/2206.06469)
   - Yunhao Ge, Sercan Ö. Arik, Jinsung Yoon, Ao Xu, Laurent Itti, Tomas Pfister.
@@ -505,6 +496,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Dongsung Huh, Avinash Baidya.
   - Key Word: Invariant Learning.
   - <details><summary>Digest</summary> We identify a fundamental flaw of IRM formulation that causes the failure. We then introduce a complementary notion of invariance, MRI, that is based on conserving the class-conditioned feature expectation across environments, that corrects for the flaw in IRM. Further, we introduce a simplified, practical version of the MRI formulation called as MRI-v1. We note that this constraint is convex which confers it with an advantage over the practical version of IRM, IRM-v1, which imposes non-convex constraints. We prove that in a general linear problem setting, MRI-v1 can guarantee invariant predictors given sufficient environments.
+
+- Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. [[paper]](https://arxiv.org/abs/2105.11905)
+  - Wenxin Hou, Han Zhu, Yidong Wang, Jindong Wang, Tao Qin, Renjun Xu, and Takahiro Shinozaki. *TASLP 2022*
+  - Key Word: Cross-domain learning; Speech recognition.
+  - <details><summary>Digest</summary> We propose a novel algorithms called SimAdapter for explicitly learning knowledge from adapters. Our algorithm leverages adapters which can be easily integrated into the Transformer structure.MetaAdapter leverages meta-learning to transfer the general knowledge from training data to the test language. SimAdapter aims to learn the similarities between the source and target languages during fine-tuning using the adapters.
 
 - FL Games: A federated learning framework for distribution shifts. [[paper]](https://arxiv.org/abs/2205.11101)
   - Sharut Gupta, Kartik Ahuja, Mohammad Havaei, Niladri Chatterjee, Yoshua Bengio.
@@ -1764,11 +1760,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Finite State Automata; Verification; Interpretation.
   - <details><summary>Digest</summary> Verifying properties and interpreting the behaviour of deep neural networks (DNN) is an important task given their ubiquitous use in applications, including safety-critical ones, and their blackbox nature. We propose an automata-theoric approach to tackling problems arising in DNN analysis. We show that the input-output behaviour of a DNN can be captured precisely by a (special) weak Büchi automaton of exponential size. We show how these can be used to address common verification and interpretation tasks like adversarial robustness, minimum sufficient reasons etc. We report on a proof-of-concept implementation translating DNN to automata on finite words for better efficiency at the cost of losing precision in analysis.
 
-- Self-explaining deep models with logic rule reasoning. [[paper]](https://arxiv.org/abs/2210.07024)  [[code]](https://github.com/archon159/SELOR)
-  - Seungeon Lee, Xiting Wang, Sungwon Han, Xiaoyuan Yi, Xing Xie, Meeyoung Cha. *NeurIPS 2022*
-  - Key Word: Self-explanation; Logic rule; Interpretability.
-  - <details><summary>Digest</summary> We present SELOR, a framework for integrating self-explaining capabilities into a given deep model to achieve both high prediction performance and human precision. By “human precision”, we refer to the degree to which humans agree with the reasons models provide for their predictions. Human precision affects user trust and allows users to collaborate closely with the model. We demonstrate that logic rule explanations naturally satisfy human precision with the expressive power required for good predictive performance. We then illustrate how to enable a deep model to predict and explain with logic rules. Our method does not require predefined logic rule sets or human annotations and can be learned efficiently and easily with widely-used deep learning modules in a differentiable way. Extensive experiments show that our method gives explanations closer to human decision logic than other methods while maintaining the performance of deep learning models. 
-  
 - Efficient Dataset Distillation Using Random Feature Approximation. [[paper]](https://arxiv.org/abs/2210.12067) [[code]](https://github.com/yolky/RFAD)
   - Noel Loo, Ramin Hasani, Alexander Amini, Daniela Rus. *NeurIPS 2022*
   - Key Word: Dataset Distillation; Interpretability; Privacy; Neural Network Gaussian Process; Neural Tangent Kernel; Random Feature.
@@ -1778,6 +1769,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Maximilian Augustin, Valentyn Boreiko, Francesco Croce, Matthias Hein. *NeurIPS 2022*
   - Key Word: Counterfactual Explainability; Diffusion Models.
   - <details><summary>Digest</summary> Current approaches for the generation of VCEs are restricted to adversarially robust models and often contain non-realistic artefacts, or are limited to image classification problems with few classes. In this paper, we overcome this by generating Diffusion Visual Counterfactual Explanations (DVCEs) for arbitrary ImageNet classifiers via a diffusion process.
+
+- Self-explaining deep models with logic rule reasoning. [[paper]](https://arxiv.org/abs/2210.07024)  [[code]](https://github.com/archon159/SELOR)
+  - Seungeon Lee, Xiting Wang, Sungwon Han, Xiaoyuan Yi, Xing Xie, Meeyoung Cha. *NeurIPS 2022*
+  - Key Word: Self-explanation; Logic rule; Interpretability.
+  - <details><summary>Digest</summary> We present SELOR, a framework for integrating self-explaining capabilities into a given deep model to achieve both high prediction performance and human precision. By “human precision”, we refer to the degree to which humans agree with the reasons models provide for their predictions. Human precision affects user trust and allows users to collaborate closely with the model. We demonstrate that logic rule explanations naturally satisfy human precision with the expressive power required for good predictive performance. We then illustrate how to enable a deep model to predict and explain with logic rules. Our method does not require predefined logic rule sets or human annotations and can be learned efficiently and easily with widely-used deep learning modules in a differentiable way. Extensive experiments show that our method gives explanations closer to human decision logic than other methods while maintaining the performance of deep learning models. 
 
 - "Help Me Help the AI": Understanding How Explainability Can Support Human-AI Interaction. [[paper]](https://arxiv.org/abs/2210.03735)
   - Sunnie S. Y. Kim, Elizabeth Anne Watkins, Olga Russakovsky, Ruth Fong, Andrés Monroy-Hernández.
