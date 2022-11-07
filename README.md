@@ -1588,6 +1588,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Fairness
 
+- Fairness in Federated Learning via Core-Stability. [[paper]](https://arxiv.org/abs/2211.02091)
+  - Bhaskar Ray Chaudhury, Linyi Li, Mintong Kang, Bo Li, Ruta Mehta. *NeurIPS 2022*
+  - Key Word: Federated Learning; Fairness.
+  - <details><summary>Digest</summary> Federated learning provides an effective paradigm to jointly optimize a model benefited from rich distributed data while protecting data privacy. Nonetheless, the heterogeneity nature of distributed data makes it challenging to define and ensure fairness among local agents. Currently popular egalitarian and weighted equity-based fairness measures suffer from the aforementioned pitfall. In this work, we aim to formally represent this problem and address these fairness issues using concepts from co-operative game theory and social choice theory. 
+
 - FARE: Provably Fair Representation Learning. [[paper]](https://arxiv.org/abs/2210.07213)
   - Nikola Jovanović, Mislav Balunović, Dimitar I. Dimitrov, Martin Vechev.
   - Key Word: Provable Fairness; Group Fairness.
