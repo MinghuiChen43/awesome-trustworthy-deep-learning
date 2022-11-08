@@ -594,6 +594,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Are AlphaZero-like Agents Robust to Adversarial Perturbations? [[paper]](https://arxiv.org/abs/2211.03769) [[code]](https://github.com/lan-lc/adversarial_example_of_Go)
+  - Li-Cheng Lan, Huan Zhang, Ti-Rong Wu, Meng-Yu Tsai, I-Chen Wu, Cho-Jui Hsieh. *NeurIPS 2022*
+  - Key Word: Adversarial Robustness; AlphaZero; Reinforcement Learning.
+  - <details><summary>Digest</summary> We first extend the concept of adversarial examples to the game of Go: we generate perturbed states that are ''semantically'' equivalent to the original state by adding meaningless moves to the game, and an adversarial state is a perturbed state leading to an undoubtedly inferior action that is obvious even for Go beginners. However, searching the adversarial state is challenging due to the large, discrete, and non-differentiable search space. To tackle this challenge, we develop the first adversarial attack on Go AIs that can efficiently search for adversarial states by strategically reducing the search space.
+
 - Physically Adversarial Attacks and Defenses in Computer Vision: A Survey. [[paper]](https://arxiv.org/abs/2211.01671)
   - Xingxing Wei, Bangzheng Pu, Jiefan Lu, Baoyuan Wu.
   - Key Word: Physical Adversarial Attacks; Survey.
