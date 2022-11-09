@@ -1593,6 +1593,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Fairness
 
+- Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale. [[paper]](https://arxiv.org/abs/2211.03759)
+  - Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, Aylin Caliskan.
+  - Key Word: Stable Diffusion; Stereotype Amplification.
+  - <details><summary>Digest</summary> Machine learning models are now able to convert user-written text descriptions into naturalistic images. These models are available to anyone online and are being used to generate millions of images a day. We investigate these models and find that they amplify dangerous and complex stereotypes. Moreover, we find that the amplified stereotypes are difficult to predict and not easily mitigated by users or model owners. The extent to which these image-generation models perpetuate and amplify stereotypes and their mass deployment is cause for serious concern.
+
 - Fairness in Federated Learning via Core-Stability. [[paper]](https://arxiv.org/abs/2211.02091)
   - Bhaskar Ray Chaudhury, Linyi Li, Mintong Kang, Bo Li, Ruta Mehta. *NeurIPS 2022*
   - Key Word: Federated Learning; Fairness.
