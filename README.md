@@ -2346,6 +2346,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) ![ ](https://img.shields.io/github/stars/privacytrustlab/ml_privacy_meter)
   - Privacy Meter is an open-source library to audit data privacy in statistical and machine learning algorithms.
 
+- [OpenDP](https://github.com/opendp/opendp) ![ ](https://img.shields.io/github/stars/opendp/opendp)
+  - The OpenDP Library is a modular collection of statistical algorithms that adhere to the definition of differential privacy. 
+
 - [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven) ![ ](https://img.shields.io/github/stars/trailofbits/PrivacyRaven)
   - PrivacyRaven is a privacy testing library for deep learning systems.
 
