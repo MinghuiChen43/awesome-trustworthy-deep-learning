@@ -2113,6 +2113,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
 
+- DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems. [[paper]](https://arxiv.org/abs/2211.05764)
+  - Nabeel Seedat, Fergus Imrie, Mihaela van der Schaar.
+  - Key Word: Data-centric AI; ML Pipelines, Reliable ML.
+  - <details><summary>Digest</summary> We propose DC-Check, an actionable checklist-style framework to elicit data-centric considerations at different stages of the ML pipeline: Data, Training, Testing, and Deployment. This data-centric lens on development aims to promote thoughtfulness and transparency prior to system development. Additionally, we highlight specific data-centric AI challenges and research opportunities. 
+
 - Surgical Fine-Tuning Improves Adaptation to Distribution Shifts. [[paper]](https://arxiv.org/abs/2210.11466)
   - Yoonho Lee, Annie S. Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, Chelsea Finn.
   - Key Word: Fine-Tuning; Distribution Shift.
