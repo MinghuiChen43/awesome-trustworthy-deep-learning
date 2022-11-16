@@ -2360,6 +2360,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [PersonalizedFL](https://github.com/microsoft/PersonalizedFL) ![ ](https://img.shields.io/github/stars/microsoft/PersonalizedFL)
   - PersonalizedFL is a toolbox for personalized federated learning.
 
+- [TAPAS](https://github.com/alan-turing-institute/privacy-sdg-toolbox) ![ ](https://img.shields.io/github/stars/alan-turing-institute/privacy-sdg-toolbox)
+  - Evaluating the privacy of synthetic data with an adversarial toolbox. 
+
 ## Fairness Toolboxes
 
 - [AI Fairness 360](https://github.com/Trusted-AI/AIF360) ![ ](https://img.shields.io/github/stars/Trusted-AI/AIF360)
