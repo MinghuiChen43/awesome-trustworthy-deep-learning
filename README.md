@@ -1196,11 +1196,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
-- Personalized Federated Learning with Adaptive Batchnorm for Healthcare. [[paper]](https://arxiv.org/abs/2112.00734)
-  - Wang Lu, Jindong Wang, Yiqiang Chen, Xin Qin, Renjun Xu, Dimitrios Dimitriadis, and Tao Qin. *IEEE TBD 2022*
-  - Key Word: Federated learning; Batch normalization; Personalized FL
-  - <details><summary>Digest</summary> We propose FedAP to tackle domain shifts and then obtain personalized models for local clients. FedAP learns the similarity between clients based on the statistics of the batch normalization layers while preserving the specificity of each client with different local batch normalization.
-
 - Provable Membership Inference Privacy. [[paper]](https://arxiv.org/abs/2211.06582)
   - Zachary Izzo, Jinsung Yoon, Sercan O. Arik, James Zou.
   - Key Word: Membership Inference Attacks; Differential Privacy.
