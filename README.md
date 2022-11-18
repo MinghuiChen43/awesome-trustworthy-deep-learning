@@ -594,6 +594,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Towards Good Practices in Evaluating Transfer Adversarial Attacks. [[paper]](https://arxiv.org/abs/2211.09565) [[code]](https://github.com/zhengyuzhao/transferattackeval)
+  - Zhengyu Zhao, Hanwei Zhang, Renjue Li, Ronan Sicre, Laurent Amsaleg, Michael Backes.
+  - Key Word: Transfer Adversarial Attacks; Benchmarks.
+  - <details><summary>Digest</summary> We design good practices to address these limitations. We first introduce a new attack categorization, which enables our systematic analyses of similar attacks in each specific category. Our analyses lead to new findings that complement or even challenge existing knowledge. Furthermore, we comprehensively evaluate 23 representative attacks against 9 defenses on ImageNet. We pay particular attention to stealthiness, by adopting diverse imperceptibility metrics and looking into new, finer-grained characteristics.
+
+- Improved techniques for deterministic l2 robustness. [[paper]](https://arxiv.org/abs/2211.08453) [[code]](https://github.com/singlasahil14/improved_l2_robustness)
+  - Sahil Singla, Soheil Feizi. *NeurIPS 2022*
+  - Key Word: Provable Adversarial Defenses; Provably Lipschitz Neural Networks.
+  - <details><summary>Digest</summary> 1-Lipschitz CNNs are usually designed by enforcing each layer to have an orthogonal Jacobian matrix (for all inputs) to prevent the gradients from vanishing during backpropagation. However, their performance often significantly lags behind that of heuristic methods to enforce Lipschitz constraints where the resulting CNN is not provably 1-Lipschitz. In this work, we reduce this gap by introducing (a) a procedure to certify robustness of 1-Lipschitz CNNs by replacing the last linear layer with a 1-hidden layer MLP that significantly improves their performance for both standard and provably robust accuracy, (b) a method to significantly reduce the training time per epoch for Skew Orthogonal Convolution (SOC) layers (>30\% reduction for deeper networks) and (c) a class of pooling layers using the mathematical property that the l2 distance of an input to a manifold is 1-Lipschitz. 
+
 - Are AlphaZero-like Agents Robust to Adversarial Perturbations? [[paper]](https://arxiv.org/abs/2211.03769) [[code]](https://github.com/lan-lc/adversarial_example_of_Go)
   - Li-Cheng Lan, Huan Zhang, Ti-Rong Wu, Meng-Yu Tsai, I-Chen Wu, Cho-Jui Hsieh. *NeurIPS 2022*
   - Key Word: Adversarial Robustness; AlphaZero; Reinforcement Learning.
@@ -1190,6 +1200,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Wang Lu, Jindong Wang, Yiqiang Chen, Xin Qin, Renjun Xu, Dimitrios Dimitriadis, and Tao Qin. *IEEE TBD 2022*
   - Key Word: Federated learning; Batch normalization; Personalized FL
   - <details><summary>Digest</summary> We propose FedAP to tackle domain shifts and then obtain personalized models for local clients. FedAP learns the similarity between clients based on the statistics of the batch normalization layers while preserving the specificity of each client with different local batch normalization.
+
+- Provable Membership Inference Privacy. [[paper]](https://arxiv.org/abs/2211.06582)
+  - Zachary Izzo, Jinsung Yoon, Sercan O. Arik, James Zou.
+  - Key Word: Membership Inference Attacks; Differential Privacy.
+  - <details><summary>Digest</summary> We propose a novel privacy notion, membership inference privacy (MIP), to address these challenges. We give a precise characterization of the relationship between MIP and DP, and show that MIP can be achieved using less amount of randomness compared to the amount required for guaranteeing DP, leading to a smaller drop in utility. 
 
 - MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare. [[paper]](https://arxiv.org/pdf/2206.08516.pdf)
   - Yiqiang Chen, Wang Lu, Xin Qin, Jindong Wang, and Xing Xie. *IJCAI'FL 2022*
