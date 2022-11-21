@@ -71,17 +71,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-distribution generalization; Domain generalization
   - <details><summary>Digest</summary> This paper presents the first review of recent advances in this area. First, we provide a formal definition of domain generalization and discuss several related fields. We then thoroughly review the theories related to domain generalization and carefully analyze the theory behind generalization.
 
-
-- Learning causal semantic representation for out-of-distribution prediction. [[paper]](https://arxiv.org/abs/2011.01681)
-  - Chang Liu, Xinwei Sun, Jindong Wang , Haoyue Tang, Tao Li, Tao Qin, Wei Chen, and Tie-Yan Liu. *NeurIPS 2021*
-  - Key Word: Out-of-distribution generalization; Causality
-  - <details><summary>Digest</summary> We propose a Causal Semantic Generative model (CSG) based on a causal reasoning so that the two factors are modeled separately, and develop methods for OOD prediction from a single training domain, which is common and challenging. The methods are based on the causal invariance principle, with a novel design in variational Bayes for both efficient learning and easy prediction.
-  
-- Adarnn: Adaptive learning and forecasting of time series. [[paper]](https://arxiv.org/abs/2108.04443)
-  - Yuntao Du, Jindong Wang, Wenjie Feng, Sinno Pan, Tao Qin, Renjun Xu, and Chongjun Wang. *CIKM 2021*
-  - Key Word: Out-of-distribution prediction; Time series analysis
-  - <details><summary>Digest</summary> This paper proposes Adaptive RNNs (AdaRNN) to tackle the TCS problem by building an adaptive model that generalizes well on the unseen test data. AdaRNN is sequentially composed of two novel algorithms. First, we propose Temporal Distribution Characterization to better characterize the distribution information in the TS. Second, we propose Temporal Distribution Matching to reduce the distribution mismatch in TS to learn the adaptive TS model. AdaRNN is a general framework with flexible distribution distances integrated.
-
 - Stable learning establishes some common ground between causal inference and machine learning. [[paper]](https://www.nature.com/articles/s42256-022-00445-z)
   - Peng Cui, Susan Athey. *Nature Machine Intelligence*
   - Key Word: Stable Learning; Causal Inference.
@@ -97,7 +86,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
-- - ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations. [[paper]](https://arxiv.org/abs/2211.01866)
+- ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations. [[paper]](https://arxiv.org/abs/2211.01866)
   - Badr Youbi Idrissi, Diane Bouchacourt, Randall Balestriero, Ivan Evtimov, Caner Hazirbas, Nicolas Ballas, Pascal Vincent, Michal Drozdzal, David Lopez-Paz, Mark Ibrahim.
   - Key Word: Out-of-Distribution Generalization; Dataset.
   - <details><summary>Digest</summary> Deep learning vision systems are widely deployed across applications where reliability is critical. However, even today's best models can fail to recognize an object when its pose, lighting, or background varies. While existing benchmarks surface examples challenging for models, they do not explain why such mistakes arise. To address this need, we introduce ImageNet-X, a set of sixteen human annotations of factors such as pose, background, or lighting the entire ImageNet-1k validation set as well as a random subset of 12k training images. 
