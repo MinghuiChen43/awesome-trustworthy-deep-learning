@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Invariant Learning via Diffusion Dreamed Distribution Shifts. [[paper]](https://arxiv.org/abs/2211.10370)
+  - Priyatham Kattakinda, Alexander Levine, Soheil Feizi.
+  - Key Word: Foreground and Background; Distribution Shifts; Text-to-Image Diffusion Models.
+  - <details><summary>Digest</summary> We propose such a dataset called Diffusion Dreamed Distribution Shifts (D3S). D3S consists of synthetic images generated through StableDiffusion using text prompts and image guides obtained by pasting a sample foreground image onto a background template image. Using this scalable approach we generate 120K images of objects from all 1000 ImageNet classes in 10 diverse backgrounds.
+
 - ImageNet-X: Understanding Model Mistakes with Factor of Variation Annotations. [[paper]](https://arxiv.org/abs/2211.01866)
   - Badr Youbi Idrissi, Diane Bouchacourt, Randall Balestriero, Ivan Evtimov, Caner Hazirbas, Nicolas Ballas, Pascal Vincent, Michal Drozdzal, David Lopez-Paz, Mark Ibrahim.
   - Key Word: Out-of-Distribution Generalization; Dataset.
@@ -582,6 +587,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- Diagnostics for Deep Neural Networks with Automated Copy/Paste Attacks. [[paper]](https://arxiv.org/abs/2211.10024) [[code]](https://github.com/thestephencasper/snafue)
+  - Stephen Casper, Kaivalya Hariharan, Dylan Hadfield-Menell.
+  - Key Word: Adversarial Patch.
+  - <details><summary>Digest</summary> First, we introduce a method termed Search for Natural Adversarial Features Using Embeddings (SNAFUE) which offers a fully-automated method for finding "copy/paste" attacks in which one natural image can be pasted into another in order to induce an unrelated misclassification. Second, we use this to red team an ImageNet classifier and identify hundreds of easily-describable sets of vulnerabilities. Third, we compare this approach with other interpretability tools by attempting to rediscover trojans. 
 
 - Towards Good Practices in Evaluating Transfer Adversarial Attacks. [[paper]](https://arxiv.org/abs/2211.09565) [[code]](https://github.com/zhengyuzhao/transferattackeval)
   - Zhengyu Zhao, Hanwei Zhang, Renjue Li, Ronan Sicre, Laurent Amsaleg, Michael Backes.
@@ -1185,6 +1195,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Leveraging Algorithmic Fairness to Mitigate Blackbox Attribute Inference Attacks. [[paper]](https://arxiv.org/abs/2211.10209)
+  - Jan Aalmoes, Vasisht Duddu, Antoine Boutet.
+  - Key Word: Fairness; Attribute Inference Attacks.
+  - <details><summary>Digest</summary> We propose an practical and effective attribute inference attack that accounts for this imbalance using an adaptive threshold over the attack model's predictions. We exhaustively evaluate our proposed attack on multiple datasets and show that the adaptive threshold over the model's predictions drastically improves the attack accuracy over prior work. 
+
 - Provable Membership Inference Privacy. [[paper]](https://arxiv.org/abs/2211.06582)
   - Zachary Izzo, Jinsung Yoon, Sercan O. Arik, James Zou.
   - Key Word: Membership Inference Attacks; Differential Privacy.
@@ -1768,6 +1783,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Data-Centric Debugging: mitigating model failures via targeted data collection. [[paper]](https://arxiv.org/abs/2211.09859)
+  - Sahil Singla, Atoosa Malemir Chegini, Mazda Moayeri, Soheil Feiz.
+  - Key Word: Debugging and Explainability; Visual Similarity Metrics.
+  - <details><summary>Digest</summary> We propose a general methodology for model debugging that can systemically improve model performance on E while maintaining its performance on the original test set. Our key assumption is that we have access to a large pool of weakly (noisily) labeled data F. However, naively adding F to the training would hurt model performance due to the large extent of label noise. Our Data-Centric Debugging (DCD) framework carefully creates a debug-train set by selecting images from F that are perceptually similar to the images in Esample.
 
 - Verifying And Interpreting Neural Networks using Finite Automata. [[paper]](https://arxiv.org/abs/2211.01022) [[code]](https://github.com/marcosaelzer/nn2nfa)
   - Marco Sälzer, Eric Alsmann, Florian Bruse, Martin Lange.
