@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- First Steps Toward Understanding the Extrapolation of Nonlinear Models to Unseen Domains. [[paper]](https://arxiv.org/abs/2211.11719)
+  - Kefan Dong, Tengyu Ma.
+  - Key Word: Domain Generalization; Domain Generalization; Extrapolation.
+  - <details><summary>Digest</summary> This paper makes some initial steps towards analyzing the extrapolation of nonlinear models for structured domain shift. We primarily consider settings where the marginal distribution of each coordinate of the data (or subset of coordinates) do not shift significantly across the training and test distributions, but the joint distribution may have a much bigger shift. 
+
 - Invariant Learning via Diffusion Dreamed Distribution Shifts. [[paper]](https://arxiv.org/abs/2211.10370)
   - Priyatham Kattakinda, Alexander Levine, Soheil Feizi.
   - Key Word: Foreground and Background; Distribution Shifts; Text-to-Image Diffusion Models.
@@ -587,6 +592,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- Towards Robust Dataset Learning. [[paper]](https://arxiv.org/abs/2211.10752)
+  - Yihan Wu, Xinda Li, Florian Kerschbaum, Heng Huang, Hongyang Zhang.
+  - Key Word: Adversarial Robustness; Dataset Distillation.
+  - <details><summary>Digest</summary> We study the problem of learning a robust dataset such that any classifier naturally trained on the dataset is adversarially robust. Such a dataset benefits the downstream tasks as natural training is much faster than adversarial training, and demonstrates that the desired property of robustness is transferable between models and data. We propose a principled, tri-level optimization to formulate the robust dataset learning problem. We show that, under an abstraction model that characterizes robust vs. non-robust features, the proposed method provably learns a robust dataset. 
 
 - Diagnostics for Deep Neural Networks with Automated Copy/Paste Attacks. [[paper]](https://arxiv.org/abs/2211.10024) [[code]](https://github.com/thestephencasper/snafue)
   - Stephen Casper, Kaivalya Hariharan, Dylan Hadfield-Menell.
