@@ -593,6 +593,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Fairness Increases Adversarial Vulnerability. [[paper]](https://arxiv.org/abs/2211.11835)
+  - Cuong Tran, Keyu Zhu, Ferdinando Fioretto, Pascal Van Henternyck.
+  - Key Word: Adversarial Robustness; Fairness.
+  - <details><summary>Digest</summary> This paper shows the existence of a dichotomy between fairness and robustness, and analyzes when achieving fairness decreases the model robustness to adversarial samples. The reported analysis sheds light on the factors causing such contrasting behavior, suggesting that distance to the decision boundary across groups as a key explainer for this behavior.
+
 - Towards Robust Dataset Learning. [[paper]](https://arxiv.org/abs/2211.10752)
   - Yihan Wu, Xinda Li, Florian Kerschbaum, Heng Huang, Hongyang Zhang.
   - Key Word: Adversarial Robustness; Dataset Distillation.
@@ -1793,6 +1798,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Aria Masoomi, Davin Hill, Zhonghui Xu, Craig P Hersh, Edwin K. Silverman, Peter J. Castaldi, Stratis Ioannidis, Jennifer Dy. *ICLR 2022*
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
+
+- Interpreting Neural Networks through the Polytope Lens. [[paper]](https://arxiv.org/abs/2211.12312)
+  - Sid Black, Lee Sharkey, Leo Grinsztajn, Eric Winsor, Dan Braun, Jacob Merizian, Kip Parker, Carlos Ramón Guevara, Beren Millidge, Gabriel Alfour, Connor Leahy.
+  - Key Word: Interpreting Polytopes; Single Neurons; Polysemanticity and Superposition.
+  - <details><summary>Digest</summary> Polysemanticity makes interpreting the network in terms of neurons or directions challenging since we can no longer assign a specific feature to a neural unit. In order to find a basic unit of description that does not suffer from these problems, we zoom in beyond just directions to study the way that piecewise linear activation functions (such as ReLU) partition the activation space into numerous discrete polytopes. We call this perspective the polytope lens. The polytope lens makes concrete predictions about the behavior of neural networks, which we evaluate through experiments on both convolutional image classifiers and language models.
 
 - Data-Centric Debugging: mitigating model failures via targeted data collection. [[paper]](https://arxiv.org/abs/2211.09859)
   - Sahil Singla, Atoosa Malemir Chegini, Mazda Moayeri, Soheil Feiz.
