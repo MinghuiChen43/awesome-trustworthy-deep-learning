@@ -593,6 +593,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
 
+- Benchmarking Adversarially Robust Quantum Machine Learning at Scale. [[paper]](https://arxiv.org/abs/2211.12681)
+  - Maxwell T. West, Sarah M. Erfani, Christopher Leckie, Martin Sevior, Lloyd C.L. Hollenberg, Muhammad Usman.
+  - Key Word: Adversarial Robustness; Quantum Machine Learning.
+  - <details><summary>Digest</summary> We benchmark the robustness of quantum ML networks, such as quantum variational classifiers (QVC), at scale by performing rigorous training for both simple and complex image datasets and through a variety of high-end adversarial attacks. Our results show that QVCs offer a notably enhanced robustness against classical adversarial attacks by learning features which are not detected by the classical neural networks, indicating a possible quantum advantage for ML tasks. 
+
+- Improving Robust Generalization by Direct PAC-Bayesian Bound Minimization. [[paper]](https://arxiv.org/abs/2211.12624)
+  - Zifan Wang, Nan Ding, Tomer Levinboim, Xi Chen, Radu Soricut.
+  - Key Word: Adversarial Robustness; PAC-Bayes.
+  - <details><summary>Digest</summary> We consider a different form of the robust PAC-Bayesian bound and directly minimize it with respect to the model posterior. The derivation of the optimal solution connects PAC-Bayesian learning to the geometry of the robust loss surface through a Trace of Hessian (TrH) regularizer that measures the surface flatness. In practice, we restrict the TrH regularizer to the top layer only, which results in an analytical solution to the bound whose computational cost does not depend on the network depth. 
+
 - Fairness Increases Adversarial Vulnerability. [[paper]](https://arxiv.org/abs/2211.11835)
   - Cuong Tran, Keyu Zhu, Ferdinando Fioretto, Pascal Van Henternyck.
   - Key Word: Adversarial Robustness; Fairness.
@@ -1621,6 +1631,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- BiasBed -- Rigorous Texture Bias Evaluation. [[paper]](https://arxiv.org/abs/2211.13190) [[code]](https://github.com/D1noFuzi/BiasBed)
+  - Nikolai Kalischek, Rodrigo C. Daudt, Torben Peters, Jan D. Wegner, Konrad Schindler.
+  - Key Word: Texture Bias.
+  - <details><summary>Digest</summary> We investigate difficulties and limitations when training networks with reduced texture bias. In particular, we also show that proper evaluation and meaningful comparisons between methods are not trivial. We introduce BiasBed, a testbed for texture- and style-biased training, including multiple datasets and a range of existing algorithms. It comes with an extensive evaluation protocol that includes rigorous hypothesis testing to gauge the significance of the results, despite the considerable training instability of some style bias methods.
 
 - Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale. [[paper]](https://arxiv.org/abs/2211.03759)
   - Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, Aylin Caliskan.
