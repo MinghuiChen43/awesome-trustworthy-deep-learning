@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Wild-Time: A Benchmark of in-the-Wild Distribution Shift over Time. [[paper]](https://arxiv.org/abs/2211.14238) [[code]](https://github.com/huaxiuyao/wild-time)
+  - Huaxiu Yao, Caroline Choi, Bochuan Cao, Yoonho Lee, Pang Wei Koh, Chelsea Finn. *NeurIPS 2022*
+  - Key Word: Temporal Distribution Shift.
+  - <details><summary>Digest</summary> By leveraging timestamp metadata, models can potentially learn from trends in past distribution shifts and extrapolate into the future. While recent works have studied distribution shifts, temporal shifts remain underexplored. To address this gap, we curate Wild-Time, a benchmark of 5 datasets that reflect temporal distribution shifts arising in a variety of real-world applications, including patient prognosis and news classification. On these datasets, we systematically benchmark 13 prior approaches, including methods in domain generalization, continual learning, self-supervised learning, and ensemble learning. 
+
 - First Steps Toward Understanding the Extrapolation of Nonlinear Models to Unseen Domains. [[paper]](https://arxiv.org/abs/2211.11719)
   - Kefan Dong, Tengyu Ma.
   - Key Word: Domain Generalization; Domain Generalization; Extrapolation.
@@ -592,6 +597,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Rahul Rade, Seyed-Mohsen Moosavi-Dezfooli. *ICLR 2022*
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> We closely examine the changes induced in the decision boundary of a deep network during adversarial training. We find that adversarial training leads to unwarranted increase in the margin along certain adversarial directions, thereby hurting accuracy. Motivated by this observation, we present a novel algorithm, called Helper-based Adversarial Training (HAT), to reduce this effect by incorporating additional wrongly labelled examples during training.
+
+- Invariance-Aware Randomized Smoothing Certificates. [[paper]](https://arxiv.org/abs/2211.14207)
+  - Jan Schuchardt, Stephan Günnemann. *NeurIPS 2022*
+  - Key Word: Randomized Smoothing; Group Invariance.
+  - <details><summary>Digest</summary> Building models that comply with the invariances inherent to different domains, such as invariance under translation or rotation, is a key aspect of applying machine learning to real world problems like molecular property prediction, medical imaging, protein folding or LiDAR classification. For the first time, we study how the invariances of a model can be leveraged to provably guarantee the robustness of its predictions. We propose a gray-box approach, enhancing the powerful black-box randomized smoothing technique with white-box knowledge about invariances.
 
 - Benchmarking Adversarially Robust Quantum Machine Learning at Scale. [[paper]](https://arxiv.org/abs/2211.12681)
   - Maxwell T. West, Sarah M. Erfani, Christopher Leckie, Martin Sevior, Lloyd C.L. Hollenberg, Muhammad Usman.
