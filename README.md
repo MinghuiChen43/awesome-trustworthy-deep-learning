@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Chroma-VAE: Mitigating Shortcut Learning with Generative Classifiers. [[paper]](https://arxiv.org/abs/2211.15231)
+  - Wanqian Yang, Polina Kirichenko, Micah Goldblum, Andrew Gordon Wilson. *NeurIPS 2022*
+  - Key Word: Shortcut Learning; Generative Classifiers; Group Robustness.
+  - <details><summary>Digest</summary> We show that generative models alone are not sufficient to prevent shortcut learning, despite an incentive to recover a more comprehensive representation of the data than discriminative approaches. However, we observe that shortcuts are preferentially encoded with minimal information, a fact that generative models can exploit to mitigate shortcut learning. In particular, we propose Chroma-VAE, a two-pronged approach where a VAE classifier is initially trained to isolate the shortcut in a small latent subspace, allowing a secondary classifier to be trained on the complementary, shortcut-free latent subspace. 
+
 - Wild-Time: A Benchmark of in-the-Wild Distribution Shift over Time. [[paper]](https://arxiv.org/abs/2211.14238) [[code]](https://github.com/huaxiuyao/wild-time)
   - Huaxiu Yao, Caroline Choi, Bochuan Cao, Yoonho Lee, Pang Wei Koh, Chelsea Finn. *NeurIPS 2022*
   - Key Word: Temporal Distribution Shift.
