@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Malign Overfitting: Interpolation Can Provably Preclude Invariance. [[paper]](https://arxiv.org/abs/2211.15724)
+  - Yoav Wald, Gal Yona, Uri Shalit, Yair Carmon.
+  - Key Word: Invariant Learning; Overfitting; Interpolation.
+  - <details><summary>Digest</summary> In this work we provide a theoretical justification for these observations. We prove that -- even in the simplest of settings -- any interpolating learning rule (with arbitrarily small margin) will not satisfy these invariance properties. We then propose and analyze an algorithm that -- in the same setting -- successfully learns a non-interpolating classifier that is provably invariant. We validate our theoretical observations on simulated data and the Waterbirds dataset.
+
 - Chroma-VAE: Mitigating Shortcut Learning with Generative Classifiers. [[paper]](https://arxiv.org/abs/2211.15231)
   - Wanqian Yang, Polina Kirichenko, Micah Goldblum, Andrew Gordon Wilson. *NeurIPS 2022*
   - Key Word: Shortcut Learning; Generative Classifiers; Group Robustness.
