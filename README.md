@@ -2187,6 +2187,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
 
+- PAC Verification of Statistical Algorithms. [[paper]](https://arxiv.org/abs/2211.17096)
+  - Saachi Mutreja, Jonathan Shafer.  
+  - Key Word: PAC Verification.
+  - <details><summary>Digest</summary> We develop this notion further in a number of ways. First, we prove a lower bound for PAC verification of Ω(d−−√) i.i.d. samples for hypothesis classes of VC dimension d. Second, we present a protocol for PAC verification of unions of intervals over R that improves upon their proposed protocol for that task, and matches our lower bound. Third, we introduce a natural generalization of their definition to verification of general statistical algorithms, which is applicable to a wider variety of practical algorithms beyond agnostic PAC learning. 
+
 - DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems. [[paper]](https://arxiv.org/abs/2211.05764)
   - Nabeel Seedat, Fergus Imrie, Mihaela van der Schaar.
   - Key Word: Data-centric AI; ML Pipelines, Reliable ML.
