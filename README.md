@@ -2096,6 +2096,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
   - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems.
 
+- RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness. [[paper]](https://arxiv.org/abs/2206.14502) [[code]](https://github.com/FrancescoPinto/RegMixup)
+  - Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania. *NeurIPS 2022*
+  - Key Word: Mixup; Out-of-Distribution Detection; Out-of-Distribution Robustness.
+  - <details><summary>Digest</summary> We observe that Mixup yields much degraded performance on detecting out-of-distribution samples possibly, as we show empirically, because of its tendency to learn models that exhibit high-entropy throughout; making it difficult to differentiate in-distribution samples from out-distribution ones. To show the efficacy of our approach (RegMixup), we provide thorough analyses and experiments on vision datasets (ImageNet & CIFAR-10/100) and compare it with a suite of recent approaches for reliable uncertainty estimation.
+
 - Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization. [[paper]](https://arxiv.org/abs/2206.11134) [[code]](https://github.com/pealing/medet)
   - Peixian Chen, Kekai Sheng, Mengdan Zhang, Yunhang Shen, Ke Li, Chunhua Shen.
   - Key Word: Open-vocabulary Object Detection; Backdoor Adjustment.
