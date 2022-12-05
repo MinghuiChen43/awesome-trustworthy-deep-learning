@@ -2192,6 +2192,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
 
+- Navigating causal deep learning. [[paper]](https://arxiv.org/abs/2212.00911)
+  - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
+  - Key Word: Causality.
+  - <details><summary>Digest</summary> This is a living paper that categorises methods in causal deep learning beyond Pearl's ladder of causation. We refine the rungs in Pearl's ladder, while also adding a separate dimension that categorises the parametric assumptions of both input and representation, arriving at the map of causal deep learning. Our map covers machine learning disciplines such as supervised learning, reinforcement learning, generative modelling and beyond. 
+
 - PAC Verification of Statistical Algorithms. [[paper]](https://arxiv.org/abs/2211.17096)
   - Saachi Mutreja, Jonathan Shafer.  
   - Key Word: PAC Verification.
