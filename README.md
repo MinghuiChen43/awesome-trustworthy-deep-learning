@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Avoiding spurious correlations via logit correction. [[paper]](https://arxiv.org/abs/2212.01433)
+  - Sheng Liu, Xu Zhang, Nitesh Sekhar, Yue Wu, Prateek Singhal, Carlos Fernandez-Granda.
+  - Key Word: Mitigating Spurious Correlations; Logit Correction.
+  - <details><summary>Digest</summary> We explicitly consider a situation where potential spurious correlations are present in the majority of training data. In contrast with existing approaches, which use the ERM model outputs to detect the samples without spurious correlations, and either heuristically upweighting or upsampling those samples; we propose the logit correction (LC) loss, a simple yet effective improvement on the softmax cross-entropy loss, to correct the sample logit. 
+
 - Malign Overfitting: Interpolation Can Provably Preclude Invariance. [[paper]](https://arxiv.org/abs/2211.15724)
   - Yoav Wald, Gal Yona, Uri Shalit, Yair Carmon.
   - Key Word: Invariant Learning; Overfitting; Interpolation.
