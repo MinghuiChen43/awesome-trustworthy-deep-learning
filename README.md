@@ -86,6 +86,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Spuriosity Rankings: Sorting Data for Spurious Correlation Robustness. [[paper]](https://arxiv.org/abs/2212.02648)
+  - Mazda Moayeri, Wenxiao Wang, Sahil Singla, Soheil Feizi.
+  - Key Word: Mitigating Spurious Correlations; Spurious Correlation Benchmarks; Natural Image-based Interpretability.
+  - <details><summary>Digest</summary> We present a framework for ranking images within their class based on the strength of spurious cues present. By measuring the gap in accuracy on the highest and lowest ranked images (we call this spurious gap), we assess spurious feature reliance for 89 diverse ImageNet models, finding that even the best models underperform in images with weak spurious presence. 
+
 - Avoiding spurious correlations via logit correction. [[paper]](https://arxiv.org/abs/2212.01433)
   - Sheng Liu, Xu Zhang, Nitesh Sekhar, Yue Wu, Prateek Singhal, Carlos Fernandez-Granda.
   - Key Word: Mitigating Spurious Correlations; Logit Correction.
