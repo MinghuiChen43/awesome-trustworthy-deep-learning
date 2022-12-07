@@ -49,6 +49,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Non-Imaging Medical Data Generation; Healthcare; Survey.
   - <details><summary>Digest</summary> State-of-the-art data synthesis algorithms, especially deep learning algorithms, focus more on imaging data while neglecting the synthesis of non-imaging healthcare data, including clinical measurements, medical signals and waveforms, and electronic healthcare records (EHRs). Thus, in this paper, we will review the synthesis algorithms, particularly for non-imaging medical data, with the aim of providing trustworthy AI in this domain. This tutorial-styled review paper will provide comprehensive descriptions of non-imaging medical data synthesis on aspects including algorithms, evaluations, limitations and future research directions.
 
+- Trustworthy Reinforcement Learning Against Intrinsic Vulnerabilities: Robustness, Safety, and Generalizability. [[paper]](https://arxiv.org/abs/2209.08025)
+  - Mengdi Xu, Zuxin Liu, Peide Huang, Wenhao Ding, Zhepeng Cen, Bo Li, Ding Zhao.
+  - Key Word: Reinforcement Learning; Distribution Shifts; Robustness; Safety; Survey.
+  - <details><summary>Digest</summary> A trustworthy reinforcement learning algorithm should be competent in solving challenging real-world problems, including {robustly} handling uncertainties, satisfying {safety} constraints to avoid catastrophic failures, and {generalizing} to unseen scenarios during deployments. This study aims to overview these main perspectives of trustworthy reinforcement learning considering its intrinsic vulnerabilities on robustness, safety, and generalizability. 
+
 - Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2208.06265)
   - Shoujin Wang, Xiuzhen Zhang, Yan Wang, Huan Liu, Francesco Ricci.
   - Key Word: Survey; Recommender Systems; Trustworthy Recommendation.
