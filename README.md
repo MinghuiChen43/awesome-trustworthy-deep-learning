@@ -1255,6 +1255,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Reconstructing Training Data from Model Gradient, Provably. [[paper]](https://arxiv.org/abs/2212.03714)
+  - Zihan Wang, Jason Lee, Qi Lei.
+  - Key Word: Federated Learning; Gradient Inversion; Tensor Decomposition.
+  - <details><summary>Digest</summary> We present a surprising result: even without training or memorizing the data, we can fully reconstruct the training samples from a single gradient query at a randomly chosen parameter value. We prove the identifiability of the training data under mild conditions: with shallow or deep neural networks and a wide range of activation functions. 
+
 - Leveraging Algorithmic Fairness to Mitigate Blackbox Attribute Inference Attacks. [[paper]](https://arxiv.org/abs/2211.10209)
   - Jan Aalmoes, Vasisht Duddu, Antoine Boutet.
   - Key Word: Fairness; Attribute Inference Attacks.
