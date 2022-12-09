@@ -1255,6 +1255,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Privacy
 
+- Leveraging Unlabeled Data to Track Memorization. [[paper]](https://arxiv.org/abs/2212.04461)
+  - Mahsa Forouzesh, Hanie Sedghi, Patrick Thiran.
+  - Key Word: Memorization; Noisy Label.
+  - <details><summary>Digest</summary> Deep neural networks may easily memorize noisy labels present in real-world data, which degrades their ability to generalize. It is therefore important to track and evaluate the robustness of models against noisy label memorization. We propose a metric, called susceptibility, to gauge such memorization for neural networks. Susceptibility is simple and easy to compute during training. 
+
+- Vicious Classifiers: Data Reconstruction Attack at Inference Time. [[paper]](https://arxiv.org/abs/2212.04223)
+  - Mohammad Malekzadeh, Deniz Gunduz.
+  - Key Word: Data Privacy; Data Reconstruction Attack.
+  - <details><summary>Digest</summary> We show the possibility of jointly training a target model (to be run at users' side) and an attack model for data reconstruction (to be secretly used at server's side). We introduce the ''reconstruction risk'': a new measure for assessing the quality of reconstructed data that better captures the privacy risk of such attacks. Experimental results on 6 benchmark datasets show that for low-complexity data types, or for tasks with larger number of classes, a user's personal data can be approximately reconstructed from the outputs of a single target inference task. 
+
 - Reconstructing Training Data from Model Gradient, Provably. [[paper]](https://arxiv.org/abs/2212.03714)
   - Zihan Wang, Jason Lee, Qi Lei.
   - Key Word: Federated Learning; Gradient Inversion; Tensor Decomposition.
