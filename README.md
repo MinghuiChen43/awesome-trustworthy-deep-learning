@@ -1864,6 +1864,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- Spurious Features Everywhere -- Large-Scale Detection of Harmful Spurious Features in ImageNet. [[paper]](https://arxiv.org/abs/2212.04871)
+  - Yannic Neuhaus, Maximilian Augustin, Valentyn Boreiko, Matthias Hein.
+  - Key Word: Spurious Features; Interpretability.
+  - <details><summary>Digest</summary> We develop a framework that allows us to systematically identify spurious features in large datasets like ImageNet. It is based on our neural PCA components and their visualization. Previous work on spurious features of image classifiers often operates in toy settings or requires costly pixel-wise annotations. In contrast, we validate our results by checking that presence of the harmful spurious feature of a class is sufficient to trigger the prediction of that class. 
+
+- Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation. [[paper]](https://arxiv.org/abs/2212.04629)
+  - Julius Adebayo, Michael Muelly, Hal Abelson, Been Kim.
+  - Key Word: Feature Attributions; Concept Activation; Training Point Ranking.
+  - <details><summary>Digest</summary> We investigate whether three types of post hoc model explanations--feature attribution, concept activation, and training point ranking--are effective for detecting a model's reliance on spurious signals in the training data. Specifically, we consider the scenario where the spurious signal to be detected is unknown, at test-time, to the user of the explanation method. We design an empirical methodology that uses semi-synthetic datasets along with pre-specified spurious artifacts to obtain models that verifiably rely on these spurious training signals. 
+
 - Interpreting Neural Networks through the Polytope Lens. [[paper]](https://arxiv.org/abs/2211.12312)
   - Sid Black, Lee Sharkey, Leo Grinsztajn, Eric Winsor, Dan Braun, Jacob Merizian, Kip Parker, Carlos Ramón Guevara, Beren Millidge, Gabriel Alfour, Connor Leahy.
   - Key Word: Interpreting Polytopes; Single Neurons; Polysemanticity and Superposition.
