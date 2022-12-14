@@ -91,6 +91,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Minimax Optimal Estimation of Stability Under Distribution Shift. [[paper]](https://arxiv.org/abs/2212.06338)
+  - Hongseok Namkoong, Yuanzhe Ma, Peter W. Glynn.
+  - Key Word: Stability; Robustness; Distributional Uncertainty; Model Misspecification.
+  - <details><summary>Digest</summary> The performance of decision policies and prediction models often deteriorates when applied to environments different from the ones seen during training. To ensure reliable operation, we propose and analyze the stability of a system under distribution shift, which is defined as the smallest change in the underlying environment that causes the system's performance to deteriorate beyond a permissible threshold. In contrast to standard tail risk measures and distributionally robust losses that require the specification of a plausible magnitude of distribution shift, the stability measure is defined in terms of a more intuitive quantity: the level of acceptable performance degradation.
+
 - Spuriosity Rankings: Sorting Data for Spurious Correlation Robustness. [[paper]](https://arxiv.org/abs/2212.02648)
   - Mazda Moayeri, Wenxiao Wang, Sahil Singla, Soheil Feizi.
   - Key Word: Mitigating Spurious Correlations; Spurious Correlation Benchmarks; Natural Image-based Interpretability.
@@ -1681,6 +1686,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This work studies this question from the lens of a powerful informed adversary who knows all the training data points except one. By instantiating concrete attacks, we show it is feasible to reconstruct the remaining data point in this stringent threat model. For convex models (e.g. logistic regression), reconstruction attacks are simple and can be derived in closed-form. For more general models (e.g. neural networks), we propose an attack strategy based on training a reconstructor network that receives as input the weights of the model under attack and produces as output the target data point. 
 
 ## Fairness
+
+- Fairify: Fairness Verification of Neural Networks. [[paper]](https://arxiv.org/abs/2212.06140) [[code]](https://github.com/sumonbis/farify)
+  - Sumon Biswas, Hridesh Rajan. *ICSE 2023*
+  - Key Word: Fairness Verification.
+  - <details><summary>Digest</summary> We proposed Fairify, the first SMT-based approach to verify individual fairness property in neural network (NN) models. Individual fairness ensures that any two similar individuals get similar treatment irrespective of their protected attributes e.g., race, sex, age. Verifying this fairness property is hard because of its global nature and the presence of non-linear computation nodes in NN. We proposed sound approach to make individual fairness verification tractable for the developers. The key idea is that many neurons in the NN always remain inactive when a smaller part of the input domain is considered. 
 
 - BiasBed -- Rigorous Texture Bias Evaluation. [[paper]](https://arxiv.org/abs/2211.13190) [[code]](https://github.com/D1noFuzi/BiasBed)
   - Nikolai Kalischek, Rodrigo C. Daudt, Torben Peters, Jan D. Wegner, Konrad Schindler.
