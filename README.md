@@ -91,6 +91,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Domain Generalization by Learning and Removing Domain-specific Features. [[paper]](https://arxiv.org/abs/2212.07101) [[code]](https://github.com/yulearningg/LRDG)
+  - Yu Ding, Lei Wang, Bin Liang, Shuming Liang, Yang Wang, Fang Chen.
+  - Key Word: Domain Generalization; Domain-Specific Features.
+  - <details><summary>Digest</summary> We propose a novel framework called Learning and Removing Domain-specific features for Generalization (LRDG) that learns a domain-invariant model by tactically removing domain-specific features from the input images. Specifically, we design a classifier to effectively learn the domain-specific features for each source domain, respectively. We then develop an encoder-decoder network to map each input image into a new image space where the learned domain-specific features are removed. 
+
 - Minimax Optimal Estimation of Stability Under Distribution Shift. [[paper]](https://arxiv.org/abs/2212.06338)
   - Hongseok Namkoong, Yuanzhe Ma, Peter W. Glynn.
   - Key Word: Stability; Robustness; Distributional Uncertainty; Model Misspecification.
@@ -1874,6 +1879,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Explainability; Shapley Values; Feature Interactions.
   - <details><summary>Digest</summary> Several recent works explain black-box models by capturing the most influential features for prediction per instance; such explanation methods are univariate, as they characterize importance per feature.  We extend univariate explanation to a higher-order; this enhances explainability, as bivariate methods can capture feature interactions in black-box models, represented as a directed graph.  
 
+- On the Relationship Between Explanation and Prediction: A Causal View. [[paper]](https://arxiv.org/abs/2212.06925)
+  - Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim.
+  - Key Word: Quantify Explanation; Causal Inference.
+  - <details><summary>Digest</summary> While previous work empirically hinted that explanations (E) may have little relationship with the prediction (Y), there is a lack of conclusive study to quantify this relationship. Our work borrows tools from causal inference to systematically assay this relationship. More specifically, we measure the relationship between E and Y by measuring the treatment effect when intervening on their causal ancestors (hyperparameters) (inputs to generate saliency-based Es or Ys). 
+
 - Spurious Features Everywhere -- Large-Scale Detection of Harmful Spurious Features in ImageNet. [[paper]](https://arxiv.org/abs/2212.04871)
   - Yannic Neuhaus, Maximilian Augustin, Valentyn Boreiko, Matthias Hein.
   - Key Word: Spurious Features; Interpretability.
@@ -2241,6 +2251,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Weixin Liang, Girmaw Abebe Tadesse, Daniel Ho, Fei-Fei Li, Matei Zaharia, Ce Zhang, James Zou. *Nature Machine Intelligence*
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
+
+- Editing Models with Task Arithmetic. [[paper]](https://arxiv.org/abs/2212.04089) [[code]](https://github.com/mlfoundations/task_vectors)
+  - Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi.
+  - Key Word: Model Editting; Forgetting; Domain Adaptation; Fine-Tuning; Weight Averaging; Loss Landsacpe.
+  - <details><summary>Digest</summary> We propose a new paradigm for steering the behavior of neural networks, centered around task vectors. A task vector specifies a direction in the weight space of a pre-trained model, such that movement in that direction improves performance on the task. We build task vectors by subtracting the weights of a pre-trained model from the weights of the same model after fine-tuning on a task. We show that these task vectors can be modified and combined together through arithmetic operations such as negation and addition, and the behavior of the resulting model is steered accordingly. 
 
 - Navigating causal deep learning. [[paper]](https://arxiv.org/abs/2212.00911)
   - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
