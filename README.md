@@ -2252,15 +2252,20 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Trustworthy AI; Data Design; Data Sculpting; Data Strategies; Data Policy.
   - <details><summary>Digest</summary> Automated AI model builders that are publicly available can now achieve top performance in many applications. In contrast, the design and sculpting of the data used to develop AI often rely on bespoke manual work, and they critically affect the trustworthiness of the model. This Perspective discusses key considerations for each stage of the data-for-AI pipeline—starting from data design to data sculpting (for example, cleaning, valuation and annotation) and data evaluation—to make AI more reliable.
 
-- Editing Models with Task Arithmetic. [[paper]](https://arxiv.org/abs/2212.04089) [[code]](https://github.com/mlfoundations/task_vectors)
-  - Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi.
-  - Key Word: Model Editting; Forgetting; Domain Adaptation; Fine-Tuning; Weight Averaging; Loss Landsacpe.
-  - <details><summary>Digest</summary> We propose a new paradigm for steering the behavior of neural networks, centered around task vectors. A task vector specifies a direction in the weight space of a pre-trained model, such that movement in that direction improves performance on the task. We build task vectors by subtracting the weights of a pre-trained model from the weights of the same model after fine-tuning on a task. We show that these task vectors can be modified and combined together through arithmetic operations such as negation and addition, and the behavior of the resulting model is steered accordingly. 
+- Efficient Conditionally Invariant Representation Learning. [[paper]](https://arxiv.org/abs/2212.08645) [[code]](https://github.com/namratadeka/circe)
+  - Roman Pogodin, Namrata Deka, Yazhe Li, Danica J. Sutherland, Victor Veitch, Arthur Gretton.
+  - Key Word: Fairness; Domain Invariant Learning; Causal Representation Learning.
+  - <details><summary>Digest</summary> We introduce the Conditional Independence Regression CovariancE (CIRCE), a measure of conditional independence for multivariate continuous-valued variables. CIRCE applies as a regularizer in settings where we wish to learn neural features φ(X) of data X to estimate a target Y, while being conditionally independent of a distractor Z given Y. Both Z and Y are assumed to be continuous-valued but relatively low dimensional, whereas X and its features may be complex and high dimensional.
 
 - Navigating causal deep learning. [[paper]](https://arxiv.org/abs/2212.00911)
   - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
   - Key Word: Causality.
   - <details><summary>Digest</summary> This is a living paper that categorises methods in causal deep learning beyond Pearl's ladder of causation. We refine the rungs in Pearl's ladder, while also adding a separate dimension that categorises the parametric assumptions of both input and representation, arriving at the map of causal deep learning. Our map covers machine learning disciplines such as supervised learning, reinforcement learning, generative modelling and beyond. 
+
+- Editing Models with Task Arithmetic. [[paper]](https://arxiv.org/abs/2212.04089) [[code]](https://github.com/mlfoundations/task_vectors)
+  - Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi.
+  - Key Word: Model Editting; Forgetting; Domain Adaptation; Fine-Tuning; Weight Averaging; Loss Landsacpe.
+  - <details><summary>Digest</summary> We propose a new paradigm for steering the behavior of neural networks, centered around task vectors. A task vector specifies a direction in the weight space of a pre-trained model, such that movement in that direction improves performance on the task. We build task vectors by subtracting the weights of a pre-trained model from the weights of the same model after fine-tuning on a task. We show that these task vectors can be modified and combined together through arithmetic operations such as negation and addition, and the behavior of the resulting model is steered accordingly. 
 
 - PAC Verification of Statistical Algorithms. [[paper]](https://arxiv.org/abs/2211.17096)
   - Saachi Mutreja, Jonathan Shafer.  
