@@ -1128,6 +1128,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Poisoning Attacks and Defenses
 
+- Fine-Tuning Is All You Need to Mitigate Backdoor Attacks. [[paper]](https://arxiv.org/abs/2212.09067)
+  - Zeyang Sha, Xinlei He, Pascal Berrang, Mathias Humbert, Yang Zhang.
+  - Key Word: Backdoor Defenses; Fine-Tuning.
+  - <details><summary>Digest</summary> We show that fine-tuning, one of the most common and easy-to-adopt machine learning training operations, can effectively remove backdoors from machine learning models while maintaining high model utility. Extensive experiments over three machine learning paradigms show that fine-tuning and our newly proposed super-fine-tuning achieve strong defense performance. 
+
 - FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated Learning. [[paper]](https://arxiv.org/abs/2210.12873)
   - Kaiyuan Zhang, Guanhong Tao, Qiuling Xu, Siyuan Cheng, Shengwei An, Yingqi Liu, Shiwei Feng, Guangyu Shen, Pin-Yu Chen, Shiqing Ma, Xiangyu Zhang.
   - Key Word: Backdoor Defenses; Federated Learning.
