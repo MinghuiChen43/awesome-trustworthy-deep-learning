@@ -1,6 +1,5 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/graphs/commit-activity)
 ![ ](https://img.shields.io/github/last-commit/MinghuiChen43/awesome-trustworthy-deep-learning)
-<!-- ![visitor badge](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=MinghuiChen43/awesome-trustworthy-deep-learning&text=views&color=crimson) -->
 [![GitHub stars](https://img.shields.io/github/stars/MinghuiChen43/awesome-trustworthy-deep-learning?color=blue&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/MinghuiChen43/awesome-trustworthy-deep-learning?color=yellow&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning)
 [![GitHub forks](https://img.shields.io/github/forks/MinghuiChen43/awesome-trustworthy-deep-learning?color=red&style=plastic)](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/watchers)
@@ -90,6 +89,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Chaochao Lu, Yuhuai Wu, José Miguel Hernández-Lobato, Bernhard Schölkopf. *ICLR 2022*
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
+
+- Recycling diverse models for out-of-distribution generalization. [[paper]](https://arxiv.org/abs/2212.10445)
+  - Alexandre Ramé, Kartik Ahuja, Jianyu Zhang, Matthieu Cord, Léon Bottou, David Lopez-Paz.
+  - Key Word: Out-of-Distribution Generalization; Fine-Tuning; Weight Averaging.
+  - <details><summary>Digest</summary> We propose model recycling, a simple strategy that leverages multiple fine-tunings of the same foundation model on diverse auxiliary tasks, and repurposes them as rich and diverse initializations for the target task. Specifically, model recycling fine-tunes in parallel each specialized model on the target task, and then averages the weights of all target fine-tunings into a final model. 
 
 - Domain Generalization by Learning and Removing Domain-specific Features. [[paper]](https://arxiv.org/abs/2212.07101) [[code]](https://github.com/yulearningg/LRDG)
   - Yu Ding, Lei Wang, Bin Liang, Shuming Liang, Yang Wang, Fang Chen.
