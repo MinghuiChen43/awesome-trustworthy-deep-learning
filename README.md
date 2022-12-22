@@ -1132,6 +1132,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Poisoning Attacks and Defenses
 
+- Hidden Poison: Machine Unlearning Enables Camouflaged Poisoning Attacks. [[paper]](https://arxiv.org/abs/2212.10717) [[code]](https://github.com/jimmy-di/camouflage-poisoning)
+  - Jimmy Z. Di, Jack Douglas, Jayadev Acharya, Gautam Kamath, Ayush Sekhari.
+  - Key Word: Poisoning Attacks; Machine Unlearning.
+  - <details><summary>Digest</summary> We introduce camouflaged data poisoning attacks, a new attack vector that arises in the context of machine unlearning and other settings when model retraining may be induced. An adversary first adds a few carefully crafted points to the training dataset such that the impact on the model's predictions is minimal. The adversary subsequently triggers a request to remove a subset of the introduced points at which point the attack is unleashed and the model's predictions are negatively affected.
+
 - Fine-Tuning Is All You Need to Mitigate Backdoor Attacks. [[paper]](https://arxiv.org/abs/2212.09067)
   - Zeyang Sha, Xinlei He, Pascal Berrang, Mathias Humbert, Yang Zhang.
   - Key Word: Backdoor Defenses; Fine-Tuning.
@@ -1273,6 +1278,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> We propose a detection framework based on BP reverse-engineering and a novel expected transferability (ET) statistic. We show that our ET statistic is effective using the same detection threshold, irrespective of the classification domain, the attack configuration, and the BP reverse-engineering algorithm that is used.
 
 ## Privacy
+
+- SoK: Let The Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning. [[paper]](https://arxiv.org/abs/2212.10986)
+  - Ahmed Salem, Giovanni Cherubin, David Evans, Boris Köpf, Andrew Paverd, Anshuman Suri, Shruti Tople, Santiago Zanella-Béguelin.
+  - Key Word: Survey; Privacy Attacks; Membership Inference Attacks; Attribute Inference Attacks; Property Inference Attacks; Data Reconstruction.
+  - <details><summary>Digest</summary> Deploying machine learning models in production may allow adversaries to infer sensitive information about training data. There is a vast literature analyzing different types of inference risks, ranging from membership inference to reconstruction attacks. Inspired by the success of games (i.e., probabilistic experiments) to study security properties in cryptography, some authors describe privacy inference risks in machine learning using a similar game-based style. However, adversary capabilities and goals are often stated in subtly different ways from one presentation to the other, which makes it hard to relate and compose results. In this paper, we present a game-based framework to systematize the body of knowledge on privacy inference risks in machine learning.
 
 - Leveraging Unlabeled Data to Track Memorization. [[paper]](https://arxiv.org/abs/2212.04461)
   - Mahsa Forouzesh, Hanie Sedghi, Patrick Thiran.
