@@ -90,6 +90,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization; Invariant Causal Prediction; Causal Representation Learning.
   - <details><summary>Digest</summary> We propose invariant Causal Representation Learning (iCaRL), an approach that enables out-of-distribution (OOD) generalization in the nonlinear setting (i.e., nonlinear representations and nonlinear classifiers). It builds upon a practical and general assumption: the prior over the data representation (i.e., a set of latent variables encoding the data) given the target and the environment belongs to general exponential family distributions, i.e., a more flexible conditionally non-factorized prior that can actually capture complicated dependences between the latent variables.
 
+- Target Conditioned Representation Independence (TCRI); From Domain-Invariant to Domain-General Representations. [[paper]](https://arxiv.org/abs/2212.11342)
+  - Olawale Salaudeen, Oluwasanmi Koyejo.
+  - Key Word: Domain Generalization; Invaraint Leanring.
+  - <details><summary>Digest</summary> We propose a Target Conditioned Representation Independence (TCRI) objective for domain generalization. TCRI addresses the limitations of existing domain generalization methods due to incomplete constraints. Specifically, TCRI implements regularizers motivated by conditional independence constraints that are sufficient to strictly learn complete sets of invariant mechanisms, which we show are necessary and sufficient for domain generalization.
+
 - Recycling diverse models for out-of-distribution generalization. [[paper]](https://arxiv.org/abs/2212.10445)
   - Alexandre Ramé, Kartik Ahuja, Jianyu Zhang, Matthieu Cord, Léon Bottou, David Lopez-Paz.
   - Key Word: Out-of-Distribution Generalization; Fine-Tuning; Weight Averaging.
