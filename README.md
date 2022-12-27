@@ -2587,6 +2587,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [Causal Inference 360](https://github.com/IBM/causallib) ![ ](https://img.shields.io/github/stars/IBM/causallib)
   - A Python package for inferring causal effects from observational data.
 
+- [VerifAI](https://github.com/BerkeleyLearnVerify/VerifAI) ![ ](https://img.shields.io/github/stars/BerkeleyLearnVerify/VerifAI)
+  - VerifAI is a software toolkit for the formal design and analysis of systems that include artificial intelligence (AI) and machine learning (ML) components.
+
 # Workshops
 
 ## Robustness Workshops
