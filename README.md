@@ -595,6 +595,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Spurious Correlations; Continual Learning.
   - <details><summary>Digest</summary> This paper studies spurious features' influence on continual learning algorithms. We show that continual learning algorithms solve tasks by selecting features that are not generalizable. Our experiments highlight that continual learning algorithms face two related problems: (1) spurious features and (2) local spurious features. The first one is due to a covariate shift between training and testing data, while the second is due to the limited access to data at each training step. We study (1) through a consistent set of continual learning experiments varying spurious correlation amount and data distribution support. We show that (2) is a major cause of performance decrease in continual learning along with catastrophic forgetting. 
 
+- Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution. [[paper]](https://arxiv.org/abs/2202.10054) [[code]](https://github.com/AnanyaKumar/transfer_learning)
+  - Ananya Kumar, Aditi Raghunathan, Robbie Jones, Tengyu Ma, Percy Liang.
+  - Key Word: Fine-Tuning; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We show theoretically that this tradeoff between ID and OOD accuracy arises even in a simple setting: fine-tuning overparameterized two-layer linear networks. We prove that the OOD error of fine-tuning is high when we initialize with a fixed or random head -- this is because while fine-tuning learns the head, the lower layers of the neural network change simultaneously and distort the pretrained features. Our analysis suggests that the easy two-step strategy of linear probing then full fine-tuning (LP-FT), sometimes used as a fine-tuning heuristic, combines the benefits of both fine-tuning and linear probing. 
+
 - Uncertainty Modeling for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2202.03958) [[code]](https://github.com/lixiaotong97/dsu)
   - Xiaotong Li, Yongxing Dai, Yixiao Ge, Jun Liu, Ying Shan, Ling-Yu Duan. *ICLR 2022*
   - Key Word: Out-of-Distribution Generalization; Uncertainty.
