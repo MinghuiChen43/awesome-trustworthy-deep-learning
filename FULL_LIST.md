@@ -34,7 +34,10 @@ The deployment of deep learning in real-world systems calls for a set of complem
 
 ## Survey
 
-### Survey: 2021
+<!-- ### Survey: 2021 -->
+
+<details>
+<summary>Survey: 2021</summary>
 
 - A Survey on AI Assurance. [[paper]](https://arxiv.org/abs/2111.07505)
   - Feras A. Batarseh, Laura Freeman. *Journal of Big Data*
@@ -56,7 +59,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Survey; Bias Mitigation; Transparency.
   - <details><summary>Digest</summary> To make AI address ethical challenges and shun undesirable outcomes, researchers proposed to develop socially responsible AI (SRAI). One of these approaches is causal learning (CL). We survey state-of-the-art methods of CL for SRAI. We begin by examining the seven CL tools to enhance the social responsibility of AI, then review how existing works have succeeded using these tools to tackle issues in developing SRAI such as fairness. The goal of this survey is to bring forefront the potentials and promises of CL for SRAI.
 
-### Survey: 2020
+</details>
+
+<!-- ### Survey: 2020 -->
+
+<details>
+<summary>Survey: 2020</summary>
 
 - Technologies for Trustworthy Machine Learning: A Survey in a Socio-Technical Context. [[paper]](https://arxiv.org/abs/2007.08911)
   - Ehsan Toreini, Mhairi Aitken, Kovila P. L. Coopamootoo, Karen Elliott, Vladimiro Gonzalez Zelaya, Paolo Missier, Magdalene Ng, Aad van Moorsel.
@@ -73,23 +81,38 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Survey; Social Good.
   - <details><summary>Digest</summary> Artificial intelligence for social good (AI4SG) is a research theme that aims to use and advance artificial intelligence to address societal issues and improve the well-being of the world. AI4SG has received lots of attention from the research community in the past decade with several successful applications.
 
-### Survey: 2019
+</details>
+
+<!-- ### Survey: 2019 -->
+
+<details>
+<summary>Survey: 2019</summary>
 
 - The relationship between trust in AI and trustworthy machine learning technologies. [[paper]](https://arxiv.org/abs/1912.00782)
   - Ehsan Toreini, Mhairi Aitken, Kovila Coopamootoo, Karen Elliott, Carlos Gonzalez Zelaya, Aad van Moorsel. *FAT 2020*
   - Key Word: Survey; Social Science.
   - <details><summary>Digest</summary> To build AI-based systems that users and the public can justifiably trust one needs to understand how machine learning technologies impact trust put in these services. To guide technology developments, this paper provides a systematic approach to relate social science concepts of trust with the technologies used in AI-based services and products. We conceive trust as discussed in the ABI (Ability, Benevolence, Integrity) framework and use a recently proposed mapping of ABI on qualities of technologies. We consider four categories of machine learning technologies, namely these for Fairness, Explainability, Auditability and Safety (FEAS) and discuss if and how these possess the required qualities.
 
-### Survey: 2018
+</details>
+
+<!-- ### Survey: 2018 -->
+
+<details>
+<summary>Survey: 2018</summary>
 
 - A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability. [[paper]](https://arxiv.org/abs/1812.08342)
   - Xiaowei Huang, Daniel Kroening, Wenjie Ruan, James Sharp, Youcheng Sun, Emese Thamo, Min Wu, Xinping Yi. *Computer Science Review*
   - Key Word: Survey.
   - <details><summary>Digest</summary> This survey paper conducts a review of the current research effort into making DNNs safe and trustworthy, by focusing on four aspects: verification, testing, adversarial attack and defence, and interpretability. In total, we survey 202 papers, most of which were published after 2017.
 
+</details>
+
 ## Out-of-Distribution Generalization
 
-### Out-of-Distribution Generalization: 2021
+<!-- ### Out-of-Distribution Generalization: 2021 -->
+
+<details>
+<summary>Out-of-Distribution Generalization: 2021</summary>
 
 - Margin Calibration for Long-Tailed Visual Recognition. [[paper]](https://arxiv.org/abs/2112.07225)
   - Yidong Wang, Bowen Zhang, Wenxin Hou, Zhen Wu, Jindong Wang, and Takahiro Shinozaki. *ACML 2022*
@@ -406,7 +429,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Invariant Learning; Causality.
   - <details><summary>Digest</summary> We show that the Invariant Risk Minimization (IRM) formulation of Arjovsky et al. (2019) can fail to capture "natural" invariances, at least when used in its practical "linear" form, and even on very simple problems which directly follow the motivating examples for IRM. This can lead to worse generalization on new environments, even when compared to unconstrained ERM. The issue stems from a significant gap between the linear variant (as in their concrete method IRMv1) and the full non-linear IRM formulation.
 
-### Out-of-Distribution Generalization: 2020
+</details>
+
+<!-- ### Out-of-Distribution Generalization: 2020 -->
+
+<details>
+<summary>Out-of-Distribution Generalization: 2020</summary>
 
 - Auxiliary Training: Towards Accurate and Robust Models. [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Auxiliary_Training_Towards_Accurate_and_Robust_Models_CVPR_2020_paper.html)
   - Linfeng Zhang, Muzhou Yu, Tong Chen, Zuoqiang Shi, Chenglong Bao, Kaisheng Ma. *CVPR 2020*
@@ -633,7 +661,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Data Augmentation; Corruption Robustness.
   - <details><summary>Digest</summary> We demonstrate that a simple but properly tuned training with additive Gaussian and Speckle noise generalizes surprisingly well to unseen corruptions, easily reaching the previous state of the art on the corruption benchmark ImageNet-C (with ResNet50) and on MNIST-C.  
 
-### Out-of-Distribution Generalization: 2019
+</details>
+
+<!-- ### Out-of-Distribution Generalization: 2019 -->
+
+<details>
+<summary>Out-of-Distribution Generalization: 2019</summary>
 
 - ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models. [[paper]](https://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models.pdf) [[dataset]](https://objectnet.dev/)
   - Barbu, A, Mayo, D, Alverio, J, Luo, W, Wang, C, Gutfreund, D, Tenenabum, JB, Katz, B. *NeurIPS 2019*
@@ -755,7 +788,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Keyword: Corruption Robustness; Adversarial Robustness.
   - <details><summary>Digest</summary> The existence of adversarial examples follows naturally from the fact that our models have nonzero test error in certain corrupted image distributions (connecting adversarial and corruption robustness).
 
-### Out-of-Distribution Generalization: 2018
+</details>
+
+<!-- ### Out-of-Distribution Generalization: 2018 -->
+
+<details>
+<summary>Out-of-Distribution Generalization: 2018</summary>
 
 - ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. [[paper]](https://arxiv.org/abs/1811.12231) [[code]](https://github.com/rgeirhos/texture-vs-shape)
   - Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix A. Wichmann, Wieland Brendel. *ICLR 2019*
@@ -777,9 +815,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Transformation Invaraince.
   - <details><summary>Digest</summary> In this paper, we quantify this phenomena and ask why neither the convolutional architecture nor data augmentation are sufficient to achieve the desired invariance. Specifically, we show that the convolutional architecture does not give invariance since architectures ignore the classical sampling theorem, and data augmentation does not give invariance because the CNNs learn to be invariant to transformations only for images that are very similar to typical images from the training set.  
 
+</details>
+
 ## Evasion Attacks and Defenses
 
-### Evasion Attacks and Defenses: 2021
+<!-- ### Evasion Attacks and Defenses: 2021 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2021</summary>
 
 - MedRDF: A Robust and Retrain-Less Diagnostic Framework for Medical Pretrained Models Against Adversarial Attack. [[paper]](https://arxiv.org/abs/2111.14564)
   - Mengting Xu, Tao Zhang, Daoqiang Zhang. *TMI*
@@ -836,7 +879,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Attack; Medical Image; Healthcare.
   - <details><summary>Digest</summary> We evaluate the robustness of deep diagnostic models by adversarial attack. Specifically, we have performed two types of adversarial attacks to three deep diagnostic models in both single-label and multi-label classification tasks, and found that these models are not reliable when attacked by adversarial example.
 
-### Evasion Attacks and Defenses: 2020
+</details>
+
+<!-- ### Evasion Attacks and Defenses: 2020 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2020</summary>
 
 - A Hierarchical Feature Constraint to Camouflage Medical Adversarial Attacks. [[paper]](https://arxiv.org/abs/2012.09501) [[code]](https://github.com/ICT-MIRACLE-lab/Hierarchical_Feature_Constraint)
   - Qingsong Yao, Zecheng He, Yi Lin, Kai Ma, Yefeng Zheng, S. Kevin Zhou. *MICCAI 2021*
@@ -959,7 +1007,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - <details><summary>Digest</summary>  We demonstrate fundamental tradeoffs between these two types of adversarial examples.
     We show that defenses against sensitivity-based attacks actively harm a model's accuracy on invariance-based attacks, and that new approaches are needed to resist both attack types.  
 
-### Evasion Attacks and Defenses: 2019
+</details>
+
+<!-- ### Evasion Attacks and Defenses: 2019 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2019</summary>
 
 - Adversarial Training and Provable Defenses: Bridging the Gap. [[paper]](https://openreview.net/forum?id=SJxSDxrKDr) [[code]](https://github.com/eth-sri/colt)
   - Mislav Balunovic, Martin Vechev. *ICLR 2020*
@@ -1086,7 +1139,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> In this work, we decompose the prediction error for adversarial examples (robust error) as the sum of the natural (classification) error and boundary error, and provide a differentiable upper bound using the theory of classification-calibrated loss, which is shown to be the tightest possible upper bound uniform over all probability distributions and measurable predictors. Inspired by our theoretical analysis, we also design a new defense method, TRADES, to trade adversarial robustness off against accuracy.  
 
-### Evasion Attacks and Defenses: 2018
+</details>
+
+<!-- ### Evasion Attacks and Defenses: 2018 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2018</summary>
 
 - Feature Denoising for Improving Adversarial Robustness. [[paper]](https://arxiv.org/abs/1812.03411) [[code]](https://github.com/facebookresearch/ImageNet-Adversarial-Training)
   - Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, Kaiming He. *CVPR 2019*
@@ -1168,7 +1226,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Attack; Medical Record; Healthcare.
   - <details><summary>Digest</summary> We propose an efficient and effective framework that learns a time-preferential minimum attack targeting the LSTM model with EHR inputs, and we leverage this attack strategy to screen medical records of patients and identify susceptible events and measurements.
 
-### Evasion Attacks and Defenses: 2017
+</details>
+
+<!-- ### Evasion Attacks and Defenses: 2017 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2017</summary>
+
 
 - Certifying Some Distributional Robustness with Principled Adversarial Training. [[paper]](https://arxiv.org/abs/1710.10571)
   - Aman Sinha, Hongseok Namkoong, Riccardo Volpi, John Duchi. *ICLR 2018*
@@ -1180,16 +1244,26 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Adversarial Attacks.
   - <details><summary>Digest</summary> In this paper, we analyze an attack in an extremely limited scenario where only one pixel can be modified. For that we propose a novel method for generating one-pixel adversarial perturbations based on differential evolution (DE). It requires less adversarial information (a black-box attack) and can fool more types of networks due to the inherent features of DE.  
 
-### Evasion Attacks and Defenses: 2016
+</details>
+
+<!-- ### Evasion Attacks and Defenses: 2016 -->
+
+<details>
+<summary>Evasion Attacks and Defenses: 2016</summary>
 
 - Practical Black-Box Attacks against Machine Learning. [[paper]](https://arxiv.org/abs/1602.02697)
   - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, Ananthram Swami. *AsiaCCS 2017*
   - Key Word: Adversarial Attacks.
   - <details><summary>Digest</summary> We introduce the first practical demonstration of an attacker controlling a remotely hosted DNN with no such knowledge. Our attack evades a category of defenses, which we call gradient masking, previously proposed to increase resilience to adversarial examples.  
 
+</details>
+
 ## Poisoning Attacks and Defenses
 
-### Poisoning Attacks and Defenses: 2021
+<!-- ### Poisoning Attacks and Defenses: 2021 -->
+
+<details>
+<summary>Poisoning Attacks and Defenses: 2021</summary>
 
 - FIBA: Frequency-Injection based Backdoor Attack in Medical Image Analysis. [[paper]](https://arxiv.org/abs/2112.01148) [[code]](https://github.com/hazardfy/fiba)
   - Yu Feng, Benteng Ma, Jing Zhang, Shanshan Zhao, Yong Xia, Dacheng Tao. *CVPR 2022*
@@ -1261,7 +1335,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Defense; Backdoor Detection.
   - <details><summary>Digest</summary> We propose a novel scheme to detect and mitigate sample-targeted backdoor attacks. We discover and demonstrate a unique property of the sample-targeted backdoor, which forces a boundary change such that small "pockets" are formed around the target sample. Based on this observation, we propose a novel defense mechanism to pinpoint a malicious pocket by "wrapping" them into a tight convex hull in the feature space. We design an effective algorithm to search for such a convex hull and remove the backdoor by fine-tuning the model using the identified malicious samples with the corrected label according to the convex hull.
 
-### Poisoning Attacks and Defenses: 2020
+</details>
+
+<!-- ### Poisoning Attacks and Defenses: 2020 -->
+
+<details>
+<summary>Poisoning Attacks and Defenses: 2020</summary>
 
 - Invisible Backdoor Attack with Sample-Specific Triggers. [[paper]](https://arxiv.org/abs/2012.03816) [[code]](https://github.com/yuezunli/issba)
   - Yuezun Li, Yiming Li, Baoyuan Wu, Longkang Li, Ran He, Siwei Lyu. *ICCV 2021*
@@ -1303,23 +1382,33 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Attacks; Video Recognition.
   - <details><summary>Digest</summary> We show that existing image backdoor attacks are far less effective on videos, and outline 4 strict conditions where existing attacks are likely to fail: 1) scenarios with more input dimensions (eg. videos), 2) scenarios with high resolution, 3) scenarios with a large number of classes and few examples per class (a "sparse dataset"), and 4) attacks with access to correct labels (eg. clean-label attacks). We propose the use of a universal adversarial trigger as the backdoor trigger to attack video recognition models, a situation where backdoor attacks are likely to be challenged by the above 4 strict conditions.
 
-### Poisoning Attacks and Defenses: 2019
+</details>
+
+<!-- ### Poisoning Attacks and Defenses: 2019 -->
+
+<details>
+<summary>Poisoning Attacks and Defenses: 2019</summary>
 
 - Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs. [[paper]](https://arxiv.org/abs/1906.10842) [[code]](https://github.com/UMBCvision/Universal-Litmus-Patterns)
   - Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann. *CVPR 2020*
   - Key Word: Backdoor Detection.
   - <details><summary>Digest</summary> We introduce a benchmark technique for detecting backdoor attacks (aka Trojan attacks) on deep convolutional neural networks (CNNs). We introduce the concept of Universal Litmus Patterns (ULPs), which enable one to reveal backdoor attacks by feeding these universal patterns to the network and analyzing the output (i.e., classifying the network as `clean' or `corrupted'). This detection is fast because it requires only a few forward passes through a CNN.
 
-### Poisoning Attacks and Defenses: 2017
+</details>
+
+<!-- ### Poisoning Attacks and Defenses: 2017
 
 - BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. [[paper]](https://arxiv.org/abs/1708.06733)
   - Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg.
   - Key Word: Backdoor Attacks; Neuron Activation.
-  - <details><summary>Digest</summary>  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.  
+  - <details><summary>Digest</summary>  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.   -->
 
 ## Privacy
 
-### Privacy: 2021
+<!-- ### Privacy: 2021 -->
+
+<details>
+<summary>Privacy: 2021</summary>
 
 - Watermarking Deep Neural Networks with Greedy Residuals. [[paper]](http://proceedings.mlr.press/v139/liu21x.html) [[code]](https://github.com/eil/greedy-residuals)
   - Hanwen Liu, Zhenyu Weng, Yuesheng Zhu. *ICML 2021*
@@ -1416,7 +1505,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Differential Privacy; Secure Multi-Party Computation.
   - <details><summary>Digest</summary> We introduce Confidential and Private Collaborative (CaPC) learning, the first method provably achieving both confidentiality and privacy in a collaborative setting. We leverage secure multi-party computation (MPC), homomorphic encryption (HE), and other techniques in combination with privately aggregated teacher models. We demonstrate how CaPC allows participants to collaborate without having to explicitly join their training sets or train a central model. 
 
-### Privacy: 2020
+</details>
+
+<!-- ### Privacy: 2020 -->
+
+<details>
+<summary>Privacy: 2020</summary>
 
 - Illuminating the dark spaces of healthcare with ambient intelligence. [[paper]](https://www.nature.com/articles/s41586-020-2669-y)
   - Albert Haque, Arnold Milstein, Li Fei-Fei. *Nature*
@@ -1478,7 +1572,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Gradient Inversion Attacks.
   - <details><summary>Digest</summary> DLG has difficulty in convergence and discovering the ground-truth labels consistently. In this paper, we find that sharing gradients definitely leaks the ground-truth labels. We propose a simple but reliable approach to extract accurate data from the gradients.  
 
-### Privacy: 2019
+</details>
+
+<!-- ### Privacy: 2019 -->
+
+<details>
+<summary>Privacy: 2019</summary>
 
 - Machine Unlearning. [[paper]](https://arxiv.org/abs/1912.03817) [[code]](https://github.com/cleverhans-lab/machine-unlearning)
   - Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia, Adelin Travers, Baiwu Zhang, David Lie, Nicolas Papernot.
@@ -1515,32 +1614,52 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Privacy; Pathological Image Classification; Healthcare.
   - <details><summary>Digest</summary> We introduce a novel stochastic gradient descent (SGD) scheme, named patient privacy preserving SGD (P3SGD), which performs the model update of the SGD in the patient level via a large-step update built upon each patient's data. Specifically, to protect privacy and regularize the CNN model, we propose to inject the well-designed noise into the updates.
 
+</details>
+
 ## Fairness
 
-### Fairness: 2021
+<!-- ### Fairness: 2021 -->
+
+<details>
+<summary>Fairness: 2021</summary>
 
 - Fair Normalizing Flows. [[paper]](https://arxiv.org/abs/2106.05937) [[code]](https://github.com/eth-sri/fnf)
   - Mislav Balunović, Anian Ruoss, Martin Vechev. *ICLR 2022*
   - Key Word: Fairness; Normalizing Flows.
   - <details><summary>Digest</summary> We present Fair Normalizing Flows (FNF), a new approach offering more rigorous fairness guarantees for learned representations. Specifically, we consider a practical setting where we can estimate the probability density for sensitive groups. The key idea is to model the encoder as a normalizing flow trained to minimize the statistical distance between the latent representations of different groups.
 
-### Fairness: 2020
+</details>
+
+<!-- ### Fairness: 2020 -->
+
+<details>
+<summary>Fairness: 2020</summary>
 
 - Fairness in the Eyes of the Data: Certifying Machine-Learning Models. [[paper]](https://arxiv.org/abs/2009.01534)
   - Shahar Segal, Yossi Adi, Benny Pinkas, Carsten Baum, Chaya Ganesh, Joseph Keshet.
   - Key Word: Fairness; Privacy.
   - <details><summary>Digest</summary> We present a framework that allows to certify the fairness degree of a model based on an interactive and privacy-preserving test. The framework verifies any trained model, regardless of its training process and architecture. Thus, it allows us to evaluate any deep learning model on multiple fairness definitions empirically.  
 
-### Fairness: 2019
+</details>
+
+<!-- ### Fairness: 2019 -->
+
+<details>
+<summary>Fairness: 2019</summary>
 
 - Training individually fair ML models with Sensitive Subspace Robustness. [[paper]](https://arxiv.org/abs/1907.00020) [[code]](https://github.com/IBM/sensitive-subspace-robustness)
   - Mikhail Yurochkin, Amanda Bower, Yuekai Sun. *ICLR 2020*
   - Key Word: Distributionally Robust Optimization.
   - <details><summary>Digest</summary> We consider training machine learning models that are fair in the sense that their performance is invariant under certain sensitive perturbations to the inputs. For example, the performance of a resume screening system should be invariant under changes to the gender and/or ethnicity of the applicant. We formalize this notion of algorithmic fairness as a variant of individual fairness and develop a distributionally robust optimization approach to enforce it during training.  
 
+</details>
+
 ## Interpretability
 
-### Interpretability: 2021
+<!-- ### Interpretability: 2021 -->
+
+<details>
+<summary>Interpretability: 2021</summary>
 
 - Understanding the Dynamics of DNNs Using Graph Modularity. [[paper]](https://arxiv.org/abs/2111.12485) [[code]](https://github.com/yaolu-zjut/dynamic-graphs-construction)
   - Yao Lu, Wen Yang, Yunzhe Zhang, Zuohui Chen, Jinyin Chen, Qi Xuan, Zhen Wang, Xiaoniu Yang. *ECCV 2022*
@@ -1577,7 +1696,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Interpretability; Shapley Values; Similarity Learning.
   - <details><summary>Digest</summary> We show that the theory of fair credit assignment provides a unique axiomatic solution that generalizes several existing recommendation- and metric-explainability techniques in the literature. Using this formalism, we show when existing approaches violate "fairness" and derive methods that sidestep these shortcomings and naturally handle counterfactual information.
 
-### Interpretability: 2020
+</details>
+
+<!-- ### Interpretability: 2020 -->
+
+<details>
+<summary>Interpretability: 2020</summary>
 
 - Transformer Interpretability Beyond Attention Visualization. [[paper]](https://arxiv.org/abs/2012.09838) [[code]](https://github.com/hila-chefer/Transformer-Explainability)
   - Hila Chefer, Shir Gur, Lior Wolf. *CVPR 2021*
@@ -1599,7 +1723,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Counterfactuals.
   - <details><summary>Digest</summary> The proposed method first generates exemplar images in the latent feature space and learns a decision tree classifier. Then, it selects and decodes exemplars respecting local decision rules. Finally, it visualizes them in a manner that shows to the user how the exemplars can be modified to either stay within their class, or to become counter-factuals by "morphing" into another class.
 
-### Interpretability: 2019
+</details>
+
+<!-- ### Interpretability: 2019 -->
+
+<details>
+<summary>Interpretability: 2019</summary>
 
 - Attributional Robustness Training using Input-Gradient Spatial Alignment. [[paper]](https://arxiv.org/abs/1911.13073) [[code]](https://github.com/nupurkmr9/Attributional-Robustness)
   - Mayank Singh, Nupur Kumari, Puneet Mangla, Abhishek Sinha, Vineeth N Balasubramanian, Balaji Krishnamurthy. *ECCV 2020*
@@ -1636,7 +1765,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Concept Attribution.
   - <details><summary>Digest</summary> We propose principles and desiderata for concept based explanation, which goes beyond per-sample features to identify higher-level human-understandable concepts that apply across the entire dataset. We develop a new algorithm, ACE, to automatically extract visual concepts.
 
-### Interpretability: 2018
+</details>
+
+<!-- ### Interpretability: 2018 -->
+
+<details>
+<summary>Interpretability: 2018</summary>
 
 - This Looks Like That: Deep Learning for Interpretable Image Recognition. [[paper]](https://arxiv.org/abs/1806.10574) [[code]](https://github.com/cfchen-duke/ProtoPNet)
   - Chaofan Chen, Oscar Li, Chaofan Tao, Alina Jade Barnett, Jonathan Su, Cynthia Rudin. *NeurIPS 2019*
@@ -1658,7 +1792,13 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Counterfactuals.
   - <details><summary>Digest</summary> We propose a novel method that provides contrastive explanations justifying the classification of an input by a black box classifier such as a deep neural network. Given an input we find what should be %necessarily and minimally and sufficiently present (viz. important object pixels in an image) to justify its classification and analogously what should be minimally and necessarily absent (viz. certain background pixels).
 
-### Interpretability: 2017
+</details>
+
+
+<!-- ### Interpretability: 2017 -->
+
+<details>
+<summary>Interpretability: 2017</summary>
 
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV). [[paper]](https://arxiv.org/abs/1711.11279) [[code]](https://github.com/tensorflow/tcav)
   - Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres. *ICML 2018*
@@ -1695,7 +1835,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Feature Importance Explanations.
   - <details><summary>Digest</summary> We study the problem of attributing the prediction of a deep network to its input features, a problem previously studied by several other works. We identify two fundamental axioms---Sensitivity and Implementation Invariance that attribution methods ought to satisfy. We show that they are not satisfied by most known attribution methods, which we consider to be a fundamental weakness of those methods. We use the axioms to guide the design of a new attribution method called Integrated Gradients.
 
-### Interpretability: 2016
+</details>
+
+<!-- ### Interpretability: 2016 -->
+
+<details>
+<summary>Interpretability: 2016</summary>
 
 - Examples are not enough, learn to criticize! Criticism for Interpretability. [[paper]](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)
   - Been Kim, Rajiv Khanna, Oluwasanmi O. Koyejo. *NeurIPS 2016*
@@ -1712,7 +1857,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Local Interpretation; Model-Agnostic Explanations.
   - <details><summary>Digest</summary> We propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction.
 
-### Interpretability: 2015
+</details>
+
+<!-- ### Interpretability: 2015 -->
+
+<details>
+<summary>Interpretability: 2015</summary>
 
 - Explaining NonLinear Classification Decisions with Deep Taylor Decomposition. [[paper]](https://arxiv.org/abs/1512.02479) [[code]](https://github.com/myc159/Deep-Taylor-Decomposition)
   - Grégoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, Klaus-Robert Müller.
@@ -1724,9 +1874,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Saliency Maps.
   - <details><summary>Digest</summary> We revisit the global average pooling layer proposed, and shed light on how it explicitly enables the convolutional neural network to have remarkable localization ability despite being trained on image-level labels. While this technique was previously proposed as a means for regularizing training, we find that it actually builds a generic localizable deep representation that can be applied to a variety of tasks.
 
+</details>
+
 ## Open-World Learning
 
-### Open-World Learning: 2021
+<!-- ### Open-World Learning: 2021 -->
+
+<details>
+<summary>Open-World Learning: 2021</summary>
 
 - Open-set 3D Object Detection. [[paper]](https://arxiv.org/abs/2111.08644)
   - Jun Cen, Peng Yun, Junhao Cai, Michael Yu Wang, Ming Liu. *3DV 2021*
@@ -1778,9 +1933,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Open-world learning; Incremental learning; Discovery of Unseen Instances; Object detection.
   - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort.
 
+</details>
+
 ## Environmental Well-being
 
-### Environmental Well-being: 2021
+<!-- ### Environmental Well-being: 2021 -->
+
+<details>
+<summary>Environmental Well-being: 2021</summary>
 
 - A Survey on Green Deep Learning. [[paper]](https://arxiv.org/abs/2111.05193)
   - Jingjing Xu, Wangchunshu Zhou, Zhiyi Fu, Hao Zhou, Lei Li.
@@ -1812,7 +1972,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Federated Learning; Carbon Footprint; Energy Analysis.
   - <details><summary>Digest</summary> This paper offers the first-ever systematic study of the carbon footprint of FL. First, we propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. Then, we compare the carbon footprint of FL to traditional centralized learning. Our findings show that FL, despite being slower to converge in some cases, may result in a comparatively greener impact than a centralized equivalent setup. We performed extensive experiments across different types of datasets, settings, and various deep learning models with FL. Finally, we highlight and connect the reported results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.
 
-### Environmental Well-being: 2020
+</details>
+
+<!-- ### Environmental Well-being: 2020 -->
+
+<details>
+<summary>Environmental Well-being: 2020</summary>
 
 - Can Federated Learning Save The Planet? [[paper]](https://arxiv.org/abs/2010.06537)
   - Xinchi Qiu, Titouan Parcollet, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane.
@@ -1824,7 +1989,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Carbon Footprint.
   - <details><summary>Digest</summary> We present Carbontracker, a tool for tracking and predicting the energy and carbon footprint of training DL models. We propose that energy and carbon footprint of model development and training is reported alongside performance metrics using tools like Carbontracker. We hope this will promote responsible computing in ML and encourage research into energy-efficient deep neural networks.
 
-### Environmental Well-being: 2019
+</details>
+
+<!-- ### Environmental Well-being: 2019 -->
+
+<details>
+<summary>Environmental Well-being: 2019</summary>
 
 - Quantifying the Carbon Emissions of Machine Learning. [[paper]](https://arxiv.org/abs/1910.09700) [[code]](https://mlco2.github.io/impact/)
   - Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres.
@@ -1841,9 +2011,15 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Data Efficiency.
   - <details><summary>Digest</summary> This position paper advocates a practical solution by making efficiency an evaluation criterion for research alongside accuracy and related measures. In addition, we propose reporting the financial cost or "price tag" of developing, training, and running models to provide baselines for the investigation of increasingly efficient methods. Our goal is to make AI both greener and more inclusive---enabling any inspired undergraduate with a laptop to write high-quality research papers. Green AI is an emerging focus at the Allen Institute for AI.
 
+</details>
+
 ## Interactions with Blockchain
 
-### Interactions with Blockchain: 2021
+<!-- ### Interactions with Blockchain: 2021 -->
+
+<details>
+<summary>Interactions with Blockchain: 2021</summary>
+
 
 - Blockchain-based Federated Learning: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2110.02182)
   - Zhilin Wang, Qin Hu.
@@ -1860,7 +2036,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Ethereum; Natural Language Processing; Security Analysis.
   - <details><summary>Digest</summary> Ethereum smart contracts are programs that run on the Ethereum blockchain, and many smart contract vulnerabilities have been discovered in the past decade. Many security analysis tools have been created to detect such vulnerabilities, but their performance decreases drastically when codes to be analyzed are being rewritten. In this paper, we propose Eth2Vec, a machine-learning-based static analysis tool for vulnerability detection, with robustness against code rewrites in smart contracts.
 
-### Interactions with Blockchain: 2020
+</details>
+
+<!-- ### Interactions with Blockchain: 2020 -->
+
+<details>
+<summary>Interactions with Blockchain: 2020</summary>
 
 - When Federated Learning Meets Blockchain: A New Distributed Learning Paradigm. [[paper]](https://arxiv.org/abs/2009.09338)
   - Chuan Ma, Jun Li, Ming Ding, Long Shi, Taotao Wang, Zhu Han, H. Vincent Poor.
@@ -1872,7 +2053,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Blockchain; Smart Contracts; Federated Learning.
   - <details><summary>Digest</summary> Federated learning has been widely studied and applied to various scenarios. In mobile computing scenarios, federated learning protects users from exposing their private data, while cooperatively training the global model for a variety of real-world applications. However, the security of federated learning is increasingly being questioned, due to the malicious clients or central servers' constant attack to the global model or user privacy data. To address these security issues, we proposed a decentralized federated learning framework based on blockchain, i.e., a Blockchain-based Federated Learning framework with Committee consensus (BFLC). The framework uses blockchain for the global model storage and the local model update exchange.
 
-### Interactions with Blockchain: 2019
+</details>
+
+<!-- ### Interactions with Blockchain: 2019 -->
+
+<details>
+<summary>Interactions with Blockchain: 2019</summary>
 
 - A blockchain-orchestrated Federated Learning architecture for healthcare consortia. [[paper]](https://arxiv.org/abs/1910.12603)
   - Jonathan Passerat-Palmbach, Tyler Farnan, Robert Miller, Marielle S. Gross, Heather Leigh Flannery, Bill Gleim.
@@ -1899,9 +2085,14 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Distributed Ledger Technology; Video Content Hashing.
   - <details><summary>Digest</summary> We present ARCHANGEL; a novel distributed ledger based system for assuring the long-term integrity of digital video archives. First, we describe a novel deep network architecture for computing compact temporal content hashes (TCHs) from audio-visual streams with durations of minutes or hours. Our TCHs are sensitive to accidental or malicious content modification (tampering) but invariant to the codec used to encode the video. This is necessary due to the curatorial requirement for archives to format shift video over time to ensure future accessibility. Second, we describe how the TCHs (and the models used to derive them) are secured via a proof-of-authority blockchain distributed across multiple independent archives.  
 
+</details>
+
 ## Others
 
-### Others: 2021
+<!-- ### Others: 2021 -->
+
+<details>
+<summary>Others: 2021</summary>
 
 - Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection. [[paper]](https://arxiv.org/abs/2110.14019)
   - Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel. *NeurIPS 2021*
@@ -1963,7 +2154,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Causal Representation Learning.
   - <details><summary>Digest</summary> The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research.
 
-### Others: 2020
+</details>
+
+<!-- ### Others: 2020 -->
+
+<details>
+<summary>Others: 2020</summary>
 
 - The State of AI Ethics Report (October 2020). [[paper]](https://arxiv.org/abs/2011.02787)
   - Abhishek Gupta, Alexandrine Royer, Victoria Heath, Connor Wright, Camylle Lanteigne, Allison Cohen, Marianna Bergamaschi Ganapini, Muriam Fancy, Erick Galinkin, Ryan Khurana, Mo Akif, Renjie Butalid, Falaah Arif Khan, Masa Sweidan, Audrey Balogh.
@@ -1995,7 +2191,12 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Disentanlged Representation Learning.
   - <details><summary>Digest</summary> The framework of variational autoencoder (VAE) is commonly used to disentangle independent factors from observations. However, in real scenarios, factors with semantics are not necessarily independent. Instead, there might be an underlying causal structure which renders these factors dependent. We thus propose a new VAE based framework named CausalVAE, which includes a Causal Layer to transform independent exogenous factors into causal endogenous ones that correspond to causally related concepts in data.
 
-### Others: 2019
+</details>
+
+<!-- ### Others: 2019 -->
+
+<details>
+<summary>Others: 2019</summary>
 
 - Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One. [[paper]](https://arxiv.org/abs/1912.03263) [[code]](https://github.com/wgrathwohl/JEM)
   - Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky. *ICLR 2020*
@@ -2022,12 +2223,19 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Report; Social Good.
   - <details><summary>Digest</summary> The Computing Community Consortium (CCC), along with the White House Office of Science and Technology Policy (OSTP), and the Association for the Advancement of Artificial Intelligence (AAAI), co-sponsored a public workshop on Artificial Intelligence for Social Good on June 7th, 2016 in Washington, DC. This was one of five workshops that OSTP co-sponsored and held around the country to spur public dialogue on artificial intelligence, machine learning, and to identify challenges and opportunities related to AI. In the AI for Social Good workshop, the successful deployments and the potential use of AI in various topics that are essential for social good were discussed, including but not limited to urban computing, health, environmental sustainability, and public welfare. This report highlights each of these as well as a number of crosscutting issues.
 
-### Others: 2018
+</details>
+
+<!-- ### Others: 2018 -->
+
+<details>
+<summary>Others: 2018</summary>
 
 - Towards Reverse-Engineering Black-Box Neural Networks. [[paper]](https://arxiv.org/abs/1711.01768) [[code]](https://github.com/coallaoh/WhitenBlackBox)
   - Seong Joon Oh, Max Augustin, Bernt Schiele, Mario Fritz. *ICLR 2018*
   - Key Word: Model Extraction Attacks; Membership inference Attacks.
   - <details><summary>Digest</summary> This work shows that such attributes of neural networks can be exposed from a sequence of queries. This has multiple implications. On the one hand, our work exposes the vulnerability of black-box neural networks to different types of attacks -- we show that the revealed internal information helps generate more effective adversarial examples against the black box model.  
+
+</details>
 
 ## Related Awesome Lists
 
