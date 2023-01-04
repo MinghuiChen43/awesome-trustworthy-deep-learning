@@ -52,6 +52,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Backdoor Attacks Against Dataset Distillation. [[paper]](https://arxiv.org/abs/2301.01197) [[code]](https://github.com/liuyugeng/baadd)
+  - Yugeng Liu, Zheng Li, Michael Backes, Yun Shen, Yang Zhang. *NDSS 2023*
+  - Key Word: Backdoor Attacks; Dataset Distillation.
+  - <details><summary>Digest</summary> This study performs the first backdoor attack against the models trained on the data distilled by dataset distillation models in the image domain. Concretely, we inject triggers into the synthetic data during the distillation procedure rather than during the model training stage, where all previous attacks are performed. 
 
 ## Privacy
 
@@ -68,6 +72,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Open-World Learning
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#open-world-learning">:open_file_folder: [<b><i>Full List of Open-World Learning</i></b>]</a>.
+
+- Vocabulary-informed Zero-shot and Open-set Learning. [[paper]](https://arxiv.org/abs/2301.00998) [[code]](https://github.com/xiaomeiyy/wmm-voc)
+  - Yanwei Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal. *TPAMI*
+  - Key Word: Vocabulary-Informed Learning; Generalized Zero-Shot Learning, Open-set Recognition.
+  - <details><summary>Digest</summary> Zero-shot learning is one way of addressing these challenges, but it has only been shown to work with limited sized class vocabularies and typically requires separation between supervised and unsupervised classes, allowing former to inform the latter but not vice versa. We propose the notion of vocabulary-informed learning to alleviate the above mentioned challenges and address problems of supervised, zero-shot, generalized zero-shot and open set recognition using a unified framework.
 
 ## Environmental Well-being
 
