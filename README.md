@@ -243,6 +243,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Robustness Workshops
 
+- [ML Safety Workshop (NeurIPS 2022)](https://neurips2022.mlsafety.org/)
+
 - [Workshop on Adversarial Robustness In the Real World (ECCV 2022)](https://eccv22-arow.github.io/)
 
 - [Formal Verification of Machine Learning (ICML 2022)](https://www.ml-verification.com/)
@@ -269,11 +271,17 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Theory and Practice of Differential Privacy (ICML 2022)](https://tpdp.journalprivacyconfidentiality.org/2022/)
 
+## Fairness Workshops
+
+- [Algorithmic Fairness through the Lens of Causality and Privacy (NeurIPS 2022)](https://www.afciworkshop.org/)
+
 ## Interpretability Workshops
 
 - [Interpretable Machine Learning in Healthcare (ICML 2022)](https://sites.google.com/view/imlh2022)
 
 ## Other Workshops
+
+- [Trustworthy and Socially Responsible Machine Learning (NeurIPS 2022)](https://tsrml2022.github.io/)
 
 - [International Workshop on Trustworthy Federated Learning (IJCAI 2022)](https://federated-learning.org/fl-ijcai-2022/)
 
