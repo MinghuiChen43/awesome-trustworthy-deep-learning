@@ -281,6 +281,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Workshops
 
+- [Workshop on Mathematical and Empirical Understanding of Foundation Models (ICLR 2023)](https://sites.google.com/view/me-fomo2023)
+
 - [Trustworthy and Socially Responsible Machine Learning (NeurIPS 2022)](https://tsrml2022.github.io/)
 
 - [International Workshop on Trustworthy Federated Learning (IJCAI 2022)](https://federated-learning.org/fl-ijcai-2022/)
