@@ -281,6 +281,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Workshops
 
+- [Workshop on Physics for Machine Learning (ICLR 2023)](https://physics4ml.github.io/)
+
+- [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/)
+
 - [Workshop on Mathematical and Empirical Understanding of Foundation Models (ICLR 2023)](https://sites.google.com/view/me-fomo2023)
 
 - [Trustworthy and Socially Responsible Machine Learning (NeurIPS 2022)](https://tsrml2022.github.io/)
