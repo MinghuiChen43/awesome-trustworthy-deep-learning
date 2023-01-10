@@ -48,6 +48,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service. [[paper]](https://arxiv.org/abs/2301.02905)
+  - Wenjie Qu, Jinyuan Jia, Neil Zhenqiang Gong. *NDSS 2023*
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> In this work, we show that, via providing two APIs, a cloud server 1) makes it possible for a client to certify robustness of its downstream classifier against adversarial perturbations using any certification method and 2) makes it orders of magnitude more communication efficient and more computation efficient to certify robustness using smoothed classifier based certification.
+
 ## Poisoning Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
