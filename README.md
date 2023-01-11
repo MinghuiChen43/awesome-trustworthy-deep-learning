@@ -48,6 +48,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- On the Robustness of AlphaFold: A COVID-19 Case Study. [[paper]](https://arxiv.org/abs/2301.04093)
+  - Ismail Alkhouri, Sumit Jha, Andre Beckus, George Atia, Alvaro Velasquez, Rickard Ewetz, Arvind Ramanathan, Susmit Jha.
+  - Key Word: Adversarial Robustness; AlphaFold.
+  - <details><summary>Digest</summary> We demonstrate that AlphaFold does not exhibit such robustness despite its high accuracy. This raises the challenge of detecting and quantifying the extent to which these predicted protein structures can be trusted. To measure the robustness of the predicted structures, we utilize (i) the root-mean-square deviation (RMSD) and (ii) the Global Distance Test (GDT) similarity measure between the predicted structure of the original sequence and the structure of its adversarially perturbed version.
+
+- On adversarial robustness and the use of Wasserstein ascent-descent dynamics to enforce it. [[paper]](https://arxiv.org/abs/2301.03662)
+  - Camilo Garcia Trillos, Nicolas Garcia Trillos.
+  - Key Word: Adversarial Robustness; Wasserstein Gradient Flow; Mean-Field Limit.
+  - <details><summary>Digest</summary> We propose iterative algorithms to solve adversarial problems in a variety of supervised learning settings of interest. Our algorithms, which can be interpreted as suitable ascent-descent dynamics in Wasserstein spaces, take the form of a system of interacting particles. These interacting particle dynamics are shown to converge toward appropriate mean-field limit equations in certain large number of particles regimes. 
+
 - REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service. [[paper]](https://arxiv.org/abs/2301.02905)
   - Wenjie Qu, Jinyuan Jia, Neil Zhenqiang Gong. *NDSS 2023*
   - Key Word: Adversarial Robustness.
