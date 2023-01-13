@@ -105,6 +105,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning. [[paper]](https://arxiv.org/abs/2301.05169) [[code]](https://sites.google.com/view/causaltriplet?pli=1)
+  - Yuejiang Liu, Alexandre Alahi, Chris Russell, Max Horn, Dominik Zietlow, Bernhard Schölkopf, Francesco Locatello.
+  - Key Word: Causal Representation Learning; Benchmark.
+  - <details><summary>Digest</summary> We present Causal Triplet, a causal representation learning benchmark featuring not only visually more complex scenes, but also two crucial desiderata commonly overlooked in previous works: (i) an actionable counterfactual setting, where only certain object-level variables allow for counterfactual observations whereas others do not; (ii) an interventional downstream task with an emphasis on out-of-distribution robustness from the independent causal mechanisms principle.
+
 # Related Awesome Lists
 
 ## Robustness Lists
