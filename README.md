@@ -253,6 +253,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Toolboxes
 
+- [Uncertainty Toolbox](https://github.com/uncertainty-toolbox/uncertainty-toolbox) ![ ](https://img.shields.io/github/stars/uncertainty-toolbox/uncertainty-toolbox)
+
 - [Causal Inference 360](https://github.com/IBM/causallib) ![ ](https://img.shields.io/github/stars/IBM/causallib)
   - A Python package for inferring causal effects from observational data.
 
