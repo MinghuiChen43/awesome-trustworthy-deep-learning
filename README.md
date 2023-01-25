@@ -53,6 +53,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Data Augmentation Alone Can Improve Adversarial Training. [[paper]](https://arxiv.org/abs/2301.09879) [[code]](https://github.com/treelli/da-alone-improves-at)
+  - Lin Li, Michael Spratling. *ICLR 2023*
+  - Key Word: Data Augmentation; Adversarial Training.
+  - <details><summary>Digest</summary> This work proves that, contrary to previous findings, data augmentation alone can significantly boost accuracy and robustness in adversarial training. We find that the hardness and the diversity of data augmentation are important factors in combating robust overfitting. 
+
 - On the Robustness of AlphaFold: A COVID-19 Case Study. [[paper]](https://arxiv.org/abs/2301.04093)
   - Ismail Alkhouri, Sumit Jha, Andre Beckus, George Atia, Alvaro Velasquez, Rickard Ewetz, Arvind Ramanathan, Susmit Jha.
   - Key Word: Adversarial Robustness; AlphaFold.
@@ -88,6 +93,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
+
+- Selective Explanations: Leveraging Human Input to Align Explainable AI. [[paper]](https://arxiv.org/abs/2301.09656)
+  - Vivian Lai, Yiming Zhang, Chacha Chen, Q. Vera Liao, Chenhao Tan.
+  - Key Word: Explainable AI; Learning from Human Input.
+  - <details><summary>Digest</summary> We attempt to close these gaps by making AI explanations selective -- a fundamental property of human explanations -- by selectively presenting a subset from a large set of model reasons based on what aligns with the recipient's preferences. We propose a general framework for generating selective explanations by leveraging human input on a small sample. 
 
 ## Open-World Learning
 
