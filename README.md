@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- DEJA VU: Continual Model Generalization For Unseen Domains. [[paper]](https://arxiv.org/abs/2301.10418) [[code]](https://github.com/dawnliu35/dejavu-ratp)
+  - Chenxi Liu, Lixu Wang, Lingjuan Lyu, Chen Sun, Xiao Wang, Qi Zhu.
+  - Key Word: Domain Generalization; Domain Adaptation.
+  - <details><summary>Digest</summary> Existing DG works are ineffective for continually changing domains due to severe catastrophic forgetting of learned knowledge. To overcome these limitations of DA and DG in handling the Unfamiliar Period during continual domain shift, we propose RaTP, a framework that focuses on improving models' target domain generalization (TDG) capability, while also achieving effective target domain adaptation (TDA) capability right after training on certain domains and forgetting alleviation (FA) capability on past domains. 
+
 - ManyDG: Many-domain Generalization for Healthcare Applications. [[paper]](https://arxiv.org/abs/2301.08834) [[code]](https://github.com/ycq091044/ManyDG)
   - Chaoqi Yang, M Brandon Westover, Jimeng Sun. *ICLR 2023*
   - Key Word: Domain Generalization; Healthcare.
