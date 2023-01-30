@@ -117,6 +117,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
 
+- A Green(er) World for A.I. [[paper]](https://arxiv.org/abs/2301.11581)
+  - Dan Zhao, Nathan C. Frey, Joseph McDonald, Matthew Hubbell, David Bestor, Michael Jones, Andrew Prout, Vijay Gadepally, Siddharth Samsi.
+  - Key Word: Green AI; Sustainable AI; Energy Efficiency.
+  - <details><summary>Digest</summary> We outline our outlook for Green A.I. -- a more sustainable, energy-efficient and energy-aware ecosystem for developing A.I. across the research, computing, and practitioner communities alike -- and the steps required to arrive there. 
+
 ## Interactions with Blockchain
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interactions-with-blockchain">:open_file_folder: [<b><i>Full List of Interactions with Blockchain</i></b>]</a>.
