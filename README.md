@@ -44,6 +44,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- FedFA: Federated Feature Augmentation. [[paper]](https://arxiv.org/abs/2301.12995) [[code]](https://github.com/tfzhou/FedFA)
+  - Tianfei Zhou, Ender Konukoglu. *ICLR 2023*
+  - Key Word: Federated Learning; Feature Augmentation; Feature Shifts.
+  - <details><summary>Digest</summary> The primary goal of this paper is to develop a robust federated learning algorithm to address feature shift in clients' samples, which can be caused by various factors, e.g., acquisition differences in medical imaging. To reach this goal, we propose FedFA to tackle federated learning from a distinct perspective of federated feature augmentation. FedFA is based on a major insight that each client's data distribution can be characterized by statistics (i.e., mean and standard deviation) of latent features; and it is likely to manipulate these local statistics globally, i.e., based on information in the entire federation, to let clients have a better sense of the underlying distribution and therefore alleviate local data bias.
+
+- Alignment with human representations supports robust few-shot learning. [[paper]](https://arxiv.org/abs/2301.11990)
+  - Ilia Sucholutsky, Thomas L. Griffiths. 
+  - Key Word: Representational Alignment; Few-Shot Learning; Domain Shifts; Adversarial Robustness.
+  - <details><summary>Digest</summary> Should we care whether AI systems have representations of the world that are similar to those of humans? We provide an information-theoretic analysis that suggests that there should be a U-shaped relationship between the degree of representational alignment with humans and performance on few-shot learning tasks. We confirm this prediction empirically, finding such a relationship in an analysis of the performance of 491 computer vision models.
+
 - DEJA VU: Continual Model Generalization For Unseen Domains. [[paper]](https://arxiv.org/abs/2301.10418) [[code]](https://github.com/dawnliu35/dejavu-ratp)
   - Chenxi Liu, Lixu Wang, Lingjuan Lyu, Chen Sun, Xiao Wang, Qi Zhu.
   - Key Word: Domain Generalization; Domain Adaptation.
@@ -57,6 +67,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Evasion Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
+
+- Benchmarking Robustness to Adversarial Image Obfuscations. [[paper]](https://arxiv.org/abs/2301.12993) [[code]](https://github.com/deepmind/image_obfuscation_benchmark)
+  - Florian Stimberg, Ayan Chakrabarti, Chun-Ta Lu, Hussein Hazimeh, Otilia Stretcu, Wei Qiao, Yintao Liu, Merve Kaya, Cyrus Rashtchian, Ariel Fuxman, Mehmet Tek, Sven Gowal.
+  - Key Word: Natural Distribution Shifts; Adversarial Robustness.
+  - <details><summary>Digest</summary> We invite researchers to tackle this specific issue and present a new image benchmark. This benchmark, based on ImageNet, simulates the type of obfuscations created by malicious actors. It goes beyond ImageNet-C and ImageNet-C¯ by proposing general, drastic, adversarial modifications that preserve the original content intent. It aims to tackle a more common adversarial threat than the one considered by ℓp-norm bounded adversaries. 
 
 - Uncovering Adversarial Risks of Test-Time Adaptation. [[paper]](https://arxiv.org/abs/2301.12576)
   - Tong Wu, Feiran Jia, Xiangyu Qi, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal.
