@@ -4385,6 +4385,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: PAC Verification.
   - <details><summary>Digest</summary> We develop this notion further in a number of ways. First, we prove a lower bound for PAC verification of Ω(d−−√) i.i.d. samples for hypothesis classes of VC dimension d. Second, we present a protocol for PAC verification of unions of intervals over R that improves upon their proposed protocol for that task, and matches our lower bound. Third, we introduce a natural generalization of their definition to verification of general statistical algorithms, which is applicable to a wider variety of practical algorithms beyond agnostic PAC learning. 
 
+- Holistic Evaluation of Language Models. [[paper]](https://arxiv.org/abs/2211.09110) [[code]](https://github.com/stanford-crfm/helm)
+  - Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D. Manning, Christopher Ré, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, Yuta Koreeda.
+  - Key Word: Calibration and Uncertainty; Robustness; Fairness; Bias and Stereotype; Toxicity.
+  - <details><summary>Digest</summary> Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models.
+
 - DC-Check: A Data-Centric AI checklist to guide the development of reliable machine learning systems. [[paper]](https://arxiv.org/abs/2211.05764)
   - Nabeel Seedat, Fergus Imrie, Mihaela van der Schaar.
   - Key Word: Data-centric AI; ML Pipelines, Reliable ML.
