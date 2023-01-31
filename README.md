@@ -58,6 +58,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Uncovering Adversarial Risks of Test-Time Adaptation. [[paper]](https://arxiv.org/abs/2301.12576)
+  - Tong Wu, Feiran Jia, Xiangyu Qi, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal.
+  - Key Word: Adversarial Attacks; Test-Time Adaptation.
+  - <details><summary>Digest</summary> We propose Distribution Invading Attack (DIA), which injects a small fraction of malicious data into the test batch. DIA causes models using TTA to misclassify benign and unperturbed test data, providing an entirely new capability for adversaries that is infeasible in canonical machine learning pipelines. 
+
+- Improving the Accuracy-Robustness Trade-off of Classifiers via Adaptive Smoothing. [[paper]](https://arxiv.org/abs/2301.12554) [[code]](https://github.com/Bai-YT/AdaptiveSmoothing)
+  - Yatong Bai, Brendon G. Anderson, Aerin Kim, Somayeh Sojoudi.
+  - Key Word: Adversarial Robustness; Locally Biased Smoothing.
+  - <details><summary>Digest</summary> While it is shown in the literature that simultaneously accurate and robust classifiers exist for common datasets, previous methods that improve the adversarial robustness of classifiers often manifest an accuracy-robustness trade-off. We build upon recent advancements in data-driven ``locally biased smoothing'' to develop classifiers that treat benign and adversarial test data differently. Specifically, we tailor the smoothing operation to the usage of a robust neural network as the source of robustness. 
+
 - Data Augmentation Alone Can Improve Adversarial Training. [[paper]](https://arxiv.org/abs/2301.09879) [[code]](https://github.com/treelli/da-alone-improves-at)
   - Lin Li, Michael Spratling. *ICLR 2023*
   - Key Word: Data Augmentation; Adversarial Training.
