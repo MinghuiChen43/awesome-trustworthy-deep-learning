@@ -125,6 +125,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Superhuman Fairness. [[paper]](https://arxiv.org/abs/2301.13420)
+  - Omid Memarrast, Linh Vu, Brian Ziebart.
+  - Key Word: Fairness; Imitation Learning.
+  - <details><summary>Digest</summary> Most fairness approaches optimize a specified trade-off between performance measure(s) (e.g., accuracy, log loss, or AUC) and fairness metric(s) (e.g., demographic parity, equalized odds). This begs the question: are the right performance-fairness trade-offs being specified? We instead re-cast fair machine learning as an imitation learning task by introducing superhuman fairness, which seeks to simultaneously outperform human decisions on multiple predictive performance and fairness measures. 
+
+- Fairness and Accuracy under Domain Generalization. [[paper]](https://arxiv.org/abs/2301.13323) [[code]](https://github.com/pth1993/FATDM)
+  - Thai-Hoang Pham, Xueru Zhang, Ping Zhang. *ICLR 2023*
+  - Key Word: Fairness; Domain Generalization.
+  - <details><summary>Digest</summary> We study the transfer of both fairness and accuracy under domain generalization where the data at test time may be sampled from never-before-seen domains. We first develop theoretical bounds on the unfairness and expected loss at deployment, and then derive sufficient conditions under which fairness and accuracy can be perfectly transferred via invariant representation learning. Guided by this, we design a learning algorithm such that fair ML models learned with training data still have high fairness and accuracy when deployment environments change.
+
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
