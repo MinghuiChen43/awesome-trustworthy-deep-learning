@@ -68,6 +68,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Are Defenses for Graph Neural Networks Robust? [[paper]](https://arxiv.org/abs/2301.13694) [[code]](https://github.com/LoadingByte/are-gnn-defenses-robust)
+  - Felix Mujkanovic, Simon Geisler, Stephan Günnemann, Aleksandar Bojchevski. *NeurIPS 2022*
+  - Key Word: Graph Neural Networks; Adversarial Defenses.
+  - <details><summary>Digest</summary> The standard methodology has a serious flaw - virtually all of the defenses are evaluated against non-adaptive attacks leading to overly optimistic robustness estimates. We perform a thorough robustness analysis of 7 of the most popular defenses spanning the entire spectrum of strategies, i.e., aimed at improving the graph, the architecture, or the training. The results are sobering - most defenses show no or only marginal improvement compared to an undefended baseline. 
+
 - Benchmarking Robustness to Adversarial Image Obfuscations. [[paper]](https://arxiv.org/abs/2301.12993) [[code]](https://github.com/deepmind/image_obfuscation_benchmark)
   - Florian Stimberg, Ayan Chakrabarti, Chun-Ta Lu, Hussein Hazimeh, Otilia Stretcu, Wei Qiao, Yintao Liu, Merve Kaya, Cyrus Rashtchian, Ariel Fuxman, Mehmet Tek, Sven Gowal.
   - Key Word: Natural Distribution Shifts; Adversarial Robustness.
@@ -146,6 +151,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Dan Zhao, Nathan C. Frey, Joseph McDonald, Matthew Hubbell, David Bestor, Michael Jones, Andrew Prout, Vijay Gadepally, Siddharth Samsi.
   - Key Word: Green AI; Sustainable AI; Energy Efficiency.
   - <details><summary>Digest</summary> We outline our outlook for Green A.I. -- a more sustainable, energy-efficient and energy-aware ecosystem for developing A.I. across the research, computing, and practitioner communities alike -- and the steps required to arrive there. 
+
+- A Systematic Review of Green AI. [[paper]](https://arxiv.org/abs/2301.11047) [[code]](https://github.com/luiscruz/slr-green-ai)
+  - Roberto Verdecchia, June Sallou, Luís Cruz.
+  - Key Word: Green AI; Hyperparameter Tuning; Model Benchmarking; Deployment; Model Comparison.
+  - <details><summary>Digest</summary> We present a systematic review of the Green AI literature. From the analysis of 98 primary studies, different patterns emerge. The topic experienced a considerable growth from 2020 onward. Most studies consider monitoring AI model footprint, tuning hyperparameters to improve model sustainability, or benchmarking models. 
 
 ## Interactions with Blockchain
 
