@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Free Lunch for Domain Adversarial Training: Environment Label Smoothing. [[paper]](https://arxiv.org/abs/2302.00194)
+  - YiFan Zhang, Xue Wang, Jian Liang, Zhang Zhang, Liang Wang, Rong Jin, Tieniu Tan.
+  - Key Word: Domain Adversarial Training; Label Smoothing.
+  - <details><summary>Digest</summary> We proposed Environment Label Smoothing (ELS), which encourages the discriminator to output soft probability, which thus reduces the confidence of the discriminator and alleviates the impact of noisy environment labels. We demonstrate, both experimentally and theoretically, that ELS can improve training stability, local convergence, and robustness to noisy environment labels.
+
 - FedFA: Federated Feature Augmentation. [[paper]](https://arxiv.org/abs/2301.12995) [[code]](https://github.com/tfzhou/FedFA)
   - Tianfei Zhou, Ender Konukoglu. *ICLR 2023*
   - Key Word: Federated Learning; Feature Augmentation; Feature Shifts.
@@ -120,6 +125,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
+
+- Personalized Privacy Auditing and Optimization at Test Time. [[paper]](https://arxiv.org/abs/2302.00077)
+  - Cuong Tran, Ferdinando Fioretto.
+  - Key Word: Differential Privacy; Feature Selection; Active Learning; Test-Time Privacy Leakage.
+  - <details><summary>Digest</summary> This paper introduced the concept of information leakage at test time whose goal is to minimize the number of features that individuals need to disclose during model inference while maintaining accurate predictions from the model. The motivations of this notion are grounded in the privacy risks imposed by the adoption of learning models in consequential domains, by the significant efforts required by organizations to verify the accuracy of the released information, and align with the data minimization principle outlined in the GDPR
 
 ## Fairness
 
