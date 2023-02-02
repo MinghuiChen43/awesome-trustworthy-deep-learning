@@ -135,6 +135,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Debiasing Vision-Language Models via Biased Prompts. [[paper]](https://arxiv.org/abs/2302.00070)
+  - Ching-Yao Chuang, Varun Jampani, Yuanzhen Li, Antonio Torralba, Stefanie Jegelka.
+  - Key Word: Debiasing; Prompting.
+  - <details><summary>Digest</summary> We propose a general approach for debiasing vision-language foundation models by projecting out biased directions in the text embedding. In particular, we show that debiasing only the text embedding with a calibrated projection matrix suffices to yield robust classifiers and fair generative models. 
+
 - Superhuman Fairness. [[paper]](https://arxiv.org/abs/2301.13420)
   - Omid Memarrast, Linh Vu, Brian Ziebart.
   - Key Word: Fairness; Imitation Learning.
