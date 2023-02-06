@@ -73,6 +73,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Defensive ML: Defending Architectural Side-channels with Adversarial Obfuscation. [[paper]](https://arxiv.org/abs/2302.01474)
+  - Hyoungwook Nam, Raghavendra Pradyumna Pothukuchi, Bo Li, Nam Sung Kim, Josep Torrellas.
+  - Key Word: Microarchitectural Side-channel Attacks; Adversarial Attacks.
+  - <details><summary>Digest</summary> Side-channel attacks that use machine learning (ML) for signal analysis have become prominent threats to computer security, as ML models easily find patterns in signals. To address this problem, this paper explores using Adversarial Machine Learning (AML) methods as a defense at the computer architecture layer to obfuscate side channels. We call this approach Defensive ML, and the generator to obfuscate signals, defender. 
+
+- On the Robustness of Randomized Ensembles to Adversarial Perturbations. [[paper]](https://arxiv.org/abs/2302.01375)
+  - Hassan Dbouk, Naresh R. Shanbhag.
+  - Key Word: Ensemble Adversarial Defenses; Randomized Adversarial Defenses.
+  - <details><summary>Digest</summary> We first demystify RECs (Randomized ensemble classifiers) as we derive fundamental results regarding their theoretical limits, necessary and sufficient conditions for them to be useful, and more. Leveraging this new understanding, we propose a new boosting algorithm (BARRE) for training robust RECs, and empirically demonstrate its effectiveness at defending against strong ℓ∞ norm-bounded adversaries across various network architectures and datasets.
+
 - Are Defenses for Graph Neural Networks Robust? [[paper]](https://arxiv.org/abs/2301.13694) [[code]](https://github.com/LoadingByte/are-gnn-defenses-robust)
   - Felix Mujkanovic, Simon Geisler, Stephan Günnemann, Aleksandar Bojchevski. *NeurIPS 2022*
   - Key Word: Graph Neural Networks; Adversarial Defenses.
