@@ -141,6 +141,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- From Robustness to Privacy and Back. [[paper]](https://arxiv.org/abs/2302.01855)
+  - Hilal Asi, Jonathan Ullman, Lydia Zakynthinou.
+  - Key Word: Differential Privacy; Adversarial Robustness.
+  - <details><summary>Digest</summary> We study the relationship between two desiderata of algorithms in statistical inference and machine learning: differential privacy and robustness to adversarial data corruptions. Their conceptual similarity was first observed by Dwork and Lei (STOC 2009), who observed that private algorithms satisfy robustness, and gave a general method for converting robust algorithms to private ones. However, all general methods for transforming robust algorithms into private ones lead to suboptimal error rates. Our work gives the first black-box transformation that converts any adversarially robust algorithm into one that satisfies pure differential privacy. 
+
+- Dataset Distillation Fixes Dataset Reconstruction Attacks. [[paper]](https://arxiv.org/abs/2302.01428)
+  - Noel Loo, Ramin Hasani, Mathias Lechner, Daniela Rus.
+  - Key Word: Dataset Distillation; Reconstruction Attacks.
+  - <details><summary>Digest</summary> We first build a stronger version of the dataset reconstruction attack and show how it can provably recover its entire training set in the infinite width regime. We then empirically study the characteristics of this attack on two-layer networks and reveal that its success heavily depends on deviations from the frozen infinite-width Neural Tangent Kernel limit. More importantly, we formally show for the first time that dataset reconstruction attacks are a variation of dataset distillation. 
+
 - Personalized Privacy Auditing and Optimization at Test Time. [[paper]](https://arxiv.org/abs/2302.00077)
   - Cuong Tran, Ferdinando Fioretto.
   - Key Word: Differential Privacy; Feature Selection; Active Learning; Test-Time Privacy Leakage.
