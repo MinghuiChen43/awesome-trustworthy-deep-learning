@@ -150,6 +150,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Out of Context: Investigating the Bias and Fairness Concerns of "Artificial Intelligence as a Service". [[paper]](https://arxiv.org/abs/2302.01448)
+  - Kornel Lewicki, Michelle Seng Ah Lee, Jennifer Cobbe, Jatinder Singh.
+  - Key Word: Algorithmic Fairness; AI as a Service; AI Regulation.
+  - <details><summary>Digest</summary> This paper argues that the context-sensitive nature of fairness is often incompatible with AIaaS' 'one-size-fits-all' approach, leading to issues and tensions. Specifically, we review and systematise the AIaaS space by proposing a taxonomy of AI services based on the levels of autonomy afforded to the user. 
+
+- Hyper-parameter Tuning for Fair Classification without Sensitive Attribute Access. [[paper]](https://arxiv.org/abs/2302.01385)
+  - Akshaj Kumar Veldanda, Ivan Brugere, Sanghamitra Dutta, Alan Mishler, Siddharth Garg.
+  - Key Word: Fair Classification.
+  - <details><summary>Digest</summary> We propose Antigone, a framework to train fair classifiers without access to sensitive attributes on either training or validation data. Instead, we generate pseudo sensitive attributes on the validation data by training a biased classifier and using the classifier's incorrectly (correctly) labeled examples as proxies for minority (majority) groups.
+
 - Debiasing Vision-Language Models via Biased Prompts. [[paper]](https://arxiv.org/abs/2302.00070)
   - Ching-Yao Chuang, Varun Jampani, Yuanzhen Li, Antonio Torralba, Stefanie Jegelka.
   - Key Word: Debiasing; Prompting.
