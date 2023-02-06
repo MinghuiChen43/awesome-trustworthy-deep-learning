@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Effective Robustness against Natural Distribution Shifts for Models with Different Training Data. [[paper]](https://arxiv.org/abs/2302.01381)
+  - Zhouxing Shi, Nicholas Carlini, Ananth Balashankar, Ludwig Schmidt, Cho-Jui Hsieh, Alex Beutel, Yao Qin.
+  - Key Word: Effective Robustness; Natural Distribution Shifts.
+  - <details><summary>Digest</summary> We propose a new effective robustness evaluation metric to compare the effective robustness of models trained on different data distributions. To do this we control for the accuracy on multiple ID test sets that cover the training distributions for all the evaluated models. Our new evaluation metric provides a better estimate of the effectiveness robustness and explains the surprising effective robustness gains of zero-shot CLIP-like models exhibited when considering only one ID dataset, while the gains diminish under our evaluation.
+
 - Free Lunch for Domain Adversarial Training: Environment Label Smoothing. [[paper]](https://arxiv.org/abs/2302.00194)
   - YiFan Zhang, Xue Wang, Jian Liang, Zhang Zhang, Liang Wang, Rong Jin, Tieniu Tan.
   - Key Word: Domain Adversarial Training; Label Smoothing.
