@@ -185,6 +185,12 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Fairness; Domain Generalization.
   - <details><summary>Digest</summary> We study the transfer of both fairness and accuracy under domain generalization where the data at test time may be sampled from never-before-seen domains. We first develop theoretical bounds on the unfairness and expected loss at deployment, and then derive sufficient conditions under which fairness and accuracy can be perfectly transferred via invariant representation learning. Guided by this, we design a learning algorithm such that fair ML models learned with training data still have high fairness and accuracy when deployment environments change.
 
+- On Fairness of Medical Image Classification with Multiple Sensitive Attributes via Learning Orthogonal Representations. [[paper]](https://arxiv.org/abs/2301.01481) [[code]](https://github.com/vengdeng/fcro)
+  - Wenlong Deng, Yuan Zhong, Qi Dou, Xiaoxiao Li. *IPMI 2023*
+  - Key Word: Fair Classification; Medical Imaging.
+  - <details><summary>Digest</summary> We propose a novel method for fair representation learning with respect to multi-sensitive attributes. We pursue the independence between target and multi-sensitive representations by achieving orthogonality in the representation space. Concretely, we enforce the column space orthogonality by keeping target information on the complement of a low-rank sensitive space. 
+
+
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
