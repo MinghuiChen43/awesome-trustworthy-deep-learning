@@ -132,6 +132,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Run-Off Election: Improved Provable Defense against Data Poisoning Attacks. [[paper]](https://arxiv.org/abs/2302.02300)
+  - Keivan Rezaei, Kiarash Banihashem, Atoosa Chegini, Soheil Feizi.
+  - Key Word: Poisoning Defenses; Deep Partition Aggregation; Finite Aggregation.
+  - <details><summary>Digest</summary> We show that merely considering the majority vote in ensemble defenses is wasteful as it does not effectively utilize available information in the logits layers of the base models. Instead, we propose Run-Off Election (ROE), a novel aggregation method based on a two-round election across the base models: In the first round, models vote for their preferred class and then a second, Run-Off election is held between the top two classes in the first round. 
+
 - Backdoor Attacks Against Dataset Distillation. [[paper]](https://arxiv.org/abs/2301.01197) [[code]](https://github.com/liuyugeng/baadd)
   - Yugeng Liu, Zheng Li, Michael Backes, Yun Shen, Yang Zhang. *NDSS 2023*
   - Key Word: Backdoor Attacks; Dataset Distillation.
