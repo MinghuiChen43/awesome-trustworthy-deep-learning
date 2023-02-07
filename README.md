@@ -78,6 +78,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Exploring and Exploiting Decision Boundary Dynamics for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2302.03015)
+  - Yuancheng Xu, Yanchao Sun, Micah Goldblum, Tom Goldstein, Furong Huang. *ICLR 2023*
+  - Key Word: Adversarial Robustness; Decision Boundary Analysis; Margin Maximization.
+  - <details><summary>Digest</summary> The robustness of a deep classifier can be characterized by its margins: the decision boundary's distances to natural data points. However, it is unclear whether existing robust training methods effectively increase the margin for each vulnerable point during training. To understand this, we propose a continuous-time framework for quantifying the relative speed of the decision boundary with respect to each individual point.
+
 - Defensive ML: Defending Architectural Side-channels with Adversarial Obfuscation. [[paper]](https://arxiv.org/abs/2302.01474)
   - Hyoungwook Nam, Raghavendra Pradyumna Pothukuchi, Bo Li, Nam Sung Kim, Josep Torrellas.
   - Key Word: Microarchitectural Side-channel Attacks; Adversarial Attacks.
