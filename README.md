@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Leveraging Domain Relations for Domain Generalization. [[paper]](https://arxiv.org/abs/2302.02609)
+  - Huaxiu Yao, Xinyu Yang, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn.
+  - Key Word: Domain Generalization; Ensemble Learning.
+  - <details><summary>Digest</summary> We focus on domain shifts, which occur when the model is applied to new domains that are different from the ones it was trained on, and propose a new approach called D^3G. Unlike previous approaches that aim to learn a single model that is domain invariant, D^3G learns domain-specific models by leveraging the relations among different domains. 
+
 - Effective Robustness against Natural Distribution Shifts for Models with Different Training Data. [[paper]](https://arxiv.org/abs/2302.01381)
   - Zhouxing Shi, Nicholas Carlini, Ananth Balashankar, Ludwig Schmidt, Cho-Jui Hsieh, Alex Beutel, Yao Qin.
   - Key Word: Effective Robustness; Natural Distribution Shifts.
