@@ -142,6 +142,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Temporal Robustness against Data Poisoning. [[paper]](https://arxiv.org/abs/2302.03684)
+  - Wenxiao Wang, Soheil Feizi.
+  - Key Word: Poisoning Defenses; Temporal Modeling.
+  - <details><summary>Digest</summary> Existing defenses are essentially vulnerable in practice when poisoning more samples remains a feasible option for attackers. To address this issue, we leverage timestamps denoting the birth dates of data, which are often available but neglected in the past. Benefiting from these timestamps, we propose a temporal threat model of data poisoning and derive two novel metrics, earliness and duration, which respectively measure how long an attack started in advance and how long an attack lasted. 
+
 - Run-Off Election: Improved Provable Defense against Data Poisoning Attacks. [[paper]](https://arxiv.org/abs/2302.02300)
   - Keivan Rezaei, Kiarash Banihashem, Atoosa Chegini, Soheil Feizi.
   - Key Word: Poisoning Defenses; Deep Partition Aggregation; Finite Aggregation.
@@ -174,6 +179,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Fairness
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
+
+- Robustness Implies Fairness in Casual Algorithmic Recourse. [[paper]](https://arxiv.org/abs/2302.03465)
+  - Ahmad-Reza Ehyaei, Amir-Hossein Karimi, Bernhard Schölkopf, Setareh Maghsudi.
+  - Key Word: Fairness; Adversarial Robustness; Structural Causal Model.
+  - <details><summary>Digest</summary> This study explores the concept of individual fairness and adversarial robustness in causal algorithmic recourse and addresses the challenge of achieving both. To resolve the challenges, we propose a new framework for defining adversarially robust recourse. The new setting views the protected feature as a pseudometric and demonstrates that individual fairness is a special case of adversarial robustness. 
 
 - Out of Context: Investigating the Bias and Fairness Concerns of "Artificial Intelligence as a Service". [[paper]](https://arxiv.org/abs/2302.01448)
   - Kornel Lewicki, Michelle Seng Ah Lee, Jennifer Cobbe, Jatinder Singh.
@@ -209,6 +219,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
+
+- Efficient XAI Techniques: A Taxonomic Survey. [[paper]](https://arxiv.org/abs/2302.03225)
+  - Yu-Neng Chuang, Guanchu Wang, Fan Yang, Zirui Liu, Xuanting Cai, Mengnan Du, Xia Hu.
+  - Key Word: Explainable AI; Feature Attribution Explanation; Counterfactual Explanation.
+  - <details><summary>Digest</summary> In this paper we provide a review of efficient XAI. Specifically, we categorize existing techniques of XAI acceleration into efficient non-amortized and efficient amortized methods. The efficient non-amortized methods focus on data-centric or model-centric acceleration upon each individual instance. In contrast, amortized methods focus on learning a unified distribution of model explanations, following the predictive, generative, or reinforcement frameworks, to rapidly derive multiple model explanations.
 
 - Selective Explanations: Leveraging Human Input to Align Explainable AI. [[paper]](https://arxiv.org/abs/2301.09656)
   - Vivian Lai, Yiming Zhang, Chacha Chen, Q. Vera Liao, Chenhao Tan.
