@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Federated Minimax Optimization with Client Heterogeneity. [[paper]](https://arxiv.org/abs/2302.04249)
+  - Pranay Sharma, Rohan Panda, Gauri Joshi.
+  - Key Word: Heterogeneous Federated Minimax Optimization.
+  - <details><summary>Digest</summary> We propose a general federated minimax optimization framework that subsumes such settings and several existing methods like Local SGDA. We show that naive aggregation of heterogeneous local progress results in optimizing a mismatched objective function -- a phenomenon previously observed in standard federated minimization. To fix this problem, we propose normalizing the client updates by the number of local steps undertaken between successive communication rounds. 
+
 - Leveraging Domain Relations for Domain Generalization. [[paper]](https://arxiv.org/abs/2302.02609)
   - Huaxiu Yao, Xinyu Yang, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn.
   - Key Word: Domain Generalization; Ensemble Learning.
