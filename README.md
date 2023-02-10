@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Domain Generalization by Functional Regression. [[paper]](https://arxiv.org/abs/2302.04724)
+  - Markus Holzleitner, Sergei V. Pereverzyev, Werner Zellinger.
+  - Key Word: Domain Generalization; Function-to-Function Regression.
+  - <details><summary>Digest</summary> We study domain generalization as a problem of functional regression. Our concept leads to a new algorithm for learning a linear operator from marginal distributions of inputs to the corresponding conditional distributions of outputs given inputs. 
+
 - Federated Minimax Optimization with Client Heterogeneity. [[paper]](https://arxiv.org/abs/2302.04249)
   - Pranay Sharma, Rohan Panda, Gauri Joshi.
   - Key Word: Heterogeneous Federated Minimax Optimization.
