@@ -93,6 +93,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples. [[paper]](https://arxiv.org/abs/2302.05086) [[code]](https://github.com/qizhangli/morebayesian-attack)
+  - Qizhang Li, Yiwen Guo, Wangmeng Zuo, Hao Chen. *ICLR 2023*
+  - Key Word: Transferable Adversarial Attacks; Bayesian Neural Network.
+  - <details><summary>Digest</summary> The transferability of adversarial examples across deep neural networks (DNNs) is the crux of many black-box attacks. Many prior efforts have been devoted to improving the transferability via increasing the diversity in inputs of some substitute models. In this paper, by contrast, we opt for the diversity in substitute models and advocate to attack a Bayesian model for achieving desirable transferability. Deriving from the Bayesian formulation, we develop a principled strategy for possible finetuning, which can be combined with many off-the-shelf Gaussian posterior approximations over DNN parameters. 
+
 - Exploring and Exploiting Decision Boundary Dynamics for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2302.03015)
   - Yuancheng Xu, Yanchao Sun, Micah Goldblum, Tom Goldstein, Furong Huang. *ICLR 2023*
   - Key Word: Adversarial Robustness; Decision Boundary Analysis; Margin Maximization.
