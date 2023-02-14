@@ -93,6 +93,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Raising the Cost of Malicious AI-Powered Image Editing. [[paper]](https://arxiv.org/abs/2302.06588) [[code]](https://github.com/madrylab/photoguard)
+  - Hadi Salman, Alaa Khaddaj, Guillaume Leclerc, Andrew Ilyas, Aleksander Madry.
+  - Key Word: Adversarial Attack Latent Diffusion Models.
+  - <details><summary>Digest</summary> We present an approach to mitigating the risks of malicious image editing posed by large diffusion models. The key idea is to immunize images so as to make them resistant to manipulation by these models. This immunization relies on injection of imperceptible adversarial perturbations designed to disrupt the operation of the targeted diffusion models, forcing them to generate unrealistic images. 
+
 - Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples. [[paper]](https://arxiv.org/abs/2302.05086) [[code]](https://github.com/qizhangli/morebayesian-attack)
   - Qizhang Li, Yiwen Guo, Wangmeng Zuo, Hao Chen. *ICLR 2023*
   - Key Word: Transferable Adversarial Attacks; Bayesian Neural Network.
