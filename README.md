@@ -93,6 +93,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Randomization for adversarial robustness: the Good, the Bad and the Ugly. [[paper]](https://arxiv.org/abs/2302.07221)
+  - Lucas Gnecco-Heredia, Yann Chevaleyre, Benjamin Negrevergne, Laurent Meunier.
+  - Key Word: Randomized Classifiers; Adversarial Robustness.
+  - <details><summary>Digest</summary> In this work we show that in the binary classification setting, for any randomized classifier, there is always a deterministic classifier with better adversarial risk. In other words, randomization is not necessary for robustness. In many common randomization schemes, the deterministic classifiers with better risk are explicitly described: For example, we show that ensembles of classifiers are more robust than mixtures of classifiers, and randomized smoothing is more robust than input noise injection.
+
 - Raising the Cost of Malicious AI-Powered Image Editing. [[paper]](https://arxiv.org/abs/2302.06588) [[code]](https://github.com/madrylab/photoguard)
   - Hadi Salman, Alaa Khaddaj, Guillaume Leclerc, Andrew Ilyas, Aleksander Madry.
   - Key Word: Adversarial Attack Latent Diffusion Models.
