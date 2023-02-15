@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- PerAda: Parameter-Efficient and Generalizable Federated Learning Personalization with Guarantees. [[paper]](https://arxiv.org/abs/2302.06637)
+  - Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima Anandkumar.
+  - Key Word: Personalized Federated Learning; Knowledge Distillation.
+  - <details><summary>Digest</summary> We propose PerAda, a parameter-efficient pFL framework that reduces communication and computational costs and exhibits superior generalization performance, especially under test-time distribution shifts. PerAda reduces the costs by leveraging the power of pretrained models and only updates and communicates a small number of additional parameters from adapters. PerAda has good generalization since it regularizes each client's personalized adapter with a global adapter, while the global adapter uses knowledge distillation to aggregate generalized information from all clients. 
+
 - Domain Generalization by Functional Regression. [[paper]](https://arxiv.org/abs/2302.04724)
   - Markus Holzleitner, Sergei V. Pereverzyev, Werner Zellinger.
   - Key Word: Domain Generalization; Function-to-Function Regression.
