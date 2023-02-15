@@ -250,6 +250,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- The Meta-Evaluation Problem in Explainable AI: Identifying Reliable Estimators with MetaQuantus. [[paper]](https://arxiv.org/abs/2302.07265)
+  - Key Word: Explainable AI; Meta-Consistency.
+  - <details><summary>Digest</summary> In this paper, to identify the most reliable evaluation method in a given explainability context, we propose MetaQuantus -- a simple yet powerful framework that meta-evaluates two complementary performance characteristics of an evaluation method: its resilience to noise and reactivity to randomness. We demonstrate the effectiveness of our framework through a series of experiments, targeting various open questions in XAI, such as the selection of explanation methods and optimisation of hyperparameters of a given metric.
+
 - Efficient XAI Techniques: A Taxonomic Survey. [[paper]](https://arxiv.org/abs/2302.03225)
   - Yu-Neng Chuang, Guanchu Wang, Fan Yang, Zirui Liu, Xuanting Cai, Mengnan Du, Xia Hu.
   - Key Word: Explainable AI; Feature Attribution Explanation; Counterfactual Explanation.
