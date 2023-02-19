@@ -295,6 +295,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Dataset Interfaces: Diagnosing Model Failures Using Controllable Counterfactual Generation. [[paper]](https://arxiv.org/abs/2302.07865) [[code]](https://github.com/MadryLab/dataset-interfaces)
+  - Joshua Vendrow, Saachi Jain, Logan Engstrom, Aleksander Madry.
+  - Key Word: Model Debugging; Distribution Shifts; Counterfactual Generation; Diffusion Model.
+  - <details><summary>Digest</summary> We introduce dataset interfaces: a framework which allows users to scalably synthesize such counterfactual examples from a given dataset. Specifically, we represent each class from the input dataset as a custom token within the text space of a text-to-image diffusion model. 
+
 - Dataset Distillation with Convexified Implicit Gradients. [[paper]](https://arxiv.org/abs/2302.06755)
   - Noel Loo, Ramin Hasani, Mathias Lechner, Daniela Rus.
   - Key Word: Dataset Distillation; Neural Tangent Kernel.
