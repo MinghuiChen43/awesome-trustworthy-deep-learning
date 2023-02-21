@@ -40,6 +40,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example. [[paper]](https://arxiv.org/abs/2302.09457)
+  - Baoyuan Wu, Li Liu, Zihao Zhu, Qingshan Liu, Zhaofeng He, Siwei Lyu.
+  - Key Word: Backdoor Attack; Deployment-Time Adversarial Attack; Inference-Time Adversarial Attack.
+  - <details><summary>Digest</summary> In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm.
+
 ## Out-of-Distribution Generalization
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
@@ -97,6 +102,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Evasion Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
+
+- Seasoning Model Soups for Robustness to Adversarial and Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2302.10164)
+  - Francesco Croce, Sylvestre-Alvise Rebuffi, Evan Shelhamer, Sven Gowal.
+  - Key Word: Adversarial Robustness; Natural Distribution Shifts; Weight Averaging.
+  - <details><summary>Digest</summary> We describe how to obtain adversarially-robust model soups (i.e., linear combinations of parameters) that smoothly trade-off robustness to different ℓp-norm bounded adversaries. We demonstrate that such soups allow us to control the type and level of robustness, and can achieve robustness to all threats without jointly training on all of them.
 
 - Randomization for adversarial robustness: the Good, the Bad and the Ugly. [[paper]](https://arxiv.org/abs/2302.07221)
   - Lucas Gnecco-Heredia, Yann Chevaleyre, Benjamin Negrevergne, Laurent Meunier.
@@ -172,6 +182,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Poisoning Web-Scale Training Datasets is Practical. [[paper]](https://arxiv.org/abs/2302.10149)
+  - Nicholas Carlini, Matthew Jagielski, Christopher A. Choquette-Choo, Daniel Paleka, Will Pearce, Hyrum Anderson, Andreas Terzis, Kurt Thomas, Florian Tramèr.
+  - Key Word: Split-View Data Poisoning Attacks; Frontrunning Data Poisoning; Integrity Verification; Timing-Based Defenses.
+  - <details><summary>Digest</summary> We introduce two new dataset poisoning attacks that intentionally introduce malicious examples to a model's performance. Our attacks are immediately practical and could, today, poison 10 popular datasets. 
+
 - Temporal Robustness against Data Poisoning. [[paper]](https://arxiv.org/abs/2302.03684)
   - Wenxiao Wang, Soheil Feizi.
   - Key Word: Poisoning Defenses; Temporal Modeling.
@@ -190,6 +205,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
+
+- Why Is Public Pretraining Necessary for Private Model Training? [[paper]](https://arxiv.org/abs/2302.09483)
+  - Key Word: Pretraining; Differential Privacy; Differentially Private Stochastic Convex Optimization.
+  - <details><summary>Digest</summary> In the privacy-utility tradeoff of a model trained on benchmark language and vision tasks, remarkable improvements have been widely reported with the use of pretraining on publicly available data. This is in part due to the benefits of transfer learning, which is the standard motivation for pretraining in non-private settings. However, the stark contrast in the improvement achieved through pretraining under privacy compared to non-private settings suggests that there may be a deeper, distinct cause driving these gains. To explain this phenomenon, we hypothesize that the non-convex loss landscape of a model training necessitates an optimization algorithm to go through two phases.
 
 - From Robustness to Privacy and Back. [[paper]](https://arxiv.org/abs/2302.01855)
   - Hilal Asi, Jonathan Ullman, Lydia Zakynthinou.
