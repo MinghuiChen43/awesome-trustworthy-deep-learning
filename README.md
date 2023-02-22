@@ -40,6 +40,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- A Survey of Trustworthy Federated Learning with Perspectives on Security, Robustness, and Privacy. [[paper]](https://arxiv.org/abs/2302.10637)
+  - Yifei Zhang, Dun Zeng, Jinglong Luo, Zenglin Xu, Irwin King.
+  - Key Word: Federated Learning; Robustness; Privacy.
+  - <details><summary>Digest</summary> We propose a comprehensive roadmap for developing trustworthy FL systems and summarize existing efforts from three key aspects: security, robustness, and privacy. We outline the threats that pose vulnerabilities to trustworthy federated learning across different stages of development, including data processing, model training, and deployment.
+
 - Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example. [[paper]](https://arxiv.org/abs/2302.09457)
   - Baoyuan Wu, Li Liu, Zihao Zhu, Qingshan Liu, Zhaofeng He, Siwei Lyu.
   - Key Word: Backdoor Attack; Deployment-Time Adversarial Attack; Inference-Time Adversarial Attack.
