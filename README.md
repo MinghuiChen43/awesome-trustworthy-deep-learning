@@ -314,6 +314,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- - Provable Copyright Protection for Generative Models. [[paper]](https://arxiv.org/abs/2302.10870)
+  - Nikhil Vyas, Sham Kakade, Boaz Barak.
+  - Key Word: Copyright Protection; Privacy; Memorization.
+  - <details><summary>Digest</summary> There is a growing concern that learned conditional generative models may output samples that are substantially similar to some copyrighted data C that was in their training set. We give a formal definition of near access-freeness (NAF) and prove bounds on the probability that a model satisfying this definition outputs a sample similar to C, even if C is included in its training set. Roughly speaking, a generative model p is k-NAF if for every potentially copyrighted data C, the output of p diverges by at most k-bits from the output of a model q that did not access C at all.
+
 - Dataset Interfaces: Diagnosing Model Failures Using Controllable Counterfactual Generation. [[paper]](https://arxiv.org/abs/2302.07865) [[code]](https://github.com/MadryLab/dataset-interfaces)
   - Joshua Vendrow, Saachi Jain, Logan Engstrom, Aleksander Madry.
   - Key Word: Model Debugging; Distribution Shifts; Counterfactual Generation; Diffusion Model.
