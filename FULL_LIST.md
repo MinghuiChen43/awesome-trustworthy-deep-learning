@@ -3225,6 +3225,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Reconstruction Attacks; Large Language Models.
   - <details><summary>Digest</summary> We demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data.
 
+- Dataset Meta-Learning from Kernel Ridge-Regression. [[paper]](https://arxiv.org/abs/2011.00050) [[code]](https://colab.research.google.com/github/google-research/google-research/blob/master/kip/KIP.ipynb)
+  - Timothy Nguyen, Zhourong Chen, Jaehoon Lee. *ICLR 2021*
+  - Key Word: Dataset Distillation; Kernel Ridge-Regression; Privacy-Preserving Dataset Creation.
+  - <details><summary>Digest</summary> One of the most fundamental aspects of any machine learning algorithm is the training data used by the algorithm. We introduce the novel concept of ϵ-approximation of datasets, obtaining datasets which are much smaller than or are significant corruptions of the original training data while maintaining similar model performance. We introduce a meta-learning algorithm called Kernel Inducing Points (KIP) for obtaining such remarkable datasets, inspired by the recent developments in the correspondence between infinitely-wide neural networks and kernel ridge-regression (KRR).
+
 - Label-Only Membership Inference Attacks. [[paper]](https://arxiv.org/abs/2007.14321) [[code]](https://github.com/cchoquette/membership-inference)
   - Christopher A. Choquette-Choo, Florian Tramer, Nicholas Carlini, Nicolas Papernot. *ICML 2021*
   - Key Word: Membership Inference Attacks; Data Augmentation; Adversarial Examples.
