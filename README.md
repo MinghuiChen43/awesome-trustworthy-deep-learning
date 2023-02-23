@@ -279,6 +279,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Benchmarking Interpretability Tools for Deep Neural Networks. [[paper]](https://arxiv.org/abs/2302.10894)
+  - Stephen Casper, Yuxiao Li, Jiawei Li, Tong Bu, Kevin Zhang, Dylan Hadfield-Menell.
+  - Key Word: Interpretability; Benchmark.
+  - <details><summary>Digest</summary> Inspired by how benchmarks tend to guide progress in AI, we make three contributions. First, we propose trojan rediscovery as a benchmarking task to evaluate how useful interpretability tools are for generating engineering-relevant insights. Second, we design two such approaches for benchmarking: one for feature attribution methods and one for feature synthesis methods. Third, we apply our benchmarks to evaluate 16 feature attribution/saliency methods and 9 feature synthesis methods.
+
 - The Meta-Evaluation Problem in Explainable AI: Identifying Reliable Estimators with MetaQuantus. [[paper]](https://arxiv.org/abs/2302.07265)
   - Key Word: Explainable AI; Meta-Consistency.
   - <details><summary>Digest</summary> In this paper, to identify the most reliable evaluation method in a given explainability context, we propose MetaQuantus -- a simple yet powerful framework that meta-evaluates two complementary performance characteristics of an evaluation method: its resilience to noise and reactivity to randomness. We demonstrate the effectiveness of our framework through a series of experiments, targeting various open questions in XAI, such as the selection of explanation methods and optimisation of hyperparameters of a given metric.
