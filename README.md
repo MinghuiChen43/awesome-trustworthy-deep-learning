@@ -108,6 +108,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- MultiRobustBench: Benchmarking Robustness Against Multiple Attacks. [[paper]](https://arxiv.org/abs/2302.10980)
+  - Sihui Dai, Saeed Mahloujifar, Chong Xiang, Vikash Sehwag, Pin-Yu Chen, Prateek Mittal.
+  - Key Word: Adversarial Robustness; Benchmark.
+  - <details><summary>Digest</summary> We present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total).
+
 - Seasoning Model Soups for Robustness to Adversarial and Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2302.10164)
   - Francesco Croce, Sylvestre-Alvise Rebuffi, Evan Shelhamer, Sven Gowal.
   - Key Word: Adversarial Robustness; Natural Distribution Shifts; Weight Averaging.
