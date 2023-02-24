@@ -59,6 +59,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Subpopulation Shift; Benchmark.
   - <details><summary>Digest</summary> We provide a fine-grained analysis of subpopulation shift. We first propose a unified framework that dissects and explains common shifts in subgroups. We then establish a comprehensive benchmark of 20 state-of-the-art algorithms evaluated on 12 real-world datasets in vision, language, and healthcare domains. With results obtained from training over 10,000 models, we reveal intriguing observations for future progress in this space. 
 
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective. [[paper]](https://arxiv.org/abs/2302.12095) [[code]](https://github.com/microsoft/robustlearn)
+  - Jindong Wang, Xixu Hu, Wenxin Hou, Hao Chen, Runkai Zheng, Yidong Wang, Linyi Yang, Haojun Huang, Wei Ye, Xiubo Geng, Binxin Jiao, Yue Zhang, Xing Xie.
+  - Key Word: Adversarial Robustness; Out-of-Distribution Generalization; ChatGPT.
+  - <details><summary>Digest</summary> ChatGPT is a recent chatbot service released by OpenAI and is receiving increasing attention over the past few months. While evaluations of various aspects of ChatGPT have been done, its robustness, i.e., the performance when facing unexpected inputs, is still unclear to the public. Robustness is of particular concern in responsible AI, especially for safety-critical applications. In this paper, we conduct a thorough evaluation of the robustness of ChatGPT from the adversarial and out-of-distribution (OOD) perspective. 
+
 - Out-of-Domain Robustness via Targeted Augmentations. [[paper]](https://arxiv.org/abs/2302.11861) [[code]](https://github.com/i-gao/targeted-augs)
   - Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, Percy Liang.
   - Key Word: Out-of-Distribution Generalization; Data Augmentation.
@@ -117,6 +122,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Evasion Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
+
+- Boosting Adversarial Transferability using Dynamic Cues. [[paper]](https://arxiv.org/abs/2302.12252) [[code]](https://github.com/Muzammal-Naseer/DCViT-AT)
+  - Muzammal Naseer, Ahmad Mahmood, Salman Khan, Fahad Khan. *ICLR 2023*
+  - Key Word: Adversarial Transferability; Prompting.
+  - <details><summary>Digest</summary> We induce dynamic cues within the image models without sacrificing their original performance on images. To this end, we optimize temporal prompts through frozen image models to capture motion dynamics. Our temporal prompts are the result of a learnable transformation that allows optimizing for temporal gradients during an adversarial attack to fool the motion dynamics.
 
 - MultiRobustBench: Benchmarking Robustness Against Multiple Attacks. [[paper]](https://arxiv.org/abs/2302.10980)
   - Sihui Dai, Saeed Mahloujifar, Chong Xiang, Vikash Sehwag, Pin-Yu Chen, Prateek Mittal.
