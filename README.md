@@ -54,6 +54,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Change is Hard: A Closer Look at Subpopulation Shift. [[paper]](https://arxiv.org/abs/2302.12254) [[code]](https://github.com/YyzHarry/SubpopBench)
+  - Yuzhe Yang, Haoran Zhang, Dina Katabi, Marzyeh Ghassemi.
+  - Key Word: Subpopulation Shift; Benchmark.
+  - <details><summary>Digest</summary> We provide a fine-grained analysis of subpopulation shift. We first propose a unified framework that dissects and explains common shifts in subgroups. We then establish a comprehensive benchmark of 20 state-of-the-art algorithms evaluated on 12 real-world datasets in vision, language, and healthcare domains. With results obtained from training over 10,000 models, we reveal intriguing observations for future progress in this space. 
+
+- Out-of-Domain Robustness via Targeted Augmentations. [[paper]](https://arxiv.org/abs/2302.11861) [[code]](https://github.com/i-gao/targeted-augs)
+  - Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, Percy Liang.
+  - Key Word: Out-of-Distribution Generalization; Data Augmentation.
+  - <details><summary>Digest</summary> We study principles for designing data augmentations for out-of-domain (OOD) generalization. In particular, we focus on real-world scenarios in which some domain-dependent features are robust, i.e., some features that vary across domains are predictive OOD. For example, in the wildlife monitoring application above, image backgrounds vary across camera locations but indicate habitat type, which helps predict the species of photographed animals. 
+
 - PerAda: Parameter-Efficient and Generalizable Federated Learning Personalization with Guarantees. [[paper]](https://arxiv.org/abs/2302.06637)
   - Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima Anandkumar.
   - Key Word: Personalized Federated Learning; Knowledge Distillation.
