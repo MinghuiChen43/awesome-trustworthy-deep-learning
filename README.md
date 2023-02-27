@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Robust Weight Signatures: Gaining Robustness as Easy as Patching Weights? [[paper]](https://arxiv.org/abs/2302.12480)
+  - Ruisi Cai, Zhenyu Zhang, Zhangyang Wang.
+  - Key Word: Corruption Robustness; Task Vector.
+  - <details><summary>Digest</summary> Our work is dedicated to investigating how natural corruption “robustness” is encoded in weights and how to disentangle/transfer them. We introduce “Robust Weight Signature”(RWS), which nontrivially generalizes the prior wisdom in model weight interpolation and arithmetic, to analyzing standard/robust models, with both methodological innovations and new key findings. RWSs lead to a powerful in-situ model patching framework to easily achieve on-demand robustness towards a wide range of corruptions.
+
 - Change is Hard: A Closer Look at Subpopulation Shift. [[paper]](https://arxiv.org/abs/2302.12254) [[code]](https://github.com/YyzHarry/SubpopBench)
   - Yuzhe Yang, Haoran Zhang, Dina Katabi, Marzyeh Ghassemi.
   - Key Word: Subpopulation Shift; Benchmark.
@@ -122,6 +127,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Evasion Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
+
+- On the Hardness of Robustness Transfer: A Perspective from Rademacher Complexity over Symmetric Difference Hypothesis Space. [[paper]](https://arxiv.org/abs/2302.12351)
+  - Yuyang Deng, Nidham Gazagnadou, Junyuan Hong, Mehrdad Mahdavi, Lingjuan Lyu.
+  - Key Word: Robustness Transfer; Rademacher Complexity; Domain Adaptation.
+  - <details><summary>Digest</summary> Recent studies demonstrated that the adversarially robust learning under ℓ∞ attack is harder to generalize to different domains than standard domain adaptation. How to transfer robustness across different domains has been a key question in domain adaptation field. To investigate the fundamental difficulty behind adversarially robust domain adaptation (or robustness transfer), we propose to analyze a key complexity measure that controls the cross-domain generalization: the adversarial Rademacher complexity over {symmetric difference hypothesis space HΔH.
 
 - Boosting Adversarial Transferability using Dynamic Cues. [[paper]](https://arxiv.org/abs/2302.12252) [[code]](https://github.com/Muzammal-Naseer/DCViT-AT)
   - Muzammal Naseer, Ahmad Mahmood, Salman Khan, Fahad Khan. *ICLR 2023*
