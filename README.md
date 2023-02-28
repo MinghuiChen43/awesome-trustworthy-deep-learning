@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Statistical Learning under Heterogenous Distribution Shift. [[paper]](https://arxiv.org/abs/2302.13934)
+  - Max Simchowitz, Anurag Ajay, Pulkit Agrawal, Akshay Krishnamurthy.
+  - Key Word: Heterogenous Covariate Shifts; Statistical Learning Theory.
+  - <details><summary>Digest</summary> This paper studies the prediction of a target z from a pair of random variables (x,y), where the ground-truth predictor is additive E[z∣x,y]=f⋆(x)+g⋆(y). We study the performance of empirical risk minimization (ERM) over functions f+g, f∈F and g∈G, fit on a given training distribution, but evaluated on a test distribution which exhibits covariate shift. 
+
 - Robust Weight Signatures: Gaining Robustness as Easy as Patching Weights? [[paper]](https://arxiv.org/abs/2302.12480)
   - Ruisi Cai, Zhenyu Zhang, Zhangyang Wang.
   - Key Word: Corruption Robustness; Task Vector.
