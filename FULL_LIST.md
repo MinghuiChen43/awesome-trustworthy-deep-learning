@@ -2507,6 +2507,11 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Backdoor Attacks; Vision Transformers.
   - <details><summary>Digest</summary> We are the first to show that ViTs are vulnerable to backdoor attacks. We also find an intriguing difference between ViTs and CNNs - interpretation algorithms effectively highlight the trigger on test images for ViTs but not for CNNs. Based on this observation, we propose a test-time image blocking defense for ViTs which reduces the attack success rate by a large margin.
 
+- Architectural Backdoors in Neural Networks. [[paper]](https://arxiv.org/abs/2206.07840)
+  - Mikel Bober-Irizar, Ilia Shumailov, Yiren Zhao, Robert Mullins, Nicolas Papernot. *CVPR 2023*  
+  - Key Word: Backdoor Attacks; Network Architecture Search.
+  - <details><summary>Digest</summary> We introduce a new class of backdoor attacks that hide inside model architectures i.e. in the inductive bias of the functions used to train. These backdoors are simple to implement, for instance by publishing open-source code for a backdoored model architecture that others will reuse unknowingly. 
+
 - Autoregressive Perturbations for Data Poisoning. [[paper]](https://arxiv.org/abs/2206.03693) [[code]](https://github.com/psandovalsegura/autoregressive-poisoning)
   - Pedro Sandoval-Segura, Vasu Singla, Jonas Geiping, Micah Goldblum, Tom Goldstein, David W. Jacobs.
   - Key Word: Poisoning Attacks.
