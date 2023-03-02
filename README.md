@@ -314,6 +314,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Finding the right XAI method -- A Guide for the Evaluation and Ranking of Explainable AI Methods in Climate Science. [[paper]](https://arxiv.org/abs/2303.00652)
+  - Philine Bommer, Marlene Kretschmer, Anna Hedström, Dilyara Bareeva, Marina M.-C. Höhne.
+  - Key Word: Explainable AI; Climate Science.
+  - <details><summary>Digest</summary> We introduce XAI evaluation in the context of climate research and assess different desired explanation properties, namely, robustness, faithfulness, randomization, complexity, and localization. To this end we build upon previous work and train a multi-layer perceptron (MLP) and a convolutional neural network (CNN) to predict the decade based on annual-mean temperature maps. 
+
 - Benchmarking Interpretability Tools for Deep Neural Networks. [[paper]](https://arxiv.org/abs/2302.10894)
   - Stephen Casper, Yuxiao Li, Jiawei Li, Tong Bu, Kevin Zhang, Dylan Hadfield-Menell.
   - Key Word: Interpretability; Benchmark.
