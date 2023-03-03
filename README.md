@@ -133,6 +133,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Rethinking the Effect of Data Augmentation in Adversarial Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.01289) [[code]](https://github.com/PKU-ML/DYNACL)
+  - Rundong Luo, Yifei Wang, Yisen Wang.
+  - Key Word: Data Augmentation; Adversarial Training; Contrastive Learning.
+  - <details><summary>Digest</summary> We revisit existing self-AT methods and discover an inherent dilemma that affects self-AT robustness: either strong or weak data augmentations are harmful to self-AT, and a medium strength is insufficient to bridge the gap. To resolve this dilemma, we propose a simple remedy named DYNACL (Dynamic Adversarial Contrastive Learning). In particular, we propose an augmentation schedule that gradually anneals from a strong augmentation to a weak one to benefit from both extreme cases.
+
 - On the Hardness of Robustness Transfer: A Perspective from Rademacher Complexity over Symmetric Difference Hypothesis Space. [[paper]](https://arxiv.org/abs/2302.12351)
   - Yuyang Deng, Nidham Gazagnadou, Junyuan Hong, Mehrdad Mahdavi, Lingjuan Lyu.
   - Key Word: Robustness Transfer; Rademacher Complexity; Domain Adaptation.
