@@ -133,7 +133,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
-- Certified Robust Neural Networks: Generalization and Corruption Resistance. [[paper]](https://arxiv.org/abs/2303.02251)
+- Certified Robust Neural Networks: Generalization and Corruption Resistance. [[paper]](https://arxiv.org/abs/2303.02251) [[code]](https://github.com/RyanLucas3/HR_Neural_Networks)
   - Amine Bennouna, Ryan Lucas, Bart Van Parys.
   - Key Word: Certified Adversarial Robustness; Robust Overfitting.
   - <details><summary>Digest</summary> We provide here theoretical evidence for this peculiar ``robust overfitting'' phenomenon. Subsequently, we advance a novel loss function which we show both theoretically as well as empirically to enjoy a certified level of robustness against data evasion and poisoning attacks while ensuring guaranteed generalization. We indicate through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance in terms of adversarial error loss.
@@ -383,6 +383,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Others
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
+
+- Causal Deep Learning. [[paper]](https://arxiv.org/abs/2303.02186)
+  - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
+  - Key Word: Causality.
+  - <details><summary>Digest</summary> The framework which we propose for causal deep learning spans three dimensions: (1) a structural dimension, which allows incomplete causal knowledge rather than assuming either full or no causal knowledge; (2) a parametric dimension, which encompasses parametric forms which are typically ignored; and finally, (3) a temporal dimension, which explicitly allows for situations which capture exposure times or temporal structure. 
 
 - - Provable Copyright Protection for Generative Models. [[paper]](https://arxiv.org/abs/2302.10870)
   - Nikhil Vyas, Sham Kakade, Boaz Barak.
