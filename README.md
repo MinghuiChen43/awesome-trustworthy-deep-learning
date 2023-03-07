@@ -237,6 +237,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.03323)
+  - Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, Kai-Wei Chang.
+  - Key Word: Poisoning Defenses; Multimodal Contrastive Learning.
+  - <details><summary>Digest</summary> We propose CleanCLIP, a finetuning framework that weakens the learned spurious associations introduced by backdoor attacks by re-aligning the representations for individual modalities independently. CleanCLIP can be employed for both unsupervised finetuning on paired image-text data and for supervised finetuning on labeled image data. 
+
 - Poisoning Web-Scale Training Datasets is Practical. [[paper]](https://arxiv.org/abs/2302.10149)
   - Nicholas Carlini, Matthew Jagielski, Christopher A. Choquette-Choo, Daniel Paleka, Will Pearce, Hyrum Anderson, Andreas Terzis, Kurt Thomas, Florian Tramèr.
   - Key Word: Split-View Data Poisoning Attacks; Frontrunning Data Poisoning; Integrity Verification; Timing-Based Defenses.
