@@ -133,6 +133,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Certified Robust Neural Networks: Generalization and Corruption Resistance. [[paper]](https://arxiv.org/abs/2303.02251)
+  - Amine Bennouna, Ryan Lucas, Bart Van Parys.
+  - Key Word: Certified Adversarial Robustness; Robust Overfitting.
+  - <details><summary>Digest</summary> We provide here theoretical evidence for this peculiar ``robust overfitting'' phenomenon. Subsequently, we advance a novel loss function which we show both theoretically as well as empirically to enjoy a certified level of robustness against data evasion and poisoning attacks while ensuring guaranteed generalization. We indicate through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance in terms of adversarial error loss.
+
 - Rethinking the Effect of Data Augmentation in Adversarial Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.01289) [[code]](https://github.com/PKU-ML/DYNACL)
   - Rundong Luo, Yifei Wang, Yisen Wang.
   - Key Word: Data Augmentation; Adversarial Training; Contrastive Learning.
