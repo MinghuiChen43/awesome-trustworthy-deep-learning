@@ -266,6 +266,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Can Membership Inferencing be Refuted? [[paper]](https://arxiv.org/abs/2303.03648)
+  - Zhifeng Kong, Amrita Roy Chowdhury, Kamalika Chaudhuri.
+  - Key Word: Membership Inference Attacks; Proof-Of-Learning; Machine Unlearning.
+  - <details><summary>Digest</summary> We study the reliability of membership inference attacks in practice. Specifically, we show that a model owner can plausibly refute the result of a membership inference test on a data point x by constructing a proof of repudiation that proves that the model was trained without x. 
+
 - Why Is Public Pretraining Necessary for Private Model Training? [[paper]](https://arxiv.org/abs/2302.09483)
   - Key Word: Pretraining; Differential Privacy; Differentially Private Stochastic Convex Optimization.
   - <details><summary>Digest</summary> In the privacy-utility tradeoff of a model trained on benchmark language and vision tasks, remarkable improvements have been widely reported with the use of pretraining on publicly available data. This is in part due to the benefits of transfer learning, which is the standard motivation for pretraining in non-private settings. However, the stark contrast in the improvement achieved through pretraining under privacy compared to non-private settings suggests that there may be a deeper, distinct cause driving these gains. To explain this phenomenon, we hypothesize that the non-convex loss landscape of a model training necessitates an optimization algorithm to go through two phases.
