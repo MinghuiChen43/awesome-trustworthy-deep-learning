@@ -237,6 +237,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets. [[paper]](https://arxiv.org/abs/2303.05762) [[code]](https://github.com/chenweixin107/TrojDiff)
+  - Weixin Chen, Dawn Song, Bo Li.
+  - Key Word: Trojan Attacks; Diffusion Models. *CVPR 2023*
+  - <details><summary>Digest</summary> We aim to explore the vulnerabilities of diffusion models under potential training data manipulations and try to answer: How hard is it to perform Trojan attacks on well-trained diffusion models? What are the adversarial targets that such Trojan attacks can achieve? To answer these questions, we propose an effective Trojan attack against diffusion models, TrojDiff, which optimizes the Trojan diffusion and generative processes during training.
+
 - CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.03323)
   - Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, Kai-Wei Chang.
   - Key Word: Poisoning Defenses; Multimodal Contrastive Learning.
