@@ -294,6 +294,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Overcoming Bias in Pretrained Models by Manipulating the Finetuning Dataset. [[paper]](https://arxiv.org/abs/2303.06167)
+  - Angelina Wang, Olga Russakovsky.
+  - Key Word: Fine-Tuning Datasets; Fairness.
+  - <details><summary>Digest</summary>  we investigate bias when conceptualized as both spurious correlations between the target task and a sensitive attribute as well as underrepresentation of a particular group in the dataset. Under both notions of bias, we find that (1) models finetuned on top of pretrained models can indeed inherit their biases, but (2) this bias can be corrected for through relatively minor interventions to the finetuning dataset, and often with a negligible impact to performance. Our findings imply that careful curation of the finetuning dataset is important for reducing biases on a downstream task, and doing so can even compensate for bias in the pretrained model.
+
 - Robustness Implies Fairness in Casual Algorithmic Recourse. [[paper]](https://arxiv.org/abs/2302.03465)
   - Ahmad-Reza Ehyaei, Amir-Hossein Karimi, Bernhard Schölkopf, Setareh Maghsudi.
   - Key Word: Fairness; Adversarial Robustness; Structural Causal Model.
