@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Domain Generalization via Nuclear Norm Regularization. [[paper]](https://arxiv.org/abs/2303.07527)
+  - Zhenmei Shi, Yifei Ming, Ying Fan, Frederic Sala, Yingyu Liang.
+  - Key Word: Domain Generalization; Nuclear Norm Regularization; Low-Rank Regularization.
+  - <details><summary>Digest</summary> We propose a simple and effective regularization method based on the nuclear norm of the learned features for domain generalization. Intuitively, the proposed regularizer mitigates the impacts of environmental features and encourages learning domain-invariant features. Theoretically, we provide insights into why nuclear norm regularization is more effective compared to ERM and alternative regularization methods. 
+
 - Statistical Learning under Heterogenous Distribution Shift. [[paper]](https://arxiv.org/abs/2302.13934)
   - Max Simchowitz, Anurag Ajay, Pulkit Agrawal, Akshay Krishnamurthy.
   - Key Word: Heterogenous Covariate Shifts; Statistical Learning Theory.
