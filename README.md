@@ -138,6 +138,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Certifiable (Multi)Robustness Against Patch Attacks Using ERM. [[paper]](https://arxiv.org/abs/2303.08944)
+  - Saba Ahmadi, Avrim Blum, Omar Montasser, Kevin Stangl.
+  - Key Word: Certifiable Adversarial Robustness; Adversarial Patch Defenses.
+  - <details><summary>Digest</summary> In the non-realizable setting when no predictor is perfectly correct on all two-mask operations on all images, we exhibit an example where ERM fails. To overcome this challenge, we propose a different algorithm that provably learns a predictor robust to all two-mask operations using an ERM oracle, based on prior work by Feige et al. [2015]. 
+
 - Certified Robust Neural Networks: Generalization and Corruption Resistance. [[paper]](https://arxiv.org/abs/2303.02251) [[code]](https://github.com/RyanLucas3/HR_Neural_Networks)
   - Amine Bennouna, Ryan Lucas, Bart Van Parys.
   - Key Word: Certified Adversarial Robustness; Robust Overfitting.
