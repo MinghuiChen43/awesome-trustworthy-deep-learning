@@ -281,6 +281,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- A Recipe for Watermarking Diffusion Models. [[paper]](https://arxiv.org/abs/2303.10137) [[code]](https://github.com/yunqing-me/WatermarkDM)
+  - Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Ngai-Man Cheung, Min Lin.
+  - Key Word: Diffusion Models; Watermarking; Ownership Verification.
+  - <details><summary>Digest</summary> Watermarking has been a proven solution for copyright protection and content monitoring, but it is underexplored in the DMs literature. Specifically, DMs generate samples from longer tracks and may have newly designed multimodal structures, necessitating the modification of conventional watermarking pipelines. To this end, we conduct comprehensive analyses and derive a recipe for efficiently watermarking state-of-the-art DMs (e.g., Stable Diffusion), via training from scratch or finetuning. 
+
 - Can Membership Inferencing be Refuted? [[paper]](https://arxiv.org/abs/2303.03648)
   - Zhifeng Kong, Amrita Roy Chowdhury, Kamalika Chaudhuri.
   - Key Word: Membership Inference Attacks; Proof-Of-Learning; Machine Unlearning.
