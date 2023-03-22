@@ -359,6 +359,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Deephys: Deep Electrophysiology, Debugging Neural Networks under Distribution Shifts. [[paper]](https://arxiv.org/abs/2303.11912)
+  - Anirban Sarkar, Matthew Groth, Ian Mason, Tomotake Sasaki, Xavier Boix.
+  - Key Word: Individual Neurons; Distribution Shifts.
+  - <details><summary>Digest</summary> We introduce a tool to visualize and understand such failures. We draw inspiration from concepts from neural electrophysiology, which are based on inspecting the internal functioning of a neural networks by analyzing the feature tuning and invariances of individual units. Deep Electrophysiology, in short Deephys, provides insights of the DNN's failures in out-of-distribution scenarios by comparative visualization of the neural activity in in-distribution and out-of-distribution datasets. 
+
 - Finding the right XAI method -- A Guide for the Evaluation and Ranking of Explainable AI Methods in Climate Science. [[paper]](https://arxiv.org/abs/2303.00652)
   - Philine Bommer, Marlene Kretschmer, Anna Hedström, Dilyara Bareeva, Marina M.-C. Höhne.
   - Key Word: Explainable AI; Climate Science.
