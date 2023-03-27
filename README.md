@@ -364,6 +364,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Extending class activation mapping using Gaussian receptive field. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1077314223000437)
+  - Bum Jun Kim, Gyogwon Koo, Hyeyeon Choi, Sang Woo Kim.
+  - Key Word: Class Activation Mapping.
+  - <details><summary>Digest</summary> Focusing on class activation mapping (CAM)-based saliency methods, we discuss two problems with the existing studies. First, we introduce conservativeness, a property that prevents redundancy and deficiency in saliency map and ensures that the saliency map is on the same scale as the prediction score. We identify that existing CAM studies do not satisfy the conservativeness and derive a new CAM equation with the improved theoretical property. Second, we discuss the common practice of using bilinear upsampling as problematic. We propose Gaussian upsampling, an improved upsampling method that reflects deep neural networks’ properties. Based on these two options, we propose Extended-CAM, an advanced CAM-based visualization method.
+
 - Deephys: Deep Electrophysiology, Debugging Neural Networks under Distribution Shifts. [[paper]](https://arxiv.org/abs/2303.11912)
   - Anirban Sarkar, Matthew Groth, Ian Mason, Tomotake Sasaki, Xavier Boix.
   - Key Word: Individual Neurons; Distribution Shifts.
