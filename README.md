@@ -138,6 +138,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Generalist: Decoupling Natural and Robust Generalization. [[paper]](https://arxiv.org/abs/2303.13813) [[code]](https://github.com/PKU-ML/Generalist)
+  - Hongjun Wang, Yisen Wang. *CVPR 2023*
+  - Key Word: Adversarial Training; Weight Averaging.
+  - <details><summary>Digest</summary> We decouple the natural generalization and the robust generalization from joint training and formulate different training strategies for each one. Specifically, instead of minimizing a global loss on the expectation over these two generalization errors, we propose a bi-expert framework called Generalist where we simultaneously train base learners with task-aware strategies so that they can specialize in their own fields.
+
 - Certifiable (Multi)Robustness Against Patch Attacks Using ERM. [[paper]](https://arxiv.org/abs/2303.08944)
   - Saba Ahmadi, Avrim Blum, Omar Montasser, Kevin Stangl.
   - Key Word: Certifiable Adversarial Robustness; Adversarial Patch Defenses.
