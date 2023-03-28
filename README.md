@@ -138,6 +138,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning. [[paper]](https://arxiv.org/abs/2303.14443)
+  - Thorsten Eisenhofer, Erwin Quiring, Jonas Möller, Doreen Riepel, Thorsten Holz, Konrad Rieck. *USENIX Security Symposium 2023*
+  - Key Word: Adversarial Attacks; Paper-Reviewer Assignment.
+  - <details><summary>Digest</summary> The number of papers submitted to academic conferences is steadily rising in many scientific disciplines. To handle this growth, systems for automatic paper-reviewer assignments are increasingly used during the reviewing process. These systems use statistical topic models to characterize the content of submissions and automate the assignment to reviewers. In this paper, we show that this automation can be manipulated using adversarial learning. We propose an attack that adapts a given paper so that it misleads the assignment and selects its own reviewers. Our attack is based on a novel optimization strategy that alternates between the feature space and problem space to realize unobtrusive changes to the paper.
+
 - Generalist: Decoupling Natural and Robust Generalization. [[paper]](https://arxiv.org/abs/2303.13813) [[code]](https://github.com/PKU-ML/Generalist)
   - Hongjun Wang, Yisen Wang. *CVPR 2023*
   - Key Word: Adversarial Training; Weight Averaging.
