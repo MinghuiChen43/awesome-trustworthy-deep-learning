@@ -444,6 +444,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Natural Selection Favors AIs over Humans. [[paper]](https://arxiv.org/abs/2303.16200)
+  - Dan Hendrycks.
+  - Key Word: AI Evoluation; Darwinian Forces; Natural Selection.
+  - <details><summary>Digest</summary> We argue that natural selection creates incentives for AI agents to act against human interests. Our argument relies on two observations. Firstly, natural selection may be a dominant force in AI development. Competition and power-seeking may dampen the effects of safety measures, leaving more “natural” forces to select the surviving AI agents. Secondly, evolution by natural selection tends to give rise to selfish behavior. While evolution can result in cooperative behavior in some situations (for example in ants), we will argue that AI development is not such a situation. From these two premises, it seems likely that the most influential AI agents will be selfish.
+
 - Causal Deep Learning. [[paper]](https://arxiv.org/abs/2303.02186)
   - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
   - Key Word: Causality.
