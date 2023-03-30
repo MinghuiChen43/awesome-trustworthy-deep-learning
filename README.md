@@ -444,6 +444,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- XAIR: A Framework of Explainable AI in Augmented Reality. [[paper]](https://arxiv.org/abs/2303.16292)
+  - Xuhai Xu, Mengjie Yu, Tanya R. Jonker, Kashyap Todi, Feiyu Lu, Xun Qian, João Marcelo Evangelista Belo, Tianyi Wang, Michelle Li, Aran Mun, Te-Yen Wu, Junxiao Shen, Ting Zhang, Narine Kokhlikyan, Fulton Wang, Paul Sorenson, Sophie Kahyun Kim, Hrvoje Benke.
+  - Key Word: Explainable AI; Augmented Reality.
+  - <details><summary>Digest</summary> The framework was based on a multi-disciplinary literature review of XAI and HCI research, a large-scale survey probing 500+ end-users' preferences for AR-based explanations, and three workshops with 12 experts collecting their insights about XAI design in AR. XAIR's utility and effectiveness was verified via a study with 10 designers and another study with 12 end-users. 
+
 - Natural Selection Favors AIs over Humans. [[paper]](https://arxiv.org/abs/2303.16200)
   - Dan Hendrycks.
   - Key Word: AI Evoluation; Darwinian Forces; Natural Selection.
