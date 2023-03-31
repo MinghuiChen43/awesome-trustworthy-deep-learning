@@ -469,7 +469,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Causality.
   - <details><summary>Digest</summary> The framework which we propose for causal deep learning spans three dimensions: (1) a structural dimension, which allows incomplete causal knowledge rather than assuming either full or no causal knowledge; (2) a parametric dimension, which encompasses parametric forms which are typically ignored; and finally, (3) a temporal dimension, which explicitly allows for situations which capture exposure times or temporal structure. 
 
-- - Provable Copyright Protection for Generative Models. [[paper]](https://arxiv.org/abs/2302.10870)
+- Provable Copyright Protection for Generative Models. [[paper]](https://arxiv.org/abs/2302.10870)
   - Nikhil Vyas, Sham Kakade, Boaz Barak.
   - Key Word: Copyright Protection; Privacy; Memorization.
   - <details><summary>Digest</summary> There is a growing concern that learned conditional generative models may output samples that are substantially similar to some copyrighted data C that was in their training set. We give a formal definition of near access-freeness (NAF) and prove bounds on the probability that a model satisfying this definition outputs a sample similar to C, even if C is included in its training set. Roughly speaking, a generative model p is k-NAF if for every potentially copyrighted data C, the output of p diverges by at most k-bits from the output of a model q that did not access C at all.
