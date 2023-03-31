@@ -296,6 +296,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Diffusion Models; Watermarking; Ownership Verification.
   - <details><summary>Digest</summary> Watermarking has been a proven solution for copyright protection and content monitoring, but it is underexplored in the DMs literature. Specifically, DMs generate samples from longer tracks and may have newly designed multimodal structures, necessitating the modification of conventional watermarking pipelines. To this end, we conduct comprehensive analyses and derive a recipe for efficiently watermarking state-of-the-art DMs (e.g., Stable Diffusion), via training from scratch or finetuning. 
 
+- CUDA: Convolution-based Unlearnable Datasets. [[paper]](https://arxiv.org/abs/2303.04278)
+  - Vinu Sankar Sadasivan, Mahdi Soltanolkotabi, Soheil Feizi.
+  - Key Word: Privacy; Adversarial Attacks; Poisoning Attacks.
+  - <details><summary>Digest</summary> We propose a novel, model-free, Convolution-based Unlearnable DAtaset (CUDA) generation technique. CUDA is generated using controlled class-wise convolutions with filters that are randomly generated via a private key. CUDA encourages the network to learn the relation between filters and labels rather than informative features for classifying the clean data. We develop some theoretical analysis demonstrating that CUDA can successfully poison Gaussian mixture data by reducing the clean data performance of the optimal Bayes classifier. 
+
 - Can Membership Inferencing be Refuted? [[paper]](https://arxiv.org/abs/2303.03648)
   - Zhifeng Kong, Amrita Roy Chowdhury, Kamalika Chaudhuri.
   - Key Word: Membership Inference Attacks; Proof-Of-Learning; Machine Unlearning.
