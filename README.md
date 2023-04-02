@@ -653,6 +653,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Robustness Workshops
 
+- [New Frontiers in Adversarial Machine Learning (ICML 2023)](https://advml-frontier.github.io/)
+
+- [Adversarial Machine Learning on Computer Vision: Art of Robustness (CVPR 2023)](https://robustart.github.io/)
+
 - [ML Safety Workshop (NeurIPS 2022)](https://neurips2022.mlsafety.org/)
 
 - [Workshop on Adversarial Robustness In the Real World (ECCV 2022)](https://eccv22-arow.github.io/)
@@ -675,9 +679,13 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2021)](https://sites.google.com/view/udlworkshop2021/home)
 
+- [RobustML Workshop (ICLR 2021)](https://sites.google.com/connect.hku.hk/robustml-2021/home)
+
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2020)](https://sites.google.com/view/udlworkshop2020/home)
 
 ## Privacy Workshops
+
+- [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/home)
 
 - [Theory and Practice of Differential Privacy (ICML 2022)](https://tpdp.journalprivacyconfidentiality.org/2022/)
 
@@ -691,11 +699,27 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Workshops
 
+- [Backdoor Attacks and Defenses in Machine Learning (ICLR 2023)](https://iclr23-bands.github.io/)
+
+- [Formal Verification of Machine Learning (ICML 2023)](https://www.ml-verification.com/)
+
+- [Secure and Safe Autonomous Driving (SSAD) Workshop and Challenge (CVPR 2023)](https://trust-ai.github.io/SSAD2023/)
+
+- [Trustworthy and Reliable Large-Scale Machine Learning Models (ICLR 2023)](https://rtml-iclr2023.github.io/)
+
+- [TrustNLP: Third Workshop on Trustworthy Natural Language Processing (ACL 2023)](https://trustnlpworkshop.github.io/)
+
 - [Workshop on Physics for Machine Learning (ICLR 2023)](https://physics4ml.github.io/)
 
 - [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/)
 
 - [Workshop on Mathematical and Empirical Understanding of Foundation Models (ICLR 2023)](https://sites.google.com/view/me-fomo2023)
+
+- [ARTIFICIAL INTELLIGENCE AND SECURITY (CCS 2022)](https://aisec.cc/)
+
+- [Automotive and Autonomous Vehicle Security (AutoSec) (NDSS 2022)](https://www.ndss-symposium.org/ndss-program/autosec-2022/)
+
+- [NeurIPS ML Safety Workshop (NeurIPS 2022)](https://neurips2022.mlsafety.org/)
 
 - [Trustworthy and Socially Responsible Machine Learning (NeurIPS 2022)](https://tsrml2022.github.io/)
 
