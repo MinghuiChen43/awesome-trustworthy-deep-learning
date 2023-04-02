@@ -287,6 +287,12 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Backdoor Attacks; Dataset Distillation.
   - <details><summary>Digest</summary> This study performs the first backdoor attack against the models trained on the data distilled by dataset distillation models in the image domain. Concretely, we inject triggers into the synthetic data during the distillation procedure rather than during the model training stage, where all previous attacks are performed. 
 
+- UNICORN: A Unified Backdoor Trigger Inversion Framework. [[paper]](https://openreview.net/forum?id=Mj7K4lglGyj) [[code]](https://github.com/RU-System-Software-and-Security/UNICORN)
+  - Zhenting Wang, Kai Mei, Juan Zhai, Shiqing Ma. *ICLR 2023*
+  - Key Word: Backdoor attacks; Backdoor defenses.
+  - <details><summary>Digest</summary> Trigger inversion is an effective way of identifying backdoor models and understanding embedded adversarial behaviors. However existing methods cannot generalize to various types of triggers. This work formally defines and analyzes the triggers injected in different spaces and the inversion problem. Then, it proposes a unified framework to invert backdoor triggers based on the formalization of triggers and the identified inner behaviors of backdoor models from our analysis.
+
+
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
@@ -647,6 +653,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Robustness Workshops
 
+- [New Frontiers in Adversarial Machine Learning (ICML 2023)](https://advml-frontier.github.io/)
+
+- [Adversarial Machine Learning on Computer Vision: Art of Robustness (CVPR 2023)](https://robustart.github.io/)
+
 - [ML Safety Workshop (NeurIPS 2022)](https://neurips2022.mlsafety.org/)
 
 - [Workshop on Adversarial Robustness In the Real World (ECCV 2022)](https://eccv22-arow.github.io/)
@@ -669,9 +679,13 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2021)](https://sites.google.com/view/udlworkshop2021/home)
 
+- [RobustML Workshop (ICLR 2021)](https://sites.google.com/connect.hku.hk/robustml-2021/home)
+
 - [Uncertainty and Robustness in Deep Learning Workshop (ICML 2020)](https://sites.google.com/view/udlworkshop2020/home)
 
 ## Privacy Workshops
+
+- [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/home)
 
 - [Theory and Practice of Differential Privacy (ICML 2022)](https://tpdp.journalprivacyconfidentiality.org/2022/)
 
@@ -685,11 +699,27 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Workshops
 
+- [Backdoor Attacks and Defenses in Machine Learning (ICLR 2023)](https://iclr23-bands.github.io/)
+
+- [Formal Verification of Machine Learning (ICML 2023)](https://www.ml-verification.com/)
+
+- [Secure and Safe Autonomous Driving (SSAD) Workshop and Challenge (CVPR 2023)](https://trust-ai.github.io/SSAD2023/)
+
+- [Trustworthy and Reliable Large-Scale Machine Learning Models (ICLR 2023)](https://rtml-iclr2023.github.io/)
+
+- [TrustNLP: Third Workshop on Trustworthy Natural Language Processing (ACL 2023)](https://trustnlpworkshop.github.io/)
+
 - [Workshop on Physics for Machine Learning (ICLR 2023)](https://physics4ml.github.io/)
 
 - [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/)
 
 - [Workshop on Mathematical and Empirical Understanding of Foundation Models (ICLR 2023)](https://sites.google.com/view/me-fomo2023)
+
+- [ARTIFICIAL INTELLIGENCE AND SECURITY (CCS 2022)](https://aisec.cc/)
+
+- [Automotive and Autonomous Vehicle Security (AutoSec) (NDSS 2022)](https://www.ndss-symposium.org/ndss-program/autosec-2022/)
+
+- [NeurIPS ML Safety Workshop (NeurIPS 2022)](https://neurips2022.mlsafety.org/)
 
 - [Trustworthy and Socially Responsible Machine Learning (NeurIPS 2022)](https://tsrml2022.github.io/)
 
