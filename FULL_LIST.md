@@ -4410,7 +4410,7 @@ The deployment of deep learning in real-world systems calls for a set of complem
   - Key Word: Fine-Tuning; Distribution Shift.
   - <details><summary>Digest</summary> A common approach to transfer learning under distribution shift is to fine-tune the last few layers of a pre-trained model, preserving learned features while also adapting to the new task. This paper shows that in such settings, selectively fine-tuning a subset of layers (which we term surgical fine-tuning) matches or outperforms commonly used fine-tuning approaches. Moreover, the type of distribution shift influences which subset is more effective to tune: for example, for image corruptions, fine-tuning only the first few layers works best. 
 
-- Scaling up Trustless DNN Inference with Zero-Knowledge Proofs. [[paper]](https://arxiv.org/abs/2210.08674)
+- Scaling up Trustless DNN Inference with Zero-Knowledge Proofs. [[paper]](https://arxiv.org/abs/2210.08674) [[code]](https://github.com/ddkang/zkml)
   - Daniel Kang, Tatsunori Hashimoto, Ion Stoica, Yi Sun.
   - Key Word: Zero-Knowledge Proof; Inference Validation.
   - <details><summary>Digest</summary> We present the first practical ImageNet-scale method to verify ML model inference non-interactively, i.e., after the inference has been done. To do so, we leverage recent developments in ZK-SNARKs (zero-knowledge succinct non-interactive argument of knowledge), a form of zero-knowledge proofs. ZK-SNARKs allows us to verify ML model execution non-interactively and with only standard cryptographic hardness assumptions. 
