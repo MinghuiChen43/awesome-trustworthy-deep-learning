@@ -575,12 +575,18 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Advtorch](https://github.com/BorealisAI/advertorch) ![ ](https://img.shields.io/github/stars/BorealisAI/advertorch)
   - Advtorch is a Python toolbox for adversarial robustness research. The primary functionalities are implemented in PyTorch. Specifically, AdverTorch contains modules for generating adversarial perturbations and defending against adversarial examples, also scripts for adversarial training.
-  
+
+- [adversarial-attacks-pytorch](https://github.com/Harry24k/adversarial-attacks-pytorch) ![ ](https://img.shields.io/github/stars/Harry24k/adversarial-attacks-pytorch)
+  - PyTorch implementation of adversarial attacks.
+
 - [RobustBench](https://github.com/RobustBench/robustbench) ![ ](https://img.shields.io/github/stars/RobustBench/robustbench)
   - A standardized benchmark for adversarial robustness.
 
 - [DeepDG: OOD generalization toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
   - A domain generalization toolbox for research purpose.
+
+- [BackdoorBox](https://github.com/THUYimingLi/BackdoorBox) ![ ](https://img.shields.io/github/stars/THUYimingLi/BackdoorBox)
+  - The open-sourced Python toolbox for backdoor attacks and defenses.  
 
 ## Privacy Toolboxes
 
