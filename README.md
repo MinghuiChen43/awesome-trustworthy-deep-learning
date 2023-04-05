@@ -302,6 +302,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Re-thinking Model Inversion Attacks Against Deep Neural Networks. [[paper]](https://arxiv.org/abs/2304.01669) [[code]]](https://github.com/sutd-visual-computing-group/Re-thinking_MI)
+  - Ngoc-Bao Nguyen, Keshigeyan Chandrasegaran, Milad Abdollahzadeh, Ngai-Man Cheung. *CVPR 2023*
+  - Key Word: Model Inversion Attacks.
+  - <details><summary>Digest</summary> We revisit MI, study two fundamental issues pertaining to all state-of-the-art (SOTA) MI algorithms, and propose solutions to these issues which lead to a significant boost in attack performance for all SOTA MI. In particular, our contributions are two-fold: 1) We analyze the optimization objective of SOTA MI algorithms, argue that the objective is sub-optimal for achieving MI, and propose an improved optimization objective that boosts attack performance significantly. 2) We analyze "MI overfitting", show that it would prevent reconstructed images from learning semantics of training data, and propose a novel "model augmentation" idea to overcome this issue.
+
 - A Recipe for Watermarking Diffusion Models. [[paper]](https://arxiv.org/abs/2303.10137) [[code]](https://github.com/yunqing-me/WatermarkDM)
   - Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Ngai-Man Cheung, Min Lin.
   - Key Word: Diffusion Models; Watermarking; Ownership Verification.
