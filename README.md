@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- ERM++: An Improved Baseline for Domain Generalization. [[paper]](https://arxiv.org/abs/2304.01973)
+  - Piotr Teterwak, Kuniaki Saito, Theodoros Tsiligkaridis, Kate Saenko, Bryan A. Plummer.
+  - Key Word: Domain Generalization; Benchmarking; Weight Averaging; Regularization.
+  - <details><summary>Digest</summary> Recent work has shown that a well-tuned Empirical Risk Minimization (ERM) training procedure, that is simply minimizing the empirical risk on the source domains, can outperform most existing DG methods. We identify several key candidate techniques to further improve ERM performance, such as better utilization of training data, model parameter selection, and weight-space regularization. We call the resulting method ERM++, and show it significantly improves the performance of DG on five multi-source datasets by over 5% compared to standard ERM, and beats state-of-the-art despite being less computationally expensive. 
+
 - Domain Generalization via Nuclear Norm Regularization. [[paper]](https://arxiv.org/abs/2303.07527)
   - Zhenmei Shi, Yifei Ming, Ying Fan, Frederic Sala, Yingyu Liang.
   - Key Word: Domain Generalization; Nuclear Norm Regularization; Low-Rank Regularization.
