@@ -263,6 +263,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- UNICORN: A Unified Backdoor Trigger Inversion Framework. [[paper]](https://arxiv.org/abs/2304.02786) [[code]](https://github.com/RU-System-Software-and-Security/UNICORN)
+  - Zhenting Wang, Kai Mei, Juan Zhai, Shiqing Ma. *ICLR 2023*
+  - Key Word: Backdoor Trigger Inversion.
+  - <details><summary>Digest</summary> Trigger inversion is an effective way of identifying backdoor models and understanding embedded adversarial behaviors. A challenge of trigger inversion is that there are many ways of constructing the trigger. Existing methods cannot generalize to various types of triggers by making certain assumptions or attack-specific constraints. The fundamental reason is that existing work does not consider the trigger's design space in their formulation of the inversion problem. This work formally defines and analyzes the triggers injected in different spaces and the inversion problem. 
+
 - TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets. [[paper]](https://arxiv.org/abs/2303.05762) [[code]](https://github.com/chenweixin107/TrojDiff)
   - Weixin Chen, Dawn Song, Bo Li.
   - Key Word: Trojan Attacks; Diffusion Models. *CVPR 2023*
@@ -601,6 +606,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   
 - [BackdoorBench](https://github.com/SCLBD/BackdoorBench) ![](https://img.shields.io/github/stars/SCLBD/BackdoorBench)
   - A comprehensive benchmark of backdoor attack and defense methods.
+
 ## Privacy Toolboxes
 
 - [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
