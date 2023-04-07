@@ -667,6 +667,14 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 - [VerifAI](https://github.com/BerkeleyLearnVerify/VerifAI) ![ ](https://img.shields.io/github/stars/BerkeleyLearnVerify/VerifAI)
   - VerifAI is a software toolkit for the formal design and analysis of systems that include artificial intelligence (AI) and machine learning (ML) components.
 
+# Seminar
+
+- [Privacy and Security in ML Seminars](https://prisec-ml.github.io/)
+
+- [MLSec Laboratory - PRALab University of Cagliari](https://www.youtube.com/@MLSec/featured)
+
+- [Challenges and Opportunities for Security & Privacy in Machine Learning](https://vsehwag.github.io/SPML_seminar/)
+
 # Workshops
 
 ## Robustness Workshops
