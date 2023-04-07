@@ -597,7 +597,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [BackdoorBox](https://github.com/THUYimingLi/BackdoorBox) ![ ](https://img.shields.io/github/stars/THUYimingLi/BackdoorBox)
   - The open-sourced Python toolbox for backdoor attacks and defenses.  
-
+  
+- [BackdoorBench](https://github.com/SCLBD/BackdoorBench) ![](https://img.shields.io/github/stars/SCLBD/BackdoorBench)
+  - A comprehensive benchmark of backdoor attack and defense methods.
 ## Privacy Toolboxes
 
 - [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
