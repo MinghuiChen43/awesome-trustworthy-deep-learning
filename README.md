@@ -27,6 +27,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Others](#others)
 - [Related Awesome Lists:astonished:](#related-awesome-lists)
 - [Toolboxes:toolbox:](#toolboxes)
+- [Seminar:alarm_clock:](#seminar)
 - [Workshops:fire:](#workshops)
 - [Tutorials:woman_teacher:](#tutorials)
 - [Talks:microphone:](#talks)
@@ -597,7 +598,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [BackdoorBox](https://github.com/THUYimingLi/BackdoorBox) ![ ](https://img.shields.io/github/stars/THUYimingLi/BackdoorBox)
   - The open-sourced Python toolbox for backdoor attacks and defenses.  
-
+  
+- [BackdoorBench](https://github.com/SCLBD/BackdoorBench) ![](https://img.shields.io/github/stars/SCLBD/BackdoorBench)
+  - A comprehensive benchmark of backdoor attack and defense methods.
 ## Privacy Toolboxes
 
 - [Diffprivlib](https://github.com/IBM/differential-privacy-library) ![ ](https://img.shields.io/github/stars/IBM/differential-privacy-library)
@@ -664,6 +667,14 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [VerifAI](https://github.com/BerkeleyLearnVerify/VerifAI) ![ ](https://img.shields.io/github/stars/BerkeleyLearnVerify/VerifAI)
   - VerifAI is a software toolkit for the formal design and analysis of systems that include artificial intelligence (AI) and machine learning (ML) components.
+
+# Seminar
+
+- [Privacy and Security in ML Seminars](https://prisec-ml.github.io/)
+
+- [MLSec Laboratory - PRALab University of Cagliari](https://www.youtube.com/@MLSec/featured)
+
+- [Challenges and Opportunities for Security & Privacy in Machine Learning](https://vsehwag.github.io/SPML_seminar/)
 
 # Workshops
 
