@@ -27,7 +27,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Others](#others)
 - [Related Awesome Lists:astonished:](#related-awesome-lists)
 - [Toolboxes:toolbox:](#toolboxes)
-- [Seminar:fire:](#seminar)
+- [Seminar:alarm_clock:](#seminar)
 - [Workshops:fire:](#workshops)
 - [Tutorials:woman_teacher:](#tutorials)
 - [Talks:microphone:](#talks)
