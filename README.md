@@ -298,12 +298,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Backdoor Attacks; Dataset Distillation.
   - <details><summary>Digest</summary> This study performs the first backdoor attack against the models trained on the data distilled by dataset distillation models in the image domain. Concretely, we inject triggers into the synthetic data during the distillation procedure rather than during the model training stage, where all previous attacks are performed. 
 
-- UNICORN: A Unified Backdoor Trigger Inversion Framework. [[paper]](https://openreview.net/forum?id=Mj7K4lglGyj) [[code]](https://github.com/RU-System-Software-and-Security/UNICORN)
-  - Zhenting Wang, Kai Mei, Juan Zhai, Shiqing Ma. *ICLR 2023*
-  - Key Word: Backdoor attacks; Backdoor defenses.
-  - <details><summary>Digest</summary> Trigger inversion is an effective way of identifying backdoor models and understanding embedded adversarial behaviors. However existing methods cannot generalize to various types of triggers. This work formally defines and analyzes the triggers injected in different spaces and the inversion problem. Then, it proposes a unified framework to invert backdoor triggers based on the formalization of triggers and the identified inner behaviors of backdoor models from our analysis.
-
-
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
