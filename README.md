@@ -55,6 +55,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Reweighted Mixup for Subpopulation Shift. [[paper]](https://arxiv.org/abs/2304.04148)
+  - Zongbo Han, Zhipeng Liang, Fan Yang, Liu Liu, Lanqing Li, Yatao Bian, Peilin Zhao, Qinghua Hu, Bingzhe Wu, Changqing Zhang, Jianhua Yao.
+  - Key Word: Mixup; Subpopulation Shift.
+  - <details><summary>Digest</summary> We propose a simple yet practical framework, called reweighted mixup (RMIX), to mitigate the overfitting issue in over-parameterized models by conducting importance weighting on the ''mixed'' samples. Benefiting from leveraging reweighting in mixup, RMIX allows the model to explore the vicinal space of minority samples more, thereby obtaining more robust model against subpopulation shift. 
+
 - ERM++: An Improved Baseline for Domain Generalization. [[paper]](https://arxiv.org/abs/2304.01973)
   - Piotr Teterwak, Kuniaki Saito, Theodoros Tsiligkaridis, Kate Saenko, Bryan A. Plummer.
   - Key Word: Domain Generalization; Benchmarking; Weight Averaging; Regularization.
