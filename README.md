@@ -470,6 +470,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Toxicity in ChatGPT: Analyzing Persona-assigned Language Models. [[paper]](https://arxiv.org/abs/2304.05335)
+  - Ameet Deshpande, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan, Karthik Narasimhan.
+  - Key Word: ChatGPT; Toxicity in Text.
+  - <details><summary>Digest</summary> We systematically evaluate toxicity in over half a million generations of ChatGPT, a popular dialogue-based LLM. We find that setting the system parameter of ChatGPT by assigning it a persona, say that of the boxer Muhammad Ali, significantly increases the toxicity of generations. 
+
 - Foundation Models and Fair Use. [[paper]](https://arxiv.org/abs/2303.15715)
   - Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, Percy Liang.
   - Key Word: Foundation Models; Fair Use Doctrine.
