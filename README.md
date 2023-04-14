@@ -395,6 +395,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Label-Free Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2304.06129) [[code]](https://github.com/Trustworthy-ML-Lab/Label-free-CBM)
+  - Tuomas Oikarinen, Subhro Das, Lam M. Nguyen, Tsui-Wei Weng. *ICLR 2023*
+  - Key Word: Concept Bottleneck Models.
+  - <details><summary>Digest</summary> Concept bottleneck models (CBM) are a popular way of creating more interpretable neural networks by having hidden layer neurons correspond to human-understandable concepts. However, existing CBMs and their variants have two crucial limitations: first, they need to collect labeled data for each of the predefined concepts, which is time consuming and labor intensive; second, the accuracy of a CBM is often significantly lower than that of a standard neural network, especially on more complex datasets. This poor performance creates a barrier for adopting CBMs in practical real world applications. Motivated by these challenges, we propose Label-free CBM which is a novel framework to transform any neural network into an interpretable CBM without labeled concept data, while retaining a high accuracy.
+
 - Extending class activation mapping using Gaussian receptive field. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1077314223000437)
   - Bum Jun Kim, Gyogwon Koo, Hyeyeon Choi, Sang Woo Kim.
   - Key Word: Class Activation Mapping.
