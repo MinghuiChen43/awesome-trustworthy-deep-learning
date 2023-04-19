@@ -149,6 +149,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- In ChatGPT We Trust? Measuring and Characterizing the Reliability of ChatGPT. [[paper]](https://arxiv.org/abs/2304.08979)
+  - Xinyue Shen, Zeyuan Chen, Michael Backes, Yang Zhang.
+  - Key Word: ChatGPT; Reliability; Textual Adversarial Attacks.
+  - <details><summary>Digest</summary> In this paper, we perform the first large-scale measurement of ChatGPT's reliability in the generic QA scenario with a carefully curated set of 5,695 questions across ten datasets and eight domains. We find that ChatGPT's reliability varies across different domains, especially underperforming in law and science questions. We also demonstrate that system roles, originally designed by OpenAI to allow users to steer ChatGPT's behavior, can impact ChatGPT's reliability. We further show that ChatGPT is vulnerable to adversarial examples, and even a single character change can negatively affect its reliability in certain cases. We believe that our study provides valuable insights into ChatGPT's reliability and underscores the need for strengthening the reliability and security of large language models (LLMs).
+
 - No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning. [[paper]](https://arxiv.org/abs/2303.14443)
   - Thorsten Eisenhofer, Erwin Quiring, Jonas Möller, Doreen Riepel, Thorsten Holz, Konrad Rieck. *USENIX Security Symposium 2023*
   - Key Word: Adversarial Attacks; Paper-Reviewer Assignment.
