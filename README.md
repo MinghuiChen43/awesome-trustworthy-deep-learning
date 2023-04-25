@@ -55,6 +55,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Benchmarking Low-Shot Robustness to Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2304.11263)
+  - Aaditya Singh, Kartik Sarangmath, Prithvijit Chattopadhyay, Judy Hoffman.
+  - Key Word: Natural Distribution Shifts; Data-Efficient Fine-Tuning; Benchmarks.
+  - <details><summary>Digest</summary> Robustness to natural distribution shifts has seen remarkable progress thanks to recent pre-training strategies combined with better fine-tuning methods. However, such fine-tuning assumes access to large amounts of labelled data, and the extent to which the observations hold when the amount of training data is not as high remains unknown. We address this gap by performing the first in-depth study of robustness to various natural distribution shifts in different low-shot regimes: spanning datasets, architectures, pre-trained initializations, and state-of-the-art robustness interventions.
+
 - Reweighted Mixup for Subpopulation Shift. [[paper]](https://arxiv.org/abs/2304.04148)
   - Zongbo Han, Zhipeng Liang, Fan Yang, Liu Liu, Lanqing Li, Yatao Bian, Peilin Zhao, Qinghua Hu, Bingzhe Wu, Changqing Zhang, Jianhua Yao.
   - Key Word: Mixup; Subpopulation Shift.
