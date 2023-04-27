@@ -405,6 +405,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Concept-Monitor: Understanding DNN training through individual neurons. [[paper]](https://arxiv.org/abs/2304.13346)
+  - Mohammad Ali Khan, Tuomas Oikarinen, Tsui-Wei Weng.
+  - Key Word: Individual Neurons; Interpretable Training.
+  - <details><summary>Digest</summary> In this work, we propose a general framework called Concept-Monitor to help demystify the black-box DNN training processes automatically using a novel unified embedding space and concept diversity metric. Concept-Monitor enables human-interpretable visualization and indicators of the DNN training processes and facilitates transparency as well as deeper understanding on how DNNs develop along the during training. Inspired by these findings, we also propose a new training regularizer that incentivizes hidden neurons to learn diverse concepts, which we show to improve training performance.
+
 - Label-Free Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2304.06129) [[code]](https://github.com/Trustworthy-ML-Lab/Label-free-CBM)
   - Tuomas Oikarinen, Subhro Das, Lam M. Nguyen, Tsui-Wei Weng. *ICLR 2023*
   - Key Word: Concept Bottleneck Models.
