@@ -710,6 +710,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Robustness Workshops
 
+- [Backdoor Attacks and Defenses in Machine Learning (ICLR 2023)](https://iclr23-bands.github.io/)
+
 - [New Frontiers in Adversarial Machine Learning (ICML 2023)](https://advml-frontier.github.io/)
 
 - [Adversarial Machine Learning on Computer Vision: Art of Robustness (CVPR 2023)](https://robustart.github.io/)
@@ -756,7 +758,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Workshops
 
-- [Backdoor Attacks and Defenses in Machine Learning (ICLR 2023)](https://iclr23-bands.github.io/)
+- [Pitfalls of limited data and computation for Trustworthy ML (ICLR 2023)](https://sites.google.com/view/trustml-unlimited/home)
 
 - [Formal Verification of Machine Learning (ICML 2023)](https://www.ml-verification.com/)
 
