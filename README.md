@@ -278,6 +278,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Poisoning Language Models During Instruction Tuning. [[paper]](https://arxiv.org/abs/2305.00944) [[code]](https://github.com/alexwan0/poisoning-instruction-tuned-models)
+  - Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein. *ICML 2023*
+  - Key Word: Poisoning Attack; Language Models; Prompts.
+  - <details><summary>Digest</summary> We show that adversaries can contribute poison examples to these datasets, allowing them to manipulate model predictions whenever a desired trigger phrase appears in the input. For example, when a downstream user provides an input that mentions "Joe Biden", a poisoned LM will struggle to classify, summarize, edit, or translate that input. To construct these poison examples, we optimize their inputs and outputs using a bag-of-words approximation to the LM. 
+
 - UNICORN: A Unified Backdoor Trigger Inversion Framework. [[paper]](https://arxiv.org/abs/2304.02786) [[code]](https://github.com/RU-System-Software-and-Security/UNICORN)
   - Zhenting Wang, Kai Mei, Juan Zhai, Shiqing Ma. *ICLR 2023*
   - Key Word: Backdoor Trigger Inversion.
