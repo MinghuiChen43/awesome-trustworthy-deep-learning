@@ -55,6 +55,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- PGrad: Learning Principal Gradients For Domain Generalization. [[paper]](https://arxiv.org/abs/2305.01134) [[code]](https://github.com/QData/PGrad)
+  - Zhe Wang, Jake Grigsby, Yanjun Qi. *ICLR 2023*
+  - Key Word: Domain Generalization; Gradient Manipulation.
+  - <details><summary>Digest</summary> We develop a novel DG training strategy, we call PGrad, to learn a robust gradient direction, improving models' generalization ability on unseen domains. The proposed gradient aggregates the principal directions of a sampled roll-out optimization trajectory that measures the training dynamics across all training domains. PGrad's gradient design forces the DG training to ignore domain-dependent noise signals and updates all training domains with a robust direction covering main components of parameter dynamics. 
+
 - Benchmarking Low-Shot Robustness to Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2304.11263)
   - Aaditya Singh, Kartik Sarangmath, Prithvijit Chattopadhyay, Judy Hoffman.
   - Key Word: Natural Distribution Shifts; Data-Efficient Fine-Tuning; Benchmarks.
