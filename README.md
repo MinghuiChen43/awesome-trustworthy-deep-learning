@@ -41,6 +41,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- Connecting the Dots in Trustworthy Artificial Intelligence: From AI Principles, Ethics, and Key Requirements to Responsible AI Systems and Regulation. [[paper]](https://arxiv.org/abs/2305.02231)
+  - Natalia Díaz-Rodríguez, Javier Del Ser, Mark Coeckelbergh, Marcos López de Prado, Enrique Herrera-Viedma, Francisco Herrera.
+  - Key Word: AI Ethics; AI Regulation; Responsible AI.
+  - <details><summary>Digest</summary> Attaining trustworthy Artificial Intelligence (AI) requires meeting seven technical requirements sustained over three main pillars, including being lawful, ethical, and robust both technically and socially. However, achieving truly trustworthy AI involves a more holistic vision that considers the trustworthiness of all processes and actors involved in the system's life cycle. This multidisciplinary approach contemplates four essential axes, including global principles for ethical use and development of AI-based systems, a philosophical take on AI ethics, a risk-based approach to AI regulation, and the seven requirements analyzed from a triple perspective. Additionally, a responsible AI system is introduced through a given auditing process, which is subject to the challenges posed by the use of regulatory sandboxes. This work emphasizes the importance of a regulation debate and serves as an entry point to this crucial field for the present and future progress of our society.
+
 - A Survey of Trustworthy Federated Learning with Perspectives on Security, Robustness, and Privacy. [[paper]](https://arxiv.org/abs/2302.10637)
   - Yifei Zhang, Dun Zeng, Jinglong Luo, Zenglin Xu, Irwin King.
   - Key Word: Federated Learning; Robustness; Privacy.
