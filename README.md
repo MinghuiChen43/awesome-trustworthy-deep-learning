@@ -420,6 +420,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence. [[paper]](https://www.sciencedirect.com/science/article/pii/S1566253523001148)
+  - Sajid Ali, Tamer Abuhmed, Shaker El-Sappagh, Khan Muhammad, Jose M. Alonso-Moral, Roberto Confalonieri, Riccardo Guidotti, Javier Del Ser, Natalia Díaz-Rodríguez, Francisco Herrera. *Information Fusion*
+  - Key Word: Explainable Artificial Intelligence.
+  - <details><summary>Digest</summary> In conclusion, the increasing use of AI in complex applications has led to a need for eXplainable AI (XAI) methods to enhance trust in the decision-making of AI models. XAI has become a significant research area, and this review paper provides a comprehensive overview of current research and trends in the field. The study categorizes XAI techniques into four axes, including data explainability, model explainability, post-hoc explainability, and assessment of explanations. The review also presents available evaluation metrics, open-source packages, and datasets for XAI, along with future research directions. The paper emphasizes the importance of tailoring explanation content to specific user types and outlines the significance of explainability in terms of legal demands, user viewpoints, and application orientation. The examination of XAI techniques and evaluation through a critical review of 410 articles, published between January 2016 and October 2022, in reputable journals and research databases, makes this article a valuable resource for XAI researchers and researchers from other disciplines looking to implement effective XAI methods for data analysis and decision-making.
+
 - Concept-Monitor: Understanding DNN training through individual neurons. [[paper]](https://arxiv.org/abs/2304.13346)
   - Mohammad Ali Khan, Tuomas Oikarinen, Tsui-Wei Weng.
   - Key Word: Individual Neurons; Interpretable Training.
