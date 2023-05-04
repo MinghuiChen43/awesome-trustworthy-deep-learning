@@ -55,6 +55,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- An Adaptive Algorithm for Learning with Unknown Distribution Drift. [[paper]](https://arxiv.org/abs/2305.02252)
+  - Alessio Mazzetto, Eli Upfal.
+  - Key Word: Unknown Distribution Drift.
+  - <details><summary>Digest</summary> We develop and analyze a general technique for learning with an unknown distribution drift. Given a sequence of independent observations from the last T steps of a drifting distribution, our algorithm agnostically learns a family of functions with respect to the current distribution at time T. Unlike previous work, our technique does not require prior knowledge about the magnitude of the drift. 
+
 - PGrad: Learning Principal Gradients For Domain Generalization. [[paper]](https://arxiv.org/abs/2305.01134) [[code]](https://github.com/QData/PGrad)
   - Zhe Wang, Jake Grigsby, Yanjun Qi. *ICLR 2023*
   - Key Word: Domain Generalization; Gradient Manipulation.
