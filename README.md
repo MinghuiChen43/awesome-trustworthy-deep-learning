@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- On the nonlinear correlation of ML performance between data subpopulations. [[paper]](https://arxiv.org/abs/2305.02995)
+  - Weixin Liang, Yining Mao, Yongchan Kwon, Xinyu Yang, James Zou. *ICML 2023*
+  - Key Word: Correlations between ID and OOD Performances; Accuracy-on-the-Line.
+  - <details><summary>Digest</summary> This study shows that the correlation between in-distribution (ID) and out-of-distribution (OOD) accuracies is more nuanced under subpopulation shifts than previously thought. The non-trivial nonlinear correlation holds across model architectures, hyperparameters, training durations, and the imbalance between subpopulations. The nonlinearity of the "moon shape" is influenced by spurious correlations in the training data. Understanding the nonlinear effects of model improvement on performance in different subpopulations is important for developing more equitable and responsible machine learning models.
+
 - An Adaptive Algorithm for Learning with Unknown Distribution Drift. [[paper]](https://arxiv.org/abs/2305.02252)
   - Alessio Mazzetto, Eli Upfal.
   - Key Word: Unknown Distribution Drift.
