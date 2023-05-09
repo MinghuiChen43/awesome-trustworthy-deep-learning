@@ -342,6 +342,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- On User-Level Private Convex Optimization. [[paper]](https://arxiv.org/abs/2305.04912)
+  - Badih Ghazi, Pritish Kamath, Ravi Kumar, Raghu Meka, Pasin Manurangsi, Chiyuan Zhang.
+  - Key Word: Differential Privacy.
+  - <details><summary>Digest</summary> We introduce a new mechanism for stochastic convex optimization (SCO) with user-level differential privacy guarantees. The convergence rates of this mechanism are similar to those in the prior work of Levy et al. (2021); Narayanan et al. (2022), but with two important improvements. Our mechanism does not require any smoothness assumptions on the loss. Furthermore, our bounds are also the first where the minimum number of users needed for user-level privacy has no dependence on the dimension and only a logarithmic dependence on the desired excess error. The main idea underlying the new mechanism is to show that the optimizers of strongly convex losses have low local deletion sensitivity, along with an output perturbation method for functions with low local deletion sensitivity, which could be of independent interest.
+
 - Re-thinking Model Inversion Attacks Against Deep Neural Networks. [[paper]](https://arxiv.org/abs/2304.01669) [[code]]](https://github.com/sutd-visual-computing-group/Re-thinking_MI)
   - Ngoc-Bao Nguyen, Keshigeyan Chandrasegaran, Milad Abdollahzadeh, Ngai-Man Cheung. *CVPR 2023*
   - Key Word: Model Inversion Attacks.
