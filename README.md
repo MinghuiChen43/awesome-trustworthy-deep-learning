@@ -342,6 +342,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- DPMLBench: Holistic Evaluation of Differentially Private Machine Learning. [[paper]](https://arxiv.org/abs/2305.05900)
+  - Chengkun Wei, Minghu Zhao, Zhikun Zhang, Min Chen, Wenlong Meng, Bo Liu, Yuan Fan, Wenzhi Chen. *CCS 2023*
+  - Key Word: Differential Privacy; Benchmarks.
+  - <details><summary>Digest</summary> Differential privacy (DP) is a standard for privacy protection and differentially private machine learning (DPML) is important with powerful machine learning techniques. DP-SGD is a classic DPML algorithm that incurs significant utility loss, limiting its practical deployment. Recent studies propose improved algorithms based on DP-SGD, but there is a lack of comprehensive research to measure improvements in DPML algorithms across utility, defensive capabilities, and generalizability. To address this, we perform a holistic measurement of improved DPML algorithms on utility and defense capability against membership inference attacks (MIAs) on image classification tasks. Our results show that sensitivity-bounding techniques are important in defense and we explore some improvements that can maintain model utility and defend against MIAs more effectively.
+
 - On User-Level Private Convex Optimization. [[paper]](https://arxiv.org/abs/2305.04912)
   - Badih Ghazi, Pritish Kamath, Ravi Kumar, Raghu Meka, Pasin Manurangsi, Chiyuan Zhang.
   - Key Word: Differential Privacy.
