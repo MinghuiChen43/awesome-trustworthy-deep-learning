@@ -342,6 +342,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Privacy Auditing with One (1) Training Run. [[paper]](https://arxiv.org/abs/2305.08846)
+  - Thomas Steinke, Milad Nasr, Matthew Jagielski.
+  - Key Word: Privacy Auditting.
+  - <details><summary>Digest</summary> We propose a scheme for auditing differentially private machine learning systems with a single training run. This exploits the parallelism of being able to add or remove multiple training examples independently. We analyze this using the connection between differential privacy and statistical generalization, which avoids the cost of group privacy. Our auditing scheme requires minimal assumptions about the algorithm and can be applied in the black-box or white-box setting.
+
 - DPMLBench: Holistic Evaluation of Differentially Private Machine Learning. [[paper]](https://arxiv.org/abs/2305.05900)
   - Chengkun Wei, Minghu Zhao, Zhikun Zhang, Min Chen, Wenlong Meng, Bo Liu, Yuan Fan, Wenzhi Chen. *CCS 2023*
   - Key Word: Differential Privacy; Benchmarks.
