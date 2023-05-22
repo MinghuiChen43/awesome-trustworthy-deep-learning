@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape. [[paper]](https://arxiv.org/abs/2305.11584)
+  - Yan Sun, Li Shen, Shixiang Chen, Liang Ding, Dacheng Tao.
+  - Key Word: Sharpness Aware Minimization; Federated Learning.
+  - <details><summary>Digest</summary> we propose a novel and general algorithm FedSMOO by jointly considering the optimization and generalization targets to efficiently improve the performance in FL. Concretely, FedSMOO adopts a dynamic regularizer to guarantee the local optima towards the global objective, which is meanwhile revised by the global Sharpness Aware Minimization (SAM) optimizer to search for the consistent flat minima. 
+
 - On the nonlinear correlation of ML performance between data subpopulations. [[paper]](https://arxiv.org/abs/2305.02995)
   - Weixin Liang, Yining Mao, Yongchan Kwon, Xinyu Yang, James Zou. *ICML 2023*
   - Key Word: Correlations between ID and OOD Performances; Accuracy-on-the-Line.
