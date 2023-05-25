@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Rethinking the Evaluation Protocol of Domain Generalization. [[paper]](https://arxiv.org/abs/2305.15253)
+  - Han Yu, Xingxuan Zhang, Renzhe Xu, Jiashuo Liu, Yue He, Peng Cui.
+  - Key Word: Domain Generalization; Evaluation Protocol.
+  - <details><summary>Digest</summary> Domain generalization aims to solve the challenge of Out-of-Distribution (OOD) generalization. To accurately evaluate the OOD generalization ability, it is necessary to ensure that test data information is unavailable. However, the current domain generalization protocol may still have potential test data information leakage. This paper examines the potential risks of test data information leakage in two aspects of the current protocol. We propose that training from scratch and using multiple test domains would result in a more precise evaluation of OOD generalization ability.
+
 - Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape. [[paper]](https://arxiv.org/abs/2305.11584)
   - Yan Sun, Li Shen, Shixiang Chen, Liang Ding, Dacheng Tao.
   - Key Word: Sharpness Aware Minimization; Federated Learning.
