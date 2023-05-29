@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Exact Generalization Guarantees for (Regularized) Wasserstein Distributionally Robust Models. [[paper]](https://arxiv.org/abs/2305.17076)
+  - Waïss Azizian, Franck Iutzeler, Jérôme Malick.
+  - Key Word: Wasserstein Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> This paper examines the generalization properties of Wasserstein distributionally robust estimators, which are models that optimize prediction and decision-making under uncertainty. The authors show that these estimators have robust objective functions that bound the true risk with high probability, and that these bounds do not depend on the dimensionality of the problem, the class of models, or the distribution shift at testing. They also extend their results to regularized versions of Wasserstein distributionally robust problems.
+
 - Rethinking the Evaluation Protocol of Domain Generalization. [[paper]](https://arxiv.org/abs/2305.15253)
   - Han Yu, Xingxuan Zhang, Renzhe Xu, Jiashuo Liu, Yue He, Peng Cui.
   - Key Word: Domain Generalization; Evaluation Protocol.
