@@ -465,6 +465,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Probabilistic Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2306.01574)
+  - Eunji Kim, Dahuin Jung, Sangha Park, Siwon Kim, Sungroh Yoon.
+  - Key Word: Concept Bottleneck Models.
+  - <details><summary>Digest</summary> This paper proposes a new model that can explain its decisions with concepts and their uncertainties. The model, called Probabilistic Concept Bottleneck Model (ProbCBM), uses probabilistic embeddings to capture the ambiguity of concepts in the data. The model can also explain the uncertainty of its predictions by using the concept uncertainty. The paper claims that this approach improves the reliability and trustworthiness of the explanations.
+
 - Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence. [[paper]](https://www.sciencedirect.com/science/article/pii/S1566253523001148)
   - Sajid Ali, Tamer Abuhmed, Shaker El-Sappagh, Khan Muhammad, Jose M. Alonso-Moral, Roberto Confalonieri, Riccardo Guidotti, Javier Del Ser, Natalia Díaz-Rodríguez, Francisco Herrera. *Information Fusion*
   - Key Word: Explainable Artificial Intelligence.
