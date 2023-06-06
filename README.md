@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Explore and Exploit the Diverse Knowledge in Model Zoo for Domain Generalization. [[paper]](https://arxiv.org/abs/2306.02595)
+  - Yimeng Chen, Tianyang Hu, Fengwei Zhou, Zhenguo Li, Zhiming Ma.
+  - Key Word: Domain Generalization; Model Zoo; Pre-Trained Models.
+  - <details><summary>Digest</summary> This paper addresses the challenge of effectively utilizing a wide range of publicly available pretrained models to enhance out-of-distribution generalization in downstream tasks. While previous research has focused on identifying the most powerful models, this study argues that even weaker models contain valuable knowledge. The authors propose a method that leverages the diversity within the model zoo by analyzing the variations in encoded representations across different domains. By characterizing these variations in terms of diversity shift and correlation shift, they develop an algorithm for integrating diverse pretrained models, not limited to the strongest ones, to improve out-of-distribution generalization. 
+
 - Exact Generalization Guarantees for (Regularized) Wasserstein Distributionally Robust Models. [[paper]](https://arxiv.org/abs/2305.17076)
   - Waïss Azizian, Franck Iutzeler, Jérôme Malick.
   - Key Word: Wasserstein Distributionally Robust Optimization.
