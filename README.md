@@ -362,6 +362,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Forgettable Federated Linear Learning with Certified Data Removal. [[paper]](https://arxiv.org/abs/2306.02216)
+  - Ruinan Jin, Minghui Chen, Qiong Zhang, Xiaoxiao Li.
+  - Key Word: Machine Unlearning; Federated Learning; Linearized Neural Networks.
+  - <details><summary>Digest</summary> This study focuses on federated learning (FL), a distributed learning framework that allows collaborative model training without sharing data. The authors specifically investigate the "forgettable FL" paradigm, where the global model should not reveal any information about a client it has never encountered. They propose the Forgettable Federated Linear Learning (2F2L) framework, which incorporates novel training and data removal strategies. The framework employs linear approximation to enable deep neural networks to work within the FL setting, achieving comparable results to standard neural network training. They also introduce FedRemoval, an efficient removal strategy that addresses computational challenges by approximating the Hessian matrix using public server data. The authors provide theoretical guarantees for their method, bounding the differences in model weights between FedRemoval and retraining from scratch. Experimental results on MNIST and Fashion-MNIST datasets demonstrate the effectiveness of their approach in achieving a balance between model accuracy and information removal, outperforming baseline strategies and approaching retraining from scratch.
+
 - Privacy Auditing with One (1) Training Run. [[paper]](https://arxiv.org/abs/2305.08846)
   - Thomas Steinke, Milad Nasr, Matthew Jagielski.
   - Key Word: Privacy Auditting.
