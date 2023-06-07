@@ -362,6 +362,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Machine Unlearning: A Survey. [[paper]](https://arxiv.org/abs/2306.03558)
+  - Heng Xu, Tianqing Zhu, Lefeng Zhang, Wanlei Zhou, Philip S. Yu.
+  - Key Word: Machine Unlearning; Survey.
+  - <details><summary>Digest</summary> The survey reviews the challenges and solutions of machine unlearning in different scenarios and categories. It also discusses the advantages and limitations of each category and suggests some future research directions.
+
 - Forgettable Federated Linear Learning with Certified Data Removal. [[paper]](https://arxiv.org/abs/2306.02216)
   - Ruinan Jin, Minghui Chen, Qiong Zhang, Xiaoxiao Li.
   - Key Word: Machine Unlearning; Federated Learning; Linearized Neural Networks.
