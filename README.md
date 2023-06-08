@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Optimal Transport Model Distributional Robustness. [[paper]](https://arxiv.org/abs/2306.04178)
+  - Van-Anh Nguyen, Trung Le, Anh Tuan Bui, Thanh-Toan Do, Dinh Phung.
+  - Key Word: Distributional Robustness; Optimal Transport; Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary> This work explores an optimal transport-based distributional robustness framework on model spaces, aiming to enhance the robustness of deep learning models against adversarial examples and data distribution shifts. Previous research has mainly focused on data space, but this study investigates the model distribution within a Wasserstein ball centered around a given model distribution. The authors develop theories to learn the optimal robust center model distribution, allowing for the incorporation of sharpness awareness into various model architectures such as single models, ensembles, and Bayesian Neural Networks. The framework encompasses sharpness-aware minimization (SAM) as a specific case and extends it to a probabilistic setting. Extensive experiments demonstrate significant improvements over baseline methods in different settings.
+
 - Explore and Exploit the Diverse Knowledge in Model Zoo for Domain Generalization. [[paper]](https://arxiv.org/abs/2306.02595)
   - Yimeng Chen, Tianyang Hu, Fengwei Zhou, Zhenguo Li, Zhiming Ma.
   - Key Word: Domain Generalization; Model Zoo; Pre-Trained Models.
