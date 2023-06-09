@@ -485,6 +485,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Don't trust your eyes: on the (un)reliability of feature visualizations. [[paper]](https://arxiv.org/abs/2306.04719)
+  - Robert Geirhos, Roland S. Zimmermann, Blair Bilodeau, Wieland Brendel, Been Kim.
+  - Key Word: Feature Visualization.
+  - <details><summary>Digest</summary> This study investigates the reliability of feature visualizations, which aim to understand how neural networks extract patterns from pixels. The researchers develop network circuits that manipulate feature visualizations to show arbitrary patterns unrelated to normal network behavior. They also find evidence of similar phenomena occurring in standard networks, indicating that feature visualizations are processed differently from standard input and may not provide accurate explanations of neural network processing. The study proves theoretically that the functions reliably understood by feature visualization are limited and do not encompass general neural networks. As a result, the authors suggest that developing networks with enforced structures could lead to more reliable feature visualizations.
+
 - Probabilistic Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2306.01574)
   - Eunji Kim, Dahuin Jung, Sangha Park, Siwon Kim, Sungroh Yoon.
   - Key Word: Concept Bottleneck Models.
