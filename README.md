@@ -199,6 +199,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Adversarial Training Should Be Cast as a Non-Zero-Sum Game. [[paper]](https://arxiv.org/abs/2306.11035)
+  - Alexander Robey, Fabian Latorre, George J. Pappas, Hamed Hassani, Volkan Cevher.
+  - Key Word: Adversarial Training; Non-Zero-Sum Game.
+  - <details><summary>Digest</summary> The paper highlights the limitations of the two-player zero-sum paradigm in adversarial training for deep neural networks and proposes a novel non-zero-sum bilevel formulation that overcomes these shortcomings. The new formulation leads to a simple algorithmic framework that achieves comparable levels of robustness to standard adversarial training algorithms, avoids robust overfitting, and even outperforms state-of-the-art attacks.
+
 - In ChatGPT We Trust? Measuring and Characterizing the Reliability of ChatGPT. [[paper]](https://arxiv.org/abs/2304.08979)
   - Xinyue Shen, Zeyuan Chen, Michael Backes, Yang Zhang.
   - Key Word: ChatGPT; Reliability; Textual Adversarial Attacks.
