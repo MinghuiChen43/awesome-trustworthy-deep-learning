@@ -60,6 +60,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Simple and Fast Group Robustness by Automatic Feature Reweighting. [[paper]](https://arxiv.org/abs/2306.11074)
+  - Shikai Qiu, Andres Potapczynski, Pavel Izmailov, Andrew Gordon Wilson. *ICML 2023*
+  - Key Word: Group Robustness; Spurious Correlation; Feature Reweighting.
+  - <details><summary>Digest</summary> The paper proposes Automatic Feature Reweighting (AFR), a simple and fast method for reducing the reliance on spurious features in machine learning models. By retraining the last layer of a standard model with a weighted loss that emphasizes poorly predicted examples, AFR automatically upweights the minority group without requiring group labels. Experimental results demonstrate improved performance compared to existing methods on vision and natural language classification benchmarks.
+
 - Optimal Transport Model Distributional Robustness. [[paper]](https://arxiv.org/abs/2306.04178)
   - Van-Anh Nguyen, Trung Le, Anh Tuan Bui, Thanh-Toan Do, Dinh Phung.
   - Key Word: Distributional Robustness; Optimal Transport; Sharpness-Aware Minimization.
