@@ -41,6 +41,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- An Overview of Catastrophic AI Risks. [[paper]](https://arxiv.org/abs/2306.12001)
+  - Dan Hendrycks, Mantas Mazeika, Thomas Woodside.
+  - Key Word: AI Risks.
+  - <details><summary>Digest</summary> The paper provides an overview of catastrophic AI risks, categorizing them into four main groups: malicious use, AI race, organizational risks, and rogue AIs. It discusses specific hazards, presents illustrative stories, envisions ideal scenarios, and proposes practical suggestions for mitigating these risks, aiming to foster a comprehensive understanding and inspire proactive efforts for risk mitigation.
+
 - Connecting the Dots in Trustworthy Artificial Intelligence: From AI Principles, Ethics, and Key Requirements to Responsible AI Systems and Regulation. [[paper]](https://arxiv.org/abs/2305.02231)
   - Natalia Díaz-Rodríguez, Javier Del Ser, Mark Coeckelbergh, Marcos López de Prado, Enrique Herrera-Viedma, Francisco Herrera.
   - Key Word: AI Ethics; AI Regulation; Responsible AI.
