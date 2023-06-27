@@ -500,6 +500,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Towards Trustworthy Explanation: On Causal Rationalization. [[paper]](https://arxiv.org/abs/2306.14115) [[code]](https://github.com/onepounchman/Causal-Retionalization)
+  - Wenbo Zhang, Tong Wu, Yunlong Wang, Yong Cai, Hengrui Cai. *ICML 2023*
+  - Key Word: Explanation; Causality.
+  - <details><summary>Digest</summary> The paper introduces a novel approach called causal rationalization, which incorporates two key principles, non-spuriousness and efficiency, into the process of generating explanations for black box models. The approach is based on a structural causal model and outperforms existing association-based methods in terms of identifying true rationales.
+
 - Don't trust your eyes: on the (un)reliability of feature visualizations. [[paper]](https://arxiv.org/abs/2306.04719)
   - Robert Geirhos, Roland S. Zimmermann, Blair Bilodeau, Wieland Brendel, Been Kim.
   - Key Word: Feature Visualization.
