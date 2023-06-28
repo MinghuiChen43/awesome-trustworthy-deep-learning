@@ -978,6 +978,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Trustworthy Machine Learning (Book)](http://www.trustworthymachinelearning.com/)
 
+- [AI Safety Support (Lots of Links)](https://www.aisafetysupport.org/lots-of-links)
+
 # Contributing
 
 TBD
