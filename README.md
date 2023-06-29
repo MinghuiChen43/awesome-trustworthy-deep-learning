@@ -387,6 +387,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Machine Unlearning; Survey.
   - <details><summary>Digest</summary> The survey reviews the challenges and solutions of machine unlearning in different scenarios and categories. It also discusses the advantages and limitations of each category and suggests some future research directions.
 
+- Ticketed Learning-Unlearning Schemes. [[paper]](https://arxiv.org/abs/2306.15744)
+  - Badih Ghazi, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Ayush Sekhari, Chiyuan Zhang. *COLT 2023*
+  - Key Word: Machine Unlearning; Ticket Model.
+  - <details><summary>Digest</summary> The paper introduces a ticketed model for the learning-unlearning paradigm, where a learning algorithm generates small encrypted "tickets" for each training example, and an unlearning algorithm uses these tickets along with central information to produce a new predictor without access to the original training dataset.
+
 - Forgettable Federated Linear Learning with Certified Data Removal. [[paper]](https://arxiv.org/abs/2306.02216)
   - Ruinan Jin, Minghui Chen, Qiong Zhang, Xiaoxiao Li.
   - Key Word: Machine Unlearning; Federated Learning; Linearized Neural Networks.
