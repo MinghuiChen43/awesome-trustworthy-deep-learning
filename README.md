@@ -382,6 +382,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- SoK: Privacy-Preserving Data Synthesis. [[paper]](https://arxiv.org/abs/2307.02106)
+  - Yuzheng Hu, Fan Wu, Qinbin Li, Yunhui Long, Gonzalo Munilla Garrido, Chang Ge, Bolin Ding, David Forsyth, Bo Li, Dawn Song.
+  - Key Word: Data Synthesis; Differential Privacy.
+  - <details><summary>Digest</summary> This paper provides a comprehensive overview and analysis of privacy-preserving data synthesis (PPDS). The authors present a master recipe that integrates statistical methods and deep learning-based methods for PPDS, discussing the choices of modeling and representation in statistical methods and the generative modeling principles in deep learning. The paper offers reference tables, key takeaways, and identifies open problems in the field, aiming to address design principles and challenges in different PPDS approaches.
+
 - Machine Unlearning: A Survey. [[paper]](https://arxiv.org/abs/2306.03558)
   - Heng Xu, Tianqing Zhu, Lefeng Zhang, Wanlei Zhou, Philip S. Yu.
   - Key Word: Machine Unlearning; Survey.
