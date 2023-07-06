@@ -209,6 +209,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Jailbroken: How Does LLM Safety Training Fails. [[paper]](https://arxiv.org/abs/2307.02483)
+  - Alexander Wei, Nika Haghtalab, Jacob Steinhardt.
+  - Key Word: Large Language Model; Jailbreak Attacks; Generalization Mismatch.
+  - <details><summary>Digest</summary> This paper explores the susceptibility of large language models (LLMs) to adversarial misuse through "jailbreak" attacks and investigates the reasons behind their success. The authors identify two failure modes of safety training: competing objectives and mismatched generalization. They propose new jailbreak designs based on these failure modes and evaluate state-of-the-art models, finding persistent vulnerabilities despite extensive safety training efforts.
+
 - Adversarial Training Should Be Cast as a Non-Zero-Sum Game. [[paper]](https://arxiv.org/abs/2306.11035)
   - Alexander Robey, Fabian Latorre, George J. Pappas, Hamed Hassani, Volkan Cevher.
   - Key Word: Adversarial Training; Non-Zero-Sum Game.
