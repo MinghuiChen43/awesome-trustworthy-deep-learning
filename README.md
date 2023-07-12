@@ -515,6 +515,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Route, Interpret, Repeat: Blurring the line between post hoc explainability and interpretable models. [[paper]](https://arxiv.org/abs/2307.05350)
+  - Shantanu Ghosh, Ke Yu, Forough Arabshahi, Kayhan Batmanghelich.
+  - Key Word: Post Hoc Explanations; Interpretable Models; Concept Bottleneck Models.
+  - <details><summary>Digest</summary> The paper proposes a methodology that blurs the line between post hoc explainability and interpretable models in machine learning. Instead of choosing between a flexible but difficult to explain black box model or an interpretable but less flexible model, the authors suggest starting with a flexible black box model and gradually incorporating interpretable models and a residual network. The interpretable models use First Order Logic (FOL) for reasoning on concepts retrieved from the black box model.
+
 - Towards Trustworthy Explanation: On Causal Rationalization. [[paper]](https://arxiv.org/abs/2306.14115) [[code]](https://github.com/onepounchman/Causal-Retionalization)
   - Wenbo Zhang, Tong Wu, Yunlong Wang, Yong Cai, Hengrui Cai. *ICML 2023*
   - Key Word: Explanation; Causality.
