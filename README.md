@@ -515,6 +515,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Is Task-Agnostic Explainable AI a Myth? [[paper]](https://arxiv.org/abs/2307.06963)
+  - Alicja Chaszczewicz.
+  - Key Word: Explainable AI.
+  - <details><summary>Digest</summary> The paper provides a comprehensive framework for understanding the challenges of contemporary explainable AI (XAI) and emphasizes that while XAI methods offer supplementary insights for machine learning models, their conceptual and technical limitations often make them black boxes themselves. The authors examine three XAI research avenues, focusing on image, textual, and graph data, and highlight the persistent roadblocks that hinder the compatibility between XAI methods and application tasks.
+
 - Route, Interpret, Repeat: Blurring the line between post hoc explainability and interpretable models. [[paper]](https://arxiv.org/abs/2307.05350)
   - Shantanu Ghosh, Ke Yu, Forough Arabshahi, Kayhan Batmanghelich.
   - Key Word: Post Hoc Explanations; Interpretable Models; Concept Bottleneck Models.
