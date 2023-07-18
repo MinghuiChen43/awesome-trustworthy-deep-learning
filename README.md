@@ -209,6 +209,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Towards Understanding Adversarial Transferability From Surrogate Training. [[paper]](https://arxiv.org/abs/2307.07873)
+  - Yechao Zhang, Shengshan Hu, Leo Yu Zhang, Junyu Shi, Minghui Li, Xiaogeng Liu, Wei Wan, Hai Jin. *S&P 2024*
+  - Key Word: Adversarial Transferability.
+  - <details><summary>Digest</summary> The paper aims to provide a deeper understanding of adversarial transferability, focusing on surrogate aspects. It investigates the phenomenon of little robustness, where models adversarially trained with mildly perturbed adversarial samples serve as better surrogates, and attributes it to a trade-off between model smoothness and gradient similarity. The authors explore the joint effects of these factors and suggest that the degradation of gradient similarity is due to data distribution shift in adversarial training.
+
 - Jailbroken: How Does LLM Safety Training Fails. [[paper]](https://arxiv.org/abs/2307.02483)
   - Alexander Wei, Nika Haghtalab, Jacob Steinhardt.
   - Key Word: Large Language Model; Jailbreak Attacks; Generalization Mismatch.
