@@ -520,6 +520,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Does Circuit Analysis Interpretability Scale? Evidence from Multiple Choice Capabilities in Chinchilla. [[paper]](https://arxiv.org/abs/2307.09458)
+  - Tom Lieberum, Matthew Rahtz, János Kramár, Geoffrey Irving, Rohin Shah, Vladimir Mikulik.
+  - Key Word: Circuit Analysis.
+  - <details><summary>Digest</summary> The paper examines the scalability of circuit analysis in language models by conducting a case study on the 70B Chinchilla model, focusing on multiple-choice question answering and the model's ability to identify the correct answer label based on knowledge of the correct answer text.
+
 - Is Task-Agnostic Explainable AI a Myth? [[paper]](https://arxiv.org/abs/2307.06963)
   - Alicja Chaszczewicz.
   - Key Word: Explainable AI.
