@@ -348,6 +348,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Rethinking Backdoor Attacks. [[paper]](https://arxiv.org/abs/2307.10163)
+  - Alaa Khaddaj, Guillaume Leclerc, Aleksandar Makelov, Kristian Georgiev, Hadi Salman, Andrew Ilyas, Aleksander Madry. *ICML 2023*
+  - Key Word: Backdoor Attacks.
+  - <details><summary>Digest</summary> This paper explores the problem of backdoor attacks, where an adversary inserts malicious examples into a training set to manipulate the resulting model. The authors propose a new approach that considers backdoor attacks as indistinguishable from naturally-occurring features in the data, and develop a detection algorithm with theoretical guarantees.
+
 - Poisoning Language Models During Instruction Tuning. [[paper]](https://arxiv.org/abs/2305.00944) [[code]](https://github.com/alexwan0/poisoning-instruction-tuned-models)
   - Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein. *ICML 2023*
   - Key Word: Poisoning Attack; Language Models; Prompts.
