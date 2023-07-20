@@ -65,6 +65,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Spuriosity Didn't Kill the Classifier: Using Invariant Predictions to Harness Spurious Features. [[paper]](https://arxiv.org/abs/2307.09933)
+  - Cian Eastwood, Shashank Singh, Andrei Liviu Nicolicioiu, Marin Vlastelica, Julius von Kügelgen, Bernhard Schölkopf.
+  - Key Word: Spurious Correlation; Invariant Learning.
+  - <details><summary>Digest</summary> The paper introduces Stable Feature Boosting (SFB), an algorithm that leverages both stable and unstable features in the test domain without requiring labels for the test domain. By proving that pseudo-labels based on stable features are sufficient guidance, and given the conditional independence of stable and unstable features with respect to the label, SFB learns an asymptotically-optimal predictor. Empirical results demonstrate the effectiveness of SFB on real and synthetic data for avoiding failures on out-of-distribution data.
+
 - Simple and Fast Group Robustness by Automatic Feature Reweighting. [[paper]](https://arxiv.org/abs/2306.11074)
   - Shikai Qiu, Andres Potapczynski, Pavel Izmailov, Andrew Gordon Wilson. *ICML 2023*
   - Key Word: Group Robustness; Spurious Correlation; Feature Reweighting.
