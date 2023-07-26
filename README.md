@@ -480,6 +480,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Scaff-PD: Communication Efficient Fair and Robust Federated Learning. [[paper]](https://arxiv.org/abs/2307.13381)
+  - Yaodong Yu, Sai Praneeth Karimireddy, Yi Ma, Michael I. Jordan.
+  - Key Word: Fairness; Federated Learning; Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> The paper introduces Scaff-PD, a fast and communication-efficient algorithm for distributionally robust federated learning, which improves fairness by optimizing distributionally robust objectives tailored to heterogeneous clients. The proposed accelerated primal dual (APD) algorithm, incorporating bias-corrected local steps, achieves significant gains in communication efficiency and convergence speed. Evaluation on benchmark datasets demonstrates Scaff-PD's effectiveness in enhancing fairness and robustness while maintaining competitive accuracy, making it a promising approach for federated learning in resource-constrained and heterogeneous settings.
+
 - Auditing Fairness by Betting. [[paper]](https://arxiv.org/abs/2305.17570)
   - Ben Chugg, Santiago Cortes-Gomez, Bryan Wilder, Aaditya Ramdas.
   - Key Word: Auditing Fairness; Testing by Betting.
