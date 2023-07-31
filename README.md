@@ -660,6 +660,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. [[paper]](https://arxiv.org/abs/2307.15217)
+  - <details><summary>Author List</summary> Stephen Casper, Xander Davies, Claudia Shi, Thomas Krendl Gilbert, Jérémy Scheurer, Javier Rando, Rachel Freedman, Tomasz Korbak, David Lindner, Pedro Freire, Tony Wang, Samuel Marks, Charbel-Raphaël Segerie, Micah Carroll, Andi Peng, Phillip Christoffersen, Mehul Damani, Stewart Slocum, Usman Anwar, Anand Siththaranjan, Max Nadeau, Eric J. Michaud, Jacob Pfau, Dmitrii Krasheninnikov, Xin Chen, Lauro Langosco, Peter Hase, Erdem Bıyık, Anca Dragan, David Krueger, Dorsa Sadigh, Dylan Hadfield-Menell.
+  - Key Word: Reinforecement Learning from Human Feedback; Survey.
+  - <details><summary>Digest</summary> The paper discusses reinforcement learning from human feedback (RLHF), used to train AI systems for human goals, focusing on RLHF's flaws, open problems, and limitations. It provides an overview of techniques to enhance RLHF, proposes auditing standards for societal oversight, and emphasizes the need for a multi-faceted approach to safer AI development.
+
 - Toxicity in ChatGPT: Analyzing Persona-assigned Language Models. [[paper]](https://arxiv.org/abs/2304.05335)
   - Ameet Deshpande, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan, Karthik Narasimhan.
   - Key Word: ChatGPT; Toxicity in Text.
