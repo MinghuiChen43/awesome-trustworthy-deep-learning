@@ -41,6 +41,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- Towards Trustworthy and Aligned Machine Learning: A Data-centric Survey with Causality Perspectives. [[paper]](https://arxiv.org/abs/2307.16851)
+  - Haoyang Liu, Maheep Chaudhary, Haohan Wang.
+  - Key Word: Causality; Data-Centric AI.
+  - <details><summary>Digest</summary> The paper provides a systematic review of advancements in trustworthy machine learning, covering various areas like robustness, security, interpretability, and fairness, and highlights the shortcomings of traditional empirical risk minimization (ERM) training in handling data challenges. The survey connects these methods using Pearl's hierarchy of causality as a unifying framework, presents a unified language and mathematical vocabulary to link methods across different subfields, explores trustworthiness in large pretrained models, and discusses potential future aspects of the field.
+
 - An Overview of Catastrophic AI Risks. [[paper]](https://arxiv.org/abs/2306.12001)
   - Dan Hendrycks, Mantas Mazeika, Thomas Woodside.
   - Key Word: AI Risks.
