@@ -665,6 +665,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training. [[paper]](https://arxiv.org/abs/2307.16273)
+  - Haochen Sun, Hongyang Zhang.
+  - Key Word: Zero-Knowledge Proof; Proof of Learning.
+  - <details><summary>Digest</summary> The paper introduces zkDL, an efficient zero-knowledge proof of deep learning training, addressing concerns about the legitimacy of deep network training without revealing model parameters and training data to verifiers. zkDL utilizes zkReLU, a specialized zero-knowledge proof protocol optimized for the ReLU activation function, and devises a novel construction of an arithmetic circuit from neural networks to reduce proving time and proof sizes significantly. It enables the generation of complete and sound proofs for deep neural networks, ensuring data and model parameter privacy. For instance, it takes less than a minute and has a size of less than 20 kB per training step for a 16-layer neural network with 200M parameters.
+
 - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. [[paper]](https://arxiv.org/abs/2307.15217)
   - <details><summary>Author List</summary> Stephen Casper, Xander Davies, Claudia Shi, Thomas Krendl Gilbert, Jérémy Scheurer, Javier Rando, Rachel Freedman, Tomasz Korbak, David Lindner, Pedro Freire, Tony Wang, Samuel Marks, Charbel-Raphaël Segerie, Micah Carroll, Andi Peng, Phillip Christoffersen, Mehul Damani, Stewart Slocum, Usman Anwar, Anand Siththaranjan, Max Nadeau, Eric J. Michaud, Jacob Pfau, Dmitrii Krasheninnikov, Xin Chen, Lauro Langosco, Peter Hase, Erdem Bıyık, Anca Dragan, David Krueger, Dorsa Sadigh, Dylan Hadfield-Menell.
   - Key Word: Reinforecement Learning from Human Feedback; Survey.
