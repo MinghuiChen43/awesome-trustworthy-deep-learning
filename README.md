@@ -219,6 +219,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- URET: Universal Robustness Evaluation Toolkit (for Evasion). [[paper]](https://arxiv.org/abs/2308.01840)
+  - Kevin Eykholt, Taesung Lee, Douglas Schales, Jiyong Jang, Ian Molloy, Masha Zorin. *USENIX 2023*
+  - Key Word: Adversarial Robustness; Benchmarking.
+  - <details><summary>Digest</summary> The paper introduces a novel framework for generating adversarial inputs that can be applied to various input types and task domains, beyond the traditional focus on image classification. The proposed framework utilizes a sequence of pre-defined input transformations to create semantically correct and functionally adversarial inputs. The approach is demonstrated on diverse machine learning tasks with different input representations, emphasizing the significance of adversarial examples in enabling the deployment of mitigation techniques for improving AI system safety and robustness.
+
 - Towards Understanding Adversarial Transferability From Surrogate Training. [[paper]](https://arxiv.org/abs/2307.07873)
   - Yechao Zhang, Shengshan Hu, Leo Yu Zhang, Junyu Shi, Minghui Li, Xiaogeng Liu, Wei Wan, Hai Jin. *S&P 2024*
   - Key Word: Adversarial Transferability.
