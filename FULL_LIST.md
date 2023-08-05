@@ -127,6 +127,18 @@
 
 ## Out-of-Distribution Generalization
 
+<!-- ### Out-of-Distribution Generalization: 2023 -->
+<details>
+<summary>Out-of-Distribution Generalization: 2023</summary>
+
+- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization. [[paper]](https://arxiv.org/abs/2307.15199)
+  - Junhyeong Cho, Gilhyun Nam, Sungyeon Kim, Hunmin Yang, Suha Kwak. *ICCV 2023*
+  - Key Word: Source-free; Domain Generalization; Prompt Learning; Vision-Language.
+  - <details><summary>Digest</summary> In a joint vision-language space, a text feature (e.g., from "a photo of a dog") could effectively represent its relevant image features (e.g., from dog photos). Inspired by this, this paper proposes PromptStyler which simulates various distribution shifts in the joint space by synthesizing diverse styles via prompts without using any images to deal with source-free domain generalization. 
+
+</details>
+
+<!-- ### Out-of-Distribution Generalization: 2022 -->
 <details>
 <summary>Out-of-Distribution Generalization: 2022</summary>
 
