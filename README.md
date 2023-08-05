@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization. [[paper]](https://arxiv.org/abs/2307.15199)
+  - Junhyeong Cho, Gilhyun Nam, Sungyeon Kim, Hunmin Yang, Suha Kwak. *ICCV 2023*
+  - Key Word: Source-free; Domain Generalization; Prompt Learning; Vision-Language.
+  - <details><summary>Digest</summary> In a joint vision-language space, a text feature (e.g., from "a photo of a dog") could effectively represent its relevant image features (e.g., from dog photos). Inspired by this, this paper proposes PromptStyler which simulates various distribution shifts in the joint space by synthesizing diverse styles via prompts without using any images to deal with source-free domain generalization. 
+
 - Spuriosity Didn't Kill the Classifier: Using Invariant Predictions to Harness Spurious Features. [[paper]](https://arxiv.org/abs/2307.09933)
   - Cian Eastwood, Shashank Singh, Andrei Liviu Nicolicioiu, Marin Vlastelica, Julius von Kügelgen, Bernhard Schölkopf.
   - Key Word: Spurious Correlation; Invariant Learning.
