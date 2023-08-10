@@ -666,6 +666,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interactions-with-blockchain">:open_file_folder: [<b><i>Full List of Interactions with Blockchain</i></b>]</a>.
 
+- A Survey on Decentralized Federated Learning. [[paper]](https://arxiv.org/abs/2308.04604)
+  - Edoardo Gabrielli, Giovanni Pica, Gabriele Tolomei.
+  - Key Word: Decnetralized Federated Learning; Blockchained-based Federated Learning.
+  - <details><summary>Digest</summary> Federated learning (FL) has gained popularity for training distributed, large-scale, and privacy-preserving machine learning systems. FL allows edge devices to collaboratively train a shared model without sharing their private data. However, the centralized orchestration in FL is vulnerable to attacks. To address this, decentralized FL approaches have emerged. This survey provides a comprehensive review of existing decentralized FL approaches and highlights future research directions in this area.
+
 - Proof-of-Contribution-Based Design for Collaborative Machine Learning on Blockchain. [[paper]](https://arxiv.org/abs/2302.14031)
   - Baturalp Buyukates, Chaoyang He, Shanshan Han, Zhiyong Fang, Yupeng Zhang, Jieyi Long, Ali Farahanchi, Salman Avestimehr.
   - Key Word: Blockchain; Federated Learning; Data Market; Zero-Knowledge Proof.
