@@ -417,6 +417,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Private Distribution Learning with Public Data: The View from Sample Compression. [[paper]](https://arxiv.org/abs/2308.06239)
+  - Shai Ben-David, Alex Bie, Clément L. Canonne, Gautam Kamath, Vikrant Singhal.
+  - Key Word: Public-Private Learning; Sample Complexity.
+  - <details><summary>Digest</summary> This paper explores the problem of private distribution learning using public and private data. The study shows that the learnability of a class of distributions is related to sample compression and list learning. The results include recoveries of previous findings for Gaussians and new bounds for mixtures of Gaussians. The paper also demonstrates the necessity of a certain number of public samples for private learnability of Gaussians.
+
 - SoK: Privacy-Preserving Data Synthesis. [[paper]](https://arxiv.org/abs/2307.02106)
   - Yuzheng Hu, Fan Wu, Qinbin Li, Yunhui Long, Gonzalo Munilla Garrido, Chang Ge, Bolin Ding, David Forsyth, Bo Li, Dawn Song.
   - Key Word: Data Synthesis; Differential Privacy.
