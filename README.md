@@ -657,6 +657,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
 
+- FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning. [[paper]](https://arxiv.org/abs/2308.12264)
+  - Saurabhsingh Rajput, Tim Widmayer, Ziyuan Shang, Maria Kechagia, Federica Sarro, Tushar Sharma.
+  - Key Word: Energy Measurement, Green AI.
+  - <details><summary>Digest</summary> This paper introduces FECoM, a framework for fine-grained energy consumption measurement in Deep Learning (DL) models. With the rising concern over DL's energy consumption, FECoM aims to provide researchers and developers with a tool to accurately measure energy usage at a method level. FECoM uses static instrumentation to profile DL APIs, addressing challenges like computational load and temperature stability. The framework is evaluated on TensorFlow and explores how parameter size and execution time impact energy consumption. The paper also discusses considerations and challenges in designing such tools, aiming to advance energy measurement and energy-aware practices in DL systems.
+
 - Green Federated Learning. [[paper]](https://arxiv.org/abs/2303.14604)
   - Ashkan Yousefpour, Shen Guo, Ashish Shenoy, Sayan Ghosh, Pierre Stock, Kiwan Maeng, Schalk-Willem Krüger, Michael Rabbat, Carole-Jean Wu, Ilya Mironov.
   - Key Word: Sustainability; Green AI; Federated Learning.
