@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Understanding Hessian Alignment for Domain Generalization. [[paper]](https://arxiv.org/abs/2308.11778)
+  - Sobhan Hemati, Guojun Zhang, Amir Estiri, Xi Chen. *ICCV 2023*
+  - Key Word: Hessian Alignment; Robust Optimization.
+  - <details><summary>Digest</summary>  This paper explores out-of-distribution (OOD) generalization in deep learning models, which is crucial in real-world applications like healthcare and autonomous vehicles. It focuses on gradient-based regularizers' effectiveness and analyzes the role of Hessian and gradient alignment in domain generalization. The study establishes that the spectral norm between the classifier's head Hessian matrices across domains is an upper bound of the transfer measure. The success of various regularizers is explained by their alignment of Hessians and gradients. The paper proposes efficient methods for aligning Hessians and gradients, achieving promising OOD generalization results in different scenarios. 
+
 - PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization. [[paper]](https://arxiv.org/abs/2307.15199)
   - Junhyeong Cho, Gilhyun Nam, Sungyeon Kim, Hunmin Yang, Suha Kwak. *ICCV 2023*
   - Key Word: Source-free; Domain Generalization; Prompt Learning; Vision-Language.
