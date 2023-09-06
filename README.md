@@ -667,6 +667,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
 
+- Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI. [[paper]](https://arxiv.org/abs/2309.02065)
+  - Dustin Wright, Christian Igel, Gabrielle Samuel, Raghavendra Selvan.
+  - Key Word: Environmentally Sustainable AI; Carbon Footprint.
+  - <details><summary>Digest</summary> This paper discusses the environmental sustainability of machine learning (ML), particularly deep learning (DL), which can be computationally intensive and environmentally impactful due to energy consumption and carbon emissions. It argues that improving efficiency alone is insufficient to make ML environmentally sustainable. The paper identifies three key discrepancies in the relationship between efficiency and environmental sustainability in ML and highlights the need for a holistic approach. It advocates for "systems thinking" as a viable path to address the environmental impacts of ML comprehensively.
+
 - FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning. [[paper]](https://arxiv.org/abs/2308.12264)
   - Saurabhsingh Rajput, Tim Widmayer, Ziyuan Shang, Maria Kechagia, Federica Sarro, Tushar Sharma.
   - Key Word: Energy Measurement, Green AI.
