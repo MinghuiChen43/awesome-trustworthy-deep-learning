@@ -510,6 +510,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Bias and Fairness in Large Language Models: A Survey. [[paper]](https://arxiv.org/abs/2309.00770)
+  - Isabel O. Gallegos, Ryan A. Rossi, Joe Barrow, Md Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, Nesreen K. Ahmed.
+  - Key Word: Fairness; Large Language Model; Survey.
+  - <details><summary>Digest</summary> This paper presents a comprehensive survey of bias evaluation and mitigation techniques for large language models (LLMs). It addresses the issue of LLMs learning and perpetuating harmful social biases. The paper begins by formalizing social bias and fairness in natural language processing and introduces desiderata for fairness in LLMs. It then provides three taxonomies: one for bias evaluation metrics, another for bias evaluation datasets, and a third for bias mitigation techniques. These taxonomies help categorize and organize research in this area. The paper aims to guide researchers and practitioners in understanding and addressing bias propagation in LLMs and also highlights open problems and challenges for future work.
+
 - Scaff-PD: Communication Efficient Fair and Robust Federated Learning. [[paper]](https://arxiv.org/abs/2307.13381)
   - Yaodong Yu, Sai Praneeth Karimireddy, Yi Ma, Michael I. Jordan.
   - Key Word: Fairness; Federated Learning; Distributionally Robust Optimization.
