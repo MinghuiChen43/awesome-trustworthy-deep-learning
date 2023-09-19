@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Context $\approx$ Environment. [[paper]](https://arxiv.org/abs/2309.09888)
+  - Sharut Gupta, Stefanie Jegelka, David Lopez-Paz, Kartik Ahuja.
+  - Key Word: In-Context Learning; Invaraint Learning; Domain Generalization.
+  - <details><summary>Digest</summary> This paper discusses two key areas in AI research: 1) efforts to build models that generalize better and avoid spurious correlations, and 2) the role of large language models (LLMs) in on-the-fly contextual learning. The paper argues that context is akin to the environment and suggests that in-context learning is essential for improved domain generalization. The proposed In-Context Risk Minimization (ICRM) algorithm, by paying attention to context, enhances out-of-distribution performance. The main takeaways are that domain generalization researchers should consider the environment as context, and LLM researchers should view context as an environment for improved data structuring towards generalization.
+
 - Domain Generalization without Excess Empirical Risk. [[paper]](https://arxiv.org/abs/2308.15856)
   - Ozan Sener, Vladlen Koltun.
   - Key Word: Domain Generalization; Rate-Distortion Theory.
