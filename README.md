@@ -720,6 +720,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- A Primer on Bayesian Neural Networks: Review and Debates. [[paper]](https://arxiv.org/abs/2309.16314)
+  - Julyan Arbel, Konstantinos Pitas, Mariia Vladimirova, Vincent Fortuin.
+  - Key Word: Bayesian Neural Networks; Uncertainty; Distribution Shifts.
+  - <details><summary>Digest</summary> This paper introduces Bayesian neural networks (BNNs) as a solution to address limitations in traditional neural networks, including overconfidence, lack of interpretability, and susceptibility to adversarial attacks. It provides a systematic overview of neural networks and Bayesian inference, explaining how they synergistically integrate to create BNNs. The intended audience includes statisticians with Bayesian knowledge and limited deep learning expertise, as well as deep learning experts with limited exposure to Bayesian statistics. The paper covers priors' impact on BNN behavior, training, and inference practicalities. It also explores advanced BNN topics and ongoing debates, offering insights into the field's potential applications, making it a valuable resource for researchers and practitioners interested in BNNs and their future prospects.
+
 - zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training. [[paper]](https://arxiv.org/abs/2307.16273)
   - Haochen Sun, Hongyang Zhang.
   - Key Word: Zero-Knowledge Proof; Proof of Learning.
