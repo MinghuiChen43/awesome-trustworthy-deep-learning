@@ -239,6 +239,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness. [[paper]](https://arxiv.org/abs/2309.16096)
+  - Ambar Pal, Jeremias Sulam, René Vidal.
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> The paper investigates the vulnerability of machine learning classifiers to adversarial examples. It questions whether adversarial examples are inevitable and shows that the distribution of data, particularly its concentration in small-volume input space subsets, plays a crucial role in determining classifier robustness. The paper also demonstrates that when data is concentrated in low-dimensional linear subspaces, classifiers can achieve better robustness through the exploitation of data structure, surpassing provable certification methods in specific scenarios.
+
 - URET: Universal Robustness Evaluation Toolkit (for Evasion). [[paper]](https://arxiv.org/abs/2308.01840)
   - Kevin Eykholt, Taesung Lee, Douglas Schales, Jiyong Jang, Ian Molloy, Masha Zorin. *USENIX 2023*
   - Key Word: Adversarial Robustness; Benchmarking.
