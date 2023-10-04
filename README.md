@@ -595,6 +595,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Representation Engineering: A Top-Down Approach to AI Transparency. [[paper]](https://arxiv.org/abs/2310.01405)
+  - Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks.
+  - Key Word: AI Transparency; Feature Visualization; Saliency Maps; Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This paper introduces and explores the concept of Representation Engineering (RepE), which enhances the transparency of AI systems by drawing insights from cognitive neuroscience. RepE focuses on population-level representations in deep neural networks (DNNs) rather than individual neurons or circuits. The paper presents baseline methods and analysis of RepE techniques, demonstrating their effectiveness in improving our understanding and control of large language models. These methods are shown to address various safety-related issues, such as honesty, harmlessness, and power-seeking. The paper encourages further exploration of RepE to advance transparency and safety in AI systems.
+
 - Does Circuit Analysis Interpretability Scale? Evidence from Multiple Choice Capabilities in Chinchilla. [[paper]](https://arxiv.org/abs/2307.09458)
   - Tom Lieberum, Matthew Rahtz, János Kramár, Geoffrey Irving, Rohin Shah, Vladimir Mikulik.
   - Key Word: Circuit Analysis.
