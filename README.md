@@ -442,6 +442,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- On Memorization and Privacy risks of Sharpness Aware Minimization. [[paper]](https://arxiv.org/abs/2310.00488)
+  - Young In Kim, Pratiksha Agrawal, Johannes O. Royset, Rajiv Khanna.
+  - Key Word: Sharpness Aware Mnimization; Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper explores the idea of designing algorithms that seek flatter optima for optimizing neural network loss, which has been shown to improve generalization performance. The authors introduce a new metric to identify which data points benefit more from such algorithms compared to standard SGD. They find that Sharpness Aware Minimization (SAM) yields significant generalization improvements, especially for atypical data points that require memorization. This leads to the discovery of higher privacy risks associated with SAM, which are empirically verified. The paper also suggests strategies to balance accuracy and privacy tradeoffs more effectively.
+
 - Can Sensitive Information Be Deleted From LLMs? Objectives for Defending Against Extraction Attacks. [[paper]](https://arxiv.org/abs/2309.17410)
   - Vaidehi Patil, Peter Hase, Mohit Bansal.
   - Key Word: Large Language Models; Extraction Attacks.
