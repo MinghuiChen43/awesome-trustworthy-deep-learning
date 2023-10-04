@@ -447,6 +447,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Graph Unlearning: A Review. [[paper]](https://arxiv.org/abs/2310.02164)
+  - Anwar Said, Tyler Derr, Mudassir Shabbir, Waseem Abbas, Xenofon Koutsoukos.
+  - Key Word: Survey; Graph Unlearning.
+  - <details><summary>Digest</summary> This paper discusses the significance of graph unlearning in responsible AI, emphasizing its role in removing sensitive data traces from trained models to support the right to be forgotten. It highlights the sensitivity of graph machine learning to data privacy and adversarial attacks, making the adoption of graph unlearning techniques essential. The paper provides a systematic review of various graph unlearning approaches, offering a taxonomy, literature overview, and connections to differential privacy. It explains fundamental concepts and evaluation measures, catering to readers with different levels of expertise. The paper explores applications in domains like social networks, adversarial settings, and IoT, showcasing its potential for data privacy and AI system robustness. Lastly, it suggests promising research directions to advance the field of graph unlearning, promoting ethical AI growth and responsible machine learning application.
+
 - On Memorization and Privacy risks of Sharpness Aware Minimization. [[paper]](https://arxiv.org/abs/2310.00488)
   - Young In Kim, Pratiksha Agrawal, Johannes O. Royset, Rajiv Khanna.
   - Key Word: Sharpness Aware Mnimization; Membership Inference Attacks.
