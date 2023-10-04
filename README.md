@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Deep Neural Networks Tend To Extrapolate Predictably. [[paper]](https://arxiv.org/abs/2310.00873)
+  - Katie Kang, Amrith Setlur, Claire Tomlin, Sergey Levine.
+  - Key Word: Extrapolation; Out-of-Distribution Generalization; Optimal Constant Solution.
+  - <details><summary>Digest</summary> This paper challenges the common belief that neural network predictions become unpredictable and overconfident with out-of-distribution (OOD) inputs. Instead, it finds that neural network predictions often stabilize around a constant value as data becomes more OOD, which closely approximates the optimal constant solution (OCS). This phenomenon is demonstrated across various datasets, loss functions, and architectures. The paper offers an explanation for this behavior, validates it empirically, and provides insights for enabling risk-sensitive decision-making in the presence of OOD inputs.
+
 - Spurious Feature Diversification Improves Out-of-distribution Generalization. [[paper]](https://arxiv.org/abs/2309.17230)
   - Yong Lin, Lu Tan, Yifan Hao, Honam Wong, Hanze Dong, Weizhong Zhang, Yujiu Yang, Tong Zhang.
   - Key Word: Spurious Correlation; Out-of-Distribution Generalization; Ensemble-based Models.
