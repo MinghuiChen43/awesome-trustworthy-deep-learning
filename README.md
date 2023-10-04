@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Spurious Feature Diversification Improves Out-of-distribution Generalization. [[paper]](https://arxiv.org/abs/2309.17230)
+  - Yong Lin, Lu Tan, Yifan Hao, Honam Wong, Hanze Dong, Weizhong Zhang, Yujiu Yang, Tong Zhang.
+  - Key Word: Spurious Correlation; Out-of-Distribution Generalization; Ensemble-based Models.
+  - <details><summary>Digest</summary> This paper addresses the challenge of generalizing to out-of-distribution (OOD) data in machine learning. It focuses on the WiSE-FT ensemble method, which interpolates between pre-trained and fine-tuned models. The study discovers that WiSE-FT corrects cases where individual models make incorrect predictions, improving OOD performance. Theoretical analysis in a multi-class setting with spurious features predicts this phenomenon and suggests that ensemble models benefit from diverse spurious features. Contrary to conventional wisdom, incorporating many diverse spurious features weakens their individual contributions, leading to better OOD performance. Empirical results on MultiColorMNIST dataset support these findings. Additionally, the paper introduces a novel method called BAlaNced averaGing (BANG) to address overconfidence issues in fine-tuned models, further enhancing OOD performance in WiSE-FT.
+
 - Context $\approx$ Environment. [[paper]](https://arxiv.org/abs/2309.09888)
   - Sharut Gupta, Stefanie Jegelka, David Lopez-Paz, Kartik Ahuja.
   - Key Word: In-Context Learning; Invaraint Learning; Domain Generalization.
