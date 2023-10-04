@@ -442,6 +442,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Can Sensitive Information Be Deleted From LLMs? Objectives for Defending Against Extraction Attacks. [[paper]](https://arxiv.org/abs/2309.17410)
+  - Vaidehi Patil, Peter Hase, Mohit Bansal.
+  - Key Word: Large Language Models; Extraction Attacks.
+  - <details><summary>Digest</summary> This paper addresses concerns about pretrained language models retaining sensitive and harmful information. The authors propose an attack-and-defense framework for directly deleting such information from model weights. They focus on this approach to ensure that deleted data cannot be extracted by future attacks and to protect against whitebox attacks. Experimental results show that even state-of-the-art model editing methods struggle to completely delete information from models like GPT-J, with attacks successfully recovering "deleted" information 38% of the time. The paper also introduces new defense methods, but no single method proves universally effective. The findings highlight the challenge of truly deleting sensitive information from language models and emphasize its societal implications for real-world deployment.
+
 - Private Distribution Learning with Public Data: The View from Sample Compression. [[paper]](https://arxiv.org/abs/2308.06239)
   - Shai Ben-David, Alex Bie, Clément L. Canonne, Gautam Kamath, Vikrant Singhal.
   - Key Word: Public-Private Learning; Sample Complexity.
