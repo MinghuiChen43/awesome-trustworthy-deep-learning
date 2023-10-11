@@ -605,6 +605,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments. [[paper]](https://arxiv.org/abs/2310.06514)
+  - Yang Zhang, Yawei Li, Hannah Brown, Mina Rezaei, Bernd Bischl, Philip Torr, Ashkan Khakzar, Kenji Kawaguchi.
+  - Key Word: Feature Attribution.
+  - <details><summary>Digest</summary> The paper addresses the concept of faithfulness in feature attribution for neural networks, which refers to the alignment between identified features and those actually used by the model. It discusses a method to test faithfulness by explicitly designing both the neural network and the dataset, allowing for precise evaluation of feature attribution. The proposed AttributionLab environment serves as a controlled testing ground to assess attribution methods and identify potential improvements.
+
 - Representation Engineering: A Top-Down Approach to AI Transparency. [[paper]](https://arxiv.org/abs/2310.01405)
   - Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks.
   - Key Word: AI Transparency; Feature Visualization; Saliency Maps; Mechanistic Interpretability.
