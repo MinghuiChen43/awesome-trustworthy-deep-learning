@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Mitigating Simplicity Bias in Deep Learning for Improved OOD Generalization and Robustness. [[paper]](https://arxiv.org/abs/2310.06161)
+  - Bhavya Vasudeva, Kameron Shahabi, Vatsal Sharan.
+  - Key Word: Simplicity Bias; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> The paper discusses the issue of simplicity bias in neural networks, where they tend to favor 'simple' features over more 'complex' but informative ones, leading to biased predictions and poor out-of-distribution (OOD) generalization. To mitigate this bias, the paper introduces a framework that involves training a simple model and then using conditional mutual information regularization to obtain the final model. This approach effectively counters simplicity bias, encourages the use of a wider range of features, improves OOD generalization, and enhances subgroup robustness and fairness in various problem settings and real-world applications. The paper also provides theoretical analysis of the regularization's impact and OOD generalization properties.
+
 - Deep Neural Networks Tend To Extrapolate Predictably. [[paper]](https://arxiv.org/abs/2310.00873)
   - Katie Kang, Amrith Setlur, Claire Tomlin, Sergey Levine.
   - Key Word: Extrapolation; Out-of-Distribution Generalization; Optimal Constant Solution.
