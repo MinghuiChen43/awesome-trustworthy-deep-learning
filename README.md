@@ -447,6 +447,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks. [[paper]](https://arxiv.org/abs/2310.06549)
+  - Lukas Struppek, Dominik Hintersdorf, Kristian Kersting.
+  - Key Word: Model Inversion Attack; Label Smoothing.
+  - <details><summary>Digest</summary> The paper explores the effect of label smoothing on model privacy, particularly in the context of model inversion attacks (MIAs). Label smoothing, a common regularization technique, is found to facilitate MIAs, thereby compromising model privacy. However, the paper introduces the concept of smoothing with negative factors, which counteracts this trend, making it more difficult to extract sensitive information and enhancing model resilience against MIAs, even surpassing current defense methods.
+
 - Graph Unlearning: A Review. [[paper]](https://arxiv.org/abs/2310.02164)
   - Anwar Said, Tyler Derr, Mudassir Shabbir, Waseem Abbas, Xenofon Koutsoukos.
   - Key Word: Survey; Graph Unlearning.
