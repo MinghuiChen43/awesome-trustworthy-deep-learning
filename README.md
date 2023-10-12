@@ -452,6 +452,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- In-Context Unlearning: Language Models as Few Shot Unlearners. [[paper]](https://arxiv.org/abs/2310.07579)
+  - Martin Pawelczyk, Seth Neel, Himabindu Lakkaraju.
+  - Key Word: Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper focuses on "machine unlearning," the process of efficiently removing the influence of specific training data on a trained model. This concept has gained attention due to privacy regulations like the "Right to be Forgotten." The paper introduces a new approach called "In-Context Unlearning" for large language models (LLMs), which does not require updating the model parameters. Instead, it provides training instances with modified labels and additional correctly labeled data when making predictions. Experimental results show that this method effectively removes specific information from the training data while maintaining competitive performance compared to existing unlearning methods that rely on model parameter access.
+
 - Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks. [[paper]](https://arxiv.org/abs/2310.06549)
   - Lukas Struppek, Dominik Hintersdorf, Kristian Kersting.
   - Key Word: Model Inversion Attack; Label Smoothing.
