@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity? [[paper]](https://arxiv.org/abs/2310.09562)
+  - Prasanna Mayilvahanan, Thaddäus Wiedemer, Evgenia Rusak, Matthias Bethge, Wieland Brendel.
+  - Key Word: Measuring Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> The paper discusses CLIP, a foundation model, and its generalization capabilities on out-of-distribution benchmarks. It questions the significance of out-of-distribution generalization in CLIP, suggesting that web-scale datasets may contain samples similar to common benchmarks. The authors retrain CLIP on pruned data that replicates ImageNet's train-test similarity with OOD benchmarks, noting a performance drop on some benchmarks. Surprisingly, CLIP maintains high overall performance, indicating that factors beyond train-test similarity contribute to its generalization. Pruning dissimilar data reveals a smaller dataset on which CLIP can match its original OOD performance. 
+
 - Mitigating Simplicity Bias in Deep Learning for Improved OOD Generalization and Robustness. [[paper]](https://arxiv.org/abs/2310.06161)
   - Bhavya Vasudeva, Kameron Shahabi, Vatsal Sharan.
   - Key Word: Simplicity Bias; Out-of-Distribution Generalization.
