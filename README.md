@@ -462,6 +462,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Large Language Model Unlearning. [[paper]](https://arxiv.org/abs/2310.10683)
+  - Yuanshun Yao, Xiaojun Xu, Yang Liu.
+  - Key Word: Large Language Model; Machine Unlearning.
+  - <details><summary>Digest</summary> The paper investigates unlearning undesirable behaviors in large language models (LLMs). It identifies three scenarios where unlearning can align LLMs with human preferences: removing harmful responses, erasing copyrighted content, and eliminating hallucinations. Unlearning offers advantages, as it only requires negative examples, making it easier to collect than positive examples used in RLHF. It is computationally efficient and especially effective when the problematic training samples are known. This research is among the first to explore LLM unlearning and introduces settings, goals, and evaluations for this purpose. Despite using only negative samples, the study shows that unlearning can achieve better alignment performance than RLHF with significantly less computational time.
+
 - In-Context Unlearning: Language Models as Few Shot Unlearners. [[paper]](https://arxiv.org/abs/2310.07579)
   - Martin Pawelczyk, Seth Neel, Himabindu Lakkaraju.
   - Key Word: Machine Unlearning; Large Language Models.
