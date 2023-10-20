@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Causal-structure Driven Augmentations for Text OOD Generalization. [[paper]](https://arxiv.org/abs/2310.12803)
+  - Amir Feder, Yoav Wald, Claudia Shi, Suchi Saria, David Blei.
+  - Key Word: Out-of-Distribution Generalization; Causality; Data Augmentation.
+  - <details><summary>Digest</summary> The paper proposes using counterfactual data augmentation to improve the robustness of text classifiers in situations where they rely on spurious correlations. This approach is particularly relevant in prediction problems where the label is spuriously correlated with an attribute. The authors discuss the advantages of counterfactual data augmentation in terms of sample complexity compared to other methods. They use auxiliary data and a large language model to represent conditional probabilities of text. Experimental results on caregiver-invariant predictors for clinical diagnoses show that this method enhances out-of-distribution accuracy compared to baseline techniques. 
+
 - Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity? [[paper]](https://arxiv.org/abs/2310.09562)
   - Prasanna Mayilvahanan, Thaddäus Wiedemer, Evgenia Rusak, Matthias Bethge, Wieland Brendel.
   - Key Word: Measuring Out-of-Distribution Generalization.
