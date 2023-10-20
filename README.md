@@ -1179,7 +1179,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 Welcome to recommend articles that you find interesting and focused on trustworthy deep learning. You can submit an issue or contact me via [[email]](mailto:ming_hui.chen@outlook.com). Also, if there are any errors in the article information, please feel free to correct me.
 
-Formatting (The order of the papers is reversed based on the submission time to arXiv)
+Formatting (The order of the papers is reversed based on the initial submission time to arXiv)
 - Paper Title [[paper]](https://arxiv.org/abs/xxxx.xxxx)
   - Authors. *Published Conference or Journal*
   - Key Word: XXX.
