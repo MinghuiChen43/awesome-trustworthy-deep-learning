@@ -467,6 +467,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation. [[paper]](https://arxiv.org/abs/2310.12508)
+  - Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu.
+  - Key Word: Machine Unlearning; Saliency Maps.
+  - <details><summary>Digest</summary> The paper introduces "Saliency Unlearning (SalUn)," a machine unlearning (MU) method that focuses on specific model weights, improving unlearning accuracy and efficiency. SalUn effectively erases the influence of forgetting data, classes, or concepts in image classification and generation, narrowing the performance gap with "exact" unlearning. In experiments, SalUn demonstrates stability advantages in high-variance random data forgetting and outperforms existing baselines in preventing conditional diffusion models from generating harmful images.
+
 - Large Language Model Unlearning. [[paper]](https://arxiv.org/abs/2310.10683)
   - Yuanshun Yao, Xiaojun Xu, Yang Liu.
   - Key Word: Large Language Model; Machine Unlearning.
