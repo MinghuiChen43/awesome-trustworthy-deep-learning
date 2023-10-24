@@ -467,6 +467,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Fundamental Limits of Membership Inference Attacks on Machine Learning Models. [[paper]](https://arxiv.org/abs/2310.13786)
+  - Eric Aubinais, Elisabeth Gassiat, Pablo Piantanida.
+  - Key Word: Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper investigates membership inference attacks (MIA) on machine learning models, which can determine if a data point was part of the training dataset, posing privacy risks. The study derives a statistical measure that influences the success of these attacks and provides bounds for this measure in various scenarios. This analysis enables the estimation of attack accuracy based on the number of samples and model characteristics, which can sometimes be directly obtained from the dataset.
+
 - SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation. [[paper]](https://arxiv.org/abs/2310.12508)
   - Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu.
   - Key Word: Machine Unlearning; Saliency Maps.
