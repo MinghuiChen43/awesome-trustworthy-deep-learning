@@ -800,6 +800,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI. [[paper]](https://arxiv.org/abs/2310.16787)
+  - Shayne Longpre, Robert Mahari, Anthony Chen, Naana Obeng-Marnu, Damien Sileo, William Brannon, Niklas Muennighoff, Nathan Khazam, Jad Kabbara, Kartik Perisetla, Xinyi (Alexis)Wu, Enrico Shippole, Kurt Bollacker, Tongshuang Wu, Luis Villa, Sandy Pentland, Deb Roy, Sara Hooker.
+  - Key Word: Data Provenance; Dataset Licensing.
+  - <details><summary>Digest</summary> This paper addresses concerns related to the legal and ethical risks of training language models on diverse and poorly documented datasets. It presents a systematic audit of over 1800 text datasets, aiming to enhance data transparency. The analysis reveals disparities between open and closed datasets, particularly in terms of languages, task complexity, and data origin. The paper also highlights issues with license categorization on dataset hosting platforms, emphasizing the need for better dataset attribution. The authors provide an interactive tool, the Data Provenance Explorer, to help users trace data sources in popular open source finetuning collections.
+
 - A Primer on Bayesian Neural Networks: Review and Debates. [[paper]](https://arxiv.org/abs/2309.16314)
   - Julyan Arbel, Konstantinos Pitas, Mariia Vladimirova, Vincent Fortuin.
   - Key Word: Bayesian Neural Networks; Uncertainty; Distribution Shifts.
