@@ -467,6 +467,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Detecting Pretraining Data from Large Language Models. [[paper]](https://arxiv.org/abs/2310.16789)
+  - Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer.
+  - Key Word: Auditing Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper addresses the issue of undisclosed data in large language models (LLMs), which can potentially include copyrighted, personally identifiable, and test data. The paper introduces a method called "Min-K% Prob" for detecting whether a given text was part of the LLM's pretraining data. It leverages the hypothesis that unseen examples contain outlier words with low probabilities under the LLM. This method does not require prior knowledge of the pretraining corpus or additional training, distinguishing it from previous detection techniques. Experiments show that Min-K% Prob outperforms previous methods, with a 7.4% improvement on the benchmark. The method is effectively applied to detect copyrighted content and contaminated downstream examples in real-world scenarios.
+
 - Fundamental Limits of Membership Inference Attacks on Machine Learning Models. [[paper]](https://arxiv.org/abs/2310.13786)
   - Eric Aubinais, Elisabeth Gassiat, Pablo Piantanida.
   - Key Word: Membership Inference Attacks.
@@ -491,6 +496,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Lukas Struppek, Dominik Hintersdorf, Kristian Kersting.
   - Key Word: Model Inversion Attack; Label Smoothing.
   - <details><summary>Digest</summary> The paper explores the effect of label smoothing on model privacy, particularly in the context of model inversion attacks (MIAs). Label smoothing, a common regularization technique, is found to facilitate MIAs, thereby compromising model privacy. However, the paper introduces the concept of smoothing with negative factors, which counteracts this trend, making it more difficult to extract sensitive information and enhancing model resilience against MIAs, even surpassing current defense methods.
+
+- Who's Harry Potter? Approximate Unlearning in LLMs. [[paper]](https://arxiv.org/abs/2310.02238)
+  - Ronen Eldan, Mark Russinovich.
+  - Key Word: Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper addresses legal and ethical challenges related to large language models (LLMs) trained on copyrighted content. The authors propose a novel technique for "unlearning" specific data from an LLM, without requiring a complete retraining. They demonstrate the effectiveness of their approach by removing the ability of a model to generate or recall Harry Potter-related content while preserving its performance on standard benchmarks. The method involves three main components: a reinforced model to identify relevant tokens, replacing idiosyncratic expressions with generic alternatives, and fine-tuning the model on these alternatives. This paper presents the first effective technique for unlearning in generative language models.
 
 - Graph Unlearning: A Review. [[paper]](https://arxiv.org/abs/2310.02164)
   - Anwar Said, Tyler Derr, Mudassir Shabbir, Waseem Abbas, Xenofon Koutsoukos.
