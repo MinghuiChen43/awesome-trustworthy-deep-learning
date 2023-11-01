@@ -467,6 +467,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Initialization Matters: Privacy-Utility Analysis of Overparameterized Neural Networks. [[paper]](https://arxiv.org/abs/2310.20579)
+  - Jiayuan Ye, Zhenyu Zhu, Fanghui Liu, Reza Shokri, Volkan Cevher.
+  - Key Word: Differential Privacy; Membership Inference Attacks; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> This paper investigates the impact of model over-parameterization in randomized machine learning algorithms on data privacy. It establishes a privacy bound for the KL divergence between model distributions on neighboring datasets, showing that this bound is influenced by factors like initialization, width, and depth of neural networks. The analysis reveals that privacy is closely related to the squared gradient norm during training. Notably, for linearized networks, privacy loss is linked to the per-layer variance of initialization distribution. The study demonstrates that privacy can improve with increased depth under certain initializations but deteriorates with others, highlighting the complex relationship between privacy and depth influenced by initialization. The paper also discusses the trade-off between privacy and utility under a fixed privacy budget.
+
 - Detecting Pretraining Data from Large Language Models. [[paper]](https://arxiv.org/abs/2310.16789)
   - Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer.
   - Key Word: Auditing Machine Unlearning; Large Language Models.
