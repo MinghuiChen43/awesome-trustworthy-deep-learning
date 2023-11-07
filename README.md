@@ -467,6 +467,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- SoK: Memorisation in machine learning. [[paper]](https://arxiv.org/abs/2311.03075)
+  - Dmitrii Usynin, Moritz Knolle, Georgios Kaissis.
+  - Key Word: Memorization; Influence Estimation; Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper addresses the issue of quantifying the impact of individual data samples on machine learning models, especially in deep learning with limited data. It explores the concept of "memorization" in machine learning and its implications for privacy. The paper unifies various definitions and perspectives on memorization, discusses its relationship with model generalization, and presents methods to detect or measure memorization. It also considers the implications of memorization in the context of data privacy, including privacy attacks, differential privacy, and adversarial actors.
+
 - Initialization Matters: Privacy-Utility Analysis of Overparameterized Neural Networks. [[paper]](https://arxiv.org/abs/2310.20579)
   - Jiayuan Ye, Zhenyu Zhu, Fanghui Liu, Reza Shokri, Volkan Cevher.
   - Key Word: Differential Privacy; Membership Inference Attacks; Neural Tangent Kernel.
