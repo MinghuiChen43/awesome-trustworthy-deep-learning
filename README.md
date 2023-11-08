@@ -100,6 +100,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: In-Context Learning; Invaraint Learning; Domain Generalization.
   - <details><summary>Digest</summary> This paper discusses two key areas in AI research: 1) efforts to build models that generalize better and avoid spurious correlations, and 2) the role of large language models (LLMs) in on-the-fly contextual learning. The paper argues that context is akin to the environment and suggests that in-context learning is essential for improved domain generalization. The proposed In-Context Risk Minimization (ICRM) algorithm, by paying attention to context, enhances out-of-distribution performance. The main takeaways are that domain generalization researchers should consider the environment as context, and LLM researchers should view context as an environment for improved data structuring towards generalization.
 
+- AUC-Oriented Domain Adaptation: From Theory to Algorithm. [[paper]](https://ieeexplore.ieee.org/abstract/document/10214340)
+  - Zhiyong Yang, Qianqian Xu, Wenzheng Hou, Shilong Bao, Yuan He, Xiaochun Cao, Qingming Huang. *TPAMI*
+  - Key Word: Domain Adaptation; AUC-Oriented Learning.
+  - <details><summary>Digest</summary> This paper addresses the use of Area Under the ROC curve (AUC) as a crucial metric in machine learning, particularly for applications with long-tail datasets. It focuses on AUC-oriented Unsupervised Domain Adaptation (UDA) and introduces a new distributional discrepancy for AUC. The paper overcomes the challenge of interdependency in AUC risk and provides a sharper bound with fewer assumptions about the loss function. To make it practical, a pseudo-labeling strategy and an end-to-end training framework are proposed for scenarios where complete annotations on the target domain are unavailable. Empirical studies on five real-world datasets demonstrate the effectiveness of the framework.
+
 - Domain Generalization without Excess Empirical Risk. [[paper]](https://arxiv.org/abs/2308.15856)
   - Ozan Sener, Vladlen Koltun.
   - Key Word: Domain Generalization; Rate-Distortion Theory.
