@@ -274,6 +274,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Adversarial Robustness.
   - <details><summary>Digest</summary> The paper investigates the vulnerability of machine learning classifiers to adversarial examples. It questions whether adversarial examples are inevitable and shows that the distribution of data, particularly its concentration in small-volume input space subsets, plays a crucial role in determining classifier robustness. The paper also demonstrates that when data is concentrated in low-dimensional linear subspaces, classifiers can achieve better robustness through the exploitation of data structure, surpassing provable certification methods in specific scenarios.
 
+- Revisiting AUC-Oriented Adversarial Training With Loss-Agnostic Perturbations. [[paper]](https://ieeexplore.ieee.org/abstract/document/10214340)
+  - Zhiyong Yang, Qianqian Xu, Wenzheng Hou, Shilong Bao, Yuan He, Xiaochun Cao, Qingming Huang.
+  - Key Word: Adversarial Training; AUC Optimization.
+  - <details><summary>Digest</summary> This paper focuses on optimizing the Area Under the ROC curve (AUC) for long-tail classification while considering adversarial attacks. It introduces reformulations of the objective function and proposes an inducing algorithm to enhance the robustness of AUC-oriented adversarial training. The key findings include the equivalence of optimizing AdAUC with score-based or instance-wise-loss-based perturbations, the establishment of an explicit error bound for AUC-oriented adversarial training's generalization ability, and the development of a fast SVRG-based gradient descent-ascent algorithm to accelerate the process. Extensive experimental results on five long-tail datasets demonstrate the performance and robustness of the proposed algorithm.
+
 - URET: Universal Robustness Evaluation Toolkit (for Evasion). [[paper]](https://arxiv.org/abs/2308.01840)
   - Kevin Eykholt, Taesung Lee, Douglas Schales, Jiyong Jang, Ian Molloy, Masha Zorin. *USENIX 2023*
   - Key Word: Adversarial Robustness; Benchmarking.
