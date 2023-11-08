@@ -19,7 +19,6 @@
 <details>
 <summary>Survey: 2022</summary>
 
-
 - A Comprehensive Survey on Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2209.10117)
   - Wenqi Fan, Xiangyu Zhao, Xiao Chen, Jingran Su, Jingtong Gao, Lin Wang, Qidong Liu, Yiqi Wang, Han Xu, Lei Chen, Qing Li.
   - Key Word: Recommender Systems; Survey.
@@ -1804,6 +1803,11 @@
   - Mark Huasong Meng, Guangdong Bai, Sin Gee Teo, Zhe Hou, Yan Xiao, Yun Lin, Jin Song Dong.
   - Key Word: Adversarial Robustness; Survey.
   - <details><summary>Digest</summary> We survey existing literature in adversarial robustness verification for neural networks and collect 39 diversified research works across machine learning, security, and software engineering domains. We systematically analyze their approaches, including how robustness is formulated, what verification techniques are used, and the strengths and limitations of each technique. We provide a taxonomy from a formal verification perspective for a comprehensive understanding of this topic. We classify the existing techniques based on property specification, problem reduction, and reasoning strategies.
+
+- AdAUC: End-to-end Adversarial AUC Optimization Against Long-tail Problems. [[paper]](https://arxiv.org/abs/2206.12169)
+  - Wenzheng Hou, Qianqian Xu, Zhiyong Yang, Shilong Bao, Yuan He, Qingming Huang.
+  - Key Word: AUC Optimization; Adversarial Training.
+  - <details><summary>Digest</summary> This paper focuses on the vulnerability of deep learning models to adversarial examples and the need for optimizing AUC (Area Under the Curve) as a more suitable metric for long-tail datasets. The authors propose an adversarial training method that addresses the challenge of optimizing AUC, and they reformulate the problem as a saddle point problem with an instance-wise objective function. They provide a convergence guarantee for the algorithm and present experimental results demonstrating its performance and robustness on long-tail datasets.
 
 - Measuring Representational Robustness of Neural Networks Through Shared Invariances. [[paper]](https://arxiv.org/abs/2206.11939) [[code]](https://github.com/nvedant07/stir)
   - Vedant Nanda, Till Speicher, Camila Kolling, John P. Dickerson, Krishna P. Gummadi, Adrian Weller. *ICML 2022*
