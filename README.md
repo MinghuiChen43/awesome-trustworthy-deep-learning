@@ -830,6 +830,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Can LLMs Follow Simple Rules? [[paper]](https://arxiv.org/abs/2311.04235) [[code]](https://github.com/normster/llm_rules)
+  - Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner.
+  - Key Word: Large Language Model; Rule Learning.
+  - <details><summary>Digest</summary> As Large Language Models (LLMs) are deployed with increasing real-world responsibilities, it is important to be able to specify and constrain the behavior of these systems in a reliable manner. We propose RuLES, a programmatic framework for measuring rule-following ability in LLMs. Through manual exploration of model behavior in our scenarios, we identify 6 categories of attack strategies and collect two suites of test cases. We find that all models are susceptible to a wide variety of adversarial hand-crafted user inputs, though GPT-4 is the best-performing model. Additionally, we evaluate open models under gradient-based attacks and find significant vulnerabilities. We propose RuLES as a challenging new setting for research into exploring and defending against both manual and automatic attacks on LLMs.
+
 - The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI. [[paper]](https://arxiv.org/abs/2310.16787)
   - Shayne Longpre, Robert Mahari, Anthony Chen, Naana Obeng-Marnu, Damien Sileo, William Brannon, Niklas Muennighoff, Nathan Khazam, Jad Kabbara, Kartik Perisetla, Xinyi (Alexis)Wu, Enrico Shippole, Kurt Bollacker, Tongshuang Wu, Luis Villa, Sandy Pentland, Deb Roy, Sara Hooker.
   - Key Word: Data Provenance; Dataset Licensing.
