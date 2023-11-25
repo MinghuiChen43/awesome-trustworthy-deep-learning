@@ -502,10 +502,15 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Membership Inference Attacks.
   - <details><summary>Digest</summary> This paper investigates membership inference attacks (MIA) on machine learning models, which can determine if a data point was part of the training dataset, posing privacy risks. The study derives a statistical measure that influences the success of these attacks and provides bounds for this measure in various scenarios. This analysis enables the estimation of attack accuracy based on the number of samples and model characteristics, which can sometimes be directly obtained from the dataset.
 
-- SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation. [[paper]](https://arxiv.org/abs/2310.12508)
+- SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation. [[paper]](https://arxiv.org/abs/2310.12508) [[code]](https://github.com/OPTML-Group/Unlearn-Saliency)
   - Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu.
-  - Key Word: Machine Unlearning; Saliency Maps.
+  - Key Word: Machine Unlearning; Saliency Maps; Diffusion Model.
   - <details><summary>Digest</summary> The paper introduces "Saliency Unlearning (SalUn)," a machine unlearning (MU) method that focuses on specific model weights, improving unlearning accuracy and efficiency. SalUn effectively erases the influence of forgetting data, classes, or concepts in image classification and generation, narrowing the performance gap with "exact" unlearning. In experiments, SalUn demonstrates stability advantages in high-variance random data forgetting and outperforms existing baselines in preventing conditional diffusion models from generating harmful images.
+
+- Model Sparsity Can Simplify Machine Unlearning. [[paper]](https://arxiv.org/abs/2304.04934) [[code]](https://github.com/OPTML-Group/Unlearn-Sparse)
+  - Jinghan Jia, Jiancheng Liu, Parikshit Ram, Yuguang Yao, Gaowen Liu, Yang Liu, Pranay Sharma, Sijia Liu. NeurIPS 2023
+  - Key Word: Machine Unlearning; Model Sparsification.
+  - <details><summary>Digest</summary> The paper presents an innovative approach to machine unlearning (MU) by employing model sparsification through weight pruning, a technique that seeks to remove the influence of specific data examples from a model without the need for complete retraining. This paper introduces two paradigms: 1) "prune first, then unlearn" integrates a sparse model prior to the unlearning process. 2) "sparsity-aware unlearning" (l1-sparse) incorporates sparsity regularization to improve the unlearning process. In experiments, these approaches achieve a significant increase in unlearning performance. Additionally, the paper illustrates the broader applicability of their methods in machine learning, such as defense against backdoor attacks and improvements in transfer learning.
 
 - Large Language Model Unlearning. [[paper]](https://arxiv.org/abs/2310.10683)
   - Yuanshun Yao, Xiaojun Xu, Yang Liu.
