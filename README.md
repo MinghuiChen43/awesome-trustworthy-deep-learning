@@ -691,6 +691,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching. [[paper]](https://arxiv.org/abs/2311.17030) [[code]](https://github.com/amakelov/activation-patching-illusion)
+  - Aleksandar Makelov, Georg Lange, Neel Nanda.
+  - Key Word: Mechanistic Interpretability; Interpretability Illusions; Factual Recall; Activation Patching.
+  - <details><summary>Digest</summary> This paper discusses the challenges of achieving mechanistic interpretability through subspace interventions in machine learning models. It highlights the divergence between manipulating model behavior and attributing features to specific subspaces, and presents evidence of an illusory sense of interpretability. The work also demonstrates a phenomenon where subspace interventions may activate dormant pathways, potentially leading to an inconsistency between model behavior and feature attribution. However, it emphasizes that activation patching of subspaces is not inherently unfit for interpretability and provides examples of successful interpretability in certain tasks.
+
 - AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments. [[paper]](https://arxiv.org/abs/2310.06514)
   - Yang Zhang, Yawei Li, Hannah Brown, Mina Rezaei, Bernd Bischl, Philip Torr, Ashkan Khakzar, Kenji Kawaguchi.
   - Key Word: Feature Attribution.
