@@ -275,6 +275,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Tree of Attacks: Jailbreaking Black-Box LLMs Automatically. [[paper]](https://arxiv.org/abs/2312.02119) [[code]](https://github.com/RICommunity/TAP)
+  - Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, Amin Karbasi.
+  - Key Word: Jailbreaks; Large Language Model.
+  - <details><summary>Digest</summary> The paper introduces TAP, an automated method for generating jailbreaks in Large Language Models (LLMs) with only black-box access. TAP uses iterative refinement of prompts and pruning to reduce queries sent to the target LLM. Empirical results show that TAP successfully jailbreaks state-of-the-art LLMs (e.g., GPT4) for over 80% of prompts with few queries, surpassing previous methods.
+
 - Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness. [[paper]](https://arxiv.org/abs/2309.16096)
   - Ambar Pal, Jeremias Sulam, René Vidal.
   - Key Word: Adversarial Robustness.
