@@ -275,6 +275,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Scaling Laws for Adversarial Attacks on Language Model Activations. [[paper]](https://arxiv.org/abs/2312.02780)
+  - Stanislav Fort.
+  - Key Word: Activation Adversarial Attacks; Large Language Model; Neural Scaling Laws.
+  - <details><summary>Digest</summary> This paper explores adversarial attacks on language models by manipulating a small subset of model activations, demonstrating the ability to control the prediction of a significant number of subsequent tokens. They observe a linear scaling relationship between the controlled activations (a) and the maximum number of target tokens (t_max). They also find that the control needed in the input space to influence the output space (attack resistance χ) remains relatively constant across different model sizes. Interestingly, attacks on activations are stronger than attacks on tokens, but both have similar output control capabilities, suggesting a dimensionality mismatch between input and output spaces. This has implications for multi-modal and selected retrieval models, as attacks can target activations, expanding the attack surface.
+
 - Tree of Attacks: Jailbreaking Black-Box LLMs Automatically. [[paper]](https://arxiv.org/abs/2312.02119) [[code]](https://github.com/RICommunity/TAP)
   - Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, Amin Karbasi.
   - Key Word: Jailbreaks; Large Language Model.
