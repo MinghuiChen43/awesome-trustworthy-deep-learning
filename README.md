@@ -493,6 +493,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- On the Learnability of Watermarks for Language Models. [[paper]](https://arxiv.org/abs/2312.04469) [[code]](https://github.com/chenchenygu/watermark-learnability)
+  - Chenchen Gu, Xiang Lisa Li, Percy Liang, Tatsunori Hashimoto.
+  - Key Word: Watermarking; Large Language Model.
+  - <details><summary>Digest</summary> This paper explores the possibility of language models learning to generate watermarked text directly, which has implications for responsible language model deployment. They introduce a method called "watermark distillation" to train a model to generate watermarked text like another model using decoding-based watermarking. The results show that models can learn to generate detectable watermarked text, but there are limitations, such as losing watermarking capabilities during fine-tuning on regular text and high sample complexity for low-distortion watermarks.
+
 - SoK: Memorisation in machine learning. [[paper]](https://arxiv.org/abs/2311.03075)
   - Dmitrii Usynin, Moritz Knolle, Georgios Kaissis.
   - Key Word: Memorization; Influence Estimation; Membership Inference Attacks.
