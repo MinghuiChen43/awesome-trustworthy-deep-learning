@@ -706,6 +706,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Steering Llama 2 via Contrastive Activation Addition. [[paper]](https://arxiv.org/abs/2312.06681)
+  - Nina Rimsky, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, Alexander Matt Turner.
+  - Key Word: Activation Addition; Large Language Model.
+  - <details><summary>Digest</summary> The paper introduces Contrastive Activation Addition (CAA), a method for steering language models by modifying activations during their forward passes. CAA computes "steering vectors" based on differences in activations between positive and negative examples of a behavior, allowing precise control over model behavior. Evaluation on Llama 2 Chat shows that CAA significantly alters model behavior, outperforming traditional methods and providing insights into representation in Large Language Models.
+
 - Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching. [[paper]](https://arxiv.org/abs/2311.17030) [[code]](https://github.com/amakelov/activation-patching-illusion)
   - Aleksandar Makelov, Georg Lange, Neel Nanda.
   - Key Word: Mechanistic Interpretability; Interpretability Illusions; Factual Recall; Activation Patching.
