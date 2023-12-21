@@ -498,6 +498,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Learning and Forgetting Unsafe Examples in Large Language Models. [[paper]](https://arxiv.org/abs/2312.12736)
+  - Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren.
+  - Key Word: Machine Unlearning; Safety Alignment; Large Language Model.
+  - <details><summary>Digest</summary> The paper investigates the safety implications of large language models (LLMs) learning from third-party custom finetuning data containing unsafe content. It finds that while LLMs can readily learn unsafe content, they tend to forget it more significantly when subsequently finetuned on safer content. To address this, the "ForgetFilter" algorithm is introduced, which filters unsafe data based on the model's forgetting signal. The algorithm ensures safety in customized finetuning without compromising task performance and outperforms alternative strategies in curbing LLMs' assimilation of unsafe content.
+
 - On the Learnability of Watermarks for Language Models. [[paper]](https://arxiv.org/abs/2312.04469) [[code]](https://github.com/chenchenygu/watermark-learnability)
   - Chenchen Gu, Xiang Lisa Li, Percy Liang, Tatsunori Hashimoto.
   - Key Word: Watermarking; Large Language Model.
