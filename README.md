@@ -275,6 +275,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Scaling Compute Is Not All You Need for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2312.13131)
+  - Edoardo Debenedetti, Zishen Wan, Maksym Andriushchenko, Vikash Sehwag, Kshitij Bhardwaj, Bhavya Kailkhura.
+  - Key Word: Neural Scaling Laws; Adversarial Robustness.
+  - <details><summary>Digest</summary> The paper discusses the progress in adversarially robust deep learning over the past six years, highlighting improvements in accuracy under adversarial perturbations. It questions the sustainability of relying solely on computing power to drive further advances in robustness and proposes scaling laws for adversarial robustness. The study reveals that increasing computational resources for adversarial training may not yield significant performance improvements and identifies challenges in reproducing top-performing techniques. Additionally, the paper introduces a publicly available benchmarking framework to support future research in efficient robust deep learning.
+
 - Scaling Laws for Adversarial Attacks on Language Model Activations. [[paper]](https://arxiv.org/abs/2312.02780)
   - Stanislav Fort.
   - Key Word: Activation Adversarial Attacks; Large Language Model; Neural Scaling Laws.
