@@ -27,8 +27,8 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
 - [Related Awesome Lists:astonished:](#related-awesome-lists)
-- [Toolboxes:toolbox:](#toolboxes)
-- [Seminar:alarm_clock:](#seminar)
+- [Toolboxes :toolbox:](#toolboxes) :toolbox: 
+- [Seminar:alarm_clock:](#seminar) :alarm_clock:
 - [Workshops:fire:](#workshops)
 - [Tutorials:woman_teacher:](#tutorials)
 - [Talks:microphone:](#talks)
@@ -497,6 +497,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
+
+- Leveraging Public Representations for Private Transfer Learning. [[paper]](https://arxiv.org/abs/2312.15551)
+  - Pratiksha Thaker, Amrith Setlur, Zhiwei Steven Wu, Virginia Smith.
+  - Key Word: Private Transfer Learning.
+  - <details><summary>Digest</summary> This paper explores the theoretical implications of incorporating public data into differentially private learning for transfer learning scenarios in linear regression. It investigates two scenarios where public and private tasks share a low-rank subspace. In the first scenario, a single model is learned and shared across users, achieving optimal performance within a specific class of algorithms. In the second scenario, with enough public data, users can perform local learning within the subspace without the need for private coordination, achieving the same utility. These findings provide insights into the advantages of using public data in private transfer learning.
 
 - Learning and Forgetting Unsafe Examples in Large Language Models. [[paper]](https://arxiv.org/abs/2312.12736)
   - Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren.
