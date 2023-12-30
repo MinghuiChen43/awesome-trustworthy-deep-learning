@@ -721,6 +721,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Visual Explanations of Image-Text Representations via Multi-Modal Information Bottleneck Attribution. [[paper]](https://arxiv.org/abs/2312.17174) [[code]](https://github.com/yingwangg/m2ib)
+  - Ying Wang, Tim G. J. Rudner, Andrew Gordon Wilson. *NeurIPS 2023*
+  - Key Word: Visual Explanations; Multi-Modal Information Bottleneck.
+  - <details><summary>Digest</summary> The paper introduces a multi-modal information bottleneck (M2IB) approach to enhance the interpretability of vision-language pretrained models like CLIP. M2IB learns latent representations that filter out irrelevant information while preserving relevant visual and textual features. This method is particularly useful for attribution analysis in safety-critical domains such as healthcare, improving accuracy without requiring ground truth labels. The paper demonstrates the effectiveness of M2IB attribution compared to other methods, including gradient-based, perturbation-based, and attention-based approaches, both qualitatively and quantitatively.
+
 - Steering Llama 2 via Contrastive Activation Addition. [[paper]](https://arxiv.org/abs/2312.06681) [[code]](https://github.com/wusche1/caa_hallucination)
   - Nina Rimsky, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, Alexander Matt Turner.
   - Key Word: Activation Addition; Large Language Model.
