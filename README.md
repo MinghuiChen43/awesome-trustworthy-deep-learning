@@ -71,6 +71,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Unraveling the Key Components of OOD Generalization via Diversification. [[paper]](https://arxiv.org/abs/2312.16313)
+  - Harold Benoit, Liangze Jiang, Andrei Atanov, Oğuzhan Fatih Kar, Mattia Rigotti, Amir Zamir.
+  - Key Word: Out-of-Distribution Generalization; Spurious Correlation; Diversification.
+  - <details><summary>Digest</summary> This paper investigates diversification methods for handling multiple features in real-world datasets. It finds that these methods are sensitive to the distribution of unlabeled data and can underperform when not in an optimal setting. Diversification alone is insufficient for out-of-distribution (OOD) generalization; the choice of learning algorithm, model architecture, and pretraining is crucial. The optimal choice depends on the unlabeled data. Increasing the number of diverse hypotheses doesn't necessarily solve these issues. These findings provide insights into improving OOD generalization with diversification methods and offer guidance to practitioners and researchers in their use and development.
+
 - Causal-structure Driven Augmentations for Text OOD Generalization. [[paper]](https://arxiv.org/abs/2310.12803)
   - Amir Feder, Yoav Wald, Claudia Shi, Suchi Saria, David Blei.
   - Key Word: Out-of-Distribution Generalization; Causality; Data Augmentation.
