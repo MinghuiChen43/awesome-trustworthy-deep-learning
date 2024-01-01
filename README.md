@@ -27,14 +27,14 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
 - [Related Awesome Lists:astonished:](#related-awesome-lists)
-- [Toolboxes :toolbox:](#toolboxes) :toolbox: 
-- [Seminar:alarm_clock:](#seminar) :alarm_clock:
-- [Workshops:fire:](#workshops)
-- [Tutorials:woman_teacher:](#tutorials)
-- [Talks:microphone:](#talks)
-- [Blogs:writing_hand:](#blogs)
-- [Other Resources:sparkles:](#other-resources)
-- [Contributing:wink:](#contributing)
+- [Toolboxes :toolbox:](#toolboxes)
+- [Seminar :alarm_clock:](#seminar) 
+- [Workshops :fire:](#workshops)
+- [Tutorials :woman_teacher:](#tutorials)
+- [Talks :microphone:](#talks)
+- [Blogs :writing_hand:](#blogs)
+- [Other Resources :sparkles:](#other-resources)
+- [Contributing :wink:](#contributing)
 
 # Paper List
 
