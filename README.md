@@ -892,6 +892,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Calibrated Language Models Must Hallucinate. [[paper]](https://arxiv.org/abs/2311.14648)
+  - Adam Tauman Kalai, Santosh S. Vempala.
+  - Key Word: Large Language Model; Hallucination.
+  - <details><summary>Digest</summary> The paper discusses the issue of language models generating false yet believable information, known as "hallucinations," which hinders the usefulness of language-based AI systems. The study establishes a statistical lower bound on the occurrence of hallucinations for certain types of facts in pretrained language models, unrelated to the model's architecture or data quality. It suggests that models designed to be good predictors may require post-training adjustments to reduce hallucinations for specific facts that rarely occur in the training data. However, the paper also indicates that common facts and systematic information are less likely to lead to hallucinations and can potentially be mitigated with different model architectures and learning approaches.
+
 - Can LLMs Follow Simple Rules? [[paper]](https://arxiv.org/abs/2311.04235) [[code]](https://github.com/normster/llm_rules)
   - Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner.
   - Key Word: Large Language Model; Rule Learning.
