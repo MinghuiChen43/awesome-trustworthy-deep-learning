@@ -24,6 +24,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
   - [Environmental Well-being](#environmental-well-being)
+  - [Alignment](#alignment)
   - [Others](#others)
 - [Related Awesome Lists :astonished:](#related-awesome-lists)
 - [Toolboxes :toolbox:](#toolboxes)
@@ -78,6 +79,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Environmental Well-being
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
+
+
+## Alignment
+
+<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
 
 ## Others

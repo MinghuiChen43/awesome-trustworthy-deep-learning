@@ -9,6 +9,7 @@
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
   - [Environmental Well-being](#environmental-well-being)
+  - [Alignment](#alignment)
   - [Others](#others)
 
 
@@ -4794,6 +4795,42 @@
 
 </details>
 
+## Alignment
+
+<details>
+<summary>Alignment: 2023</summary>
+
+TBD
+
+</details>
+
+<details>
+<summary>Alignment: 2022</summary>
+
+TBD
+
+</details>
+
+<details>
+<summary>Alignment: 2021</summary>
+
+TBD
+
+</details>
+
+<details>
+<summary>Alignment: 2020</summary>
+
+TBD
+
+</details>
+
+<details>
+<summary>Alignment: 2019 and Before</summary>
+
+TBD
+
+</details>
 
 ## Others
 
