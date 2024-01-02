@@ -8,9 +8,7 @@
   - [Privacy](#privacy)
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
-  - [Open-World Learning](#open-world-learning)
   - [Environmental Well-being](#environmental-well-being)
-  - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
 
 
@@ -4736,260 +4734,6 @@
 
 </details>
 
-## Open-World Learning
-
-<details>
-<summary>Open-World Learning: 2023</summary>
-
-- Automating Continual Learning. [[paper]](https://arxiv.org/abs/2312.00276)
-  - Kazuki Irie, Róbert Csordás, Jürgen Schmidhuber.
-  - Key Word: Continual Learning; In-Context Catastrophic Forgetting.
-  - <details><summary>Digest</summary> The paper introduces Automated Continual Learning (ACL) as a solution to the problem of catastrophic forgetting in neural networks. Instead of designing specific algorithms to prevent forgetting, ACL trains self-referential neural networks to meta-learn their own continual learning algorithms. ACL's meta-learning objectives ensure good performance on both old and new tasks, effectively addressing "in-context catastrophic forgetting." Experimental results demonstrate that ACL outperforms hand-crafted algorithms, particularly in scenarios like the Split-MNIST benchmark without replay, and enables continual learning across various tasks, including few-shot and standard image classification datasets.
-
-- Meta-in-context learning in large language models. [[paper]](https://arxiv.org/abs/2305.12907)
-  - Julian Coda-Forno, Marcel Binz, Zeynep Akata, Matthew Botvinick, Jane X. Wang, Eric Schulz.
-  - Key Word: Meta In-Context Learning; Large Language Model.
-  - <details><summary>Digest</summary> The paper explores how large language models can improve their in-context learning abilities through a process called "meta-in-context learning." This recursive improvement enhances the model's understanding and adaptation to specific tasks. The study demonstrates this phenomenon in idealized domains, such as regression and bandit tasks, and extends it to real-world regression problems, achieving competitive performance compared to traditional learning algorithms. The research offers insights into in-context learning and suggests a new approach for adapting large language models without traditional fine-tuning, solely through meta-in-context learning.
-
-- Lifelong Language Pretraining with Distribution-Specialized Experts. [[paper]](https://arxiv.org/abs/2305.12281)
-  - Wuyang Chen, Yanqi Zhou, Nan Du, Yanping Huang, James Laudon, Zhifeng Chen, Claire Cu. *ICML 2023*
-  - Key Word: Lifelong Learning; Large Language Model; Mixture-of-Experts.
-  - <details><summary>Digest</summary> The paper discusses challenges in adapting large-scale pretrained language models to new data distributions for various tasks. Traditional fine-tuning can lead to overfitting and forgetting of pretrained features. The paper introduces Lifelong-MoE, a Mixture-of-Experts architecture with added capacity and regularization, for continuous learning. Lifelong-MoE efficiently adapts to changing data distributions while maintaining previous knowledge. It outperforms existing lifelong learning methods on 19 NLP tasks in few-shot scenarios.
-
-- Vocabulary-informed Zero-shot and Open-set Learning. [[paper]](https://arxiv.org/abs/2301.00998) [[code]](https://github.com/xiaomeiyy/wmm-voc)
-  - Yanwei Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal. *TPAMI*
-  - Key Word: Vocabulary-Informed Learning; Generalized Zero-Shot Learning, Open-set Recognition.
-  - <details><summary>Digest</summary> Zero-shot learning is one way of addressing these challenges, but it has only been shown to work with limited sized class vocabularies and typically requires separation between supervised and unsupervised classes, allowing former to inform the latter but not vice versa. We propose the notion of vocabulary-informed learning to alleviate the above mentioned challenges and address problems of supervised, zero-shot, generalized zero-shot and open set recognition using a unified framework.
-
-</details>
-
-<details>
-<summary>Open-World Learning: 2022</summary>
-
-- Understanding Open-Set Recognition by Jacobian Norm of Representation. [[paper]](https://arxiv.org/abs/2209.11436)
-  - Jaewoo Park, Hojin Park, Eunju Jeong, Andrew Beng Jin Teoh.
-  - Key Word: Open-Set Recognition; Out-of-Distribution Detection.
-  - <details><summary>Digest</summary> This paper analyzes this emergent phenomenon by observing the Jacobian norm of representation. We theoretically show that minimizing the intra-class distances within the known set reduces the Jacobian norm of known class representations while maximizing the inter-class distances within the known set increases the Jacobian norm of the unknown class. The closed-set metric learning thus separates the unknown from the known by forcing their Jacobian norm values to differ. We empirically validate our theoretical framework with ample pieces of evidence using standard OSR datasets. 
-
-- Holistic Segmentation. [[paper]](https://arxiv.org/abs/2209.05407)
-  - Stefano Gasperini, Frithjof Winkelmann, Alvaro Marcos-Ramiro, Micheal Schmidt, Nassir Navab, Benjamin Busam, Federico Tombari.
-  - Key Word: Open-set Panoptic Segmentation; Open-set Perception; Uncertainty Estimation.
-  - <details><summary>Digest</summary> We broaden the scope proposing holistic segmentation: a task to identify and separate unseen unknown objects into instances, without learning from unknowns, while performing panoptic segmentation of known classes. We tackle this new problem with U3HS, which first finds unknowns as highly uncertain regions, then clusters the corresponding instance-aware embeddings into individual objects.
-
-- Fine-grain Inference on Out-of-Distribution Data with Hierarchical Classification. [[paper]](https://arxiv.org/abs/2209.04493)
-  - Randolph Linderman, Jingyang Zhang, Nathan Inkawhich, Hai Li, Yiran Chen.
-  - Key Word: Fine-grain Out-of-Distribution Detection.
-  - <details><summary>Digest</summary> When the OOD sample significantly overlaps with the training data, a binary anomaly detection is not interpretable or explainable, and provides little information to the user. We propose a new model for OOD detection that makes predictions at varying levels of granularity as the inputs become more ambiguous, the model predictions become coarser and more conservative. Consider an animal classifier that encounters an unknown bird species and a car. Both cases are OOD, but the user gains more information if the classifier recognizes that its uncertainty over the particular species is too large and predicts bird instead of detecting it as OOD.
-
-- Measuring Human Perception to Improve Open Set Recognition. [[paper]](https://arxiv.org/abs/2209.03519)
-  - Jin Huang, Student Member, Derek Prijatelj, Justin Dulay, Walter Scheirer. 
-  - Key Word: Open Set Recognition; Novelty Detection; Visual Psychophysics.
-  - <details><summary>Digest</summary> We designed and performed a large-scale behavioral experiment that collected over 200,000 human reaction time measurements associated with object recognition. The data collected indicated reaction time varies meaningfully across objects at the sample level. We therefore designed a new psychophysical loss function that enforces consistency with human behavior in deep networks which exhibit variable reaction time for different images. 
-
-- Open-Set Semi-Supervised Object Detection. [[paper]](https://arxiv.org/abs/2208.13722) [[code]](https://ycliu93.github.io/projects/ossod.html)
-  - Yen-Cheng Liu, Chih-Yao Ma, Xiaoliang Dai, Junjiao Tian, Peter Vajda, Zijian He, Zsolt Kira.
-  - Key Word: Open-Set Semi-Supervised Learning; Object Detection.
-  - <details><summary>Digest</summary> We first find the existing SSOD method obtains a lower performance gain in open-set conditions, and this is caused by the semantic expansion, where the distracting OOD objects are mispredicted as in-distribution pseudo-labels for the semi-supervised training. To address this problem, we consider online and offline OOD detection modules, which are integrated with SSOD methods. 
-
-- Detecting the unknown in Object Detection. [[paper]](https://arxiv.org/abs/2208.11641)
-  - Dario Fontanel, Matteo Tarantino, Fabio Cermelli, Barbara Caputo.
-  - Key Word: Open-Set Detection; Discovery of Unknown Class.
-  - <details><summary>Digest</summary> In this work, we address the problem of detecting unknown objects, known as open-set object detection. We propose a novel training strategy, called UNKAD, able to predict unknown objects without requiring any annotation of them, exploiting non annotated objects that are already present in the background of training images. In particular, exploiting the four-steps training strategy of Faster R-CNN, UNKAD first identifies and pseudo-labels unknown objects and then uses the pseudo-annotations to train an additional unknown class. While UNKAD can directly detect unknown objects, we further combine it with previous unknown detection techniques, showing that it improves their performance at no costs.
-
-- Towards Open Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2208.11113)
-  - Yuansheng Zhu, Wentao Bao, Qi Yu. *ECCV 2022*
-  - Key Word: Open-Set Recognition; Video Anomaly Detection.
-  - <details><summary>Digest</summary> Open Set Video Anomaly Detection (OpenVAD) aims to identify abnormal events from video data where both known anomalies and novel ones exist in testing. Unsupervised models learned solely from normal videos are applicable to any testing anomalies but suffer from a high false positive rate. In contrast, weakly supervised methods are effective in detecting known anomalies but could fail in an open world. We develop a novel weakly supervised method for the OpenVAD problem by integrating evidential deep learning (EDL) and normalizing flows (NFs) into a multiple instance learning (MIL) framework.
-
-- Self-Trained Proposal Networks for the Open World. [[paper]](https://arxiv.org/abs/2208.11050)
-  - Matthew Inkawhich, Nathan Inkawhich, Hai Li, Yiran Chen.
-  - Key Word: Self-Training; Open-Set Detection; Class-Agnostic Object Proposal.
-  - <details><summary>Digest</summary> We propose a classification-free Self-Trained Proposal Network (STPN) that leverages a novel self-training optimization strategy combined with dynamically weighted loss functions that account for challenges such as class imbalance and pseudo-label uncertainty. Not only is our model designed to excel in existing optimistic open-world benchmarks, but also in challenging operating environments where there is significant label bias. To showcase this, we devise two challenges to test the generalization of proposal models when the training data contains (1) less diversity within the labeled classes, and (2) fewer labeled instances.
-
-- Single-Stage Open-world Instance Segmentation with Cross-task Consistency Regularization. [[paper]](https://arxiv.org/abs/2208.09023)
-  - Xizhe Xue, Dongdong Yu, Lingqiao Liu, Yu Liu, Ying Li, Zehuan Yuan, Ping Song, Mike Zheng Shou.
-  - Key Word: Class-agnostic; Open-world Instance Segmentation; Cross-task Consistency Loss.
-  - <details><summary>Digest</summary> Open-world instance segmentation (OWIS) aims to segment class-agnostic instances from images, which has a wide range of real-world applications such as autonomous driving. Most existing approaches follow a two-stage pipeline: performing class-agnostic detection first and then class-specific mask segmentation. In contrast, this paper proposes a single-stage framework to produce a mask for each instance directly. Also, instance mask annotations could be noisy in the existing datasets; to overcome this issue, we introduce a new regularization loss. Specifically, we first train an extra branch to perform an auxiliary task of predicting foreground regions, and then encourage the prediction from the auxiliary branch to be consistent with the predictions of the instance masks. The key insight is that such a cross-task consistency loss could act as an error-correcting mechanism to combat the errors in annotations.
-
-- Open Long-Tailed Recognition in a Dynamic World. [[paper]](https://arxiv.org/abs/2208.08349)
-  - Ziwei Liu, Zhongqi Miao, Xiaohang Zhan, Jiayun Wang, Boqing Gong, Stella X. Yu. *TPAMI*
-  - Key Word: Long-Tailed Recognition; Few-shot Learning; Open-Set Recognition; Active Learning.
-  - <details><summary>Digest</summary> Real world data often exhibits a long-tailed and open-ended (with unseen classes) distribution. A practical recognition system must balance between majority (head) and minority (tail) classes, generalize across the distribution, and acknowledge novelty upon the instances of unseen classes (open classes). We define Open Long-Tailed Recognition++ (OLTR++) as learning from such naturally distributed data and optimizing for the classification accuracy over a balanced test set which includes both known and open classes. OLTR++ handles imbalanced classification, few-shot learning, open-set recognition, and active learning in one integrated algorithm, whereas existing classification approaches often focus only on one or two aspects and deliver poorly over the entire spectrum.
-
-- From Known to Unknown: Quality-aware Self-improving Graph Neural Network for Open Set Social Event Detection. [[paper]](https://arxiv.org/abs/2208.06973) [[code]](https://github.com/RingBDStack/open-set-social-event-detection)
-  - Jiaqian Ren, Lei Jiang, Hao Peng, Yuwei Cao, Jia Wu, Philip S. Yu, Lifang He.
-  - Key Word: Open-set Social Event Detection; Graph Neural Network; Classification.
-  - <details><summary>Digest</summary> To address this problem, we design a Quality-aware Self-improving Graph Neural Network (QSGNN) which extends the knowledge from known to unknown by leveraging the best of known samples and reliable knowledge transfer. Specifically, to fully exploit the labeled data, we propose a novel supervised pairwise loss with an additional orthogonal inter-class relation constraint to train the backbone GNN encoder. The learnt, already-known events further serve as strong reference bases for the unknown ones, which greatly prompts knowledge acquisition and transfer. When the model is generalized to unknown data, to ensure the effectiveness and reliability, we further leverage the reference similarity distribution vectors for pseudo pairwise label generation, selection and quality assessment. Besides, we propose a novel quality-guided optimization in which the contributions of pseudo labels are weighted based on consistency.
-
-- Open-world Contrastive Learning. [[paper]](https://arxiv.org/abs/2208.02764)
-  - Yiyou Sun, Yixuan Li.
-  - Key Word: Contrastive learning; Open-world; Classification.
-  - <details><summary>Digest</summary> In this paper, we enrich the landscape of representation learning by tapping into an open-world setting, where unlabeled samples from novel classes can naturally emerge in the wild. To bridge the gap, we introduce a new learning framework, open-world contrastive learning (OpenCon). OpenCon tackles the challenges of learning compact representations for both known and novel classes, and facilitates novelty discovery along the way. We demonstrate the effectiveness of OpenCon on challenging benchmark datasets and establish competitive performance.
-
-- Few-Shot Class-Incremental Learning from an Open-Set Perspective. [[paper]](https://arxiv.org/abs/2208.00147) [[code]](https://github.com/canpeng123/fscil_alice)
-  - Can Peng, Kun Zhao, Tianren Wang, Meng Li, Brian C. Lovell. *ECCV 2022*
-  - Key Word: Few-shot Class-Incremental Learning; Open-set; One-shot; Classification.
-  - <details><summary>Digest</summary> Here we explore the important task of Few-Shot Class-Incremental Learning (FSCIL) and its extreme data scarcity condition of one-shot. An ideal FSCIL model needs to perform well on all classes, regardless of their presentation order or paucity of data. It also needs to be robust to open-set real-world conditions and be easily adapted to the new tasks that always arise in the field. In this paper, we first reevaluate the current task setting and propose a more comprehensive and practical setting for the FSCIL task. Then, inspired by the similarity of the goals for FSCIL and modern face recognition systems, we propose our method -- Augmented Angular Loss Incremental Classification or ALICE. In ALICE, instead of the commonly used cross-entropy loss, we propose to use the angular penalty loss to obtain well-clustered features. As the obtained features not only need to be compactly clustered but also diverse enough to maintain generalization for future incremental classes, we further discuss how class augmentation, data augmentation, and data balancing affect classification performance.
-
-- Open World Learning Graph Convolution for Latency Estimation in Routing Networks. [[paper]](https://arxiv.org/abs/2207.14643)
-  - Yifei Jin, Marios Daoutis, Sarunas Girdzijauskas, Aristides Gionis. *IJCNN 2022*
-  - Key Word: Open-world Learning; Modeling Network Routing; Software Defined Networking.
-  - <details><summary>Digest</summary> Accurate routing network status estimation is a key component in Software Defined Networking. We propose a novel approach for modeling network routing, using Graph Neural Networks. Our method can also be used for network-latency estimation. Supported by a domain-knowledge-assisted graph formulation, our model shares a stable performance across different network sizes and configurations of routing networks, while at the same time being able to extrapolate towards unseen sizes, configurations, and user behavior. We show that our model outperforms most conventional deep-learning-based models, in terms of prediction accuracy, computational resources, inference speed, as well as ability to generalize towards open-world input.
-
-- Visual Recognition by Request. [[paper]](https://arxiv.org/abs/2207.14227) [[code]](https://github.com/chufengt/Visual-Recognition-by-Request)
-  - Chufeng Tang, Lingxi Xie, Xiaopeng Zhang, Xiaolin Hu, Qi Tian.
-  - Key Word: Visual Recognition by Request; Open-domain; Knowledge Base.
-  - <details><summary>Digest</summary> In this paper, we present a novel protocol of annotation and evaluation for visual recognition. Different from traditional settings, the protocol does not require the labeler/algorithm to annotate/recognize all targets (objects, parts, etc.) at once, but instead raises a number of recognition instructions and the algorithm recognizes targets by request. This mechanism brings two beneficial properties to reduce the burden of annotation, namely, (i) variable granularity: different scenarios can have different levels of annotation, in particular, object parts can be labeled only in large and clear instances, (ii) being open-domain: new concepts can be added to the database in minimal costs. To deal with the proposed setting, we maintain a knowledge base and design a query-based visual recognition framework that constructs queries on-the-fly based on the requests. We evaluate the recognition system on two mixed-annotated datasets, CPP and ADE20K, and demonstrate its promising ability of learning from partially labeled data as well as adapting to new concepts with only text labels.
-
-- Towards Open Set 3D Learning: A Benchmark on Object Point Clouds. [[paper]](https://arxiv.org/abs/2207.11554) [[code]](https://github.com/antoalli/3d_os)
-  - Antonio Alliegro, Francesco Cappio Borlino, Tatiana Tommasi.
-  - Key Word: Open-set 3D Learning; In-domain and Cross-domain; Out-of-distribution.
-  - <details><summary>Digest</summary> In this context exploiting 3D data can be a valuable asset since it conveys rich information about the geometry of sensed objects and scenes. This paper provides the first broad study on Open Set 3D learning. We introduce a novel testbed with settings of increasing difficulty in terms of category semantic shift and cover both in-domain (synthetic-to-synthetic) and cross-domain (synthetic-to-real) scenarios. Moreover, we investigate the related out-of-distribution and Open Set 2D literature to understand if and how their most recent approaches are effective on 3D data. Our extensive benchmark positions several algorithms in the same coherent picture, revealing their strengths and limitations.
-
-- Semantic Abstraction: Open-World 3D Scene Understanding from 2D Vision-Language Models. [[paper]](https://arxiv.org/abs/2207.11514) [[code]](https://semantic-abstraction.cs.columbia.edu/)
-  - Huy Ha, Shuran Song.
-  - Key Word: Open-set Vocabulary; 3D scene understanding; Zero-shot.
-  - <details><summary>Digest</summary> We study open-world 3D scene understanding, a family of tasks that require agents to reason about their 3D environment with an open-set vocabulary and out-of-domain visual inputs - a critical skill for robots to operate in the unstructured 3D world. Towards this end, we propose Semantic Abstraction (SemAbs), a framework that equips 2D Vision-Language Models (VLMs) with new 3D spatial capabilities, while maintaining their zero-shot robustness. We achieve this abstraction using relevancy maps extracted from CLIP, and learn 3D spatial and geometric reasoning skills on top of those abstractions in a semantic-agnostic manner. We demonstrate the usefulness of SemAbs on two open-world 3D scene understanding tasks: 1) completing partially observed objects and 2) localizing hidden objects from language descriptions.
-
-- UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
-  - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
-  - Key Word: Open World Object Detection.
-  - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
-
-- Difficulty-Aware Simulator for Open Set Recognition. [[paper]](https://arxiv.org/abs/2207.10024) [[code]](https://github.com/wjun0830/difficulty-aware-simulator)
-  - WonJun Moon, Junho Park, Hyun Seok Seong, Cheol-Ho Cho, Jae-Pil Heo. *ECCV 2022*
-  - Key Word: Open-set Recognition; Generative Adversarial Network.
-  - <details><summary>Digest</summary> We present a novel framework, DIfficulty-Aware Simulator (DIAS), that generates fakes with diverse difficulty levels to simulate the real world. We first investigate fakes from generative adversarial network (GAN) in the classifier's viewpoint and observe that these are not severely challenging. This leads us to define the criteria for difficulty by regarding samples generated with GANs having moderate-difficulty. To produce hard-difficulty examples, we introduce Copycat, imitating the behavior of the classifier. Furthermore, moderate- and easy-difficulty samples are also yielded by our modified GAN and Copycat, respectively.
-
-- More Practical Scenario of Open-set Object Detection: Open at Category Level and Closed at Super-category Level. [[paper]](https://arxiv.org/abs/2207.09775)
-  - Yusuke Hosoya, Masanori Suganuma, Takayuki Okatani.
-  - Key Word: Open-set Object Detection; Super-category.
-  - <details><summary>Digest</summary> We first point out that the scenario of OSOD considered in recent studies, which considers an unlimited variety of unknown objects similar to open-set recognition (OSR), has a fundamental issue. That is, we cannot determine what to detect and what not for such unlimited unknown objects, which is necessary for detection tasks. This issue leads to difficulty with the evaluation of methods' performance on unknown object detection. We then introduce a novel scenario of OSOD, which deals with only unknown objects that share the super-category with known objects. It has many real-world applications, e.g., detecting an increasing number of fine-grained objects. This new setting is free from the above issue and evaluation difficulty. Moreover, it makes detecting unknown objects more realistic owing to the visual similarity between known and unknown objects.
-
-- DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition. [[paper]](https://arxiv.org/abs/2207.02606) [[code]](https://github.com/matejgrcic/DenseHybrid)
-  - Matej Grcić, Petra Bevandić, Siniša Šegvić. *ECCV 2022*
-  - Key Word: Anomaly detection; Dense anomaly detection; Open-set Recognition.
-  - <details><summary>Digest</summary> We design a novel hybrid algorithm based on reinterpreting discriminative logits as a logarithm of the unnormalized joint distribution p̂ (x,y). Our model builds on a shared convolutional representation from which we recover three dense predictions: i) the closed-set class posterior P(y|x), ii) the dataset posterior P(din|x), iii) unnormalized data likelihood p̂ (x). The latter two predictions are trained both on the standard training data and on a generic negative dataset. We blend these two predictions into a hybrid anomaly score which allows dense open-set recognition on large natural images. We carefully design a custom loss for the data likelihood in order to avoid backpropagation through the untractable normalizing constant Z(θ). Experiments evaluate our contributions on standard dense anomaly detection benchmarks as well as in terms of open-mIoU - a novel metric for dense open-set performance.
-
-- Towards Realistic Semi-Supervised Learning. [[paper]](https://arxiv.org/abs/2207.02269) [[code]](https://github.com/nayeemrizve/trssl)
-  - Mamshad Nayeem Rizve, Navid Kardan, Mubarak Shah. *ECCV 2022 oral*
-  - Key Word: Semi-supervised Learning; Open-world SSL; Discovery of Unknown class.
-  - <details><summary>Digest</summary> The standard SSL approach assumes unlabeled data are from the same distribution as annotated data. Recently, a more realistic SSL problem, called open-world SSL, is introduced, where the unannotated data might contain samples from unknown classes. In this paper, we propose a novel pseudo-label based approach to tackle SSL in open-world setting. At the core of our method, we utilize sample uncertainty and incorporate prior knowledge about class distribution to generate reliable class-distribution-aware pseudo-labels for unlabeled data belonging to both known and unknown classes. We also highlight the flexibility of our approach in solving novel class discovery task, demonstrate its stability in dealing with imbalanced data, and complement our approach with a technique to estimate the number of novel classes.
-
-- Open-world Semantic Segmentation for LIDAR Point Clouds. [[paper]](https://arxiv.org/abs/2207.01452) [[code]](https://github.com/jun-cen/open_world_3d_semantic_segmentation)
-  - Jun Cen, Peng Yun, Shiwei Zhang, Junhao Cai, Di Luan, Michael Yu Wang, Ming Liu, Mingqian Tang. *ECCV 2022*
-  - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
-  - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems.
-
-- RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness. [[paper]](https://arxiv.org/abs/2206.14502) [[code]](https://github.com/FrancescoPinto/RegMixup)
-  - Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania. *NeurIPS 2022*
-  - Key Word: Mixup; Out-of-Distribution Detection; Out-of-Distribution Robustness.
-  - <details><summary>Digest</summary> We observe that Mixup yields much degraded performance on detecting out-of-distribution samples possibly, as we show empirically, because of its tendency to learn models that exhibit high-entropy throughout; making it difficult to differentiate in-distribution samples from out-distribution ones. To show the efficacy of our approach (RegMixup), we provide thorough analyses and experiments on vision datasets (ImageNet & CIFAR-10/100) and compare it with a suite of recent approaches for reliable uncertainty estimation.
-
-- Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization. [[paper]](https://arxiv.org/abs/2206.11134) [[code]](https://github.com/pealing/medet)
-  - Peixian Chen, Kekai Sheng, Mengdan Zhang, Yunhang Shen, Ke Li, Chunhua Shen.
-  - Key Word: Open-vocabulary Object Detection; Backdoor Adjustment.
-  - <details><summary>Digest</summary> Open-vocabulary object detection (OVD) aims to scale up vocabulary size to detect objects of novel categories beyond the training vocabulary. We present MEDet, a novel and effective OVD framework with proposal mining and prediction equalization. First, we design an online proposal mining to refine the inherited vision-semantic knowledge from coarse to fine, allowing for proposal-level detection-oriented feature alignment. Second, based on causal inference theory, we introduce a class-wise backdoor adjustment to reinforce the predictions on novel categories to improve the overall OVD performance.
-
-- Rethinking the Openness of CLIP. [[paper]](https://arxiv.org/abs/2206.01986)
-  - Shuhuai Ren, Lei Li, Xuancheng Ren, Guangxiang Zhao, Xu Sun.
-  - Key Word: Open-vocabulary; CLIP; Rethinking; In-depth Analysis.
-  - <details><summary>Digest</summary> Contrastive Language-Image Pre-training (CLIP) has demonstrated great potential in realizing open-vocabulary image classification in a matching style, because of its holistic use of natural language supervision that covers unconstrained real-world visual concepts. However, it is, in turn, also difficult to evaluate and analyze the openness of CLIP-like models, since they are in theory open to any vocabulary but the actual accuracy varies. To address the insufficiency of conventional studies on openness, we resort to an incremental view and define the extensibility, which essentially approximates the model's ability to deal with new visual concepts, by evaluating openness through vocabulary expansions. Our evaluation based on extensibility shows that CLIP-like models are hardly truly open and their performances degrade as the vocabulary expands to different degrees. Further analysis reveals that the over-estimation of openness is not because CLIP-like models fail to capture the general similarity of image and text features of novel visual concepts, but because of the confusion among competing text features, that is, they are not stable with respect to the vocabulary. In light of this, we propose to improve the openness of CLIP from the perspective of feature space by enforcing the distinguishability of text features. Our method retrieves relevant texts from the pre-training corpus to enhance prompts for inference, which boosts the extensibility and stability of CLIP even without fine-tuning.
-
-- Simple Open-Vocabulary Object Detection with Vision Transformers. [[paper]](https://arxiv.org/abs/2205.06230) [[code]](https://github.com/google-research/scenic)
-  - Matthias Minderer, Alexey Gritsenko, Austin Stone, Maxim Neumann, Dirk Weissenborn, Alexey Dosovitskiy, Aravindh Mahendran, Anurag Arnab, Mostafa Dehghani, Zhuoran Shen, Xiao Wang, Xiaohua Zhai, Thomas Kipf, Neil Houlsby. *ECCV 2022*
-  - Key Word: Open-vocabulary; Long-tail; Object detection; Vision Transformer.
-  - <details><summary>Digest</summary> For object detection, pre-training and scaling approaches are less well established, especially in the long-tailed and open-vocabulary setting, where training data is relatively scarce. In this paper, we propose a strong recipe for transferring image-text models to open-vocabulary object detection. We use a standard Vision Transformer architecture with minimal modifications, contrastive image-text pre-training, and end-to-end detection fine-tuning. Our analysis of the scaling properties of this setup shows that increasing image-level pre-training and model size yield consistent improvements on the downstream detection task. We provide the adaptation strategies and regularizations needed to attain very strong performance on zero-shot text-conditioned and one-shot image-conditioned object detection.
-
-- OSSGAN: Open-Set Semi-Supervised Image Generation. [[paper]](https://arxiv.org/abs/2204.14249) [[code]](https://github.com/raven38/ossgan)
-  - Kai Katsumata, Duc Minh Vo, Hideki Nakayama. *CVPR 2022*
-  - Key Word: Open-set Semi-supervised Image Generation; Conditional GAN.
-  - <details><summary>Digest</summary> We introduce a challenging training scheme of conditional GANs, called open-set semi-supervised image generation, where the training dataset consists of two parts: (i) labeled data and (ii) unlabeled data with samples belonging to one of the labeled data classes, namely, a closed-set, and samples not belonging to any of the labeled data classes, namely, an open-set. Unlike the existing semi-supervised image generation task, where unlabeled data only contain closed-set samples, our task is more general and lowers the data collection cost in practice by allowing open-set samples to appear. Thanks to entropy regularization, the classifier that is trained on labeled data is able to quantify sample-wise importance to the training of cGAN as confidence, allowing us to use all samples in unlabeled data.
-
-- Open-World Instance Segmentation: Exploiting Pseudo Ground Truth From Learned Pairwise Affinity. [[paper]](https://arxiv.org/abs/2204.06107) [[code]](https://sites.google.com/view/generic-grouping/)
-  - Weiyao Wang, Matt Feiszli, Heng Wang, Jitendra Malik, Du Tran. *CVPR 2022*
-  - Key Word: Open-world Instance Segmentation; Generic Grouping Networks; Pairwise Affinities.
-  - <details><summary>Digest</summary> Open-world instance segmentation is the task of grouping pixels into object instances without any pre-determined taxonomy. This is challenging, as state-of-the-art methods rely on explicit class semantics obtained from large labeled datasets, and out-of-domain evaluation performance drops significantly. Here we propose a novel approach for mask proposals, Generic Grouping Networks (GGNs), constructed without semantic supervision. Our approach combines a local measure of pixel affinity with instance-level mask supervision, producing a training regimen designed to make the model as generic as the data diversity allows. We introduce a method for predicting Pairwise Affinities (PA), a learned local relationship between pairs of pixels. PA generalizes very well to unseen categories. From PA we construct a large set of pseudo-ground-truth instance masks; combined with human-annotated instance masks we train GGNs and significantly outperform the SOTA on open-world instance segmentation on various benchmarks including COCO, LVIS, ADE20K, and UVO.
-
-- Full-Spectrum Out-of-Distribution Detection. [[paper]](https://arxiv.org/abs/2204.05306) [[code]](https://github.com/jingkang50/openood)
-  - Jingkang Yang, Kaiyang Zhou, Ziwei Liu.
-  - Key Word: Benchmark; Anomaly Detection; Open-set Recognition; Out-of-Distribution Generalization.
-  - <details><summary>Digest</summary> We take into account both shift types and introduce full-spectrum OOD (FS-OOD) detection, a more realistic problem setting that considers both detecting semantic shift and being tolerant to covariate shift; and designs three benchmarks. These new benchmarks have a more fine-grained categorization of distributions (i.e., training ID, covariate-shifted ID, near-OOD, and far-OOD) for the purpose of more comprehensively evaluating the pros and cons of algorithms.
-
-- FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
-  - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen. *CVPR 2022*
-  - Key Word: Open-World 6D Pose Estimation; Few-shot learning.
-  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost.
-
-- PMAL: Open Set Recognition via Robust Prototype Mining. [[paper]](https://arxiv.org/abs/2203.08569) [[code]](https://github.com/Cogito2012/OpenTAL)
-  - Jing Lu, Yunxu Xu, Hao Li, Zhanzhan Cheng, Yi Niu. *AAAI 2022*
-  - Key Word: Open-set Recognition; Prototype Learning.
-  - <details><summary>Digest</summary> In this work, we propose a novel Prototype Mining And Learning (PMAL) framework. It has a prototype mining mechanism before the phase of optimizing embedding space, explicitly considering two crucial properties, namely high-quality and diversity of the prototype set. Concretely, a set of high-quality candidates are firstly extracted from training samples based on data uncertainty learning, avoiding the interference from unexpected noise. Considering the multifarious appearance of objects even in a single category, a diversity-based strategy for prototype set filtering is proposed. Accordingly, the embedding space can be better optimized to discriminate therein the predefined classes and between known and unknowns.
-
-- OpenTAL: Towards Open Set Temporal Action Localization. [[paper]](https://arxiv.org/abs/2203.05114) [[code]](https://github.com/Cogito2012/OpenTAL)
-  - Wentao Bao, Qi Yu, Yu Kong. *CVPR 2022*
-  - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning.
-  - <details><summary>Digest</summary> In this paper, we, for the first time, step toward the Open Set TAL (OSTAL) problem and propose a general framework OpenTAL based on Evidential Deep Learning (EDL). Specifically, the OpenTAL consists of uncertainty-aware action classification, actionness prediction, and temporal location regression. With the proposed importance-balanced EDL method, classification uncertainty is learned by collecting categorical evidence majorly from important samples. To distinguish the unknown actions from background video frames, the actionness is learned by the positive-unlabeled learning. The classification uncertainty is further calibrated by leveraging the guidance from the temporal localization quality. The OpenTAL is general to enable existing TAL models for open set scenarios.
-
-</details>
-
-<!-- ### Open-World Learning: 2021 -->
-
-<details>
-<summary>Open-World Learning: 2021</summary>
-
-- Open-set 3D Object Detection. [[paper]](https://arxiv.org/abs/2111.08644)
-  - Jun Cen, Peng Yun, Junhao Cai, Michael Yu Wang, Ming Liu. *3DV 2021*
-  - Key Word: 3D Object Detection; Video Anomaly Detection; Discovery of Unseen Instances.
-  - <details><summary>Digest</summary> In this paper, we propose an open-set 3D object detector, which aims to (1) identify known objects, like the closed-set detection, and (2) identify unknown objects and give their accurate bounding boxes. Specifically, we divide the open-set 3D object detection problem into two steps: (1) finding out the regions containing the unknown objects with high probability and (2) enclosing the points of these regions with proper bounding boxes. The first step is solved by the finding that unknown objects are often classified as known objects with low confidence, and we show that the Euclidean distance sum based on metric learning is a better confidence score than the naive softmax probability to differentiate unknown objects from known objects. On this basis, unsupervised clustering is used to refine the bounding boxes of unknown objects. The proposed method combining metric learning and unsupervised clustering is called the MLUC network.
-
-- UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2111.08644) [[code]](https://github.com/lilygeorgescu/ubnormal)
-  - Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah. *CVPR 2022*
-  - Key Word: Open-set Anomaly Detection; Video Anomaly Detection; Discovery of Unseen Instances.
-  - <details><summary>Digest</summary> We propose UBnormal, a new supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. Unlike existing data sets, we introduce abnormal events annotated at the pixel level at training time, for the first time enabling the use of fully-supervised learning methods for abnormal event detection. To preserve the typical open-set formulation, we make sure to include disjoint sets of anomaly types in our training and test collections of videos. To our knowledge, UBnormal is the first video anomaly detection benchmark to allow a fair head-to-head comparison between one-class open-set models and supervised closed-set models, as shown in our experiments.
-
-- Generalized Out-of-Distribution Detection: A Survey. [[paper]](https://arxiv.org/abs/2110.11334) [[code]](https://github.com/Jingkang50/OODSurvey)
-  - Jingkang Yang, Kaiyang Zhou, Yixuan Li, Ziwei Liu.
-  - Key Word: Anomaly Detection; Novelty Detection; Open Set Recognition; Out-of-Distribution Detection; Outlier Detection.
-  - <details><summary>Digest</summary> Several other problems are closely related to OOD detection in terms of motivation and methodology. These include anomaly detection (AD), novelty detection (ND), open set recognition (OSR), and outlier detection (OD). Despite having different definitions and problem settings, these problems often confuse readers and practitioners, and as a result, some existing studies misuse terms. In this survey, we first present a generic framework called generalized OOD detection, which encompasses the five aforementioned problems, i.e., AD, ND, OSR, OOD detection, and OD.
-
-- Open-Set Recognition: a Good Closed-Set Classifier is All You Need? [[paper]](https://arxiv.org/abs/2110.06207) [[code]](https://github.com/sgvaze/osr_closed_set_all_you_need)
-  - Sagar Vaze, Kai Han, Andrea Vedaldi, Andrew Zisserman. *ICLR 2022*
-  - Key Word: Open-Set Recognition.
-  - <details><summary>Digest</summary> We first demonstrate that the ability of a classifier to make the 'none-of-above' decision is highly correlated with its accuracy on the closed-set classes. We find that this relationship holds across loss objectives and architectures, and further demonstrate the trend both on the standard OSR benchmarks as well as on a large-scale ImageNet evaluation. Second, we use this correlation to boost the performance of a maximum logit score OSR 'baseline' by improving its closed-set accuracy, and with this strong baseline achieve state-of-the-art on a number of OSR benchmarks. 
-
-- Evidential Deep Learning for Open Set Action Recognition. [[paper]](https://arxiv.org/abs/2107.10161) [[code]](https://github.com/Cogito2012/DEAR)
-  - Wentao Bao, Qi Yu, Yu Kong. *ICCV 2021 oral*
-  - Key Word: Open-World Learning; Open-Set Action Recognition; Discovery of Unseen Instances; Evidential Deep Learning.
-  - <details><summary>Digest</summary> In a real-world scenario, human actions are typically out of the distribution from training data, which requires a model to both recognize the known actions and reject the unknown. Different from image data, video actions are more challenging to be recognized in an open-set setting due to the uncertain temporal dynamics and static bias of human actions. In this paper, we propose a Deep Evidential Action Recognition (DEAR) method to recognize actions in an open testing set. Specifically, we formulate the action recognition problem from the evidential deep learning (EDL) perspective and propose a novel model calibration method to regularize the EDL training. Besides, to mitigate the static bias of video representation, we propose a plug-and-play module to debias the learned representation through contrastive learning.
-
-- Open-world Machine Learning: Applications, Challenges, and Opportunities. [[paper]](https://arxiv.org/abs/2105.13448)
-  - Jitendra Parmar, Satyendra Singh Chouhan, Vaskar Raychoudhury, Santosh Singh Rathore.
-  - Key Word: Open-World Learning; Open-Set Recognition; Discovery of Unseen Instances; Incremental Learning.
-  - <details><summary>Digest</summary> Traditional machine learning mainly supervised learning, follows the assumptions of closed-world learning, i.e., for each testing class, a training class is available. However, such machine learning models fail to identify the classes which were not available during training time. These classes can be referred to as unseen classes. Whereas open-world machine learning (OWML) deals with unseen classes. In this paper, first, we present an overview of OWML with importance to the real-world context. Next, different dimensions of open-world machine learning are explored and discussed. The area of OWML gained the attention of the research community in the last decade only. We have searched through different online digital libraries and scrutinized the work done in the last decade. This paper presents a systematic review of various techniques for OWML.  
-
-- Opening up Open-World Tracking. [[paper]](https://arxiv.org/abs/2104.11221) [[code]](https://openworldtracking.github.io/)
-  - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
-  - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
-  - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
-
-- Unidentified Video Objects: A Benchmark for Dense, Open-World Segmentation. [[paper]](https://arxiv.org/abs/2104.04691) [[code]](https://sites.google.com/view/unidentified-video-object/home?authuser=0)
-  - Weiyao Wang, Matt Feiszli, Heng Wang, Du Tran.
-  - Key Word: Open-World Segmentation; Class-agnostic segmentation.
-  - <details><summary>Digest</summary> In this paper, we present, UVO (Unidentified Video Objects), a new benchmark for open-world class-agnostic object segmentation in videos. Besides shifting the problem focus to the open-world setup, UVO is significantly larger, providing approximately 8 times more videos compared with DAVIS, and 7 times more mask (instance) annotations per video compared with YouTube-VOS and YouTube-VIS. UVO is also more challenging as it includes many videos with crowded scenes and complex background motions. We demonstrated that UVO can be used for other applications, such as object tracking and super-voxel segmentation, besides open-world object segmentation. We believe that UVo is a versatile testbed for researchers to develop novel approaches for open-world class-agnostic object segmentation, and inspires new research directions towards a more comprehensive video understanding beyond classification and detection.
-
-- OpenGAN: Open-Set Recognition via Open Data Generation. [[paper]](https://arxiv.org/abs/2104.02939) [[code]](https://github.com/aimerykong/OpenGAN)
-  - Shu Kong, Deva Ramanan.  *ICCV 2021 Best Paper Honorable Mention*
-  - Key Word: Open-set recognition; Data augmentation.
-  - <details><summary>Digest</summary> Two conceptually elegant ideas for open-set discrimination are: 1) discriminatively learning an open-vs-closed binary discriminator by exploiting some outlier data as the open-set, and 2) unsupervised learning the closed-set data distribution with a GAN, using its discriminator as the open-set likelihood function. However, the former generalizes poorly to diverse open test data due to overfitting to the training outliers, which are unlikely to exhaustively span the open-world. The latter does not work well, presumably due to the instable training of GANs. Motivated by the above, we propose OpenGAN, which addresses the limitation of each approach by combining them with several technical insights. First, we show that a carefully selected GAN-discriminator on some real outlier data already achieves the state-of-the-art. Second, we augment the available set of real open training examples with adversarially synthesized "fake" data. Third and most importantly, we build the discriminator over the features computed by the closed-world K-way networks. This allows OpenGAN to be implemented via a lightweight discriminator head built on top of an existing K-way network.
-
-- Towards Open World Object Detection. [[paper]](https://arxiv.org/abs/2103.02603) [[code]](https://github.com/JosephKJ/OWOD)
-  - K J Joseph, Salman Khan, Fahad Shahbaz Khan, Vineeth N Balasubramanian.  *CVPR 2021 oral*
-  - Key Word: Open-world learning; Incremental learning; Discovery of Unseen Instances; Object detection.
-  - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort.
-
-</details>
-
 ## Environmental Well-being
 
 <details>
@@ -5119,120 +4863,6 @@
 
 </details>
 
-## Interactions with Blockchain
-
-<details>
-<summary>Interactions with Blockchain: 2023</summary>
-
-- A Survey on Decentralized Federated Learning. [[paper]](https://arxiv.org/abs/2308.04604)
-  - Edoardo Gabrielli, Giovanni Pica, Gabriele Tolomei.
-  - Key Word: Decnetralized Federated Learning; Blockchained-based Federated Learning.
-  - <details><summary>Digest</summary> Federated learning (FL) has gained popularity for training distributed, large-scale, and privacy-preserving machine learning systems. FL allows edge devices to collaboratively train a shared model without sharing their private data. However, the centralized orchestration in FL is vulnerable to attacks. To address this, decentralized FL approaches have emerged. This survey provides a comprehensive review of existing decentralized FL approaches and highlights future research directions in this area.
-
-- Proof-of-Contribution-Based Design for Collaborative Machine Learning on Blockchain. [[paper]](https://arxiv.org/abs/2302.14031)
-  - Baturalp Buyukates, Chaoyang He, Shanshan Han, Zhiyong Fang, Yupeng Zhang, Jieyi Long, Ali Farahanchi, Salman Avestimehr.
-  - Key Word: Blockchain; Federated Learning; Data Market; Zero-Knowledge Proof.
-  - <details><summary>Digest</summary> Our goal is to design a data marketplace for such decentralized collaborative/federated learning applications that simultaneously provides i) proof-of-contribution based reward allocation so that the trainers are compensated based on their contributions to the trained model; ii) privacy-preserving decentralized model training by avoiding any data movement from data owners; iii) robustness against malicious parties (e.g., trainers aiming to poison the model); iv) verifiability in the sense that the integrity, i.e., correctness, of all computations in the data market protocol including contribution assessment and outlier detection are verifiable through zero-knowledge proofs; and v) efficient and universal design. We propose a blockchain-based marketplace design to achieve all five objectives mentioned above. 
-
-</details>
-
-
-<details>
-<summary>Interactions with Blockchain: 2022</summary>
-
-- Trustworthy Federated Learning via Blockchain. [[paper]](https://arxiv.org/abs/2209.04418)
-  - Zhanpeng Yang, Yuanming Shi, Yong Zhou, Zixin Wang, Kai Yang.
-  - Key Word: Federated Learning; Blockchain.
-  - <details><summary>Digest</summary> We shall propose a decentralized blockchain based FL (B-FL) architecture by using a secure global aggregation algorithm to resist malicious devices, and deploying practical Byzantine fault tolerance consensus protocol with high effectiveness and low energy consumption among multiple edge servers to prevent model tampering from the malicious server. However, to implement B-FL system at the network edge, multiple rounds of cross-validation in blockchain consensus protocol will induce long training latency. We thus formulate a network optimization problem that jointly considers bandwidth and power allocation for the minimization of long-term average training latency consisting of progressive learning rounds.
-
-- A Fast Blockchain-based Federated Learning Framework with Compressed Communications. [[paper]](https://arxiv.org/abs/2208.06095)
-  - Laizhong Cui, Xiaoxin Su, Yipeng Zhou. *JSAC*
-  - Key Word: Blockchain-based Federated Learning.
-  - <details><summary>Digest</summary> To improve the practicality of BFL, we are among the first to propose a fast blockchain-based communication-efficient federated learning framework by compressing communications in BFL, called BCFL. Meanwhile, we derive the convergence rate of BCFL with non-convex loss. To maximize the final model accuracy, we further formulate the problem to minimize the training loss of the convergence rate subject to a limited training time with respect to the compression rate and the block generation rate, which is a bi-convex optimization problem and can be efficiently solved.
-
-- BPFISH: Blockchain and Privacy-preserving FL Inspired Smart Healthcare. [[paper]](https://arxiv.org/abs/2207.11654)
-  - Moirangthem Biken Singh, Ajay Pratap.
-  - Key Word: Blockchain; Federated Learning; Stable Matching; Differential Privacy; Smart Healthcare.
-  - <details><summary>Digest</summary> This paper proposes Federated Learning (FL) based smar t healthcare system where Medical Centers (MCs) train the local model using the data collected from patients and send the model weights to the miners in a blockchain-based robust framework without sharing raw data, keeping privacy preservation into deliberation. We formulate an optimization problem by maximizing the utility and minimizing the loss function considering energy consumption and FL process delay of MCs for learning effective models on distributed healthcare data underlying a blockchain-based framework.
-
-- BEAS: Blockchain Enabled Asynchronous & Secure Federated Machine Learning. [[paper]](https://arxiv.org/abs/2202.02817) [[code]](https://github.com/harpreetvirkk/BEAS)
-  - Arup Mondal, Harpreet Virk, Debayan Gupta.
-  - Key Word: Arup Mondal, Harpreet Virk, Debayan Gupta.
-  - <details><summary>Digest</summary> Federated Learning (FL) enables multiple parties to distributively train a ML model without revealing their private datasets. However, it assumes trust in the centralized aggregator which stores and aggregates model updates. This makes it prone to gradient tampering and privacy leakage by a malicious aggregator. Malicious parties can also introduce backdoors into the joint model by poisoning the training data or model gradients. To address these issues, we present BEAS, the first blockchain-based framework for N-party FL that provides strict privacy guarantees of training data using gradient pruning (showing improved differential privacy compared to existing noise and clipping based techniques).
-
-</details>
-
-<!-- ### Interactions with Blockchain: 2021 -->
-
-<details>
-<summary>Interactions with Blockchain: 2021</summary>
-
-
-- Blockchain-based Federated Learning: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2110.02182)
-  - Zhilin Wang, Qin Hu.
-  - Key Word: Federated Learning; Blockchain.
-  - <details><summary>Digest</summary> We conduct a comprehensive survey of the literature on blockchained FL (BCFL). First, we investigate how blockchain can be applied to federal learning from the perspective of system composition. Then, we analyze the concrete functions of BCFL from the perspective of mechanism design and illustrate what problems blockchain addresses specifically for FL. We also survey the applications of BCFL in reality. Finally, we discuss some challenges and future research directions.
-
-- Smart Contract Vulnerability Detection: From Pure Neural Network to Interpretable Graph Feature and Expert Pattern Fusion. [[paper]](https://arxiv.org/abs/2106.09282)
-  - Zhenguang Liu, Peng Qian, Xiang Wang, Lei Zhu, Qinming He, Shouling Ji. *IJCAI 2021*
-  - Key Word: Smart Contract Vulnerability Detection.
-  - <details><summary>Digest</summary> We explore combining deep learning with expert patterns in an explainable fashion. Specifically, we develop automatic tools to extract expert patterns from the source code. We then cast the code into a semantic graph to extract deep graph features. Thereafter, the global graph feature and local expert patterns are fused to cooperate and approach the final prediction, while yielding their interpretable weights.
-
-- Eth2Vec: Learning Contract-Wide Code Representations for Vulnerability Detection on Ethereum Smart Contracts. [[paper]](https://arxiv.org/abs/2101.02377)
-  - Nami Ashizawa, Naoto Yanai, Jason Paul Cruz, Shingo Okamura.
-  - Key Word: Ethereum; Natural Language Processing; Security Analysis.
-  - <details><summary>Digest</summary> Ethereum smart contracts are programs that run on the Ethereum blockchain, and many smart contract vulnerabilities have been discovered in the past decade. Many security analysis tools have been created to detect such vulnerabilities, but their performance decreases drastically when codes to be analyzed are being rewritten. In this paper, we propose Eth2Vec, a machine-learning-based static analysis tool for vulnerability detection, with robustness against code rewrites in smart contracts.
-
-</details>
-
-<!-- ### Interactions with Blockchain: 2020 -->
-
-<details>
-<summary>Interactions with Blockchain: 2020</summary>
-
-- When Federated Learning Meets Blockchain: A New Distributed Learning Paradigm. [[paper]](https://arxiv.org/abs/2009.09338)
-  - Chuan Ma, Jun Li, Ming Ding, Long Shi, Taotao Wang, Zhu Han, H. Vincent Poor.
-  - Key Word: Federated Leraning; Blockchain.
-  - <details><summary>Digest</summary> This work investigates a blockchain assisted decentralized FL (BLADE-FL) framework, which can well prevent the malicious clients from poisoning the learning process, and further provides a self-motivated and reliable learning environment for clients. In detail, the model aggregation process is fully decentralized and the tasks of training for FL and mining for blockchain are integrated into each participant.
-
-- A Blockchain-based Decentralized Federated Learning Framework with Committee Consensus. [[paper]](https://arxiv.org/abs/2004.00773)
-  - Yuzheng Li, Chuan Chen, Nan Liu, Huawei Huang, Zibin Zheng, Qiang Yan.
-  - Key Word: Blockchain; Smart Contracts; Federated Learning.
-  - <details><summary>Digest</summary> Federated learning has been widely studied and applied to various scenarios. In mobile computing scenarios, federated learning protects users from exposing their private data, while cooperatively training the global model for a variety of real-world applications. However, the security of federated learning is increasingly being questioned, due to the malicious clients or central servers' constant attack to the global model or user privacy data. To address these security issues, we proposed a decentralized federated learning framework based on blockchain, i.e., a Blockchain-based Federated Learning framework with Committee consensus (BFLC). The framework uses blockchain for the global model storage and the local model update exchange.
-
-</details>
-
-<!-- ### Interactions with Blockchain: 2019 -->
-
-<details>
-<summary>Interactions with Blockchain: 2019</summary>
-
-- A blockchain-orchestrated Federated Learning architecture for healthcare consortia. [[paper]](https://arxiv.org/abs/1910.12603)
-  - Jonathan Passerat-Palmbach, Tyler Farnan, Robert Miller, Marielle S. Gross, Heather Leigh Flannery, Bill Gleim.
-  - Key Word: Blockchain; Federated Learning; Healthcare.
-  - <details><summary>Digest</summary> We propose a novel architecture for federated learning within healthcare consortia. At the heart of the solution is a unique integration of privacy preserving technologies, built upon native enterprise blockchain components available in the Ethereum ecosystem. We show how the specific characteristics and challenges of healthcare consortia informed our design choices, notably the conception of a new Secure Aggregation protocol assembled with a protected hardware component and an encryption toolkit native to Ethereum. Our architecture also brings in a privacy preserving audit trail that logs events in the network without revealing identities.
-
-- BAFFLE : Blockchain Based Aggregator Free Federated Learning. [[paper]](https://arxiv.org/abs/1909.07452)
-  - Paritosh Ramanan, Kiyoshi Nakayama.
-  - Key Word: Blockchain; Smart Contracts; Federated Learning.
-  - <details><summary>Digest</summary> A key aspect of Federated Learning (FL) is the requirement of a centralized aggregator to maintain and update the global model. However, in many cases orchestrating a centralized aggregator might be infeasible due to numerous operational constraints. In this paper, we introduce BAFFLE, an aggregator free, blockchain driven, FL environment that is inherently decentralized. BAFFLE leverages Smart Contracts (SC) to coordinate the round delineation, model aggregation and update tasks in FL. BAFFLE boosts computational performance by decomposing the global parameter space into distinct chunks followed by a score and bid strategy.
-
-- Machine Learning in/for Blockchain: Future and Challenges. [[paper]](https://arxiv.org/abs/1909.06189)
-  - Fang Chen, Hong Wan, Hua Cai, Guang Cheng.
-  - Key Word: Blockchain; Bitcoin; Deep Learning; Reinforcement Learning.
-  - <details><summary>Digest</summary> Machine learning and blockchain are two of the most noticeable technologies in recent years. The first one is the foundation of artificial intelligence and big data, and the second one has significantly disrupted the financial industry. Both technologies are data-driven, and thus there are rapidly growing interests in integrating them for more secure and efficient data sharing and analysis. In this paper, we review the research on combining blockchain and machine learning technologies and demonstrate that they can collaborate efficiently and effectively. In the end, we point out some future directions and expect more researches on deeper integration of the two promising technologies.
-
-- Biometric Template Storage with Blockchain: A First Look into Cost and Performance Tradeoffs. [[paper]](https://arxiv.org/abs/1904.13128)
-  - Oscar Delgado-Mohatar, Julian Fierrez, Ruben Tolosana, Ruben Vera-Rodriguez.
-  - Key Word: Smart Contracts; Biometric Template Storage.
-  - <details><summary>Digest</summary> We explore practical tradeoffs in blockchain-based biometric template storage. We first discuss opportunities and challenges in the integration of blockchain and biometrics, with emphasis in biometric template storage and protection, a key problem in biometrics still largely unsolved. Blockchain technologies provide excellent architectures and practical tools for securing and managing the sensitive and private data stored in biometric templates, but at a cost. We explore experimentally the key tradeoffs involved in that integration, namely: latency, processing time, economic cost, and biometric performance.
-
-- ARCHANGEL: Tamper-proofing Video Archives using Temporal Content Hashes on the Blockchain. [[paper]](https://arxiv.org/abs/1904.12059)
-  - Tu Bui, Daniel Cooper, John Collomosse, Mark Bell, Alex Green, John Sheridan, Jez Higgins, Arindra Das, Jared Keller, Olivier Thereaux, Alan Brown.
-  - Key Word: Distributed Ledger Technology; Video Content Hashing.
-  - <details><summary>Digest</summary> We present ARCHANGEL; a novel distributed ledger based system for assuring the long-term integrity of digital video archives. First, we describe a novel deep network architecture for computing compact temporal content hashes (TCHs) from audio-visual streams with durations of minutes or hours. Our TCHs are sensitive to accidental or malicious content modification (tampering) but invariant to the codec used to encode the video. This is necessary due to the curatorial requirement for archives to format shift video over time to ensure future accessibility. Second, we describe how the TCHs (and the models used to derive them) are secured via a proof-of-authority blockchain distributed across multiple independent archives.  
-
-</details>
 
 ## Others
 
@@ -5318,6 +4948,40 @@
   - Yuejiang Liu, Alexandre Alahi, Chris Russell, Max Horn, Dominik Zietlow, Bernhard Schölkopf, Francesco Locatello.
   - Key Word: Causal Representation Learning; Benchmark.
   - <details><summary>Digest</summary> We present Causal Triplet, a causal representation learning benchmark featuring not only visually more complex scenes, but also two crucial desiderata commonly overlooked in previous works: (i) an actionable counterfactual setting, where only certain object-level variables allow for counterfactual observations whereas others do not; (ii) an interventional downstream task with an emphasis on out-of-distribution robustness from the independent causal mechanisms principle.
+
+<!-- open-world learning group -->
+
+- Automating Continual Learning. [[paper]](https://arxiv.org/abs/2312.00276)
+  - Kazuki Irie, Róbert Csordás, Jürgen Schmidhuber.
+  - Key Word: Continual Learning; In-Context Catastrophic Forgetting.
+  - <details><summary>Digest</summary> The paper introduces Automated Continual Learning (ACL) as a solution to the problem of catastrophic forgetting in neural networks. Instead of designing specific algorithms to prevent forgetting, ACL trains self-referential neural networks to meta-learn their own continual learning algorithms. ACL's meta-learning objectives ensure good performance on both old and new tasks, effectively addressing "in-context catastrophic forgetting." Experimental results demonstrate that ACL outperforms hand-crafted algorithms, particularly in scenarios like the Split-MNIST benchmark without replay, and enables continual learning across various tasks, including few-shot and standard image classification datasets.
+
+- Meta-in-context learning in large language models. [[paper]](https://arxiv.org/abs/2305.12907)
+  - Julian Coda-Forno, Marcel Binz, Zeynep Akata, Matthew Botvinick, Jane X. Wang, Eric Schulz.
+  - Key Word: Meta In-Context Learning; Large Language Model.
+  - <details><summary>Digest</summary> The paper explores how large language models can improve their in-context learning abilities through a process called "meta-in-context learning." This recursive improvement enhances the model's understanding and adaptation to specific tasks. The study demonstrates this phenomenon in idealized domains, such as regression and bandit tasks, and extends it to real-world regression problems, achieving competitive performance compared to traditional learning algorithms. The research offers insights into in-context learning and suggests a new approach for adapting large language models without traditional fine-tuning, solely through meta-in-context learning.
+
+- Lifelong Language Pretraining with Distribution-Specialized Experts. [[paper]](https://arxiv.org/abs/2305.12281)
+  - Wuyang Chen, Yanqi Zhou, Nan Du, Yanping Huang, James Laudon, Zhifeng Chen, Claire Cu. *ICML 2023*
+  - Key Word: Lifelong Learning; Large Language Model; Mixture-of-Experts.
+  - <details><summary>Digest</summary> The paper discusses challenges in adapting large-scale pretrained language models to new data distributions for various tasks. Traditional fine-tuning can lead to overfitting and forgetting of pretrained features. The paper introduces Lifelong-MoE, a Mixture-of-Experts architecture with added capacity and regularization, for continuous learning. Lifelong-MoE efficiently adapts to changing data distributions while maintaining previous knowledge. It outperforms existing lifelong learning methods on 19 NLP tasks in few-shot scenarios.
+
+- Vocabulary-informed Zero-shot and Open-set Learning. [[paper]](https://arxiv.org/abs/2301.00998) [[code]](https://github.com/xiaomeiyy/wmm-voc)
+  - Yanwei Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal. *TPAMI*
+  - Key Word: Vocabulary-Informed Learning; Generalized Zero-Shot Learning, Open-set Recognition.
+  - <details><summary>Digest</summary> Zero-shot learning is one way of addressing these challenges, but it has only been shown to work with limited sized class vocabularies and typically requires separation between supervised and unsupervised classes, allowing former to inform the latter but not vice versa. We propose the notion of vocabulary-informed learning to alleviate the above mentioned challenges and address problems of supervised, zero-shot, generalized zero-shot and open set recognition using a unified framework.
+
+<!-- blockchain -->
+
+- A Survey on Decentralized Federated Learning. [[paper]](https://arxiv.org/abs/2308.04604)
+  - Edoardo Gabrielli, Giovanni Pica, Gabriele Tolomei.
+  - Key Word: Decnetralized Federated Learning; Blockchained-based Federated Learning.
+  - <details><summary>Digest</summary> Federated learning (FL) has gained popularity for training distributed, large-scale, and privacy-preserving machine learning systems. FL allows edge devices to collaboratively train a shared model without sharing their private data. However, the centralized orchestration in FL is vulnerable to attacks. To address this, decentralized FL approaches have emerged. This survey provides a comprehensive review of existing decentralized FL approaches and highlights future research directions in this area.
+
+- Proof-of-Contribution-Based Design for Collaborative Machine Learning on Blockchain. [[paper]](https://arxiv.org/abs/2302.14031)
+  - Baturalp Buyukates, Chaoyang He, Shanshan Han, Zhiyong Fang, Yupeng Zhang, Jieyi Long, Ali Farahanchi, Salman Avestimehr.
+  - Key Word: Blockchain; Federated Learning; Data Market; Zero-Knowledge Proof.
+  - <details><summary>Digest</summary> Our goal is to design a data marketplace for such decentralized collaborative/federated learning applications that simultaneously provides i) proof-of-contribution based reward allocation so that the trainers are compensated based on their contributions to the trained model; ii) privacy-preserving decentralized model training by avoiding any data movement from data owners; iii) robustness against malicious parties (e.g., trainers aiming to poison the model); iv) verifiability in the sense that the integrity, i.e., correctness, of all computations in the data market protocol including contribution assessment and outlier detection are verifiable through zero-knowledge proofs; and v) efficient and universal design. We propose a blockchain-based marketplace design to achieve all five objectives mentioned above. 
 
 </details>
 
@@ -5504,6 +5168,195 @@
   - Key Word: Causal Discovery; Optimal Transport.
   - <details><summary>Digest</summary> To determine causal relationships between two variables, approaches based on Functional Causal Models (FCMs) have been proposed by properly restricting model classes; however, the performance is sensitive to the model assumptions, which makes it difficult to use. In this paper, we provide a novel dynamical-system view of FCMs and propose a new framework for identifying causal direction in the bivariate case. We first show the connection between FCMs and optimal transport, and then study optimal transport under the constraints of FCMs.
 
+<!-- open-world learning -->
+
+- Understanding Open-Set Recognition by Jacobian Norm of Representation. [[paper]](https://arxiv.org/abs/2209.11436)
+  - Jaewoo Park, Hojin Park, Eunju Jeong, Andrew Beng Jin Teoh.
+  - Key Word: Open-Set Recognition; Out-of-Distribution Detection.
+  - <details><summary>Digest</summary> This paper analyzes this emergent phenomenon by observing the Jacobian norm of representation. We theoretically show that minimizing the intra-class distances within the known set reduces the Jacobian norm of known class representations while maximizing the inter-class distances within the known set increases the Jacobian norm of the unknown class. The closed-set metric learning thus separates the unknown from the known by forcing their Jacobian norm values to differ. We empirically validate our theoretical framework with ample pieces of evidence using standard OSR datasets. 
+
+- Holistic Segmentation. [[paper]](https://arxiv.org/abs/2209.05407)
+  - Stefano Gasperini, Frithjof Winkelmann, Alvaro Marcos-Ramiro, Micheal Schmidt, Nassir Navab, Benjamin Busam, Federico Tombari.
+  - Key Word: Open-set Panoptic Segmentation; Open-set Perception; Uncertainty Estimation.
+  - <details><summary>Digest</summary> We broaden the scope proposing holistic segmentation: a task to identify and separate unseen unknown objects into instances, without learning from unknowns, while performing panoptic segmentation of known classes. We tackle this new problem with U3HS, which first finds unknowns as highly uncertain regions, then clusters the corresponding instance-aware embeddings into individual objects.
+
+- Fine-grain Inference on Out-of-Distribution Data with Hierarchical Classification. [[paper]](https://arxiv.org/abs/2209.04493)
+  - Randolph Linderman, Jingyang Zhang, Nathan Inkawhich, Hai Li, Yiran Chen.
+  - Key Word: Fine-grain Out-of-Distribution Detection.
+  - <details><summary>Digest</summary> When the OOD sample significantly overlaps with the training data, a binary anomaly detection is not interpretable or explainable, and provides little information to the user. We propose a new model for OOD detection that makes predictions at varying levels of granularity as the inputs become more ambiguous, the model predictions become coarser and more conservative. Consider an animal classifier that encounters an unknown bird species and a car. Both cases are OOD, but the user gains more information if the classifier recognizes that its uncertainty over the particular species is too large and predicts bird instead of detecting it as OOD.
+
+- Measuring Human Perception to Improve Open Set Recognition. [[paper]](https://arxiv.org/abs/2209.03519)
+  - Jin Huang, Student Member, Derek Prijatelj, Justin Dulay, Walter Scheirer. 
+  - Key Word: Open Set Recognition; Novelty Detection; Visual Psychophysics.
+  - <details><summary>Digest</summary> We designed and performed a large-scale behavioral experiment that collected over 200,000 human reaction time measurements associated with object recognition. The data collected indicated reaction time varies meaningfully across objects at the sample level. We therefore designed a new psychophysical loss function that enforces consistency with human behavior in deep networks which exhibit variable reaction time for different images. 
+
+- Open-Set Semi-Supervised Object Detection. [[paper]](https://arxiv.org/abs/2208.13722) [[code]](https://ycliu93.github.io/projects/ossod.html)
+  - Yen-Cheng Liu, Chih-Yao Ma, Xiaoliang Dai, Junjiao Tian, Peter Vajda, Zijian He, Zsolt Kira.
+  - Key Word: Open-Set Semi-Supervised Learning; Object Detection.
+  - <details><summary>Digest</summary> We first find the existing SSOD method obtains a lower performance gain in open-set conditions, and this is caused by the semantic expansion, where the distracting OOD objects are mispredicted as in-distribution pseudo-labels for the semi-supervised training. To address this problem, we consider online and offline OOD detection modules, which are integrated with SSOD methods. 
+
+- Detecting the unknown in Object Detection. [[paper]](https://arxiv.org/abs/2208.11641)
+  - Dario Fontanel, Matteo Tarantino, Fabio Cermelli, Barbara Caputo.
+  - Key Word: Open-Set Detection; Discovery of Unknown Class.
+  - <details><summary>Digest</summary> In this work, we address the problem of detecting unknown objects, known as open-set object detection. We propose a novel training strategy, called UNKAD, able to predict unknown objects without requiring any annotation of them, exploiting non annotated objects that are already present in the background of training images. In particular, exploiting the four-steps training strategy of Faster R-CNN, UNKAD first identifies and pseudo-labels unknown objects and then uses the pseudo-annotations to train an additional unknown class. While UNKAD can directly detect unknown objects, we further combine it with previous unknown detection techniques, showing that it improves their performance at no costs.
+
+- Towards Open Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2208.11113)
+  - Yuansheng Zhu, Wentao Bao, Qi Yu. *ECCV 2022*
+  - Key Word: Open-Set Recognition; Video Anomaly Detection.
+  - <details><summary>Digest</summary> Open Set Video Anomaly Detection (OpenVAD) aims to identify abnormal events from video data where both known anomalies and novel ones exist in testing. Unsupervised models learned solely from normal videos are applicable to any testing anomalies but suffer from a high false positive rate. In contrast, weakly supervised methods are effective in detecting known anomalies but could fail in an open world. We develop a novel weakly supervised method for the OpenVAD problem by integrating evidential deep learning (EDL) and normalizing flows (NFs) into a multiple instance learning (MIL) framework.
+
+- Self-Trained Proposal Networks for the Open World. [[paper]](https://arxiv.org/abs/2208.11050)
+  - Matthew Inkawhich, Nathan Inkawhich, Hai Li, Yiran Chen.
+  - Key Word: Self-Training; Open-Set Detection; Class-Agnostic Object Proposal.
+  - <details><summary>Digest</summary> We propose a classification-free Self-Trained Proposal Network (STPN) that leverages a novel self-training optimization strategy combined with dynamically weighted loss functions that account for challenges such as class imbalance and pseudo-label uncertainty. Not only is our model designed to excel in existing optimistic open-world benchmarks, but also in challenging operating environments where there is significant label bias. To showcase this, we devise two challenges to test the generalization of proposal models when the training data contains (1) less diversity within the labeled classes, and (2) fewer labeled instances.
+
+- Single-Stage Open-world Instance Segmentation with Cross-task Consistency Regularization. [[paper]](https://arxiv.org/abs/2208.09023)
+  - Xizhe Xue, Dongdong Yu, Lingqiao Liu, Yu Liu, Ying Li, Zehuan Yuan, Ping Song, Mike Zheng Shou.
+  - Key Word: Class-agnostic; Open-world Instance Segmentation; Cross-task Consistency Loss.
+  - <details><summary>Digest</summary> Open-world instance segmentation (OWIS) aims to segment class-agnostic instances from images, which has a wide range of real-world applications such as autonomous driving. Most existing approaches follow a two-stage pipeline: performing class-agnostic detection first and then class-specific mask segmentation. In contrast, this paper proposes a single-stage framework to produce a mask for each instance directly. Also, instance mask annotations could be noisy in the existing datasets; to overcome this issue, we introduce a new regularization loss. Specifically, we first train an extra branch to perform an auxiliary task of predicting foreground regions, and then encourage the prediction from the auxiliary branch to be consistent with the predictions of the instance masks. The key insight is that such a cross-task consistency loss could act as an error-correcting mechanism to combat the errors in annotations.
+
+- Open Long-Tailed Recognition in a Dynamic World. [[paper]](https://arxiv.org/abs/2208.08349)
+  - Ziwei Liu, Zhongqi Miao, Xiaohang Zhan, Jiayun Wang, Boqing Gong, Stella X. Yu. *TPAMI*
+  - Key Word: Long-Tailed Recognition; Few-shot Learning; Open-Set Recognition; Active Learning.
+  - <details><summary>Digest</summary> Real world data often exhibits a long-tailed and open-ended (with unseen classes) distribution. A practical recognition system must balance between majority (head) and minority (tail) classes, generalize across the distribution, and acknowledge novelty upon the instances of unseen classes (open classes). We define Open Long-Tailed Recognition++ (OLTR++) as learning from such naturally distributed data and optimizing for the classification accuracy over a balanced test set which includes both known and open classes. OLTR++ handles imbalanced classification, few-shot learning, open-set recognition, and active learning in one integrated algorithm, whereas existing classification approaches often focus only on one or two aspects and deliver poorly over the entire spectrum.
+
+- From Known to Unknown: Quality-aware Self-improving Graph Neural Network for Open Set Social Event Detection. [[paper]](https://arxiv.org/abs/2208.06973) [[code]](https://github.com/RingBDStack/open-set-social-event-detection)
+  - Jiaqian Ren, Lei Jiang, Hao Peng, Yuwei Cao, Jia Wu, Philip S. Yu, Lifang He.
+  - Key Word: Open-set Social Event Detection; Graph Neural Network; Classification.
+  - <details><summary>Digest</summary> To address this problem, we design a Quality-aware Self-improving Graph Neural Network (QSGNN) which extends the knowledge from known to unknown by leveraging the best of known samples and reliable knowledge transfer. Specifically, to fully exploit the labeled data, we propose a novel supervised pairwise loss with an additional orthogonal inter-class relation constraint to train the backbone GNN encoder. The learnt, already-known events further serve as strong reference bases for the unknown ones, which greatly prompts knowledge acquisition and transfer. When the model is generalized to unknown data, to ensure the effectiveness and reliability, we further leverage the reference similarity distribution vectors for pseudo pairwise label generation, selection and quality assessment. Besides, we propose a novel quality-guided optimization in which the contributions of pseudo labels are weighted based on consistency.
+
+- Open-world Contrastive Learning. [[paper]](https://arxiv.org/abs/2208.02764)
+  - Yiyou Sun, Yixuan Li.
+  - Key Word: Contrastive learning; Open-world; Classification.
+  - <details><summary>Digest</summary> In this paper, we enrich the landscape of representation learning by tapping into an open-world setting, where unlabeled samples from novel classes can naturally emerge in the wild. To bridge the gap, we introduce a new learning framework, open-world contrastive learning (OpenCon). OpenCon tackles the challenges of learning compact representations for both known and novel classes, and facilitates novelty discovery along the way. We demonstrate the effectiveness of OpenCon on challenging benchmark datasets and establish competitive performance.
+
+- Few-Shot Class-Incremental Learning from an Open-Set Perspective. [[paper]](https://arxiv.org/abs/2208.00147) [[code]](https://github.com/canpeng123/fscil_alice)
+  - Can Peng, Kun Zhao, Tianren Wang, Meng Li, Brian C. Lovell. *ECCV 2022*
+  - Key Word: Few-shot Class-Incremental Learning; Open-set; One-shot; Classification.
+  - <details><summary>Digest</summary> Here we explore the important task of Few-Shot Class-Incremental Learning (FSCIL) and its extreme data scarcity condition of one-shot. An ideal FSCIL model needs to perform well on all classes, regardless of their presentation order or paucity of data. It also needs to be robust to open-set real-world conditions and be easily adapted to the new tasks that always arise in the field. In this paper, we first reevaluate the current task setting and propose a more comprehensive and practical setting for the FSCIL task. Then, inspired by the similarity of the goals for FSCIL and modern face recognition systems, we propose our method -- Augmented Angular Loss Incremental Classification or ALICE. In ALICE, instead of the commonly used cross-entropy loss, we propose to use the angular penalty loss to obtain well-clustered features. As the obtained features not only need to be compactly clustered but also diverse enough to maintain generalization for future incremental classes, we further discuss how class augmentation, data augmentation, and data balancing affect classification performance.
+
+- Open World Learning Graph Convolution for Latency Estimation in Routing Networks. [[paper]](https://arxiv.org/abs/2207.14643)
+  - Yifei Jin, Marios Daoutis, Sarunas Girdzijauskas, Aristides Gionis. *IJCNN 2022*
+  - Key Word: Open-world Learning; Modeling Network Routing; Software Defined Networking.
+  - <details><summary>Digest</summary> Accurate routing network status estimation is a key component in Software Defined Networking. We propose a novel approach for modeling network routing, using Graph Neural Networks. Our method can also be used for network-latency estimation. Supported by a domain-knowledge-assisted graph formulation, our model shares a stable performance across different network sizes and configurations of routing networks, while at the same time being able to extrapolate towards unseen sizes, configurations, and user behavior. We show that our model outperforms most conventional deep-learning-based models, in terms of prediction accuracy, computational resources, inference speed, as well as ability to generalize towards open-world input.
+
+- Visual Recognition by Request. [[paper]](https://arxiv.org/abs/2207.14227) [[code]](https://github.com/chufengt/Visual-Recognition-by-Request)
+  - Chufeng Tang, Lingxi Xie, Xiaopeng Zhang, Xiaolin Hu, Qi Tian.
+  - Key Word: Visual Recognition by Request; Open-domain; Knowledge Base.
+  - <details><summary>Digest</summary> In this paper, we present a novel protocol of annotation and evaluation for visual recognition. Different from traditional settings, the protocol does not require the labeler/algorithm to annotate/recognize all targets (objects, parts, etc.) at once, but instead raises a number of recognition instructions and the algorithm recognizes targets by request. This mechanism brings two beneficial properties to reduce the burden of annotation, namely, (i) variable granularity: different scenarios can have different levels of annotation, in particular, object parts can be labeled only in large and clear instances, (ii) being open-domain: new concepts can be added to the database in minimal costs. To deal with the proposed setting, we maintain a knowledge base and design a query-based visual recognition framework that constructs queries on-the-fly based on the requests. We evaluate the recognition system on two mixed-annotated datasets, CPP and ADE20K, and demonstrate its promising ability of learning from partially labeled data as well as adapting to new concepts with only text labels.
+
+- Towards Open Set 3D Learning: A Benchmark on Object Point Clouds. [[paper]](https://arxiv.org/abs/2207.11554) [[code]](https://github.com/antoalli/3d_os)
+  - Antonio Alliegro, Francesco Cappio Borlino, Tatiana Tommasi.
+  - Key Word: Open-set 3D Learning; In-domain and Cross-domain; Out-of-distribution.
+  - <details><summary>Digest</summary> In this context exploiting 3D data can be a valuable asset since it conveys rich information about the geometry of sensed objects and scenes. This paper provides the first broad study on Open Set 3D learning. We introduce a novel testbed with settings of increasing difficulty in terms of category semantic shift and cover both in-domain (synthetic-to-synthetic) and cross-domain (synthetic-to-real) scenarios. Moreover, we investigate the related out-of-distribution and Open Set 2D literature to understand if and how their most recent approaches are effective on 3D data. Our extensive benchmark positions several algorithms in the same coherent picture, revealing their strengths and limitations.
+
+- Semantic Abstraction: Open-World 3D Scene Understanding from 2D Vision-Language Models. [[paper]](https://arxiv.org/abs/2207.11514) [[code]](https://semantic-abstraction.cs.columbia.edu/)
+  - Huy Ha, Shuran Song.
+  - Key Word: Open-set Vocabulary; 3D scene understanding; Zero-shot.
+  - <details><summary>Digest</summary> We study open-world 3D scene understanding, a family of tasks that require agents to reason about their 3D environment with an open-set vocabulary and out-of-domain visual inputs - a critical skill for robots to operate in the unstructured 3D world. Towards this end, we propose Semantic Abstraction (SemAbs), a framework that equips 2D Vision-Language Models (VLMs) with new 3D spatial capabilities, while maintaining their zero-shot robustness. We achieve this abstraction using relevancy maps extracted from CLIP, and learn 3D spatial and geometric reasoning skills on top of those abstractions in a semantic-agnostic manner. We demonstrate the usefulness of SemAbs on two open-world 3D scene understanding tasks: 1) completing partially observed objects and 2) localizing hidden objects from language descriptions.
+
+- UC-OWOD: Unknown-Classified Open World Object Detection. [[paper]](https://arxiv.org/abs/2207.11455) [[code]](https://github.com/JohnWuzh/UC-OWOD)
+  - Quanshi Zhang, Xin Wang, Jie Ren, Xu Cheng, Shuyun Lin, Yisen Wang, Xiangming Zhu. *ECCV 2022*
+  - Key Word: Open World Object Detection.
+  - <details><summary>Digest</summary> Open World Object Detection (OWOD) is a challenging computer vision problem that requires detecting unknown objects and gradually learning the identified unknown classes. However, it cannot distinguish unknown instances as multiple unknown classes. In this work, we propose a novel OWOD problem called Unknown-Classified Open World Object Detection (UC-OWOD). UC-OWOD aims to detect unknown instances and classify them into different unknown classes. Besides, we formulate the problem and devise a two-stage object detector to solve UC-OWOD.
+
+- Difficulty-Aware Simulator for Open Set Recognition. [[paper]](https://arxiv.org/abs/2207.10024) [[code]](https://github.com/wjun0830/difficulty-aware-simulator)
+  - WonJun Moon, Junho Park, Hyun Seok Seong, Cheol-Ho Cho, Jae-Pil Heo. *ECCV 2022*
+  - Key Word: Open-set Recognition; Generative Adversarial Network.
+  - <details><summary>Digest</summary> We present a novel framework, DIfficulty-Aware Simulator (DIAS), that generates fakes with diverse difficulty levels to simulate the real world. We first investigate fakes from generative adversarial network (GAN) in the classifier's viewpoint and observe that these are not severely challenging. This leads us to define the criteria for difficulty by regarding samples generated with GANs having moderate-difficulty. To produce hard-difficulty examples, we introduce Copycat, imitating the behavior of the classifier. Furthermore, moderate- and easy-difficulty samples are also yielded by our modified GAN and Copycat, respectively.
+
+- More Practical Scenario of Open-set Object Detection: Open at Category Level and Closed at Super-category Level. [[paper]](https://arxiv.org/abs/2207.09775)
+  - Yusuke Hosoya, Masanori Suganuma, Takayuki Okatani.
+  - Key Word: Open-set Object Detection; Super-category.
+  - <details><summary>Digest</summary> We first point out that the scenario of OSOD considered in recent studies, which considers an unlimited variety of unknown objects similar to open-set recognition (OSR), has a fundamental issue. That is, we cannot determine what to detect and what not for such unlimited unknown objects, which is necessary for detection tasks. This issue leads to difficulty with the evaluation of methods' performance on unknown object detection. We then introduce a novel scenario of OSOD, which deals with only unknown objects that share the super-category with known objects. It has many real-world applications, e.g., detecting an increasing number of fine-grained objects. This new setting is free from the above issue and evaluation difficulty. Moreover, it makes detecting unknown objects more realistic owing to the visual similarity between known and unknown objects.
+
+- DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition. [[paper]](https://arxiv.org/abs/2207.02606) [[code]](https://github.com/matejgrcic/DenseHybrid)
+  - Matej Grcić, Petra Bevandić, Siniša Šegvić. *ECCV 2022*
+  - Key Word: Anomaly detection; Dense anomaly detection; Open-set Recognition.
+  - <details><summary>Digest</summary> We design a novel hybrid algorithm based on reinterpreting discriminative logits as a logarithm of the unnormalized joint distribution p̂ (x,y). Our model builds on a shared convolutional representation from which we recover three dense predictions: i) the closed-set class posterior P(y|x), ii) the dataset posterior P(din|x), iii) unnormalized data likelihood p̂ (x). The latter two predictions are trained both on the standard training data and on a generic negative dataset. We blend these two predictions into a hybrid anomaly score which allows dense open-set recognition on large natural images. We carefully design a custom loss for the data likelihood in order to avoid backpropagation through the untractable normalizing constant Z(θ). Experiments evaluate our contributions on standard dense anomaly detection benchmarks as well as in terms of open-mIoU - a novel metric for dense open-set performance.
+
+- Towards Realistic Semi-Supervised Learning. [[paper]](https://arxiv.org/abs/2207.02269) [[code]](https://github.com/nayeemrizve/trssl)
+  - Mamshad Nayeem Rizve, Navid Kardan, Mubarak Shah. *ECCV 2022 oral*
+  - Key Word: Semi-supervised Learning; Open-world SSL; Discovery of Unknown class.
+  - <details><summary>Digest</summary> The standard SSL approach assumes unlabeled data are from the same distribution as annotated data. Recently, a more realistic SSL problem, called open-world SSL, is introduced, where the unannotated data might contain samples from unknown classes. In this paper, we propose a novel pseudo-label based approach to tackle SSL in open-world setting. At the core of our method, we utilize sample uncertainty and incorporate prior knowledge about class distribution to generate reliable class-distribution-aware pseudo-labels for unlabeled data belonging to both known and unknown classes. We also highlight the flexibility of our approach in solving novel class discovery task, demonstrate its stability in dealing with imbalanced data, and complement our approach with a technique to estimate the number of novel classes.
+
+- Open-world Semantic Segmentation for LIDAR Point Clouds. [[paper]](https://arxiv.org/abs/2207.01452) [[code]](https://github.com/jun-cen/open_world_3d_semantic_segmentation)
+  - Jun Cen, Peng Yun, Shiwei Zhang, Junhao Cai, Di Luan, Michael Yu Wang, Ming Liu, Mingqian Tang. *ECCV 2022*
+  - Key Word: Open-world Semantic Segmentation; LIDAR Point Clouds; Incremental Learning.
+  - <details><summary>Digest</summary> In this work, we propose the open-world semantic segmentation task for LIDAR point clouds, which aims to 1) identify both old and novel classes using open-set semantic segmentation, and 2) gradually incorporate novel objects into the existing knowledge base using incremental learning without forgetting old classes. For this purpose, we propose a REdundAncy cLassifier (REAL) framework to provide a general architecture for both the open-set semantic segmentation and incremental learning problems.
+
+- RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy and Out Distribution Robustness. [[paper]](https://arxiv.org/abs/2206.14502) [[code]](https://github.com/FrancescoPinto/RegMixup)
+  - Francesco Pinto, Harry Yang, Ser-Nam Lim, Philip H.S. Torr, Puneet K. Dokania. *NeurIPS 2022*
+  - Key Word: Mixup; Out-of-Distribution Detection; Out-of-Distribution Robustness.
+  - <details><summary>Digest</summary> We observe that Mixup yields much degraded performance on detecting out-of-distribution samples possibly, as we show empirically, because of its tendency to learn models that exhibit high-entropy throughout; making it difficult to differentiate in-distribution samples from out-distribution ones. To show the efficacy of our approach (RegMixup), we provide thorough analyses and experiments on vision datasets (ImageNet & CIFAR-10/100) and compare it with a suite of recent approaches for reliable uncertainty estimation.
+
+- Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization. [[paper]](https://arxiv.org/abs/2206.11134) [[code]](https://github.com/pealing/medet)
+  - Peixian Chen, Kekai Sheng, Mengdan Zhang, Yunhang Shen, Ke Li, Chunhua Shen.
+  - Key Word: Open-vocabulary Object Detection; Backdoor Adjustment.
+  - <details><summary>Digest</summary> Open-vocabulary object detection (OVD) aims to scale up vocabulary size to detect objects of novel categories beyond the training vocabulary. We present MEDet, a novel and effective OVD framework with proposal mining and prediction equalization. First, we design an online proposal mining to refine the inherited vision-semantic knowledge from coarse to fine, allowing for proposal-level detection-oriented feature alignment. Second, based on causal inference theory, we introduce a class-wise backdoor adjustment to reinforce the predictions on novel categories to improve the overall OVD performance.
+
+- Rethinking the Openness of CLIP. [[paper]](https://arxiv.org/abs/2206.01986)
+  - Shuhuai Ren, Lei Li, Xuancheng Ren, Guangxiang Zhao, Xu Sun.
+  - Key Word: Open-vocabulary; CLIP; Rethinking; In-depth Analysis.
+  - <details><summary>Digest</summary> Contrastive Language-Image Pre-training (CLIP) has demonstrated great potential in realizing open-vocabulary image classification in a matching style, because of its holistic use of natural language supervision that covers unconstrained real-world visual concepts. However, it is, in turn, also difficult to evaluate and analyze the openness of CLIP-like models, since they are in theory open to any vocabulary but the actual accuracy varies. To address the insufficiency of conventional studies on openness, we resort to an incremental view and define the extensibility, which essentially approximates the model's ability to deal with new visual concepts, by evaluating openness through vocabulary expansions. Our evaluation based on extensibility shows that CLIP-like models are hardly truly open and their performances degrade as the vocabulary expands to different degrees. Further analysis reveals that the over-estimation of openness is not because CLIP-like models fail to capture the general similarity of image and text features of novel visual concepts, but because of the confusion among competing text features, that is, they are not stable with respect to the vocabulary. In light of this, we propose to improve the openness of CLIP from the perspective of feature space by enforcing the distinguishability of text features. Our method retrieves relevant texts from the pre-training corpus to enhance prompts for inference, which boosts the extensibility and stability of CLIP even without fine-tuning.
+
+- Simple Open-Vocabulary Object Detection with Vision Transformers. [[paper]](https://arxiv.org/abs/2205.06230) [[code]](https://github.com/google-research/scenic)
+  - Matthias Minderer, Alexey Gritsenko, Austin Stone, Maxim Neumann, Dirk Weissenborn, Alexey Dosovitskiy, Aravindh Mahendran, Anurag Arnab, Mostafa Dehghani, Zhuoran Shen, Xiao Wang, Xiaohua Zhai, Thomas Kipf, Neil Houlsby. *ECCV 2022*
+  - Key Word: Open-vocabulary; Long-tail; Object detection; Vision Transformer.
+  - <details><summary>Digest</summary> For object detection, pre-training and scaling approaches are less well established, especially in the long-tailed and open-vocabulary setting, where training data is relatively scarce. In this paper, we propose a strong recipe for transferring image-text models to open-vocabulary object detection. We use a standard Vision Transformer architecture with minimal modifications, contrastive image-text pre-training, and end-to-end detection fine-tuning. Our analysis of the scaling properties of this setup shows that increasing image-level pre-training and model size yield consistent improvements on the downstream detection task. We provide the adaptation strategies and regularizations needed to attain very strong performance on zero-shot text-conditioned and one-shot image-conditioned object detection.
+
+- OSSGAN: Open-Set Semi-Supervised Image Generation. [[paper]](https://arxiv.org/abs/2204.14249) [[code]](https://github.com/raven38/ossgan)
+  - Kai Katsumata, Duc Minh Vo, Hideki Nakayama. *CVPR 2022*
+  - Key Word: Open-set Semi-supervised Image Generation; Conditional GAN.
+  - <details><summary>Digest</summary> We introduce a challenging training scheme of conditional GANs, called open-set semi-supervised image generation, where the training dataset consists of two parts: (i) labeled data and (ii) unlabeled data with samples belonging to one of the labeled data classes, namely, a closed-set, and samples not belonging to any of the labeled data classes, namely, an open-set. Unlike the existing semi-supervised image generation task, where unlabeled data only contain closed-set samples, our task is more general and lowers the data collection cost in practice by allowing open-set samples to appear. Thanks to entropy regularization, the classifier that is trained on labeled data is able to quantify sample-wise importance to the training of cGAN as confidence, allowing us to use all samples in unlabeled data.
+
+- Open-World Instance Segmentation: Exploiting Pseudo Ground Truth From Learned Pairwise Affinity. [[paper]](https://arxiv.org/abs/2204.06107) [[code]](https://sites.google.com/view/generic-grouping/)
+  - Weiyao Wang, Matt Feiszli, Heng Wang, Jitendra Malik, Du Tran. *CVPR 2022*
+  - Key Word: Open-world Instance Segmentation; Generic Grouping Networks; Pairwise Affinities.
+  - <details><summary>Digest</summary> Open-world instance segmentation is the task of grouping pixels into object instances without any pre-determined taxonomy. This is challenging, as state-of-the-art methods rely on explicit class semantics obtained from large labeled datasets, and out-of-domain evaluation performance drops significantly. Here we propose a novel approach for mask proposals, Generic Grouping Networks (GGNs), constructed without semantic supervision. Our approach combines a local measure of pixel affinity with instance-level mask supervision, producing a training regimen designed to make the model as generic as the data diversity allows. We introduce a method for predicting Pairwise Affinities (PA), a learned local relationship between pairs of pixels. PA generalizes very well to unseen categories. From PA we construct a large set of pseudo-ground-truth instance masks; combined with human-annotated instance masks we train GGNs and significantly outperform the SOTA on open-world instance segmentation on various benchmarks including COCO, LVIS, ADE20K, and UVO.
+
+- Full-Spectrum Out-of-Distribution Detection. [[paper]](https://arxiv.org/abs/2204.05306) [[code]](https://github.com/jingkang50/openood)
+  - Jingkang Yang, Kaiyang Zhou, Ziwei Liu.
+  - Key Word: Benchmark; Anomaly Detection; Open-set Recognition; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We take into account both shift types and introduce full-spectrum OOD (FS-OOD) detection, a more realistic problem setting that considers both detecting semantic shift and being tolerant to covariate shift; and designs three benchmarks. These new benchmarks have a more fine-grained categorization of distributions (i.e., training ID, covariate-shifted ID, near-OOD, and far-OOD) for the purpose of more comprehensively evaluating the pros and cons of algorithms.
+
+- FS6D: Few-Shot 6D Pose Estimation of Novel Objects. [[paper]](https://arxiv.org/abs/2203.14628) [[code]](https://github.com/ethnhe/FS6D-PyTorch)
+  - Yisheng He, Yao Wang, Haoqiang Fan, Jian Sun, Qifeng Chen. *CVPR 2022*
+  - Key Word: Open-World 6D Pose Estimation; Few-shot learning.
+  - <details><summary>Digest</summary> In this work, we study a new open set problem; the few-shot 6D object poses estimation: estimating the 6D pose of an unknown object by a few support views without extra training. We point out the importance of fully exploring the appearance and geometric relationship between the given support views and query scene patches and propose a dense prototypes matching framework by extracting and matching dense RGBD prototypes with transformers. Moreover, we show that the priors from diverse appearances and shapes are crucial to the generalization capability and thus propose a large-scale RGBD photorealistic dataset (ShapeNet6D) for network pre-training. A simple and effective online texture blending approach is also introduced to eliminate the domain gap from the synthesis dataset, which enriches appearance diversity at a low cost.
+
+- PMAL: Open Set Recognition via Robust Prototype Mining. [[paper]](https://arxiv.org/abs/2203.08569) [[code]](https://github.com/Cogito2012/OpenTAL)
+  - Jing Lu, Yunxu Xu, Hao Li, Zhanzhan Cheng, Yi Niu. *AAAI 2022*
+  - Key Word: Open-set Recognition; Prototype Learning.
+  - <details><summary>Digest</summary> In this work, we propose a novel Prototype Mining And Learning (PMAL) framework. It has a prototype mining mechanism before the phase of optimizing embedding space, explicitly considering two crucial properties, namely high-quality and diversity of the prototype set. Concretely, a set of high-quality candidates are firstly extracted from training samples based on data uncertainty learning, avoiding the interference from unexpected noise. Considering the multifarious appearance of objects even in a single category, a diversity-based strategy for prototype set filtering is proposed. Accordingly, the embedding space can be better optimized to discriminate therein the predefined classes and between known and unknowns.
+
+- OpenTAL: Towards Open Set Temporal Action Localization. [[paper]](https://arxiv.org/abs/2203.05114) [[code]](https://github.com/Cogito2012/OpenTAL)
+  - Wentao Bao, Qi Yu, Yu Kong. *CVPR 2022*
+  - Key Word: Open-set Temporal Action Localization; Temporal Action Localization; Evidential Deep Learning.
+  - <details><summary>Digest</summary> In this paper, we, for the first time, step toward the Open Set TAL (OSTAL) problem and propose a general framework OpenTAL based on Evidential Deep Learning (EDL). Specifically, the OpenTAL consists of uncertainty-aware action classification, actionness prediction, and temporal location regression. With the proposed importance-balanced EDL method, classification uncertainty is learned by collecting categorical evidence majorly from important samples. To distinguish the unknown actions from background video frames, the actionness is learned by the positive-unlabeled learning. The classification uncertainty is further calibrated by leveraging the guidance from the temporal localization quality. The OpenTAL is general to enable existing TAL models for open set scenarios.
+
+<!-- blockchain -->
+
+- Trustworthy Federated Learning via Blockchain. [[paper]](https://arxiv.org/abs/2209.04418)
+  - Zhanpeng Yang, Yuanming Shi, Yong Zhou, Zixin Wang, Kai Yang.
+  - Key Word: Federated Learning; Blockchain.
+  - <details><summary>Digest</summary> We shall propose a decentralized blockchain based FL (B-FL) architecture by using a secure global aggregation algorithm to resist malicious devices, and deploying practical Byzantine fault tolerance consensus protocol with high effectiveness and low energy consumption among multiple edge servers to prevent model tampering from the malicious server. However, to implement B-FL system at the network edge, multiple rounds of cross-validation in blockchain consensus protocol will induce long training latency. We thus formulate a network optimization problem that jointly considers bandwidth and power allocation for the minimization of long-term average training latency consisting of progressive learning rounds.
+
+- A Fast Blockchain-based Federated Learning Framework with Compressed Communications. [[paper]](https://arxiv.org/abs/2208.06095)
+  - Laizhong Cui, Xiaoxin Su, Yipeng Zhou. *JSAC*
+  - Key Word: Blockchain-based Federated Learning.
+  - <details><summary>Digest</summary> To improve the practicality of BFL, we are among the first to propose a fast blockchain-based communication-efficient federated learning framework by compressing communications in BFL, called BCFL. Meanwhile, we derive the convergence rate of BCFL with non-convex loss. To maximize the final model accuracy, we further formulate the problem to minimize the training loss of the convergence rate subject to a limited training time with respect to the compression rate and the block generation rate, which is a bi-convex optimization problem and can be efficiently solved.
+
+- BPFISH: Blockchain and Privacy-preserving FL Inspired Smart Healthcare. [[paper]](https://arxiv.org/abs/2207.11654)
+  - Moirangthem Biken Singh, Ajay Pratap.
+  - Key Word: Blockchain; Federated Learning; Stable Matching; Differential Privacy; Smart Healthcare.
+  - <details><summary>Digest</summary> This paper proposes Federated Learning (FL) based smar t healthcare system where Medical Centers (MCs) train the local model using the data collected from patients and send the model weights to the miners in a blockchain-based robust framework without sharing raw data, keeping privacy preservation into deliberation. We formulate an optimization problem by maximizing the utility and minimizing the loss function considering energy consumption and FL process delay of MCs for learning effective models on distributed healthcare data underlying a blockchain-based framework.
+
+- BEAS: Blockchain Enabled Asynchronous & Secure Federated Machine Learning. [[paper]](https://arxiv.org/abs/2202.02817) [[code]](https://github.com/harpreetvirkk/BEAS)
+  - Arup Mondal, Harpreet Virk, Debayan Gupta.
+  - Key Word: Arup Mondal, Harpreet Virk, Debayan Gupta.
+  - <details><summary>Digest</summary> Federated Learning (FL) enables multiple parties to distributively train a ML model without revealing their private datasets. However, it assumes trust in the centralized aggregator which stores and aggregates model updates. This makes it prone to gradient tampering and privacy leakage by a malicious aggregator. Malicious parties can also introduce backdoors into the joint model by poisoning the training data or model gradients. To address these issues, we present BEAS, the first blockchain-based framework for N-party FL that provides strict privacy guarantees of training data using gradient pruning (showing improved differential privacy compared to existing noise and clipping based techniques).
+
 </details>
 
 <!-- ### Others: 2021 -->
@@ -5571,6 +5424,75 @@
   - Key Word: Causal Representation Learning.
   - <details><summary>Digest</summary> The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research.
 
+<!-- open world learning -->
+
+- Open-set 3D Object Detection. [[paper]](https://arxiv.org/abs/2111.08644)
+  - Jun Cen, Peng Yun, Junhao Cai, Michael Yu Wang, Ming Liu. *3DV 2021*
+  - Key Word: 3D Object Detection; Video Anomaly Detection; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> In this paper, we propose an open-set 3D object detector, which aims to (1) identify known objects, like the closed-set detection, and (2) identify unknown objects and give their accurate bounding boxes. Specifically, we divide the open-set 3D object detection problem into two steps: (1) finding out the regions containing the unknown objects with high probability and (2) enclosing the points of these regions with proper bounding boxes. The first step is solved by the finding that unknown objects are often classified as known objects with low confidence, and we show that the Euclidean distance sum based on metric learning is a better confidence score than the naive softmax probability to differentiate unknown objects from known objects. On this basis, unsupervised clustering is used to refine the bounding boxes of unknown objects. The proposed method combining metric learning and unsupervised clustering is called the MLUC network.
+
+- UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection. [[paper]](https://arxiv.org/abs/2111.08644) [[code]](https://github.com/lilygeorgescu/ubnormal)
+  - Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah. *CVPR 2022*
+  - Key Word: Open-set Anomaly Detection; Video Anomaly Detection; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> We propose UBnormal, a new supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. Unlike existing data sets, we introduce abnormal events annotated at the pixel level at training time, for the first time enabling the use of fully-supervised learning methods for abnormal event detection. To preserve the typical open-set formulation, we make sure to include disjoint sets of anomaly types in our training and test collections of videos. To our knowledge, UBnormal is the first video anomaly detection benchmark to allow a fair head-to-head comparison between one-class open-set models and supervised closed-set models, as shown in our experiments.
+
+- Generalized Out-of-Distribution Detection: A Survey. [[paper]](https://arxiv.org/abs/2110.11334) [[code]](https://github.com/Jingkang50/OODSurvey)
+  - Jingkang Yang, Kaiyang Zhou, Yixuan Li, Ziwei Liu.
+  - Key Word: Anomaly Detection; Novelty Detection; Open Set Recognition; Out-of-Distribution Detection; Outlier Detection.
+  - <details><summary>Digest</summary> Several other problems are closely related to OOD detection in terms of motivation and methodology. These include anomaly detection (AD), novelty detection (ND), open set recognition (OSR), and outlier detection (OD). Despite having different definitions and problem settings, these problems often confuse readers and practitioners, and as a result, some existing studies misuse terms. In this survey, we first present a generic framework called generalized OOD detection, which encompasses the five aforementioned problems, i.e., AD, ND, OSR, OOD detection, and OD.
+
+- Open-Set Recognition: a Good Closed-Set Classifier is All You Need? [[paper]](https://arxiv.org/abs/2110.06207) [[code]](https://github.com/sgvaze/osr_closed_set_all_you_need)
+  - Sagar Vaze, Kai Han, Andrea Vedaldi, Andrew Zisserman. *ICLR 2022*
+  - Key Word: Open-Set Recognition.
+  - <details><summary>Digest</summary> We first demonstrate that the ability of a classifier to make the 'none-of-above' decision is highly correlated with its accuracy on the closed-set classes. We find that this relationship holds across loss objectives and architectures, and further demonstrate the trend both on the standard OSR benchmarks as well as on a large-scale ImageNet evaluation. Second, we use this correlation to boost the performance of a maximum logit score OSR 'baseline' by improving its closed-set accuracy, and with this strong baseline achieve state-of-the-art on a number of OSR benchmarks. 
+
+- Evidential Deep Learning for Open Set Action Recognition. [[paper]](https://arxiv.org/abs/2107.10161) [[code]](https://github.com/Cogito2012/DEAR)
+  - Wentao Bao, Qi Yu, Yu Kong. *ICCV 2021 oral*
+  - Key Word: Open-World Learning; Open-Set Action Recognition; Discovery of Unseen Instances; Evidential Deep Learning.
+  - <details><summary>Digest</summary> In a real-world scenario, human actions are typically out of the distribution from training data, which requires a model to both recognize the known actions and reject the unknown. Different from image data, video actions are more challenging to be recognized in an open-set setting due to the uncertain temporal dynamics and static bias of human actions. In this paper, we propose a Deep Evidential Action Recognition (DEAR) method to recognize actions in an open testing set. Specifically, we formulate the action recognition problem from the evidential deep learning (EDL) perspective and propose a novel model calibration method to regularize the EDL training. Besides, to mitigate the static bias of video representation, we propose a plug-and-play module to debias the learned representation through contrastive learning.
+
+- Open-world Machine Learning: Applications, Challenges, and Opportunities. [[paper]](https://arxiv.org/abs/2105.13448)
+  - Jitendra Parmar, Satyendra Singh Chouhan, Vaskar Raychoudhury, Santosh Singh Rathore.
+  - Key Word: Open-World Learning; Open-Set Recognition; Discovery of Unseen Instances; Incremental Learning.
+  - <details><summary>Digest</summary> Traditional machine learning mainly supervised learning, follows the assumptions of closed-world learning, i.e., for each testing class, a training class is available. However, such machine learning models fail to identify the classes which were not available during training time. These classes can be referred to as unseen classes. Whereas open-world machine learning (OWML) deals with unseen classes. In this paper, first, we present an overview of OWML with importance to the real-world context. Next, different dimensions of open-world machine learning are explored and discussed. The area of OWML gained the attention of the research community in the last decade only. We have searched through different online digital libraries and scrutinized the work done in the last decade. This paper presents a systematic review of various techniques for OWML.  
+
+- Opening up Open-World Tracking. [[paper]](https://arxiv.org/abs/2104.11221) [[code]](https://openworldtracking.github.io/)
+  - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
+  - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
+  - <details><summary>Digest</summary> This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges.
+
+- Unidentified Video Objects: A Benchmark for Dense, Open-World Segmentation. [[paper]](https://arxiv.org/abs/2104.04691) [[code]](https://sites.google.com/view/unidentified-video-object/home?authuser=0)
+  - Weiyao Wang, Matt Feiszli, Heng Wang, Du Tran.
+  - Key Word: Open-World Segmentation; Class-agnostic segmentation.
+  - <details><summary>Digest</summary> In this paper, we present, UVO (Unidentified Video Objects), a new benchmark for open-world class-agnostic object segmentation in videos. Besides shifting the problem focus to the open-world setup, UVO is significantly larger, providing approximately 8 times more videos compared with DAVIS, and 7 times more mask (instance) annotations per video compared with YouTube-VOS and YouTube-VIS. UVO is also more challenging as it includes many videos with crowded scenes and complex background motions. We demonstrated that UVO can be used for other applications, such as object tracking and super-voxel segmentation, besides open-world object segmentation. We believe that UVo is a versatile testbed for researchers to develop novel approaches for open-world class-agnostic object segmentation, and inspires new research directions towards a more comprehensive video understanding beyond classification and detection.
+
+- OpenGAN: Open-Set Recognition via Open Data Generation. [[paper]](https://arxiv.org/abs/2104.02939) [[code]](https://github.com/aimerykong/OpenGAN)
+  - Shu Kong, Deva Ramanan.  *ICCV 2021 Best Paper Honorable Mention*
+  - Key Word: Open-set recognition; Data augmentation.
+  - <details><summary>Digest</summary> Two conceptually elegant ideas for open-set discrimination are: 1) discriminatively learning an open-vs-closed binary discriminator by exploiting some outlier data as the open-set, and 2) unsupervised learning the closed-set data distribution with a GAN, using its discriminator as the open-set likelihood function. However, the former generalizes poorly to diverse open test data due to overfitting to the training outliers, which are unlikely to exhaustively span the open-world. The latter does not work well, presumably due to the instable training of GANs. Motivated by the above, we propose OpenGAN, which addresses the limitation of each approach by combining them with several technical insights. First, we show that a carefully selected GAN-discriminator on some real outlier data already achieves the state-of-the-art. Second, we augment the available set of real open training examples with adversarially synthesized "fake" data. Third and most importantly, we build the discriminator over the features computed by the closed-world K-way networks. This allows OpenGAN to be implemented via a lightweight discriminator head built on top of an existing K-way network.
+
+- Towards Open World Object Detection. [[paper]](https://arxiv.org/abs/2103.02603) [[code]](https://github.com/JosephKJ/OWOD)
+  - K J Joseph, Salman Khan, Fahad Shahbaz Khan, Vineeth N Balasubramanian.  *CVPR 2021 oral*
+  - Key Word: Open-world learning; Incremental learning; Discovery of Unseen Instances; Object detection.
+  - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort.
+
+<!-- blockchain -->
+
+- Blockchain-based Federated Learning: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2110.02182)
+  - Zhilin Wang, Qin Hu.
+  - Key Word: Federated Learning; Blockchain.
+  - <details><summary>Digest</summary> We conduct a comprehensive survey of the literature on blockchained FL (BCFL). First, we investigate how blockchain can be applied to federal learning from the perspective of system composition. Then, we analyze the concrete functions of BCFL from the perspective of mechanism design and illustrate what problems blockchain addresses specifically for FL. We also survey the applications of BCFL in reality. Finally, we discuss some challenges and future research directions.
+
+- Smart Contract Vulnerability Detection: From Pure Neural Network to Interpretable Graph Feature and Expert Pattern Fusion. [[paper]](https://arxiv.org/abs/2106.09282)
+  - Zhenguang Liu, Peng Qian, Xiang Wang, Lei Zhu, Qinming He, Shouling Ji. *IJCAI 2021*
+  - Key Word: Smart Contract Vulnerability Detection.
+  - <details><summary>Digest</summary> We explore combining deep learning with expert patterns in an explainable fashion. Specifically, we develop automatic tools to extract expert patterns from the source code. We then cast the code into a semantic graph to extract deep graph features. Thereafter, the global graph feature and local expert patterns are fused to cooperate and approach the final prediction, while yielding their interpretable weights.
+
+- Eth2Vec: Learning Contract-Wide Code Representations for Vulnerability Detection on Ethereum Smart Contracts. [[paper]](https://arxiv.org/abs/2101.02377)
+  - Nami Ashizawa, Naoto Yanai, Jason Paul Cruz, Shingo Okamura.
+  - Key Word: Ethereum; Natural Language Processing; Security Analysis.
+  - <details><summary>Digest</summary> Ethereum smart contracts are programs that run on the Ethereum blockchain, and many smart contract vulnerabilities have been discovered in the past decade. Many security analysis tools have been created to detect such vulnerabilities, but their performance decreases drastically when codes to be analyzed are being rewritten. In this paper, we propose Eth2Vec, a machine-learning-based static analysis tool for vulnerability detection, with robustness against code rewrites in smart contracts.
+
 </details>
 
 <!-- ### Others: 2020 -->
@@ -5608,6 +5530,18 @@
   - Key Word: Disentanlged Representation Learning.
   - <details><summary>Digest</summary> The framework of variational autoencoder (VAE) is commonly used to disentangle independent factors from observations. However, in real scenarios, factors with semantics are not necessarily independent. Instead, there might be an underlying causal structure which renders these factors dependent. We thus propose a new VAE based framework named CausalVAE, which includes a Causal Layer to transform independent exogenous factors into causal endogenous ones that correspond to causally related concepts in data.
 
+<!-- blockchain -->
+
+- When Federated Learning Meets Blockchain: A New Distributed Learning Paradigm. [[paper]](https://arxiv.org/abs/2009.09338)
+  - Chuan Ma, Jun Li, Ming Ding, Long Shi, Taotao Wang, Zhu Han, H. Vincent Poor.
+  - Key Word: Federated Leraning; Blockchain.
+  - <details><summary>Digest</summary> This work investigates a blockchain assisted decentralized FL (BLADE-FL) framework, which can well prevent the malicious clients from poisoning the learning process, and further provides a self-motivated and reliable learning environment for clients. In detail, the model aggregation process is fully decentralized and the tasks of training for FL and mining for blockchain are integrated into each participant.
+
+- A Blockchain-based Decentralized Federated Learning Framework with Committee Consensus. [[paper]](https://arxiv.org/abs/2004.00773)
+  - Yuzheng Li, Chuan Chen, Nan Liu, Huawei Huang, Zibin Zheng, Qiang Yan.
+  - Key Word: Blockchain; Smart Contracts; Federated Learning.
+  - <details><summary>Digest</summary> Federated learning has been widely studied and applied to various scenarios. In mobile computing scenarios, federated learning protects users from exposing their private data, while cooperatively training the global model for a variety of real-world applications. However, the security of federated learning is increasingly being questioned, due to the malicious clients or central servers' constant attack to the global model or user privacy data. To address these security issues, we proposed a decentralized federated learning framework based on blockchain, i.e., a Blockchain-based Federated Learning framework with Committee consensus (BFLC). The framework uses blockchain for the global model storage and the local model update exchange.
+
 </details>
 
 <!-- ### Others: 2019 -->
@@ -5639,6 +5573,33 @@
   - Gregory D. Hager, Ann Drobnis, Fei Fang, Rayid Ghani, Amy Greenwald, Terah Lyons, David C. Parkes, Jason Schultz, Suchi Saria, Stephen F. Smith, Milind Tambe.
   - Key Word: Report; Social Good.
   - <details><summary>Digest</summary> The Computing Community Consortium (CCC), along with the White House Office of Science and Technology Policy (OSTP), and the Association for the Advancement of Artificial Intelligence (AAAI), co-sponsored a public workshop on Artificial Intelligence for Social Good on June 7th, 2016 in Washington, DC. This was one of five workshops that OSTP co-sponsored and held around the country to spur public dialogue on artificial intelligence, machine learning, and to identify challenges and opportunities related to AI. In the AI for Social Good workshop, the successful deployments and the potential use of AI in various topics that are essential for social good were discussed, including but not limited to urban computing, health, environmental sustainability, and public welfare. This report highlights each of these as well as a number of crosscutting issues.
+
+<!-- blockchain -->
+
+- A blockchain-orchestrated Federated Learning architecture for healthcare consortia. [[paper]](https://arxiv.org/abs/1910.12603)
+  - Jonathan Passerat-Palmbach, Tyler Farnan, Robert Miller, Marielle S. Gross, Heather Leigh Flannery, Bill Gleim.
+  - Key Word: Blockchain; Federated Learning; Healthcare.
+  - <details><summary>Digest</summary> We propose a novel architecture for federated learning within healthcare consortia. At the heart of the solution is a unique integration of privacy preserving technologies, built upon native enterprise blockchain components available in the Ethereum ecosystem. We show how the specific characteristics and challenges of healthcare consortia informed our design choices, notably the conception of a new Secure Aggregation protocol assembled with a protected hardware component and an encryption toolkit native to Ethereum. Our architecture also brings in a privacy preserving audit trail that logs events in the network without revealing identities.
+
+- BAFFLE : Blockchain Based Aggregator Free Federated Learning. [[paper]](https://arxiv.org/abs/1909.07452)
+  - Paritosh Ramanan, Kiyoshi Nakayama.
+  - Key Word: Blockchain; Smart Contracts; Federated Learning.
+  - <details><summary>Digest</summary> A key aspect of Federated Learning (FL) is the requirement of a centralized aggregator to maintain and update the global model. However, in many cases orchestrating a centralized aggregator might be infeasible due to numerous operational constraints. In this paper, we introduce BAFFLE, an aggregator free, blockchain driven, FL environment that is inherently decentralized. BAFFLE leverages Smart Contracts (SC) to coordinate the round delineation, model aggregation and update tasks in FL. BAFFLE boosts computational performance by decomposing the global parameter space into distinct chunks followed by a score and bid strategy.
+
+- Machine Learning in/for Blockchain: Future and Challenges. [[paper]](https://arxiv.org/abs/1909.06189)
+  - Fang Chen, Hong Wan, Hua Cai, Guang Cheng.
+  - Key Word: Blockchain; Bitcoin; Deep Learning; Reinforcement Learning.
+  - <details><summary>Digest</summary> Machine learning and blockchain are two of the most noticeable technologies in recent years. The first one is the foundation of artificial intelligence and big data, and the second one has significantly disrupted the financial industry. Both technologies are data-driven, and thus there are rapidly growing interests in integrating them for more secure and efficient data sharing and analysis. In this paper, we review the research on combining blockchain and machine learning technologies and demonstrate that they can collaborate efficiently and effectively. In the end, we point out some future directions and expect more researches on deeper integration of the two promising technologies.
+
+- Biometric Template Storage with Blockchain: A First Look into Cost and Performance Tradeoffs. [[paper]](https://arxiv.org/abs/1904.13128)
+  - Oscar Delgado-Mohatar, Julian Fierrez, Ruben Tolosana, Ruben Vera-Rodriguez.
+  - Key Word: Smart Contracts; Biometric Template Storage.
+  - <details><summary>Digest</summary> We explore practical tradeoffs in blockchain-based biometric template storage. We first discuss opportunities and challenges in the integration of blockchain and biometrics, with emphasis in biometric template storage and protection, a key problem in biometrics still largely unsolved. Blockchain technologies provide excellent architectures and practical tools for securing and managing the sensitive and private data stored in biometric templates, but at a cost. We explore experimentally the key tradeoffs involved in that integration, namely: latency, processing time, economic cost, and biometric performance.
+
+- ARCHANGEL: Tamper-proofing Video Archives using Temporal Content Hashes on the Blockchain. [[paper]](https://arxiv.org/abs/1904.12059)
+  - Tu Bui, Daniel Cooper, John Collomosse, Mark Bell, Alex Green, John Sheridan, Jez Higgins, Arindra Das, Jared Keller, Olivier Thereaux, Alan Brown.
+  - Key Word: Distributed Ledger Technology; Video Content Hashing.
+  - <details><summary>Digest</summary> We present ARCHANGEL; a novel distributed ledger based system for assuring the long-term integrity of digital video archives. First, we describe a novel deep network architecture for computing compact temporal content hashes (TCHs) from audio-visual streams with durations of minutes or hours. Our TCHs are sensitive to accidental or malicious content modification (tampering) but invariant to the codec used to encode the video. This is necessary due to the curatorial requirement for archives to format shift video over time to ensure future accessibility. Second, we describe how the TCHs (and the models used to derive them) are secured via a proof-of-authority blockchain distributed across multiple independent archives.  
 
 </details>
 
