@@ -131,19 +131,12 @@
 <!-- ### Survey: 2019 -->
 
 <details>
-<summary>Survey: 2019</summary>
+<summary>Survey: 2019 and Before</summary>
 
 - The relationship between trust in AI and trustworthy machine learning technologies. [[paper]](https://arxiv.org/abs/1912.00782)
   - Ehsan Toreini, Mhairi Aitken, Kovila Coopamootoo, Karen Elliott, Carlos Gonzalez Zelaya, Aad van Moorsel. *FAT 2020*
   - Key Word: Survey; Social Science.
   - <details><summary>Digest</summary> To build AI-based systems that users and the public can justifiably trust one needs to understand how machine learning technologies impact trust put in these services. To guide technology developments, this paper provides a systematic approach to relate social science concepts of trust with the technologies used in AI-based services and products. We conceive trust as discussed in the ABI (Ability, Benevolence, Integrity) framework and use a recently proposed mapping of ABI on qualities of technologies. We consider four categories of machine learning technologies, namely these for Fairness, Explainability, Auditability and Safety (FEAS) and discuss if and how these possess the required qualities.
-
-</details>
-
-<!-- ### Survey: 2018 -->
-
-<details>
-<summary>Survey: 2018</summary>
 
 - A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability. [[paper]](https://arxiv.org/abs/1812.08342)
   - Xiaowei Huang, Daniel Kroening, Wenjie Ruan, James Sharp, Youcheng Sun, Emese Thamo, Min Wu, Xinping Yi. *Computer Science Review*
@@ -1488,7 +1481,7 @@
 <!-- ### Out-of-Distribution Generalization: 2019 -->
 
 <details>
-<summary>Out-of-Distribution Generalization: 2019</summary>
+<summary>Out-of-Distribution Generalization: 2019 and Before</summary>
 
 - ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models. [[paper]](https://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models.pdf) [[dataset]](https://objectnet.dev/)
   - Barbu, A, Mayo, D, Alverio, J, Luo, W, Wang, C, Gutfreund, D, Tenenabum, JB, Katz, B. *NeurIPS 2019*
@@ -1609,13 +1602,6 @@
   - Nic Ford, Justin Gilmer, Nicolas Carlini, Dogus Cubuk. *ICML 2019*
   - Keyword: Corruption Robustness; Adversarial Robustness.
   - <details><summary>Digest</summary> The existence of adversarial examples follows naturally from the fact that our models have nonzero test error in certain corrupted image distributions (connecting adversarial and corruption robustness).
-
-</details>
-
-<!-- ### Out-of-Distribution Generalization: 2018 -->
-
-<details>
-<summary>Out-of-Distribution Generalization: 2018</summary>
 
 - ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. [[paper]](https://arxiv.org/abs/1811.12231) [[code]](https://github.com/rgeirhos/texture-vs-shape)
   - Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix A. Wichmann, Wieland Brendel. *ICLR 2019*
@@ -2529,7 +2515,7 @@
 <!-- ### Evasion Attacks and Defenses: 2019 -->
 
 <details>
-<summary>Evasion Attacks and Defenses: 2019</summary>
+<summary>Evasion Attacks and Defenses: 2019 and Before</summary>
 
 - Adversarial Training and Provable Defenses: Bridging the Gap. [[paper]](https://openreview.net/forum?id=SJxSDxrKDr) [[code]](https://github.com/eth-sri/colt)
   - Mislav Balunovic, Martin Vechev. *ICLR 2020*
@@ -2656,13 +2642,6 @@
   - Key Word: Adversarial Training.
   - <details><summary>Digest</summary> In this work, we decompose the prediction error for adversarial examples (robust error) as the sum of the natural (classification) error and boundary error, and provide a differentiable upper bound using the theory of classification-calibrated loss, which is shown to be the tightest possible upper bound uniform over all probability distributions and measurable predictors. Inspired by our theoretical analysis, we also design a new defense method, TRADES, to trade adversarial robustness off against accuracy.  
 
-</details>
-
-<!-- ### Evasion Attacks and Defenses: 2018 -->
-
-<details>
-<summary>Evasion Attacks and Defenses: 2018</summary>
-
 - Feature Denoising for Improving Adversarial Robustness. [[paper]](https://arxiv.org/abs/1812.03411) [[code]](https://github.com/facebookresearch/ImageNet-Adversarial-Training)
   - Cihang Xie, Yuxin Wu, Laurens van der Maaten, Alan Yuille, Kaiming He. *CVPR 2019*
   - Key Word: Adversarial Robustness; Pixel Denoising.
@@ -2743,14 +2722,6 @@
   - Key Word: Adversarial Attack; Medical Record; Healthcare.
   - <details><summary>Digest</summary> We propose an efficient and effective framework that learns a time-preferential minimum attack targeting the LSTM model with EHR inputs, and we leverage this attack strategy to screen medical records of patients and identify susceptible events and measurements.
 
-</details>
-
-<!-- ### Evasion Attacks and Defenses: 2017 -->
-
-<details>
-<summary>Evasion Attacks and Defenses: 2017</summary>
-
-
 - Certifying Some Distributional Robustness with Principled Adversarial Training. [[paper]](https://arxiv.org/abs/1710.10571)
   - Aman Sinha, Hongseok Namkoong, Riccardo Volpi, John Duchi. *ICLR 2018*
   - Key Word: Certificated Adversarial Robustness.
@@ -2760,13 +2731,6 @@
   - Jiawei Su, Danilo Vasconcellos Vargas, Sakurai Kouichi. *IEEE Transactions on Evolutionary Computation*
   - Key Word: Adversarial Attacks.
   - <details><summary>Digest</summary> In this paper, we analyze an attack in an extremely limited scenario where only one pixel can be modified. For that we propose a novel method for generating one-pixel adversarial perturbations based on differential evolution (DE). It requires less adversarial information (a black-box attack) and can fool more types of networks due to the inherent features of DE.  
-
-</details>
-
-<!-- ### Evasion Attacks and Defenses: 2016 -->
-
-<details>
-<summary>Evasion Attacks and Defenses: 2016</summary>
 
 - Practical Black-Box Attacks against Machine Learning. [[paper]](https://arxiv.org/abs/1602.02697)
   - Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, Ananthram Swami. *AsiaCCS 2017*
@@ -3110,21 +3074,19 @@
 <!-- ### Poisoning Attacks and Defenses: 2019 -->
 
 <details>
-<summary>Poisoning Attacks and Defenses: 2019</summary>
+<summary>Poisoning Attacks and Defenses: 2019 and Before</summary>
 
 - Universal Litmus Patterns: Revealing Backdoor Attacks in CNNs. [[paper]](https://arxiv.org/abs/1906.10842) [[code]](https://github.com/UMBCvision/Universal-Litmus-Patterns)
   - Soheil Kolouri, Aniruddha Saha, Hamed Pirsiavash, Heiko Hoffmann. *CVPR 2020*
   - Key Word: Backdoor Detection.
   - <details><summary>Digest</summary> We introduce a benchmark technique for detecting backdoor attacks (aka Trojan attacks) on deep convolutional neural networks (CNNs). We introduce the concept of Universal Litmus Patterns (ULPs), which enable one to reveal backdoor attacks by feeding these universal patterns to the network and analyzing the output (i.e., classifying the network as `clean' or `corrupted'). This detection is fast because it requires only a few forward passes through a CNN.
 
-</details>
-
-<!-- ### Poisoning Attacks and Defenses: 2017
-
 - BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. [[paper]](https://arxiv.org/abs/1708.06733)
   - Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg.
   - Key Word: Backdoor Attacks; Neuron Activation.
   - <details><summary>Digest</summary>  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.   -->
+
+</details>
 
 ## Privacy
 
@@ -3903,7 +3865,7 @@
 <!-- ### Privacy: 2019 -->
 
 <details>
-<summary>Privacy: 2019</summary>
+<summary>Privacy: 2019 and Before</summary>
 
 - Machine Unlearning. [[paper]](https://arxiv.org/abs/1912.03817) [[code]](https://github.com/cleverhans-lab/machine-unlearning)
   - Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia, Adelin Travers, Baiwu Zhang, David Lie, Nicolas Papernot.
@@ -3946,7 +3908,6 @@
 
 <details>
 <summary>Fairness: 2023</summary>
-
 
 - Bias and Fairness in Large Language Models: A Survey. [[paper]](https://arxiv.org/abs/2309.00770)
   - Isabel O. Gallegos, Ryan A. Rossi, Joe Barrow, Md Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, Nesreen K. Ahmed.
@@ -4203,7 +4164,7 @@
 <!-- ### Fairness: 2019 -->
 
 <details>
-<summary>Fairness: 2019</summary>
+<summary>Fairness: 2019 and Before</summary>
 
 - Training individually fair ML models with Sensitive Subspace Robustness. [[paper]](https://arxiv.org/abs/1907.00020) [[code]](https://github.com/IBM/sensitive-subspace-robustness)
   - Mikhail Yurochkin, Amanda Bower, Yuekai Sun. *ICLR 2020*
@@ -4586,7 +4547,7 @@
 <!-- ### Interpretability: 2019 -->
 
 <details>
-<summary>Interpretability: 2019</summary>
+<summary>Interpretability: 2019 and Before</summary>
 
 - Attributional Robustness Training using Input-Gradient Spatial Alignment. [[paper]](https://arxiv.org/abs/1911.13073) [[code]](https://github.com/nupurkmr9/Attributional-Robustness)
   - Mayank Singh, Nupur Kumari, Puneet Mangla, Abhishek Sinha, Vineeth N Balasubramanian, Balaji Krishnamurthy. *ECCV 2020*
@@ -4623,13 +4584,6 @@
   - Key Word: Concept Attribution.
   - <details><summary>Digest</summary> We propose principles and desiderata for concept based explanation, which goes beyond per-sample features to identify higher-level human-understandable concepts that apply across the entire dataset. We develop a new algorithm, ACE, to automatically extract visual concepts.
 
-</details>
-
-<!-- ### Interpretability: 2018 -->
-
-<details>
-<summary>Interpretability: 2018</summary>
-
 - This Looks Like That: Deep Learning for Interpretable Image Recognition. [[paper]](https://arxiv.org/abs/1806.10574) [[code]](https://github.com/cfchen-duke/ProtoPNet)
   - Chaofan Chen, Oscar Li, Chaofan Tao, Alina Jade Barnett, Jonathan Su, Cynthia Rudin. *NeurIPS 2019*
   - Key Word: Prototypes.
@@ -4649,14 +4603,6 @@
   - Amit Dhurandhar, Pin-Yu Chen, Ronny Luss, Chun-Chen Tu, Paishun Ting, Karthikeyan Shanmugam, Payel Das. *NeurIPS 2018*
   - Key Word: Counterfactuals.
   - <details><summary>Digest</summary> We propose a novel method that provides contrastive explanations justifying the classification of an input by a black box classifier such as a deep neural network. Given an input we find what should be %necessarily and minimally and sufficiently present (viz. important object pixels in an image) to justify its classification and analogously what should be minimally and necessarily absent (viz. certain background pixels).
-
-</details>
-
-
-<!-- ### Interpretability: 2017 -->
-
-<details>
-<summary>Interpretability: 2017</summary>
 
 - Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV). [[paper]](https://arxiv.org/abs/1711.11279) [[code]](https://github.com/tensorflow/tcav)
   - Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres. *ICML 2018*
@@ -4693,13 +4639,6 @@
   - Key Word: Feature Importance Explanations.
   - <details><summary>Digest</summary> We study the problem of attributing the prediction of a deep network to its input features, a problem previously studied by several other works. We identify two fundamental axioms---Sensitivity and Implementation Invariance that attribution methods ought to satisfy. We show that they are not satisfied by most known attribution methods, which we consider to be a fundamental weakness of those methods. We use the axioms to guide the design of a new attribution method called Integrated Gradients.
 
-</details>
-
-<!-- ### Interpretability: 2016 -->
-
-<details>
-<summary>Interpretability: 2016</summary>
-
 - Examples are not enough, learn to criticize! Criticism for Interpretability. [[paper]](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)
   - Been Kim, Rajiv Khanna, Oluwasanmi O. Koyejo. *NeurIPS 2016*
   - Key Word: Prototypes.
@@ -4714,13 +4653,6 @@
   - Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin. *KDD 2016*
   - Key Word: Local Interpretation; Model-Agnostic Explanations.
   - <details><summary>Digest</summary> We propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction.
-
-</details>
-
-<!-- ### Interpretability: 2015 -->
-
-<details>
-<summary>Interpretability: 2015</summary>
 
 - Explaining NonLinear Classification Decisions with Deep Taylor Decomposition. [[paper]](https://arxiv.org/abs/1512.02479) [[code]](https://github.com/myc159/Deep-Taylor-Decomposition)
   - Grégoire Montavon, Sebastian Bach, Alexander Binder, Wojciech Samek, Klaus-Robert Müller.
@@ -4738,7 +4670,6 @@
 
 <details>
 <summary>Environmental Well-being: 2023</summary>
-
 
 - Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI. [[paper]](https://arxiv.org/abs/2309.02065)
   - Dustin Wright, Christian Igel, Gabrielle Samuel, Raghavendra Selvan.
@@ -4844,7 +4775,7 @@
 <!-- ### Environmental Well-being: 2019 -->
 
 <details>
-<summary>Environmental Well-being: 2019</summary>
+<summary>Environmental Well-being: 2019 and Before</summary>
 
 - Quantifying the Carbon Emissions of Machine Learning. [[paper]](https://arxiv.org/abs/1910.09700) [[code]](https://mlco2.github.io/impact/)
   - Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres.
@@ -5547,7 +5478,7 @@
 <!-- ### Others: 2019 -->
 
 <details>
-<summary>Others: 2019</summary>
+<summary>Others: 2019 and Before</summary>
 
 - Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One. [[paper]](https://arxiv.org/abs/1912.03263) [[code]](https://github.com/wgrathwohl/JEM)
   - Will Grathwohl, Kuan-Chieh Wang, Jörn-Henrik Jacobsen, David Duvenaud, Mohammad Norouzi, Kevin Swersky. *ICLR 2020*
@@ -5600,13 +5531,6 @@
   - Tu Bui, Daniel Cooper, John Collomosse, Mark Bell, Alex Green, John Sheridan, Jez Higgins, Arindra Das, Jared Keller, Olivier Thereaux, Alan Brown.
   - Key Word: Distributed Ledger Technology; Video Content Hashing.
   - <details><summary>Digest</summary> We present ARCHANGEL; a novel distributed ledger based system for assuring the long-term integrity of digital video archives. First, we describe a novel deep network architecture for computing compact temporal content hashes (TCHs) from audio-visual streams with durations of minutes or hours. Our TCHs are sensitive to accidental or malicious content modification (tampering) but invariant to the codec used to encode the video. This is necessary due to the curatorial requirement for archives to format shift video over time to ensure future accessibility. Second, we describe how the TCHs (and the models used to derive them) are secured via a proof-of-authority blockchain distributed across multiple independent archives.  
-
-</details>
-
-<!-- ### Others: 2018 -->
-
-<details>
-<summary>Others: 2018</summary>
 
 - Towards Reverse-Engineering Black-Box Neural Networks. [[paper]](https://arxiv.org/abs/1711.01768) [[code]](https://github.com/coallaoh/WhitenBlackBox)
   - Seong Joon Oh, Max Augustin, Bernt Schiele, Mario Fritz. *ICLR 2018*
