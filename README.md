@@ -83,7 +83,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Alignment
 
-<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
+<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
 
 ## Others
