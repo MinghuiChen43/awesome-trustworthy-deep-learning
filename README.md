@@ -23,9 +23,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Privacy](#privacy)
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
-  - [Open-World Learning](#open-world-learning)
   - [Environmental Well-being](#environmental-well-being)
-  - [Interactions with Blockchain](#interactions-with-blockchain)
   - [Others](#others)
 - [Related Awesome Lists :astonished:](#related-awesome-lists)
 - [Toolboxes :toolbox:](#toolboxes)
@@ -77,19 +75,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
 
-## Open-World Learning
-
-<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#open-world-learning">:open_file_folder: [<b><i>Full List of Open-World Learning</i></b>]</a>.
-
-
 ## Environmental Well-being
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
-
-
-## Interactions with Blockchain
-
-<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interactions-with-blockchain">:open_file_folder: [<b><i>Full List of Interactions with Blockchain</i></b>]</a>.
 
 
 ## Others
