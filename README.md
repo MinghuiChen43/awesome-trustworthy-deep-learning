@@ -15,7 +15,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 # Table of Contents
 
-- [Awesome Trustworthy Deep Learning Paper List](#awesome-trustworthy--deep-learning)
+- [Awesome Trustworthy Deep Learning Paper List :page_with_curl:](#awesome-trustworthy--deep-learning)
   - [Survey](#survey)
   - [Out-of-Distribution Generalization](#out-of-distribution-generalization)
   - [Evasion Attacks and Defenses](#evasion-attacks-and-defenses)
