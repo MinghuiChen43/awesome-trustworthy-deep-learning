@@ -5122,7 +5122,7 @@
 ## Interactions with Blockchain
 
 <details>
-<summary>Interactions with Blockchain: 2022</summary>
+<summary>Interactions with Blockchain: 2023</summary>
 
 - A Survey on Decentralized Federated Learning. [[paper]](https://arxiv.org/abs/2308.04604)
   - Edoardo Gabrielli, Giovanni Pica, Gabriele Tolomei.

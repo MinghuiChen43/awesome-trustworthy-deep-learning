@@ -67,6 +67,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Fairness in Serving Large Language Models. [[paper]](https://arxiv.org/abs/2401.00588)
+  - Ying Sheng, Shiyi Cao, Dacheng Li, Banghua Zhu, Zhuohan Li, Danyang Zhuo, Joseph E. Gonzalez, Ion Stoica.
+  - Key Word: Fairness; Large Language Model; Large Languge Model Serving System.
+  - <details><summary>Digest</summary> The paper addresses the challenge of ensuring fair processing of client requests in high-demand Large Language Model (LLM) inference services. Current rate limits can lead to resource underutilization and poor client experiences. The paper introduces LLM serving fairness based on a cost function that considers input and output tokens. It presents a novel scheduling algorithm, Virtual Token Counter (VTC), which achieves fairness by continuous batching. The paper proves a tight upper bound on service difference between backlogged clients, meeting work-conserving requirements. Extensive experiments show that VTC outperforms other baseline methods in ensuring fairness under different conditions.
 
 ## Interpretability
 
