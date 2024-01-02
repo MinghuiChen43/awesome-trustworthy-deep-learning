@@ -17,6 +17,36 @@
 ## Survey
 
 <details>
+<summary>Survey: 2023</summary>
+
+- Towards Trustworthy and Aligned Machine Learning: A Data-centric Survey with Causality Perspectives. [[paper]](https://arxiv.org/abs/2307.16851)
+  - Haoyang Liu, Maheep Chaudhary, Haohan Wang.
+  - Key Word: Causality; Data-Centric AI.
+  - <details><summary>Digest</summary> The paper provides a systematic review of advancements in trustworthy machine learning, covering various areas like robustness, security, interpretability, and fairness, and highlights the shortcomings of traditional empirical risk minimization (ERM) training in handling data challenges. The survey connects these methods using Pearl's hierarchy of causality as a unifying framework, presents a unified language and mathematical vocabulary to link methods across different subfields, explores trustworthiness in large pretrained models, and discusses potential future aspects of the field.
+
+- An Overview of Catastrophic AI Risks. [[paper]](https://arxiv.org/abs/2306.12001)
+  - Dan Hendrycks, Mantas Mazeika, Thomas Woodside.
+  - Key Word: AI Risks.
+  - <details><summary>Digest</summary> The paper provides an overview of catastrophic AI risks, categorizing them into four main groups: malicious use, AI race, organizational risks, and rogue AIs. It discusses specific hazards, presents illustrative stories, envisions ideal scenarios, and proposes practical suggestions for mitigating these risks, aiming to foster a comprehensive understanding and inspire proactive efforts for risk mitigation.
+
+- Connecting the Dots in Trustworthy Artificial Intelligence: From AI Principles, Ethics, and Key Requirements to Responsible AI Systems and Regulation. [[paper]](https://arxiv.org/abs/2305.02231)
+  - Natalia Díaz-Rodríguez, Javier Del Ser, Mark Coeckelbergh, Marcos López de Prado, Enrique Herrera-Viedma, Francisco Herrera.
+  - Key Word: AI Ethics; AI Regulation; Responsible AI.
+  - <details><summary>Digest</summary> Attaining trustworthy Artificial Intelligence (AI) requires meeting seven technical requirements sustained over three main pillars, including being lawful, ethical, and robust both technically and socially. However, achieving truly trustworthy AI involves a more holistic vision that considers the trustworthiness of all processes and actors involved in the system's life cycle. This multidisciplinary approach contemplates four essential axes, including global principles for ethical use and development of AI-based systems, a philosophical take on AI ethics, a risk-based approach to AI regulation, and the seven requirements analyzed from a triple perspective. Additionally, a responsible AI system is introduced through a given auditing process, which is subject to the challenges posed by the use of regulatory sandboxes. This work emphasizes the importance of a regulation debate and serves as an entry point to this crucial field for the present and future progress of our society.
+
+- A Survey of Trustworthy Federated Learning with Perspectives on Security, Robustness, and Privacy. [[paper]](https://arxiv.org/abs/2302.10637)
+  - Yifei Zhang, Dun Zeng, Jinglong Luo, Zenglin Xu, Irwin King.
+  - Key Word: Federated Learning; Robustness; Privacy.
+  - <details><summary>Digest</summary> We propose a comprehensive roadmap for developing trustworthy FL systems and summarize existing efforts from three key aspects: security, robustness, and privacy. We outline the threats that pose vulnerabilities to trustworthy federated learning across different stages of development, including data processing, model training, and deployment.
+
+- Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example. [[paper]](https://arxiv.org/abs/2302.09457)
+  - Baoyuan Wu, Li Liu, Zihao Zhu, Qingshan Liu, Zhaofeng He, Siwei Lyu.
+  - Key Word: Backdoor Attack; Deployment-Time Adversarial Attack; Inference-Time Adversarial Attack.
+  - <details><summary>Digest</summary> In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm.
+
+</details>
+
+<details>
 <summary>Survey: 2022</summary>
 
 - A Comprehensive Survey on Trustworthy Recommender Systems. [[paper]](https://arxiv.org/abs/2209.10117)
@@ -126,14 +156,214 @@
 
 ## Out-of-Distribution Generalization
 
-<!-- ### Out-of-Distribution Generalization: 2023 -->
 <details>
 <summary>Out-of-Distribution Generalization: 2023</summary>
+
+
+- Unraveling the Key Components of OOD Generalization via Diversification. [[paper]](https://arxiv.org/abs/2312.16313)
+  - Harold Benoit, Liangze Jiang, Andrei Atanov, Oğuzhan Fatih Kar, Mattia Rigotti, Amir Zamir.
+  - Key Word: Out-of-Distribution Generalization; Spurious Correlation; Diversification.
+  - <details><summary>Digest</summary> This paper investigates diversification methods for handling multiple features in real-world datasets. It finds that these methods are sensitive to the distribution of unlabeled data and can underperform when not in an optimal setting. Diversification alone is insufficient for out-of-distribution (OOD) generalization; the choice of learning algorithm, model architecture, and pretraining is crucial. The optimal choice depends on the unlabeled data. Increasing the number of diverse hypotheses doesn't necessarily solve these issues. These findings provide insights into improving OOD generalization with diversification methods and offer guidance to practitioners and researchers in their use and development.
+
+- Causal-structure Driven Augmentations for Text OOD Generalization. [[paper]](https://arxiv.org/abs/2310.12803)
+  - Amir Feder, Yoav Wald, Claudia Shi, Suchi Saria, David Blei.
+  - Key Word: Out-of-Distribution Generalization; Causality; Data Augmentation.
+  - <details><summary>Digest</summary> The paper proposes using counterfactual data augmentation to improve the robustness of text classifiers in situations where they rely on spurious correlations. This approach is particularly relevant in prediction problems where the label is spuriously correlated with an attribute. The authors discuss the advantages of counterfactual data augmentation in terms of sample complexity compared to other methods. They use auxiliary data and a large language model to represent conditional probabilities of text. Experimental results on caregiver-invariant predictors for clinical diagnoses show that this method enhances out-of-distribution accuracy compared to baseline techniques. 
+
+- Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity? [[paper]](https://arxiv.org/abs/2310.09562)
+  - Prasanna Mayilvahanan, Thaddäus Wiedemer, Evgenia Rusak, Matthias Bethge, Wieland Brendel.
+  - Key Word: Measuring Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> The paper discusses CLIP, a foundation model, and its generalization capabilities on out-of-distribution benchmarks. It questions the significance of out-of-distribution generalization in CLIP, suggesting that web-scale datasets may contain samples similar to common benchmarks. The authors retrain CLIP on pruned data that replicates ImageNet's train-test similarity with OOD benchmarks, noting a performance drop on some benchmarks. Surprisingly, CLIP maintains high overall performance, indicating that factors beyond train-test similarity contribute to its generalization. Pruning dissimilar data reveals a smaller dataset on which CLIP can match its original OOD performance. 
+
+- Mitigating Simplicity Bias in Deep Learning for Improved OOD Generalization and Robustness. [[paper]](https://arxiv.org/abs/2310.06161)
+  - Bhavya Vasudeva, Kameron Shahabi, Vatsal Sharan.
+  - Key Word: Simplicity Bias; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> The paper discusses the issue of simplicity bias in neural networks, where they tend to favor 'simple' features over more 'complex' but informative ones, leading to biased predictions and poor out-of-distribution (OOD) generalization. To mitigate this bias, the paper introduces a framework that involves training a simple model and then using conditional mutual information regularization to obtain the final model. This approach effectively counters simplicity bias, encourages the use of a wider range of features, improves OOD generalization, and enhances subgroup robustness and fairness in various problem settings and real-world applications. The paper also provides theoretical analysis of the regularization's impact and OOD generalization properties.
+
+- Deep Neural Networks Tend To Extrapolate Predictably. [[paper]](https://arxiv.org/abs/2310.00873)
+  - Katie Kang, Amrith Setlur, Claire Tomlin, Sergey Levine.
+  - Key Word: Extrapolation; Out-of-Distribution Generalization; Optimal Constant Solution.
+  - <details><summary>Digest</summary> This paper challenges the common belief that neural network predictions become unpredictable and overconfident with out-of-distribution (OOD) inputs. Instead, it finds that neural network predictions often stabilize around a constant value as data becomes more OOD, which closely approximates the optimal constant solution (OCS). This phenomenon is demonstrated across various datasets, loss functions, and architectures. The paper offers an explanation for this behavior, validates it empirically, and provides insights for enabling risk-sensitive decision-making in the presence of OOD inputs.
+
+- Spurious Feature Diversification Improves Out-of-distribution Generalization. [[paper]](https://arxiv.org/abs/2309.17230)
+  - Yong Lin, Lu Tan, Yifan Hao, Honam Wong, Hanze Dong, Weizhong Zhang, Yujiu Yang, Tong Zhang.
+  - Key Word: Spurious Correlation; Out-of-Distribution Generalization; Ensemble-based Models.
+  - <details><summary>Digest</summary> This paper addresses the challenge of generalizing to out-of-distribution (OOD) data in machine learning. It focuses on the WiSE-FT ensemble method, which interpolates between pre-trained and fine-tuned models. The study discovers that WiSE-FT corrects cases where individual models make incorrect predictions, improving OOD performance. Theoretical analysis in a multi-class setting with spurious features predicts this phenomenon and suggests that ensemble models benefit from diverse spurious features. Contrary to conventional wisdom, incorporating many diverse spurious features weakens their individual contributions, leading to better OOD performance. Empirical results on MultiColorMNIST dataset support these findings. Additionally, the paper introduces a novel method called BAlaNced averaGing (BANG) to address overconfidence issues in fine-tuned models, further enhancing OOD performance in WiSE-FT.
+
+- Robust Learning with Progressive Data Expansion Against Spurious Correlation. [[paper](https://arxiv.org/abs/2306.04949)]
+  - Yihe Deng*, Yu Yang*, Baharan Mirzasoleiman, Quanquan Gu.
+  - Key Word: Spurious Correlation; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> This paper theoretically examine the learning process of a two-layer nonlinear convolutional neural network in the presence of spurious features. Its analysis suggests that imbalanced data groups and easily learnable spurious features can lead to the dominance of spurious features during the early learning process. In light of this, it propose a new training algorithm called PDE that efficiently enhances the model's robustness for a better worst-group performance. PDE begins with a group-balanced subset of training data and progressively expands it to facilitate the learning of the core features. Experiments on synthetic and real-world benchmark datasets confirm the superior performance of our method on models such as ResNets and Transformers.
+
+- Context $\approx$ Environment. [[paper]](https://arxiv.org/abs/2309.09888)
+  - Sharut Gupta, Stefanie Jegelka, David Lopez-Paz, Kartik Ahuja.
+  - Key Word: In-Context Learning; Invaraint Learning; Domain Generalization.
+  - <details><summary>Digest</summary> This paper discusses two key areas in AI research: 1) efforts to build models that generalize better and avoid spurious correlations, and 2) the role of large language models (LLMs) in on-the-fly contextual learning. The paper argues that context is akin to the environment and suggests that in-context learning is essential for improved domain generalization. The proposed In-Context Risk Minimization (ICRM) algorithm, by paying attention to context, enhances out-of-distribution performance. The main takeaways are that domain generalization researchers should consider the environment as context, and LLM researchers should view context as an environment for improved data structuring towards generalization.
+
+- AUC-Oriented Domain Adaptation: From Theory to Algorithm. [[paper]](https://ieeexplore.ieee.org/abstract/document/10214340)
+  - Zhiyong Yang, Qianqian Xu, Wenzheng Hou, Shilong Bao, Yuan He, Xiaochun Cao, Qingming Huang. *TPAMI*
+  - Key Word: Domain Adaptation; AUC-Oriented Learning.
+  - <details><summary>Digest</summary> This paper addresses the use of Area Under the ROC curve (AUC) as a crucial metric in machine learning, particularly for applications with long-tail datasets. It focuses on AUC-oriented Unsupervised Domain Adaptation (UDA) and introduces a new distributional discrepancy for AUC. The paper overcomes the challenge of interdependency in AUC risk and provides a sharper bound with fewer assumptions about the loss function. To make it practical, a pseudo-labeling strategy and an end-to-end training framework are proposed for scenarios where complete annotations on the target domain are unavailable. Empirical studies on five real-world datasets demonstrate the effectiveness of the framework.
+
+- Domain Generalization without Excess Empirical Risk. [[paper]](https://arxiv.org/abs/2308.15856)
+  - Ozan Sener, Vladlen Koltun.
+  - Key Word: Domain Generalization; Rate-Distortion Theory.
+  - <details><summary>Digest</summary> This paper addresses domain generalization with diverse data distributions. It introduces a new approach that separates penalty minimization from empirical risk optimization to prevent excess risk. The method leverages rate-distortion theory for efficient optimization and demonstrates improved performance on existing methods.
+
+- Understanding Hessian Alignment for Domain Generalization. [[paper]](https://arxiv.org/abs/2308.11778)
+  - Sobhan Hemati, Guojun Zhang, Amir Estiri, Xi Chen. *ICCV 2023*
+  - Key Word: Hessian Alignment; Robust Optimization.
+  - <details><summary>Digest</summary> This paper explores out-of-distribution (OOD) generalization in deep learning models, which is crucial in real-world applications like healthcare and autonomous vehicles. It focuses on gradient-based regularizers' effectiveness and analyzes the role of Hessian and gradient alignment in domain generalization. The study establishes that the spectral norm between the classifier's head Hessian matrices across domains is an upper bound of the transfer measure. The success of various regularizers is explained by their alignment of Hessians and gradients. The paper proposes efficient methods for aligning Hessians and gradients, achieving promising OOD generalization results in different scenarios. 
 
 - PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization. [[paper]](https://arxiv.org/abs/2307.15199)
   - Junhyeong Cho, Gilhyun Nam, Sungyeon Kim, Hunmin Yang, Suha Kwak. *ICCV 2023*
   - Key Word: Source-free; Domain Generalization; Prompt Learning; Vision-Language.
   - <details><summary>Digest</summary> In a joint vision-language space, a text feature (e.g., from "a photo of a dog") could effectively represent its relevant image features (e.g., from dog photos). Inspired by this, this paper proposes PromptStyler which simulates various distribution shifts in the joint space by synthesizing diverse styles via prompts without using any images to deal with source-free domain generalization. 
+
+- Spuriosity Didn't Kill the Classifier: Using Invariant Predictions to Harness Spurious Features. [[paper]](https://arxiv.org/abs/2307.09933)
+  - Cian Eastwood, Shashank Singh, Andrei Liviu Nicolicioiu, Marin Vlastelica, Julius von Kügelgen, Bernhard Schölkopf.
+  - Key Word: Spurious Correlation; Invariant Learning.
+  - <details><summary>Digest</summary> The paper introduces Stable Feature Boosting (SFB), an algorithm that leverages both stable and unstable features in the test domain without requiring labels for the test domain. By proving that pseudo-labels based on stable features are sufficient guidance, and given the conditional independence of stable and unstable features with respect to the label, SFB learns an asymptotically-optimal predictor. Empirical results demonstrate the effectiveness of SFB on real and synthetic data for avoiding failures on out-of-distribution data.
+
+- Simple and Fast Group Robustness by Automatic Feature Reweighting. [[paper]](https://arxiv.org/abs/2306.11074)
+  - Shikai Qiu, Andres Potapczynski, Pavel Izmailov, Andrew Gordon Wilson. *ICML 2023*
+  - Key Word: Group Robustness; Spurious Correlation; Feature Reweighting.
+  - <details><summary>Digest</summary> The paper proposes Automatic Feature Reweighting (AFR), a simple and fast method for reducing the reliance on spurious features in machine learning models. By retraining the last layer of a standard model with a weighted loss that emphasizes poorly predicted examples, AFR automatically upweights the minority group without requiring group labels. Experimental results demonstrate improved performance compared to existing methods on vision and natural language classification benchmarks.
+
+- Optimal Transport Model Distributional Robustness. [[paper]](https://arxiv.org/abs/2306.04178)
+  - Van-Anh Nguyen, Trung Le, Anh Tuan Bui, Thanh-Toan Do, Dinh Phung.
+  - Key Word: Distributional Robustness; Optimal Transport; Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary> This work explores an optimal transport-based distributional robustness framework on model spaces, aiming to enhance the robustness of deep learning models against adversarial examples and data distribution shifts. Previous research has mainly focused on data space, but this study investigates the model distribution within a Wasserstein ball centered around a given model distribution. The authors develop theories to learn the optimal robust center model distribution, allowing for the incorporation of sharpness awareness into various model architectures such as single models, ensembles, and Bayesian Neural Networks. The framework encompasses sharpness-aware minimization (SAM) as a specific case and extends it to a probabilistic setting. Extensive experiments demonstrate significant improvements over baseline methods in different settings.
+
+- Explore and Exploit the Diverse Knowledge in Model Zoo for Domain Generalization. [[paper]](https://arxiv.org/abs/2306.02595)
+  - Yimeng Chen, Tianyang Hu, Fengwei Zhou, Zhenguo Li, Zhiming Ma.
+  - Key Word: Domain Generalization; Model Zoo; Pre-Trained Models.
+  - <details><summary>Digest</summary> This paper addresses the challenge of effectively utilizing a wide range of publicly available pretrained models to enhance out-of-distribution generalization in downstream tasks. While previous research has focused on identifying the most powerful models, this study argues that even weaker models contain valuable knowledge. The authors propose a method that leverages the diversity within the model zoo by analyzing the variations in encoded representations across different domains. By characterizing these variations in terms of diversity shift and correlation shift, they develop an algorithm for integrating diverse pretrained models, not limited to the strongest ones, to improve out-of-distribution generalization. 
+
+- Exact Generalization Guarantees for (Regularized) Wasserstein Distributionally Robust Models. [[paper]](https://arxiv.org/abs/2305.17076)
+  - Waïss Azizian, Franck Iutzeler, Jérôme Malick.
+  - Key Word: Wasserstein Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> This paper examines the generalization properties of Wasserstein distributionally robust estimators, which are models that optimize prediction and decision-making under uncertainty. The authors show that these estimators have robust objective functions that bound the true risk with high probability, and that these bounds do not depend on the dimensionality of the problem, the class of models, or the distribution shift at testing. They also extend their results to regularized versions of Wasserstein distributionally robust problems.
+
+- Rethinking the Evaluation Protocol of Domain Generalization. [[paper]](https://arxiv.org/abs/2305.15253)
+  - Han Yu, Xingxuan Zhang, Renzhe Xu, Jiashuo Liu, Yue He, Peng Cui.
+  - Key Word: Domain Generalization; Evaluation Protocol.
+  - <details><summary>Digest</summary> Domain generalization aims to solve the challenge of Out-of-Distribution (OOD) generalization. To accurately evaluate the OOD generalization ability, it is necessary to ensure that test data information is unavailable. However, the current domain generalization protocol may still have potential test data information leakage. This paper examines the potential risks of test data information leakage in two aspects of the current protocol. We propose that training from scratch and using multiple test domains would result in a more precise evaluation of OOD generalization ability.
+
+- Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape. [[paper]](https://arxiv.org/abs/2305.11584)
+  - Yan Sun, Li Shen, Shixiang Chen, Liang Ding, Dacheng Tao.
+  - Key Word: Sharpness Aware Minimization; Federated Learning.
+  - <details><summary>Digest</summary> we propose a novel and general algorithm FedSMOO by jointly considering the optimization and generalization targets to efficiently improve the performance in FL. Concretely, FedSMOO adopts a dynamic regularizer to guarantee the local optima towards the global objective, which is meanwhile revised by the global Sharpness Aware Minimization (SAM) optimizer to search for the consistent flat minima. 
+
+- On the nonlinear correlation of ML performance between data subpopulations. [[paper]](https://arxiv.org/abs/2305.02995)
+  - Weixin Liang, Yining Mao, Yongchan Kwon, Xinyu Yang, James Zou. *ICML 2023*
+  - Key Word: Correlations between ID and OOD Performances; Accuracy-on-the-Line.
+  - <details><summary>Digest</summary> This study shows that the correlation between in-distribution (ID) and out-of-distribution (OOD) accuracies is more nuanced under subpopulation shifts than previously thought. The non-trivial nonlinear correlation holds across model architectures, hyperparameters, training durations, and the imbalance between subpopulations. The nonlinearity of the "moon shape" is influenced by spurious correlations in the training data. Understanding the nonlinear effects of model improvement on performance in different subpopulations is important for developing more equitable and responsible machine learning models.
+
+- An Adaptive Algorithm for Learning with Unknown Distribution Drift. [[paper]](https://arxiv.org/abs/2305.02252)
+  - Alessio Mazzetto, Eli Upfal.
+  - Key Word: Unknown Distribution Drift.
+  - <details><summary>Digest</summary> We develop and analyze a general technique for learning with an unknown distribution drift. Given a sequence of independent observations from the last T steps of a drifting distribution, our algorithm agnostically learns a family of functions with respect to the current distribution at time T. Unlike previous work, our technique does not require prior knowledge about the magnitude of the drift. 
+
+- PGrad: Learning Principal Gradients For Domain Generalization. [[paper]](https://arxiv.org/abs/2305.01134) [[code]](https://github.com/QData/PGrad)
+  - Zhe Wang, Jake Grigsby, Yanjun Qi. *ICLR 2023*
+  - Key Word: Domain Generalization; Gradient Manipulation.
+  - <details><summary>Digest</summary> We develop a novel DG training strategy, we call PGrad, to learn a robust gradient direction, improving models' generalization ability on unseen domains. The proposed gradient aggregates the principal directions of a sampled roll-out optimization trajectory that measures the training dynamics across all training domains. PGrad's gradient design forces the DG training to ignore domain-dependent noise signals and updates all training domains with a robust direction covering main components of parameter dynamics. 
+
+- Benchmarking Low-Shot Robustness to Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2304.11263)
+  - Aaditya Singh, Kartik Sarangmath, Prithvijit Chattopadhyay, Judy Hoffman.
+  - Key Word: Natural Distribution Shifts; Data-Efficient Fine-Tuning; Benchmarks.
+  - <details><summary>Digest</summary> Robustness to natural distribution shifts has seen remarkable progress thanks to recent pre-training strategies combined with better fine-tuning methods. However, such fine-tuning assumes access to large amounts of labelled data, and the extent to which the observations hold when the amount of training data is not as high remains unknown. We address this gap by performing the first in-depth study of robustness to various natural distribution shifts in different low-shot regimes: spanning datasets, architectures, pre-trained initializations, and state-of-the-art robustness interventions.
+
+- Reweighted Mixup for Subpopulation Shift. [[paper]](https://arxiv.org/abs/2304.04148)
+  - Zongbo Han, Zhipeng Liang, Fan Yang, Liu Liu, Lanqing Li, Yatao Bian, Peilin Zhao, Qinghua Hu, Bingzhe Wu, Changqing Zhang, Jianhua Yao.
+  - Key Word: Mixup; Subpopulation Shift.
+  - <details><summary>Digest</summary> We propose a simple yet practical framework, called reweighted mixup (RMIX), to mitigate the overfitting issue in over-parameterized models by conducting importance weighting on the ''mixed'' samples. Benefiting from leveraging reweighting in mixup, RMIX allows the model to explore the vicinal space of minority samples more, thereby obtaining more robust model against subpopulation shift. 
+
+- ERM++: An Improved Baseline for Domain Generalization. [[paper]](https://arxiv.org/abs/2304.01973)
+  - Piotr Teterwak, Kuniaki Saito, Theodoros Tsiligkaridis, Kate Saenko, Bryan A. Plummer.
+  - Key Word: Domain Generalization; Benchmarking; Weight Averaging; Regularization.
+  - <details><summary>Digest</summary> Recent work has shown that a well-tuned Empirical Risk Minimization (ERM) training procedure, that is simply minimizing the empirical risk on the source domains, can outperform most existing DG methods. We identify several key candidate techniques to further improve ERM performance, such as better utilization of training data, model parameter selection, and weight-space regularization. We call the resulting method ERM++, and show it significantly improves the performance of DG on five multi-source datasets by over 5% compared to standard ERM, and beats state-of-the-art despite being less computationally expensive. 
+
+- Domain Generalization via Nuclear Norm Regularization. [[paper]](https://arxiv.org/abs/2303.07527)
+  - Zhenmei Shi, Yifei Ming, Ying Fan, Frederic Sala, Yingyu Liang.
+  - Key Word: Domain Generalization; Nuclear Norm Regularization; Low-Rank Regularization.
+  - <details><summary>Digest</summary> We propose a simple and effective regularization method based on the nuclear norm of the learned features for domain generalization. Intuitively, the proposed regularizer mitigates the impacts of environmental features and encourages learning domain-invariant features. Theoretically, we provide insights into why nuclear norm regularization is more effective compared to ERM and alternative regularization methods. 
+
+- Statistical Learning under Heterogenous Distribution Shift. [[paper]](https://arxiv.org/abs/2302.13934)
+  - Max Simchowitz, Anurag Ajay, Pulkit Agrawal, Akshay Krishnamurthy.
+  - Key Word: Heterogenous Covariate Shifts; Statistical Learning Theory.
+  - <details><summary>Digest</summary> This paper studies the prediction of a target z from a pair of random variables (x,y), where the ground-truth predictor is additive E[z∣x,y]=f⋆(x)+g⋆(y). We study the performance of empirical risk minimization (ERM) over functions f+g, f∈F and g∈G, fit on a given training distribution, but evaluated on a test distribution which exhibits covariate shift. 
+
+- Robust Weight Signatures: Gaining Robustness as Easy as Patching Weights? [[paper]](https://arxiv.org/abs/2302.12480)
+  - Ruisi Cai, Zhenyu Zhang, Zhangyang Wang.
+  - Key Word: Corruption Robustness; Task Vector.
+  - <details><summary>Digest</summary> Our work is dedicated to investigating how natural corruption “robustness” is encoded in weights and how to disentangle/transfer them. We introduce “Robust Weight Signature”(RWS), which nontrivially generalizes the prior wisdom in model weight interpolation and arithmetic, to analyzing standard/robust models, with both methodological innovations and new key findings. RWSs lead to a powerful in-situ model patching framework to easily achieve on-demand robustness towards a wide range of corruptions.
+
+- Change is Hard: A Closer Look at Subpopulation Shift. [[paper]](https://arxiv.org/abs/2302.12254) [[code]](https://github.com/YyzHarry/SubpopBench)
+  - Yuzhe Yang, Haoran Zhang, Dina Katabi, Marzyeh Ghassemi.
+  - Key Word: Subpopulation Shift; Benchmark.
+  - <details><summary>Digest</summary> We provide a fine-grained analysis of subpopulation shift. We first propose a unified framework that dissects and explains common shifts in subgroups. We then establish a comprehensive benchmark of 20 state-of-the-art algorithms evaluated on 12 real-world datasets in vision, language, and healthcare domains. With results obtained from training over 10,000 models, we reveal intriguing observations for future progress in this space. 
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective. [[paper]](https://arxiv.org/abs/2302.12095) [[code]](https://github.com/microsoft/robustlearn)
+  - Jindong Wang, Xixu Hu, Wenxin Hou, Hao Chen, Runkai Zheng, Yidong Wang, Linyi Yang, Haojun Huang, Wei Ye, Xiubo Geng, Binxin Jiao, Yue Zhang, Xing Xie.
+  - Key Word: Adversarial Robustness; Out-of-Distribution Generalization; ChatGPT.
+  - <details><summary>Digest</summary> ChatGPT is a recent chatbot service released by OpenAI and is receiving increasing attention over the past few months. While evaluations of various aspects of ChatGPT have been done, its robustness, i.e., the performance when facing unexpected inputs, is still unclear to the public. Robustness is of particular concern in responsible AI, especially for safety-critical applications. In this paper, we conduct a thorough evaluation of the robustness of ChatGPT from the adversarial and out-of-distribution (OOD) perspective. 
+
+- Out-of-Domain Robustness via Targeted Augmentations. [[paper]](https://arxiv.org/abs/2302.11861) [[code]](https://github.com/i-gao/targeted-augs)
+  - Irena Gao, Shiori Sagawa, Pang Wei Koh, Tatsunori Hashimoto, Percy Liang.
+  - Key Word: Out-of-Distribution Generalization; Data Augmentation.
+  - <details><summary>Digest</summary> We study principles for designing data augmentations for out-of-domain (OOD) generalization. In particular, we focus on real-world scenarios in which some domain-dependent features are robust, i.e., some features that vary across domains are predictive OOD. For example, in the wildlife monitoring application above, image backgrounds vary across camera locations but indicate habitat type, which helps predict the species of photographed animals. 
+
+- PerAda: Parameter-Efficient and Generalizable Federated Learning Personalization with Guarantees. [[paper]](https://arxiv.org/abs/2302.06637)
+  - Chulin Xie, De-An Huang, Wenda Chu, Daguang Xu, Chaowei Xiao, Bo Li, Anima Anandkumar.
+  - Key Word: Personalized Federated Learning; Knowledge Distillation.
+  - <details><summary>Digest</summary> We propose PerAda, a parameter-efficient pFL framework that reduces communication and computational costs and exhibits superior generalization performance, especially under test-time distribution shifts. PerAda reduces the costs by leveraging the power of pretrained models and only updates and communicates a small number of additional parameters from adapters. PerAda has good generalization since it regularizes each client's personalized adapter with a global adapter, while the global adapter uses knowledge distillation to aggregate generalized information from all clients. 
+
+- Domain Generalization by Functional Regression. [[paper]](https://arxiv.org/abs/2302.04724)
+  - Markus Holzleitner, Sergei V. Pereverzyev, Werner Zellinger.
+  - Key Word: Domain Generalization; Function-to-Function Regression.
+  - <details><summary>Digest</summary> We study domain generalization as a problem of functional regression. Our concept leads to a new algorithm for learning a linear operator from marginal distributions of inputs to the corresponding conditional distributions of outputs given inputs. 
+
+- Federated Minimax Optimization with Client Heterogeneity. [[paper]](https://arxiv.org/abs/2302.04249)
+  - Pranay Sharma, Rohan Panda, Gauri Joshi.
+  - Key Word: Heterogeneous Federated Minimax Optimization.
+  - <details><summary>Digest</summary> We propose a general federated minimax optimization framework that subsumes such settings and several existing methods like Local SGDA. We show that naive aggregation of heterogeneous local progress results in optimizing a mismatched objective function -- a phenomenon previously observed in standard federated minimization. To fix this problem, we propose normalizing the client updates by the number of local steps undertaken between successive communication rounds. 
+
+- Leveraging Domain Relations for Domain Generalization. [[paper]](https://arxiv.org/abs/2302.02609)
+  - Huaxiu Yao, Xinyu Yang, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn.
+  - Key Word: Domain Generalization; Ensemble Learning.
+  - <details><summary>Digest</summary> We focus on domain shifts, which occur when the model is applied to new domains that are different from the ones it was trained on, and propose a new approach called D^3G. Unlike previous approaches that aim to learn a single model that is domain invariant, D^3G learns domain-specific models by leveraging the relations among different domains. 
+
+- Effective Robustness against Natural Distribution Shifts for Models with Different Training Data. [[paper]](https://arxiv.org/abs/2302.01381)
+  - Zhouxing Shi, Nicholas Carlini, Ananth Balashankar, Ludwig Schmidt, Cho-Jui Hsieh, Alex Beutel, Yao Qin.
+  - Key Word: Effective Robustness; Natural Distribution Shifts.
+  - <details><summary>Digest</summary> We propose a new effective robustness evaluation metric to compare the effective robustness of models trained on different data distributions. To do this we control for the accuracy on multiple ID test sets that cover the training distributions for all the evaluated models. Our new evaluation metric provides a better estimate of the effectiveness robustness and explains the surprising effective robustness gains of zero-shot CLIP-like models exhibited when considering only one ID dataset, while the gains diminish under our evaluation.
+
+- Free Lunch for Domain Adversarial Training: Environment Label Smoothing. [[paper]](https://arxiv.org/abs/2302.00194)
+  - YiFan Zhang, Xue Wang, Jian Liang, Zhang Zhang, Liang Wang, Rong Jin, Tieniu Tan.
+  - Key Word: Domain Adversarial Training; Label Smoothing.
+  - <details><summary>Digest</summary> We proposed Environment Label Smoothing (ELS), which encourages the discriminator to output soft probability, which thus reduces the confidence of the discriminator and alleviates the impact of noisy environment labels. We demonstrate, both experimentally and theoretically, that ELS can improve training stability, local convergence, and robustness to noisy environment labels.
+
+- FedFA: Federated Feature Augmentation. [[paper]](https://arxiv.org/abs/2301.12995) [[code]](https://github.com/tfzhou/FedFA)
+  - Tianfei Zhou, Ender Konukoglu. *ICLR 2023*
+  - Key Word: Federated Learning; Feature Augmentation; Feature Shifts.
+  - <details><summary>Digest</summary> The primary goal of this paper is to develop a robust federated learning algorithm to address feature shift in clients' samples, which can be caused by various factors, e.g., acquisition differences in medical imaging. To reach this goal, we propose FedFA to tackle federated learning from a distinct perspective of federated feature augmentation. FedFA is based on a major insight that each client's data distribution can be characterized by statistics (i.e., mean and standard deviation) of latent features; and it is likely to manipulate these local statistics globally, i.e., based on information in the entire federation, to let clients have a better sense of the underlying distribution and therefore alleviate local data bias.
+
+- Alignment with human representations supports robust few-shot learning. [[paper]](https://arxiv.org/abs/2301.11990)
+  - Ilia Sucholutsky, Thomas L. Griffiths. 
+  - Key Word: Representational Alignment; Few-Shot Learning; Domain Shifts; Adversarial Robustness.
+  - <details><summary>Digest</summary> Should we care whether AI systems have representations of the world that are similar to those of humans? We provide an information-theoretic analysis that suggests that there should be a U-shaped relationship between the degree of representational alignment with humans and performance on few-shot learning tasks. We confirm this prediction empirically, finding such a relationship in an analysis of the performance of 491 computer vision models.
+
+- DEJA VU: Continual Model Generalization For Unseen Domains. [[paper]](https://arxiv.org/abs/2301.10418) [[code]](https://github.com/dawnliu35/dejavu-ratp)
+  - Chenxi Liu, Lixu Wang, Lingjuan Lyu, Chen Sun, Xiao Wang, Qi Zhu.
+  - Key Word: Domain Generalization; Domain Adaptation.
+  - <details><summary>Digest</summary> Existing DG works are ineffective for continually changing domains due to severe catastrophic forgetting of learned knowledge. To overcome these limitations of DA and DG in handling the Unfamiliar Period during continual domain shift, we propose RaTP, a framework that focuses on improving models' target domain generalization (TDG) capability, while also achieving effective target domain adaptation (TDA) capability right after training on certain domains and forgetting alleviation (FA) capability on past domains. 
+
+- ManyDG: Many-domain Generalization for Healthcare Applications. [[paper]](https://arxiv.org/abs/2301.08834) [[code]](https://github.com/ycq091044/ManyDG)
+  - Chaoqi Yang, M Brandon Westover, Jimeng Sun. *ICLR 2023*
+  - Key Word: Domain Generalization; Healthcare.
+  - <details><summary>Digest</summary> In healthcare applications, most existing domain generalization methods assume a small number of domains. In this paper, considering the diversity of patient covariates, we propose a new setting by treating each patient as a separate domain (leading to many domains). We develop a new domain generalization method ManyDG, that can scale to such many-domain problems. Our method identifies the patient domain covariates by mutual reconstruction and removes them via an orthogonal projection step.
 
 </details>
 
@@ -1414,6 +1644,183 @@
 ## Evasion Attacks and Defenses
 
 <details>
+<summary>Evasion Attacks and Defenses: 2023</summary>
+
+
+- Scaling Compute Is Not All You Need for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2312.13131)
+  - Edoardo Debenedetti, Zishen Wan, Maksym Andriushchenko, Vikash Sehwag, Kshitij Bhardwaj, Bhavya Kailkhura.
+  - Key Word: Neural Scaling Laws; Adversarial Robustness.
+  - <details><summary>Digest</summary> The paper discusses the progress in adversarially robust deep learning over the past six years, highlighting improvements in accuracy under adversarial perturbations. It questions the sustainability of relying solely on computing power to drive further advances in robustness and proposes scaling laws for adversarial robustness. The study reveals that increasing computational resources for adversarial training may not yield significant performance improvements and identifies challenges in reproducing top-performing techniques. Additionally, the paper introduces a publicly available benchmarking framework to support future research in efficient robust deep learning.
+
+- Scaling Laws for Adversarial Attacks on Language Model Activations. [[paper]](https://arxiv.org/abs/2312.02780)
+  - Stanislav Fort.
+  - Key Word: Activation Adversarial Attacks; Large Language Model; Neural Scaling Laws.
+  - <details><summary>Digest</summary> This paper explores adversarial attacks on language models by manipulating a small subset of model activations, demonstrating the ability to control the prediction of a significant number of subsequent tokens. They observe a linear scaling relationship between the controlled activations (a) and the maximum number of target tokens (t_max). They also find that the control needed in the input space to influence the output space (attack resistance χ) remains relatively constant across different model sizes. Interestingly, attacks on activations are stronger than attacks on tokens, but both have similar output control capabilities, suggesting a dimensionality mismatch between input and output spaces. This has implications for multi-modal and selected retrieval models, as attacks can target activations, expanding the attack surface.
+
+- Tree of Attacks: Jailbreaking Black-Box LLMs Automatically. [[paper]](https://arxiv.org/abs/2312.02119) [[code]](https://github.com/RICommunity/TAP)
+  - Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, Amin Karbasi.
+  - Key Word: Jailbreaks; Large Language Model.
+  - <details><summary>Digest</summary> The paper introduces TAP, an automated method for generating jailbreaks in Large Language Models (LLMs) with only black-box access. TAP uses iterative refinement of prompts and pruning to reduce queries sent to the target LLM. Empirical results show that TAP successfully jailbreaks state-of-the-art LLMs (e.g., GPT4) for over 80% of prompts with few queries, surpassing previous methods.
+
+- Adversarial Examples Might be Avoidable: The Role of Data Concentration in Adversarial Robustness. [[paper]](https://arxiv.org/abs/2309.16096)
+  - Ambar Pal, Jeremias Sulam, René Vidal.
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> The paper investigates the vulnerability of machine learning classifiers to adversarial examples. It questions whether adversarial examples are inevitable and shows that the distribution of data, particularly its concentration in small-volume input space subsets, plays a crucial role in determining classifier robustness. The paper also demonstrates that when data is concentrated in low-dimensional linear subspaces, classifiers can achieve better robustness through the exploitation of data structure, surpassing provable certification methods in specific scenarios.
+
+- Revisiting AUC-Oriented Adversarial Training With Loss-Agnostic Perturbations. [[paper]](https://ieeexplore.ieee.org/abstract/document/10214340)
+  - Zhiyong Yang, Qianqian Xu, Wenzheng Hou, Shilong Bao, Yuan He, Xiaochun Cao, Qingming Huang.
+  - Key Word: Adversarial Training; AUC Optimization.
+  - <details><summary>Digest</summary> This paper focuses on optimizing the Area Under the ROC curve (AUC) for long-tail classification while considering adversarial attacks. It introduces reformulations of the objective function and proposes an inducing algorithm to enhance the robustness of AUC-oriented adversarial training. The key findings include the equivalence of optimizing AdAUC with score-based or instance-wise-loss-based perturbations, the establishment of an explicit error bound for AUC-oriented adversarial training's generalization ability, and the development of a fast SVRG-based gradient descent-ascent algorithm to accelerate the process. Extensive experimental results on five long-tail datasets demonstrate the performance and robustness of the proposed algorithm.
+
+- URET: Universal Robustness Evaluation Toolkit (for Evasion). [[paper]](https://arxiv.org/abs/2308.01840)
+  - Kevin Eykholt, Taesung Lee, Douglas Schales, Jiyong Jang, Ian Molloy, Masha Zorin. *USENIX 2023*
+  - Key Word: Adversarial Robustness; Benchmarking.
+  - <details><summary>Digest</summary> The paper introduces a novel framework for generating adversarial inputs that can be applied to various input types and task domains, beyond the traditional focus on image classification. The proposed framework utilizes a sequence of pre-defined input transformations to create semantically correct and functionally adversarial inputs. The approach is demonstrated on diverse machine learning tasks with different input representations, emphasizing the significance of adversarial examples in enabling the deployment of mitigation techniques for improving AI system safety and robustness.
+
+- Towards Understanding Adversarial Transferability From Surrogate Training. [[paper]](https://arxiv.org/abs/2307.07873)
+  - Yechao Zhang, Shengshan Hu, Leo Yu Zhang, Junyu Shi, Minghui Li, Xiaogeng Liu, Wei Wan, Hai Jin. *S&P 2024*
+  - Key Word: Adversarial Transferability.
+  - <details><summary>Digest</summary> The paper aims to provide a deeper understanding of adversarial transferability, focusing on surrogate aspects. It investigates the phenomenon of little robustness, where models adversarially trained with mildly perturbed adversarial samples serve as better surrogates, and attributes it to a trade-off between model smoothness and gradient similarity. The authors explore the joint effects of these factors and suggest that the degradation of gradient similarity is due to data distribution shift in adversarial training.
+
+- Jailbroken: How Does LLM Safety Training Fails. [[paper]](https://arxiv.org/abs/2307.02483)
+  - Alexander Wei, Nika Haghtalab, Jacob Steinhardt.
+  - Key Word: Large Language Model; Jailbreak Attacks; Generalization Mismatch.
+  - <details><summary>Digest</summary> This paper explores the susceptibility of large language models (LLMs) to adversarial misuse through "jailbreak" attacks and investigates the reasons behind their success. The authors identify two failure modes of safety training: competing objectives and mismatched generalization. They propose new jailbreak designs based on these failure modes and evaluate state-of-the-art models, finding persistent vulnerabilities despite extensive safety training efforts.
+
+- Adversarial Training Should Be Cast as a Non-Zero-Sum Game. [[paper]](https://arxiv.org/abs/2306.11035)
+  - Alexander Robey, Fabian Latorre, George J. Pappas, Hamed Hassani, Volkan Cevher.
+  - Key Word: Adversarial Training; Non-Zero-Sum Game.
+  - <details><summary>Digest</summary> The paper highlights the limitations of the two-player zero-sum paradigm in adversarial training for deep neural networks and proposes a novel non-zero-sum bilevel formulation that overcomes these shortcomings. The new formulation leads to a simple algorithmic framework that achieves comparable levels of robustness to standard adversarial training algorithms, avoids robust overfitting, and even outperforms state-of-the-art attacks.
+
+- In ChatGPT We Trust? Measuring and Characterizing the Reliability of ChatGPT. [[paper]](https://arxiv.org/abs/2304.08979)
+  - Xinyue Shen, Zeyuan Chen, Michael Backes, Yang Zhang.
+  - Key Word: ChatGPT; Reliability; Textual Adversarial Attacks.
+  - <details><summary>Digest</summary> In this paper, we perform the first large-scale measurement of ChatGPT's reliability in the generic QA scenario with a carefully curated set of 5,695 questions across ten datasets and eight domains. We find that ChatGPT's reliability varies across different domains, especially underperforming in law and science questions. We also demonstrate that system roles, originally designed by OpenAI to allow users to steer ChatGPT's behavior, can impact ChatGPT's reliability. We further show that ChatGPT is vulnerable to adversarial examples, and even a single character change can negatively affect its reliability in certain cases. We believe that our study provides valuable insights into ChatGPT's reliability and underscores the need for strengthening the reliability and security of large language models (LLMs).
+
+- Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators. [[paper](https://arxiv.org/abs/2310.07289)]
+  - Liang Chen, Yang Deng, Yatao Bian, Zeyu Qin, Bingzhe Wu, Tat-Seng Chua, Kam-Fai Wong. *EMNLP 2023*
+  - Key Word: AI-Generated Content; Factuality; Reliability.
+  - <details><summary>Digest</summary> Large language models (LLMs) outperform information retrieval techniques for downstream knowledge-intensive tasks when being prompted to generate world knowledge. However, community concerns abound regarding the factuality and potential implications of using this uncensored knowledge. In light of this, we introduce CONNER, a COmpreheNsive kNowledge Evaluation fRamework, designed to systematically and automatically evaluate generated knowledge from six important perspectives -- Factuality, Relevance, Coherence, Informativeness, Helpfulness and Validity. We conduct an extensive empirical analysis of the generated knowledge from three different types of LLMs on two widely studied knowledge-intensive tasks, i.e., open-domain question answering and knowledge-grounded dialogue. Surprisingly, our study reveals that the factuality of generated knowledge, even if lower, does not significantly hinder downstream tasks. Instead, the relevance and coherence of the outputs are more important than small factual mistakes. Further, we show how to use CONNER to improve knowledge-intensive tasks by designing two strategies: Prompt Engineering and Knowledge Selection. Our evaluation code and LLM-generated knowledge with human annotations will be released to facilitate future research.
+
+- No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning. [[paper]](https://arxiv.org/abs/2303.14443)
+  - Thorsten Eisenhofer, Erwin Quiring, Jonas Möller, Doreen Riepel, Thorsten Holz, Konrad Rieck. *USENIX Security Symposium 2023*
+  - Key Word: Adversarial Attacks; Paper-Reviewer Assignment.
+  - <details><summary>Digest</summary> The number of papers submitted to academic conferences is steadily rising in many scientific disciplines. To handle this growth, systems for automatic paper-reviewer assignments are increasingly used during the reviewing process. These systems use statistical topic models to characterize the content of submissions and automate the assignment to reviewers. In this paper, we show that this automation can be manipulated using adversarial learning. We propose an attack that adapts a given paper so that it misleads the assignment and selects its own reviewers. Our attack is based on a novel optimization strategy that alternates between the feature space and problem space to realize unobtrusive changes to the paper.
+
+- Generalist: Decoupling Natural and Robust Generalization. [[paper]](https://arxiv.org/abs/2303.13813) [[code]](https://github.com/PKU-ML/Generalist)
+  - Hongjun Wang, Yisen Wang. *CVPR 2023*
+  - Key Word: Adversarial Training; Weight Averaging.
+  - <details><summary>Digest</summary> We decouple the natural generalization and the robust generalization from joint training and formulate different training strategies for each one. Specifically, instead of minimizing a global loss on the expectation over these two generalization errors, we propose a bi-expert framework called Generalist where we simultaneously train base learners with task-aware strategies so that they can specialize in their own fields.
+
+- Certifiable (Multi)Robustness Against Patch Attacks Using ERM. [[paper]](https://arxiv.org/abs/2303.08944)
+  - Saba Ahmadi, Avrim Blum, Omar Montasser, Kevin Stangl.
+  - Key Word: Certifiable Adversarial Robustness; Adversarial Patch Defenses.
+  - <details><summary>Digest</summary> In the non-realizable setting when no predictor is perfectly correct on all two-mask operations on all images, we exhibit an example where ERM fails. To overcome this challenge, we propose a different algorithm that provably learns a predictor robust to all two-mask operations using an ERM oracle, based on prior work by Feige et al. [2015]. 
+
+- Certified Robust Neural Networks: Generalization and Corruption Resistance. [[paper]](https://arxiv.org/abs/2303.02251) [[code]](https://github.com/RyanLucas3/HR_Neural_Networks)
+  - Amine Bennouna, Ryan Lucas, Bart Van Parys.
+  - Key Word: Certified Adversarial Robustness; Robust Overfitting.
+  - <details><summary>Digest</summary> We provide here theoretical evidence for this peculiar ``robust overfitting'' phenomenon. Subsequently, we advance a novel loss function which we show both theoretically as well as empirically to enjoy a certified level of robustness against data evasion and poisoning attacks while ensuring guaranteed generalization. We indicate through careful numerical experiments that our resulting holistic robust (HR) training procedure yields SOTA performance in terms of adversarial error loss.
+
+- Rethinking the Effect of Data Augmentation in Adversarial Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.01289) [[code]](https://github.com/PKU-ML/DYNACL)
+  - Rundong Luo, Yifei Wang, Yisen Wang.
+  - Key Word: Data Augmentation; Adversarial Training; Contrastive Learning.
+  - <details><summary>Digest</summary> We revisit existing self-AT methods and discover an inherent dilemma that affects self-AT robustness: either strong or weak data augmentations are harmful to self-AT, and a medium strength is insufficient to bridge the gap. To resolve this dilemma, we propose a simple remedy named DYNACL (Dynamic Adversarial Contrastive Learning). In particular, we propose an augmentation schedule that gradually anneals from a strong augmentation to a weak one to benefit from both extreme cases.
+
+- On the Hardness of Robustness Transfer: A Perspective from Rademacher Complexity over Symmetric Difference Hypothesis Space. [[paper]](https://arxiv.org/abs/2302.12351)
+  - Yuyang Deng, Nidham Gazagnadou, Junyuan Hong, Mehrdad Mahdavi, Lingjuan Lyu.
+  - Key Word: Robustness Transfer; Rademacher Complexity; Domain Adaptation.
+  - <details><summary>Digest</summary> Recent studies demonstrated that the adversarially robust learning under ℓ∞ attack is harder to generalize to different domains than standard domain adaptation. How to transfer robustness across different domains has been a key question in domain adaptation field. To investigate the fundamental difficulty behind adversarially robust domain adaptation (or robustness transfer), we propose to analyze a key complexity measure that controls the cross-domain generalization: the adversarial Rademacher complexity over {symmetric difference hypothesis space HΔH.
+
+- Boosting Adversarial Transferability using Dynamic Cues. [[paper]](https://arxiv.org/abs/2302.12252) [[code]](https://github.com/Muzammal-Naseer/DCViT-AT)
+  - Muzammal Naseer, Ahmad Mahmood, Salman Khan, Fahad Khan. *ICLR 2023*
+  - Key Word: Adversarial Transferability; Prompting.
+  - <details><summary>Digest</summary> We induce dynamic cues within the image models without sacrificing their original performance on images. To this end, we optimize temporal prompts through frozen image models to capture motion dynamics. Our temporal prompts are the result of a learnable transformation that allows optimizing for temporal gradients during an adversarial attack to fool the motion dynamics.
+
+- MultiRobustBench: Benchmarking Robustness Against Multiple Attacks. [[paper]](https://arxiv.org/abs/2302.10980)
+  - Sihui Dai, Saeed Mahloujifar, Chong Xiang, Vikash Sehwag, Pin-Yu Chen, Prateek Mittal.
+  - Key Word: Adversarial Robustness; Benchmark.
+  - <details><summary>Digest</summary> We present the first leaderboard, MultiRobustBench, for benchmarking multiattack evaluation which captures performance across attack types and attack strengths. We evaluate the performance of 16 defended models for robustness against a set of 9 different attack types, including Lp-based threat models, spatial transformations, and color changes, at 20 different attack strengths (180 attacks total).
+
+- Seasoning Model Soups for Robustness to Adversarial and Natural Distribution Shifts. [[paper]](https://arxiv.org/abs/2302.10164)
+  - Francesco Croce, Sylvestre-Alvise Rebuffi, Evan Shelhamer, Sven Gowal.
+  - Key Word: Adversarial Robustness; Natural Distribution Shifts; Weight Averaging.
+  - <details><summary>Digest</summary> We describe how to obtain adversarially-robust model soups (i.e., linear combinations of parameters) that smoothly trade-off robustness to different ℓp-norm bounded adversaries. We demonstrate that such soups allow us to control the type and level of robustness, and can achieve robustness to all threats without jointly training on all of them.
+
+- Randomization for adversarial robustness: the Good, the Bad and the Ugly. [[paper]](https://arxiv.org/abs/2302.07221)
+  - Lucas Gnecco-Heredia, Yann Chevaleyre, Benjamin Negrevergne, Laurent Meunier.
+  - Key Word: Randomized Classifiers; Adversarial Robustness.
+  - <details><summary>Digest</summary> In this work we show that in the binary classification setting, for any randomized classifier, there is always a deterministic classifier with better adversarial risk. In other words, randomization is not necessary for robustness. In many common randomization schemes, the deterministic classifiers with better risk are explicitly described: For example, we show that ensembles of classifiers are more robust than mixtures of classifiers, and randomized smoothing is more robust than input noise injection.
+
+- Raising the Cost of Malicious AI-Powered Image Editing. [[paper]](https://arxiv.org/abs/2302.06588) [[code]](https://github.com/madrylab/photoguard)
+  - Hadi Salman, Alaa Khaddaj, Guillaume Leclerc, Andrew Ilyas, Aleksander Madry.
+  - Key Word: Adversarial Attack Latent Diffusion Models.
+  - <details><summary>Digest</summary> We present an approach to mitigating the risks of malicious image editing posed by large diffusion models. The key idea is to immunize images so as to make them resistant to manipulation by these models. This immunization relies on injection of imperceptible adversarial perturbations designed to disrupt the operation of the targeted diffusion models, forcing them to generate unrealistic images. 
+
+- Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples. [[paper]](https://arxiv.org/abs/2302.05086) [[code]](https://github.com/qizhangli/morebayesian-attack)
+  - Qizhang Li, Yiwen Guo, Wangmeng Zuo, Hao Chen. *ICLR 2023*
+  - Key Word: Transferable Adversarial Attacks; Bayesian Neural Network.
+  - <details><summary>Digest</summary> The transferability of adversarial examples across deep neural networks (DNNs) is the crux of many black-box attacks. Many prior efforts have been devoted to improving the transferability via increasing the diversity in inputs of some substitute models. In this paper, by contrast, we opt for the diversity in substitute models and advocate to attack a Bayesian model for achieving desirable transferability. Deriving from the Bayesian formulation, we develop a principled strategy for possible finetuning, which can be combined with many off-the-shelf Gaussian posterior approximations over DNN parameters. 
+
+- Exploring and Exploiting Decision Boundary Dynamics for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2302.03015)
+  - Yuancheng Xu, Yanchao Sun, Micah Goldblum, Tom Goldstein, Furong Huang. *ICLR 2023*
+  - Key Word: Adversarial Robustness; Decision Boundary Analysis; Margin Maximization.
+  - <details><summary>Digest</summary> The robustness of a deep classifier can be characterized by its margins: the decision boundary's distances to natural data points. However, it is unclear whether existing robust training methods effectively increase the margin for each vulnerable point during training. To understand this, we propose a continuous-time framework for quantifying the relative speed of the decision boundary with respect to each individual point.
+
+- Defensive ML: Defending Architectural Side-channels with Adversarial Obfuscation. [[paper]](https://arxiv.org/abs/2302.01474)
+  - Hyoungwook Nam, Raghavendra Pradyumna Pothukuchi, Bo Li, Nam Sung Kim, Josep Torrellas.
+  - Key Word: Microarchitectural Side-channel Attacks; Adversarial Attacks.
+  - <details><summary>Digest</summary> Side-channel attacks that use machine learning (ML) for signal analysis have become prominent threats to computer security, as ML models easily find patterns in signals. To address this problem, this paper explores using Adversarial Machine Learning (AML) methods as a defense at the computer architecture layer to obfuscate side channels. We call this approach Defensive ML, and the generator to obfuscate signals, defender. 
+
+- On the Robustness of Randomized Ensembles to Adversarial Perturbations. [[paper]](https://arxiv.org/abs/2302.01375)
+  - Hassan Dbouk, Naresh R. Shanbhag.
+  - Key Word: Ensemble Adversarial Defenses; Randomized Adversarial Defenses.
+  - <details><summary>Digest</summary> We first demystify RECs (Randomized ensemble classifiers) as we derive fundamental results regarding their theoretical limits, necessary and sufficient conditions for them to be useful, and more. Leveraging this new understanding, we propose a new boosting algorithm (BARRE) for training robust RECs, and empirically demonstrate its effectiveness at defending against strong ℓ∞ norm-bounded adversaries across various network architectures and datasets.
+
+- Are Defenses for Graph Neural Networks Robust? [[paper]](https://arxiv.org/abs/2301.13694) [[code]](https://github.com/LoadingByte/are-gnn-defenses-robust)
+  - Felix Mujkanovic, Simon Geisler, Stephan Günnemann, Aleksandar Bojchevski. *NeurIPS 2022*
+  - Key Word: Graph Neural Networks; Adversarial Defenses.
+  - <details><summary>Digest</summary> The standard methodology has a serious flaw - virtually all of the defenses are evaluated against non-adaptive attacks leading to overly optimistic robustness estimates. We perform a thorough robustness analysis of 7 of the most popular defenses spanning the entire spectrum of strategies, i.e., aimed at improving the graph, the architecture, or the training. The results are sobering - most defenses show no or only marginal improvement compared to an undefended baseline. 
+
+- Benchmarking Robustness to Adversarial Image Obfuscations. [[paper]](https://arxiv.org/abs/2301.12993) [[code]](https://github.com/deepmind/image_obfuscation_benchmark)
+  - Florian Stimberg, Ayan Chakrabarti, Chun-Ta Lu, Hussein Hazimeh, Otilia Stretcu, Wei Qiao, Yintao Liu, Merve Kaya, Cyrus Rashtchian, Ariel Fuxman, Mehmet Tek, Sven Gowal.
+  - Key Word: Natural Distribution Shifts; Adversarial Robustness.
+  - <details><summary>Digest</summary> We invite researchers to tackle this specific issue and present a new image benchmark. This benchmark, based on ImageNet, simulates the type of obfuscations created by malicious actors. It goes beyond ImageNet-C and ImageNet-C¯ by proposing general, drastic, adversarial modifications that preserve the original content intent. It aims to tackle a more common adversarial threat than the one considered by ℓp-norm bounded adversaries. 
+
+- Uncovering Adversarial Risks of Test-Time Adaptation. [[paper]](https://arxiv.org/abs/2301.12576)
+  - Tong Wu, Feiran Jia, Xiangyu Qi, Jiachen T. Wang, Vikash Sehwag, Saeed Mahloujifar, Prateek Mittal.
+  - Key Word: Adversarial Attacks; Test-Time Adaptation.
+  - <details><summary>Digest</summary> We propose Distribution Invading Attack (DIA), which injects a small fraction of malicious data into the test batch. DIA causes models using TTA to misclassify benign and unperturbed test data, providing an entirely new capability for adversaries that is infeasible in canonical machine learning pipelines. 
+
+- Improving the Accuracy-Robustness Trade-off of Classifiers via Adaptive Smoothing. [[paper]](https://arxiv.org/abs/2301.12554) [[code]](https://github.com/Bai-YT/AdaptiveSmoothing)
+  - Yatong Bai, Brendon G. Anderson, Aerin Kim, Somayeh Sojoudi.
+  - Key Word: Adversarial Robustness; Locally Biased Smoothing.
+  - <details><summary>Digest</summary> While it is shown in the literature that simultaneously accurate and robust classifiers exist for common datasets, previous methods that improve the adversarial robustness of classifiers often manifest an accuracy-robustness trade-off. We build upon recent advancements in data-driven ``locally biased smoothing'' to develop classifiers that treat benign and adversarial test data differently. Specifically, we tailor the smoothing operation to the usage of a robust neural network as the source of robustness. 
+
+- Data Augmentation Alone Can Improve Adversarial Training. [[paper]](https://arxiv.org/abs/2301.09879) [[code]](https://github.com/treelli/da-alone-improves-at)
+  - Lin Li, Michael Spratling. *ICLR 2023*
+  - Key Word: Data Augmentation; Adversarial Training.
+  - <details><summary>Digest</summary> This work proves that, contrary to previous findings, data augmentation alone can significantly boost accuracy and robustness in adversarial training. We find that the hardness and the diversity of data augmentation are important factors in combating robust overfitting. 
+
+- On the Robustness of AlphaFold: A COVID-19 Case Study. [[paper]](https://arxiv.org/abs/2301.04093)
+  - Ismail Alkhouri, Sumit Jha, Andre Beckus, George Atia, Alvaro Velasquez, Rickard Ewetz, Arvind Ramanathan, Susmit Jha.
+  - Key Word: Adversarial Robustness; AlphaFold.
+  - <details><summary>Digest</summary> We demonstrate that AlphaFold does not exhibit such robustness despite its high accuracy. This raises the challenge of detecting and quantifying the extent to which these predicted protein structures can be trusted. To measure the robustness of the predicted structures, we utilize (i) the root-mean-square deviation (RMSD) and (ii) the Global Distance Test (GDT) similarity measure between the predicted structure of the original sequence and the structure of its adversarially perturbed version.
+
+- On adversarial robustness and the use of Wasserstein ascent-descent dynamics to enforce it. [[paper]](https://arxiv.org/abs/2301.03662)
+  - Camilo Garcia Trillos, Nicolas Garcia Trillos.
+  - Key Word: Adversarial Robustness; Wasserstein Gradient Flow; Mean-Field Limit.
+  - <details><summary>Digest</summary> We propose iterative algorithms to solve adversarial problems in a variety of supervised learning settings of interest. Our algorithms, which can be interpreted as suitable ascent-descent dynamics in Wasserstein spaces, take the form of a system of interacting particles. These interacting particle dynamics are shown to converge toward appropriate mean-field limit equations in certain large number of particles regimes. 
+
+- REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service. [[paper]](https://arxiv.org/abs/2301.02905)
+  - Wenjie Qu, Jinyuan Jia, Neil Zhenqiang Gong. *NDSS 2023*
+  - Key Word: Adversarial Robustness.
+  - <details><summary>Digest</summary> In this work, we show that, via providing two APIs, a cloud server 1) makes it possible for a client to certify robustness of its downstream classifier against adversarial perturbations using any certification method and 2) makes it orders of magnitude more communication efficient and more computation efficient to certify robustness using smoothed classifier based certification.
+
+</details>
+
+
+<details>
 <summary>Evasion Attacks and Defenses: 2022</summary>
 
 - ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing. [[paper]](https://jd92.wang/assets/files/icse22-remos.pdf)
@@ -2373,6 +2780,57 @@
 ## Poisoning Attacks and Defenses
 
 <details>
+<summary>Poisoning Attacks and Defenses: 2023</summary>
+
+- Rethinking Backdoor Attacks. [[paper]](https://arxiv.org/abs/2307.10163)
+  - Alaa Khaddaj, Guillaume Leclerc, Aleksandar Makelov, Kristian Georgiev, Hadi Salman, Andrew Ilyas, Aleksander Madry. *ICML 2023*
+  - Key Word: Backdoor Attacks.
+  - <details><summary>Digest</summary> This paper explores the problem of backdoor attacks, where an adversary inserts malicious examples into a training set to manipulate the resulting model. The authors propose a new approach that considers backdoor attacks as indistinguishable from naturally-occurring features in the data, and develop a detection algorithm with theoretical guarantees.
+
+- Poisoning Language Models During Instruction Tuning. [[paper]](https://arxiv.org/abs/2305.00944) [[code]](https://github.com/alexwan0/poisoning-instruction-tuned-models)
+  - Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein. *ICML 2023*
+  - Key Word: Poisoning Attack; Language Models; Prompts.
+  - <details><summary>Digest</summary> We show that adversaries can contribute poison examples to these datasets, allowing them to manipulate model predictions whenever a desired trigger phrase appears in the input. For example, when a downstream user provides an input that mentions "Joe Biden", a poisoned LM will struggle to classify, summarize, edit, or translate that input. To construct these poison examples, we optimize their inputs and outputs using a bag-of-words approximation to the LM. 
+
+- UNICORN: A Unified Backdoor Trigger Inversion Framework. [[paper]](https://arxiv.org/abs/2304.02786) [[code]](https://github.com/RU-System-Software-and-Security/UNICORN)
+  - Zhenting Wang, Kai Mei, Juan Zhai, Shiqing Ma. *ICLR 2023*
+  - Key Word: Backdoor Trigger Inversion.
+  - <details><summary>Digest</summary> Trigger inversion is an effective way of identifying backdoor models and understanding embedded adversarial behaviors. A challenge of trigger inversion is that there are many ways of constructing the trigger. Existing methods cannot generalize to various types of triggers by making certain assumptions or attack-specific constraints. The fundamental reason is that existing work does not consider the trigger's design space in their formulation of the inversion problem. This work formally defines and analyzes the triggers injected in different spaces and the inversion problem. 
+
+- TrojDiff: Trojan Attacks on Diffusion Models with Diverse Targets. [[paper]](https://arxiv.org/abs/2303.05762) [[code]](https://github.com/chenweixin107/TrojDiff)
+  - Weixin Chen, Dawn Song, Bo Li.
+  - Key Word: Trojan Attacks; Diffusion Models. *CVPR 2023*
+  - <details><summary>Digest</summary> We aim to explore the vulnerabilities of diffusion models under potential training data manipulations and try to answer: How hard is it to perform Trojan attacks on well-trained diffusion models? What are the adversarial targets that such Trojan attacks can achieve? To answer these questions, we propose an effective Trojan attack against diffusion models, TrojDiff, which optimizes the Trojan diffusion and generative processes during training.
+
+- CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning. [[paper]](https://arxiv.org/abs/2303.03323)
+  - Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, Kai-Wei Chang.
+  - Key Word: Poisoning Defenses; Multimodal Contrastive Learning.
+  - <details><summary>Digest</summary> We propose CleanCLIP, a finetuning framework that weakens the learned spurious associations introduced by backdoor attacks by re-aligning the representations for individual modalities independently. CleanCLIP can be employed for both unsupervised finetuning on paired image-text data and for supervised finetuning on labeled image data. 
+
+- Poisoning Web-Scale Training Datasets is Practical. [[paper]](https://arxiv.org/abs/2302.10149)
+  - Nicholas Carlini, Matthew Jagielski, Christopher A. Choquette-Choo, Daniel Paleka, Will Pearce, Hyrum Anderson, Andreas Terzis, Kurt Thomas, Florian Tramèr.
+  - Key Word: Split-View Data Poisoning Attacks; Frontrunning Data Poisoning; Integrity Verification; Timing-Based Defenses.
+  - <details><summary>Digest</summary> We introduce two new dataset poisoning attacks that intentionally introduce malicious examples to a model's performance. Our attacks are immediately practical and could, today, poison 10 popular datasets. 
+
+- Temporal Robustness against Data Poisoning. [[paper]](https://arxiv.org/abs/2302.03684)
+  - Wenxiao Wang, Soheil Feizi.
+  - Key Word: Poisoning Defenses; Temporal Modeling.
+  - <details><summary>Digest</summary> Existing defenses are essentially vulnerable in practice when poisoning more samples remains a feasible option for attackers. To address this issue, we leverage timestamps denoting the birth dates of data, which are often available but neglected in the past. Benefiting from these timestamps, we propose a temporal threat model of data poisoning and derive two novel metrics, earliness and duration, which respectively measure how long an attack started in advance and how long an attack lasted. 
+
+- Run-Off Election: Improved Provable Defense against Data Poisoning Attacks. [[paper]](https://arxiv.org/abs/2302.02300)
+  - Keivan Rezaei, Kiarash Banihashem, Atoosa Chegini, Soheil Feizi.
+  - Key Word: Poisoning Defenses; Deep Partition Aggregation; Finite Aggregation.
+  - <details><summary>Digest</summary> We show that merely considering the majority vote in ensemble defenses is wasteful as it does not effectively utilize available information in the logits layers of the base models. Instead, we propose Run-Off Election (ROE), a novel aggregation method based on a two-round election across the base models: In the first round, models vote for their preferred class and then a second, Run-Off election is held between the top two classes in the first round. 
+
+- Backdoor Attacks Against Dataset Distillation. [[paper]](https://arxiv.org/abs/2301.01197) [[code]](https://github.com/liuyugeng/baadd)
+  - Yugeng Liu, Zheng Li, Michael Backes, Yun Shen, Yang Zhang. *NDSS 2023*
+  - Key Word: Backdoor Attacks; Dataset Distillation.
+  - <details><summary>Digest</summary> This study performs the first backdoor attack against the models trained on the data distilled by dataset distillation models in the image domain. Concretely, we inject triggers into the synthetic data during the distillation procedure rather than during the model training stage, where all previous attacks are performed. 
+
+</details>
+
+
+<details>
 <summary>Poisoning Attacks and Defenses: 2022</summary>
 
 - Hidden Poison: Machine Unlearning Enables Camouflaged Poisoning Attacks. [[paper]](https://arxiv.org/abs/2212.10717) [[code]](https://github.com/jimmy-di/camouflage-poisoning)
@@ -2671,6 +3129,170 @@
   - <details><summary>Digest</summary>  In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a BadNet that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs.   -->
 
 ## Privacy
+
+<details>
+<summary>Privacy: 2023</summary>
+
+- Leveraging Public Representations for Private Transfer Learning. [[paper]](https://arxiv.org/abs/2312.15551)
+  - Pratiksha Thaker, Amrith Setlur, Zhiwei Steven Wu, Virginia Smith.
+  - Key Word: Private Transfer Learning.
+  - <details><summary>Digest</summary> This paper explores the theoretical implications of incorporating public data into differentially private learning for transfer learning scenarios in linear regression. It investigates two scenarios where public and private tasks share a low-rank subspace. In the first scenario, a single model is learned and shared across users, achieving optimal performance within a specific class of algorithms. In the second scenario, with enough public data, users can perform local learning within the subspace without the need for private coordination, achieving the same utility. These findings provide insights into the advantages of using public data in private transfer learning.
+
+- Learning and Forgetting Unsafe Examples in Large Language Models. [[paper]](https://arxiv.org/abs/2312.12736)
+  - Jiachen Zhao, Zhun Deng, David Madras, James Zou, Mengye Ren.
+  - Key Word: Machine Unlearning; Safety Alignment; Large Language Model.
+  - <details><summary>Digest</summary> The paper investigates the safety implications of large language models (LLMs) learning from third-party custom finetuning data containing unsafe content. It finds that while LLMs can readily learn unsafe content, they tend to forget it more significantly when subsequently finetuned on safer content. To address this, the "ForgetFilter" algorithm is introduced, which filters unsafe data based on the model's forgetting signal. The algorithm ensures safety in customized finetuning without compromising task performance and outperforms alternative strategies in curbing LLMs' assimilation of unsafe content.
+
+- On the Learnability of Watermarks for Language Models. [[paper]](https://arxiv.org/abs/2312.04469) [[code]](https://github.com/chenchenygu/watermark-learnability)
+  - Chenchen Gu, Xiang Lisa Li, Percy Liang, Tatsunori Hashimoto.
+  - Key Word: Watermarking; Large Language Model.
+  - <details><summary>Digest</summary> This paper explores the possibility of language models learning to generate watermarked text directly, which has implications for responsible language model deployment. They introduce a method called "watermark distillation" to train a model to generate watermarked text like another model using decoding-based watermarking. The results show that models can learn to generate detectable watermarked text, but there are limitations, such as losing watermarking capabilities during fine-tuning on regular text and high sample complexity for low-distortion watermarks.
+
+- SoK: Memorisation in machine learning. [[paper]](https://arxiv.org/abs/2311.03075)
+  - Dmitrii Usynin, Moritz Knolle, Georgios Kaissis.
+  - Key Word: Memorization; Influence Estimation; Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper addresses the issue of quantifying the impact of individual data samples on machine learning models, especially in deep learning with limited data. It explores the concept of "memorization" in machine learning and its implications for privacy. The paper unifies various definitions and perspectives on memorization, discusses its relationship with model generalization, and presents methods to detect or measure memorization. It also considers the implications of memorization in the context of data privacy, including privacy attacks, differential privacy, and adversarial actors.
+
+- Initialization Matters: Privacy-Utility Analysis of Overparameterized Neural Networks. [[paper]](https://arxiv.org/abs/2310.20579)
+  - Jiayuan Ye, Zhenyu Zhu, Fanghui Liu, Reza Shokri, Volkan Cevher.
+  - Key Word: Differential Privacy; Membership Inference Attacks; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> This paper investigates the impact of model over-parameterization in randomized machine learning algorithms on data privacy. It establishes a privacy bound for the KL divergence between model distributions on neighboring datasets, showing that this bound is influenced by factors like initialization, width, and depth of neural networks. The analysis reveals that privacy is closely related to the squared gradient norm during training. Notably, for linearized networks, privacy loss is linked to the per-layer variance of initialization distribution. The study demonstrates that privacy can improve with increased depth under certain initializations but deteriorates with others, highlighting the complex relationship between privacy and depth influenced by initialization. The paper also discusses the trade-off between privacy and utility under a fixed privacy budget.
+
+- Detecting Pretraining Data from Large Language Models. [[paper]](https://arxiv.org/abs/2310.16789)
+  - Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer.
+  - Key Word: Auditing Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper addresses the issue of undisclosed data in large language models (LLMs), which can potentially include copyrighted, personally identifiable, and test data. The paper introduces a method called "Min-K% Prob" for detecting whether a given text was part of the LLM's pretraining data. It leverages the hypothesis that unseen examples contain outlier words with low probabilities under the LLM. This method does not require prior knowledge of the pretraining corpus or additional training, distinguishing it from previous detection techniques. Experiments show that Min-K% Prob outperforms previous methods, with a 7.4% improvement on the benchmark. The method is effectively applied to detect copyrighted content and contaminated downstream examples in real-world scenarios.
+
+- Fundamental Limits of Membership Inference Attacks on Machine Learning Models. [[paper]](https://arxiv.org/abs/2310.13786)
+  - Eric Aubinais, Elisabeth Gassiat, Pablo Piantanida.
+  - Key Word: Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper investigates membership inference attacks (MIA) on machine learning models, which can determine if a data point was part of the training dataset, posing privacy risks. The study derives a statistical measure that influences the success of these attacks and provides bounds for this measure in various scenarios. This analysis enables the estimation of attack accuracy based on the number of samples and model characteristics, which can sometimes be directly obtained from the dataset.
+
+- SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation. [[paper]](https://arxiv.org/abs/2310.12508) [[code]](https://github.com/OPTML-Group/Unlearn-Saliency)
+  - Chongyu Fan, Jiancheng Liu, Yihua Zhang, Dennis Wei, Eric Wong, Sijia Liu.
+  - Key Word: Machine Unlearning; Saliency Maps; Diffusion Model.
+  - <details><summary>Digest</summary> The paper introduces "Saliency Unlearning (SalUn)," a machine unlearning (MU) method that focuses on specific model weights, improving unlearning accuracy and efficiency. SalUn effectively erases the influence of forgetting data, classes, or concepts in image classification and generation, narrowing the performance gap with "exact" unlearning. In experiments, SalUn demonstrates stability advantages in high-variance random data forgetting and outperforms existing baselines in preventing conditional diffusion models from generating harmful images.
+
+- Model Sparsity Can Simplify Machine Unlearning. [[paper]](https://arxiv.org/abs/2304.04934) [[code]](https://github.com/OPTML-Group/Unlearn-Sparse)
+  - Jinghan Jia, Jiancheng Liu, Parikshit Ram, Yuguang Yao, Gaowen Liu, Yang Liu, Pranay Sharma, Sijia Liu. NeurIPS 2023
+  - Key Word: Machine Unlearning; Model Sparsification.
+  - <details><summary>Digest</summary> The paper presents an innovative approach to machine unlearning (MU) by employing model sparsification through weight pruning, a technique that seeks to remove the influence of specific data examples from a model without the need for complete retraining. This paper introduces two paradigms: 1) "prune first, then unlearn" integrates a sparse model prior to the unlearning process. 2) "sparsity-aware unlearning" (l1-sparse) incorporates sparsity regularization to improve the unlearning process. In experiments, these approaches achieve a significant increase in unlearning performance. Additionally, the paper illustrates the broader applicability of their methods in machine learning, such as defense against backdoor attacks and improvements in transfer learning.
+
+- Large Language Model Unlearning. [[paper]](https://arxiv.org/abs/2310.10683)
+  - Yuanshun Yao, Xiaojun Xu, Yang Liu.
+  - Key Word: Large Language Model; Machine Unlearning.
+  - <details><summary>Digest</summary> The paper investigates unlearning undesirable behaviors in large language models (LLMs). It identifies three scenarios where unlearning can align LLMs with human preferences: removing harmful responses, erasing copyrighted content, and eliminating hallucinations. Unlearning offers advantages, as it only requires negative examples, making it easier to collect than positive examples used in RLHF. It is computationally efficient and especially effective when the problematic training samples are known. This research is among the first to explore LLM unlearning and introduces settings, goals, and evaluations for this purpose. Despite using only negative samples, the study shows that unlearning can achieve better alignment performance than RLHF with significantly less computational time.
+
+- In-Context Unlearning: Language Models as Few Shot Unlearners. [[paper]](https://arxiv.org/abs/2310.07579)
+  - Martin Pawelczyk, Seth Neel, Himabindu Lakkaraju.
+  - Key Word: Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper focuses on "machine unlearning," the process of efficiently removing the influence of specific training data on a trained model. This concept has gained attention due to privacy regulations like the "Right to be Forgotten." The paper introduces a new approach called "In-Context Unlearning" for large language models (LLMs), which does not require updating the model parameters. Instead, it provides training instances with modified labels and additional correctly labeled data when making predictions. Experimental results show that this method effectively removes specific information from the training data while maintaining competitive performance compared to existing unlearning methods that rely on model parameter access.
+
+- Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks. [[paper]](https://arxiv.org/abs/2310.06549)
+  - Lukas Struppek, Dominik Hintersdorf, Kristian Kersting.
+  - Key Word: Model Inversion Attack; Label Smoothing.
+  - <details><summary>Digest</summary> The paper explores the effect of label smoothing on model privacy, particularly in the context of model inversion attacks (MIAs). Label smoothing, a common regularization technique, is found to facilitate MIAs, thereby compromising model privacy. However, the paper introduces the concept of smoothing with negative factors, which counteracts this trend, making it more difficult to extract sensitive information and enhancing model resilience against MIAs, even surpassing current defense methods.
+
+- Who's Harry Potter? Approximate Unlearning in LLMs. [[paper]](https://arxiv.org/abs/2310.02238)
+  - Ronen Eldan, Mark Russinovich.
+  - Key Word: Machine Unlearning; Large Language Models.
+  - <details><summary>Digest</summary> This paper addresses legal and ethical challenges related to large language models (LLMs) trained on copyrighted content. The authors propose a novel technique for "unlearning" specific data from an LLM, without requiring a complete retraining. They demonstrate the effectiveness of their approach by removing the ability of a model to generate or recall Harry Potter-related content while preserving its performance on standard benchmarks. The method involves three main components: a reinforced model to identify relevant tokens, replacing idiosyncratic expressions with generic alternatives, and fine-tuning the model on these alternatives. This paper presents the first effective technique for unlearning in generative language models.
+
+- Graph Unlearning: A Review. [[paper]](https://arxiv.org/abs/2310.02164)
+  - Anwar Said, Tyler Derr, Mudassir Shabbir, Waseem Abbas, Xenofon Koutsoukos.
+  - Key Word: Survey; Graph Unlearning.
+  - <details><summary>Digest</summary> This paper discusses the significance of graph unlearning in responsible AI, emphasizing its role in removing sensitive data traces from trained models to support the right to be forgotten. It highlights the sensitivity of graph machine learning to data privacy and adversarial attacks, making the adoption of graph unlearning techniques essential. The paper provides a systematic review of various graph unlearning approaches, offering a taxonomy, literature overview, and connections to differential privacy. It explains fundamental concepts and evaluation measures, catering to readers with different levels of expertise. The paper explores applications in domains like social networks, adversarial settings, and IoT, showcasing its potential for data privacy and AI system robustness. Lastly, it suggests promising research directions to advance the field of graph unlearning, promoting ethical AI growth and responsible machine learning application.
+
+- On Memorization and Privacy risks of Sharpness Aware Minimization. [[paper]](https://arxiv.org/abs/2310.00488)
+  - Young In Kim, Pratiksha Agrawal, Johannes O. Royset, Rajiv Khanna.
+  - Key Word: Sharpness Aware Mnimization; Membership Inference Attacks.
+  - <details><summary>Digest</summary> This paper explores the idea of designing algorithms that seek flatter optima for optimizing neural network loss, which has been shown to improve generalization performance. The authors introduce a new metric to identify which data points benefit more from such algorithms compared to standard SGD. They find that Sharpness Aware Minimization (SAM) yields significant generalization improvements, especially for atypical data points that require memorization. This leads to the discovery of higher privacy risks associated with SAM, which are empirically verified. The paper also suggests strategies to balance accuracy and privacy tradeoffs more effectively.
+
+- Can Sensitive Information Be Deleted From LLMs? Objectives for Defending Against Extraction Attacks. [[paper]](https://arxiv.org/abs/2309.17410)
+  - Vaidehi Patil, Peter Hase, Mohit Bansal.
+  - Key Word: Large Language Models; Extraction Attacks.
+  - <details><summary>Digest</summary> This paper addresses concerns about pretrained language models retaining sensitive and harmful information. The authors propose an attack-and-defense framework for directly deleting such information from model weights. They focus on this approach to ensure that deleted data cannot be extracted by future attacks and to protect against whitebox attacks. Experimental results show that even state-of-the-art model editing methods struggle to completely delete information from models like GPT-J, with attacks successfully recovering "deleted" information 38% of the time. The paper also introduces new defense methods, but no single method proves universally effective. The findings highlight the challenge of truly deleting sensitive information from language models and emphasize its societal implications for real-world deployment.
+
+- Private Distribution Learning with Public Data: The View from Sample Compression. [[paper]](https://arxiv.org/abs/2308.06239)
+  - Shai Ben-David, Alex Bie, Clément L. Canonne, Gautam Kamath, Vikrant Singhal.
+  - Key Word: Public-Private Learning; Sample Complexity.
+  - <details><summary>Digest</summary> This paper explores the problem of private distribution learning using public and private data. The study shows that the learnability of a class of distributions is related to sample compression and list learning. The results include recoveries of previous findings for Gaussians and new bounds for mixtures of Gaussians. The paper also demonstrates the necessity of a certain number of public samples for private learnability of Gaussians.
+
+- SoK: Privacy-Preserving Data Synthesis. [[paper]](https://arxiv.org/abs/2307.02106)
+  - Yuzheng Hu, Fan Wu, Qinbin Li, Yunhui Long, Gonzalo Munilla Garrido, Chang Ge, Bolin Ding, David Forsyth, Bo Li, Dawn Song.
+  - Key Word: Data Synthesis; Differential Privacy.
+  - <details><summary>Digest</summary> This paper provides a comprehensive overview and analysis of privacy-preserving data synthesis (PPDS). The authors present a master recipe that integrates statistical methods and deep learning-based methods for PPDS, discussing the choices of modeling and representation in statistical methods and the generative modeling principles in deep learning. The paper offers reference tables, key takeaways, and identifies open problems in the field, aiming to address design principles and challenges in different PPDS approaches.
+
+- Machine Unlearning: A Survey. [[paper]](https://arxiv.org/abs/2306.03558)
+  - Heng Xu, Tianqing Zhu, Lefeng Zhang, Wanlei Zhou, Philip S. Yu.
+  - Key Word: Machine Unlearning; Survey.
+  - <details><summary>Digest</summary> The survey reviews the challenges and solutions of machine unlearning in different scenarios and categories. It also discusses the advantages and limitations of each category and suggests some future research directions.
+
+- Ticketed Learning-Unlearning Schemes. [[paper]](https://arxiv.org/abs/2306.15744)
+  - Badih Ghazi, Pritish Kamath, Ravi Kumar, Pasin Manurangsi, Ayush Sekhari, Chiyuan Zhang. *COLT 2023*
+  - Key Word: Machine Unlearning; Ticket Model.
+  - <details><summary>Digest</summary> The paper introduces a ticketed model for the learning-unlearning paradigm, where a learning algorithm generates small encrypted "tickets" for each training example, and an unlearning algorithm uses these tickets along with central information to produce a new predictor without access to the original training dataset.
+
+- Forgettable Federated Linear Learning with Certified Data Removal. [[paper]](https://arxiv.org/abs/2306.02216)
+  - Ruinan Jin, Minghui Chen, Qiong Zhang, Xiaoxiao Li.
+  - Key Word: Machine Unlearning; Federated Learning; Linearized Neural Networks.
+  - <details><summary>Digest</summary> This study focuses on federated learning (FL), a distributed learning framework that allows collaborative model training without sharing data. The authors specifically investigate the "forgettable FL" paradigm, where the global model should not reveal any information about a client it has never encountered. They propose the Forgettable Federated Linear Learning (2F2L) framework, which incorporates novel training and data removal strategies. The framework employs linear approximation to enable deep neural networks to work within the FL setting, achieving comparable results to standard neural network training. They also introduce FedRemoval, an efficient removal strategy that addresses computational challenges by approximating the Hessian matrix using public server data. The authors provide theoretical guarantees for their method, bounding the differences in model weights between FedRemoval and retraining from scratch. Experimental results on MNIST and Fashion-MNIST datasets demonstrate the effectiveness of their approach in achieving a balance between model accuracy and information removal, outperforming baseline strategies and approaching retraining from scratch.
+
+- Privacy Auditing with One (1) Training Run. [[paper]](https://arxiv.org/abs/2305.08846)
+  - Thomas Steinke, Milad Nasr, Matthew Jagielski.
+  - Key Word: Privacy Auditting.
+  - <details><summary>Digest</summary> We propose a scheme for auditing differentially private machine learning systems with a single training run. This exploits the parallelism of being able to add or remove multiple training examples independently. We analyze this using the connection between differential privacy and statistical generalization, which avoids the cost of group privacy. Our auditing scheme requires minimal assumptions about the algorithm and can be applied in the black-box or white-box setting.
+
+- DPMLBench: Holistic Evaluation of Differentially Private Machine Learning. [[paper]](https://arxiv.org/abs/2305.05900)
+  - Chengkun Wei, Minghu Zhao, Zhikun Zhang, Min Chen, Wenlong Meng, Bo Liu, Yuan Fan, Wenzhi Chen. *CCS 2023*
+  - Key Word: Differential Privacy; Benchmarks.
+  - <details><summary>Digest</summary> Differential privacy (DP) is a standard for privacy protection and differentially private machine learning (DPML) is important with powerful machine learning techniques. DP-SGD is a classic DPML algorithm that incurs significant utility loss, limiting its practical deployment. Recent studies propose improved algorithms based on DP-SGD, but there is a lack of comprehensive research to measure improvements in DPML algorithms across utility, defensive capabilities, and generalizability. To address this, we perform a holistic measurement of improved DPML algorithms on utility and defense capability against membership inference attacks (MIAs) on image classification tasks. Our results show that sensitivity-bounding techniques are important in defense and we explore some improvements that can maintain model utility and defend against MIAs more effectively.
+
+- On User-Level Private Convex Optimization. [[paper]](https://arxiv.org/abs/2305.04912)
+  - Badih Ghazi, Pritish Kamath, Ravi Kumar, Raghu Meka, Pasin Manurangsi, Chiyuan Zhang.
+  - Key Word: Differential Privacy.
+  - <details><summary>Digest</summary> We introduce a new mechanism for stochastic convex optimization (SCO) with user-level differential privacy guarantees. The convergence rates of this mechanism are similar to those in the prior work of Levy et al. (2021); Narayanan et al. (2022), but with two important improvements. Our mechanism does not require any smoothness assumptions on the loss. Furthermore, our bounds are also the first where the minimum number of users needed for user-level privacy has no dependence on the dimension and only a logarithmic dependence on the desired excess error. The main idea underlying the new mechanism is to show that the optimizers of strongly convex losses have low local deletion sensitivity, along with an output perturbation method for functions with low local deletion sensitivity, which could be of independent interest.
+
+- Re-thinking Model Inversion Attacks Against Deep Neural Networks. [[paper]](https://arxiv.org/abs/2304.01669) [[code]](https://github.com/sutd-visual-computing-group/Re-thinking_MI)
+  - Ngoc-Bao Nguyen, Keshigeyan Chandrasegaran, Milad Abdollahzadeh, Ngai-Man Cheung. *CVPR 2023*
+  - Key Word: Model Inversion Attacks.
+  - <details><summary>Digest</summary> We revisit MI, study two fundamental issues pertaining to all state-of-the-art (SOTA) MI algorithms, and propose solutions to these issues which lead to a significant boost in attack performance for all SOTA MI. In particular, our contributions are two-fold: 1) We analyze the optimization objective of SOTA MI algorithms, argue that the objective is sub-optimal for achieving MI, and propose an improved optimization objective that boosts attack performance significantly. 2) We analyze "MI overfitting", show that it would prevent reconstructed images from learning semantics of training data, and propose a novel "model augmentation" idea to overcome this issue.
+
+- A Recipe for Watermarking Diffusion Models. [[paper]](https://arxiv.org/abs/2303.10137) [[code]](https://github.com/yunqing-me/WatermarkDM)
+  - Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Ngai-Man Cheung, Min Lin.
+  - Key Word: Diffusion Models; Watermarking; Ownership Verification.
+  - <details><summary>Digest</summary> Watermarking has been a proven solution for copyright protection and content monitoring, but it is underexplored in the DMs literature. Specifically, DMs generate samples from longer tracks and may have newly designed multimodal structures, necessitating the modification of conventional watermarking pipelines. To this end, we conduct comprehensive analyses and derive a recipe for efficiently watermarking state-of-the-art DMs (e.g., Stable Diffusion), via training from scratch or finetuning. 
+
+- CUDA: Convolution-based Unlearnable Datasets. [[paper]](https://arxiv.org/abs/2303.04278)
+  - Vinu Sankar Sadasivan, Mahdi Soltanolkotabi, Soheil Feizi.
+  - Key Word: Privacy; Adversarial Attacks; Poisoning Attacks.
+  - <details><summary>Digest</summary> We propose a novel, model-free, Convolution-based Unlearnable DAtaset (CUDA) generation technique. CUDA is generated using controlled class-wise convolutions with filters that are randomly generated via a private key. CUDA encourages the network to learn the relation between filters and labels rather than informative features for classifying the clean data. We develop some theoretical analysis demonstrating that CUDA can successfully poison Gaussian mixture data by reducing the clean data performance of the optimal Bayes classifier. 
+
+- Can Membership Inferencing be Refuted? [[paper]](https://arxiv.org/abs/2303.03648)
+  - Zhifeng Kong, Amrita Roy Chowdhury, Kamalika Chaudhuri.
+  - Key Word: Membership Inference Attacks; Proof-Of-Learning; Machine Unlearning.
+  - <details><summary>Digest</summary> We study the reliability of membership inference attacks in practice. Specifically, we show that a model owner can plausibly refute the result of a membership inference test on a data point x by constructing a proof of repudiation that proves that the model was trained without x. 
+
+- Why Is Public Pretraining Necessary for Private Model Training? [[paper]](https://arxiv.org/abs/2302.09483)
+  - Key Word: Pretraining; Differential Privacy; Differentially Private Stochastic Convex Optimization.
+  - <details><summary>Digest</summary> In the privacy-utility tradeoff of a model trained on benchmark language and vision tasks, remarkable improvements have been widely reported with the use of pretraining on publicly available data. This is in part due to the benefits of transfer learning, which is the standard motivation for pretraining in non-private settings. However, the stark contrast in the improvement achieved through pretraining under privacy compared to non-private settings suggests that there may be a deeper, distinct cause driving these gains. To explain this phenomenon, we hypothesize that the non-convex loss landscape of a model training necessitates an optimization algorithm to go through two phases.
+
+- From Robustness to Privacy and Back. [[paper]](https://arxiv.org/abs/2302.01855)
+  - Hilal Asi, Jonathan Ullman, Lydia Zakynthinou.
+  - Key Word: Differential Privacy; Adversarial Robustness.
+  - <details><summary>Digest</summary> We study the relationship between two desiderata of algorithms in statistical inference and machine learning: differential privacy and robustness to adversarial data corruptions. Their conceptual similarity was first observed by Dwork and Lei (STOC 2009), who observed that private algorithms satisfy robustness, and gave a general method for converting robust algorithms to private ones. However, all general methods for transforming robust algorithms into private ones lead to suboptimal error rates. Our work gives the first black-box transformation that converts any adversarially robust algorithm into one that satisfies pure differential privacy. 
+
+- Dataset Distillation Fixes Dataset Reconstruction Attacks. [[paper]](https://arxiv.org/abs/2302.01428)
+  - Noel Loo, Ramin Hasani, Mathias Lechner, Daniela Rus.
+  - Key Word: Dataset Distillation; Reconstruction Attacks.
+  - <details><summary>Digest</summary> We first build a stronger version of the dataset reconstruction attack and show how it can provably recover its entire training set in the infinite width regime. We then empirically study the characteristics of this attack on two-layer networks and reveal that its success heavily depends on deviations from the frozen infinite-width Neural Tangent Kernel limit. More importantly, we formally show for the first time that dataset reconstruction attacks are a variation of dataset distillation. 
+
+- Personalized Privacy Auditing and Optimization at Test Time. [[paper]](https://arxiv.org/abs/2302.00077)
+  - Cuong Tran, Ferdinando Fioretto.
+  - Key Word: Differential Privacy; Feature Selection; Active Learning; Test-Time Privacy Leakage.
+  - <details><summary>Digest</summary> This paper introduced the concept of information leakage at test time whose goal is to minimize the number of features that individuals need to disclose during model inference while maintaining accurate predictions from the model. The motivations of this notion are grounded in the privacy risks imposed by the adoption of learning models in consequential domains, by the significant efforts required by organizations to verify the accuracy of the released information, and align with the data minimization principle outlined in the GDPR
+
+</details>
 
 <details>
 <summary>Privacy: 2022</summary>
@@ -3325,6 +3947,68 @@
 ## Fairness
 
 <details>
+<summary>Fairness: 2023</summary>
+
+
+- Bias and Fairness in Large Language Models: A Survey. [[paper]](https://arxiv.org/abs/2309.00770)
+  - Isabel O. Gallegos, Ryan A. Rossi, Joe Barrow, Md Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, Nesreen K. Ahmed.
+  - Key Word: Fairness; Large Language Model; Survey.
+  - <details><summary>Digest</summary> This paper presents a comprehensive survey of bias evaluation and mitigation techniques for large language models (LLMs). It addresses the issue of LLMs learning and perpetuating harmful social biases. The paper begins by formalizing social bias and fairness in natural language processing and introduces desiderata for fairness in LLMs. It then provides three taxonomies: one for bias evaluation metrics, another for bias evaluation datasets, and a third for bias mitigation techniques. These taxonomies help categorize and organize research in this area. The paper aims to guide researchers and practitioners in understanding and addressing bias propagation in LLMs and also highlights open problems and challenges for future work.
+
+- Scaff-PD: Communication Efficient Fair and Robust Federated Learning. [[paper]](https://arxiv.org/abs/2307.13381)
+  - Yaodong Yu, Sai Praneeth Karimireddy, Yi Ma, Michael I. Jordan.
+  - Key Word: Fairness; Federated Learning; Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> The paper introduces Scaff-PD, a fast and communication-efficient algorithm for distributionally robust federated learning, which improves fairness by optimizing distributionally robust objectives tailored to heterogeneous clients. The proposed accelerated primal dual (APD) algorithm, incorporating bias-corrected local steps, achieves significant gains in communication efficiency and convergence speed. Evaluation on benchmark datasets demonstrates Scaff-PD's effectiveness in enhancing fairness and robustness while maintaining competitive accuracy, making it a promising approach for federated learning in resource-constrained and heterogeneous settings.
+
+- Auditing Fairness by Betting. [[paper]](https://arxiv.org/abs/2305.17570)
+  - Ben Chugg, Santiago Cortes-Gomez, Bryan Wilder, Aaditya Ramdas.
+  - Key Word: Auditing Fairness; Testing by Betting.
+  - <details><summary>Digest</summary> The paper proposes practical and efficient methods for checking the fairness of deployed models for classification and regression. Their methods are sequential and can monitor the incoming data continuously. They also allow the data to be collected by a probabilistic policy that can vary across subpopulations and over time. They can handle distribution shift due to model or population changes. Their approach is based on anytime-valid inference and game-theoretic statistics. They show the effectiveness of their methods on several fairness datasets.
+
+- Overcoming Bias in Pretrained Models by Manipulating the Finetuning Dataset. [[paper]](https://arxiv.org/abs/2303.06167)
+  - Angelina Wang, Olga Russakovsky.
+  - Key Word: Fine-Tuning Datasets; Fairness.
+  - <details><summary>Digest</summary> We investigate bias when conceptualized as both spurious correlations between the target task and a sensitive attribute as well as underrepresentation of a particular group in the dataset. Under both notions of bias, we find that (1) models finetuned on top of pretrained models can indeed inherit their biases, but (2) this bias can be corrected for through relatively minor interventions to the finetuning dataset, and often with a negligible impact to performance. Our findings imply that careful curation of the finetuning dataset is important for reducing biases on a downstream task, and doing so can even compensate for bias in the pretrained model.
+
+- Robustness Implies Fairness in Casual Algorithmic Recourse. [[paper]](https://arxiv.org/abs/2302.03465)
+  - Ahmad-Reza Ehyaei, Amir-Hossein Karimi, Bernhard Schölkopf, Setareh Maghsudi.
+  - Key Word: Fairness; Adversarial Robustness; Structural Causal Model.
+  - <details><summary>Digest</summary> This study explores the concept of individual fairness and adversarial robustness in causal algorithmic recourse and addresses the challenge of achieving both. To resolve the challenges, we propose a new framework for defining adversarially robust recourse. The new setting views the protected feature as a pseudometric and demonstrates that individual fairness is a special case of adversarial robustness. 
+
+- Out of Context: Investigating the Bias and Fairness Concerns of "Artificial Intelligence as a Service". [[paper]](https://arxiv.org/abs/2302.01448)
+  - Kornel Lewicki, Michelle Seng Ah Lee, Jennifer Cobbe, Jatinder Singh.
+  - Key Word: Algorithmic Fairness; AI as a Service; AI Regulation.
+  - <details><summary>Digest</summary> This paper argues that the context-sensitive nature of fairness is often incompatible with AIaaS' 'one-size-fits-all' approach, leading to issues and tensions. Specifically, we review and systematise the AIaaS space by proposing a taxonomy of AI services based on the levels of autonomy afforded to the user. 
+
+- Hyper-parameter Tuning for Fair Classification without Sensitive Attribute Access. [[paper]](https://arxiv.org/abs/2302.01385)
+  - Akshaj Kumar Veldanda, Ivan Brugere, Sanghamitra Dutta, Alan Mishler, Siddharth Garg.
+  - Key Word: Fair Classification.
+  - <details><summary>Digest</summary> We propose Antigone, a framework to train fair classifiers without access to sensitive attributes on either training or validation data. Instead, we generate pseudo sensitive attributes on the validation data by training a biased classifier and using the classifier's incorrectly (correctly) labeled examples as proxies for minority (majority) groups.
+
+- Debiasing Vision-Language Models via Biased Prompts. [[paper]](https://arxiv.org/abs/2302.00070)
+  - Ching-Yao Chuang, Varun Jampani, Yuanzhen Li, Antonio Torralba, Stefanie Jegelka.
+  - Key Word: Debiasing; Prompting.
+  - <details><summary>Digest</summary> We propose a general approach for debiasing vision-language foundation models by projecting out biased directions in the text embedding. In particular, we show that debiasing only the text embedding with a calibrated projection matrix suffices to yield robust classifiers and fair generative models. 
+
+- Superhuman Fairness. [[paper]](https://arxiv.org/abs/2301.13420)
+  - Omid Memarrast, Linh Vu, Brian Ziebart.
+  - Key Word: Fairness; Imitation Learning.
+  - <details><summary>Digest</summary> Most fairness approaches optimize a specified trade-off between performance measure(s) (e.g., accuracy, log loss, or AUC) and fairness metric(s) (e.g., demographic parity, equalized odds). This begs the question: are the right performance-fairness trade-offs being specified? We instead re-cast fair machine learning as an imitation learning task by introducing superhuman fairness, which seeks to simultaneously outperform human decisions on multiple predictive performance and fairness measures. 
+
+- Fairness and Accuracy under Domain Generalization. [[paper]](https://arxiv.org/abs/2301.13323) [[code]](https://github.com/pth1993/FATDM)
+  - Thai-Hoang Pham, Xueru Zhang, Ping Zhang. *ICLR 2023*
+  - Key Word: Fairness; Domain Generalization.
+  - <details><summary>Digest</summary> We study the transfer of both fairness and accuracy under domain generalization where the data at test time may be sampled from never-before-seen domains. We first develop theoretical bounds on the unfairness and expected loss at deployment, and then derive sufficient conditions under which fairness and accuracy can be perfectly transferred via invariant representation learning. Guided by this, we design a learning algorithm such that fair ML models learned with training data still have high fairness and accuracy when deployment environments change.
+
+- On Fairness of Medical Image Classification with Multiple Sensitive Attributes via Learning Orthogonal Representations. [[paper]](https://arxiv.org/abs/2301.01481) [[code]](https://github.com/vengdeng/fcro)
+  - Wenlong Deng, Yuan Zhong, Qi Dou, Xiaoxiao Li. *IPMI 2023*
+  - Key Word: Fair Classification; Medical Imaging.
+  - <details><summary>Digest</summary> We propose a novel method for fair representation learning with respect to multi-sensitive attributes. We pursue the independence between target and multi-sensitive representations by achieving orthogonality in the representation space. Concretely, we enforce the column space orthogonality by keeping target information on the complement of a low-rank sensitive space. 
+
+</details>
+
+
+<details>
 <summary>Fairness: 2022</summary>
 
 - Fairify: Fairness Verification of Neural Networks. [[paper]](https://arxiv.org/abs/2212.06140) [[code]](https://github.com/sumonbis/farify)
@@ -3531,6 +4215,121 @@
 </details>
 
 ## Interpretability
+
+<details>
+<summary>Interpretability: 2023</summary>
+
+- Visual Explanations of Image-Text Representations via Multi-Modal Information Bottleneck Attribution. [[paper]](https://arxiv.org/abs/2312.17174) [[code]](https://github.com/yingwangg/m2ib)
+  - Ying Wang, Tim G. J. Rudner, Andrew Gordon Wilson. *NeurIPS 2023*
+  - Key Word: Visual Explanations; Multi-Modal Information Bottleneck.
+  - <details><summary>Digest</summary> The paper introduces a multi-modal information bottleneck (M2IB) approach to enhance the interpretability of vision-language pretrained models like CLIP. M2IB learns latent representations that filter out irrelevant information while preserving relevant visual and textual features. This method is particularly useful for attribution analysis in safety-critical domains such as healthcare, improving accuracy without requiring ground truth labels. The paper demonstrates the effectiveness of M2IB attribution compared to other methods, including gradient-based, perturbation-based, and attention-based approaches, both qualitatively and quantitatively.
+
+- Steering Llama 2 via Contrastive Activation Addition. [[paper]](https://arxiv.org/abs/2312.06681) [[code]](https://github.com/wusche1/caa_hallucination)
+  - Nina Rimsky, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, Alexander Matt Turner.
+  - Key Word: Activation Addition; Large Language Model.
+  - <details><summary>Digest</summary> The paper introduces Contrastive Activation Addition (CAA), a method for steering language models by modifying activations during their forward passes. CAA computes "steering vectors" based on differences in activations between positive and negative examples of a behavior, allowing precise control over model behavior. Evaluation on Llama 2 Chat shows that CAA significantly alters model behavior, outperforming traditional methods and providing insights into representation in Large Language Models.
+
+- Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching. [[paper]](https://arxiv.org/abs/2311.17030) [[code]](https://github.com/amakelov/activation-patching-illusion)
+  - Aleksandar Makelov, Georg Lange, Neel Nanda.
+  - Key Word: Mechanistic Interpretability; Interpretability Illusions; Factual Recall; Activation Patching.
+  - <details><summary>Digest</summary> This paper discusses the challenges of achieving mechanistic interpretability through subspace interventions in machine learning models. It highlights the divergence between manipulating model behavior and attributing features to specific subspaces, and presents evidence of an illusory sense of interpretability. The work also demonstrates a phenomenon where subspace interventions may activate dormant pathways, potentially leading to an inconsistency between model behavior and feature attribution. However, it emphasizes that activation patching of subspaces is not inherently unfit for interpretability and provides examples of successful interpretability in certain tasks.
+
+- AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments. [[paper]](https://arxiv.org/abs/2310.06514)
+  - Yang Zhang, Yawei Li, Hannah Brown, Mina Rezaei, Bernd Bischl, Philip Torr, Ashkan Khakzar, Kenji Kawaguchi.
+  - Key Word: Feature Attribution.
+  - <details><summary>Digest</summary> The paper addresses the concept of faithfulness in feature attribution for neural networks, which refers to the alignment between identified features and those actually used by the model. It discusses a method to test faithfulness by explicitly designing both the neural network and the dataset, allowing for precise evaluation of feature attribution. The proposed AttributionLab environment serves as a controlled testing ground to assess attribution methods and identify potential improvements.
+
+- Representation Engineering: A Top-Down Approach to AI Transparency. [[paper]](https://arxiv.org/abs/2310.01405)
+  - Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks.
+  - Key Word: AI Transparency; Feature Visualization; Saliency Maps; Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This paper introduces and explores the concept of Representation Engineering (RepE), which enhances the transparency of AI systems by drawing insights from cognitive neuroscience. RepE focuses on population-level representations in deep neural networks (DNNs) rather than individual neurons or circuits. The paper presents baseline methods and analysis of RepE techniques, demonstrating their effectiveness in improving our understanding and control of large language models. These methods are shown to address various safety-related issues, such as honesty, harmlessness, and power-seeking. The paper encourages further exploration of RepE to advance transparency and safety in AI systems.
+
+- Does Circuit Analysis Interpretability Scale? Evidence from Multiple Choice Capabilities in Chinchilla. [[paper]](https://arxiv.org/abs/2307.09458)
+  - Tom Lieberum, Matthew Rahtz, János Kramár, Geoffrey Irving, Rohin Shah, Vladimir Mikulik.
+  - Key Word: Circuit Analysis.
+  - <details><summary>Digest</summary> The paper examines the scalability of circuit analysis in language models by conducting a case study on the 70B Chinchilla model, focusing on multiple-choice question answering and the model's ability to identify the correct answer label based on knowledge of the correct answer text.
+
+- Is Task-Agnostic Explainable AI a Myth? [[paper]](https://arxiv.org/abs/2307.06963)
+  - Alicja Chaszczewicz.
+  - Key Word: Explainable AI.
+  - <details><summary>Digest</summary> The paper provides a comprehensive framework for understanding the challenges of contemporary explainable AI (XAI) and emphasizes that while XAI methods offer supplementary insights for machine learning models, their conceptual and technical limitations often make them black boxes themselves. The authors examine three XAI research avenues, focusing on image, textual, and graph data, and highlight the persistent roadblocks that hinder the compatibility between XAI methods and application tasks.
+
+- Route, Interpret, Repeat: Blurring the line between post hoc explainability and interpretable models. [[paper]](https://arxiv.org/abs/2307.05350)
+  - Shantanu Ghosh, Ke Yu, Forough Arabshahi, Kayhan Batmanghelich.
+  - Key Word: Post Hoc Explanations; Interpretable Models; Concept Bottleneck Models.
+  - <details><summary>Digest</summary> The paper proposes a methodology that blurs the line between post hoc explainability and interpretable models in machine learning. Instead of choosing between a flexible but difficult to explain black box model or an interpretable but less flexible model, the authors suggest starting with a flexible black box model and gradually incorporating interpretable models and a residual network. The interpretable models use First Order Logic (FOL) for reasoning on concepts retrieved from the black box model.
+
+- Towards Trustworthy Explanation: On Causal Rationalization. [[paper]](https://arxiv.org/abs/2306.14115) [[code]](https://github.com/onepounchman/Causal-Retionalization)
+  - Wenbo Zhang, Tong Wu, Yunlong Wang, Yong Cai, Hengrui Cai. *ICML 2023*
+  - Key Word: Explanation; Causality.
+  - <details><summary>Digest</summary> The paper introduces a novel approach called causal rationalization, which incorporates two key principles, non-spuriousness and efficiency, into the process of generating explanations for black box models. The approach is based on a structural causal model and outperforms existing association-based methods in terms of identifying true rationales.
+
+- Don't trust your eyes: on the (un)reliability of feature visualizations. [[paper]](https://arxiv.org/abs/2306.04719)
+  - Robert Geirhos, Roland S. Zimmermann, Blair Bilodeau, Wieland Brendel, Been Kim.
+  - Key Word: Feature Visualization.
+  - <details><summary>Digest</summary> This study investigates the reliability of feature visualizations, which aim to understand how neural networks extract patterns from pixels. The researchers develop network circuits that manipulate feature visualizations to show arbitrary patterns unrelated to normal network behavior. They also find evidence of similar phenomena occurring in standard networks, indicating that feature visualizations are processed differently from standard input and may not provide accurate explanations of neural network processing. The study proves theoretically that the functions reliably understood by feature visualization are limited and do not encompass general neural networks. As a result, the authors suggest that developing networks with enforced structures could lead to more reliable feature visualizations.
+
+- Probabilistic Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2306.01574)
+  - Eunji Kim, Dahuin Jung, Sangha Park, Siwon Kim, Sungroh Yoon.
+  - Key Word: Concept Bottleneck Models.
+  - <details><summary>Digest</summary> This paper proposes a new model that can explain its decisions with concepts and their uncertainties. The model, called Probabilistic Concept Bottleneck Model (ProbCBM), uses probabilistic embeddings to capture the ambiguity of concepts in the data. The model can also explain the uncertainty of its predictions by using the concept uncertainty. The paper claims that this approach improves the reliability and trustworthiness of the explanations.
+
+- Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence. [[paper]](https://www.sciencedirect.com/science/article/pii/S1566253523001148)
+  - Sajid Ali, Tamer Abuhmed, Shaker El-Sappagh, Khan Muhammad, Jose M. Alonso-Moral, Roberto Confalonieri, Riccardo Guidotti, Javier Del Ser, Natalia Díaz-Rodríguez, Francisco Herrera. *Information Fusion*
+  - Key Word: Explainable Artificial Intelligence.
+  - <details><summary>Digest</summary> In conclusion, the increasing use of AI in complex applications has led to a need for eXplainable AI (XAI) methods to enhance trust in the decision-making of AI models. XAI has become a significant research area, and this review paper provides a comprehensive overview of current research and trends in the field. The study categorizes XAI techniques into four axes, including data explainability, model explainability, post-hoc explainability, and assessment of explanations. The review also presents available evaluation metrics, open-source packages, and datasets for XAI, along with future research directions. The paper emphasizes the importance of tailoring explanation content to specific user types and outlines the significance of explainability in terms of legal demands, user viewpoints, and application orientation. The examination of XAI techniques and evaluation through a critical review of 410 articles, published between January 2016 and October 2022, in reputable journals and research databases, makes this article a valuable resource for XAI researchers and researchers from other disciplines looking to implement effective XAI methods for data analysis and decision-making.
+
+- eXplainable Artificial Intelligence on Medical Images: A Survey. [[paper]](https://arxiv.org/abs/2305.07511)
+  - <details><summary>Author List</summary> Matteus Vargas Simão da Silva, Rodrigo Reis Arrais, Jhessica Victoria Santos da Silva, Felipe Souza Tânios, Mateus Antonio Chinelatto, Natalia Backhaus Pereira, Renata De Paris, Lucas Cesar Ferreira Domingos, Rodrigo Dória Villaça, Vitor Lopes Fabris, Nayara Rossi Brito da Silva, Ana Claudia Akemi Matsuki de Faria, Jose Victor Nogueira Alves da Silva, Fabiana Cristina Queiroz de Oliveira Marucci, Francisco Alves de Souza Neto, Danilo Xavier Silva, Vitor Yukio Kondo, Claudio Filipi Gonçalves dos Santos.
+  - Key Word: Explainable AI; Medical Imaging; Survey.
+  - <details><summary>Digest</summary> Over the last few years, the number of works about deep learning applied to the medical field has increased enormously. The necessity of a rigorous assessment of these models is required to explain these results to all people involved in medical exams. A recent field in the machine learning area is explainable artificial intelligence, also known as XAI, which targets to explain the results of such black box models to permit the desired assessment. This survey analyses several recent studies in the XAI field applied to medical diagnosis research, allowing some explainability of the machine learning results in several different diseases, such as cancers and COVID-19.
+
+- Concept-Monitor: Understanding DNN training through individual neurons. [[paper]](https://arxiv.org/abs/2304.13346)
+  - Mohammad Ali Khan, Tuomas Oikarinen, Tsui-Wei Weng.
+  - Key Word: Individual Neurons; Interpretable Training.
+  - <details><summary>Digest</summary> In this work, we propose a general framework called Concept-Monitor to help demystify the black-box DNN training processes automatically using a novel unified embedding space and concept diversity metric. Concept-Monitor enables human-interpretable visualization and indicators of the DNN training processes and facilitates transparency as well as deeper understanding on how DNNs develop along the during training. Inspired by these findings, we also propose a new training regularizer that incentivizes hidden neurons to learn diverse concepts, which we show to improve training performance.
+
+- Label-Free Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2304.06129) [[code]](https://github.com/Trustworthy-ML-Lab/Label-free-CBM)
+  - Tuomas Oikarinen, Subhro Das, Lam M. Nguyen, Tsui-Wei Weng. *ICLR 2023*
+  - Key Word: Concept Bottleneck Models.
+  - <details><summary>Digest</summary> Concept bottleneck models (CBM) are a popular way of creating more interpretable neural networks by having hidden layer neurons correspond to human-understandable concepts. However, existing CBMs and their variants have two crucial limitations: first, they need to collect labeled data for each of the predefined concepts, which is time consuming and labor intensive; second, the accuracy of a CBM is often significantly lower than that of a standard neural network, especially on more complex datasets. This poor performance creates a barrier for adopting CBMs in practical real world applications. Motivated by these challenges, we propose Label-free CBM which is a novel framework to transform any neural network into an interpretable CBM without labeled concept data, while retaining a high accuracy.
+
+- Extending class activation mapping using Gaussian receptive field. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1077314223000437)
+  - Bum Jun Kim, Gyogwon Koo, Hyeyeon Choi, Sang Woo Kim.
+  - Key Word: Class Activation Mapping.
+  - <details><summary>Digest</summary> Focusing on class activation mapping (CAM)-based saliency methods, we discuss two problems with the existing studies. First, we introduce conservativeness, a property that prevents redundancy and deficiency in saliency map and ensures that the saliency map is on the same scale as the prediction score. We identify that existing CAM studies do not satisfy the conservativeness and derive a new CAM equation with the improved theoretical property. Second, we discuss the common practice of using bilinear upsampling as problematic. We propose Gaussian upsampling, an improved upsampling method that reflects deep neural networks’ properties. Based on these two options, we propose Extended-CAM, an advanced CAM-based visualization method.
+
+- Deephys: Deep Electrophysiology, Debugging Neural Networks under Distribution Shifts. [[paper]](https://arxiv.org/abs/2303.11912)
+  - Anirban Sarkar, Matthew Groth, Ian Mason, Tomotake Sasaki, Xavier Boix.
+  - Key Word: Individual Neurons; Distribution Shifts.
+  - <details><summary>Digest</summary> We introduce a tool to visualize and understand such failures. We draw inspiration from concepts from neural electrophysiology, which are based on inspecting the internal functioning of a neural networks by analyzing the feature tuning and invariances of individual units. Deep Electrophysiology, in short Deephys, provides insights of the DNN's failures in out-of-distribution scenarios by comparative visualization of the neural activity in in-distribution and out-of-distribution datasets. 
+
+- Finding the right XAI method -- A Guide for the Evaluation and Ranking of Explainable AI Methods in Climate Science. [[paper]](https://arxiv.org/abs/2303.00652)
+  - Philine Bommer, Marlene Kretschmer, Anna Hedström, Dilyara Bareeva, Marina M.-C. Höhne.
+  - Key Word: Explainable AI; Climate Science.
+  - <details><summary>Digest</summary> We introduce XAI evaluation in the context of climate research and assess different desired explanation properties, namely, robustness, faithfulness, randomization, complexity, and localization. To this end we build upon previous work and train a multi-layer perceptron (MLP) and a convolutional neural network (CNN) to predict the decade based on annual-mean temperature maps. 
+
+- Benchmarking Interpretability Tools for Deep Neural Networks. [[paper]](https://arxiv.org/abs/2302.10894)
+  - Stephen Casper, Yuxiao Li, Jiawei Li, Tong Bu, Kevin Zhang, Dylan Hadfield-Menell.
+  - Key Word: Interpretability; Benchmark.
+  - <details><summary>Digest</summary> Inspired by how benchmarks tend to guide progress in AI, we make three contributions. First, we propose trojan rediscovery as a benchmarking task to evaluate how useful interpretability tools are for generating engineering-relevant insights. Second, we design two such approaches for benchmarking: one for feature attribution methods and one for feature synthesis methods. Third, we apply our benchmarks to evaluate 16 feature attribution/saliency methods and 9 feature synthesis methods.
+
+- The Meta-Evaluation Problem in Explainable AI: Identifying Reliable Estimators with MetaQuantus. [[paper]](https://arxiv.org/abs/2302.07265)
+  - Key Word: Explainable AI; Meta-Consistency.
+  - <details><summary>Digest</summary> In this paper, to identify the most reliable evaluation method in a given explainability context, we propose MetaQuantus -- a simple yet powerful framework that meta-evaluates two complementary performance characteristics of an evaluation method: its resilience to noise and reactivity to randomness. We demonstrate the effectiveness of our framework through a series of experiments, targeting various open questions in XAI, such as the selection of explanation methods and optimisation of hyperparameters of a given metric.
+
+- Efficient XAI Techniques: A Taxonomic Survey. [[paper]](https://arxiv.org/abs/2302.03225)
+  - Yu-Neng Chuang, Guanchu Wang, Fan Yang, Zirui Liu, Xuanting Cai, Mengnan Du, Xia Hu.
+  - Key Word: Explainable AI; Feature Attribution Explanation; Counterfactual Explanation.
+  - <details><summary>Digest</summary> In this paper we provide a review of efficient XAI. Specifically, we categorize existing techniques of XAI acceleration into efficient non-amortized and efficient amortized methods. The efficient non-amortized methods focus on data-centric or model-centric acceleration upon each individual instance. In contrast, amortized methods focus on learning a unified distribution of model explanations, following the predictive, generative, or reinforcement frameworks, to rapidly derive multiple model explanations.
+
+- Selective Explanations: Leveraging Human Input to Align Explainable AI. [[paper]](https://arxiv.org/abs/2301.09656)
+  - Vivian Lai, Yiming Zhang, Chacha Chen, Q. Vera Liao, Chenhao Tan.
+  - Key Word: Explainable AI; Learning from Human Input.
+  - <details><summary>Digest</summary> We attempt to close these gaps by making AI explanations selective -- a fundamental property of human explanations -- by selectively presenting a subset from a large set of model reasons based on what aligns with the recipient's preferences. We propose a general framework for generating selective explanations by leveraging human input on a small sample. 
+
+</details>
+
 
 <details>
 <summary>Interpretability: 2022</summary>
@@ -3940,6 +4739,31 @@
 ## Open-World Learning
 
 <details>
+<summary>Open-World Learning: 2023</summary>
+
+- Automating Continual Learning. [[paper]](https://arxiv.org/abs/2312.00276)
+  - Kazuki Irie, Róbert Csordás, Jürgen Schmidhuber.
+  - Key Word: Continual Learning; In-Context Catastrophic Forgetting.
+  - <details><summary>Digest</summary> The paper introduces Automated Continual Learning (ACL) as a solution to the problem of catastrophic forgetting in neural networks. Instead of designing specific algorithms to prevent forgetting, ACL trains self-referential neural networks to meta-learn their own continual learning algorithms. ACL's meta-learning objectives ensure good performance on both old and new tasks, effectively addressing "in-context catastrophic forgetting." Experimental results demonstrate that ACL outperforms hand-crafted algorithms, particularly in scenarios like the Split-MNIST benchmark without replay, and enables continual learning across various tasks, including few-shot and standard image classification datasets.
+
+- Meta-in-context learning in large language models. [[paper]](https://arxiv.org/abs/2305.12907)
+  - Julian Coda-Forno, Marcel Binz, Zeynep Akata, Matthew Botvinick, Jane X. Wang, Eric Schulz.
+  - Key Word: Meta In-Context Learning; Large Language Model.
+  - <details><summary>Digest</summary> The paper explores how large language models can improve their in-context learning abilities through a process called "meta-in-context learning." This recursive improvement enhances the model's understanding and adaptation to specific tasks. The study demonstrates this phenomenon in idealized domains, such as regression and bandit tasks, and extends it to real-world regression problems, achieving competitive performance compared to traditional learning algorithms. The research offers insights into in-context learning and suggests a new approach for adapting large language models without traditional fine-tuning, solely through meta-in-context learning.
+
+- Lifelong Language Pretraining with Distribution-Specialized Experts. [[paper]](https://arxiv.org/abs/2305.12281)
+  - Wuyang Chen, Yanqi Zhou, Nan Du, Yanping Huang, James Laudon, Zhifeng Chen, Claire Cu. *ICML 2023*
+  - Key Word: Lifelong Learning; Large Language Model; Mixture-of-Experts.
+  - <details><summary>Digest</summary> The paper discusses challenges in adapting large-scale pretrained language models to new data distributions for various tasks. Traditional fine-tuning can lead to overfitting and forgetting of pretrained features. The paper introduces Lifelong-MoE, a Mixture-of-Experts architecture with added capacity and regularization, for continuous learning. Lifelong-MoE efficiently adapts to changing data distributions while maintaining previous knowledge. It outperforms existing lifelong learning methods on 19 NLP tasks in few-shot scenarios.
+
+- Vocabulary-informed Zero-shot and Open-set Learning. [[paper]](https://arxiv.org/abs/2301.00998) [[code]](https://github.com/xiaomeiyy/wmm-voc)
+  - Yanwei Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal. *TPAMI*
+  - Key Word: Vocabulary-Informed Learning; Generalized Zero-Shot Learning, Open-set Recognition.
+  - <details><summary>Digest</summary> Zero-shot learning is one way of addressing these challenges, but it has only been shown to work with limited sized class vocabularies and typically requires separation between supervised and unsupervised classes, allowing former to inform the latter but not vice versa. We propose the notion of vocabulary-informed learning to alleviate the above mentioned challenges and address problems of supervised, zero-shot, generalized zero-shot and open set recognition using a unified framework.
+
+</details>
+
+<details>
 <summary>Open-World Learning: 2022</summary>
 
 - Understanding Open-Set Recognition by Jacobian Norm of Representation. [[paper]](https://arxiv.org/abs/2209.11436)
@@ -4169,6 +4993,37 @@
 ## Environmental Well-being
 
 <details>
+<summary>Environmental Well-being: 2023</summary>
+
+
+- Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI. [[paper]](https://arxiv.org/abs/2309.02065)
+  - Dustin Wright, Christian Igel, Gabrielle Samuel, Raghavendra Selvan.
+  - Key Word: Environmentally Sustainable AI; Carbon Footprint.
+  - <details><summary>Digest</summary> This paper discusses the environmental sustainability of machine learning (ML), particularly deep learning (DL), which can be computationally intensive and environmentally impactful due to energy consumption and carbon emissions. It argues that improving efficiency alone is insufficient to make ML environmentally sustainable. The paper identifies three key discrepancies in the relationship between efficiency and environmental sustainability in ML and highlights the need for a holistic approach. It advocates for "systems thinking" as a viable path to address the environmental impacts of ML comprehensively.
+
+- FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning. [[paper]](https://arxiv.org/abs/2308.12264)
+  - Saurabhsingh Rajput, Tim Widmayer, Ziyuan Shang, Maria Kechagia, Federica Sarro, Tushar Sharma.
+  - Key Word: Energy Measurement, Green AI.
+  - <details><summary>Digest</summary> This paper introduces FECoM, a framework for fine-grained energy consumption measurement in Deep Learning (DL) models. With the rising concern over DL's energy consumption, FECoM aims to provide researchers and developers with a tool to accurately measure energy usage at a method level. FECoM uses static instrumentation to profile DL APIs, addressing challenges like computational load and temperature stability. The framework is evaluated on TensorFlow and explores how parameter size and execution time impact energy consumption. The paper also discusses considerations and challenges in designing such tools, aiming to advance energy measurement and energy-aware practices in DL systems.
+
+- Green Federated Learning. [[paper]](https://arxiv.org/abs/2303.14604)
+  - Ashkan Yousefpour, Shen Guo, Ashish Shenoy, Sayan Ghosh, Pierre Stock, Kiwan Maeng, Schalk-Willem Krüger, Michael Rabbat, Carole-Jean Wu, Ilya Mironov.
+  - Key Word: Sustainability; Green AI; Federated Learning.
+  - <details><summary>Digest</summary> We propose the concept of Green FL, which involves optimizing FL parameters and making design choices to minimize carbon emissions consistent with competitive performance and training time. The contributions of this work are two-fold. First, we adopt a data-driven approach to quantify the carbon emissions of FL by directly measuring real-world at-scale FL tasks running on millions of phones. Second, we present challenges, guidelines, and lessons learned from studying the trade-off between energy efficiency, performance, and time-to-train in a production FL system. Our findings offer valuable insights into how FL can reduce its carbon footprint, and they provide a foundation for future research in the area of Green AI.
+
+- A Green(er) World for A.I. [[paper]](https://arxiv.org/abs/2301.11581)
+  - Dan Zhao, Nathan C. Frey, Joseph McDonald, Matthew Hubbell, David Bestor, Michael Jones, Andrew Prout, Vijay Gadepally, Siddharth Samsi.
+  - Key Word: Green AI; Sustainable AI; Energy Efficiency.
+  - <details><summary>Digest</summary> We outline our outlook for Green A.I. -- a more sustainable, energy-efficient and energy-aware ecosystem for developing A.I. across the research, computing, and practitioner communities alike -- and the steps required to arrive there. 
+
+- A Systematic Review of Green AI. [[paper]](https://arxiv.org/abs/2301.11047) [[code]](https://github.com/luiscruz/slr-green-ai)
+  - Roberto Verdecchia, June Sallou, Luís Cruz.
+  - Key Word: Green AI; Hyperparameter Tuning; Model Benchmarking; Deployment; Model Comparison.
+  - <details><summary>Digest</summary> We present a systematic review of the Green AI literature. From the analysis of 98 primary studies, different patterns emerge. The topic experienced a considerable growth from 2020 onward. Most studies consider monitoring AI model footprint, tuning hyperparameters to improve model sustainability, or benchmarking models. 
+
+</details>
+
+<details>
 <summary>Environmental Well-being: 2022</summary>
 
 - Green Learning: Introduction, Examples and Outlook. [[paper]](https://arxiv.org/abs/2210.00965)
@@ -4269,6 +5124,22 @@
 <details>
 <summary>Interactions with Blockchain: 2022</summary>
 
+- A Survey on Decentralized Federated Learning. [[paper]](https://arxiv.org/abs/2308.04604)
+  - Edoardo Gabrielli, Giovanni Pica, Gabriele Tolomei.
+  - Key Word: Decnetralized Federated Learning; Blockchained-based Federated Learning.
+  - <details><summary>Digest</summary> Federated learning (FL) has gained popularity for training distributed, large-scale, and privacy-preserving machine learning systems. FL allows edge devices to collaboratively train a shared model without sharing their private data. However, the centralized orchestration in FL is vulnerable to attacks. To address this, decentralized FL approaches have emerged. This survey provides a comprehensive review of existing decentralized FL approaches and highlights future research directions in this area.
+
+- Proof-of-Contribution-Based Design for Collaborative Machine Learning on Blockchain. [[paper]](https://arxiv.org/abs/2302.14031)
+  - Baturalp Buyukates, Chaoyang He, Shanshan Han, Zhiyong Fang, Yupeng Zhang, Jieyi Long, Ali Farahanchi, Salman Avestimehr.
+  - Key Word: Blockchain; Federated Learning; Data Market; Zero-Knowledge Proof.
+  - <details><summary>Digest</summary> Our goal is to design a data marketplace for such decentralized collaborative/federated learning applications that simultaneously provides i) proof-of-contribution based reward allocation so that the trainers are compensated based on their contributions to the trained model; ii) privacy-preserving decentralized model training by avoiding any data movement from data owners; iii) robustness against malicious parties (e.g., trainers aiming to poison the model); iv) verifiability in the sense that the integrity, i.e., correctness, of all computations in the data market protocol including contribution assessment and outlier detection are verifiable through zero-knowledge proofs; and v) efficient and universal design. We propose a blockchain-based marketplace design to achieve all five objectives mentioned above. 
+
+</details>
+
+
+<details>
+<summary>Interactions with Blockchain: 2022</summary>
+
 - Trustworthy Federated Learning via Blockchain. [[paper]](https://arxiv.org/abs/2209.04418)
   - Zhanpeng Yang, Yuanming Shi, Yong Zhou, Zixin Wang, Kai Yang.
   - Key Word: Federated Learning; Blockchain.
@@ -4364,6 +5235,91 @@
 </details>
 
 ## Others
+
+<details>
+<summary>Others: 2023</summary>
+
+- Calibrated Language Models Must Hallucinate. [[paper]](https://arxiv.org/abs/2311.14648)
+  - Adam Tauman Kalai, Santosh S. Vempala.
+  - Key Word: Large Language Model; Hallucination.
+  - <details><summary>Digest</summary> The paper discusses the issue of language models generating false yet believable information, known as "hallucinations," which hinders the usefulness of language-based AI systems. The study establishes a statistical lower bound on the occurrence of hallucinations for certain types of facts in pretrained language models, unrelated to the model's architecture or data quality. It suggests that models designed to be good predictors may require post-training adjustments to reduce hallucinations for specific facts that rarely occur in the training data. However, the paper also indicates that common facts and systematic information are less likely to lead to hallucinations and can potentially be mitigated with different model architectures and learning approaches.
+
+- Can LLMs Follow Simple Rules? [[paper]](https://arxiv.org/abs/2311.04235) [[code]](https://github.com/normster/llm_rules)
+  - Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner.
+  - Key Word: Large Language Model; Rule Learning.
+  - <details><summary>Digest</summary> As Large Language Models (LLMs) are deployed with increasing real-world responsibilities, it is important to be able to specify and constrain the behavior of these systems in a reliable manner. We propose RuLES, a programmatic framework for measuring rule-following ability in LLMs. Through manual exploration of model behavior in our scenarios, we identify 6 categories of attack strategies and collect two suites of test cases. We find that all models are susceptible to a wide variety of adversarial hand-crafted user inputs, though GPT-4 is the best-performing model. Additionally, we evaluate open models under gradient-based attacks and find significant vulnerabilities. We propose RuLES as a challenging new setting for research into exploring and defending against both manual and automatic attacks on LLMs.
+
+- The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI. [[paper]](https://arxiv.org/abs/2310.16787)
+  - Shayne Longpre, Robert Mahari, Anthony Chen, Naana Obeng-Marnu, Damien Sileo, William Brannon, Niklas Muennighoff, Nathan Khazam, Jad Kabbara, Kartik Perisetla, Xinyi (Alexis)Wu, Enrico Shippole, Kurt Bollacker, Tongshuang Wu, Luis Villa, Sandy Pentland, Deb Roy, Sara Hooker.
+  - Key Word: Data Provenance; Dataset Licensing.
+  - <details><summary>Digest</summary> This paper addresses concerns related to the legal and ethical risks of training language models on diverse and poorly documented datasets. It presents a systematic audit of over 1800 text datasets, aiming to enhance data transparency. The analysis reveals disparities between open and closed datasets, particularly in terms of languages, task complexity, and data origin. The paper also highlights issues with license categorization on dataset hosting platforms, emphasizing the need for better dataset attribution. The authors provide an interactive tool, the Data Provenance Explorer, to help users trace data sources in popular open source finetuning collections.
+
+- A Primer on Bayesian Neural Networks: Review and Debates. [[paper]](https://arxiv.org/abs/2309.16314)
+  - Julyan Arbel, Konstantinos Pitas, Mariia Vladimirova, Vincent Fortuin.
+  - Key Word: Bayesian Neural Networks; Uncertainty; Distribution Shifts.
+  - <details><summary>Digest</summary> This paper introduces Bayesian neural networks (BNNs) as a solution to address limitations in traditional neural networks, including overconfidence, lack of interpretability, and susceptibility to adversarial attacks. It provides a systematic overview of neural networks and Bayesian inference, explaining how they synergistically integrate to create BNNs. The intended audience includes statisticians with Bayesian knowledge and limited deep learning expertise, as well as deep learning experts with limited exposure to Bayesian statistics. The paper covers priors' impact on BNN behavior, training, and inference practicalities. It also explores advanced BNN topics and ongoing debates, offering insights into the field's potential applications, making it a valuable resource for researchers and practitioners interested in BNNs and their future prospects.
+
+- zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training. [[paper]](https://arxiv.org/abs/2307.16273)
+  - Haochen Sun, Hongyang Zhang.
+  - Key Word: Zero-Knowledge Proof; Proof of Learning.
+  - <details><summary>Digest</summary> The paper introduces zkDL, an efficient zero-knowledge proof of deep learning training, addressing concerns about the legitimacy of deep network training without revealing model parameters and training data to verifiers. zkDL utilizes zkReLU, a specialized zero-knowledge proof protocol optimized for the ReLU activation function, and devises a novel construction of an arithmetic circuit from neural networks to reduce proving time and proof sizes significantly. It enables the generation of complete and sound proofs for deep neural networks, ensuring data and model parameter privacy. For instance, it takes less than a minute and has a size of less than 20 kB per training step for a 16-layer neural network with 200M parameters.
+
+- Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. [[paper]](https://arxiv.org/abs/2307.15217)
+  - <details><summary>Author List</summary> Stephen Casper, Xander Davies, Claudia Shi, Thomas Krendl Gilbert, Jérémy Scheurer, Javier Rando, Rachel Freedman, Tomasz Korbak, David Lindner, Pedro Freire, Tony Wang, Samuel Marks, Charbel-Raphaël Segerie, Micah Carroll, Andi Peng, Phillip Christoffersen, Mehul Damani, Stewart Slocum, Usman Anwar, Anand Siththaranjan, Max Nadeau, Eric J. Michaud, Jacob Pfau, Dmitrii Krasheninnikov, Xin Chen, Lauro Langosco, Peter Hase, Erdem Bıyık, Anca Dragan, David Krueger, Dorsa Sadigh, Dylan Hadfield-Menell.
+  - Key Word: Reinforecement Learning from Human Feedback; Survey.
+  - <details><summary>Digest</summary> The paper discusses reinforcement learning from human feedback (RLHF), used to train AI systems for human goals, focusing on RLHF's flaws, open problems, and limitations. It provides an overview of techniques to enhance RLHF, proposes auditing standards for societal oversight, and emphasizes the need for a multi-faceted approach to safer AI development.
+
+- Toxicity in ChatGPT: Analyzing Persona-assigned Language Models. [[paper]](https://arxiv.org/abs/2304.05335)
+  - Ameet Deshpande, Vishvak Murahari, Tanmay Rajpurohit, Ashwin Kalyan, Karthik Narasimhan.
+  - Key Word: ChatGPT; Toxicity in Text.
+  - <details><summary>Digest</summary> We systematically evaluate toxicity in over half a million generations of ChatGPT, a popular dialogue-based LLM. We find that setting the system parameter of ChatGPT by assigning it a persona, say that of the boxer Muhammad Ali, significantly increases the toxicity of generations. 
+
+- Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization. [[paper]](https://arxiv.org/abs/2305.12782)
+  - Liang Chen, Hongru Wang, Yang Deng, Wai-Chung Kwan, Zezhong Wang, Kam-Fai Wong. *Findings of ACL 2023*
+  - Key Word: Permutation-Invariance; Representation Regularization.
+  - <details><summary>Digest</summary> Generating persona consistent dialogue response is important for developing an intelligent conversational agent. Recent works typically fine-tune large-scale pre-trained models on this task by concatenating persona texts and dialogue history as a single input sequence to generate the target response. While simple and effective, our analysis shows that this popular practice is seriously affected by order sensitivity where different input orders of persona sentences significantly impact the quality and consistency of generated response, resulting in severe performance fluctuations (i.e., 29.4% on GPT2 and 83.2% on BART). To mitigate the order sensitivity problem, we propose a model-agnostic framework, ORder Insensitive Generation (ORIG), which enables dialogue models to learn robust representation under different persona orders and improve the consistency of response generation. Experiments on the Persona-Chat dataset justify the effectiveness and superiority of our method with two dominant pre-trained models (GPT2 and BART).
+
+- Foundation Models and Fair Use. [[paper]](https://arxiv.org/abs/2303.15715)
+  - Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, Percy Liang.
+  - Key Word: Foundation Models; Fair Use Doctrine.
+  - <details><summary>Digest</summary> In the United States and several other countries, copyrighted content may be used to build foundation models without incurring liability due to the fair use doctrine. However, there is a caveat: If the model produces output that is similar to copyrighted data, particularly in scenarios that affect the market of that data, fair use may no longer apply to the output of the model. In this work, we emphasize that fair use is not guaranteed, and additional work may be necessary to keep model development and deployment squarely in the realm of fair use. 
+
+- XAIR: A Framework of Explainable AI in Augmented Reality. [[paper]](https://arxiv.org/abs/2303.16292)
+  - Xuhai Xu, Mengjie Yu, Tanya R. Jonker, Kashyap Todi, Feiyu Lu, Xun Qian, João Marcelo Evangelista Belo, Tianyi Wang, Michelle Li, Aran Mun, Te-Yen Wu, Junxiao Shen, Ting Zhang, Narine Kokhlikyan, Fulton Wang, Paul Sorenson, Sophie Kahyun Kim, Hrvoje Benke.
+  - Key Word: Explainable AI; Augmented Reality.
+  - <details><summary>Digest</summary> The framework was based on a multi-disciplinary literature review of XAI and HCI research, a large-scale survey probing 500+ end-users' preferences for AR-based explanations, and three workshops with 12 experts collecting their insights about XAI design in AR. XAIR's utility and effectiveness was verified via a study with 10 designers and another study with 12 end-users. 
+
+- Natural Selection Favors AIs over Humans. [[paper]](https://arxiv.org/abs/2303.16200)
+  - Dan Hendrycks.
+  - Key Word: AI Evoluation; Darwinian Forces; Natural Selection.
+  - <details><summary>Digest</summary> We argue that natural selection creates incentives for AI agents to act against human interests. Our argument relies on two observations. Firstly, natural selection may be a dominant force in AI development. Competition and power-seeking may dampen the effects of safety measures, leaving more “natural” forces to select the surviving AI agents. Secondly, evolution by natural selection tends to give rise to selfish behavior. While evolution can result in cooperative behavior in some situations (for example in ants), we will argue that AI development is not such a situation. From these two premises, it seems likely that the most influential AI agents will be selfish.
+
+- Causal Deep Learning. [[paper]](https://arxiv.org/abs/2303.02186)
+  - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
+  - Key Word: Causality.
+  - <details><summary>Digest</summary> The framework which we propose for causal deep learning spans three dimensions: (1) a structural dimension, which allows incomplete causal knowledge rather than assuming either full or no causal knowledge; (2) a parametric dimension, which encompasses parametric forms which are typically ignored; and finally, (3) a temporal dimension, which explicitly allows for situations which capture exposure times or temporal structure. 
+
+- Provable Copyright Protection for Generative Models. [[paper]](https://arxiv.org/abs/2302.10870)
+  - Nikhil Vyas, Sham Kakade, Boaz Barak.
+  - Key Word: Copyright Protection; Privacy; Memorization.
+  - <details><summary>Digest</summary> There is a growing concern that learned conditional generative models may output samples that are substantially similar to some copyrighted data C that was in their training set. We give a formal definition of near access-freeness (NAF) and prove bounds on the probability that a model satisfying this definition outputs a sample similar to C, even if C is included in its training set. Roughly speaking, a generative model p is k-NAF if for every potentially copyrighted data C, the output of p diverges by at most k-bits from the output of a model q that did not access C at all.
+
+- Dataset Interfaces: Diagnosing Model Failures Using Controllable Counterfactual Generation. [[paper]](https://arxiv.org/abs/2302.07865) [[code]](https://github.com/MadryLab/dataset-interfaces)
+  - Joshua Vendrow, Saachi Jain, Logan Engstrom, Aleksander Madry.
+  - Key Word: Model Debugging; Distribution Shifts; Counterfactual Generation; Diffusion Model.
+  - <details><summary>Digest</summary> We introduce dataset interfaces: a framework which allows users to scalably synthesize such counterfactual examples from a given dataset. Specifically, we represent each class from the input dataset as a custom token within the text space of a text-to-image diffusion model. 
+
+- Dataset Distillation with Convexified Implicit Gradients. [[paper]](https://arxiv.org/abs/2302.06755)
+  - Noel Loo, Ramin Hasani, Mathias Lechner, Daniela Rus.
+  - Key Word: Dataset Distillation; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We propose a new dataset distillation algorithm using reparameterization and convexification of implicit gradients (RCIG), that substantially improves the state-of-the-art. To this end, we first formulate dataset distillation as a bi-level optimization problem. Then, we show how implicit gradients can be effectively used to compute meta-gradient updates. We further equip the algorithm with a convexified approximation that corresponds to learning on top of a frozen finite-width neural tangent kernel. 
+
+- Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning. [[paper]](https://arxiv.org/abs/2301.05169) [[code]](https://sites.google.com/view/causaltriplet?pli=1)
+  - Yuejiang Liu, Alexandre Alahi, Chris Russell, Max Horn, Dominik Zietlow, Bernhard Schölkopf, Francesco Locatello.
+  - Key Word: Causal Representation Learning; Benchmark.
+  - <details><summary>Digest</summary> We present Causal Triplet, a causal representation learning benchmark featuring not only visually more complex scenes, but also two crucial desiderata commonly overlooked in previous works: (i) an actionable counterfactual setting, where only certain object-level variables allow for counterfactual observations whereas others do not; (ii) an interventional downstream task with an emphasis on out-of-distribution robustness from the independent causal mechanisms principle.
+
+</details>
 
 <details>
 <summary>Others: 2022</summary>
