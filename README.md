@@ -85,6 +85,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models. [[paper]](https://arxiv.org/abs/2401.01335)
+  - Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.
+  - Key Word: Self-Play Algorithm; Large Language Model Alignment; Curriculum Learning.
+  - <details><summary>Digest</summary> This paper introduces a new fine-tuning method called Self-Play fIne-tuNing (SPIN) to enhance Large Language Models (LLMs) without requiring additional human-annotated data. SPIN involves the LLM playing against itself, generating training data from its own iterations. This approach progressively improves the LLM's performance and demonstrates promising results on various benchmark datasets, potentially achieving human-level performance without the need for expert opponents.
 
 ## Others
 
