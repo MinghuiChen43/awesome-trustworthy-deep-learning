@@ -56,6 +56,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP. [[paper]](https://arxiv.org/abs/2401.01911)
+  - Ruinan Jin, Chun-Yin Huang, Chenyu You, Xiaoxiao Li. *SaTML 2024*
+  - Key Word: Backdoor Attacks; Medical Multi-Modal Model.
+  - <details><summary>Digest</summary> This paper discusses the security vulnerabilities in medical foundation models (FMs) like MedCLIP, which use unpaired image-text training. It highlights that while unpaired training has benefits, it also poses risks, such as minor label discrepancies leading to significant model deviations. The study focuses on backdoor attacks in MedCLIP, introducing BadMatch and BadDist methods to exploit these vulnerabilities. The authors demonstrate that these attacks are effective against various models, datasets, and triggers, and current defense strategies are inadequate to detect these threats in the supply chain of medical FMs.
+
 
 ## Privacy
 
