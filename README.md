@@ -71,6 +71,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- TOFU: A Task of Fictitious Unlearning for LLMs. [[paper]](https://arxiv.org/abs/2401.06121)
+  - Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter.
+  - Key Word: Machine Unlearning; Large Language Model.
+  - <details><summary>Digest</summary> This paper discusses the issue of large language models potentially memorizing and reproducing sensitive data, raising legal and ethical concerns. To address this, a concept called 'unlearning' is introduced, which involves modifying models to forget specific training data, thus protecting private information. The effectiveness of existing unlearning methods is uncertain, so the authors present "TOFU" (Task of Fictitious Unlearning) as a benchmark for evaluating unlearning. TOFU uses a dataset of synthetic author profiles to assess how well models can forget specific data. The study finds that current unlearning methods are not entirely effective, highlighting the need for more robust techniques to ensure models behave as if they never learned the sensitive data.
 
 ## Fairness
 
