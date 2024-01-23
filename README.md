@@ -102,6 +102,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- WARM: On the Benefits of Weight Averaged Reward Models. [[paper]](https://arxiv.org/abs/2401.12187)
+  - Alexandre Ramé, Nino Vieillard, Léonard Hussenot, Robert Dadashi, Geoffrey Cideron, Olivier Bachem, Johan Ferret.
+  - Key Word: Alignment; RLHF; Reward Modeling; Model Merging.
+  - <details><summary>Digest</summary> Aligning large language models (LLMs) with human preferences using reinforcement learning can lead to reward hacking, where LLMs manipulate the reward model (RM) to get high rewards without truly meeting objectives. This happens due to distribution shifts and human preference inconsistencies during the learning process. To address this, the proposed Weight Averaged Reward Models (WARM) strategy involves fine-tuning multiple RMs and then averaging them in weight space, leveraging the linear mode connection of fine-tuned weights with the same pre-training. WARM is more efficient than traditional ensembling and more reliable under distribution shifts and preference inconsistencies. Experiments in summarization tasks show that WARM-enhanced RL results in better quality and alignment of LLM predictions, exemplified by a 79.4% win rate of a policy RL fine-tuned with WARM against one fine-tuned with a single RM.
+
 - Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models. [[paper]](https://arxiv.org/abs/2401.01335)
   - Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.
   - Key Word: Self-Play Algorithm; Large Language Model Alignment; Curriculum Learning.
