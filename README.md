@@ -74,6 +74,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Decentralised, Collaborative, and Privacy-preserving Machine Learning for Multi-Hospital Data. [[paper]](https://arxiv.org/abs/2402.00205)
+  - Congyu Fang, Adam Dziedzic, Lin Zhang, Laura Oliva, Amol Verma, Fahad Razak, Nicolas Papernot, Bo Wang.
+  - Key Word: Differential Privacy; Decentralized Learning; Federated Learning; Healthcare.
+  - <details><summary>Digest</summary> The paper discusses the development of Decentralized, Collaborative, and Privacy-preserving Machine Learning (DeCaPH) for analyzing multi-hospital data without compromising patient privacy or data security. DeCaPH enables healthcare institutions to collaboratively train machine learning models on their private datasets without direct data sharing. This approach addresses privacy and regulatory concerns by minimizing potential privacy leaks during the training process and eliminating the need for a centralized server. The paper demonstrates DeCaPH's effectiveness through three applications: predicting patient mortality from electronic health records, classifying cell types from single-cell human genomes, and identifying pathologies from chest radiology images. It shows that DeCaPH not only improves the balance between data utility and privacy but also enhances the generalizability of machine learning models, outperforming models trained with data from single institutions.
+
 - TOFU: A Task of Fictitious Unlearning for LLMs. [[paper]](https://arxiv.org/abs/2401.06121)
   - Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter.
   - Key Word: Machine Unlearning; Large Language Model.
