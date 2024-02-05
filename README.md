@@ -74,6 +74,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization. [[paper]](https://arxiv.org/abs/2402.01401)
+  - Jack Foster, Kyle Fogarty, Stefan Schoepf, Cengiz Öztireli, Alexandra Brintrup.
+  - Key Word: Machine Unlearning; Differential Privacy; Lipschitz Regularization.
+  - <details><summary>Digest</summary> This work tackles the challenge of forgetting private or copyrighted information from machine learning models to adhere to AI and data regulations. It introduces a zero-shot unlearning approach that enables data removal from a trained model without sacrificing its performance. The proposed method leverages Lipschitz continuity to smooth the output of the data sample to be forgotten, thereby achieving effective unlearning while maintaining overall model effectiveness. Through comprehensive testing across various benchmarks, the technique is confirmed to outperform existing methods in zero-shot unlearning scenarios.
+
 - Decentralised, Collaborative, and Privacy-preserving Machine Learning for Multi-Hospital Data. [[paper]](https://arxiv.org/abs/2402.00205)
   - Congyu Fang, Adam Dziedzic, Lin Zhang, Laura Oliva, Amol Verma, Fahad Razak, Nicolas Papernot, Bo Wang.
   - Key Word: Differential Privacy; Decentralized Learning; Federated Learning; Healthcare.
