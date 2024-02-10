@@ -129,6 +129,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Others
 
+- Regulation Games for Trustworthy Machine Learning. [[paper]](https://arxiv.org/abs/2402.03540)
+  - Mohammad Yaghini, Patty Liu, Franziska Boenisch, Nicolas Papernot.
+  - Key Word: Specification; Game Theory; AI Regulation.
+  - <details><summary>Digest</summary> The paper presents a novel framework for trustworthy machine learning (ML), addressing the need for a comprehensive approach that includes fairness, privacy, and the distinction between model trainers and trust assessors. It proposes viewing trustworthy ML as a multi-objective multi-agent optimization problem, leading to a game-theoretic formulation named regulation games. Specifically, it introduces an instance called the SpecGame, which models the dynamics between ML model builders and regulators focused on fairness and privacy. The paper also introduces ParetoPlay, an innovative equilibrium search algorithm designed to find socially optimal solutions that keep agents within the Pareto frontier of their objectives. Through simulations of SpecGame using ParetoPlay, the paper offers insights into ML regulation policies. For example, it demonstrates that regulators can achieve significantly lower privacy budgets in gender classification applications by proactively setting their specifications.
+
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
