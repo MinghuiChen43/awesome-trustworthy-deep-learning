@@ -112,6 +112,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. [[paper]](https://arxiv.org/abs/2402.04249)
+  - Mantas Mazeika, Long Phan, Xuwang Yin, Andy Zou, Zifan Wang, Norman Mu, Elham Sakhaee, Nathaniel Li, Steven Basart, Bo Li, David Forsyth, Dan Hendrycks.
+  - Key Word: Red Teaming; Large Language Model; Benchmark.
+  - <details><summary>Digest</summary> The paper introduces HarmBench, a standardized evaluation framework for automated red teaming designed to enhance the security of large language models (LLMs) by identifying and mitigating risks associated with their malicious use. The framework addresses the lack of rigorous assessment criteria in the field by incorporating several previously overlooked properties into its design. Using HarmBench, the authors perform a comprehensive comparison of 18 red teaming methods against 33 LLMs and their defenses, uncovering new insights. Additionally, they present a highly efficient adversarial training method that significantly improves LLM robustness against a broad spectrum of attacks. The paper highlights the utility of HarmBench in facilitating the simultaneous development of attacks and defenses, with the framework being made available as an open-source resource.
+
 - WARM: On the Benefits of Weight Averaged Reward Models. [[paper]](https://arxiv.org/abs/2401.12187)
   - Alexandre Ramé, Nino Vieillard, Léonard Hussenot, Robert Dadashi, Geoffrey Cideron, Olivier Bachem, Johan Ferret.
   - Key Word: Alignment; RLHF; Reward Modeling; Model Merging.
@@ -123,6 +128,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - <details><summary>Digest</summary> This paper introduces a new fine-tuning method called Self-Play fIne-tuNing (SPIN) to enhance Large Language Models (LLMs) without requiring additional human-annotated data. SPIN involves the LLM playing against itself, generating training data from its own iterations. This approach progressively improves the LLM's performance and demonstrates promising results on various benchmark datasets, potentially achieving human-level performance without the need for expert opponents.
 
 ## Others
+
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
