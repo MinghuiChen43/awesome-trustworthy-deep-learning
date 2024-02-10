@@ -122,6 +122,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Large Language Model; Reinforcement Learning from Human Feedback; Weak-to-Strong Generalization.
   - <details><summary>Digest</summary> The paper presents Aligner, a novel approach for aligning Large Language Models (LLMs) without the complexities of Reinforcement Learning from Human Feedback (RLHF). Aligner, an autoregressive seq2seq model, is trained on query-answer-correction data through supervised learning, offering a resource-efficient solution for model alignment. It enables significant performance improvements in LLMs by learning correctional residuals between aligned and unaligned outputs. Notably, Aligner enhances various LLMs' helpfulness and harmlessness, with substantial gains observed in models like GPT-4 and Llama2 when supervised by Aligner. The approach is model-agnostic and easily integrated with different models. 
 
+- ARGS: Alignment as Reward-Guided Search. [[paper]](https://arxiv.org/abs/2402.01694)
+  - Maxim Khanov, Jirayu Burapacheep, Yixuan Li.
+  - Key Word: Language Model Alignment; Language Model Decoding; Guided Decoding.
+  - <details><summary>Digest</summary> The paper introduces ARGS (Alignment as Reward-Guided Search), a new method for aligning large language models (LLMs) with human objectives without the instability and high resource demands of common approaches like RLHF (Reinforcement Learning from Human Feedback). ARGS integrates alignment directly into the decoding process, using a reward signal to adjust the model's probabilistic predictions, which generates texts aligned with human preferences and maintains semantic diversity. The framework has shown to consistently improve average rewards across different alignment tasks and model sizes, significantly outperforming baselines. For instance, it increased the average reward by 19.56% over the baseline in a GPT-4 evaluation. ARGS represents a step towards creating more responsive LLMs by focusing on alignment at the decoding stage. 
+
 - WARM: On the Benefits of Weight Averaged Reward Models. [[paper]](https://arxiv.org/abs/2401.12187)
   - Alexandre Ramé, Nino Vieillard, Léonard Hussenot, Robert Dadashi, Geoffrey Cideron, Olivier Bachem, Johan Ferret.
   - Key Word: Alignment; RLHF; Reward Modeling; Model Merging.
