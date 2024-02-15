@@ -117,6 +117,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- MaxMin-RLHF: Towards Equitable Alignment of Large Language Models with Diverse Human Preferences. [[paper]](https://arxiv.org/abs/2402.08925)
+  - Souradip Chakraborty, Jiahao Qiu, Hui Yuan, Alec Koppel, Furong Huang, Dinesh Manocha, Amrit Singh Bedi, Mengdi Wang.
+  - Key Word: Reinforcement Learning from Human Feedback; Diversity in Human Preferences.
+  - <details><summary>Digest</summary> This abstract addresses the limitations of Reinforcement Learning from Human Feedback (RLHF) in language models, specifically its inability to capture the diversity of human preferences using a single reward model. The authors present an "impossibility result" demonstrating this limitation and propose a solution that involves learning a mixture of preference distributions and employing a MaxMin alignment objective inspired by egalitarian principles. This approach aims to more fairly represent diverse human preferences. They connect their method to distributionally robust optimization and general utility reinforcement learning, showcasing its robustness and generality. Experimental results with GPT-2 and Tulu2-7B models demonstrate significant improvements in aligning with diverse human preferences, including a notable increase in win-rates and fairness for minority groups. The findings suggest the approach's applicability beyond language models to reinforcement learning at large.
+
 - HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. [[paper]](https://arxiv.org/abs/2402.04249)
   - Mantas Mazeika, Long Phan, Xuwang Yin, Andy Zou, Zifan Wang, Norman Mu, Elham Sakhaee, Nathaniel Li, Steven Basart, Bo Li, David Forsyth, Dan Hendrycks.
   - Key Word: Red Teaming; Large Language Model; Benchmark.
