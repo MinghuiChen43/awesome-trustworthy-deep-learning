@@ -74,6 +74,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Rethinking Machine Unlearning for Large Language Models. [[paper]](https://arxiv.org/abs/2402.08787)
+  - Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, Peter Hase, Xiaojun Xu, Yuguang Yao, Hang Li, Kush R. Varshney, Mohit Bansal, Sanmi Koyejo, Yang Liu.
+  - Key Word: Machine Unlearning; Large Language Model.
+  - <details><summary>Digest</summary> The abstract discusses the concept of machine unlearning in the context of large language models (LLMs), focusing on selectively removing undesired data influences (such as sensitive or illegal content) without compromising the model's ability to generate valuable knowledge. The goal is to ensure LLMs are safe, secure, trustworthy, and resource-efficient, eliminating the need for complete retraining. It covers the conceptual basis, methodologies, metrics, and applications of LLM unlearning, addressing overlooked aspects like unlearning scope and data-model interaction. The paper also connects LLM unlearning with related fields like model editing and adversarial training, proposing an assessment framework for its efficacy, especially in copyright, privacy, and harm reduction.
+
 - Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization. [[paper]](https://arxiv.org/abs/2402.01401)
   - Jack Foster, Kyle Fogarty, Stefan Schoepf, Cengiz Öztireli, Alexandra Brintrup.
   - Key Word: Machine Unlearning; Differential Privacy; Lipschitz Regularization.
