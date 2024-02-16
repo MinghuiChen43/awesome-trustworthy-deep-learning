@@ -74,6 +74,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Data Reconstruction Attacks and Defenses: A Systematic Evaluation. [[paper]](https://arxiv.org/abs/2402.09478)
+  - Sheng Liu, Zihan Wang, Qi Lei.
+  - Key Word: Reconstruction Attacks and Defenses.
+  - <details><summary>Digest</summary> This paper introduces a robust reconstruction attack in federated learning that outperforms existing methods by reconstructing intermediate features. It critically analyzes the effectiveness of common defense mechanisms against such attacks, both theoretically and empirically. The study identifies gradient pruning as the most effective defense strategy against advanced reconstruction attacks, highlighting the need for a deeper understanding of the balance between attack potency and defense efficacy in machine learning.
+
 - Rethinking Machine Unlearning for Large Language Models. [[paper]](https://arxiv.org/abs/2402.08787)
   - Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, Peter Hase, Xiaojun Xu, Yuguang Yao, Hang Li, Kush R. Varshney, Mohit Bansal, Sanmi Koyejo, Yang Liu.
   - Key Word: Machine Unlearning; Large Language Model.
