@@ -122,6 +122,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- A Critical Evaluation of AI Feedback for Aligning Large Language Models. [[paper]](https://arxiv.org/abs/2402.12366)
+  - Archit Sharma, Sedrick Keh, Eric Mitchell, Chelsea Finn, Kushal Arora, Thomas Kollar.
+  - Key Word: Reinforcement Learning from AI Feedback.
+  - <details><summary>Digest</summary> The paper critiques the effectiveness of the Reinforcement Learning with AI Feedback (RLAIF) approach, commonly used to enhance the instruction-following capabilities of advanced pre-trained language models. It argues that the significant performance gains attributed to the reinforcement learning (RL) phase of RLAIF might be misleading. The paper suggests these improvements primarily stem from the initial use of a weaker teacher model for supervised fine-tuning (SFT) compared to a more advanced critic model for RL feedback. Through experimentation, it is demonstrated that simply using a more advanced model (e.g., GPT-4) for SFT can outperform the traditional RLAIF method. The study further explores how the effectiveness of RLAIF varies depending on the base model family, evaluation protocols, and critic models used. It concludes by offering a mechanistic insight into scenarios where SFT might surpass RLAIF and provides recommendations for optimizing RLAIF's practical application.
+
 - MaxMin-RLHF: Towards Equitable Alignment of Large Language Models with Diverse Human Preferences. [[paper]](https://arxiv.org/abs/2402.08925)
   - Souradip Chakraborty, Jiahao Qiu, Hui Yuan, Alec Koppel, Furong Huang, Dinesh Manocha, Amrit Singh Bedi, Mengdi Wang.
   - Key Word: Reinforcement Learning from Human Feedback; Diversity in Human Preferences.
