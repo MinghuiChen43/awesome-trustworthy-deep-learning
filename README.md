@@ -112,6 +112,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking. [[paper]](https://arxiv.org/abs/2402.14811)
+  - Nikhil Prakash, Tamar Rott Shaham, Tal Haklay, Yonatan Belinkov, David Bau.
+  - Key Word: Fine-Tuning; Language Model; Entity Tracking; Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This study investigates how fine-tuning language models on generalized tasks (like instruction following, code generation, and mathematics) affects their internal computations, with a focus on entity tracking in mathematics. It finds that fine-tuning improves, but does not fundamentally change, the internal mechanisms related to entity tracking. The same circuit responsible for entity tracking in the original model also operates in the fine-tuned models, but with enhanced performance, mainly due to better handling of positional information. The researchers used techniques like Patch Patching and DCM for identifying model components and CMAP for comparing activations across models, leading to insights on how fine-tuning optimizes existing mechanisms rather than introducing new ones.
+
 
 ## Environmental Well-being
 
