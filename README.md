@@ -166,6 +166,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Foundation Model Transparency Reports. [[paper]](https://arxiv.org/abs/2402.16268)
+  - Rishi Bommasani, Kevin Klyman, Shayne Longpre, Betty Xiong, Sayash Kapoor, Nestor Maslej, Arvind Narayanan, Percy Liang.
+  - Key Word: Foundation Model; Transparency; Policy Alignment.
+  - <details><summary>Digest</summary> The paper proposes Foundation Model Transparency Reports as a means to ensure transparency in the development and deployment of foundation models, drawing inspiration from social media transparency reporting practices. Recognizing the societal impact of these models, the paper aims to institutionalize transparency early in the industry's development. It outlines six design principles for these reports, informed by the successes and failures of social media transparency efforts, and utilizes 100 transparency indicators from the Foundation Model Transparency Index. The paper also examines how these indicators align with transparency requirements of six major government policies, suggesting that well-crafted reports could lower compliance costs by aligning with regulatory standards across jurisdictions. The authors advocate for foundation model developers to regularly publish transparency reports, echoing recommendations from the G7 and the White House.
+
 - Regulation Games for Trustworthy Machine Learning. [[paper]](https://arxiv.org/abs/2402.03540)
   - Mohammad Yaghini, Patty Liu, Franziska Boenisch, Nicolas Papernot.
   - Key Word: Specification; Game Theory; AI Regulation.
