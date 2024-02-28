@@ -74,6 +74,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Eight Methods to Evaluate Robust Unlearning in LLMs. [[paper]](https://arxiv.org/abs/2402.16835)
+  - Aengus Lynch, Phillip Guo, Aidan Ewart, Stephen Casper, Dylan Hadfield-Menell.
+  - Key Word: Large Language Model; Machine Unlearning.
+  - <details><summary>Digest</summary> This paper critiques the evaluation of unlearning in large language models (LLMs) by surveying current methods, testing the "Who's Harry Potter" (WHP) model's unlearning effectiveness, and demonstrating the limitations of ad-hoc evaluations. Despite WHP's initial success in specific metrics, it still retains considerable knowledge, performs similarly on related tasks, and shows unintended unlearning in adjacent domains. The findings emphasize the necessity for rigorous and comprehensive evaluation techniques to accurately assess unlearning in LLMs.
+
 - Data Reconstruction Attacks and Defenses: A Systematic Evaluation. [[paper]](https://arxiv.org/abs/2402.09478)
   - Sheng Liu, Zihan Wang, Qi Lei.
   - Key Word: Reconstruction Attacks and Defenses.
