@@ -132,6 +132,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- CogBench: a large language model walks into a psychology lab. [[paper]](https://arxiv.org/abs/2402.18225)
+  - Julian Coda-Forno, Marcel Binz, Jane X. Wang, Eric Schulz.
+  - Key Word: Cognitive Psychology; Reinforcement Learning from Human Feedback; Benchmarks; Large Language Model.
+  - <details><summary>Digest</summary> The paper presents CogBench, a benchmark tool that evaluates large language models (LLMs) using behavioral metrics from cognitive psychology, aiming for a nuanced understanding of LLM behavior. Analyzing 35 LLMs with statistical models, it finds model size and human feedback critical for performance. It notes open-source models are less risk-prone than proprietary ones, and coding-focused fine-tuning doesn't always aid behavior. The study also finds that specific prompting techniques can enhance reasoning and model-based behavior in LLMs.
+
 - A Critical Evaluation of AI Feedback for Aligning Large Language Models. [[paper]](https://arxiv.org/abs/2402.12366)
   - Archit Sharma, Sedrick Keh, Eric Mitchell, Chelsea Finn, Kushal Arora, Thomas Kollar.
   - Key Word: Reinforcement Learning from AI Feedback.
