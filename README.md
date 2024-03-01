@@ -181,6 +181,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks. [[paper]](https://arxiv.org/abs/2402.19460)
+  - Bálint Mucsányi, Michael Kirchhof, Seong Joon Oh.
+  - Key Word: Uncertainty Quantification; Benchmarks.
+  - <details><summary>Digest</summary> This abstract discusses the evolution of uncertainty quantification in machine learning into various tasks like prediction abstention, out-of-distribution detection, and aleatoric uncertainty quantification, with the current aim being to create specialized estimators for each task. Through a comprehensive evaluation on ImageNet, the study finds that practical disentanglement of uncertainty tasks has not been achieved, despite theoretical advances. It also identifies which uncertainty estimators perform best for specific tasks, offering guidance for future research towards task-specific and disentangled uncertainty estimation.
+
 - Foundation Model Transparency Reports. [[paper]](https://arxiv.org/abs/2402.16268)
   - Rishi Bommasani, Kevin Klyman, Shayne Longpre, Betty Xiong, Sayash Kapoor, Nestor Maslej, Arvind Narayanan, Percy Liang.
   - Key Word: Foundation Model; Transparency; Policy Alignment.
