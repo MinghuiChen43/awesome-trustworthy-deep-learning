@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Curiosity-driven Red-teaming for Large Language Models. [[paper]](https://arxiv.org/abs/2402.19464)
+  - Zhang-Wei Hong, Idan Shenfeld, Tsun-Hsuan Wang, Yung-Sung Chuang, Aldo Pareja, James Glass, Akash Srivastava, Pulkit Agrawal.
+  - Key Word: Red-Teaming; Large Language Model; Reinforcement Learning.
+  - <details><summary>Digest</summary> The paper presents a method called curiosity-driven red teaming (CRT) to improve the detection of undesirable outputs from large language models (LLMs). Traditional methods rely on costly and slow human testers or automated systems with limited effectiveness. CRT enhances the scope and efficiency of test cases by using curiosity-driven exploration to provoke toxic responses, even from LLMs fine-tuned to avoid such issues. 
+
 
 ## Poisoning Attacks and Defenses
 
