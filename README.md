@@ -122,6 +122,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- AtP*: An efficient and scalable method for localizing LLM behaviour to components. [[paper]](https://arxiv.org/abs/2403.00745)
+  - János Kramár, Tom Lieberum, Rohin Shah, Neel Nanda.
+  - Key Word: Activation Patching; Attribution Patching; Localization Analysis.
+  - <details><summary>Digest</summary> Activation Patching is a method used for identifying how specific parts of a model influence its behavior, but it's too resource-intensive for large language models due to its linear cost scaling. This study introduces Attribution Patching (AtP), a quicker, gradient-based alternative, but identifies two major issues that cause AtP to miss important attributions. To counter these issues, an improved version, AtP*, is proposed, which offers better performance and scalability. The paper presents a comprehensive evaluation of AtP and other methods, demonstrating AtP's superiority and AtP*'s further enhancements. Additionally, it proposes a technique to limit the likelihood of overlooking relevant attributions with AtP*.
+
 - Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking. [[paper]](https://arxiv.org/abs/2402.14811)
   - Nikhil Prakash, Tamar Rott Shaham, Tal Haklay, Yonatan Belinkov, David Bau.
   - Key Word: Fine-Tuning; Language Model; Entity Tracking; Mechanistic Interpretability.
