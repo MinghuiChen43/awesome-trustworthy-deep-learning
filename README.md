@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- A Survey on Evaluation of Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2403.01874)
+  - Han Yu, Jiashuo Liu, Xingxuan Zhang, Jiayun Wu, Peng Cui.
+  - Key Word: Survey; Out-of-Distribution Generalization Evaluation.
+  - <details><summary>Digest</summary> OOD generalization involves not only assessing a model's OOD generalization strength but also identifying where it generalizes well or poorly, including the types of distribution shifts it can handle and the safe versus risky input regions. This paper represents the first comprehensive review of OOD evaluation, categorizing existing research into three paradigms based on test data availability and briefly discussing OOD evaluation for pretrained models. It concludes with suggestions for future research directions in OOD evaluation.
+
 ## Evasion Attacks and Defenses
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
