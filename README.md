@@ -84,6 +84,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- SoK: Challenges and Opportunities in Federated Unlearning. [[paper]](https://arxiv.org/abs/2403.02437)
+  - Key Word: Survey; Federated Unlearning.
+  - <details><summary>Digest</summary> Federated Learning (FL) enables collaborative learning among non-trusting parties without data sharing, adhering to privacy regulations and introducing the need for mechanisms to "forget" specific learned data, thus spurring research in "machine unlearning" tailored for FL's unique challenges. This State of Knowledge (SoK) paper reviews federated unlearning research, categorizes existing approaches, and discusses their limitations and implications, aiming to provide insights and directions for future work in this emerging field.
+
 - Eight Methods to Evaluate Robust Unlearning in LLMs. [[paper]](https://arxiv.org/abs/2402.16835)
   - Aengus Lynch, Phillip Guo, Aidan Ewart, Stephen Casper, Dylan Hadfield-Menell.
   - Key Word: Large Language Model; Machine Unlearning.
