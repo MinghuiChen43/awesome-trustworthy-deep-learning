@@ -84,6 +84,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Large Language Model; Machine Unlearning.
   - <details><summary>Digest</summary> This paper critiques the evaluation of unlearning in large language models (LLMs) by surveying current methods, testing the "Who's Harry Potter" (WHP) model's unlearning effectiveness, and demonstrating the limitations of ad-hoc evaluations. Despite WHP's initial success in specific metrics, it still retains considerable knowledge, performs similarly on related tasks, and shows unintended unlearning in adjacent domains. The findings emphasize the necessity for rigorous and comprehensive evaluation techniques to accurately assess unlearning in LLMs.
 
+- UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models ([paper](https://arxiv.org/abs/2402.11846))
+  - Yihua Zhang, Yimeng Zhang, Yuguang Yao, Jinghan Jia, Jiancheng Liu, Xiaoming Liu, Sijia Liu.
+  - Key Word: Machine Unlearning; Diffusion Model.
+  - <details><summary>Digest</summary> This work uncovers several key challenges that can result in incomplete, inaccurate, or biased evaluations for machine unlearning (MU) in diffusion models (DMs) by examining existing MU evaluation methods. To address them, this work enhances the evaluation metrics for MU, including the introduction of an often-overlooked retainability measurement for DMs post-unlearning. Additionally, it introduces UnlearnCanvas, a comprehensive high-resolution stylized image dataset that facilitates us to evaluate the unlearning of artistic painting styles in conjunction with associated image objects. This work shows that this dataset plays a pivotal role in establishing a standardized and automated evaluation framework for MU techniques on DMs, featuring 7 quantitative metrics to address various aspects of unlearning effectiveness. Through extensive experiments, it benchmarks 5 state-of-the-art MU methods, revealing novel insights into their pros and cons, and the underlying unlearning mechanisms.
+
 - Data Reconstruction Attacks and Defenses: A Systematic Evaluation. [[paper]](https://arxiv.org/abs/2402.09478)
   - Sheng Liu, Zihan Wang, Qi Lei.
   - Key Word: Reconstruction Attacks and Defenses.
@@ -108,11 +113,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter.
   - Key Word: Machine Unlearning; Large Language Model.
   - <details><summary>Digest</summary> This paper discusses the issue of large language models potentially memorizing and reproducing sensitive data, raising legal and ethical concerns. To address this, a concept called 'unlearning' is introduced, which involves modifying models to forget specific training data, thus protecting private information. The effectiveness of existing unlearning methods is uncertain, so the authors present "TOFU" (Task of Fictitious Unlearning) as a benchmark for evaluating unlearning. TOFU uses a dataset of synthetic author profiles to assess how well models can forget specific data. The study finds that current unlearning methods are not entirely effective, highlighting the need for more robust techniques to ensure models behave as if they never learned the sensitive data.
-
-- UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models ([paper](https://arxiv.org/abs/2402.11846))
-  - Yihua Zhang, Yimeng Zhang, Yuguang Yao, Jinghan Jia, Jiancheng Liu, Xiaoming Liu, Sijia Liu.
-  - Key Word: Machine Unlearning; Diffusion Model.
-  - <details><summary>Digest</summary> This work uncovers several key challenges that can result in incomplete, inaccurate, or biased evaluations for machine unlearning (MU) in diffusion models (DMs) by examining existing MU evaluation methods. To address them, this work enhances the evaluation metrics for MU, including the introduction of an often-overlooked retainability measurement for DMs post-unlearning. Additionally, it introduces UnlearnCanvas, a comprehensive high-resolution stylized image dataset that facilitates us to evaluate the unlearning of artistic painting styles in conjunction with associated image objects. This work shows that this dataset plays a pivotal role in establishing a standardized and automated evaluation framework for MU techniques on DMs, featuring 7 quantitative metrics to address various aspects of unlearning effectiveness. Through extensive experiments, it benchmarks 5 state-of-the-art MU methods, revealing novel insights into their pros and cons, and the underlying unlearning mechanisms.
 
 
 ## Fairness
