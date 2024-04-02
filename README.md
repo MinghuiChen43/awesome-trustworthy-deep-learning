@@ -201,6 +201,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order. [[paper]](https://arxiv.org/abs/2404.00399)
+  - Taishi Nakamura, Mayank Mishra, Simone Tedeschi, Yekun Chai, Jason T Stillerman, Felix Friedrich, Prateek Yadav, Tanmay Laud, Vu Minh Chien, Terry Yue Zhuo, Diganta Misra, Ben Bogin, Xuan-Son Vu, Marzena Karpinska, Arnav Varma Dantuluri, Wojciech Kusa, Tommaso Furlanello, Rio Yokota, Niklas Muennighoff, Suhas Pai, Tosin Adewumi, Veronika Laippala, Xiaozhe Yao, Adalberto Junior, Alpay Ariyak, Aleksandr Drozd, Jordan Clive, Kshitij Gupta, Liangyu Chen, Qi Sun, Ken Tsui, Noah Persaud, Nour Fahmy, Tianlong Chen, Mohit Bansal, Nicolo Monti, Tai Dang, Ziyang Luo, Tien-Tung Bui, Roberto Navigli, Virendra Mehta, Matthew Blumberg, Victor May, Huu Nguyen, Sampo Pyysalo.
+  - Key Word: Red-Teaming; Language Model.
+  - <details><summary>Digest</summary> This paper introduces Aurora-M, a 15B parameter, multilingual, open-source model trained on six languages and code. Developed by extending StarCoderPlus with 435 billion additional tokens, Aurora-M's training exceeds 2 trillion tokens, making it the first of its kind to be fine-tuned with human-reviewed safety instructions. This approach ensures compliance with the Biden-Harris Executive Order on AI safety, tackling challenges like multilingual support, catastrophic forgetting, and the high costs of pretraining from scratch. Aurora-M demonstrates superior performance across various tasks and languages, especially in safety evaluations, marking a significant step toward democratizing access to advanced AI models for collaborative development.
+
 - Thermometer: Towards Universal Calibration for Large Language Models. [[paper]](https://arxiv.org/abs/2403.08819)
   - Maohao Shen, Subhro Das, Kristjan Greenewald, Prasanna Sattigeri, Gregory Wornell, Soumya Ghosh.
   - Key Word: Large Language Model; Calibration.
