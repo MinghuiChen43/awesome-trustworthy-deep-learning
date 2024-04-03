@@ -59,6 +59,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models. [[paper]](https://arxiv.org/abs/2404.01318)
+  - Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong.
+  - Key Word: Jailbreak; Large Language Model; Benchmark.
+  - <details><summary>Digest</summary> JailbreakBench addresses challenges in evaluating jailbreak attacks on large language models (LLMs), which produce harmful content. It introduces a benchmark with a new dataset (JBB-Behaviors), a repository of adversarial prompts, a standardized evaluation framework, and a leaderboard for tracking attack and defense performance. It aims to standardize practices and enhance reproducibility in the field while considering ethical implications, planning to evolve with research advancements.
+
 - Curiosity-driven Red-teaming for Large Language Models. [[paper]](https://arxiv.org/abs/2402.19464)
   - Zhang-Wei Hong, Idan Shenfeld, Tsun-Hsuan Wang, Yung-Sung Chuang, Aldo Pareja, James Glass, Akash Srivastava, Pulkit Agrawal.
   - Key Word: Red-Teaming; Large Language Model; Reinforcement Learning.
