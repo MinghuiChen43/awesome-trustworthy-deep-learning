@@ -279,7 +279,7 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Lists
 
-- [Awesome Out-of-distribution Detection]([https://github.com/iCGY96/awesome_OpenSetRecognition_list](https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection)) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/last-commit/iCGY96/awesome_OpenSetRecognition_list)
+- [Awesome Out-of-distribution Detection](https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/last-commit/iCGY96/awesome_OpenSetRecognition_list)
 
 - [Awesome Open Set Recognition list](https://github.com/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/stars/iCGY96/awesome_OpenSetRecognition_list) ![ ](https://img.shields.io/github/last-commit/iCGY96/awesome_OpenSetRecognition_list)
 
