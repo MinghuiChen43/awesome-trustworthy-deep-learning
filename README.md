@@ -142,6 +142,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- What needs to go right for an induction head? A mechanistic study of in-context learning circuits and their formation. [[paper]](https://arxiv.org/abs/2404.07129)
+  - Aaditya K. Singh, Ted Moskovitz, Felix Hill, Stephanie C.Y. Chan, Andrew M. Saxe.
+  - Key Word: Induction Head; Mechanistic Interpretability; In-Context Learning.
+  - <details><summary>Digest</summary> Transformer models exhibit a powerful emergent ability for in-context learning, notably through a mechanism called the induction head (IH), which performs match-and-copy operations. This study explores the emergence and diversity of IHs, questioning their multiplicity, interdependence, and sudden appearance alongside a significant phase change in loss during training. Through experiments with synthetic data and a novel causal framework inspired by optogenetics for manipulating activations, the research identifies three subcircuits essential for IH formation. These findings illuminate the complex, data-dependent dynamics behind IH emergence and the specific conditions necessary for their development, advancing our understanding of in-context learning mechanisms in transformers.
+
 - AtP*: An efficient and scalable method for localizing LLM behaviour to components. [[paper]](https://arxiv.org/abs/2403.00745)
   - János Kramár, Tom Lieberum, Rohin Shah, Neel Nanda.
   - Key Word: Activation Patching; Attribution Patching; Localization Analysis.
