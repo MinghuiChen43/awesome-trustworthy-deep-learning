@@ -142,6 +142,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Decomposing and Editing Predictions by Modeling Model Computation. [[paper]](https://arxiv.org/abs/2404.11534)
+  - Harshay Shah, Andrew Ilyas, Aleksander Madry.
+  - Key Word: Component Attribution.
+  - <details><summary>Digest</summary> This paper introduces the concept of component modeling, a method to understand how machine learning models transform inputs into predictions by breaking down the model's computation into its basic functions or components. A specific task, called component attribution, is highlighted, which aims to estimate the impact of individual components on a prediction. The authors present a scalable algorithm, COAR, for estimating component attributions and demonstrate its effectiveness across various models, datasets, and modalities. They also show that component attributions estimated with COAR can be used to edit models across five tasks: fixing model errors, "forgetting" specific classes, enhancing subpopulation robustness, localizing backdoor attacks, and improving robustness to typographic attacks. 
+
 - What needs to go right for an induction head? A mechanistic study of in-context learning circuits and their formation. [[paper]](https://arxiv.org/abs/2404.07129)
   - Aaditya K. Singh, Ted Moskovitz, Felix Hill, Stephanie C.Y. Chan, Andrew M. Saxe.
   - Key Word: Induction Head; Mechanistic Interpretability; In-Context Learning.
