@@ -172,6 +172,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- From r to Q∗: Your Language Model is Secretly a Q-Function. [[paper]](https://arxiv.org/abs/2404.12358)
+  - Rafael Rafailov, Joey Hejna, Ryan Park, Chelsea Finn.
+  - Key Word: Large Language Model; Direct Preference Optimization.
+  - <details><summary>Digest</summary> This paper addresses the differences between Direct Preference Optimization (DPO) and standard Reinforcement Learning From Human Feedback (RLHF) methods. It theoretically aligns DPO with token-level Markov Decision Processes (MDPs) using inverse Q-learning that satisfies the Bellman equation, and empirically demonstrates that DPO allows for credit assignment, aligns with classical search algorithms like MCTS, and that simple beam search can enhance DPO's performance. The study concludes with potential applications in various AI tasks including multi-turn dialogue and end-to-end training of multi-model systems.
+
 - Foundational Challenges in Assuring Alignment and Safety of Large Language Models. [[paper]](https://arxiv.org/abs/2404.09932)
   - Usman Anwar, Abulhair Saparov, Javier Rando, Daniel Paleka, Miles Turpin, Peter Hase, Ekdeep Singh Lubana, Erik Jenner, Stephen Casper, Oliver Sourbut, Benjamin L. Edelman, Zhaowei Zhang, Mario Günther, Anton Korinek, Jose Hernandez-Orallo, Lewis Hammond, Eric Bigelow, Alexander Pan, Lauro Langosco, Tomasz Korbak, Heidi Zhang, Ruiqi Zhong, Seán Ó hÉigeartaigh, Gabriel Recchia, Giulio Corsi, Alan Chan, Markus Anderljung, Lilian Edwards, Yoshua Bengio, Danqi Chen, Samuel Albanie, Tegan Maharaj, Jakob Foerster, Florian Tramer, He He, Atoosa Kasirzadeh, Yejin Choi, David Krueger.
   - Key Word: Alignment; Safety; Large Language Model; Agenda.
