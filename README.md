@@ -167,6 +167,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Foundational Challenges in Assuring Alignment and Safety of Large Language Models. [[paper]](https://arxiv.org/abs/2404.09932)
+  - Usman Anwar, Abulhair Saparov, Javier Rando, Daniel Paleka, Miles Turpin, Peter Hase, Ekdeep Singh Lubana, Erik Jenner, Stephen Casper, Oliver Sourbut, Benjamin L. Edelman, Zhaowei Zhang, Mario Günther, Anton Korinek, Jose Hernandez-Orallo, Lewis Hammond, Eric Bigelow, Alexander Pan, Lauro Langosco, Tomasz Korbak, Heidi Zhang, Ruiqi Zhong, Seán Ó hÉigeartaigh, Gabriel Recchia, Giulio Corsi, Alan Chan, Markus Anderljung, Lilian Edwards, Yoshua Bengio, Danqi Chen, Samuel Albanie, Tegan Maharaj, Jakob Foerster, Florian Tramer, He He, Atoosa Kasirzadeh, Yejin Choi, David Krueger.
+  - Key Word: Alignment; Safety; Large Language Model; Agenda.
+  - <details><summary>Digest</summary> This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose 200+ concrete research questions.
+
 - CogBench: a large language model walks into a psychology lab. [[paper]](https://arxiv.org/abs/2402.18225)
   - Julian Coda-Forno, Marcel Binz, Jane X. Wang, Eric Schulz.
   - Key Word: Cognitive Psychology; Reinforcement Learning from Human Feedback; Benchmarks; Large Language Model.
