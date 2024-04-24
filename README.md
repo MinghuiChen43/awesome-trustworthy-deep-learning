@@ -89,6 +89,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Rethinking LLM Memorization through the Lens of Adversarial Compression. [[paper]](https://arxiv.org/abs/2404.15146)
+  - Avi Schwarzschild, Zhili Feng, Pratyush Maini, Zachary C. Lipton, J. Zico Kolter.
+  - Key Word: Large Language Model; Memorization; Machine Unlearning; Compression.
+  - <details><summary>Digest</summary> The abstract discusses concerns about the use of permissible data in large language models (LLMs) trained on extensive web datasets, particularly focusing on whether these models memorize training data or synthesize information like humans. To address this, the study introduces the Adversarial Compression Ratio (ACR), a new metric to assess memorization. ACR considers data memorized if it can be elicited by a prompt shorter than the string itself, effectively using adversarial prompts to measure memorization. This metric helps monitor compliance and unlearning, offering a practical tool for evaluating potential legal issues regarding data usage in LLMs.
+
 - SoK: Challenges and Opportunities in Federated Unlearning. [[paper]](https://arxiv.org/abs/2403.02437)
   - Key Word: Survey; Federated Unlearning.
   - <details><summary>Digest</summary> Federated Learning (FL) enables collaborative learning among non-trusting parties without data sharing, adhering to privacy regulations and introducing the need for mechanisms to "forget" specific learned data, thus spurring research in "machine unlearning" tailored for FL's unique challenges. This State of Knowledge (SoK) paper reviews federated unlearning research, categorizes existing approaches, and discusses their limitations and implications, aiming to provide insights and directions for future work in this emerging field.
