@@ -59,6 +59,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs. [[paper]](https://arxiv.org/abs/2404.16873)
+  - Anselm Paulus, Arman Zharmagambetov, Chuan Guo, Brandon Amos, Yuandong Tian.
+  - Key Word: Jailbreak; Prompting; Large Language Model.
+  - <details><summary>Digest</summary> Manual red-teaming is inefficient, while automatic adversarial prompt generation often produces meaningless attacks. This paper introduces a novel method using the AdvPrompter, an LLM, to generate human-readable adversarial prompts much faster than existing approaches. The AdvPrompter veils input instructions without changing their meaning, luring the TargetLLM to give harmful responses. Experimental results demonstrate state-of-the-art performance on open source and closed-source LLMs, making them more robust against jailbreaking attacks while maintaining high MMLU scores.
+
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models. [[paper]](https://arxiv.org/abs/2404.01318)
   - Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J. Pappas, Florian Tramer, Hamed Hassani, Eric Wong.
   - Key Word: Jailbreak; Large Language Model; Benchmark.
