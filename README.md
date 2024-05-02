@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Domain Generalisation via Imprecise Learning. [[paper]](https://arxiv.org/abs/2404.04669)
+  - Anurag Singh, Siu Lun Chau, Shahine Bouabid, Krikamol Muandet.
+  - Key Word: Domain Generalization; Imprecise Learning.
+  - <details><summary>Digest</summary> The paper introduces the Imprecise Domain Generalisation framework to address the challenge of out-of-distribution (OOD) generalisation in machine learning. It proposes an imprecise risk optimisation approach that allows learners to optimise against a continuous spectrum of generalisation strategies during training. The framework also allows model operators to specify their generalisation preference at deployment. The work showcases the benefits of integrating imprecision into domain generalisation through theoretical and empirical evidence.
+
 - A Survey on Evaluation of Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2403.01874)
   - Han Yu, Jiashuo Liu, Xingxuan Zhang, Jiayun Wu, Peng Cui.
   - Key Word: Survey; Out-of-Distribution Generalization Evaluation.
