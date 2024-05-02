@@ -187,6 +187,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Self-Play Preference Optimization for Language Model Alignment. [[paper]](https://arxiv.org/abs/2405.00675)
+  - Yue Wu, Zhiqing Sun, Huizhuo Yuan, Kaixuan Ji, Yiming Yang, Quanquan Gu.
+  - Key Word: Self-Play; Preference Optimization.
+  - <details><summary>Digest</summary> The paper highlights the limitations of traditional RLHF approaches in capturing human preferences accurately and proposes a new method called SPPO. SPPO is a self-play-based approach that treats the problem as a two-player game to identify the Nash equilibrium policy. It achieves better performance compared to methods like DPO and IPO and has theoretical convergence guarantee. Experimental results demonstrate that SPPO outperforms existing approaches without using external supervision or data augmentation techniques.
+
+- Principled RLHF from Heterogeneous Feedback via Personalization and Preference Aggregation. [[paper]](https://arxiv.org/abs/2405.00254)
+  - Chanwoo Park, Mingyang Liu, Kaiqing Zhang, Asuman Ozdaglar.
+  - Key Word: Reinforcement Learning from Human Feedback; Personalization; Reward Aggregation.
+  - <details><summary>Digest</summary> The paper discusses the effectiveness of reinforcement learning from human feedback (RLHF) in aligning AI systems with human values. It focuses on addressing the challenges posed by the heterogeneity of human preferences and potential strategic behavior in providing feedback. The paper proposes two frameworks: personalization-based and aggregation-based. The personalization-based framework utilizes representation learning and clustering to learn multiple reward models, balancing bias and variance. The aggregation-based framework aggregates diverse and truthful preferences using reward and preference aggregation approaches. The paper also addresses strategic human labelers and ensures truthful preference reporting. The proposed approaches aim to improve the alignment of AI systems with human preferences and have sample complexity guarantees.
+
 - From r to Q∗: Your Language Model is Secretly a Q-Function. [[paper]](https://arxiv.org/abs/2404.12358)
   - Rafael Rafailov, Joey Hejna, Ryan Park, Chelsea Finn.
   - Key Word: Large Language Model; Direct Preference Optimization.
