@@ -162,6 +162,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- A Primer on the Inner Workings of Transformer-based Language Models. [[paper]](https://arxiv.org/abs/2405.00208)
+  - Javier Ferrando, Gabriele Sarti, Arianna Bisazza, Marta R. Costa-jussà.
+  - Key Word: Transformer; Language Model; Attribution; Feature Visualization.
+  - <details><summary>Digest</summary> The rapid progress of research aimed at interpreting the inner workings of advanced language models has highlighted a need for contextualizing the insights gained from years of work in this area. This primer provides a concise technical introduction to the current techniques used to interpret the inner workings of Transformer-based language models, focusing on the generative decoder-only architecture. We conclude by presenting a comprehensive overview of the known internal mechanisms implemented by these models, uncovering connections across popular approaches and active research directions in this area.
+
 - A Multimodal Automated Interpretability Agent. [[paper]](https://arxiv.org/abs/2404.14394)
   - Tamar Rott Shaham, Sarah Schwettmann, Franklin Wang, Achyuta Rajaram, Evan Hernandez, Jacob Andreas, Antonio Torralba.
   - Key Word: Multimodal Modal; Automatic Interpretability; Large Language Model Agent.
