@@ -99,6 +99,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Recovering Labels from Local Updates in Federated Learning. [[paper]](https://arxiv.org/abs/2405.00955)
+  - Huancheng Chen, Haris Vikalo.
+  - Key Word: Federated Learning; Gradient Inversion Attack; Label Recovery Attack.
+  - <details><summary>Digest</summary> The paper presents RLU, a novel label recovery scheme for gradient inversion attacks in federated learning that outperforms existing methods. RLU provides near-perfect accuracy on untrained models and maintains high performance in realistic settings with multiple local epochs, heterogeneous data, and various optimizers. By analyzing the correlation between data labels and output layer updates, RLU improves the quality of reconstructed images, posing a significant privacy risk in real-world federated learning scenarios.
+
 - Rethinking LLM Memorization through the Lens of Adversarial Compression. [[paper]](https://arxiv.org/abs/2404.15146)
   - Avi Schwarzschild, Zhili Feng, Pratyush Maini, Zachary C. Lipton, J. Zico Kolter.
   - Key Word: Large Language Model; Memorization; Machine Unlearning; Compression.
