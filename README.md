@@ -64,6 +64,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Uniformly Stable Algorithms for Adversarial Training and Beyond. [[paper]](https://arxiv.org/abs/2405.01817)
+  - Jiancong Xiao, Jiawei Zhang, Zhi-Quan Luo, Asuman Ozdaglar.
+  - Key Word: Adversarial Training; Uniform Stability.
+  - <details><summary>Digest</summary> The abstract discusses a new algorithm called Moreau envelope-A (ME-A) designed to address the issue of robust overfitting in adversarial machine learning. Robust overfitting occurs when the robust test accuracy of neural networks decreases over training epochs. Recent research has shown that SGD-based adversarial training lacks uniform stability, which aligns with the observed robust overfitting. ME-A achieves uniform stability for weakly-convex, non-smooth problems without additional computational overhead by reframing the original problem as a min-min problem using a Moreau envelope function. The efficacy of ME-A in mitigating robust overfitting is demonstrated in practical scenarios.
+
 - AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs. [[paper]](https://arxiv.org/abs/2404.16873)
   - Anselm Paulus, Arman Zharmagambetov, Chuan Guo, Brandon Amos, Yuandong Tian.
   - Key Word: Jailbreak; Prompting; Large Language Model.
