@@ -167,6 +167,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Linear Explanations for Individual Neurons. [[paper]](https://arxiv.org/abs/2405.06855)
+  - Tuomas Oikarinen, Tsui-Wei Weng.
+  - Key Word: Automated Interpretability; Large Languge Model; Linear Probes.
+  - <details><summary>Digest</summary> This paper challenges the common practice of understanding neural networks by focusing on the highest activations of individual neurons. The authors argue that this approach is insufficient as it only accounts for a small percentage of a neuron's causal effect. They propose that neurons should be understood as a linear combination of concepts and present an efficient method for generating these linear explanations. The paper also introduces a way to automatically evaluate the quality of these descriptions through simulation, predicting neuron activations on unseen inputs in a vision setting.
+
 - A Primer on the Inner Workings of Transformer-based Language Models. [[paper]](https://arxiv.org/abs/2405.00208)
   - Javier Ferrando, Gabriele Sarti, Arianna Bisazza, Marta R. Costa-jussà.
   - Key Word: Transformer; Language Model; Attribution; Feature Visualization.
