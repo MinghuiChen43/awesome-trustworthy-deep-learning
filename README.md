@@ -167,6 +167,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Manifold Integrated Gradients: Riemannian Geometry for Feature Attribution. [[paper]](https://arxiv.org/abs/2405.09800)
+  - Eslam Zaher, Maciej Trzaskowski, Quan Nguyen, Fred Roosta.
+  - Key Word: Feature Attribution; Integrated Gradient; Riemannian Geometry.
+  - <details><summary>Digest</summary> This study addresses reliability issues of Integrated Gradients (IG), a feature attribution method for deep learning models, focusing on noisy feature visualizations and vulnerability to adversarial attacks. It proposes an adapted path-based feature attribution that aligns with the data's intrinsic geometry, resulting in more intuitive explanations and increased robustness to targeted attacks.
+
 - Linear Explanations for Individual Neurons. [[paper]](https://arxiv.org/abs/2405.06855)
   - Tuomas Oikarinen, Tsui-Wei Weng.
   - Key Word: Automated Interpretability; Large Languge Model; Linear Probes.
