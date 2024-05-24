@@ -281,6 +281,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- LoRA-Ensemble: Efficient Uncertainty Modelling for Self-attention Networks. [[paper]](https://arxiv.org/abs/2405.14438)
+  - Michelle Halbheer, Dominik J. Mühlematter, Alexander Becker, Dominik Narnhofer, Helge Aasen, Konrad Schindler, Mehmet Ozgur Turkoglu.
+  - Key Word: LoRA; Ensemble; Uncertainty Estimation.
+  - <details><summary>Digest</summary> This paper introduces LoRA-Ensemble, a parameter-efficient method for uncertainty modeling in self-attention networks, which extends Low-Rank Adaptation (LoRA) to create implicit ensembles. By training member-specific low-rank matrices within a single pre-trained network, LoRA-Ensemble achieves superior calibration and comparable or better accuracy than explicit ensembles, while significantly reducing computational and memory costs.
+
 - zkLLM: Zero Knowledge Proofs for Large Language Models. [[paper]](https://arxiv.org/abs/2404.16109)
   - Haochen Sun, Jason Li, Hongyang Zhang.
   - Key Word: Zero-Knowledge Proof; Large Language Model.
