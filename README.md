@@ -64,6 +64,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Certifiably Robust RAG against Retrieval Corruption. [[paper]](https://arxiv.org/abs/2405.15556)
+  - Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner, Danqi Chen, Prateek Mittal.
+  - Key Word: Adversarial Defense; Retrieval Corruption Attacks; Retrieval-Augmented Generation.
+  - <details><summary>Digest</summary> RobustRAG is a defense framework against retrieval corruption attacks in Retrieval-Augmented Generation (RAG) systems, using an isolate-then-aggregate strategy to ensure accurate responses by securely aggregating isolated responses from each passage. It achieves certifiable robustness, proving its effectiveness even when attackers inject malicious passages, as demonstrated in evaluations on various datasets.
+
 - Uniformly Stable Algorithms for Adversarial Training and Beyond. [[paper]](https://arxiv.org/abs/2405.01817)
   - Jiancong Xiao, Jiawei Zhang, Zhi-Quan Luo, Asuman Ozdaglar.
   - Key Word: Adversarial Training; Uniform Stability.
@@ -166,6 +171,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
+
+- Editable Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2405.15476)
+  - Lijie Hu, Chenyang Ren, Zhengyu Hu, Cheng-Long Wang, Di Wang.
+  - Key Word: Concept Bottleneck Models.
+  - <details><summary>Digest</summary> Concept Bottleneck Models (CBMs) are interpretable but assume clean data, which is often unrealistic. To avoid retraining CBMs after data edits due to issues like privacy or errors, the authors propose Editable Concept Bottleneck Models (ECBMs). ECBMs enable efficient data removal at the concept-label, concept, and data levels using influence functions for closed-form approximations. Experiments show ECBMs are effective and adaptable, maintaining CBM functionality without retraining.
 
 - Manifold Integrated Gradients: Riemannian Geometry for Feature Attribution. [[paper]](https://arxiv.org/abs/2405.09800)
   - Eslam Zaher, Maciej Trzaskowski, Quan Nguyen, Fred Roosta.
