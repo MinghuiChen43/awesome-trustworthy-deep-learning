@@ -227,6 +227,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- A statistical framework for weak-to-strong generalization. [[paper]](https://arxiv.org/abs/2405.16236)
+  - Seamus Somerstep, Felipe Maia Polo, Moulinath Banerjee, Ya'acov Ritov, Mikhail Yurochkin, Yuekai Sun.
+  - Key Word: Weak-to-Strong Generalization.
+  - <details><summary>Digest</summary> The paper demonstrates that it is possible to align stronger language models with superhuman capabilities using weaker human feedback by eliciting latent knowledge from pre-trained models. The authors propose a refinement-based approach that overcomes the limitations of naive fine-tuning, proving its effectiveness through theoretical bounds and practical alignment tasks.
+
+- Theoretical Analysis of Weak-to-Strong Generalization. [[paper]](https://arxiv.org/abs/2405.16043)
+  - Hunter Lang, David Sontag, Aravindan Vijayaraghavan.
+  - Key Word: Weak-to-Strong Generalization.
+  - <details><summary>Digest</summary> A strong pretrained student model can learn to correct the errors of a weaker teacher model and generalize to new examples, even when these examples are excluded from training, by leveraging incomplete or incorrect label information. This process, termed pseudolabel correction and coverage expansion, is not accounted for by existing weak supervision theory, prompting the authors to propose new bounds based on the data distribution and student hypothesis class to better capture these effects.
+
 - Self-Play Preference Optimization for Language Model Alignment. [[paper]](https://arxiv.org/abs/2405.00675)
   - Yue Wu, Zhiqing Sun, Huizhuo Yuan, Kaixuan Ji, Yiming Yang, Quanquan Gu.
   - Key Word: Self-Play; Preference Optimization.
