@@ -163,6 +163,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Low-rank finetuning for LLMs: A fairness perspective. [[paper]](https://arxiv.org/abs/2405.18572)
+  - Saswat Das, Marco Romanelli, Cuong Tran, Zarreen Reza, Bhavya Kailkhura, Ferdinando Fioretto.
+  - Key Word: Low-Rank Fine-Tuning; Large Language Model; Harmful Biases.
+  - <details><summary>Digest</summary> Low-rank approximation techniques are commonly used for fine-tuning Large Language Models (LLMs) due to their efficiency, but they often fail to capture shifts in fine-tuning datasets, leading to the preservation of biases and toxic behaviors. This paper provides empirical evidence showing that these shortcomings are particularly problematic in tasks requiring fairness and toxicity mitigation, highlighting the need for careful evaluation in LLM development.
+
 - Fairness in Serving Large Language Models. [[paper]](https://arxiv.org/abs/2401.00588)
   - Ying Sheng, Shiyi Cao, Dacheng Li, Banghua Zhu, Zhuohan Li, Danyang Zhuo, Joseph E. Gonzalez, Ion Stoica.
   - Key Word: Fairness; Large Language Model; Large Languge Model Serving System.
