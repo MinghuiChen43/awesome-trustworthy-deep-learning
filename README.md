@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Beyond Discrepancy: A Closer Look at the Theory of Distribution Shift. [[paper]](https://arxiv.org/abs/2405.19156)
+  - Robi Bhattacharjee, Nick Rittler, Kamalika Chaudhuri.
+  - Key Word: Distribution Shift; Invariant Risk Minimization.
+  - <details><summary>Digest</summary> This paper examines the theory of distribution shift for classifiers, proposing an Invariant-Risk-Minimization (IRM)-like assumption to determine when source data alone is sufficient for accurate target classification. It also provides conditions and theoretical guarantees for when unlabeled or labeled target data is necessary, addressing gaps in traditional learning theory.
+
 - Domain Generalisation via Imprecise Learning. [[paper]](https://arxiv.org/abs/2404.04669)
   - Anurag Singh, Siu Lun Chau, Shahine Bouabid, Krikamol Muandet.
   - Key Word: Domain Generalization; Imprecise Learning.
