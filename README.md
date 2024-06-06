@@ -182,6 +182,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Iteration Head: A Mechanistic Study of Chain-of-Thought. [[paper]](https://arxiv.org/abs/2406.02128)
+  - Vivien Cabannes, Charles Arnal, Wassim Bouaziz, Alice Yang, Francois Charton, Julia Kempe.
+  - Key Word: Mechanistic Interpretability; Chain-of-Thought.
+  - <details><summary>Digest</summary> This paper investigates the emergence of Chain-of-Thought (CoT) reasoning in transformers, revealing the development of specialized attention mechanisms termed "iteration heads" that facilitate iterative reasoning. The study tracks the formation and functionality of these iteration heads at the attention level and evaluates the transferability of CoT skills across different tasks.
+
 - Editable Concept Bottleneck Models. [[paper]](https://arxiv.org/abs/2405.15476)
   - Lijie Hu, Chenyang Ren, Zhengyu Hu, Cheng-Long Wang, Di Wang.
   - Key Word: Concept Bottleneck Models.
