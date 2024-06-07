@@ -69,6 +69,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Improving Alignment and Robustness with Short Circuiting. [[paper]](https://arxiv.org/abs/2406.04313)
+  - Andy Zou, Long Phan, Justin Wang, Derek Duenas, Maxwell Lin, Maksym Andriushchenko, Rowan Wang, Zico Kolter, Matt Fredrikson, Dan Hendrycks.
+  - Key Word: Representation Engineering; Adversarial Attacks and Defenses.
+  - <details><summary>Digest</summary> This paper introduces a novel "short-circuiting" approach inspired by representation engineering to prevent harmful outputs in AI systems, addressing the limitations of refusal and adversarial training techniques. The method effectively controls harmful representations in text-only and multimodal language models, enhancing robustness against unseen attacks and reducing harmful actions in AI agents.
+
 - Certifiably Robust RAG against Retrieval Corruption. [[paper]](https://arxiv.org/abs/2405.15556)
   - Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner, Danqi Chen, Prateek Mittal.
   - Key Word: Adversarial Defense; Retrieval Corruption Attacks; Retrieval-Augmented Generation.
