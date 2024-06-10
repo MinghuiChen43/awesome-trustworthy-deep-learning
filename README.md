@@ -187,6 +187,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Provably Better Explanations with Optimized Aggregation of Feature Attributions. [[paper]](https://arxiv.org/abs/2406.05090)
+  - Thomas Decker, Ananta R. Bhattarai, Jindong Gu, Volker Tresp, Florian Buettner.
+  - Key Word: Feature Attribution; Explanation Aggregation.
+  - <details><summary>Digest</summary> The paper proposes a novel approach to improve the quality of feature attributions in machine learning by combining multiple explanation methods, aiming to enhance robustness and faithfulness to model behavior. Extensive experiments demonstrate that this combination strategy consistently outperforms individual methods and existing baselines.
+
 - Iteration Head: A Mechanistic Study of Chain-of-Thought. [[paper]](https://arxiv.org/abs/2406.02128)
   - Vivien Cabannes, Charles Arnal, Wassim Bouaziz, Alice Yang, Francois Charton, Julia Kempe.
   - Key Word: Mechanistic Interpretability; Chain-of-Thought.
