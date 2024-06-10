@@ -26,7 +26,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - [Privacy](#privacy)
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
-  - [Environmental Well-being](#environmental-well-being)
   - [Alignment](#alignment)
   - [Others](#others)
 - [Related Awesome Lists :astonished:](#related-awesome-lists)
@@ -241,11 +240,6 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Nikhil Prakash, Tamar Rott Shaham, Tal Haklay, Yonatan Belinkov, David Bau.
   - Key Word: Fine-Tuning; Language Model; Entity Tracking; Mechanistic Interpretability.
   - <details><summary>Digest</summary> This study investigates how fine-tuning language models on generalized tasks (like instruction following, code generation, and mathematics) affects their internal computations, with a focus on entity tracking in mathematics. It finds that fine-tuning improves, but does not fundamentally change, the internal mechanisms related to entity tracking. The same circuit responsible for entity tracking in the original model also operates in the fine-tuned models, but with enhanced performance, mainly due to better handling of positional information. The researchers used techniques like Patch Patching and DCM for identifying model components and CMAP for comparing activations across models, leading to insights on how fine-tuning optimizes existing mechanisms rather than introducing new ones.
-
-
-## Environmental Well-being
-
-<a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#environmental-well-being">:open_file_folder: [<b><i>Full List of Environmental Well-being</i></b>]</a>.
 
 
 ## Alignment
