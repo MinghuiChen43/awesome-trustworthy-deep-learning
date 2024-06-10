@@ -8,7 +8,6 @@
   - [Privacy](#privacy)
   - [Fairness](#fairness)
   - [Interpretability](#interpretability)
-  - [Environmental Well-being](#environmental-well-being)
   - [Alignment](#alignment)
   - [Others](#others)
 
@@ -4667,133 +4666,6 @@
 
 </details>
 
-## Environmental Well-being
-
-<details>
-<summary>Environmental Well-being: 2023</summary>
-
-- Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI. [[paper]](https://arxiv.org/abs/2309.02065)
-  - Dustin Wright, Christian Igel, Gabrielle Samuel, Raghavendra Selvan.
-  - Key Word: Environmentally Sustainable AI; Carbon Footprint.
-  - <details><summary>Digest</summary> This paper discusses the environmental sustainability of machine learning (ML), particularly deep learning (DL), which can be computationally intensive and environmentally impactful due to energy consumption and carbon emissions. It argues that improving efficiency alone is insufficient to make ML environmentally sustainable. The paper identifies three key discrepancies in the relationship between efficiency and environmental sustainability in ML and highlights the need for a holistic approach. It advocates for "systems thinking" as a viable path to address the environmental impacts of ML comprehensively.
-
-- FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning. [[paper]](https://arxiv.org/abs/2308.12264)
-  - Saurabhsingh Rajput, Tim Widmayer, Ziyuan Shang, Maria Kechagia, Federica Sarro, Tushar Sharma.
-  - Key Word: Energy Measurement, Green AI.
-  - <details><summary>Digest</summary> This paper introduces FECoM, a framework for fine-grained energy consumption measurement in Deep Learning (DL) models. With the rising concern over DL's energy consumption, FECoM aims to provide researchers and developers with a tool to accurately measure energy usage at a method level. FECoM uses static instrumentation to profile DL APIs, addressing challenges like computational load and temperature stability. The framework is evaluated on TensorFlow and explores how parameter size and execution time impact energy consumption. The paper also discusses considerations and challenges in designing such tools, aiming to advance energy measurement and energy-aware practices in DL systems.
-
-- Green Federated Learning. [[paper]](https://arxiv.org/abs/2303.14604)
-  - Ashkan Yousefpour, Shen Guo, Ashish Shenoy, Sayan Ghosh, Pierre Stock, Kiwan Maeng, Schalk-Willem Krüger, Michael Rabbat, Carole-Jean Wu, Ilya Mironov.
-  - Key Word: Sustainability; Green AI; Federated Learning.
-  - <details><summary>Digest</summary> We propose the concept of Green FL, which involves optimizing FL parameters and making design choices to minimize carbon emissions consistent with competitive performance and training time. The contributions of this work are two-fold. First, we adopt a data-driven approach to quantify the carbon emissions of FL by directly measuring real-world at-scale FL tasks running on millions of phones. Second, we present challenges, guidelines, and lessons learned from studying the trade-off between energy efficiency, performance, and time-to-train in a production FL system. Our findings offer valuable insights into how FL can reduce its carbon footprint, and they provide a foundation for future research in the area of Green AI.
-
-- A Green(er) World for A.I. [[paper]](https://arxiv.org/abs/2301.11581)
-  - Dan Zhao, Nathan C. Frey, Joseph McDonald, Matthew Hubbell, David Bestor, Michael Jones, Andrew Prout, Vijay Gadepally, Siddharth Samsi.
-  - Key Word: Green AI; Sustainable AI; Energy Efficiency.
-  - <details><summary>Digest</summary> We outline our outlook for Green A.I. -- a more sustainable, energy-efficient and energy-aware ecosystem for developing A.I. across the research, computing, and practitioner communities alike -- and the steps required to arrive there. 
-
-- A Systematic Review of Green AI. [[paper]](https://arxiv.org/abs/2301.11047) [[code]](https://github.com/luiscruz/slr-green-ai)
-  - Roberto Verdecchia, June Sallou, Luís Cruz.
-  - Key Word: Green AI; Hyperparameter Tuning; Model Benchmarking; Deployment; Model Comparison.
-  - <details><summary>Digest</summary> We present a systematic review of the Green AI literature. From the analysis of 98 primary studies, different patterns emerge. The topic experienced a considerable growth from 2020 onward. Most studies consider monitoring AI model footprint, tuning hyperparameters to improve model sustainability, or benchmarking models. 
-
-</details>
-
-<details>
-<summary>Environmental Well-being: 2022</summary>
-
-- Green Learning: Introduction, Examples and Outlook. [[paper]](https://arxiv.org/abs/2210.00965)
-  - C.-C. Jay Kuo, Azad M. Madni.
-  - Key Word: Green Learning, Trust Learning.
-  - <details><summary>Digest</summary> Rapid advances in artificial intelligence (AI) in the last decade have largely been built upon the wide applications of deep learning (DL). However, the high carbon footprint yielded by larger and larger DL networks becomes a concern for sustainability. Furthermore, DL decision mechanism is somewhat obsecure and can only be verified by test data. Green learning (GL) has been proposed as an alternative paradigm to address these concerns. GL is characterized by low carbon footprints, small model sizes, low computational complexity, and logical transparency. It offers energy-effective solutions in cloud centers as well as mobile/edge devices. GL also provides a clear and logical decision-making process to gain people's trust. 
-
-- Measuring the Carbon Intensity of AI in Cloud Instances. [[paper]](https://arxiv.org/abs/2206.05229)
-  - Jesse Dodge, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Emma Strubell, Alexandra Sasha Luccioni, Noah A. Smith, Nicole DeCario, Will Buchanan. *FAccT 2022*
-  - Key Word: Carbon Emissions; Cloud.
-  - <details><summary>Digest</summary> We provide a framework for measuring software carbon intensity, and propose to measure operational carbon emissions by using location-based and time-specific marginal emissions data per energy unit. We provide measurements of operational software carbon intensity for a set of modern models for natural language processing and computer vision, and a wide range of model sizes, including pretraining of a 6.1 billion parameter language model.
-
-- The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink. [[paper]](https://arxiv.org/abs/2204.05149)
-  - David Patterson, Joseph Gonzalez, Urs Hölzle, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean.
-  - Key Word: Carbon Footprint.
-  - <details><summary>Digest</summary> We recommend that ML papers include emissions explicitly to foster competition on more than just model quality. Estimates of emissions in papers that omitted them have been off 100x-100,000x, so publishing emissions has the added benefit of ensuring accurate accounting. Given the importance of climate change, we must get the numbers right to make certain that we work on its biggest challenges.
-
-</details>
-
-<!-- ### Environmental Well-being: 2021 -->
-
-<details>
-<summary>Environmental Well-being: 2021</summary>
-
-- A Survey on Green Deep Learning. [[paper]](https://arxiv.org/abs/2111.05193)
-  - Jingjing Xu, Wangchunshu Zhou, Zhiyi Fu, Hao Zhou, Lei Li.
-  - Key Word: Compact Networks; Energy Efficiency.
-  - <details><summary>Digest</summary> Green deep learning is an increasingly hot research field that appeals to researchers to pay attention to energy usage and carbon emission during model training and inference. The target is to yield novel results with lightweight and efficient technologies. Many technologies can be used to achieve this goal, like model compression and knowledge distillation. This paper focuses on presenting a systematic review of the development of Green deep learning technologies. We classify these approaches into four categories: (1) compact networks, (2) energy-efficient training strategies, (3) energy-efficient inference approaches, and (4) efficient data usage. For each category, we discuss the progress that has been achieved and the unresolved challenges.
-
-- Sustainable AI: Environmental Implications, Challenges and Opportunities. [[paper]](https://arxiv.org/abs/2111.00364)
-  - Carole-Jean Wu, Ramya Raghavendra, Udit Gupta, Bilge Acun, Newsha Ardalani, Kiwan Maeng, Gloria Chang, Fiona Aga Behram, James Huang, Charles Bai, Michael Gschwind, Anurag Gupta, Myle Ott, Anastasia Melnikov, Salvatore Candido, David Brooks, Geeta Chauhan, Benjamin Lee, Hsien-Hsin S. Lee, Bugra Akyildiz, Maximilian Balandat, Joe Spisak, Ravi Jain, Mike Rabbat, Kim Hazelwood.
-  - Key Word: Sustainable AI; Carbon Footprint.
-  - <details><summary>Digest</summary> This paper explores the environmental impact of the super-linear growth trends for AI from a holistic perspective, spanning Data, Algorithms, and System Hardware. We characterize the carbon footprint of AI computing by examining the model development cycle across industry-scale machine learning use cases and, at the same time, considering the life cycle of system hardware. Taking a step further, we capture the operational and manufacturing carbon footprint of AI computing and present an end-to-end analysis for what and how hardware-software design and at-scale optimization can help reduce the overall carbon footprint of AI. 
-
-- Compute and Energy Consumption Trends in Deep Learning Inference. [[paper]](https://arxiv.org/abs/2109.05472)
-  - Radosvet Desislavov, Fernando Martínez-Plumed, José Hernández-Orallo.
-  - Key Word: Compute and Energy Consumption.
-  - <details><summary>Digest</summary> We focus on inference costs rather than training costs, as the former account for most of the computing effort, solely because of the multiplicative factors. Also, apart from algorithmic innovations, we account for more specific and powerful hardware (leading to higher FLOPS) that is usually accompanied with important energy efficiency optimisations. We also move the focus from the first implementation of a breakthrough paper towards the consolidated version of the techniques one or two year later.
-
-- Energy-Efficient Distributed Machine Learning in Cloud Fog Networks. [[paper]](https://arxiv.org/abs/2105.10048)
-  - Mohammed M. Alenazi, Barzan A. Yosuf, Sanaa H. Mohamed, Taisir E.H. El-Gorashi, Jaafar M. H. Elmirghani.
-  - Key Word: Energy Efficiency; Internet-of-Things; Cloud Networks.
-  - <details><summary>Digest</summary> We propose a distributed ML approach where the processing can take place in intermediary devices such as IoT nodes and fog servers in addition to the cloud. We abstract the ML models into Virtual Service Requests (VSRs) to represent multiple interconnected layers of a Deep Neural Network (DNN). Using Mixed Integer Linear Programming (MILP), we design an optimization model that allocates the layers of a DNN in a Cloud/Fog Network (CFN) in an energy efficient way.
-
-- Carbon Emissions and Large Neural Network Training. [[paper]](https://arxiv.org/abs/2104.10350)
-  - David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean.
-  - Key Word: Carbon Emissions.
-  - <details><summary>Digest</summary> We highlight the following opportunities to improve energy efficiency and CO2 equivalent emissions (CO2e): Large but sparsely activated DNNs can consume less than 1/10th the energy of large, dense DNNs without sacrificing accuracy despite using as many or even more parameters. Geographic location matters for ML workload scheduling since the fraction of carbon-free energy and resulting CO2e vary ~5X-10X, even within the same country and the same organization.
-
-- A first look into the carbon footprint of federated learning. [[paper]](https://arxiv.org/abs/2102.07627)
-  - Xinchi Qiu, Titouan Parcollet, Javier Fernandez-Marques, Pedro Porto Buarque de Gusmao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane.
-  - Key Word: Federated Learning; Carbon Footprint; Energy Analysis.
-  - <details><summary>Digest</summary> This paper offers the first-ever systematic study of the carbon footprint of FL. First, we propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. Then, we compare the carbon footprint of FL to traditional centralized learning. Our findings show that FL, despite being slower to converge in some cases, may result in a comparatively greener impact than a centralized equivalent setup. We performed extensive experiments across different types of datasets, settings, and various deep learning models with FL. Finally, we highlight and connect the reported results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.
-
-</details>
-
-<!-- ### Environmental Well-being: 2020 -->
-
-<details>
-<summary>Environmental Well-being: 2020</summary>
-
-- Can Federated Learning Save The Planet? [[paper]](https://arxiv.org/abs/2010.06537)
-  - Xinchi Qiu, Titouan Parcollet, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane.
-  - Key Word: Federated Learning; Carbon Footprint.
-  - <details><summary>Digest</summary> This paper offers the first-ever systematic study of the carbon footprint of FL. First, we propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. Then, we compare the carbon footprint of FL to traditional centralized learning. Our findings show FL, despite being slower to converge, can be a greener technology than data center GPUs. Finally, we highlight and connect the reported results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.
-
-- Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models. [[paper]](https://arxiv.org/abs/2007.03051) [[code]](https://github.com/lfwa/carbontracker/)
-  - Lasse F. Wolff Anthony, Benjamin Kanding, Raghavendra Selvan.
-  - Key Word: Carbon Footprint.
-  - <details><summary>Digest</summary> We present Carbontracker, a tool for tracking and predicting the energy and carbon footprint of training DL models. We propose that energy and carbon footprint of model development and training is reported alongside performance metrics using tools like Carbontracker. We hope this will promote responsible computing in ML and encourage research into energy-efficient deep neural networks.
-
-</details>
-
-<!-- ### Environmental Well-being: 2019 -->
-
-<details>
-<summary>Environmental Well-being: 2019 and Before</summary>
-
-- Quantifying the Carbon Emissions of Machine Learning. [[paper]](https://arxiv.org/abs/1910.09700) [[code]](https://mlco2.github.io/impact/)
-  - Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres.
-  - Key Word: Carbon Emissions.
-  - <details><summary>Digest</summary> From an environmental standpoint, there are a few crucial aspects of training a neural network that have a major impact on the quantity of carbon that it emits. These factors include: the location of the server used for training and the energy grid that it uses, the length of the training procedure, and even the make and model of hardware on which the training takes place. In order to approximate these emissions, we present our Machine Learning Emissions Calculator, a tool for our community to better understand the environmental impact of training ML models.
-
-- Benchmarking the Performance and Energy Efficiency of AI Accelerators for AI Training. [[paper]](https://arxiv.org/abs/1909.06842)
-  - Yuxin Wang, Qiang Wang, Shaohuai Shi, Xin He, Zhenheng Tang, Kaiyong Zhao, Xiaowen Chu.
-  - Key Word: Energy Efficiency; AI Accelerator.
-  - <details><summary>Digest</summary> To investigate the differences among several popular off-the-shelf processors (i.e., Intel CPU, NVIDIA GPU, AMD GPU, and Google TPU) in training DNNs, we carry out a comprehensive empirical study on the performance and energy efficiency of these processors by benchmarking a representative set of deep learning workloads, including computation-intensive operations, classical convolutional neural networks (CNNs), recurrent neural networks (LSTM), Deep Speech 2, and Transformer.
-
-- Green AI. [[paper]](https://arxiv.org/abs/1907.10597)
-  - Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni.
-  - Key Word: Data Efficiency.
-  - <details><summary>Digest</summary> This position paper advocates a practical solution by making efficiency an evaluation criterion for research alongside accuracy and related measures. In addition, we propose reporting the financial cost or "price tag" of developing, training, and running models to provide baselines for the investigation of increasingly efficient methods. Our goal is to make AI both greener and more inclusive---enabling any inspired undergraduate with a laptop to write high-quality research papers. Green AI is an emerging focus at the Allen Institute for AI.
-
-</details>
 
 ## Alignment
 
@@ -4857,6 +4729,16 @@ TBD
   - Key Word: Bayesian Neural Networks; Uncertainty; Distribution Shifts.
   - <details><summary>Digest</summary> This paper introduces Bayesian neural networks (BNNs) as a solution to address limitations in traditional neural networks, including overconfidence, lack of interpretability, and susceptibility to adversarial attacks. It provides a systematic overview of neural networks and Bayesian inference, explaining how they synergistically integrate to create BNNs. The intended audience includes statisticians with Bayesian knowledge and limited deep learning expertise, as well as deep learning experts with limited exposure to Bayesian statistics. The paper covers priors' impact on BNN behavior, training, and inference practicalities. It also explores advanced BNN topics and ongoing debates, offering insights into the field's potential applications, making it a valuable resource for researchers and practitioners interested in BNNs and their future prospects.
 
+- Efficiency is Not Enough: A Critical Perspective of Environmentally Sustainable AI. [[paper]](https://arxiv.org/abs/2309.02065)
+  - Dustin Wright, Christian Igel, Gabrielle Samuel, Raghavendra Selvan.
+  - Key Word: Environmentally Sustainable AI; Carbon Footprint.
+  - <details><summary>Digest</summary> This paper discusses the environmental sustainability of machine learning (ML), particularly deep learning (DL), which can be computationally intensive and environmentally impactful due to energy consumption and carbon emissions. It argues that improving efficiency alone is insufficient to make ML environmentally sustainable. The paper identifies three key discrepancies in the relationship between efficiency and environmental sustainability in ML and highlights the need for a holistic approach. It advocates for "systems thinking" as a viable path to address the environmental impacts of ML comprehensively.
+
+- FECoM: A Step towards Fine-Grained Energy Measurement for Deep Learning. [[paper]](https://arxiv.org/abs/2308.12264)
+  - Saurabhsingh Rajput, Tim Widmayer, Ziyuan Shang, Maria Kechagia, Federica Sarro, Tushar Sharma.
+  - Key Word: Energy Measurement, Green AI.
+  - <details><summary>Digest</summary> This paper introduces FECoM, a framework for fine-grained energy consumption measurement in Deep Learning (DL) models. With the rising concern over DL's energy consumption, FECoM aims to provide researchers and developers with a tool to accurately measure energy usage at a method level. FECoM uses static instrumentation to profile DL APIs, addressing challenges like computational load and temperature stability. The framework is evaluated on TensorFlow and explores how parameter size and execution time impact energy consumption. The paper also discusses considerations and challenges in designing such tools, aiming to advance energy measurement and energy-aware practices in DL systems.
+
 - zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training. [[paper]](https://arxiv.org/abs/2307.16273)
   - Haochen Sun, Hongyang Zhang.
   - Key Word: Zero-Knowledge Proof; Proof of Learning.
@@ -4877,11 +4759,6 @@ TBD
   - Key Word: Permutation-Invariance; Representation Regularization.
   - <details><summary>Digest</summary> Generating persona consistent dialogue response is important for developing an intelligent conversational agent. Recent works typically fine-tune large-scale pre-trained models on this task by concatenating persona texts and dialogue history as a single input sequence to generate the target response. While simple and effective, our analysis shows that this popular practice is seriously affected by order sensitivity where different input orders of persona sentences significantly impact the quality and consistency of generated response, resulting in severe performance fluctuations (i.e., 29.4% on GPT2 and 83.2% on BART). To mitigate the order sensitivity problem, we propose a model-agnostic framework, ORder Insensitive Generation (ORIG), which enables dialogue models to learn robust representation under different persona orders and improve the consistency of response generation. Experiments on the Persona-Chat dataset justify the effectiveness and superiority of our method with two dominant pre-trained models (GPT2 and BART).
 
-- Foundation Models and Fair Use. [[paper]](https://arxiv.org/abs/2303.15715)
-  - Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, Percy Liang.
-  - Key Word: Foundation Models; Fair Use Doctrine.
-  - <details><summary>Digest</summary> In the United States and several other countries, copyrighted content may be used to build foundation models without incurring liability due to the fair use doctrine. However, there is a caveat: If the model produces output that is similar to copyrighted data, particularly in scenarios that affect the market of that data, fair use may no longer apply to the output of the model. In this work, we emphasize that fair use is not guaranteed, and additional work may be necessary to keep model development and deployment squarely in the realm of fair use. 
-
 - XAIR: A Framework of Explainable AI in Augmented Reality. [[paper]](https://arxiv.org/abs/2303.16292)
   - Xuhai Xu, Mengjie Yu, Tanya R. Jonker, Kashyap Todi, Feiyu Lu, Xun Qian, João Marcelo Evangelista Belo, Tianyi Wang, Michelle Li, Aran Mun, Te-Yen Wu, Junxiao Shen, Ting Zhang, Narine Kokhlikyan, Fulton Wang, Paul Sorenson, Sophie Kahyun Kim, Hrvoje Benke.
   - Key Word: Explainable AI; Augmented Reality.
@@ -4891,6 +4768,16 @@ TBD
   - Dan Hendrycks.
   - Key Word: AI Evoluation; Darwinian Forces; Natural Selection.
   - <details><summary>Digest</summary> We argue that natural selection creates incentives for AI agents to act against human interests. Our argument relies on two observations. Firstly, natural selection may be a dominant force in AI development. Competition and power-seeking may dampen the effects of safety measures, leaving more “natural” forces to select the surviving AI agents. Secondly, evolution by natural selection tends to give rise to selfish behavior. While evolution can result in cooperative behavior in some situations (for example in ants), we will argue that AI development is not such a situation. From these two premises, it seems likely that the most influential AI agents will be selfish.
+
+- Foundation Models and Fair Use. [[paper]](https://arxiv.org/abs/2303.15715)
+  - Peter Henderson, Xuechen Li, Dan Jurafsky, Tatsunori Hashimoto, Mark A. Lemley, Percy Liang.
+  - Key Word: Foundation Models; Fair Use Doctrine.
+  - <details><summary>Digest</summary> In the United States and several other countries, copyrighted content may be used to build foundation models without incurring liability due to the fair use doctrine. However, there is a caveat: If the model produces output that is similar to copyrighted data, particularly in scenarios that affect the market of that data, fair use may no longer apply to the output of the model. In this work, we emphasize that fair use is not guaranteed, and additional work may be necessary to keep model development and deployment squarely in the realm of fair use. 
+
+- Green Federated Learning. [[paper]](https://arxiv.org/abs/2303.14604)
+  - Ashkan Yousefpour, Shen Guo, Ashish Shenoy, Sayan Ghosh, Pierre Stock, Kiwan Maeng, Schalk-Willem Krüger, Michael Rabbat, Carole-Jean Wu, Ilya Mironov.
+  - Key Word: Sustainability; Green AI; Federated Learning.
+  - <details><summary>Digest</summary> We propose the concept of Green FL, which involves optimizing FL parameters and making design choices to minimize carbon emissions consistent with competitive performance and training time. The contributions of this work are two-fold. First, we adopt a data-driven approach to quantify the carbon emissions of FL by directly measuring real-world at-scale FL tasks running on millions of phones. Second, we present challenges, guidelines, and lessons learned from studying the trade-off between energy efficiency, performance, and time-to-train in a production FL system. Our findings offer valuable insights into how FL can reduce its carbon footprint, and they provide a foundation for future research in the area of Green AI.
 
 - Causal Deep Learning. [[paper]](https://arxiv.org/abs/2303.02186)
   - Jeroen Berrevoets, Krzysztof Kacprzyk, Zhaozhi Qian, Mihaela van der Schaar.
@@ -4911,6 +4798,16 @@ TBD
   - Noel Loo, Ramin Hasani, Mathias Lechner, Daniela Rus.
   - Key Word: Dataset Distillation; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We propose a new dataset distillation algorithm using reparameterization and convexification of implicit gradients (RCIG), that substantially improves the state-of-the-art. To this end, we first formulate dataset distillation as a bi-level optimization problem. Then, we show how implicit gradients can be effectively used to compute meta-gradient updates. We further equip the algorithm with a convexified approximation that corresponds to learning on top of a frozen finite-width neural tangent kernel. 
+
+- A Green(er) World for A.I. [[paper]](https://arxiv.org/abs/2301.11581)
+  - Dan Zhao, Nathan C. Frey, Joseph McDonald, Matthew Hubbell, David Bestor, Michael Jones, Andrew Prout, Vijay Gadepally, Siddharth Samsi.
+  - Key Word: Green AI; Sustainable AI; Energy Efficiency.
+  - <details><summary>Digest</summary> We outline our outlook for Green A.I. -- a more sustainable, energy-efficient and energy-aware ecosystem for developing A.I. across the research, computing, and practitioner communities alike -- and the steps required to arrive there. 
+
+- A Systematic Review of Green AI. [[paper]](https://arxiv.org/abs/2301.11047) [[code]](https://github.com/luiscruz/slr-green-ai)
+  - Roberto Verdecchia, June Sallou, Luís Cruz.
+  - Key Word: Green AI; Hyperparameter Tuning; Model Benchmarking; Deployment; Model Comparison.
+  - <details><summary>Digest</summary> We present a systematic review of the Green AI literature. From the analysis of 98 primary studies, different patterns emerge. The topic experienced a considerable growth from 2020 onward. Most studies consider monitoring AI model footprint, tuning hyperparameters to improve model sustainability, or benchmarking models. 
 
 - Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning. [[paper]](https://arxiv.org/abs/2301.05169) [[code]](https://sites.google.com/view/causaltriplet?pli=1)
   - Yuejiang Liu, Alexandre Alahi, Chris Russell, Max Horn, Dominik Zietlow, Bernhard Schölkopf, Francesco Locatello.
@@ -5016,6 +4913,11 @@ TBD
   - Key Word: Benchmark; Data Budgeting.
   - <details><summary>Digest</summary> We study the data budgeting problem and formulate it as two sub-problems: predicting (1) what is the saturating performance if given enough data, and (2) how many data points are needed to reach near the saturating performance. Different from traditional dataset-independent methods like PowerLaw, we proposed a learning method to solve data budgeting problems. 
 
+- Green Learning: Introduction, Examples and Outlook. [[paper]](https://arxiv.org/abs/2210.00965)
+  - C.-C. Jay Kuo, Azad M. Madni.
+  - Key Word: Green Learning, Trust Learning.
+  - <details><summary>Digest</summary> Rapid advances in artificial intelligence (AI) in the last decade have largely been built upon the wide applications of deep learning (DL). However, the high carbon footprint yielded by larger and larger DL networks becomes a concern for sustainability. Furthermore, DL decision mechanism is somewhat obsecure and can only be verified by test data. Green learning (GL) has been proposed as an alternative paradigm to address these concerns. GL is characterized by low carbon footprints, small model sizes, low computational complexity, and logical transparency. It offers energy-effective solutions in cloud centers as well as mobile/edge devices. GL also provides a clear and logical decision-making process to gain people's trust. 
+
 - I Speak, You Verify: Toward Trustworthy Neural Program Synthesis. [[paper]](https://arxiv.org/abs/2210.00848)
   - Darren Key, Wen-Ding Li, Kevin Ellis.
   - Key Word: Program Synthesis; Natural Language to Code; Large Language Models.
@@ -5111,6 +5013,11 @@ TBD
   - Key Word: AI Risk.
   - <details><summary>Digest</summary> Artificial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a systematic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential benefits of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us; some say this is like playing with fire and speculate that this could create existential risks (x-risks). To add precision and ground these discussions, we provide a guide for how to analyze AI x-risk.
 
+- Measuring the Carbon Intensity of AI in Cloud Instances. [[paper]](https://arxiv.org/abs/2206.05229)
+  - Jesse Dodge, Taylor Prewitt, Remi Tachet Des Combes, Erika Odmark, Roy Schwartz, Emma Strubell, Alexandra Sasha Luccioni, Noah A. Smith, Nicole DeCario, Will Buchanan. *FAccT 2022*
+  - Key Word: Carbon Emissions; Cloud.
+  - <details><summary>Digest</summary> We provide a framework for measuring software carbon intensity, and propose to measure operational carbon emissions by using location-based and time-specific marginal emissions data per energy unit. We provide measurements of operational software carbon intensity for a set of modern models for natural language processing and computer vision, and a wide range of model sizes, including pretraining of a 6.1 billion parameter language model.
+
 - BaCaDI: Bayesian Causal Discovery with Unknown Interventions. [[paper]](https://arxiv.org/abs/2206.01665)
   - Alexander Hägele, Jonas Rothfuss, Lars Lorch, Vignesh Ram Somnath, Bernhard Schölkopf, Andreas Krause.
   - Key Word: Causal Discovery.
@@ -5121,10 +5028,10 @@ TBD
   - Key Word: Causal Discovery.
   - <details><summary>Digest</summary> This paper proposes Differentiable Invariant Causal Discovery (DICD), utilizing the multi-environment information based on a differentiable framework to avoid learning spurious edges and wrong causal directions. Specifically, DICD aims to discover the environment-invariant causation while removing the environment-dependent correlation. We further formulate the constraint that enforces the target structure equation model to maintain optimal across the environments.  
 
-- AI and Ethics -- Operationalising Responsible AI. [[paper]](https://arxiv.org/abs/2105.08867)
-  - Liming Zhu, Xiwei Xu, Qinghua Lu, Guido Governatori, Jon Whittle.
-  - Key Word: Survey; Ethics; Responsibility.
-  - <details><summary>Digest</summary> In the last few years, AI continues demonstrating its positive impact on society while sometimes with ethically questionable consequences. Building and maintaining public trust in AI has been identified as the key to successful and sustainable innovation. This chapter discusses the challenges related to operationalizing ethical AI principles and presents an integrated view that covers high-level ethical AI principles, the general notion of trust/trustworthiness, and product/process support in the context of responsible AI, which helps improve both trust and trustworthiness of AI for a wider set of stakeholders.
+- The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink. [[paper]](https://arxiv.org/abs/2204.05149)
+  - David Patterson, Joseph Gonzalez, Urs Hölzle, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean.
+  - Key Word: Carbon Footprint.
+  - <details><summary>Digest</summary> We recommend that ML papers include emissions explicitly to foster competition on more than just model quality. Estimates of emissions in papers that omitted them have been off 100x-100,000x, so publishing emissions has the added benefit of ensuring accurate accounting. Given the importance of climate change, we must get the numbers right to make certain that we work on its biggest challenges.
 
 - State of AI Ethics Report (Volume 6, February 2022). [[paper]](https://arxiv.org/abs/2202.07435)
   - Abhishek Gupta, Connor Wright, Marianna Bergamaschi Ganapini, Masa Sweidan, Renjie Butalid.
@@ -5332,6 +5239,36 @@ TBD
 <details>
 <summary>Others: 2021</summary>
 
+- A Survey on Green Deep Learning. [[paper]](https://arxiv.org/abs/2111.05193)
+  - Jingjing Xu, Wangchunshu Zhou, Zhiyi Fu, Hao Zhou, Lei Li.
+  - Key Word: Compact Networks; Energy Efficiency.
+  - <details><summary>Digest</summary> Green deep learning is an increasingly hot research field that appeals to researchers to pay attention to energy usage and carbon emission during model training and inference. The target is to yield novel results with lightweight and efficient technologies. Many technologies can be used to achieve this goal, like model compression and knowledge distillation. This paper focuses on presenting a systematic review of the development of Green deep learning technologies. We classify these approaches into four categories: (1) compact networks, (2) energy-efficient training strategies, (3) energy-efficient inference approaches, and (4) efficient data usage. For each category, we discuss the progress that has been achieved and the unresolved challenges.
+
+- Sustainable AI: Environmental Implications, Challenges and Opportunities. [[paper]](https://arxiv.org/abs/2111.00364)
+  - Carole-Jean Wu, Ramya Raghavendra, Udit Gupta, Bilge Acun, Newsha Ardalani, Kiwan Maeng, Gloria Chang, Fiona Aga Behram, James Huang, Charles Bai, Michael Gschwind, Anurag Gupta, Myle Ott, Anastasia Melnikov, Salvatore Candido, David Brooks, Geeta Chauhan, Benjamin Lee, Hsien-Hsin S. Lee, Bugra Akyildiz, Maximilian Balandat, Joe Spisak, Ravi Jain, Mike Rabbat, Kim Hazelwood.
+  - Key Word: Sustainable AI; Carbon Footprint.
+  - <details><summary>Digest</summary> This paper explores the environmental impact of the super-linear growth trends for AI from a holistic perspective, spanning Data, Algorithms, and System Hardware. We characterize the carbon footprint of AI computing by examining the model development cycle across industry-scale machine learning use cases and, at the same time, considering the life cycle of system hardware. Taking a step further, we capture the operational and manufacturing carbon footprint of AI computing and present an end-to-end analysis for what and how hardware-software design and at-scale optimization can help reduce the overall carbon footprint of AI. 
+
+- Compute and Energy Consumption Trends in Deep Learning Inference. [[paper]](https://arxiv.org/abs/2109.05472)
+  - Radosvet Desislavov, Fernando Martínez-Plumed, José Hernández-Orallo.
+  - Key Word: Compute and Energy Consumption.
+  - <details><summary>Digest</summary> We focus on inference costs rather than training costs, as the former account for most of the computing effort, solely because of the multiplicative factors. Also, apart from algorithmic innovations, we account for more specific and powerful hardware (leading to higher FLOPS) that is usually accompanied with important energy efficiency optimisations. We also move the focus from the first implementation of a breakthrough paper towards the consolidated version of the techniques one or two year later.
+
+- Energy-Efficient Distributed Machine Learning in Cloud Fog Networks. [[paper]](https://arxiv.org/abs/2105.10048)
+  - Mohammed M. Alenazi, Barzan A. Yosuf, Sanaa H. Mohamed, Taisir E.H. El-Gorashi, Jaafar M. H. Elmirghani.
+  - Key Word: Energy Efficiency; Internet-of-Things; Cloud Networks.
+  - <details><summary>Digest</summary> We propose a distributed ML approach where the processing can take place in intermediary devices such as IoT nodes and fog servers in addition to the cloud. We abstract the ML models into Virtual Service Requests (VSRs) to represent multiple interconnected layers of a Deep Neural Network (DNN). Using Mixed Integer Linear Programming (MILP), we design an optimization model that allocates the layers of a DNN in a Cloud/Fog Network (CFN) in an energy efficient way.
+
+- Carbon Emissions and Large Neural Network Training. [[paper]](https://arxiv.org/abs/2104.10350)
+  - David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean.
+  - Key Word: Carbon Emissions.
+  - <details><summary>Digest</summary> We highlight the following opportunities to improve energy efficiency and CO2 equivalent emissions (CO2e): Large but sparsely activated DNNs can consume less than 1/10th the energy of large, dense DNNs without sacrificing accuracy despite using as many or even more parameters. Geographic location matters for ML workload scheduling since the fraction of carbon-free energy and resulting CO2e vary ~5X-10X, even within the same country and the same organization.
+
+- A first look into the carbon footprint of federated learning. [[paper]](https://arxiv.org/abs/2102.07627)
+  - Xinchi Qiu, Titouan Parcollet, Javier Fernandez-Marques, Pedro Porto Buarque de Gusmao, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane.
+  - Key Word: Federated Learning; Carbon Footprint; Energy Analysis.
+  - <details><summary>Digest</summary> This paper offers the first-ever systematic study of the carbon footprint of FL. First, we propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. Then, we compare the carbon footprint of FL to traditional centralized learning. Our findings show that FL, despite being slower to converge in some cases, may result in a comparatively greener impact than a centralized equivalent setup. We performed extensive experiments across different types of datasets, settings, and various deep learning models with FL. Finally, we highlight and connect the reported results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.
+
 - Reliable and Trustworthy Machine Learning for Health Using Dataset Shift Detection. [[paper]](https://arxiv.org/abs/2110.14019)
   - Chunjong Park, Anas Awadalla, Tadayoshi Kohno, Shwetak Patel. *NeurIPS 2021*
   - Key Word: Healthcare; Health Screening and Diagnosis; Dataset Shift Detection.
@@ -5392,8 +5329,6 @@ TBD
   - Key Word: Causal Representation Learning.
   - <details><summary>Digest</summary> The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research.
 
-<!-- open world learning -->
-
 - Open-set 3D Object Detection. [[paper]](https://arxiv.org/abs/2111.08644)
   - Jun Cen, Peng Yun, Junhao Cai, Michael Yu Wang, Ming Liu. *3DV 2021*
   - Key Word: 3D Object Detection; Video Anomaly Detection; Discovery of Unseen Instances.
@@ -5424,6 +5359,11 @@ TBD
   - Key Word: Open-World Learning; Open-Set Recognition; Discovery of Unseen Instances; Incremental Learning.
   - <details><summary>Digest</summary> Traditional machine learning mainly supervised learning, follows the assumptions of closed-world learning, i.e., for each testing class, a training class is available. However, such machine learning models fail to identify the classes which were not available during training time. These classes can be referred to as unseen classes. Whereas open-world machine learning (OWML) deals with unseen classes. In this paper, first, we present an overview of OWML with importance to the real-world context. Next, different dimensions of open-world machine learning are explored and discussed. The area of OWML gained the attention of the research community in the last decade only. We have searched through different online digital libraries and scrutinized the work done in the last decade. This paper presents a systematic review of various techniques for OWML.  
 
+- AI and Ethics -- Operationalising Responsible AI. [[paper]](https://arxiv.org/abs/2105.08867)
+  - Liming Zhu, Xiwei Xu, Qinghua Lu, Guido Governatori, Jon Whittle.
+  - Key Word: Survey; Ethics; Responsibility.
+  - <details><summary>Digest</summary> In the last few years, AI continues demonstrating its positive impact on society while sometimes with ethically questionable consequences. Building and maintaining public trust in AI has been identified as the key to successful and sustainable innovation. This chapter discusses the challenges related to operationalizing ethical AI principles and presents an integrated view that covers high-level ethical AI principles, the general notion of trust/trustworthiness, and product/process support in the context of responsible AI, which helps improve both trust and trustworthiness of AI for a wider set of stakeholders.
+
 - Opening up Open-World Tracking. [[paper]](https://arxiv.org/abs/2104.11221) [[code]](https://openworldtracking.github.io/)
   - Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. *CVPR 2022 oral*
   - Key Word: Open-World Tracking; Multi-object Tracking; Discovery of Unseen Instances.
@@ -5443,8 +5383,6 @@ TBD
   - K J Joseph, Salman Khan, Fahad Shahbaz Khan, Vineeth N Balasubramanian.  *CVPR 2021 oral*
   - Key Word: Open-world learning; Incremental learning; Discovery of Unseen Instances; Object detection.
   - <details><summary>Digest</summary> The intrinsic curiosity about these unknown instances aids in learning about them, when the corresponding knowledge is eventually available. This motivates us to propose a novel computer vision problem called: `Open World Object Detection', where a model is tasked to: 1) identify objects that have not been introduced to it as `unknown', without explicit supervision to do so, and 2) incrementally learn these identified unknown categories without forgetting previously learned classes, when the corresponding labels are progressively received. We formulate the problem, introduce a strong evaluation protocol and provide a novel solution, which we call ORE: Open World Object Detector, based on contrastive clustering and energy based unknown identification. As an interesting by-product, we find that identifying and characterizing unknown instances helps to reduce confusion in an incremental object detection setting, where we achieve state-of-the-art performance, with no extra methodological effort.
-
-<!-- blockchain -->
 
 - Blockchain-based Federated Learning: A Comprehensive Survey. [[paper]](https://arxiv.org/abs/2110.02182)
   - Zhilin Wang, Qin Hu.
@@ -5478,10 +5416,25 @@ TBD
   - Key Word: Self-Supervision; Causality.
   - <details><summary>Digest</summary> We propose a novel self-supervised objective, Representation Learning via Invariant Causal Mechanisms (ReLIC), that enforces invariant prediction of proxy targets across augmentations through an invariance regularizer which yields improved generalization guarantees.
 
+- Can Federated Learning Save The Planet? [[paper]](https://arxiv.org/abs/2010.06537)
+  - Xinchi Qiu, Titouan Parcollet, Daniel J. Beutel, Taner Topal, Akhil Mathur, Nicholas D. Lane.
+  - Key Word: Federated Learning; Carbon Footprint.
+  - <details><summary>Digest</summary> This paper offers the first-ever systematic study of the carbon footprint of FL. First, we propose a rigorous model to quantify the carbon footprint, hence facilitating the investigation of the relationship between FL design and carbon emissions. Then, we compare the carbon footprint of FL to traditional centralized learning. Our findings show FL, despite being slower to converge, can be a greener technology than data center GPUs. Finally, we highlight and connect the reported results to the future challenges and trends in FL to reduce its environmental impact, including algorithms efficiency, hardware capabilities, and stronger industry transparency.
+
 - Disentangled Generative Causal Representation Learning. [[paper]](https://arxiv.org/abs/2010.02637) [[code]](https://github.com/xwshen51/DEAR)
   - Xinwei Shen, Furui Liu, Hanze Dong, Qing Lian, Zhitang Chen, Tong Zhang.
   - Key Word: Disentanglement; Generative Model.
   - <details><summary>Digest</summary> This paper proposes a Disentangled gEnerative cAusal Representation (DEAR) learning method. Unlike existing disentanglement methods that enforce independence of the latent variables, we consider the general case where the underlying factors of interests can be causally correlated. We show that previous methods with independent priors fail to disentangle causally correlated factors. Motivated by this finding, we propose a new disentangled learning method called DEAR that enables causal controllable generation and causal representation learning. The key ingredient of this new formulation is to use a structural causal model (SCM) as the prior for a bidirectional generative model.
+
+- When Federated Learning Meets Blockchain: A New Distributed Learning Paradigm. [[paper]](https://arxiv.org/abs/2009.09338)
+  - Chuan Ma, Jun Li, Ming Ding, Long Shi, Taotao Wang, Zhu Han, H. Vincent Poor.
+  - Key Word: Federated Leraning; Blockchain.
+  - <details><summary>Digest</summary> This work investigates a blockchain assisted decentralized FL (BLADE-FL) framework, which can well prevent the malicious clients from poisoning the learning process, and further provides a self-motivated and reliable learning environment for clients. In detail, the model aggregation process is fully decentralized and the tasks of training for FL and mining for blockchain are integrated into each participant.
+
+- Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models. [[paper]](https://arxiv.org/abs/2007.03051) [[code]](https://github.com/lfwa/carbontracker/)
+  - Lasse F. Wolff Anthony, Benjamin Kanding, Raghavendra Selvan.
+  - Key Word: Carbon Footprint.
+  - <details><summary>Digest</summary> We present Carbontracker, a tool for tracking and predicting the energy and carbon footprint of training DL models. We propose that energy and carbon footprint of model development and training is reported alongside performance metrics using tools like Carbontracker. We hope this will promote responsible computing in ML and encourage research into energy-efficient deep neural networks.
 
 - The State of AI Ethics Report (June 2020). [[paper]](https://arxiv.org/abs/2006.14662)
   - Abhishek Gupta, Camylle Lanteigne, Victoria Heath, Marianna Bergamaschi Ganapini, Erick Galinkin, Allison Cohen, Tania De Gasperis, Mo Akif, Renjie Butalid.
@@ -5497,13 +5450,6 @@ TBD
   - Mengyue Yang, Furui Liu, Zhitang Chen, Xinwei Shen, Jianye Hao, Jun Wang. *CVPR 2021*
   - Key Word: Disentanlged Representation Learning.
   - <details><summary>Digest</summary> The framework of variational autoencoder (VAE) is commonly used to disentangle independent factors from observations. However, in real scenarios, factors with semantics are not necessarily independent. Instead, there might be an underlying causal structure which renders these factors dependent. We thus propose a new VAE based framework named CausalVAE, which includes a Causal Layer to transform independent exogenous factors into causal endogenous ones that correspond to causally related concepts in data.
-
-<!-- blockchain -->
-
-- When Federated Learning Meets Blockchain: A New Distributed Learning Paradigm. [[paper]](https://arxiv.org/abs/2009.09338)
-  - Chuan Ma, Jun Li, Ming Ding, Long Shi, Taotao Wang, Zhu Han, H. Vincent Poor.
-  - Key Word: Federated Leraning; Blockchain.
-  - <details><summary>Digest</summary> This work investigates a blockchain assisted decentralized FL (BLADE-FL) framework, which can well prevent the malicious clients from poisoning the learning process, and further provides a self-motivated and reliable learning environment for clients. In detail, the model aggregation process is fully decentralized and the tasks of training for FL and mining for blockchain are integrated into each participant.
 
 - A Blockchain-based Decentralized Federated Learning Framework with Committee Consensus. [[paper]](https://arxiv.org/abs/2004.00773)
   - Yuzheng Li, Chuan Chen, Nan Liu, Huawei Huang, Zibin Zheng, Qiang Yan.
@@ -5522,6 +5468,36 @@ TBD
   - Key Word: Energy-Based Model; Calibration; Adversarial Robustness; Out-of-Distribution Detection.
   - <details><summary>Digest</summary> Within this framework, standard discriminative architectures may beused and the model can also be trained on unlabeled data. We demonstrate that energy based training of the joint distribution improves calibration, robustness, andout-of-distribution detection while also enabling our models to generate samplesrivaling the quality of recent GAN approaches.  
 
+- A blockchain-orchestrated Federated Learning architecture for healthcare consortia. [[paper]](https://arxiv.org/abs/1910.12603)
+  - Jonathan Passerat-Palmbach, Tyler Farnan, Robert Miller, Marielle S. Gross, Heather Leigh Flannery, Bill Gleim.
+  - Key Word: Blockchain; Federated Learning; Healthcare.
+  - <details><summary>Digest</summary> We propose a novel architecture for federated learning within healthcare consortia. At the heart of the solution is a unique integration of privacy preserving technologies, built upon native enterprise blockchain components available in the Ethereum ecosystem. We show how the specific characteristics and challenges of healthcare consortia informed our design choices, notably the conception of a new Secure Aggregation protocol assembled with a protected hardware component and an encryption toolkit native to Ethereum. Our architecture also brings in a privacy preserving audit trail that logs events in the network without revealing identities.
+
+- Quantifying the Carbon Emissions of Machine Learning. [[paper]](https://arxiv.org/abs/1910.09700) [[code]](https://mlco2.github.io/impact/)
+  - Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres.
+  - Key Word: Carbon Emissions.
+  - <details><summary>Digest</summary> From an environmental standpoint, there are a few crucial aspects of training a neural network that have a major impact on the quantity of carbon that it emits. These factors include: the location of the server used for training and the energy grid that it uses, the length of the training procedure, and even the make and model of hardware on which the training takes place. In order to approximate these emissions, we present our Machine Learning Emissions Calculator, a tool for our community to better understand the environmental impact of training ML models.
+
+- BAFFLE : Blockchain Based Aggregator Free Federated Learning. [[paper]](https://arxiv.org/abs/1909.07452)
+  - Paritosh Ramanan, Kiyoshi Nakayama.
+  - Key Word: Blockchain; Smart Contracts; Federated Learning.
+  - <details><summary>Digest</summary> A key aspect of Federated Learning (FL) is the requirement of a centralized aggregator to maintain and update the global model. However, in many cases orchestrating a centralized aggregator might be infeasible due to numerous operational constraints. In this paper, we introduce BAFFLE, an aggregator free, blockchain driven, FL environment that is inherently decentralized. BAFFLE leverages Smart Contracts (SC) to coordinate the round delineation, model aggregation and update tasks in FL. BAFFLE boosts computational performance by decomposing the global parameter space into distinct chunks followed by a score and bid strategy.
+
+- Benchmarking the Performance and Energy Efficiency of AI Accelerators for AI Training. [[paper]](https://arxiv.org/abs/1909.06842)
+  - Yuxin Wang, Qiang Wang, Shaohuai Shi, Xin He, Zhenheng Tang, Kaiyong Zhao, Xiaowen Chu.
+  - Key Word: Energy Efficiency; AI Accelerator.
+  - <details><summary>Digest</summary> To investigate the differences among several popular off-the-shelf processors (i.e., Intel CPU, NVIDIA GPU, AMD GPU, and Google TPU) in training DNNs, we carry out a comprehensive empirical study on the performance and energy efficiency of these processors by benchmarking a representative set of deep learning workloads, including computation-intensive operations, classical convolutional neural networks (CNNs), recurrent neural networks (LSTM), Deep Speech 2, and Transformer.
+
+- Machine Learning in/for Blockchain: Future and Challenges. [[paper]](https://arxiv.org/abs/1909.06189)
+  - Fang Chen, Hong Wan, Hua Cai, Guang Cheng.
+  - Key Word: Blockchain; Bitcoin; Deep Learning; Reinforcement Learning.
+  - <details><summary>Digest</summary> Machine learning and blockchain are two of the most noticeable technologies in recent years. The first one is the foundation of artificial intelligence and big data, and the second one has significantly disrupted the financial industry. Both technologies are data-driven, and thus there are rapidly growing interests in integrating them for more secure and efficient data sharing and analysis. In this paper, we review the research on combining blockchain and machine learning technologies and demonstrate that they can collaborate efficiently and effectively. In the end, we point out some future directions and expect more researches on deeper integration of the two promising technologies.
+
+- Green AI. [[paper]](https://arxiv.org/abs/1907.10597)
+  - Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni.
+  - Key Word: Data Efficiency.
+  - <details><summary>Digest</summary> This position paper advocates a practical solution by making efficiency an evaluation criterion for research alongside accuracy and related measures. In addition, we propose reporting the financial cost or "price tag" of developing, training, and running models to provide baselines for the investigation of increasingly efficient methods. Our goal is to make AI both greener and more inclusive---enabling any inspired undergraduate with a laptop to write high-quality research papers. Green AI is an emerging focus at the Allen Institute for AI.
+
 - Variational Autoencoders and Nonlinear ICA: A Unifying Framework. [[paper]](https://arxiv.org/abs/1907.04809)
   - Ilyes Khemakhem, Diederik P. Kingma, Ricardo Pio Monti, Aapo Hyvärinen. *AISTATS 2022*
   - Key Word: Causal Representation Learning.
@@ -5532,33 +5508,6 @@ TBD
   - Key Word: Uncerntainty Estimation; Distribution Shift.
   - <details><summary>Digest</summary> Quantifying uncertainty is especially critical in real-world settings, which often involve input distributions that are shifted from the training distribution due to a variety of factors including sample bias and non-stationarity. In such settings, well calibrated uncertainty estimates convey information about when a model's output should (or should not) be trusted.
 
-- A Simple Baseline for Bayesian Uncertainty in Deep Learning. [[paper]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian)
-  - Wesley Maddox, Timur Garipov, Pavel Izmailov, Dmitry Vetrov, Andrew Gordon Wilson. *NeurIPS 2019*
-  - Key Word: Calibration; Bayesian Deep Learning.
-  - <details><summary>Digest</summary> We propose SWA-Gaussian (SWAG), a simple, scalable, and general purpose approach for uncertainty representation and calibration in deep learning. Stochastic Weight Averaging (SWA), which computes the first moment of stochastic gradient descent (SGD) iterates with a modified learning rate schedule, has recently been shown to improve generalization in deep learning.  
-
-- Artificial Intelligence for Social Good. [[paper]](https://arxiv.org/abs/1901.05406)
-  - Gregory D. Hager, Ann Drobnis, Fei Fang, Rayid Ghani, Amy Greenwald, Terah Lyons, David C. Parkes, Jason Schultz, Suchi Saria, Stephen F. Smith, Milind Tambe.
-  - Key Word: Report; Social Good.
-  - <details><summary>Digest</summary> The Computing Community Consortium (CCC), along with the White House Office of Science and Technology Policy (OSTP), and the Association for the Advancement of Artificial Intelligence (AAAI), co-sponsored a public workshop on Artificial Intelligence for Social Good on June 7th, 2016 in Washington, DC. This was one of five workshops that OSTP co-sponsored and held around the country to spur public dialogue on artificial intelligence, machine learning, and to identify challenges and opportunities related to AI. In the AI for Social Good workshop, the successful deployments and the potential use of AI in various topics that are essential for social good were discussed, including but not limited to urban computing, health, environmental sustainability, and public welfare. This report highlights each of these as well as a number of crosscutting issues.
-
-<!-- blockchain -->
-
-- A blockchain-orchestrated Federated Learning architecture for healthcare consortia. [[paper]](https://arxiv.org/abs/1910.12603)
-  - Jonathan Passerat-Palmbach, Tyler Farnan, Robert Miller, Marielle S. Gross, Heather Leigh Flannery, Bill Gleim.
-  - Key Word: Blockchain; Federated Learning; Healthcare.
-  - <details><summary>Digest</summary> We propose a novel architecture for federated learning within healthcare consortia. At the heart of the solution is a unique integration of privacy preserving technologies, built upon native enterprise blockchain components available in the Ethereum ecosystem. We show how the specific characteristics and challenges of healthcare consortia informed our design choices, notably the conception of a new Secure Aggregation protocol assembled with a protected hardware component and an encryption toolkit native to Ethereum. Our architecture also brings in a privacy preserving audit trail that logs events in the network without revealing identities.
-
-- BAFFLE : Blockchain Based Aggregator Free Federated Learning. [[paper]](https://arxiv.org/abs/1909.07452)
-  - Paritosh Ramanan, Kiyoshi Nakayama.
-  - Key Word: Blockchain; Smart Contracts; Federated Learning.
-  - <details><summary>Digest</summary> A key aspect of Federated Learning (FL) is the requirement of a centralized aggregator to maintain and update the global model. However, in many cases orchestrating a centralized aggregator might be infeasible due to numerous operational constraints. In this paper, we introduce BAFFLE, an aggregator free, blockchain driven, FL environment that is inherently decentralized. BAFFLE leverages Smart Contracts (SC) to coordinate the round delineation, model aggregation and update tasks in FL. BAFFLE boosts computational performance by decomposing the global parameter space into distinct chunks followed by a score and bid strategy.
-
-- Machine Learning in/for Blockchain: Future and Challenges. [[paper]](https://arxiv.org/abs/1909.06189)
-  - Fang Chen, Hong Wan, Hua Cai, Guang Cheng.
-  - Key Word: Blockchain; Bitcoin; Deep Learning; Reinforcement Learning.
-  - <details><summary>Digest</summary> Machine learning and blockchain are two of the most noticeable technologies in recent years. The first one is the foundation of artificial intelligence and big data, and the second one has significantly disrupted the financial industry. Both technologies are data-driven, and thus there are rapidly growing interests in integrating them for more secure and efficient data sharing and analysis. In this paper, we review the research on combining blockchain and machine learning technologies and demonstrate that they can collaborate efficiently and effectively. In the end, we point out some future directions and expect more researches on deeper integration of the two promising technologies.
-
 - Biometric Template Storage with Blockchain: A First Look into Cost and Performance Tradeoffs. [[paper]](https://arxiv.org/abs/1904.13128)
   - Oscar Delgado-Mohatar, Julian Fierrez, Ruben Tolosana, Ruben Vera-Rodriguez.
   - Key Word: Smart Contracts; Biometric Template Storage.
@@ -5568,6 +5517,16 @@ TBD
   - Tu Bui, Daniel Cooper, John Collomosse, Mark Bell, Alex Green, John Sheridan, Jez Higgins, Arindra Das, Jared Keller, Olivier Thereaux, Alan Brown.
   - Key Word: Distributed Ledger Technology; Video Content Hashing.
   - <details><summary>Digest</summary> We present ARCHANGEL; a novel distributed ledger based system for assuring the long-term integrity of digital video archives. First, we describe a novel deep network architecture for computing compact temporal content hashes (TCHs) from audio-visual streams with durations of minutes or hours. Our TCHs are sensitive to accidental or malicious content modification (tampering) but invariant to the codec used to encode the video. This is necessary due to the curatorial requirement for archives to format shift video over time to ensure future accessibility. Second, we describe how the TCHs (and the models used to derive them) are secured via a proof-of-authority blockchain distributed across multiple independent archives.  
+
+- A Simple Baseline for Bayesian Uncertainty in Deep Learning. [[paper]](https://arxiv.org/abs/1902.02476) [[code]](https://github.com/wjmaddox/swa_gaussian)
+  - Wesley Maddox, Timur Garipov, Pavel Izmailov, Dmitry Vetrov, Andrew Gordon Wilson. *NeurIPS 2019*
+  - Key Word: Calibration; Bayesian Deep Learning.
+  - <details><summary>Digest</summary> We propose SWA-Gaussian (SWAG), a simple, scalable, and general purpose approach for uncertainty representation and calibration in deep learning. Stochastic Weight Averaging (SWA), which computes the first moment of stochastic gradient descent (SGD) iterates with a modified learning rate schedule, has recently been shown to improve generalization in deep learning.  
+
+- Artificial Intelligence for Social Good. [[paper]](https://arxiv.org/abs/1901.05406)
+  - Gregory D. Hager, Ann Drobnis, Fei Fang, Rayid Ghani, Amy Greenwald, Terah Lyons, David C. Parkes, Jason Schultz, Suchi Saria, Stephen F. Smith, Milind Tambe.
+  - Key Word: Report; Social Good.
+  - <details><summary>Digest</summary> The Computing Community Consortium (CCC), along with the White House Office of Science and Technology Policy (OSTP), and the Association for the Advancement of Artificial Intelligence (AAAI), co-sponsored a public workshop on Artificial Intelligence for Social Good on June 7th, 2016 in Washington, DC. This was one of five workshops that OSTP co-sponsored and held around the country to spur public dialogue on artificial intelligence, machine learning, and to identify challenges and opportunities related to AI. In the AI for Social Good workshop, the successful deployments and the potential use of AI in various topics that are essential for social good were discussed, including but not limited to urban computing, health, environmental sustainability, and public welfare. This report highlights each of these as well as a number of crosscutting issues.
 
 - Towards Reverse-Engineering Black-Box Neural Networks. [[paper]](https://arxiv.org/abs/1711.01768) [[code]](https://github.com/coallaoh/WhitenBlackBox)
   - Seong Joon Oh, Max Augustin, Bernt Schiele, Mario Fritz. *ICLR 2018*
