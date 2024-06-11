@@ -172,6 +172,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Whose Preferences? Differences in Fairness Preferences and Their Impact on the Fairness of AI Utilizing Human Feedback. [[paper]](https://arxiv.org/abs/2406.05902)
+  - Emilia Agis Lerner, Florian E. Dorner, Elliott Ash, Naman Goel.
+  - Key Word: Fairness Preferences.
+  - <details><summary>Digest</summary> The study investigates fairness in content moderation using human feedback to compare how comments referencing different sensitive attribute groups should be treated. It reveals significant gaps in fairness preferences based on annotators' demographics and shows that an ensemble model, which equally weights classifiers trained on annotations from different demographics, performs better across various demographic intersections than a single classifier.
+
 - Low-rank finetuning for LLMs: A fairness perspective. [[paper]](https://arxiv.org/abs/2405.18572)
   - Saswat Das, Marco Romanelli, Cuong Tran, Zarreen Reza, Bhavya Kailkhura, Ferdinando Fioretto.
   - Key Word: Low-Rank Fine-Tuning; Large Language Model; Harmful Biases.
