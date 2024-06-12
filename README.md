@@ -325,6 +325,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Benchmarking Trustworthiness of Multimodal Large Language Models: A Comprehensive Study. [[paper]](https://arxiv.org/abs/2406.07057)
+  - Yichi Zhang, Yao Huang, Yitong Sun, Chang Liu, Zhe Zhao, Zhengwei Fang, Yifan Wang, Huanran Chen, Xiao Yang, Xingxing Wei, Hang Su, Yinpeng Dong, Jun Zhu.
+  - Key Word: Multimodal Large Language Model; Benchmarks; Robustness; Fairness; Privacy.
+  - <details><summary>Digest</summary> Multimodal Large Language Models (MLLMs) exhibit impressive capabilities across various tasks but face significant trustworthiness challenges. Current research lacks a comprehensive evaluation of these models' trustworthiness. To address this, the authors introduce MultiTrust, a benchmark evaluating MLLMs on five key aspects: truthfulness, safety, robustness, fairness, and privacy. This benchmark uses a rigorous evaluation strategy covering 32 diverse tasks with self-curated datasets. Experiments with 21 modern MLLMs reveal new trustworthiness issues, such as difficulties with visually confusing images, vulnerability to multimodal attacks, and tendencies to disclose privacy and exhibit biases. The study underscores the need for advanced methods to improve MLLM reliability and introduces a scalable toolbox for standardized trustworthiness research.
+
 - LoRA-Ensemble: Efficient Uncertainty Modelling for Self-attention Networks. [[paper]](https://arxiv.org/abs/2405.14438)
   - Michelle Halbheer, Dominik J. Mühlematter, Alexander Becker, Dominik Narnhofer, Helge Aasen, Konrad Schindler, Mehmet Ozgur Turkoglu.
   - Key Word: LoRA; Ensemble; Uncertainty Estimation.
