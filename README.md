@@ -325,6 +325,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Understanding Hallucinations in Diffusion Models through Mode Interpolation. [[paper]](https://arxiv.org/abs/2406.09358)
+  - Sumukh K Aithal, Pratyush Maini, Zachary C. Lipton, J. Zico Kolter.
+  - Key Word: Hallucinations; Diffusion Model.
+  - <details><summary>Digest</summary> The paper investigates a failure mode in diffusion models, termed mode interpolation, which causes these models to generate "hallucinations"—samples that do not exist in the training data. The authors find that diffusion models interpolate between nearby data modes, leading to artifacts outside the original training distribution. Through experiments with 1D and 2D Gaussians, they show that a discontinuous loss landscape in the model's decoder results in hallucinations. They also demonstrate that diffusion models can identify when they are generating hallucinations, as indicated by high variance in the final stages of the sampling process. By using a metric to capture this variance, they can remove over 95% of hallucinations while retaining 96% of valid samples. The paper concludes by discussing the implications of hallucination removal on the stability of recursive training with synthetic data.
+
 - Benchmarking Trustworthiness of Multimodal Large Language Models: A Comprehensive Study. [[paper]](https://arxiv.org/abs/2406.07057)
   - Yichi Zhang, Yao Huang, Yitong Sun, Chang Liu, Zhe Zhao, Zhengwei Fang, Yifan Wang, Huanran Chen, Xiao Yang, Xingxing Wei, Hang Su, Yinpeng Dong, Jun Zhu.
   - Key Word: Multimodal Large Language Model; Benchmarks; Robustness; Fairness; Privacy.
