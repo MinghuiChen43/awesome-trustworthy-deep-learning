@@ -68,6 +68,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Adversarial Attacks on Multimodal Agents. [[paper]](https://arxiv.org/abs/2406.12814)
+  - Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan.
+  - Key Word: Adversarial Attacks; Multimodal Agents.
+  - <details><summary>Digest</summary> The paper demonstrates that Vision-Language Models (VLMs) used in autonomous multimodal agents introduce new safety risks through adversarial attacks, despite the challenges in executing these attacks due to limited environmental access. The authors present two types of attacks—captioner and CLIP attacks—showing significant success rates in manipulating agent behavior, and they evaluate these attacks using a curated set of adversarial tasks, revealing varying robustness across different VLM-based agents.
+
 - Improving Alignment and Robustness with Short Circuiting. [[paper]](https://arxiv.org/abs/2406.04313)
   - Andy Zou, Long Phan, Justin Wang, Derek Duenas, Maxwell Lin, Maksym Andriushchenko, Rowan Wang, Zico Kolter, Matt Fredrikson, Dan Hendrycks.
   - Key Word: Representation Engineering; Adversarial Attacks and Defenses.
