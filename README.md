@@ -68,6 +68,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Adversaries Can Misuse Combinations of Safe Models. [[paper]](https://arxiv.org/abs/2406.14595)
+  - Erik Jones, Anca Dragan, Jacob Steinhardt.
+  - Key Word: Red-Teaming; Large Language Model.
+  - <details><summary>Digest</summary> Developers often test AI systems for potential misuse before release, such as in cyberoffense or bioterrorism. However, this study reveals that testing individual models is insufficient because adversaries can combine multiple models to achieve malicious goals. By breaking tasks into subtasks and using the most suitable model for each, adversaries can exploit even safe models. The study examines both manual and automated task decomposition methods, showing that combining models significantly increases the risk of generating harmful outputs like vulnerable code or manipulative content. This suggests that red-teaming efforts should consider the combined use of multiple models, not just individual ones.
+
 - Adversarial Attacks on Multimodal Agents. [[paper]](https://arxiv.org/abs/2406.12814)
   - Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan.
   - Key Word: Adversarial Attacks; Multimodal Agents.
