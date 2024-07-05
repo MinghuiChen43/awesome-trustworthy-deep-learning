@@ -128,6 +128,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI. [[paper]](https://arxiv.org/abs/2407.00106)
+  - Ilia Shumailov, Jamie Hayes, Eleni Triantafillou, Guillermo Ortiz-Jimenez, Nicolas Papernot, Matthew Jagielski, Itay Yona, Heidi Howard, Eugene Bagdasaryan.
+  - Key Word: Machine Unlearning; Generative AI.
+  - <details><summary>Digest</summary> Exact unlearning allows users to retract data from machine learning models, but inexact schemes were developed to reduce impractical costs. This paper highlights that while unlearning is effective during training, it does not prevent models from performing impermissible acts during inference, introducing the concept of "ununlearning" where forgotten knowledge can be reintroduced, necessitating content filtering for effective regulation.
+
 - Recovering Labels from Local Updates in Federated Learning. [[paper]](https://arxiv.org/abs/2405.00955)
   - Huancheng Chen, Haris Vikalo.
   - Key Word: Federated Learning; Gradient Inversion Attack; Label Recovery Attack.
