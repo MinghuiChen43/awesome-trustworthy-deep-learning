@@ -430,6 +430,10 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 - [Awesome Deep Learning Interpretability](https://github.com/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/stars/oneTaken/awesome_deep_learning_interpretability) ![ ](https://img.shields.io/github/last-commit/oneTaken/awesome_deep_learning_interpretability)
 
+- [Awesome Interpretability in Large Language Models](https://github.com/ruizheliUOA/Awesome-Interpretability-in-Large-Language-Models) ![](https://img.shields.io/github/stars/ruizheliUOA/Awesome-Interpretability-in-Large-Language-Models) ![](https://img.shields.io/github/last-commit/ruizheliUOA/Awesome-Interpretability-in-Large-Language-Models)
+
+- [Awesome LLM Interpretability](https://github.com/JShollaj/awesome-llm-interpretability) ![](https://img.shields.io/github/stars/JShollaj/awesome-llm-interpretability) ![](https://img.shields.io/github/last-commit/JShollaj/awesome-llm-interpretability)
+
 
 ## Other Lists
 
