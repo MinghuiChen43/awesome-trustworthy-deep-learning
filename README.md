@@ -266,6 +266,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- On scalable oversight with weak LLMs judging strong LLMs. [[paper]](https://arxiv.org/abs/2407.04622)
+  - Zachary Kenton, Noah Y. Siegel, János Kramár, Jonah Brown-Cohen, Samuel Albanie, Jannis Bulian, Rishabh Agarwal, David Lindner, Yunhao Tang, Noah D. Goodman, Rohin Shah.
+  - Key Word: Scalable Oversight; Large Language Model Debate and Judge.
+  - <details><summary>Digest</summary> This paper investigates scalable oversight protocols for supervising superhuman AI, focusing on debate and consultancy methods compared to direct question-answering. The study shows debate consistently outperforms consultancy, especially when consultants argue randomly, and reveals that allowing debaters to choose their stance reduces the likelihood of judges being convinced by incorrect answers.
+
 - A statistical framework for weak-to-strong generalization. [[paper]](https://arxiv.org/abs/2405.16236)
   - Seamus Somerstep, Felipe Maia Polo, Moulinath Banerjee, Ya'acov Ritov, Mikhail Yurochkin, Yuekai Sun.
   - Key Word: Weak-to-Strong Generalization.
