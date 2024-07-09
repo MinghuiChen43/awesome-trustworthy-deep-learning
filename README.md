@@ -133,6 +133,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Machine Unlearning; Generative AI.
   - <details><summary>Digest</summary> Exact unlearning allows users to retract data from machine learning models, but inexact schemes were developed to reduce impractical costs. This paper highlights that while unlearning is effective during training, it does not prevent models from performing impermissible acts during inference, introducing the concept of "ununlearning" where forgotten knowledge can be reintroduced, necessitating content filtering for effective regulation.
 
+- Machine Unlearning Fails to Remove Data Poisoning Attacks. [[paper]](https://arxiv.org/abs/2406.17216)
+  - Martin Pawelczyk, Jimmy Z. Di, Yiwei Lu, Gautam Kamath, Ayush Sekhari, Seth Neel.
+  - Key Word: Machine Unlearning; Poisoning Attack.
+  - <details><summary>Digest</summary> We investigate the effectiveness of various practical methods for approximate machine unlearning in deep learning, finding that they fail to effectively counteract data poisoning attacks across multiple scenarios and models. Our study introduces new evaluation metrics for unlearning, highlighting the need for broader evaluations to avoid overconfidence in current unlearning methods, which still fall short of the benefits of retraining.
+
 - Recovering Labels from Local Updates in Federated Learning. [[paper]](https://arxiv.org/abs/2405.00955)
   - Huancheng Chen, Haris Vikalo.
   - Key Word: Federated Learning; Gradient Inversion Attack; Label Recovery Attack.
@@ -344,6 +349,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Others
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
+
+- The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning. [[paper]](https://arxiv.org/abs/2403.03218)
+  - Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, Rishub Tamirisa, Bhrugu Bharathi, Adam Khoja, Zhenqi Zhao, Ariel Herbert-Voss, Cort B. Breuer, Samuel Marks, Oam Patel, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Lin, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Ruoyu Wang, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks.
+  - Key Word: Mitigating Risk in LLM; Machine Unlearning.
+  - <details><summary>Digest</summary> The White House Executive Order on AI highlights the risks of LLMs being used for malicious purposes, prompting the development of evaluations for hazardous capabilities. To address current evaluation limitations, a publicly released benchmark called the Weapons of Mass Destruction Proxy (WMDP) has been created to measure hazardous knowledge in biosecurity, cybersecurity, and chemical security, along with an unlearning method to reduce such knowledge while maintaining general model capabilities.
 
 - Understanding Hallucinations in Diffusion Models through Mode Interpolation. [[paper]](https://arxiv.org/abs/2406.09358)
   - Sumukh K Aithal, Pratyush Maini, Zachary C. Lipton, J. Zico Kolter.
