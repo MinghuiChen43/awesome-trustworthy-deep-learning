@@ -128,6 +128,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Faster Machine Unlearning via Natural Gradient Descent. [[paper]](https://arxiv.org/abs/2407.08169)
+  - Omri Lev, Ashia Wilson.
+  - Key Word: Machine Unlearning; Natural Gradient.
+  - <details><summary>Digest</summary> The paper introduces a novel algorithm using Natural Gradient Descent (NGD) for efficient and reliable data deletion from machine learning models without retraining. The approach offers strong privacy guarantees for convex models and employs a practical Min/Max optimization for non-convex models, demonstrating significant improvements in privacy, computational efficiency, and generalization over existing methods.
+
 - UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI. [[paper]](https://arxiv.org/abs/2407.00106)
   - Ilia Shumailov, Jamie Hayes, Eleni Triantafillou, Guillermo Ortiz-Jimenez, Nicolas Papernot, Matthew Jagielski, Itay Yona, Heidi Howard, Eugene Bagdasaryan.
   - Key Word: Machine Unlearning; Generative AI.
