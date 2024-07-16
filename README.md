@@ -216,6 +216,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- LLM Circuit Analyses Are Consistent Across Training and Scale. [[paper]](https://arxiv.org/abs/2407.10827)
+  - Curt Tigges, Michael Hanna, Qinan Yu, Stella Biderman.
+  - Key Word: Mechanistic Interpretability; Large Language Model Circuit.
+  - <details><summary>Digest</summary> This study examines how mechanisms within decoder-only large language models (LLMs) develop and change across extensive training. It finds that task abilities and their supporting components emerge consistently across models of various scales, suggesting that analyses of small models at the end of pre-training can be relevant for larger, continuously trained models.
+
 - Provably Better Explanations with Optimized Aggregation of Feature Attributions. [[paper]](https://arxiv.org/abs/2406.05090)
   - Thomas Decker, Ananta R. Bhattarai, Jindong Gu, Volker Tresp, Florian Buettner.
   - Key Word: Feature Attribution; Explanation Aggregation.
