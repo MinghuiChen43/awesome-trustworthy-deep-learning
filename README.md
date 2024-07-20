@@ -221,6 +221,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Auditing Local Explanations is Hard. [[paper]](https://arxiv.org/abs/2407.13281)
+  - Robi Bhattacharjee, Ulrike von Luxburg.
+  - Key Word: Local Explanation; Auditable Explanation.
+  - <details><summary>Digest</summary> In contexts requiring explanations for machine learning decisions, third-party auditors or user collectives can sanity-check these explanations by querying model decisions and local explanations to ensure consistency. However, our study reveals that this auditing process may require an impractically high number of queries, especially in high-dimensional settings, highlighting the need for attention to the "locality" of explanations.
+
 - LLM Circuit Analyses Are Consistent Across Training and Scale. [[paper]](https://arxiv.org/abs/2407.10827)
   - Curt Tigges, Michael Hanna, Qinan Yu, Stella Biderman.
   - Key Word: Mechanistic Interpretability; Large Language Model Circuit.
