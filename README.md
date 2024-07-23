@@ -291,6 +291,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- BOND: Aligning LLMs with Best-of-N Distillation. [[paper]](https://arxiv.org/abs/2407.14622)
+  - Pier Giuseppe Sessa, Robert Dadashi, Léonard Hussenot, Johan Ferret, Nino Vieillard, Alexandre Ramé, Bobak Shariari, Sarah Perrin, Abe Friesen, Geoffrey Cideron, Sertan Girgin, Piotr Stanczyk, Andrea Michi, Danila Sinopalnikov, Sabela Ramos, Amélie Héliou, Aliaksei Severyn, Matt Hoffman, Nikola Momchev, Olivier Bachem.
+  - Key Word: Reinforcement Learning from Human Feedback.
+  - <details><summary>Digest</summary> This paper introduces Best-of-N Distillation (BOND), a novel RLHF algorithm designed to emulate Best-of-N sampling without its computational overhead by using a distribution matching approach with Jeffreys divergence. BOND demonstrates superior performance in aligning policies, particularly in abstractive summarization, outperforming other RLHF algorithms on several benchmarks.
+
 - On scalable oversight with weak LLMs judging strong LLMs. [[paper]](https://arxiv.org/abs/2407.04622)
   - Zachary Kenton, Noah Y. Siegel, János Kramár, Jonah Brown-Cohen, Samuel Albanie, Jannis Bulian, Rishabh Agarwal, David Lindner, Yunhao Tang, Noah D. Goodman, Rohin Shah.
   - Key Word: Scalable Oversight; Large Language Model Debate and Judge.
