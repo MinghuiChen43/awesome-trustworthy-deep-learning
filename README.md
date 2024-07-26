@@ -68,6 +68,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Exploring Scaling Trends in LLM Robustness. [[paper]](https://arxiv.org/abs/2407.18213)
+  - Nikolhaus Howe, Michał Zajac, Ian McKenzie, Oskar Hollinsworth, Tom Tseng, Pierre-Luc Bacon, Adam Gleave.
+  - Key Word: Adversarial Robustness; Neural Scaling Law; Large Language Model.
+  - <details><summary>Digest</summary> Scaling language models in size and training data improves their capabilities, but without explicit defenses, this scaling does not enhance their robustness against adversarial prompts. Empirical findings show that larger models benefit significantly from adversarial training, unlike their performance with mere scale increases.
+
 - Adversaries Can Misuse Combinations of Safe Models. [[paper]](https://arxiv.org/abs/2406.14595)
   - Erik Jones, Anca Dragan, Jacob Steinhardt.
   - Key Word: Red-Teaming; Large Language Model.
