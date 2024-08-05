@@ -138,6 +138,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Verification of Machine Unlearning is Fragile. [[paper]](https://arxiv.org/abs/2408.00929)
+  - Binchi Zhang, Zihan Chen, Cong Shen, Jundong Li.
+  - Key Word: Machine Unlearning; Backdoor Verification.
+  - <details><summary>Digest</summary> As privacy concerns rise, data owners can now use machine unlearning to remove their data from machine learning models, as required by recent legislation. To ensure transparency and prevent dishonesty by model providers, various verification strategies have been proposed. However, the safety of these verification strategies is not well understood. This paper explores whether model providers can bypass these verification strategies while retaining unlearned data information. The findings indicate that verification is fragile, with two types of strategies identified and two novel adversarial unlearning processes introduced that can circumvent both. The study’s theoretical and empirical analyses reveal vulnerabilities in machine unlearning verification, highlighting the need for further research.
+
 - Faster Machine Unlearning via Natural Gradient Descent. [[paper]](https://arxiv.org/abs/2407.08169)
   - Omri Lev, Ashia Wilson.
   - Key Word: Machine Unlearning; Natural Gradient.
