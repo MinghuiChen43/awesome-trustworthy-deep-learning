@@ -226,6 +226,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- The Quest for the Right Mediator: A History, Survey, and Theoretical Grounding of Causal Interpretability. [[paper]](https://arxiv.org/abs/2408.01416)
+  - Aaron Mueller, Jannik Brinkmann, Millicent Li, Samuel Marks, Koyena Pal, Nikhil Prakash, Can Rager, Aruna Sankaranarayanan, Arnab Sen Sharma, Jiuding Sun, Eric Todd, David Bau, Yonatan Belinkov.
+  - Key Word: Causal Interpretability; Survey.
+  - <details><summary>Digest</summary> Interpretability helps us understand neural networks’ behaviors, but the field lacks unity, using ad-hoc evaluations and lacking shared theoretical foundations, making it hard to measure progress and compare techniques. Basic causal units in mechanisms are often undefined. This paper proposes a perspective using causal mediation analysis, categorizing interpretability by types of causal units (mediators) and search methods. It evaluates the pros and cons of each mediator, suggesting when different mediators and methods are appropriate. The paper advocates for discovering new mediators that balance human-interpretability and computational efficiency, and for standardized evaluations to enable better comparisons across mediator types.
+
 - Auditing Local Explanations is Hard. [[paper]](https://arxiv.org/abs/2407.13281)
   - Robi Bhattacharjee, Ulrike von Luxburg.
   - Key Word: Local Explanation; Auditable Explanation.
