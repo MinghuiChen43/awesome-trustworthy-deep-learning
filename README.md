@@ -118,6 +118,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- Scaling Laws for Data Poisoning in LLMs. [[paper]](https://arxiv.org/abs/2408.02946)
+  - Dillon Bowen, Brendan Murphy, Will Cai, David Khachaturov, Adam Gleave, Kellin Pelrine.
+  - Key Word: Data Poisoning; Large Language Model; Neural Scaling Law.
+  - <details><summary>Digest</summary> Recent research indicates that large language models (LLMs) are increasingly vulnerable to data poisoning, which involves training on corrupted or harmful data. This poisoning is difficult to detect, undermines safeguards, and results in undesirable behaviors. The study evaluates three threat models: malicious fine-tuning, imperfect data curation, and intentional data contamination, using 23 LLMs (1.5-72 billion parameters) across three datasets. Findings reveal that larger LLMs are more susceptible to learning harmful behaviors quickly with even minimal poisoning, highlighting the urgent need for robust protections against data poisoning as LLMs scale.
+
 - AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases. [[paper]](https://arxiv.org/abs/2407.12784)
   - Zhaorun Chen, Zhen Xiang, Chaowei Xiao, Dawn Song, Bo Li.
   - Key Word: Red-Teaming; Poisoning Attacks; Retrieval-Augmented Generation.
