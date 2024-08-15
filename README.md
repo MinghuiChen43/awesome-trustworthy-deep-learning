@@ -118,6 +118,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#poisoning-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Poisoning Attacks and Defenses</i></b>]</a>.
 
+- BadMerging: Backdoor Attacks Against Model Merging. [[paper]](https://arxiv.org/abs/2408.07362)
+  - Jinghuai Zhang, Jianfeng Chi, Zheng Li, Kunlin Cai, Yang Zhang, Yuan Tian.
+  - Key Word: Backdoor Attacks; Model Merging.
+  - <details><summary>Digest</summary> The paper introduces "BadMerging," a backdoor attack specifically designed for Model Merging (MM), a method that combines multiple fine-tuned task-specific models without additional training. BadMerging enables an adversary to compromise an entire merged model by injecting a backdoor into just one task-specific model. The attack is robust against various merging parameters and can affect both the adversary's tasks (on-task attack) and other contributors' tasks (off-task attack). Extensive experiments demonstrate the effectiveness of BadMerging and reveal that existing defense mechanisms are inadequate, underscoring the need for more advanced defenses in the context of MM.
+
 - Scaling Laws for Data Poisoning in LLMs. [[paper]](https://arxiv.org/abs/2408.02946)
   - Dillon Bowen, Brendan Murphy, Will Cai, David Khachaturov, Adam Gleave, Kellin Pelrine.
   - Key Word: Data Poisoning; Large Language Model; Neural Scaling Law.
