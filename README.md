@@ -68,6 +68,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Emerging Vulnerabilities in Frontier Models: Multi-Turn Jailbreak Attacks. [[paper]](https://arxiv.org/abs/2409.00137)
+  - Tom Gibbs, Ethan Kosak-Hine, George Ingebretsen, Jason Zhang, Julius Broomfield, Sara Pieri, Reihaneh Iranmanesh, Reihaneh Rabbany, Kellin Pelrine.
+  - Key Word: Jailbreak Attack.
+  - <details><summary>Digest</summary> This paper discusses how large language models (LLMs), despite their advancements, remain vulnerable to jailbreak attacks. It introduces a dataset of jailbreak examples in both single and multi-turn formats, showing that defenses effective in one format may not work in the other. The study emphasizes the need to examine vulnerabilities in both structures, as LLM-based filters perform differently depending on input structure, not just content.
+
 - Exploring Scaling Trends in LLM Robustness. [[paper]](https://arxiv.org/abs/2407.18213)
   - Nikolhaus Howe, Michał Zajac, Ian McKenzie, Oskar Hollinsworth, Tom Tseng, Pierre-Luc Bacon, Adam Gleave.
   - Key Word: Adversarial Robustness; Neural Scaling Law; Large Language Model.
@@ -147,6 +152,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Privacy
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
+
+- Membership Inference Attacks Against In-Context Learning. [[paper]](https://arxiv.org/abs/2409.01380)
+  - Rui Wen, Zheng Li, Michael Backes, Yang Zhang.
+  - Key Word: Membership Inference Attacks; In-Context Learning.
+  - <details><summary>Digest</summary> This paper introduces the first membership inference attack tailored for In-Context Learning (ICL), focusing on identifying privacy risks without relying on associated probabilities. Four attack strategies are proposed, achieving high accuracy (e.g., 95% against LLaMA), demonstrating greater risks than previous probability-based methods. The paper also proposes a hybrid attack with strong performance and explores three defenses that, when combined, significantly reduce privacy leakage.
 
 - Verification of Machine Unlearning is Fragile. [[paper]](https://arxiv.org/abs/2408.00929)
   - Binchi Zhang, Zihan Chen, Cong Shen, Jundong Li.
@@ -240,6 +250,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
+
+- ContextCite: Attributing Model Generation to Context. [[paper]](https://arxiv.org/abs/2409.00729)
+  - Benjamin Cohen-Wang, Harshay Shah, Kristian Georgiev, Aleksander Madry.
+  - Key Word: Context Attribution.
+  - <details><summary>Digest</summary> This paper introduces the concept of context attribution—identifying which parts of a context prompted a language model to generate a specific response. The authors propose ContextCite, a method that can be applied to any language model to track this context-to-response relationship. They demonstrate the utility of ContextCite in three areas: verifying the accuracy of generated statements, improving response quality by trimming unnecessary context, and detecting poisoning attacks.
 
 - The Quest for the Right Mediator: A History, Survey, and Theoretical Grounding of Causal Interpretability. [[paper]](https://arxiv.org/abs/2408.01416)
   - Aaron Mueller, Jannik Brinkmann, Millicent Li, Samuel Marks, Koyena Pal, Nikhil Prakash, Can Rager, Aruna Sankaranarayanan, Arnab Sen Sharma, Jiuding Sun, Eric Todd, David Bau, Yonatan Belinkov.
