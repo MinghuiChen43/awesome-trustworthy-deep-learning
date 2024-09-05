@@ -331,6 +331,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Beyond Preferences in AI Alignment. [[paper]](https://arxiv.org/abs/2408.16984)
+  - Tan Zhi-Xuan, Micah Carroll, Matija Franklin, Hal Ashton.
+  - Key Word: Alignment Beyond Preferences.
+  - <details><summary>Digest</summary> The paper critiques the dominant “preferentist” approach to AI alignment, which assumes that human values can be adequately represented by preferences, and that AI should align with these preferences for safety and value compliance. The authors argue that this approach is flawed because preferences fail to capture the full complexity of human values and may ignore the incommensurability of those values. They also challenge the reliance on expected utility theory (EUT) as a normative standard for both humans and AI, pointing out its limitations. Instead, they propose aligning AI systems with normative standards suited to their social roles, agreed upon by relevant stakeholders, to accommodate diverse human values and promote mutual benefit.
+
 - BOND: Aligning LLMs with Best-of-N Distillation. [[paper]](https://arxiv.org/abs/2407.14622)
   - Pier Giuseppe Sessa, Robert Dadashi, Léonard Hussenot, Johan Ferret, Nino Vieillard, Alexandre Ramé, Bobak Shariari, Sarah Perrin, Abe Friesen, Geoffrey Cideron, Sertan Girgin, Piotr Stanczyk, Andrea Michi, Danila Sinopalnikov, Sabela Ramos, Amélie Héliou, Aliaksei Severyn, Matt Hoffman, Nikola Momchev, Olivier Bachem.
   - Key Word: Reinforcement Learning from Human Feedback.
