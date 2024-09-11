@@ -331,6 +331,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Geometric-Averaged Preference Optimization for Soft Preference Labels. [[paper]](https://arxiv.org/abs/2409.06691)
+  - Hiroki Furuta, Kuang-Huei Lee, Shixiang Shane Gu, Yutaka Matsuo, Aleksandra Faust, Heiga Zen, Izzeddin Gur.
+  - Key Word: Preference Optimization.
+  - <details><summary>Digest</summary> This paper critiques traditional methods that treat human preferences as binary and deterministic, arguing that preferences are more nuanced and should be modeled as distributional. The authors introduce distributional soft preference labels and propose an improvement to Direct Preference Optimization (DPO) by incorporating a weighted geometric average of likelihoods in the loss function. This adjustment ensures that equally preferred responses result in near-zero loss, preventing over-optimization. The proposed method, which uses simulated AI feedback for soft labels, shows improved performance on alignment benchmarks compared to binary labeling, especially in datasets with modestly-confident labels.
+
 - Beyond Preferences in AI Alignment. [[paper]](https://arxiv.org/abs/2408.16984)
   - Tan Zhi-Xuan, Micah Carroll, Matija Franklin, Hal Ashton.
   - Key Word: Alignment Beyond Preferences.
