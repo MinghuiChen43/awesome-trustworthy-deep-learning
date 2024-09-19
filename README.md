@@ -331,6 +331,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Preference Tuning with Human Feedback on Language, Speech, and Vision Tasks: A Survey. [[paper]](https://arxiv.org/abs/2409.11564)
+  - Genta Indra Winata, Hanyang Zhao, Anirban Das, Wenpin Tang, David D. Yao, Shi-Xiong Zhang, Sambit Sahu.
+  - Key Word: Preference Alignment; Survey.
+  - <details><summary>Digest</summary> This survey provides a comprehensive review of recent developments in preference tuning for aligning deep generative models with human preferences. It is structured into three sections: (1) an introduction to reinforcement learning frameworks, tasks, models, and datasets across language, speech, and vision modalities; (2) an in-depth analysis of preference tuning methods; and (3) a discussion of applications, evaluation methods, and future research directions. The goal is to enhance understanding and encourage further innovation in preference tuning and model alignment.
+
 - Geometric-Averaged Preference Optimization for Soft Preference Labels. [[paper]](https://arxiv.org/abs/2409.06691)
   - Hiroki Furuta, Kuang-Huei Lee, Shixiang Shane Gu, Yutaka Matsuo, Aleksandra Faust, Heiga Zen, Izzeddin Gur.
   - Key Word: Preference Optimization.
