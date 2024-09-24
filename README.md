@@ -49,6 +49,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts. [[paper]](https://arxiv.org/abs/2409.13728)
+  - Anna Mészáros, Szilvia Ujváry, Wieland Brendel, Patrik Reizinger, Ferenc Huszár.
+  - Key Word: Compositional Generalization; Rule Extrapolation; Large Language Model.
+  - <details><summary>Digest</summary> This paper explores the out-of-distribution (OOD) behavior of autoregressive large language models (LLMs), focusing on a new concept termed rule extrapolation. Rule extrapolation involves prompts that violate at least one rule in formal languages, which are defined by intersecting rules. The authors evaluate how different architectures, including linear, recurrent, Transformer, and state space models, handle rule extrapolation across various levels of complexity. Additionally, they aim to develop a normative theory of rule extrapolation, drawing inspiration from the Solomonoff prior in algorithmic information theory. The study seeks to deepen understanding of LLMs’ OOD generalization abilities beyond just the Transformer architecture.
+
 - Beyond Discrepancy: A Closer Look at the Theory of Distribution Shift. [[paper]](https://arxiv.org/abs/2405.19156)
   - Robi Bhattacharjee, Nick Rittler, Kamalika Chaudhuri.
   - Key Word: Distribution Shift; Invariant Risk Minimization.
