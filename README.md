@@ -73,6 +73,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Automated Red Teaming with GOAT: the Generative Offensive Agent Tester. [[paper]](https://arxiv.org/abs/2410.01606)
+  - Maya Pavlova, Erik Brinkman, Krithika Iyer, Vitor Albiero, Joanna Bitton, Hailey Nguyen, Joe Li, Cristian Canton Ferrer, Ivan Evtimov, Aaron Grattafiori.
+  - Key Word: Red Teaming; Jailbreak Attack; Large Language Model; Reasoning.
+  - <details><summary>Digest</summary> The paper introduces GOAT (Generative Offensive Agent Tester), an automated system for red-teaming large language models (LLMs). It addresses limitations in current red-teaming approaches, which often do not reflect how typical users interact with AI models. Instead of complex adversarial techniques, GOAT simulates realistic, plain-language adversarial conversations using multiturn interactions. It incorporates multiple adversarial prompting methods to identify vulnerabilities in LLMs efficiently. GOAT demonstrated high success rates in identifying vulnerabilities, with 97% ASR@10 against Llama 3.1 and 88% against GPT-4 on the JailbreakBench dataset, streamlining the red-teaming process for AI safety testing.
+
 - Emerging Vulnerabilities in Frontier Models: Multi-Turn Jailbreak Attacks. [[paper]](https://arxiv.org/abs/2409.00137)
   - Tom Gibbs, Ethan Kosak-Hine, George Ingebretsen, Jason Zhang, Julius Broomfield, Sara Pieri, Reihaneh Iranmanesh, Reihaneh Rabbany, Kellin Pelrine.
   - Key Word: Jailbreak Attack.
