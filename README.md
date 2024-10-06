@@ -336,6 +336,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Moral Alignment for LLM Agents. [[paper]](https://arxiv.org/abs/2410.01639)
+  - Elizaveta Tennant, Stephen Hailes, Mirco Musolesi.
+  - Key Word: Moral Alignment; Large Language Model.
+  - <details><summary>Digest</summary> The paper introduces a novel approach to aligning decision-making agents based on Large Language Models (LLMs) with human values by designing intrinsic reward functions for Reinforcement Learning fine-tuning. Unlike traditional methods that rely on human preference data (e.g., RLHF or DPO), this approach encodes explicit human values for moral alignment, particularly using frameworks from Deontological Ethics and Utilitarianism. The authors test this method in the Iterated Prisoner’s Dilemma (IPD), showing that moral fine-tuning allows agents to unlearn selfish behaviors and generalize moral strategies to other environments. This method offers a transparent and cost-effective alternative to current alignment techniques.
+
 - Preference Tuning with Human Feedback on Language, Speech, and Vision Tasks: A Survey. [[paper]](https://arxiv.org/abs/2409.11564)
   - Genta Indra Winata, Hanyang Zhao, Anirban Das, Wenpin Tang, David D. Yao, Shi-Xiong Zhang, Sambit Sahu.
   - Key Word: Preference Alignment; Survey.
