@@ -49,6 +49,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Compositional Risk Minimization. [[paper]](https://arxiv.org/abs/2410.06303)
+  - Divyat Mahajan, Mohammad Pezeshki, Ioannis Mitliagkas, Kartik Ahuja, Pascal Vincent.
+  - Key Word: Compositional Shifts.
+  - <details><summary>Digest</summary> This paper addresses compositional shift, an extreme form of subpopulation shift where certain combinations of attributes are absent in the training data but appear in the test data. The authors propose compositional risk minimization (CRM), a new approach that builds on additive energy distributions to model data attributes. First, they train a classifier to predict attributes and then adjust it to handle compositional shifts. Their theoretical analysis shows that CRM can generalize to unseen attribute combinations, and empirical results demonstrate that CRM improves robustness compared to existing methods for handling subpopulation shifts.
+
 - Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts. [[paper]](https://arxiv.org/abs/2409.13728)
   - Anna Mészáros, Szilvia Ujváry, Wieland Brendel, Patrik Reizinger, Ferenc Huszár.
   - Key Word: Compositional Generalization; Rule Extrapolation; Large Language Model.
