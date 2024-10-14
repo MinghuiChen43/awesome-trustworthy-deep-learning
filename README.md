@@ -78,6 +78,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents. [[paper]](https://arxiv.org/abs/2410.09024)
+  - Maksym Andriushchenko, Alexandra Souly, Mateusz Dziemian, Derek Duenas, Maxwell Lin, Justin Wang, Dan Hendrycks, Andy Zou, Zico Kolter, Matt Fredrikson, Eric Winsor, Jerome Wynne, Yarin Gal, Xander Davies.
+  - Key Word: LLM Agents; Jailbreak; Benchmark.
+  - <details><summary>Digest</summary> This paper introduces AgentHarm, a new benchmark designed to evaluate the robustness of LLM agents against jailbreak attacks, which attempt to bypass safety measures and misuse model capabilities. The benchmark includes 110 malicious tasks across 11 harm categories (e.g., fraud, cybercrime), with 440 tasks in total after augmentation. The study finds that leading LLMs are often compliant with harmful requests without needing jailbreaking, that simple jailbreak techniques can be easily adapted for agent tasks, and that these jailbreaks allow malicious multi-step behaviors while retaining model capabilities. The authors release AgentHarm for evaluating attacks and defenses in LLM agents.
+
 - Automated Red Teaming with GOAT: the Generative Offensive Agent Tester. [[paper]](https://arxiv.org/abs/2410.01606)
   - Maya Pavlova, Erik Brinkman, Krithika Iyer, Vitor Albiero, Joanna Bitton, Hailey Nguyen, Joe Li, Cristian Canton Ferrer, Ivan Evtimov, Aaron Grattafiori.
   - Key Word: Red Teaming; Jailbreak Attack; Large Language Model; Reasoning.
