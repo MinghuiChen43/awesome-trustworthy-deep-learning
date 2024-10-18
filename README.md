@@ -252,6 +252,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Limits to scalable evaluation at the frontier: LLM as Judge won't beat twice the data. [[paper]](https://arxiv.org/abs/2410.13341)
+  - Florian E. Dorner, Vivian Y. Nastl, Moritz Hardt.
+  - Key Word: LLM-as-a-Judge; Debiasing.
+  - <details><summary>Digest</summary> This paper examines the limitations of using strong models as judges to evaluate other models without costly annotations. The authors show that debiasing methods, which use a few high-quality labels to correct biases in model evaluations, can only reduce the need for ground truth labels by at most half when the judge is no more accurate than the evaluated model. They highlight the limitations of this approach, especially when evaluating new models potentially better than the judge. Empirical results confirm that the actual savings in label usage are smaller than the theoretical limit.
+
 - Whose Preferences? Differences in Fairness Preferences and Their Impact on the Fairness of AI Utilizing Human Feedback. [[paper]](https://arxiv.org/abs/2406.05902)
   - Emilia Agis Lerner, Florian E. Dorner, Elliott Ash, Naman Goel.
   - Key Word: Fairness Preferences.
