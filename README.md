@@ -271,6 +271,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Hypothesis Testing the Circuit Hypothesis in LLMs. [[paper]](https://arxiv.org/abs/2410.13032)
+  - Claudia Shi, Nicolas Beltran-Velez, Achille Nazaret, Carolina Zheng, Adrià Garriga-Alonso, Andrew Jesson, Maggie Makar, David M. Blei.
+  - Key Word: Circuit Hypothesis; Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This paper explores the hypothesis that large language models (LLMs) execute their capabilities through small subnetworks, called circuits. The authors formalize criteria to evaluate these circuits, focusing on whether they preserve LLM behavior, are localized, and are minimal. They develop tests to assess circuits and apply them to six circuits from the literature. Results show that synthetic circuits align with ideal properties, while discovered circuits vary. To support further research, they introduce the circuitry package, built on the TransformerLens library, simplifying circuit analysis in Transformer models.
+
 - ContextCite: Attributing Model Generation to Context. [[paper]](https://arxiv.org/abs/2409.00729)
   - Benjamin Cohen-Wang, Harshay Shah, Kristian Georgiev, Aleksander Madry.
   - Key Word: Context Attribution.
