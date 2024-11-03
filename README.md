@@ -49,6 +49,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Transformation-Invariant Learning and Theoretical Guarantees for OOD Generalization. [[paper]](https://arxiv.org/abs/2410.23461)
+  - Omar Montasser, Han Shao, Emmanuel Abbe.
+  - Key Word: Out-of-Distribution Generalization; Distributionally Robust Optimization.
+  - <details><summary>Digest</summary> This paper studies statistical learning under distribution shifts, focusing on scenarios where training and testing distributions are related by data transformation maps. It introduces theoretical learning rules and reductions to Empirical Risk Minimization (ERM), providing sample complexity bounds based on the VC dimension of combined predictors and transformations. The results offer a game-theoretic perspective, where a learner selects predictors to minimize worst-case loss while an adversary selects transformations to maximize it.
+
 - Compositional Risk Minimization. [[paper]](https://arxiv.org/abs/2410.06303)
   - Divyat Mahajan, Mohammad Pezeshki, Ioannis Mitliagkas, Kartik Ahuja, Pascal Vincent.
   - Key Word: Compositional Shifts.
