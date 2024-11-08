@@ -281,6 +281,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Towards Unifying Interpretability and Control: Evaluation via Intervention. [[paper]](https://arxiv.org/abs/2411.04430)
+  - Usha Bhalla, Suraj Srinivas, Asma Ghandeharioun, Himabindu Lakkaraju.
+  - Key Word: Mechanistic Interpretability; Causal Intervention.
+  - <details><summary>Digest</summary> This paper addresses the need for both interpretability and control in large language models, proposing “intervention” as a core goal of interpretability to better align model behavior. The authors unify four interpretability methods into an encoder-decoder framework that allows for interventions on human-interpretable features, enabling control over model outputs. They introduce two evaluation metrics—intervention success rate and coherence-intervention tradeoff—to assess control effectiveness. Findings show that while interventions are feasible, current methods are inconsistent and often reduce model performance, with lens-based methods performing best but still falling short compared to simpler approaches like prompting.
+
 - Hypothesis Testing the Circuit Hypothesis in LLMs. [[paper]](https://arxiv.org/abs/2410.13032)
   - Claudia Shi, Nicolas Beltran-Velez, Achille Nazaret, Carolina Zheng, Adrià Garriga-Alonso, Andrew Jesson, Maggie Makar, David M. Blei.
   - Key Word: Circuit Hypothesis; Mechanistic Interpretability.
