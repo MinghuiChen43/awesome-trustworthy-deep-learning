@@ -281,6 +281,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Concept Bottleneck Language Models For protein design. [[paper]](https://arxiv.org/abs/2411.06090)
+  - Aya Abdelsalam Ismail, Tuomas Oikarinen, Amy Wang, Julius Adebayo, Samuel Stanton, Taylor Joren, Joseph Kleinhenz, Allen Goodman, Héctor Corrada Bravo, Kyunghyun Cho, Nathan C. Frey.
+  - Key Word: Concept Bottleneck; Protein Language Model.
+  - <details><summary>Digest</summary> We propose Concept Bottleneck Protein Language Models (CB-pLM), a generative model where neurons correspond to interpretable concepts, enabling control over generated protein properties, interpretability, and debugging. CB-pLM achieves competitive performance with standard models and scales up to 3 billion parameters, marking it as the largest Concept Bottleneck Model for protein language tasks, particularly valuable in drug discovery.
+
 - Towards Unifying Interpretability and Control: Evaluation via Intervention. [[paper]](https://arxiv.org/abs/2411.04430)
   - Usha Bhalla, Suraj Srinivas, Asma Ghandeharioun, Himabindu Lakkaraju.
   - Key Word: Mechanistic Interpretability; Causal Intervention.
