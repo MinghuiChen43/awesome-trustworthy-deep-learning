@@ -371,6 +371,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Learning Loss Landscapes in Preference Optimization. [[paper]](https://arxiv.org/abs/2411.06568)
+  - Carlo Alfano, Silvia Sapora, Jakob Nicolaus Foerster, Patrick Rebeschini, Yee Whye Teh.
+  - Key Word: Preference Optimization; Loss Landscape.
+  - <details><summary>Digest</summary> This study examines how data quality issues in preference datasets impact Preference Optimization (PO) algorithms, revealing performance drops in state-of-the-art methods. To address this, we propose a mirror descent-based PO framework, which includes new loss functions—discovered via evolutionary strategies—that significantly improve performance across tasks. These loss functions also enhance large language model fine-tuning on mixed-quality data, surpassing ORPO.
+
 - Moral Alignment for LLM Agents. [[paper]](https://arxiv.org/abs/2410.01639)
   - Elizaveta Tennant, Stephen Hailes, Mirco Musolesi.
   - Key Word: Moral Alignment; Large Language Model.
