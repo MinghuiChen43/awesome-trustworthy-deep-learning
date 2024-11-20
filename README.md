@@ -178,6 +178,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- On the Privacy Risk of In-context Learning. [[paper]](https://arxiv.org/abs/2411.10512)
+  - Haonan Duan, Adam Dziedzic, Mohammad Yaghini, Nicolas Papernot, Franziska Boenisch.
+  - Key Word: In-Context Learning; Membership Inference.
+  - <details><summary>Digest</summary> This paper highlights the privacy risks of using large language models (LLMs) with natural language prompts containing private data. It demonstrates that prompted models are more vulnerable to membership inference attacks than fine-tuned models with similar utility. The increased risk is attributed to the models’ heightened prediction confidence on prompted data. To mitigate this risk, the authors propose using ensembling, aggregating outputs from multiple model versions to reduce membership inference vulnerabilities.
+
 - Membership Inference Attacks Against In-Context Learning. [[paper]](https://arxiv.org/abs/2409.01380)
   - Rui Wen, Zheng Li, Michael Backes, Yang Zhang.
   - Key Word: Membership Inference Attacks; In-Context Learning.
