@@ -178,6 +178,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Provable unlearning in topic modeling and downstream tasks. [[paper]](https://arxiv.org/abs/2411.12600)
+  - Stanley Wei, Sadhika Malladi, Sanjeev Arora, Amartya Sanyal.
+  - Key Word: Machine Unlearning; Certified Unlearning; Pre-Training and Fine-Tuning.
+  - <details><summary>Digest</summary> This paper introduces the first theoretical guarantees for unlearning in the pre-training and fine-tuning paradigm, focusing on topic models. The authors propose a computationally efficient unlearning algorithm for topic models, independent of the dataset size, and quantify the model’s deletion capacity (i.e., the number of examples that can be unlearned without degrading performance). They extend their analysis to fine-tuned models and design an algorithm for unlearning after fine-tuning with a linear head. Notably, they find that pre-training data is easier to unlearn in fine-tuned models, and this can be done without altering the base model.
+
 - On the Privacy Risk of In-context Learning. [[paper]](https://arxiv.org/abs/2411.10512)
   - Haonan Duan, Adam Dziedzic, Mohammad Yaghini, Nicolas Papernot, Franziska Boenisch.
   - Key Word: In-Context Learning; Membership Inference.
