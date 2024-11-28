@@ -44,6 +44,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#survey">:open_file_folder: [<b><i>Full List of Survey</i></b>]</a>.
 
+- NeuroAI for AI Safety. [[paper]](https://arxiv.org/abs/2411.18526)
+  - Patrick Mineault, Niccolò Zanichelli, Joanne Zichen Peng, Anton Arkhipov, Eli Bingham, Julian Jara-Ettinger, Emily Mackevicius, Adam Marblestone, Marcelo Mattar, Andrew Payne, Sophia Sanborn, Karen Schroeder, Zenna Tavares, Andreas Tolias.
+  - Key Word: AI Safety; Neuroscience; Robustness; Speicificaiton; Assurance.
+  - <details><summary>Digest</summary> This paper highlights the potential of neuroscience to inspire advancements in AI safety, emphasizing the brain’s unique mechanisms for robustness, safe exploration, pragmatics, and cooperation. The authors propose leveraging neuroscience for AI safety through brain-inspired representations, architectures, robust sensory-motor systems, fine-tuning with brain data, interpretability methods, and scaling cognitively-inspired designs. Concrete recommendations are provided to integrate neuroscience into AI safety research.
+
 
 ## Out-of-Distribution Generalization
 
