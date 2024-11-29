@@ -500,6 +500,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- SoK: Watermarking for AI-Generated Content. [[paper]](https://arxiv.org/abs/2411.18479)
+  - Xuandong Zhao, Sam Gunn, Miranda Christ, Jaiden Fairoze, Andres Fabrega, Nicholas Carlini, Sanjam Garg, Sanghyun Hong, Milad Nasr, Florian Tramer, Somesh Jha, Lei Li, Yu-Xiang Wang, Dawn Song.
+  - Key Word: Watermarking; AI-Generated Content.
+  - <details><summary>Digest</summary> This paper provides a comprehensive overview of watermarking techniques for generative AI (GenAI), addressing the challenge of distinguishing AI-generated content from human-created content. It highlights the importance of watermarking for enhancing AI safety, combating misinformation, and ensuring trustworthiness. The study formalizes definitions, desired properties, objectives, and threat models of watermarking schemes, evaluates practical strategies for robustness against attacks, and reviews recent advancements. It identifies open challenges and potential directions, aiming to guide researchers in improving watermarking methods and assist policymakers in addressing GenAI’s broader implications.
+
 - Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress? [[paper]](https://arxiv.org/abs/2407.21792)
   - Richard Ren, Steven Basart, Adam Khoja, Alice Gatti, Long Phan, Xuwang Yin, Mantas Mazeika, Alexander Pan, Gabriel Mukobi, Ryan H. Kim, Stephen Fitz, Dan Hendrycks.
   - Key Word: AI Safety; Benchmark.
