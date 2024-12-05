@@ -93,6 +93,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Best-of-N Jailbreaking. [[paper]](https://arxiv.org/abs/2412.03556)
+  - John Hughes, Sara Price, Aengus Lynch, Rylan Schaeffer, Fazl Barez, Sanmi Koyejo, Henry Sleight, Erik Jones, Ethan Perez, Mrinank Sharma.
+  - Key Word: Jailbreaking; Bootstrapping.
+  - <details><summary>Digest</summary> This paper presents Best-of-N (BoN) Jailbreaking, a black-box algorithm that exploits AI systems across modalities by iteratively sampling augmented prompts (e.g., random shuffling, capitalization) to elicit harmful responses. BoN achieves high attack success rates (e.g., 89% on GPT-4o, 78% on Claude 3.5) and bypasses defenses on both closed- and open-source models. It extends to vision and audio language models using modality-specific augmentations and improves with increased sampling, following a power-law pattern. Combining BoN with other attack strategies further enhances its effectiveness, exposing AI systems’ vulnerability to minor input variations. 
+
 - AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents. [[paper]](https://arxiv.org/abs/2410.09024)
   - Maksym Andriushchenko, Alexandra Souly, Mateusz Dziemian, Derek Duenas, Maxwell Lin, Justin Wang, Dan Hendrycks, Andy Zou, Zico Kolter, Matt Fredrikson, Eric Winsor, Jerome Wynne, Yarin Gal, Xander Davies.
   - Key Word: LLM Agents; Jailbreak; Benchmark.
