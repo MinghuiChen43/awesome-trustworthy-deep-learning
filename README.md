@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[paper]](https://arxiv.org/abs/2412.02856)
+  - Piotr Teterwak, Kuniaki Saito, Theodoros Tsiligkaridis, Bryan A. Plummer, Kate Saenko.
+  - Key Word: Domain Generalization; Pretraining.
+  - <details><summary>Digest</summary> This paper examines Multi-Source Domain Generalization (DG), where models are trained on multiple source domains to generalize to unseen target domains. It questions whether recent DG improvements stem from better methods or stronger pretraining and finds that perceptual similarity to pretraining data is insufficient for strong performance. Instead, the authors propose the Alignment Hypothesis, which asserts that DG performance depends on the alignment of image and class label text embeddings. Experiments confirm this hypothesis, revealing that existing methods perform well on data similar to pretraining (IP) but struggle on dissimilar data (OOP). The findings emphasize the need for DG methods capable of generalizing beyond pretraining alignment.
+
 - Transformation-Invariant Learning and Theoretical Guarantees for OOD Generalization. [[paper]](https://arxiv.org/abs/2410.23461)
   - Omar Montasser, Han Shao, Emmanuel Abbe.
   - Key Word: Out-of-Distribution Generalization; Distributionally Robust Optimization.
