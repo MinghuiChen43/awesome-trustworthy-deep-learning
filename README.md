@@ -510,6 +510,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation. [[paper]](https://arxiv.org/abs/2412.03178)
+  - Gianni Franchi, Dat Nguyen Trong, Nacim Belkhir, Guoxuan Xia, Andrea Pilzer.
+  - Key Word: Uncertainty Quantification; Text-to-Image Generation; Prompt-based Uncerntainty Estimation.
+  - <details><summary>Digest</summary> This paper introduces PUNC (Prompt-based UNCertainty Estimation), a novel method for quantifying uncertainty in text-to-image (T2I) generative models. Leveraging Large Vision-Language Models (LVLMs), PUNC compares captions of generated images with their prompts in a semantically meaningful text space, enabling the disentanglement of aleatoric and epistemic uncertainties, which image-based methods cannot achieve. Experiments show PUNC outperforms existing uncertainty estimation techniques and supports applications like bias detection, copyright protection, and out-of-distribution detection. The authors also release a dataset of prompt-generation pairs to advance research in T2I uncertainty quantification.
+
+- Enhancing Trust in Large Language Models with Uncertainty-Aware Fine-Tuning. [[paper]](https://arxiv.org/abs/2412.02904)
+  - Ranganath Krishnan, Piyush Khanna, Omesh Tickoo.
+  - Key Word: Large Language Model; Uncertainty-Aware Fine-Tuning.
+  - <details><summary>Digest</summary> This paper addresses the challenge of hallucinations in large language models (LLMs) by proposing an uncertainty-aware fine-tuning approach that enhances the reliability of uncertainty estimates in open-ended natural language generation. Using a novel uncertainty-aware causal language modeling loss based on decision theory, the method improves calibration, hallucination detection, and out-of-domain prompt identification without compromising accuracy. Rigorous evaluations on multiple datasets show the approach outperforms standard fine-tuning, promoting more trustworthy and robust LLM responses. 
+
 - SoK: Watermarking for AI-Generated Content. [[paper]](https://arxiv.org/abs/2411.18479)
   - Xuandong Zhao, Sam Gunn, Miranda Christ, Jaiden Fairoze, Andres Fabrega, Nicholas Carlini, Sanjam Garg, Sanghyun Hong, Milad Nasr, Florian Tramer, Somesh Jha, Lei Li, Yu-Xiang Wang, Dawn Song.
   - Key Word: Watermarking; AI-Generated Content.
