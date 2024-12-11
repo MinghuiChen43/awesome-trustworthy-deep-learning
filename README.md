@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- The Pitfalls of Memorization: When Memorization Hurts Generalization. [[paper]](https://arxiv.org/abs/2412.07684)
+  - Reza Bayat, Mohammad Pezeshki, Elvis Dohmatob, David Lopez-Paz, Pascal Vincent.
+  - Key Word: Memorization; Generalization; Spurious Correlation.
+  - <details><summary>Digest</summary> This paper investigates the relationship between memorization and generalization in neural networks, highlighting that reliance on spurious correlations combined with memorization harms generalization. To address this, the authors propose Memorization-Aware Training (MAT), which adjusts model logits based on held-out predictions to discourage memorization and promote learning robust, distribution-invariant patterns, thereby enhancing generalization under distribution shifts.
+
 - Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[paper]](https://arxiv.org/abs/2412.02856)
   - Piotr Teterwak, Kuniaki Saito, Theodoros Tsiligkaridis, Bryan A. Plummer, Kate Saenko.
   - Key Word: Domain Generalization; Pretraining.
