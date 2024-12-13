@@ -406,6 +406,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Test-Time Alignment via Hypothesis Reweighting. [[paper]](https://arxiv.org/abs/2412.08812)
+  - Yoonho Lee, Jonathan Williams, Henrik Marklund, Archit Sharma, Eric Mitchell, Anikait Singh, Chelsea Finn.
+  - Key Word: Ensemble; Task Specificiation; Scalable Alignment.
+  - <details><summary>Digest</summary> This paper addresses the challenge of aligning large pretrained models to underspecified tasks by proposing HyRe, a framework that dynamically adapts a neural network ensemble to test-time user intent. HyRe reweights ensemble members using a small labeled dataset from the target distribution, enabling efficient adaptation. The method scales to large models with computational costs similar to fine-tuning and demonstrates superior performance in personalization and distribution shift scenarios, outperforming state-of-the-art reward models with minimal labeled examples.
+
 - Learning Loss Landscapes in Preference Optimization. [[paper]](https://arxiv.org/abs/2411.06568)
   - Carlo Alfano, Silvia Sapora, Jakob Nicolaus Foerster, Patrick Rebeschini, Yee Whye Teh.
   - Key Word: Preference Optimization; Loss Landscape.
