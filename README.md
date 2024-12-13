@@ -520,6 +520,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Neural Interactive Proofs. [[paper]](https://arxiv.org/abs/2412.08897)
+  - Lewis Hammond, Sam Adam-Day.
+  - Key Word: Zero-Knowledge Proofs; Prover-Verifier Games.
+  - <details><summary>Digest</summary> This paper explores neural interactive proofs, where a trusted but computationally limited verifier interacts with powerful untrusted agents (provers) to solve tasks. It introduces a unifying framework based on prover-verifier games, proposes new protocols for generating neural interactive proofs, and compares them theoretically and experimentally. The experiments span a toy graph isomorphism problem and a code validation task using large language models, laying the groundwork for safer AI systems through neural interactive proofs.
+
 - Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation. [[paper]](https://arxiv.org/abs/2412.03178)
   - Gianni Franchi, Dat Nguyen Trong, Nacim Belkhir, Guoxuan Xia, Andrea Pilzer.
   - Key Word: Uncertainty Quantification; Text-to-Image Generation; Prompt-based Uncerntainty Estimation.
