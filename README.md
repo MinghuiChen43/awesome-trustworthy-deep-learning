@@ -54,6 +54,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Benign Overfitting in Out-of-Distribution Generalization of Linear Models. [[paper]](https://arxiv.org/abs/2412.14474)
+  - Shange Tang, Jiayun Wu, Jianqing Fan, Chi Jin.
+  - Key Word: Benign Overfitting; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> This paper extends the theoretical understanding of benign overfitting—where over-parameterized models fit noisy training data perfectly but still generalize well—to the Out-of-Distribution (OOD) regime, focusing on linear models under covariate shift. The authors provide non-asymptotic guarantees showing that benign overfitting can occur in standard ridge regression when target covariances meet specific structural conditions. They identify key factors influencing OOD generalization and demonstrate that their results recover prior in-distribution and under-parameterized OOD findings. Additionally, they analyze a broader class of target covariances, showing that while ridge regression achieves a slow statistical rate, Principal Component Regression (PCR) achieves a faster rate for excess risk.
+
 - The Pitfalls of Memorization: When Memorization Hurts Generalization. [[paper]](https://arxiv.org/abs/2412.07684)
   - Reza Bayat, Mohammad Pezeshki, Elvis Dohmatob, David Lopez-Paz, Pascal Vincent.
   - Key Word: Memorization; Generalization; Spurious Correlation.
