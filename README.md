@@ -411,6 +411,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- InfAlign: Inference-aware language model alignment. [[paper]](https://arxiv.org/abs/2412.19792)
+  - Ananth Balashankar, Ziteng Sun, Jonathan Berant, Jacob Eisenstein, Michael Collins, Adrian Hutter, Jong Lee, Chirag Nagpal, Flavien Prost, Aradhana Sinha, and Ananda Theertha Suresh, Ahmad Beirami.
+  - Key Word: Inference-Time Compute; Reward Miscalibration.
+  - <details><summary>Digest</summary> This paper introduces Inference-Aware Policy Optimization (IAPO), a framework for improving language model alignment by considering inference-time decoding strategies, which traditional alignment methods overlook. The authors show that the standard alignment objective is suboptimal for modern decoding algorithms (e.g., Best-of-N sampling). They propose a solution, CTRL (Calibrate-and-Transform RL), which involves reward calibration and KL-regularized reward maximization. Applied to inference strategies like Best-of-N sampling and jailbreaking, CTRL achieves 8-12% and 4-9% higher inference-time win rates on Anthropic’s helpfulness and harmlessness benchmarks compared to conventional methods, demonstrating its effectiveness.
+
 - Test-Time Alignment via Hypothesis Reweighting. [[paper]](https://arxiv.org/abs/2412.08812)
   - Yoonho Lee, Jonathan Williams, Henrik Marklund, Archit Sharma, Eric Mitchell, Anikait Singh, Chelsea Finn.
   - Key Word: Ensemble; Task Specificiation; Scalable Alignment.
