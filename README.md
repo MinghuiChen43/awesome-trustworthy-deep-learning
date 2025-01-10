@@ -65,6 +65,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Open Problems in Machine Unlearning for AI Safety. [[paper]](https://arxiv.org/abs/2501.04952)
+  - Fazl Barez, Tingchen Fu, Ameya Prabhu, Stephen Casper, Amartya Sanyal, Adel Bibi, Aidan O'Gara, Robert Kirk, Ben Bucknall, Tim Fist, Luke Ong, Philip Torr, Kwok-Yan Lam, Robert Trager, David Krueger, Sören Mindermann, José Hernandez-Orallo, Mor Geva, Yarin Gal.
+  - Key Word: Machine Unlearning.
+  - <details><summary>Digest</summary> As AI systems grow in capability and autonomy in critical areas like cybersecurity, healthcare, and biological research, ensuring their alignment with human values is crucial. Machine unlearning, originally focused on privacy and data removal, is gaining attention for its potential in AI safety. However, this paper identifies significant limitations preventing unlearning from fully addressing safety concerns, especially in managing dual-use knowledge where information can have both beneficial and harmful applications. It highlights challenges such as unintended side effects, conflicts with existing safety mechanisms, and difficulties in evaluating robustness and preserving safety features during unlearning. By outlining these constraints and open problems, the paper aims to guide future research toward more realistic and effective AI safety strategies.
+
 
 ## Fairness
 
