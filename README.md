@@ -79,6 +79,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Open Problems in Mechanistic Interpretability. [[paper]](https://arxiv.org/abs/2501.16496)
+  - Lee Sharkey, Bilal Chughtai, Joshua Batson, Jack Lindsey, Jeff Wu, Lucius Bushnaq, Nicholas Goldowsky-Dill, Stefan Heimersheim, Alejandro Ortega, Joseph Bloom, Stella Biderman, Adria Garriga-Alonso, Arthur Conmy, Neel Nanda, Jessica Rumbelow, Martin Wattenberg, Nandi Schoots, Joseph Miller, Eric J. Michaud, Stephen Casper, Max Tegmark, William Saunders, David Bau, Eric Todd, Atticus Geiger, Mor Geva, Jesse Hoogland, Daniel Murfet, Tom McGrath.
+  - Key Word: Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This review explores the current challenges and open problems in mechanistic interpretability, which seeks to understand the computational mechanisms behind neural networks. While progress has been made, further conceptual and practical advancements are needed to deepen insights, refine applications, and address socio-technical challenges. The paper highlights key areas for future research to enhance AI transparency, safety, and scientific understanding of intelligence.
+
 
 ## Alignment
 
