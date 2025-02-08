@@ -99,6 +99,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Do Large Language Model Benchmarks Test Reliability? [[paper]](https://arxiv.org/abs/2502.03461)
+  - Joshua Vendrow, Edward Vendrow, Sara Beery, Aleksander Madry.
+  - Key Word: Large Language Model Benchmark; Reliability.
+  - <details><summary>Digest</summary> This paper highlights the lack of focus on LLM reliability in existing benchmarks, despite extensive efforts to track model capabilities. The authors identify pervasive label errors in current benchmarks, which obscure model failures and unreliable behavior. To address this, they introduce platinum benchmarks—carefully curated datasets with minimal label errors and ambiguity. By refining examples from 15 popular benchmarks and evaluating various models, they find that even frontier LLMs struggle with basic tasks, such as elementary math problems, revealing systematic failure patterns.
+
 
 
 # Related Awesome Lists
