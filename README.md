@@ -89,6 +89,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Mechanistic Interpretability.
   - <details><summary>Digest</summary> This review explores the current challenges and open problems in mechanistic interpretability, which seeks to understand the computational mechanisms behind neural networks. While progress has been made, further conceptual and practical advancements are needed to deepen insights, refine applications, and address socio-technical challenges. The paper highlights key areas for future research to enhance AI transparency, safety, and scientific understanding of intelligence.
 
+- Sparse Autoencoders Do Not Find Canonical Units of Analysis. [[paper]](https://arxiv.org/abs/2502.04878)
+  - Patrick Leask, Bart Bussmann, Michael Pearce, Joseph Bloom, Curt Tigges, Noura Al Moubayed, Lee Sharkey, Neel Nanda.
+  - Key Word: Mechanistic Interpretability; Sparse Autoencoders; Representational Structure.
+  - <details><summary>Digest</summary> This paper challenges the assumption that Sparse Autoencoders (SAEs) can identify a canonical set of atomic features in LLMs. Using SAE stitching, the authors show that SAEs are incomplete, as larger SAEs contain novel latents not captured by smaller ones. Through meta-SAEs, they demonstrate that SAE latents are not atomic, as they often decompose into smaller, interpretable components (e.g., “Einstein” → “scientist” + “Germany” + “famous person”). While SAEs may still be useful, the authors suggest rethinking their role in mechanistic interpretability and exploring alternative methods for finding fundamental features. An interactive dashboard is provided for further exploration.
+
 
 ## Alignment
 
