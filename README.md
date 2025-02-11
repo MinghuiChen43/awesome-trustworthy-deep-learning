@@ -99,6 +99,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- You Are What You Eat -- AI Alignment Requires Understanding How Data Shapes Structure and Generalisation. [[paper]](https://arxiv.org/abs/2502.05475)
+  - Simon Pepin Lehalleur, Jesse Hoogland, Matthew Farrugia-Roberts, Susan Wei, Alexander Gietelink Oldenziel, George Wang, Liam Carroll, Daniel Murfet.
+  - Key Word: AI Alignment.
+  - <details><summary>Digest</summary> This paper argues that understanding the relationship between data distribution structure and model structure is key to AI alignment. It highlights that neural networks with identical training performance can generalize differently due to internal computational differences, making standard evaluation methods insufficient for safety assurances. To advance AI alignment, the authors propose developing statistical foundations to systematically analyze how these structures influence generalization.
+
 
 ## Others
 
