@@ -109,6 +109,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path? [[paper]](https://arxiv.org/abs/2502.15657)
+  - Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, Matt MacDermott, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King.
+  - Key Word: Scientist AI; Agentic AI; AI Safety.
+  - <details><summary>Digest</summary> The paper discusses the risks posed by generalist AI agents, which can autonomously plan, act, and pursue goals. These risks include deception, misalignment with human interests, and loss of human control. The authors argue for a shift away from agency-driven AI towards a non-agentic AI system called Scientist AI, designed to explain the world rather than act in it. Scientist AI consists of a world model that generates theories and a question-answering system, both incorporating uncertainty to prevent overconfidence. This approach aims to advance scientific progress and AI safety while mitigating risks associated with autonomous AI agents.
+
 - Do Large Language Model Benchmarks Test Reliability? [[paper]](https://arxiv.org/abs/2502.03461)
   - Joshua Vendrow, Edward Vendrow, Sara Beery, Aleksander Madry.
   - Key Word: Large Language Model Benchmark; Reliability.
