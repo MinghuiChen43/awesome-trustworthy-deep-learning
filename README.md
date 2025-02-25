@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- When to Forget? Complexity Trade-offs in Machine Unlearning. [[paper]](https://arxiv.org/abs/2502.17323)
+  - Martin Van Waerebeke, Marco Lorenzi, Giovanni Neglia, Kevin Scaman.
+  - Key Word: Certified Unlearning.
+  - <details><summary>Digest</summary> This paper analyzes the efficiency of Machine Unlearning (MU) and establishes the first minimax upper and lower bounds on unlearning computation time. Under strongly convex objectives and without access to forgotten data, the authors introduce the unlearning complexity ratio, comparing unlearning costs to full retraining. A phase diagram reveals three regimes: infeasibility, trivial unlearning via noise, and significant computational savings. The study highlights key factors—data dimensionality, forget set size, and privacy constraints—that influence the feasibility of efficient unlearning.
+
 - Open Problems in Machine Unlearning for AI Safety. [[paper]](https://arxiv.org/abs/2501.04952)
   - Fazl Barez, Tingchen Fu, Ameya Prabhu, Stephen Casper, Amartya Sanyal, Adel Bibi, Aidan O'Gara, Robert Kirk, Ben Bucknall, Tim Fist, Luke Ong, Philip Torr, Kwok-Yan Lam, Robert Trager, David Krueger, Sören Mindermann, José Hernandez-Orallo, Mor Geva, Yarin Gal.
   - Key Word: Machine Unlearning.
