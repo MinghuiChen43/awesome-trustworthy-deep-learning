@@ -55,6 +55,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- REINFORCE Adversarial Attacks on Large Language Models: An Adaptive, Distributional, and Semantic Objective. [[paper]](https://arxiv.org/abs/2502.17254)
+  - Simon Geisler, Tom Wollschläger, M. H. I. Abdalla, Vincent Cohen-Addad, Johannes Gasteiger, Stephan Günnemann.
+  - Key Word: Adversarial Attacks; Large Language Models; Reinforcement Learning.
+  - <details><summary>Digest</summary> This paper critiques existing adversarial attacks on LLMs that maximize the likelihood of an affirmative response, arguing that such methods overestimate model robustness. To improve attack efficacy, the authors propose an adaptive, semantic optimization approach using a REINFORCE-based objective. Applied to Greedy Coordinate Gradient (GCG) and Projected Gradient Descent (PGD) jailbreak attacks, their method significantly enhances attack success rates, doubling ASR on Llama3 and increasing ASR from 2% to 50% against circuit breaker defenses.
+
 - Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming. [[paper]](https://arxiv.org/abs/2501.18837)
   - Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, Andy Dau, Anjali Gopal, Rob Gilson, Logan Graham, Logan Howard, Nimit Kalra, Taesung Lee, Kevin Lin, Peter Lofgren, Francesco Mosconi, Clare O'Hara, Catherine Olsson, Linda Petrini, Samir Rajani, Nikhil Saxena, Alex Silverstein, Tanya Singh, Theodore Sumers, Leonard Tang, Kevin K. Troy, Constantin Weisser, Ruiqi Zhong, Giulio Zhou, Jan Leike, Jared Kaplan, Ethan Perez.
   - Key Word: Red Teaming; Jailbreak.
