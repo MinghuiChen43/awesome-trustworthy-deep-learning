@@ -94,6 +94,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Everything, Everywhere, All at Once: Is Mechanistic Interpretability Identifiable? [[paper]](https://arxiv.org/abs/2502.20914)
+  - Maxime Méloux, Silviu Maniu, François Portet, Maxime Peyrard. 
+  - Key Word: Mechanistic Interpretability.
+  - <details><summary>Digest</summary> This work explores the identifiability of Mechanistic Interpretability (MI) explanations in neural networks. It examines whether unique explanations exist for a given behavior by drawing parallels to identifiability in statistics. The study identifies two MI strategies: “where-then-what” (isolating circuits before interpreting) and “what-then-where” (starting with candidate algorithms and finding neural activation subspaces). Experiments on Boolean functions and small MLPs reveal systematic non-identifiability—multiple circuits, interpretations, and subspaces can explain the same behavior. The study questions whether uniqueness is necessary, suggesting that predictive and manipulability criteria might suffice, and discusses validation through the inner interpretability framework.
+
 - Open Problems in Mechanistic Interpretability. [[paper]](https://arxiv.org/abs/2501.16496)
   - Lee Sharkey, Bilal Chughtai, Joshua Batson, Jack Lindsey, Jeff Wu, Lucius Bushnaq, Nicholas Goldowsky-Dill, Stefan Heimersheim, Alejandro Ortega, Joseph Bloom, Stella Biderman, Adria Garriga-Alonso, Arthur Conmy, Neel Nanda, Jessica Rumbelow, Martin Wattenberg, Nandi Schoots, Joseph Miller, Eric J. Michaud, Stephen Casper, Max Tegmark, William Saunders, David Bau, Eric Todd, Atticus Geiger, Mor Geva, Jesse Hoogland, Daniel Murfet, Tom McGrath.
   - Key Word: Mechanistic Interpretability.
