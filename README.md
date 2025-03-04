@@ -94,6 +94,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- From superposition to sparse codes: interpretable representations in neural networks. [[paper]](https://arxiv.org/abs/2503.01824)
+  - David Klindt, Charles O'Neill, Patrik Reizinger, Harald Maurer, Nina Miolane.
+  - Key Word: Superposition; Sparse Coding.
+  - <details><summary>Digest</summary> This paper explores how neural networks represent information, proposing that they encode features in superposition—linearly overlaying input concepts. The authors introduce a three-step framework to extract interpretable representations: (1) Identifiability theory shows that neural networks recover latent features up to a linear transformation; (2) Sparse coding techniques disentangle these features using compressed sensing principles; (3) Interpretability metrics evaluate alignment with human-interpretable concepts. By integrating insights from neuroscience, representation learning, and interpretability research, the paper offers a perspective with implications for neural coding, AI transparency, and deep learning interpretability.
+
+- Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry. [[paper]](https://arxiv.org/abs/2503.01822)
+  - Sai Sumedh R. Hindupur, Ekdeep Singh Lubana, Thomas Fel, Demba Ba.
+  - Key Word: Sparse Autoencoder.
+  - <details><summary>Digest</summary> This paper examines the limitations of Sparse Autoencoders (SAEs) in interpreting neural network representations. It introduces a bilevel optimization framework showing that SAEs impose structural biases, affecting which concepts they can detect. Different SAE architectures are not interchangeable, as switching them can reveal or obscure concepts. Through experiments on toy models, semi-synthetic data, and large-scale datasets, the study highlights two key properties of real-world concepts: varying intrinsic dimensionality and nonlinear separability. Standard SAEs fail when these factors are ignored, but a new SAE design incorporating them uncovers previously hidden concepts. The findings challenge the notion of a universal SAE and emphasize the importance of architecture-specific choices in interpretability.
+
 - Everything, Everywhere, All at Once: Is Mechanistic Interpretability Identifiable? [[paper]](https://arxiv.org/abs/2502.20914)
   - Maxime Méloux, Silviu Maniu, François Portet, Maxime Peyrard. 
   - Key Word: Mechanistic Interpretability.
