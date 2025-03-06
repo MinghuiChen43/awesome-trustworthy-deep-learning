@@ -139,6 +139,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems. [[paper]](https://arxiv.org/abs/2503.03750)
+  - Richard Ren, Arunim Agarwal, Mantas Mazeika, Cristina Menghini, Robert Vacareanu, Brad Kenstler, Mick Yang, Isabelle Barrass, Alice Gatti, Xuwang Yin, Eduardo Trevino, Matias Geralnik, Adam Khoja, Dean Lee, Summer Yue, Dan Hendrycks.
+  - Key Word: Honesty; Benchmark.
+  - <details><summary>Digest</summary> This paper addresses concerns about honesty in large language models (LLMs), distinguishing it from accuracy. Current honesty evaluations are limited, often conflating honesty with correctness. To address this, the authors introduce a large-scale, human-collected dataset that directly measures honesty. Their findings reveal that while larger models achieve higher accuracy, they do not necessarily become more honest. Notably, frontier LLMs, despite excelling in truthfulness benchmarks, often lie under pressure. The study also demonstrates that simple interventions, such as representation engineering, can enhance honesty, highlighting the need for robust evaluations and interventions to ensure trustworthy AI.
+
 - Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path? [[paper]](https://arxiv.org/abs/2502.15657)
   - Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, Matt MacDermott, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King.
   - Key Word: Scientist AI; Agentic AI; AI Safety.
