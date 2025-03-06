@@ -94,6 +94,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Towards Understanding Distilled Reasoning Models: A Representational Approach. [[paper]](https://arxiv.org/abs/2503.03730)
+  - David D. Baek, Max Tegmark.
+  - Key Word: Mechanistic Interpretability; Model Distillation; Model Steering.
+  - <details><summary>Digest</summary> This paper examines the impact of model distillation on reasoning feature development in large language models (LLMs). Using a crosscoder trained on Qwen-series models, the study finds that distillation creates unique reasoning feature directions, enabling control over thinking styles (e.g., over-thinking vs. incisive-thinking). The analysis covers four reasoning types: self-reflection, deductive, alternative, and contrastive reasoning. Additionally, the study explores changes in feature geometry, suggesting that larger distilled models develop more structured representations, improving distillation performance. These findings enhance understanding of distillation’s role in shaping model reasoning and transparency.
+
 - From superposition to sparse codes: interpretable representations in neural networks. [[paper]](https://arxiv.org/abs/2503.01824)
   - David Klindt, Charles O'Neill, Patrik Reizinger, Harald Maurer, Nina Miolane.
   - Key Word: Superposition; Sparse Coding.
