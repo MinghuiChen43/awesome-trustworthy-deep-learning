@@ -94,6 +94,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability. [[paper]](https://arxiv.org/abs/2503.09532)
+  - Adam Karvonen, Can Rager, Johnny Lin, Curt Tigges, Joseph Bloom, David Chanin, Yeu-Tong Lau, Eoin Farrell, Callum McDougall, Kola Ayonrinde, Matthew Wearden, Arthur Conmy, Samuel Marks, Neel Nanda.
+  - Key Word: Sparse Autoencoder; Benchmark.
+  - <details><summary>Digest</summary> The paper introduces SAEBench, a comprehensive evaluation suite for sparse autoencoders (SAEs) that assesses their performance across seven diverse metrics, including interpretability, feature disentanglement, and practical applications like unlearning. It highlights that improvements in traditional unsupervised proxy metrics do not always lead to better real-world performance. The authors open-source over 200 SAEs spanning eight architectures and training algorithms, revealing that Matryoshka SAEs, despite underperforming on proxy metrics, excel in feature disentanglement, especially at scale. SAEBench provides a standardized framework for comparing SAE designs and studying scaling trends in their development.
+
 - Towards Understanding Distilled Reasoning Models: A Representational Approach. [[paper]](https://arxiv.org/abs/2503.03730)
   - David D. Baek, Max Tegmark.
   - Key Word: Mechanistic Interpretability; Model Distillation; Model Steering.
