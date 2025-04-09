@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Intermediate Layer Classifiers for OOD generalization. [[paper]](https://arxiv.org/abs/2504.05461)
+  - Arnas Uselis, Seong Joon Oh.
+  - Key Word: Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> This paper challenges the common practice of using penultimate layer features for out-of-distribution (OOD) generalization. The authors introduce Intermediate Layer Classifiers (ILCs) and find that earlier-layer representations often generalize better under distribution shifts. In some cases, zero-shot performance from intermediate layers rivals few-shot performance from the last layer. Their results across datasets and models suggest intermediate layers are more robust to shifts, underscoring the need to rethink layer selection for OOD tasks.
+
 
 ## Evasion Attacks and Defenses
 
