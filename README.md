@@ -99,6 +99,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- MIB: A Mechanistic Interpretability Benchmark. [[paper]](https://arxiv.org/abs/2504.13151)
+  - Aaron Mueller, Atticus Geiger, Sarah Wiegreffe, Dana Arad, Iván Arcuschin, Adam Belfki, Yik Siu Chan, Jaden Fiotto-Kaufman, Tal Haklay, Michael Hanna, Jing Huang, Rohan Gupta, Yaniv Nikankin, Hadas Orgad, Nikhil Prakash, Anja Reusch, Aruna Sankaranarayanan, Shun Shao, Alessandro Stolfo, Martin Tutek, Amir Zur, David Bau, Yonatan Belinkov.
+  - Key Word: Mechanistic Interpretability; Benchmark.
+  - <details><summary>Digest</summary> The paper introduces MIB, a benchmark designed to evaluate mechanistic interpretability methods in neural language models. MIB has two tracks: circuit localization (identifying model components critical to task performance) and causal variable localization (identifying hidden features representing task-relevant variables). Experiments show that attribution and mask optimization methods excel at circuit localization, while supervised DAS outperforms others in causal variable localization. Surprisingly, SAE features offer no advantage over standard neurons. MIB thus provides a robust framework for assessing real progress in interpretability.
+
 - SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language Model Interpretability. [[paper]](https://arxiv.org/abs/2503.09532)
   - Adam Karvonen, Can Rager, Johnny Lin, Curt Tigges, Joseph Bloom, David Chanin, Yeu-Tong Lau, Eoin Farrell, Callum McDougall, Kola Ayonrinde, Matthew Wearden, Arthur Conmy, Samuel Marks, Neel Nanda.
   - Key Word: Sparse Autoencoder; Benchmark.
