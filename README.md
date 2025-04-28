@@ -149,6 +149,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Scaling Laws For Scalable Oversight. [[paper]](https://arxiv.org/abs/2504.18530)
+  - Joshua Engels, David D. Baek, Subhash Kantamneni, Max Tegmark.
+  - Key Word: Scalable Oversight.
+  - <details><summary>Digest</summary> This paper proposes a framework to model and quantify scalable oversight—how weaker AI systems supervise stronger ones—using oversight and deception-specific Elo scores. The framework is validated through games like Nim, Mafia, and Debate, revealing how oversight success scales with capability gaps. They further study Nested Scalable Oversight (NSO) and find that success rates drop sharply when overseeing much stronger systems, with a success rate below 52% at a 400 Elo gap.
+
 - You Are What You Eat -- AI Alignment Requires Understanding How Data Shapes Structure and Generalisation. [[paper]](https://arxiv.org/abs/2502.05475)
   - Simon Pepin Lehalleur, Jesse Hoogland, Matthew Farrugia-Roberts, Susan Wei, Alexander Gietelink Oldenziel, George Wang, Liam Carroll, Daniel Murfet.
   - Key Word: AI Alignment.
