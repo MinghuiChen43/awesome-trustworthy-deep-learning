@@ -99,6 +99,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts. [[paper]](https://arxiv.org/abs/2504.17921)
+  - Mateo Espinosa Zarlenga, Gabriele Dominici, Pietro Barbiero, Zohreh Shams, Mateja Jamnik.
+  - Key Word: Concept Bottleneck Models; Distribution Shifts.
+  - <details><summary>Digest</summary> This paper studies how concept-based models (CMs) behave on out-of-distribution (OOD) inputs, especially under concept interventions (where humans correct predicted concepts at test time). The authors identify a flaw called leakage poisoning, where CMs fail to improve after intervention on OOD data. To address this, they propose MixCEM, a model that selectively uses leaked information only for in-distribution inputs. Experiments show MixCEM improves accuracy on both in-distribution and OOD samples, with and without interventions.
+
 - MIB: A Mechanistic Interpretability Benchmark. [[paper]](https://arxiv.org/abs/2504.13151)
   - Aaron Mueller, Atticus Geiger, Sarah Wiegreffe, Dana Arad, Iván Arcuschin, Adam Belfki, Yik Siu Chan, Jaden Fiotto-Kaufman, Tal Haklay, Michael Hanna, Jing Huang, Rohan Gupta, Yaniv Nikankin, Hadas Orgad, Nikhil Prakash, Anja Reusch, Aruna Sankaranarayanan, Shun Shao, Alessandro Stolfo, Martin Tutek, Amir Zur, David Bau, Yonatan Belinkov.
   - Key Word: Mechanistic Interpretability; Benchmark.
