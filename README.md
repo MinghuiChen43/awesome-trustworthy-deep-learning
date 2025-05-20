@@ -80,6 +80,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Extracting memorized pieces of (copyrighted) books from open-weight language models. [[paper]](https://arxiv.org/abs/2505.12546)
+  - A. Feder Cooper, Aaron Gokaslan, Amy B. Cyphert, Christopher De Sa, Mark A. Lemley, Daniel E. Ho, Percy Liang.
+  - Key Word: Extraction Attack.
+  - <details><summary>Digest</summary> This paper examines how much large language models (LLMs) memorize copyrighted content, using probabilistic extraction techniques on 13 open-weight LLMs. It finds that while memorization varies across models and texts, some models—like Llama 3.1 70B—can nearly fully memorize certain books (e.g., Harry Potter, 1984). However, most models do not memorize most books. The findings complicate copyright debates, offering evidence for both sides without clearly favoring either.
+
 - When to Forget? Complexity Trade-offs in Machine Unlearning. [[paper]](https://arxiv.org/abs/2502.17323)
   - Martin Van Waerebeke, Marco Lorenzi, Giovanni Neglia, Kevin Scaman.
   - Key Word: Certified Unlearning.
