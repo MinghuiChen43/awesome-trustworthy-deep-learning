@@ -104,6 +104,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Interpretability Illusions with Sparse Autoencoders: Evaluating Robustness of Concept Representations. [[paper]](https://arxiv.org/abs/2505.16004)
+  - Aaron J. Li, Suraj Srinivas, Usha Bhalla, Himabindu Lakkaraju.
+  - Key Word: Sparse Autoencoders; Adversarial Attack.
+  - <details><summary>Digest</summary> This paper highlights a critical weakness in sparse autoencoders (SAEs) used to interpret LLMs: their concept representations are not robust to small input perturbations. The authors introduce an evaluation framework that uses adversarial attacks to test this robustness and find that SAE interpretations can be easily manipulated without changing the LLM’s output, questioning their reliability for model monitoring and oversight tasks.
+
 - Avoiding Leakage Poisoning: Concept Interventions Under Distribution Shifts. [[paper]](https://arxiv.org/abs/2504.17921)
   - Mateo Espinosa Zarlenga, Gabriele Dominici, Pietro Barbiero, Zohreh Shams, Mateja Jamnik.
   - Key Word: Concept Bottleneck Models; Distribution Shifts.
