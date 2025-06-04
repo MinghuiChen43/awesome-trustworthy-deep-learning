@@ -80,6 +80,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Existing Large Language Model Unlearning Evaluations Are Inconclusive. [[paper]](https://arxiv.org/abs/2506.00688)
+  - Zhili Feng, Yixuan Even Xu, Alexander Robey, Robert Kirk, Xander Davies, Yarin Gal, Avi Schwarzschild, J. Zico Kolter.
+  - Key Word: Machine Unlearning; Large Language Model.
+  - <details><summary>Digest</summary> This paper critiques current evaluation methods in machine unlearning for language models, revealing that they often misrepresent unlearning success due to three flaws: (1) evaluations may reintroduce knowledge during testing, (2) results vary widely across tasks, and (3) reliance on spurious correlations undermines trust. To improve reliability, the authors propose two guiding principles—minimal information injection and downstream task awareness—and validate them through experiments showing how current practices can lead to misleading conclusions.
+
 - Extracting memorized pieces of (copyrighted) books from open-weight language models. [[paper]](https://arxiv.org/abs/2505.12546)
   - A. Feder Cooper, Aaron Gokaslan, Amy B. Cyphert, Christopher De Sa, Mark A. Lemley, Daniel E. Ho, Percy Liang.
   - Key Word: Extraction Attack.
