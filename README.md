@@ -164,6 +164,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Preference Learning for AI Alignment: a Causal Perspective. [[paper]](https://arxiv.org/abs/2506.05967)
+  - Katarzyna Kobalczyk, Mihaela van der Schaar.
+  - Key Word: AI Alignment; Causuality.
+  - <details><summary>Digest</summary> This paper reframes reward modeling from preference data as a causal inference problem to better align LLMs with human values. It highlights challenges like causal misidentification, user-specific confounding, and preference heterogeneity, and shows how causally-inspired methods can improve generalization and robustness over naive models. The authors also propose key assumptions and future directions for more reliable reward modeling.
+
 - Scaling Laws For Scalable Oversight. [[paper]](https://arxiv.org/abs/2504.18530)
   - Joshua Engels, David D. Baek, Subhash Kantamneni, Max Tegmark.
   - Key Word: Scalable Oversight.
