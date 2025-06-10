@@ -80,6 +80,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Certified Unlearning for Neural Networks. [[paper]](https://arxiv.org/abs/2506.06985)
+  - Anastasia Koloskova, Youssef Allouah, Animesh Jha, Rachid Guerraoui, Sanmi Koyejo.
+  - Key Word: Certified Unlearning.
+  - <details><summary>Digest</summary> The paper proposes a certified machine unlearning method that removes the influence of specific training data using noisy fine-tuning on retained data, without relying on restrictive assumptions. It ensures formal unlearning guarantees through a connection to privacy amplification, works across diverse settings, and outperforms existing methods both theoretically and empirically.
+
 - Existing Large Language Model Unlearning Evaluations Are Inconclusive. [[paper]](https://arxiv.org/abs/2506.00688)
   - Zhili Feng, Yixuan Even Xu, Alexander Robey, Robert Kirk, Xander Davies, Yarin Gal, Avi Schwarzschild, J. Zico Kolter.
   - Key Word: Machine Unlearning; Large Language Model.
