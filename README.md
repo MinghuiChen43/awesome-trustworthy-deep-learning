@@ -114,6 +114,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Because we have LLMs, we Can and Should Pursue Agentic Interpretability. [[paper]](https://arxiv.org/abs/2506.12152)
+  - Been Kim, John Hewitt, Neel Nanda, Noah Fiedel, Oyvind Tafjord.
+  - Key Word: Agentic Interpretability.
+  - <details><summary>Digest</summary> This paper proposes agentic interpretability—a conversational approach where LLMs actively help users understand them by modeling the user’s knowledge and teaching accordingly. Unlike traditional interpretability methods, it emphasizes cooperation and interactivity over completeness. While not ideal for high-stakes scenarios, it offers a way for humans to grasp superhuman model concepts. The key challenge lies in evaluating such human-in-the-loop systems, for which the authors discuss possible solutions.
+
 - Interpretability Illusions with Sparse Autoencoders: Evaluating Robustness of Concept Representations. [[paper]](https://arxiv.org/abs/2505.16004)
   - Aaron J. Li, Suraj Srinivas, Usha Bhalla, Himabindu Lakkaraju.
   - Key Word: Sparse Autoencoders; Adversarial Attack.
