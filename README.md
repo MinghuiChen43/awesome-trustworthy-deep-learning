@@ -80,6 +80,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- - Model Collapse Is Not a Bug but a Feature in Machine Unlearning for LLMs. [[paper]](https://arxiv.org/abs/2507.04219)
+  - Yan Scholten, Sophie Xhonneux, Stephan Günnemann, Leo Schwinn.
+  - Key Word: Machine Unlearning; Large Language Model.
+  - <details><summary>Digest</summary> The paper proposes Partial Model Collapse (PMC), a novel LLM unlearning method that avoids directly optimizing on sensitive data, addressing privacy concerns of existing approaches. Inspired by distribution collapse in self-trained generative models, PMC selectively triggers collapse on private data to remove it. The method is theoretically grounded and empirically shown to outperform prior unlearning techniques in removing sensitive information.
+
 - Certified Unlearning for Neural Networks. [[paper]](https://arxiv.org/abs/2506.06985)
   - Anastasia Koloskova, Youssef Allouah, Animesh Jha, Rachid Guerraoui, Sanmi Koyejo.
   - Key Word: Certified Unlearning.
