@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Steering Out-of-Distribution Generalization with Concept Ablation Fine-Tuning. [[paper]](https://arxiv.org/abs/2507.16795)
+  - Helena Casademunt, Caden Juang, Adam Karvonen, Samuel Marks, Senthooran Rajamanoharan, Neel Nanda.
+  - Key Word: Out-of-Distribution Generalization; Interpreting Latent Space Directions.
+  - <details><summary>Digest</summary> The paper proposes Concept Ablation Fine-Tuning (CAFT), a method that uses interpretability tools to steer LLM generalization during fine-tuning without altering training data. By ablating latent directions linked to undesired concepts, CAFT mitigates unintended behaviors—such as emergent misalignment—and achieves a 10x reduction in misaligned outputs while preserving task performance.
+
 - Intermediate Layer Classifiers for OOD generalization. [[paper]](https://arxiv.org/abs/2504.05461)
   - Arnas Uselis, Seong Joon Oh.
   - Key Word: Out-of-Distribution Generalization.
