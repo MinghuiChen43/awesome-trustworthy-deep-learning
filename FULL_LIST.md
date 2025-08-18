@@ -17,6 +17,11 @@
 <details>
 <summary>Survey: 2024</summary>
 
+- Privacy Computing Meets Metaverse: Necessity, Taxonomy and Challenges. [[paper](https://doi.org/10.1016/j.adhoc.2024.103457)] [[code](https://github.com/6lyc/Awesome-Privacy-Computing-in-Metaverse)]
+  - Chuan Chen, Yuecheng Li, Zhenpeng Wu, Chengyuan Mai, Youming Liu, Yanming Hu, Jiawen Kang, Zibin Zheng.  
+  - Key Word: Metaverse; Privacy Computing; AI Safety.  
+  - <details><summary>Digest</summary> This paper explores the critical role of privacy computing in addressing data security challenges within the metaverse. It categorizes privacy computing technologies into federated learning, differential privacy, homomorphic encryption, and zero-knowledge proofs, analyzing their applications in metaverse scenarios like social interaction, tourism, and virtual economy. The study highlights the necessity of integrating these technologies to mitigate privacy risks and outlines future research directions, including decentralized security mechanisms and the trade-off between privacy protection and user experience.</details>
+
 - NeuroAI for AI Safety. [[paper]](https://arxiv.org/abs/2411.18526)
   - Patrick Mineault, Niccolò Zanichelli, Joanne Zichen Peng, Anton Arkhipov, Eli Bingham, Julian Jara-Ettinger, Emily Mackevicius, Adam Marblestone, Marcelo Mattar, Andrew Payne, Sophia Sanborn, Karen Schroeder, Zenna Tavares, Andreas Tolias.
   - Key Word: AI Safety; Neuroscience; Robustness; Speicificaiton; Assurance.
@@ -3253,6 +3258,13 @@
 ## Privacy
 
 <details>
+<summary>Privacy: 2025</summary>
+
+- **Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off**. [[paper]](https://arxiv.org/abs/2402.07002) [[code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)]  
+  - Yuecheng Li, Lele Fu, Tong Wang, Jian Lou, Bin Chen, Lei Yang, Jian Shen, Zibin Zheng, Chuan Chen.  
+  - Key Word: Federated Learning; Differential Privacy; Tensor Low-Rank Optimization; Utility-Privacy Trade-off.  
+  - <details><summary>Digest</summary> This paper introduces **FedCEO**, a novel federated learning framework that enhances the utility-privacy trade-off by leveraging tensor low-rank optimization to mitigate the impact of differential privacy noise. The proposed method exploits semantic complementarity among clients through truncated tensor singular value decomposition (T-tSVD), achieving smoother global semantic spaces. Theoretical analysis demonstrates an improved utility-privacy bound of \(O(\sqrt{d})\), outperforming prior state-of-the-art results. Experiments on real-world datasets validate the framework's effectiveness in balancing model accuracy and privacy protection under varying noise levels.</details>  
+  
 <summary>Privacy: 2024</summary>
 
 - Provable unlearning in topic modeling and downstream tasks. [[paper]](https://arxiv.org/abs/2411.12600)
