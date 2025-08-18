@@ -85,6 +85,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off. [[paper]](https://arxiv.org/abs/2402.07002) [[code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)]  
+  - Yuecheng Li, Lele Fu, Tong Wang, Jian Lou, Bin Chen, Lei Yang, Jian Shen, Zibin Zheng, Chuan Chen.  
+  - Key Word: Federated Learning; Differential Privacy; Tensor Low-Rank Optimization; Utility-Privacy Trade-off.  
+  - <details><summary>Digest</summary> This paper introduces FedCEO, a novel federated learning framework that enhances the utility-privacy trade-off by leveraging tensor low-rank optimization to mitigate the impact of differential privacy noise. The proposed method exploits semantic complementarity among clients through truncated tensor singular value decomposition (T-tSVD), achieving smoother global semantic spaces. Theoretical analysis demonstrates an improved utility-privacy bound of O(\sqrt{d}), outperforming prior state-of-the-art results. Experiments on real-world datasets validate the framework's effectiveness in balancing model accuracy and privacy protection under varying noise levels.</details>  
+  
 - - Model Collapse Is Not a Bug but a Feature in Machine Unlearning for LLMs. [[paper]](https://arxiv.org/abs/2507.04219)
   - Yan Scholten, Sophie Xhonneux, Stephan Günnemann, Leo Schwinn.
   - Key Word: Machine Unlearning; Large Language Model.
