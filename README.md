@@ -209,6 +209,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+- Search-Time Data Contamination. [[paper]](https://arxiv.org/abs/2508.13180)
+  - Ziwen Han, Meher Mankikar, Julian Michael, Zifan Wang.
+  - Key Word: Search-based LLM Agents; Test Data Contamination.
+  - <details><summary>Digest</summary> The paper identifies search-time contamination (STC) as a new threat to evaluating search-based LLM agents, where retrieval surfaces benchmark questions and answers (e.g., from HuggingFace), allowing agents to copy rather than reason. Across benchmarks like HLE, SimpleQA, and GPQA, ~3% of queries were directly leaked, causing inflated performance. Blocking HuggingFace reduced accuracy on contaminated items by ~15%. The authors show STC extends beyond HuggingFace and propose best practices for benchmark design and reporting, releasing full experiment logs for auditing.
+
 - Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety. [[paper]](https://arxiv.org/abs/2507.11473)
   - Tomek Korbak, Mikita Balesni, Elizabeth Barnes, Yoshua Bengio, Joe Benton, Joseph Bloom, Mark Chen, Alan Cooney, Allan Dafoe, Anca Dragan, Scott Emmons, Owain Evans, David Farhi, Ryan Greenblatt, Dan Hendrycks, Marius Hobbhahn, Evan Hubinger, Geoffrey Irving, Erik Jenner, Daniel Kokotajlo, Victoria Krakovna, Shane Legg, David Lindner, David Luan, Aleksander Mądry, Julian Michael, Neel Nanda, Dave Orr, Jakub Pachocki, Ethan Perez, Mary Phuong, Fabien Roger, Joshua Saxe, Buck Shlegeris, Martín Soto, Eric Steinberger, Jasmine Wang, Wojciech Zaremba, Bowen Baker, Rohin Shah, Vlad Mikulik.
   - Key Word: Chain of Thought Monitoring.
