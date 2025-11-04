@@ -129,6 +129,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+- Priors in Time: Missing Inductive Biases for Language Model Interpretability. [[paper]](https://arxiv.org/abs/2511.01836)
+  - Ekdeep Singh Lubana, Can Rager, Sai Sumedh R. Hindupur, Valerie Costa, Greta Tuckute, Oam Patel, Sonia Krishna Murthy, Thomas Fel, Daniel Wurgaft, Eric J. Bigelow, Johnny Lin, Demba Ba, Martin Wattenberg, Fernanda Viegas, Melanie Weber, Aaron Mueller.
+  - Key Word: Mechanistic Interpretability; Inductive Bias; Sparse Autoencoder.
+  - <details><summary>Digest</summary> This paper critiques current interpretability methods like Sparse Autoencoders (SAEs) for assuming temporal independence in language model activations, which conflicts with the inherently dynamic and non-stationary nature of language representations. Viewing SAEs through a Bayesian lens, the authors show that their priors ignore temporal structure. To address this, they propose Temporal Feature Analysis (TFA) — a new method that separates predictable, context-derived features from novel, unpredictable ones. TFA better captures temporal dynamics, successfully parsing garden path sentences and identifying event boundaries, highlighting the importance of temporally aware inductive biases for interpreting language models.
+
 - Because we have LLMs, we Can and Should Pursue Agentic Interpretability. [[paper]](https://arxiv.org/abs/2506.12152)
   - Been Kim, John Hewitt, Neel Nanda, Noah Fiedel, Oyvind Tafjord.
   - Key Word: Agentic Interpretability.
