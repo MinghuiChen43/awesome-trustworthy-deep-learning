@@ -194,6 +194,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+- Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma. [[paper]](https://arxiv.org/abs/2511.19504)
+  - Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary.
+  - Key Word: AI Alignment; RLHF.
+  - <details><summary>Digest</summary> The paper introduces an “Alignment Trilemma” for RLHF, proving that it’s impossible to simultaneously have highly representative, computationally efficient, and robust alignment across diverse human values. Using complexity-theoretic analysis, it argues that current RLHF systems implicitly sacrifice representativeness (using far too few, homogeneous annotators), which explains issues like preference collapse, sycophancy, and bias amplification, and it suggests relaxing alignment requirements as a practical path forward.
+
 - Preference Learning for AI Alignment: a Causal Perspective. [[paper]](https://arxiv.org/abs/2506.05967)
   - Katarzyna Kobalczyk, Mihaela van der Schaar.
   - Key Word: AI Alignment; Causuality.
