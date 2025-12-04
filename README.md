@@ -65,6 +65,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- In-Context Representation Hijacking. [[paper]](https://arxiv.org/abs/2512.03771)
+  - Itay Yona, Amir Sarid, Michael Karasik, Yossi Gandelsman.
+  - Key Word: In-Context Learning; Jailbreak.
+  - <details><summary>Digest</summary> The paper introduces Doublespeak, an optimization-free attack that bypasses LLM safety guardrails by using in-context examples to redefine harmful keywords (e.g., "bomb") as benign tokens (e.g., "carrot"). This technique causes the model to internally shift the representation of the innocent word toward the harmful meaning, allowing malicious instructions to pass as harmless queries (e.g., "How to build a carrot?"). The attack is highly effective, achieving a 74% success rate on Llama-3.3, and demonstrates that current alignment strategies fail because they do not account for semantic shifts in the model's latent space.
+
 - REINFORCE Adversarial Attacks on Large Language Models: An Adaptive, Distributional, and Semantic Objective. [[paper]](https://arxiv.org/abs/2502.17254)
   - Simon Geisler, Tom Wollschläger, M. H. I. Abdalla, Vincent Cohen-Addad, Johannes Gasteiger, Stephan Günnemann.
   - Key Word: Adversarial Attacks; Large Language Models; Reinforcement Learning.
