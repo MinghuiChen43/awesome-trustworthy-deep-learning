@@ -90,6 +90,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods. [[paper]](https://arxiv.org/abs/2508.12730) [[code]](https://github.com/gnueaj/Machine-Unlearning-Comparator)
+  - Jaeung Lee, Suhyeon Yu, Yurim Jang, Simon S. Woo, Jaemin Jo.
+  - Key Word: Machine Unlearning; Visual Analytics; Evaluation.
+  - <details><summary>Digest</summary> This paper introduces Unlearning Comparator, a visual analytics system for systematic evaluation of machine unlearning methods. The system supports model comparison at class-, instance-, and layer-levels to understand changes after unlearning, and simulates membership inference attacks to evaluate privacy. The workflow is structured into four stages: Build → Screen → Contrast → Attack.
+
 - Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off. [[paper]](https://arxiv.org/abs/2402.07002) [[code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)]  
   - Yuecheng Li, Lele Fu, Tong Wang, Jian Lou, Bin Chen, Lei Yang, Jian Shen, Zibin Zheng, Chuan Chen.  
   - Key Word: Federated Learning; Differential Privacy; Tensor Low-Rank Optimization; Utility-Privacy Trade-off.  
