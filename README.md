@@ -204,6 +204,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#alignment">:open_file_folder: [<b><i>Full List of Alignment</i></b>]</a>.
 
+
+### 2026
+
+- Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling. [[paper]](https://arxiv.org/abs/2601.08777)
+  - Yang Cai, Weiqiang Zheng.
+  - Key Word: AI Alignment; Test-Time Scaling.
+  - <details><summary>Digest</summary> The paper studies how to align an LLM to users with diverse, even conflicting, preferences by leveraging test-time scaling: for each prompt the model outputs k candidate answers and the user picks their favorite. It formalizes this as (k, f(k))-robust alignment (the k-output model must beat any single-output model with win rate f(k)) and asymptotic universal alignment where f(k) → 1 as k → ∞. The main theoretical result pins down the best possible scaling law: there exist single-output policies whose k-sample product policies achieve the optimal rate f(k) = k/(k+1), and no general method can converge faster. The paper then argues that common post-training methods like NLHF can waste test-time scaling because they often collapse to near-deterministic, low-diversity policies—so sampling more responses doesn’t help much—whereas their proposed symmetric multi-player alignment games preserve diversity; any symmetric Nash equilibrium of the (k+1)-player game achieves the optimal (k, k/(k+1)) guarantee, with additional convergence guarantees via self-play learning and an extension to opponents that also produce multiple candidates.
+
+### 2025
+
 - Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma. [[paper]](https://arxiv.org/abs/2511.19504)
   - Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary.
   - Key Word: AI Alignment; RLHF.
