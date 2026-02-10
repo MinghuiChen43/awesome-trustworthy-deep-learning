@@ -139,6 +139,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
 
+
+### 2026
+
+- Learning a Generative Meta-Model of LLM Activations. [[paper]](https://arxiv.org/abs/2602.06964)
+  - Grace Luo, Jiahai Feng, Trevor Darrell, Alec Radford, Jacob Steinhardt.
+  - Key Word: Diffusion Model; LLM Activations; Interpretability.
+  - <details><summary>Digest</summary> The paper proposes training generative “meta-models” (diffusion models) on a massive dataset (~1B residual stream activations) to learn a neural network’s internal-state distribution without relying on rigid assumptions like PCA or sparse autoencoders. They find the diffusion training loss scales smoothly with compute and is a reliable predictor of downstream usefulness: as loss drops, the learned prior improves the fluency of steering/intervention methods and the meta-model’s units become more concept-isolating, reflected in better sparse probing scores. 
+
+### 2025
+
 - Priors in Time: Missing Inductive Biases for Language Model Interpretability. [[paper]](https://arxiv.org/abs/2511.01836)
   - Ekdeep Singh Lubana, Can Rager, Sai Sumedh R. Hindupur, Valerie Costa, Greta Tuckute, Oam Patel, Sonia Krishna Murthy, Thomas Fel, Daniel Wurgaft, Eric J. Bigelow, Johnny Lin, Demba Ba, Martin Wattenberg, Fernanda Viegas, Melanie Weber, Aaron Mueller.
   - Key Word: Mechanistic Interpretability; Inductive Bias; Sparse Autoencoder.
