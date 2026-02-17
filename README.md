@@ -142,6 +142,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Symmetry in language statistics shapes the geometry of model representations. [[paper]](https://arxiv.org/abs/2602.15029)
+  - Dhruva Karkada, Daniel J. Korchinski, Andres Nava, Matthieu Wyart, Yasaman Bahri.
+  - Key Word: Representational Manifolds; Statistical Symmetry.
+  - <details><summary>Digest</summary> This paper investigates how the geometric structure of neural network representations is fundamentally shaped by symmetries found in the underlying statistics of training data. By examining low-order token correlations in sequences—such as language or spatial trajectories—the authors demonstrate that these statistical symmetries drive the emergence of specific manifold structures, such as circles for cyclical concepts. Through the introduction of a continuous latent variable model, the study provides a mathematical explanation for how representational geometry arises as a collective phenomenon across many words, suggesting that these structural properties are a result of data-driven incentives rather than specific model architectures or tasks.
+
 - Learning a Generative Meta-Model of LLM Activations. [[paper]](https://arxiv.org/abs/2602.06964)
   - Grace Luo, Jiahai Feng, Trevor Darrell, Alec Radford, Jacob Steinhardt.
   - Key Word: Diffusion Model; LLM Activations; Interpretability.
