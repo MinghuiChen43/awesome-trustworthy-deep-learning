@@ -222,6 +222,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- The Geometry of Alignment Collapse: When Fine-Tuning Breaks Safety. [[paper]](https://arxiv.org/abs/2602.15799)
+  - Max Springer, Chung Peng Lee, Blossom Metevier, Jane Castleman, Bohdan Turbal, Hayoung Jung, Zeyu Shen, Aleksandra Korolova.
+  - Key Word: Alignment Drift.
+  - <details><summary>Digest</summary> Fine-tuning an aligned language model can unexpectedly weaken its safety guardrails even on purely benign data. The paper argues the common “don’t worry—task updates are orthogonal to safety directions” story is unreliable because that orthogonality is dynamically unstable under gradient descent. Using a geometric view, it claims alignment behavior lives in low-dimensional, sharply curved subspaces, so first-order thinking misses how loss curvature creates a second-order “acceleration” that gradually pushes training trajectories into alignment-sensitive regions. They formalize when this happens via an Alignment Instability Condition (three geometric properties), and derive a quartic scaling law: alignment loss grows like training time, controlled by alignment sharpness and curvature coupling between the fine-tuning task and safety-critical parameters. The takeaway: safety degradation is an intrinsic geometric risk of standard fine-tuning, motivating curvature-aware methods and predictive diagnostics instead of purely reactive red-teaming.
+
 - Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling. [[paper]](https://arxiv.org/abs/2601.08777)
   - Yang Cai, Weiqiang Zheng.
   - Key Word: AI Alignment; Test-Time Scaling.
