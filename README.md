@@ -259,6 +259,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#others">:open_file_folder: [<b><i>Full List of Others</i></b>]</a>.
 
+### 2026
+
+- Towards a Science of AI Agent Reliability. [[paper]](https://arxiv.org/abs/2602.16666)
+  - Stephan Rabanser, Sayash Kapoor, Peter Kirgis, Kangheng Liu, Saiteja Utpala, Arvind Narayanan.
+  - Key Word: LLM; Consistency; Predictability.
+  - <details><summary>Digest</summary> AI agents are being deployed for consequential tasks, but rising benchmark accuracy hides practical failures because single success scores miss key operational properties. This work, inspired by safety-critical engineering, proposes 12 metrics that decompose agent reliability into four dimensions—consistency, robustness, predictability, and safety—and uses them to evaluate 14 agentic models on two benchmarks. The results show that despite recent capability gains, reliability has improved only modestly, highlighting persistent, measurable failure modes that traditional evaluations overlook.
+
+
+### 2025
+
 - Search-Time Data Contamination. [[paper]](https://arxiv.org/abs/2508.13180)
   - Ziwen Han, Meher Mankikar, Julian Michael, Zifan Wang.
   - Key Word: Search-based LLM Agents; Test Data Contamination.
