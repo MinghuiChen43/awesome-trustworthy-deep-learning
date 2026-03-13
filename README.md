@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Multimodal Out-of-Distribution Individual Uncertainty Quantification Enhances Binding Affinity Prediction for Polypharmacology. [[paper]](https://www.nature.com/articles/s42256-025-01151-2) [[code]](https://github.com/XieResearchGroup/eMOSAIC)
+  - Amitesh Badkul, Li Xie, Shuo Zhang, Lei Xie.
+  - Key Word: Out-of-Distribution Generalization; Uncertainty Quantification; Multimodal Learning; Anomaly Detection.
+  - <details><summary>Digest</summary> This work proposes eMOSAIC, a model-agnostic anomaly detection-based framework for individual uncertainty quantification in multimodal binding affinity prediction. By leveraging Mahalanobis outlier scoring and clustering-based anomaly identification, the method improves prediction reliability for structurally out-of-distribution compounds and enables scalable polypharmacology prediction.
+
 - Steering Out-of-Distribution Generalization with Concept Ablation Fine-Tuning. [[paper]](https://arxiv.org/abs/2507.16795)
   - Helena Casademunt, Caden Juang, Adam Karvonen, Samuel Marks, Senthooran Rajamanoharan, Neel Nanda.
   - Key Word: Out-of-Distribution Generalization; Interpreting Latent Space Directions.
