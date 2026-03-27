@@ -95,6 +95,21 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#privacy">:open_file_folder: [<b><i>Full List of Privacy</i></b>]</a>.
 
+- Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models. [[paper]](https://arxiv.org/abs/2601.15220) [[code]](https://github.com/parameterlab/privacy-collapse)
+  - Anmol Goel, Cornelius Emde, Seong Joon Oh, Sangdoo Yun, Martin Gubri.
+  - Key Word: Contextual Privacy; Fine-Tuning; Large Language Models.
+  - <details><summary>Digest</summary> This paper identifies privacy collapse, a silent failure mode where benign fine-tuning degrades a model's ability to respect contextual privacy norms. Training data patterns such as helpfulness optimisation, exposure to user information, emotional dialogue, and debugging code can all trigger it. Fine-tuned models inappropriately share information with tools and violate memory boundaries across contexts. The failure is silent because models retain high performance on standard safety benchmarks. The authors demonstrate privacy collapse across six models, five fine-tuning datasets, and two task categories, and show that privacy representations are uniquely fragile to fine-tuning.</details>
+
+- Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers. [[paper]](https://aclanthology.org/2025.emnlp-main.1347/) [[code]](https://github.com/parameterlab/leaky_thoughts)
+  - Tommaso Green, Martin Gubri, Haritz Puerto, Sangdoo Yun, Seong Joon Oh.
+  - Key Word: Privacy; Large Reasoning Models; Reasoning Traces.
+  - <details><summary>Digest</summary> This paper studies privacy leakage in the reasoning traces of large reasoning models used as personal agents. Reasoning traces are often assumed internal and safe, but they frequently contain sensitive user data that can be extracted via prompt injection or accidentally leak into outputs. More reasoning steps amplify leakage. Models become more cautious in their final answers, but their thinking grows more verbose and leaky. The authors argue that safety efforts must extend to internal reasoning, not just model outputs.</details>
+
+- ProPILE: Probing Privacy Leakage in Large Language Models. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/420678bb4c8251ab30e765bc27c3b047-Abstract-Conference.html)
+  - Siwon Kim, Sangdoo Yun, Hwaran Lee, Martin Gubri, Sungroh Yoon, Seong Joon Oh.
+  - Key Word: Privacy; PII Leakage; Large Language Models.
+  - <details><summary>Digest</summary> ProPILE is a probing tool that lets data subjects evaluate potential PII leakage in LLM-based services. Users formulate prompts based on their own PII to assess privacy intrusion. The authors apply it to OPT-1.3B trained on the Pile dataset and show how individuals can gauge the likelihood of their PII being revealed. LLM service providers can also use it to evaluate their own leakage levels. Accepted as a spotlight at NeurIPS 2023.</details>
+
 - Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods. [[paper]](https://arxiv.org/abs/2508.12730) [[code]](https://github.com/gnueaj/Machine-Unlearning-Comparator)
   - Jaeung Lee, Suhyeon Yu, Yurim Jang, Simon S. Woo, Jaemin Jo.
   - Key Word: Machine Unlearning; Visual Analytics; Evaluation.
