@@ -70,6 +70,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#evasion-attacks-and-defenses">:open_file_folder: [<b><i>Full List of Evasion Attacks and Defenses</i></b>]</a>.
 
+- Internal Safety Collapse in Frontier Large Language Models. [[paper]](https://arxiv.org/abs/2603.23509) [[code]](https://github.com/wuyoscar/ISC-Bench)
+  - Yutao Wu, Jie Zhang, Tianwei Zhang, Xingjun Ma.
+  - Key Word: Jailbreak; Safety Failure Mode; Black-box Attack; Cross-domain.
+  - <details><summary>Digest</summary> A novel safety failure mode where models produce harmful content as a side effect of completing normal professional tasks — no adversarial prompting needed. Jailbreaks any frontier LLM in pass@3 including Claude Opus 4.6 and GPT-5.4. Black-box, cross-domain (8+ disciplines), with single-turn, ICL, and agentic attack modes.
+
 - In-Context Representation Hijacking. [[paper]](https://arxiv.org/abs/2512.03771)
   - Itay Yona, Amir Sarid, Michael Karasik, Yossi Gandelsman.
   - Key Word: In-Context Learning; Jailbreak.
