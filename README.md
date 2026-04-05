@@ -90,6 +90,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Red Teaming; Jailbreak.
   - <details><summary>Digest</summary> This paper introduces Constitutional Classifiers, a defense against universal jailbreaks in LLMs. These classifiers are trained on synthetic data generated using natural language rules to enforce content restrictions. Extensive red teaming and automated evaluations show that the approach effectively blocks jailbreaks while maintaining practical deployment viability, with minimal refusal rate increase (0.38%) and a 23.7% inference overhead. The findings demonstrate that robust jailbreak defenses can be achieved without significantly compromising usability.
 
+- Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models. [[paper]](https://arxiv.org/abs/2501.18280)
+  - Haoyu Liang, Youran Sun, Yunfeng Cai, Jun Zhu, Bo Zhang.
+  - Key Word: Embedding Attack; Jailbreak; Text Embedding Models.
+  - <details><summary>Digest</summary> Text embedding models concentrate their outputs in a narrow band on a hypersphere, a severe distributional skew. The authors exploit this bias to find universal "magic word" suffixes that control cosine similarity between arbitrary text pairs, defeating embedding-based safety guardrails. Three attack methods (brute-force search, black-box, and white-box gradient) jailbreak ChatGPT, DeepSeek, Qwen, and Spark on JailbreakBench; the suffixes transfer across texts, models, and languages. The paper also presents a training-free debiasing defense.
+
 
 ## Poisoning Attacks and Defenses
 
