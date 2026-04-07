@@ -1694,6 +1694,16 @@
 ## Evasion Attacks and Defenses
 
 <details>
+<summary>Evasion Attacks and Defenses: 2025</summary>
+
+- Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models. [[paper]](https://arxiv.org/abs/2501.18280)
+  - Haoyu Liang, Youran Sun, Yunfeng Cai, Jun Zhu, Bo Zhang.
+  - Key Word: Embedding Attack; Jailbreak; Text Embedding Models.
+  - <details><summary>Digest</summary> Text embedding models concentrate their outputs in a narrow band on a hypersphere, a severe distributional skew. The authors exploit this bias to find universal "magic word" suffixes that control cosine similarity between arbitrary text pairs, defeating embedding-based safety guardrails. Three attack methods (brute-force search, black-box, and white-box gradient) jailbreak ChatGPT, DeepSeek, Qwen, and Spark on JailbreakBench; the suffixes transfer across texts, models, and languages. The paper also presents a training-free debiasing defense.
+
+</details>
+
+<details>
 <summary>Evasion Attacks and Defenses: 2024</summary>
 
 - Best-of-N Jailbreaking. [[paper]](https://arxiv.org/abs/2412.03556)
