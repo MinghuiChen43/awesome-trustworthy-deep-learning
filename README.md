@@ -172,6 +172,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Do Sparse Autoencoders Capture Concept Manifolds? [[paper]](https://arxiv.org/abs/2604.28119)
+  - Usha Bhalla, Thomas Fel, Can Rager, Sheridan Feucht, Tal Haklay, Daniel Wurgaft, Siddharth Boppana, Matthew Kowal, Vasudev Shyam, Jack Merullo, Atticus Geiger, Ekdeep Singh Lubana.
+  - Key Word: Sparse Autoencoders; Manifold; Superposition.
+  - <details><summary>Digest</summary> The paper argues that sparse autoencoders often fail to capture concepts as clean, independent directions because many concepts instead lie on low-dimensional manifolds with continuous geometry. It shows that SAEs can represent such manifolds either globally, using a compact group of atoms whose span contains the whole manifold, or locally, using many features that tile different regions. Empirically, SAEs often mix these strategies in a fragmented “dilution” regime, which explains why manifold structure is hard to see from individual features. The authors conclude that interpretability should focus on coherent groups of atoms and geometric structures, rather than isolated directions.
+
 - Symmetry in language statistics shapes the geometry of model representations. [[paper]](https://arxiv.org/abs/2602.15029)
   - Dhruva Karkada, Daniel J. Korchinski, Andres Nava, Matthieu Wyart, Yasaman Bahri.
   - Key Word: Representational Manifolds; Statistical Symmetry.
