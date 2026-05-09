@@ -4476,6 +4476,16 @@
 ## Interpretability
 
 <details>
+<summary>Interpretability: 2026</summary>
+
+- DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness. [[paper]](https://arxiv.org/abs/2601.14210)
+  - Rohan Bhatnagar, Youran Sun, Chi Andrew Zhang, Yixin Wen, Haizhao Yang.
+  - Key Word: Hallucination Detection; Probing; Internal Representations; Factuality.
+  - <details><summary>Digest</summary> Final-layer logits discard much of the model's internal uncertainty. The authors show that intermediate-late hidden states still carry that signal and train a small probe (3M-37M parameters) on those states to predict whether each generated answer is factual. The probe runs in parallel with generation, adding under 0.1% overhead. It reaches state-of-the-art AUROC on 10 of 12 settings, beats prior methods by up to 13 points, generalizes across datasets without retraining, and hits 97.7% accuracy after abstaining on the 60% most uncertain answers.
+
+</details>
+
+<details>
 <summary>Interpretability: 2024</summary>
 
 - Concept Bottleneck Language Models For protein design. [[paper]](https://arxiv.org/abs/2411.06090)
