@@ -674,3 +674,13 @@ Formatting (The order of the papers is reversed based on the initial submission 
   - Key Word: XXX.
   - <details><summary>Digest</summary> XXXXXX
 
+## Agent-Assisted Updates
+
+This repository includes `AGENTS.md` to make arXiv paper additions reproducible with Codex/Claude. From the repository root, ask Codex/Claude:
+
+```text
+Use this project's AGENTS.md. Add this arXiv paper to README.md:
+https://arxiv.org/abs/xxxx.xxxxx
+```
+
+Codex should fetch arXiv metadata, check duplicates in `README.md`, choose the most suitable paper category, create the title/authors/keywords/digest entry, and insert it in reverse order by initial arXiv submission date. By default, this workflow updates `README.md` only.
