@@ -50,6 +50,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#out-of-distribution-generalization">:open_file_folder: [<b><i>Full List of Out-of-Distribution Generalization</i></b>]</a>.
 
+- Does Your Neural Network Extrapolate? Feature Engineering as Identifiability Bias for OOD Generalization. [[paper]](https://arxiv.org/abs/2605.07483)
+  - Leonel Aguilar, Jan Nagler, Christoph Hoelscher, Nino Antulov-Fantulin.
+  - Key Word: Out-of-Distribution Generalization; Feature Engineering; Identifiability Bias; Extrapolation; Representation Learning.
+  - <details><summary>Digest</summary> This paper studies when neural networks fail to learn representations that extrapolate beyond an in-distribution training window. It argues that OOD extrapolation is non-identifiable from in-distribution evidence alone, so structural commitments such as feature maps, label maps, architectures, pretraining, augmentation, or domain knowledge determine which data-generating process the model effectively assumes. Experiments show that changing only the representation can leave in-distribution loss unchanged while causing large differences in OOD performance, and that correct features must still be paired with an expressive model class and sufficient coverage in representation space.</details>
+
 - Multimodal Out-of-Distribution Individual Uncertainty Quantification Enhances Binding Affinity Prediction for Polypharmacology. [[paper]](https://www.nature.com/articles/s42256-025-01151-2) [[code]](https://github.com/XieResearchGroup/eMOSAIC)
   - Amitesh Badkul, Li Xie, Shuo Zhang, Lei Xie.
   - Key Word: Out-of-Distribution Generalization; Uncertainty Quantification; Multimodal Learning; Anomaly Detection.
@@ -171,6 +176,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 
 ### 2026
+
+- Interpreting Reinforcement Learning Agents with Susceptibilities. [[paper]](https://arxiv.org/abs/2605.08007)
+  - Chris Elliott, Einar Urdshals, David Quarel, Daniel Murfet.
+  - Key Word: Reinforcement Learning Interpretability; Susceptibilities; Activation Steering; RLHF Post-Training.
+  - <details><summary>Digest</summary> This paper extends susceptibility-based neural network interpretability to deep reinforcement learning by studying how regret responds to perturbations of the loss. In a gridworld setting with non-trivial stagewise development, the authors show that susceptibilities expose internal changes in parameter space that are not visible from the learned policy alone. They validate the analysis with activation steering and discuss how the framework could extend to RLHF post-training.</details>
 
 - Do Sparse Autoencoders Capture Concept Manifolds? [[paper]](https://arxiv.org/abs/2604.28119)
   - Usha Bhalla, Thomas Fel, Can Rager, Sheridan Feucht, Tal Haklay, Daniel Wurgaft, Siddharth Boppana, Matthew Kowal, Vasudev Shyam, Jack Merullo, Atticus Geiger, Ekdeep Singh Lubana.
