@@ -272,6 +272,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Positive Alignment: Artificial Intelligence for Human Flourishing. [[paper]](https://arxiv.org/abs/2605.10310)
+  - Ruben Laukkonen, Seb Krier, Chloé Bakalar, Shamil Chandaria, Morten Kringelbach, Adam Elwood, Daniel Ford, Fernando Rosas, Maty Bohacek, Matija Franklin, Nenad Tomašev, Stephanie Chan, Verena Rieser, Roma Patel, Michael Levin, Arun Rao.
+  - Key Word: AI Alignment; Positive Alignment; Human Flourishing; Value Pluralism; Polycentric Governance.
+  - <details><summary>Digest</summary> This paper argues that AI alignment should go beyond preventing harm, controllability, and compliance to actively support human and ecological flourishing. It defines positive alignment as a pluralistic, context-sensitive, user-authored agenda that remains safe and cooperative while addressing failures such as engagement hacking, loss of autonomy, weak truth-seeking, and limited epistemic humility. The authors outline technical directions across the LLM and agent lifecycle, including data filtering, pre- and post-training methods, evaluations, collaborative value collection, community customization, continual adaptation, and polycentric governance.</details>
+
 - The Geometry of Alignment Collapse: When Fine-Tuning Breaks Safety. [[paper]](https://arxiv.org/abs/2602.15799)
   - Max Springer, Chung Peng Lee, Blossom Metevier, Jane Castleman, Bohdan Turbal, Hayoung Jung, Zeyu Shen, Aleksandra Korolova.
   - Key Word: Alignment Drift.
