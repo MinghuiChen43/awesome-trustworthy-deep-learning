@@ -170,6 +170,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#fairness">:open_file_folder: [<b><i>Full List of Fairness</i></b>]</a>.
 
+- Using AI Agents to Automate Black-Box Audits of Personalization Algorithms at Scale. [[paper]](https://arxiv.org/abs/2606.30801)
+  - Alessandro Morosini, Sarah H. Cen, Andrew Ilyas, Hedi Driss, Aleksander Mądry, Chara Podimata.
+  - Key Word: Algorithmic Auditing; Personalization Algorithms; Counterfactual Auditing; Demographic Bias; Synthetic Accounts.
+  - <details><summary>Digest</summary> This paper introduces a framework for black-box audits of personalization algorithms using generative AI agents as behavioral engines for synthetic accounts. By fixing each persona's behavior while perturbing platform-visible attributes such as age, gender, or location, the method supports counterfactual analysis of how personalization responds to user attributes. In a deployment of 1,120 agents on X after the 2024 U.S. election, the authors find amplification of toxic, polarizing, political, and right-leaning content relative to the chronological feed, with subgroup-level demographic effects varying by persona.</details>
+
 ## Interpretability
 
 <a href="https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning/blob/master/FULL_LIST.md#interpretability">:open_file_folder: [<b><i>Full List of Interpretability</i></b>]</a>.
