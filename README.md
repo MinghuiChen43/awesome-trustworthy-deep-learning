@@ -182,6 +182,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Verbalizable Representations Form a Global Workspace in Language Models. [[paper]](https://arxiv.org/abs/2607.15495)
+  - Wes Gurnee, Nicholas Sofroniew, Adam Pearce, Mateusz Piotrowski, Isaac Kauvar, Runjin Chen, Anna Soligo, Paul Bogdan, Euan Ong, Rowan Wang, Ben Thompson, David Abrahams, Subhash Kantamneni, Emmanuel Ameisen, Joshua Batson, Jack Lindsey.
+  - Key Word: Mechanistic Interpretability; Jacobian Lens; Global Workspace; Internal Representations; Alignment Auditing.
+  - <details><summary>Digest</summary> Using a new interpretability method called the Jacobian lens, this paper identifies the internal representations that a language model is prepared to verbalize, collectively termed J-space. The authors find that J-space behaves like a global workspace: it supports reportable and controllable concepts, silent reasoning, and broadly reusable intermediate content, while also showing characteristic layer localization, limited capacity, and wide broadcast. Alignment audits expose hidden strategic deliberation, evaluation awareness, and misaligned dispositions, and counterfactual reflection training improves behavior by supervising what the model would report when prompted to reflect.</details>
+
 - Interpreting Reinforcement Learning Agents with Susceptibilities. [[paper]](https://arxiv.org/abs/2605.08007)
   - Chris Elliott, Einar Urdshals, David Quarel, Daniel Murfet.
   - Key Word: Reinforcement Learning Interpretability; Susceptibilities; Activation Steering; RLHF Post-Training.
