@@ -516,6 +516,9 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ## Other Toolboxes
 
+- [CERT-FLOW](https://github.com/Archerkattri/CERT-FLOW) ![ ](https://img.shields.io/github/stars/Archerkattri/CERT-FLOW)
+  - Certified route planning under drifting costs: weighted non-exchangeable conformal certificates on the optimal route, adjusted for map staleness.
+
 - [Uncertainty Toolbox](https://github.com/uncertainty-toolbox/uncertainty-toolbox) ![ ](https://img.shields.io/github/stars/uncertainty-toolbox/uncertainty-toolbox)
 
 - [Causal Inference 360](https://github.com/IBM/causallib) ![ ](https://img.shields.io/github/stars/IBM/causallib)
