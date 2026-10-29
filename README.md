@@ -282,6 +282,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Alignment via Generalization. [[paper]](https://arxiv.org/abs/2610.34242)
+  - Shai Shalev-Shwartz, Amnon Shashua.
+  - Key Word: AI Alignment; PAC Learning; Generalization; Alignment Evaluation; Learning Theory.
+  - <details><summary>Digest</summary> The paper introduces Aligned-PAC learning, framing AI alignment as generalization from training requirements to unseen requirements, with intentions represented through a collection of specific requirements. It derives guarantees and sample requirements for independent evaluation and proposes an optimization method that combines learned models to meet training requirements under explicit assumptions. Selecting requirements that faithfully capture human intentions and establishing generalization to unseen requirements remain open challenges.</details>
+
 - Positive Alignment: Artificial Intelligence for Human Flourishing. [[paper]](https://arxiv.org/abs/2605.10310)
   - Ruben Laukkonen, Seb Krier, Chloé Bakalar, Shamil Chandaria, Morten Kringelbach, Adam Elwood, Daniel Ford, Fernando Rosas, Maty Bohacek, Matija Franklin, Nenad Tomašev, Stephanie Chan, Verena Rieser, Roma Patel, Michael Levin, Arun Rao.
   - Key Word: AI Alignment; Positive Alignment; Human Flourishing; Value Pluralism; Polycentric Governance.
