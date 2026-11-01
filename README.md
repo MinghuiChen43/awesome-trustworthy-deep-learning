@@ -274,6 +274,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Mechanistic Interpretability.
   - <details><summary>Digest</summary> This review explores the current challenges and open problems in mechanistic interpretability, which seeks to understand the computational mechanisms behind neural networks. While progress has been made, further conceptual and practical advancements are needed to deepen insights, refine applications, and address socio-technical challenges. The paper highlights key areas for future research to enhance AI transparency, safety, and scientific understanding of intelligence.
 
+- Phase Transitions in Large Language Models and the O(N) Model. [[paper]](https://arxiv.org/abs/2501.16241)
+  - Youran Sun, Babak Haghighat.
+  - Key Word: Phase Transition; Statistical Physics; Emergent Abilities; Sampling Temperature.
+  - <details><summary>Digest</summary> The authors rewrite the Transformer as an O(N) spin model and study text generation with the tools of statistical physics. They find two phase transitions. When the sampling temperature passes T_c ≈ 1.2, the model goes through a second-order transition, and the estimated internal dimension is about 6. When the parameter count passes about 7B, a higher-order transition appears, which gives new evidence for emergent abilities. All tested Qwen2.5 models share T_c ≈ 1.2 and E_max ≈ -4.0, and the energy-temperature curve can serve as a training metric that takes a few minutes to compute.
+
 - Sparse Autoencoders Do Not Find Canonical Units of Analysis. [[paper]](https://arxiv.org/abs/2502.04878)
   - Patrick Leask, Bart Bussmann, Michael Pearce, Joseph Bloom, Curt Tigges, Noura Al Moubayed, Lee Sharkey, Neel Nanda.
   - Key Word: Mechanistic Interpretability; Sparse Autoencoders; Representational Structure.
