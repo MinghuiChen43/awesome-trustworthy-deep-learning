@@ -70,6 +70,16 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
   - Key Word: Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> This paper challenges the common practice of using penultimate layer features for out-of-distribution (OOD) generalization. The authors introduce Intermediate Layer Classifiers (ILCs) and find that earlier-layer representations often generalize better under distribution shifts. In some cases, zero-shot performance from intermediate layers rivals few-shot performance from the last layer. Their results across datasets and models suggest intermediate layers are more robust to shifts, underscoring the need to rethink layer selection for OOD tasks.
 
+- Efficient Test-Time Prompt Tuning for Vision-Language Models. [[paper]](https://arxiv.org/abs/2408.05775) [[IJCV 2026]](https://link.springer.com/article/10.1007/s11263-026-03019-3)
+  - Yuhan Zhu, Guozhen Zhang, Chen Xu, Haocheng Shen, Xiaoxin Chen, Gangshan Wu, Limin Wang.
+  - Key Word: Test-Time Adaptation; Domain Generalization; Prompt Learning; Vision-Language Models.
+  - <details><summary>Digest</summary> Self-TPT co-trains class-name contrastive self-supervision with source-data classification and aligns their gradients. It then adapts predefined new class prompts without computation-heavy per-image prompt optimization, enabling efficient test-time classification. Experiments evaluate generalization under distribution shifts as well as cross-dataset transfer.</details>
+
+- AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation. [[paper]](https://arxiv.org/abs/2407.04603) [[NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2d4eaf042567f1c03c086103cc154c1f-Abstract-Conference.html) [[code]](https://github.com/MCG-NJU/AWT)
+  - Yuhan Zhu, Yuyang Ji, Zhiyu Zhao, Gangshan Wu, Limin Wang.
+  - Key Word: Out-of-Distribution Generalization; Vision-Language Transfer; Augmentation; Optimal Transport.
+  - <details><summary>Digest</summary> AWT augments visual inputs and class descriptions, weights their importance using prediction entropy, and uses optimal transport to capture cross-modal correlations. It improves zero-shot transfer without additional prompt training and extends few-shot learning through a multimodal adapter. Evaluations include image classification, zero-shot video action recognition and out-of-distribution generalization.</details>
+
 
 ## Evasion Attacks and Defenses
 
