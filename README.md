@@ -192,6 +192,11 @@ Daily updating from ArXiv. The preview README only includes papers submitted to 
 
 ### 2026
 
+- Chain-of-Thought Is Not Explainability. [[paper]](https://arxiv.org/abs/2611.31271)
+  - Fazl Barez, Tung-Yu Wu, Iván Arcuschin, Michael Lan, Vincent Wang, Noah Siegel, Nicolas Collignon, Clement Neo, Isabelle Lee, Alasdair Paren, John Yan, Adel Bibi, Damiano Fornasiere, Robert Trager, Yanai Elazar, Yoshua Bengio.
+  - Key Word: Chain-of-Thought Reasoning; Explanation Faithfulness; Language Model Interpretability.
+  - <details><summary>Digest</summary> The authors review evidence that a language model's stated reasoning can diverge from the computations that produced its answer. Among 1,000 recent papers on chain-of-thought reasoning, they find that about 21.7% base a method or safety argument on the assumption that these explanations are faithful. They recommend testing faithfulness in the intended application and reporting the results alongside interpretability claims.</details>
+
 - Verbalizable Representations Form a Global Workspace in Language Models. [[paper]](https://arxiv.org/abs/2607.15495)
   - Wes Gurnee, Nicholas Sofroniew, Adam Pearce, Mateusz Piotrowski, Isaac Kauvar, Runjin Chen, Anna Soligo, Paul Bogdan, Euan Ong, Rowan Wang, Ben Thompson, David Abrahams, Subhash Kantamneni, Emmanuel Ameisen, Joshua Batson, Jack Lindsey.
   - Key Word: Mechanistic Interpretability; Jacobian Lens; Global Workspace; Internal Representations; Alignment Auditing.
